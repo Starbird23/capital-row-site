@@ -1,0 +1,701 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capital Row — Pre-transaction intelligence for vertical software</title>
+<meta name="description" content="Pre-transaction intelligence and M&amp;A advisory for vertical software. Twelve desks, three buyers to a desk.">
+<link rel="canonical" href="https://thecapitalrow.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Capital Row">
+<meta property="og:url" content="https://thecapitalrow.com/">
+<meta property="og:title" content="Capital Row — the M&amp;A firm for the software the working economy cannot switch off">
+<meta property="og:description" content="Pre-transaction intelligence and M&amp;A advisory for vertical software. Twelve desks, three buyers to a desk.">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0C3234">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230C3234'/%3E%3Crect x='5' y='20' width='3' height='7' fill='%2314706E'/%3E%3Crect x='10' y='16' width='3' height='11' fill='%2314706E'/%3E%3Crect x='15' y='12' width='3' height='15' fill='%23A67C3D'/%3E%3Crect x='20' y='8' width='3' height='19' fill='%2314706E'/%3E%3Crect x='25' y='5' width='3' height='22' fill='%2314706E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@200;300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{
+--paper:#FBF9F5;--paper2:#F4F0E9;--card:#FFFFFF;
+--deep:#0C3234;--teal:#14706E;--bronze:#A67C3D;
+--ink:#141E1F;--ink2:#2A3A3B;--ink3:#5C6B6B;--faint:#9AA6A6;
+--deep2:#0A2729;--red:#9C4A3C;--ghost:#BFC8C7;--line2:rgba(12,50,52,.07);--line:rgba(12,50,52,.11);--hair:rgba(12,50,52,.07);
+--ser:'Cormorant Garamond',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'IBM Plex Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.65;
+-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.wrap{max-width:1020px;margin:0 auto;padding:0 30px}
+@media(max-width:560px){.wrap{padding:0 22px}}
+h1,h2,h3{font-family:var(--ser);font-weight:400;letter-spacing:-.012em}
+em{font-style:italic;color:var(--teal)}
+.lab{font-family:var(--mono);font-size:8.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--faint)}
+.lab.big{font-size:11px;letter-spacing:.32em;color:var(--ink3)}
+.lab.xl{font-size:13px;letter-spacing:.3em;color:var(--ink2)}
+.figpage .lab.big{color:rgba(244,241,235,.62)}
+.src{font-family:var(--mono);font-size:8px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);line-height:1.9}
+
+/* ---- masthead ---- */
+.mast{position:relative;z-index:3;padding:26px 0;border-bottom:1px solid var(--hair)}
+.mast .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:20px}
+.lg{font-family:var(--ser);font-size:21px;letter-spacing:.01em;color:var(--ink);font-weight:600}
+.lg span{color:var(--teal)}
+.mast .lab{white-space:nowrap;font-size:11px;letter-spacing:.26em;color:var(--ink3)}
+@media(max-width:560px){.mast .lab{display:none}}
+
+/* ---- hero ---- */
+header{position:relative;overflow:hidden}
+#hbg{position:absolute;inset:0;width:100%;height:100%}
+header:after{content:"";position:absolute;inset:0;pointer-events:none;
+background:radial-gradient(720px 420px at 18% 30%,rgba(251,249,245,.92),rgba(251,249,245,.55) 55%,transparent 78%)}
+.hin{position:relative;z-index:2;padding:92px 0 74px;text-align:center}
+@media(max-width:640px){.hin{padding:56px 0 50px}}
+/* logo mark */
+.mark{display:inline-flex;align-items:flex-end;gap:2.5px;height:15px;margin-right:9px;vertical-align:-1px}
+.mark i{display:block;width:2.5px;background:var(--ink);border-radius:.5px;opacity:.75;
+transform-origin:bottom;animation:bar 2.6s ease-in-out infinite}
+.mark i:nth-child(1){height:15px;transform:scaleY(.4);animation-delay:0s}
+.mark i:nth-child(2){height:15px;transform:scaleY(.67);animation-delay:.22s}
+.mark i:nth-child(3){height:15px;background:var(--teal);opacity:1;animation-delay:.44s}
+.mark i:nth-child(4){height:15px;transform:scaleY(.6);animation-delay:.66s}
+.mark i:nth-child(5){height:15px;transform:scaleY(.34);animation-delay:.88s}
+@keyframes bar{0%,100%{transform:scaleY(.32)}28%{transform:scaleY(1)}62%{transform:scaleY(.55)}}
+@media(prefers-reduced-motion:reduce){.mark i{animation:none}
+.mark i:nth-child(1){transform:scaleY(.4)}.mark i:nth-child(2){transform:scaleY(.67)}
+.mark i:nth-child(3){transform:scaleY(1)}.mark i:nth-child(4){transform:scaleY(.6)}
+.mark i:nth-child(5){transform:scaleY(.34)}}
+footer .mark i{background:var(--ink)}footer .mark i:nth-child(3){background:var(--teal)}
+
+.kick{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:34px}
+
+.kick span{font-family:var(--mono);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--teal)}
+@media(max-width:560px){.kick span{font-size:10px;letter-spacing:.2em}.kick s{flex-basis:22px}}
+h1{font-size:clamp(30px,4.6vw,54px);line-height:1.06;font-weight:500;max-width:22ch;margin:0 auto 30px;text-align:center;letter-spacing:-.016em}
+h1 .w{display:inline-block;opacity:0;transform:translateY(.34em);
+animation:rise .82s cubic-bezier(.22,1,.36,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){h1 .w{animation:none;opacity:1;transform:none}}
+h1 em{font-weight:500}
+.dek{font-size:clamp(15.5px,2.1vw,18px);line-height:1.72;color:var(--ink3);max-width:58ch;font-weight:300;margin:0 auto}
+.dek b{color:var(--ink2);font-weight:400}
+.dek b.cr{font-family:var(--ser);font-size:1.18em;font-weight:500;color:var(--ink);letter-spacing:-.01em}
+.dek b.cr i{font-style:normal;color:var(--teal)}
+.layer{margin:22px auto 0;font-family:var(--ser);font-size:clamp(23px,3.2vw,32px);line-height:1.3;
+font-weight:400;color:var(--ink3);font-style:italic;max-width:34ch}
+.layer i{color:var(--teal);font-style:italic}
+.scarce{margin:28px auto 0;max-width:46ch;font-family:var(--ser);font-size:clamp(21px,2.8vw,28px);
+line-height:1.32;font-weight:400;color:var(--ink2);font-style:italic}
+.scarce span{color:var(--teal);font-style:italic}
+.scarce b{color:var(--bronze);font-weight:500;font-style:italic}
+.band{margin-top:54px;padding-top:8px}
+.band .lab{margin-bottom:22px;display:block}
+.desks{display:flex;flex-wrap:wrap;justify-content:center;gap:11px}
+.dk{display:block;perspective:760px;width:214px;height:78px;cursor:default;flex:0 0 auto}
+.dki{display:block;position:relative;width:100%;height:100%;transition:transform .62s cubic-bezier(.22,1,.36,1);transform-style:preserve-3d}
+.dk:hover .dki,.dk:focus-within .dki{transform:rotateX(180deg)}
+.dkf,.dkb{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;
+padding:8px 13px;border:1px solid var(--line);border-radius:9px;backface-visibility:hidden;-webkit-backface-visibility:hidden;line-height:1.32}
+.dkf{background:rgba(255,255,255,.72);font-size:14px;font-weight:300;color:var(--ink2);position:absolute}
+.dkb{background:var(--deep);color:rgba(244,241,235,.92);transform:rotateX(180deg);border-color:var(--deep);
+font-family:var(--mono);font-size:9.5px;letter-spacing:.02em;line-height:1.5;overflow:hidden}
+.dk.soon .dkf{color:var(--ink3);border-style:dashed;opacity:.82}
+.dkf:after{position:absolute;right:9px;bottom:6px;font-family:var(--mono);font-size:6.5px;letter-spacing:.18em;line-height:1}
+.dk .dkf:after{content:"OPEN";color:var(--teal);opacity:.75}
+.dk.soon .dkf:after{content:"WAITLIST";color:var(--bronze);opacity:.85}
+.dk.soon .dkb{background:var(--bronze);border-color:var(--bronze);color:#FFF9F0}
+@media(max-width:560px){.dk{width:calc(50% - 6px);height:66px}.dkf{font-size:12.5px}.dkb{font-size:8px}}
+
+.tam{display:flex;flex-wrap:wrap;justify-content:center;gap:0;margin-top:42px;padding-top:26px;border-top:1px solid var(--hair)}
+.tm{padding:0 34px;border-right:1px solid var(--hair)}
+.tm:last-child{border-right:0}
+.cu{font-variant-numeric:tabular-nums}
+.tm b{display:block;font-family:var(--ser);font-size:clamp(38px,5.6vw,60px);font-weight:300;color:var(--teal);line-height:.96}
+.tm u{display:block;text-decoration:none;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3);margin-top:12px;line-height:1.8}
+@media(max-width:620px){.tm{padding:10px 16px;border-right:0}}
+
+/* ---- the statistic, as an editorial page ---- */
+.figpage{background:var(--deep);color:#F4F1EB;padding:74px 0}
+@media(max-width:640px){.figpage{padding:52px 0}}
+.figpage .lab{color:rgba(244,241,235,.42)}
+.figpage .wrap{text-align:center}
+.fig{margin-top:12px}
+.fig-n{font-family:var(--ser);font-size:clamp(96px,17vw,190px);line-height:.86;font-weight:300;color:#FFF;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.fig-t{font-family:var(--ser);font-size:clamp(21px,3vw,33px);line-height:1.32;font-weight:300;color:rgba(244,241,235,.94);max-width:26ch;margin:22px auto 0}
+.fig-t em{color:#8FD4CB;font-style:italic}
+.figaside{display:flex;gap:12px;align-items:flex-start;justify-content:center;margin:44px auto 0;text-align:left;max-width:860px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+.figaside .src{color:rgba(244,241,235,.4);max-width:none;width:100%;line-height:2.1;font-size:8.5px}
+.ast{font-family:var(--ser);font-size:18px;color:#8FD4CB;line-height:1}
+@media(max-width:720px){.figaside{justify-content:flex-start}}
+
+/* ---- sections ---- */
+section{padding:74px 0}
+@media(max-width:640px){section{padding:52px 0}}
+.rule{border-top:1px solid var(--hair)}
+h2{font-size:clamp(25px,3.3vw,38px);line-height:1.14;font-weight:300;max-width:24ch;margin:20px 0 18px}
+.sd{font-size:15.5px;line-height:1.75;color:var(--ink3);max-width:58ch}
+
+/* ---- doors ---- */
+.doors{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:44px;background:var(--line);border:1px solid var(--line)}
+.doors.d3{grid-template-columns:repeat(3,1fr)}
+@media(max-width:860px){.doors.d3{grid-template-columns:1fr}}
+@media(max-width:640px){.doors{grid-template-columns:1fr}}
+.dr{background:var(--paper);padding:38px 32px 32px;text-decoration:none;display:flex;flex-direction:column;color:inherit;
+transition:background .4s cubic-bezier(.22,1,.36,1);position:relative}
+.seatn{position:absolute;top:0;right:0;font-family:var(--mono);font-size:9px;letter-spacing:.18em;color:var(--faint);
+padding:9px 13px;border-left:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.dr:hover .seatn{color:var(--teal);border-color:rgba(20,112,110,.3)}
+.dr:before{content:"";position:absolute;left:32px;right:32px;top:0;height:2px;background:var(--teal);
+transform:scaleX(0);transform-origin:left;transition:transform .42s cubic-bezier(.22,1,.36,1)}
+.dr:hover:before{transform:scaleX(1)}
+.dr:hover{background:var(--card)}
+.dr-n{font-family:var(--mono);font-size:8px;letter-spacing:.26em;text-transform:uppercase;color:var(--faint);margin-bottom:22px;display:block}
+.dr h3{font-size:clamp(27px,3.6vw,34px);line-height:1.06;font-weight:300;margin-bottom:16px}
+.dr p{font-size:14px;line-height:1.68;color:var(--ink3);margin-bottom:26px}
+.dr-go{margin-top:auto;display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:8.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal)}
+.dr-go s{display:block;width:20px;height:1px;background:var(--teal);transition:width .35s cubic-bezier(.22,1,.36,1)}
+.dr:hover .dr-go s{width:42px}
+@media(max-width:640px){.dr p{min-height:0}}
+
+/* ---- notes ---- */
+.ctr{text-align:center}
+.benchlead{margin-top:34px;font-size:17px;line-height:1.8;color:var(--ink2)}
+.benchlead b{font-weight:400;color:var(--teal)}
+.benchlab{font-size:17px!important;letter-spacing:.34em!important;font-weight:700;color:var(--ink2)!important}
+@media(max-width:560px){.benchlead{font-size:15.5px}}
+.bench{display:grid;grid-template-columns:1fr;gap:14px;margin:40px auto 0;max-width:820px;text-align:left}
+@media(max-width:820px){.bench{grid-template-columns:1fr 1fr}}
+@media(max-width:520px){.bench{grid-template-columns:1fr}}
+.bn{display:flex;gap:14px;align-items:center;padding:16px 18px;border:1px solid var(--line);border-radius:3px;background:var(--card)}
+.bn.lead{grid-column:1/-1;align-items:flex-start;padding:26px 28px;border-color:rgba(20,112,110,.3);background:linear-gradient(180deg,rgba(20,112,110,.05),var(--card) 60%)}
+.bn.lead .bn-i{width:52px;flex-basis:52px;height:52px;font-size:13px}
+.bn.lead .bn-t u{font-size:14.5px;line-height:1.74;margin-top:11px}
+.bn.lead .bn-t u b{font-family:var(--sans);font-size:14.5px;line-height:1.74;color:var(--ink2);font-weight:500;display:inline}
+.bn-i{flex:0 0 42px;height:42px;border-radius:50%;background:var(--deep);color:#F4F1EB;display:flex;align-items:center;
+justify-content:center;font-family:var(--mono);font-size:11px;letter-spacing:.05em}
+.bn.lead .bn-i{background:var(--teal)}
+.bn-t{display:block;min-width:0}
+.bn-t b{display:block;font-family:var(--ser);font-size:16.5px;font-weight:400;line-height:1.2}
+.bn-t i{display:block;font-style:normal;font-family:var(--mono);font-size:8px;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-top:5px}
+.bn-t u{display:block;text-decoration:none;font-size:13px;color:var(--ink3);margin-top:7px;line-height:1.55}
+.abt{display:grid;grid-template-columns:auto minmax(0,1fr);gap:30px;align-items:start;text-align:left;
+max-width:800px;margin:44px auto 0}
+.abt-i{display:flex;align-items:center;justify-content:center;width:78px;height:78px;border-radius:50%;
+background:var(--deep);color:#F4F1EB;font-family:var(--mono);font-size:17px;letter-spacing:.06em}
+.abt-r h3{font-size:25px;font-weight:400;line-height:1.16}
+.abt-role{font-family:var(--mono);font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--teal);margin:6px 0 14px}
+.abt-r p{font-size:14.5px;line-height:1.75;color:var(--ink3);margin-bottom:14px}
+.abt-r p b{color:var(--ink2);font-weight:400}
+@media(max-width:640px){.abt{grid-template-columns:1fr;gap:18px;justify-items:center;text-align:center}}
+.tenbox{display:grid;grid-template-columns:auto minmax(0,1fr);gap:30px;align-items:center;text-align:left;
+max-width:880px;margin:48px auto 0;padding:40px 44px;border:1px solid var(--line);border-left:3px solid var(--bronze);border-radius:3px;background:var(--card)}
+.big10{font-size:clamp(27px,3.7vw,43px);max-width:26ch;font-weight:300}
+.tenline{margin-top:6px;font-style:italic;font-weight:400}
+.tenth .lab.big{font-size:17px;letter-spacing:.34em;color:var(--bronze);margin-bottom:6px;font-weight:700}
+@media(max-width:560px){.tenth .lab.big{font-size:13px;letter-spacing:.26em}}
+.bz{color:var(--bronze)}
+.ten-n{position:relative;font-family:var(--ser);font-size:clamp(56px,7.4vw,92px);line-height:1;font-weight:400;
+font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1;
+color:var(--bronze);padding:10px 0 12px;border-top:1px solid rgba(166,124,61,.42);border-bottom:1px solid rgba(166,124,61,.42);
+text-align:center;min-width:120px;letter-spacing:-.02em}
+.ten-n:before{content:"DIMENSION";display:block;font-family:var(--mono);font-size:7.5px;letter-spacing:.3em;
+color:var(--bronze);opacity:.72;margin-bottom:4px;line-height:1}
+.ten-t{font-size:16.5px;line-height:1.76;color:var(--ink3)}
+.ten-t b{color:var(--teal);font-weight:400}
+@media(max-width:640px){.tenbox{grid-template-columns:1fr;gap:14px;padding:26px 24px;text-align:center}}
+.cen{margin-left:auto;margin-right:auto;text-align:center}
+.twice{max-width:56ch;font-size:16.5px;line-height:1.85}
+.twice s{text-decoration:none;display:block;font-family:var(--ser);font-size:clamp(23px,2.7vw,32px);
+line-height:1.22;color:var(--bronze);font-weight:400;font-style:italic;margin-bottom:16px}
+.twice em{font-style:normal;color:var(--ink2)}
+.twice b{display:block;margin-top:16px;padding-top:16px;border-top:1px solid rgba(20,112,110,.26);
+font-family:var(--ser);font-size:clamp(19px,2.1vw,24px);font-style:italic;font-weight:400;
+line-height:1.4;color:var(--teal)}
+.d2flip{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:44px;background:none;border:0}
+@media(max-width:860px){.d2flip{grid-template-columns:1fr}}
+.fc2{perspective:1400px;min-height:300px}
+.fc2i{position:relative;width:100%;height:100%;min-height:300px;transition:transform .68s cubic-bezier(.22,1,.36,1);transform-style:preserve-3d}
+.fc2:hover .fc2i,.fc2:focus-within .fc2i{transform:rotateY(180deg)}
+.fc2f,.fc2b{position:absolute;inset:0;padding:34px 30px 30px;border:1px solid var(--line);border-radius:3px;
+backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column}
+.fc2f{background:var(--paper)}
+.fc2b{background:var(--deep);border-color:var(--deep);transform:rotateY(180deg);color:rgba(244,241,235,.9)}
+.fc2 h3{font-size:clamp(24px,3vw,30px);line-height:1.08;font-weight:300;margin:14px 0}
+.fc2b h3{color:#FFF}
+.fc2 p{font-size:14px;line-height:1.68;color:var(--ink3);margin-bottom:auto}
+.fc2b p{color:rgba(244,241,235,.78)}
+.fc2b p b{color:#FFF;font-weight:400}
+.dr-n.dark{color:#8FD4CB}
+.fc2f .dr-go{margin-top:18px}
+.notes{display:grid;grid-template-columns:1fr 1fr;gap:0 46px;margin-top:40px}
+@media(max-width:720px){.notes{grid-template-columns:1fr;gap:0}}
+.nt{padding:26px 0;border-top:1px solid var(--hair)}
+.nt h3{font-size:19px;line-height:1.26;font-weight:400;margin-bottom:8px}
+.nt p{font-size:13.5px;line-height:1.72;color:var(--ink3)}
+.nt p b{color:var(--ink2);font-weight:400}
+
+/* ---- form ---- */
+.alt{background:var(--paper2)}
+.frm{display:grid;gap:16px;max-width:500px;margin:38px auto 0}
+.seatfld{padding-bottom:16px;margin-bottom:2px;border-bottom:1px solid var(--hair)}
+.seatfld select{font-size:17px;color:var(--ink)}
+#ch,#cd{transition:opacity .3s ease}
+#ch.sw,#cd.sw{opacity:0}
+.fld label{display:block;font-family:var(--mono);font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+.fld input,.fld select,.fld textarea{width:100%;background:transparent;border:0;border-bottom:1px solid var(--line);
+padding:9px 2px;font-family:var(--sans);font-size:16px;font-weight:300;color:var(--ink);border-radius:0;transition:border-color .25s}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:0;border-bottom-color:var(--teal)}
+.fld textarea{min-height:70px;resize:vertical;line-height:1.6}
+.fld select{-webkit-appearance:none;appearance:none;
+background-image:linear-gradient(45deg,transparent 50%,var(--faint) 50%),linear-gradient(135deg,var(--faint) 50%,transparent 50%);
+background-position:calc(100% - 12px) 17px,calc(100% - 7px) 17px;background-size:5px 5px;background-repeat:no-repeat;padding-right:26px}
+.prewrap{white-space:pre-line}
+.fld.answered label:after{content:"ANSWERED";margin-left:10px;font-size:7px;letter-spacing:.2em;color:var(--teal);opacity:.8}
+.fld.answered select{color:var(--ink3)}
+.btn{justify-self:center;margin-top:22px;display:inline-flex;align-items:center;justify-content:center;gap:12px;
+background:var(--teal);border:1px solid var(--teal);color:#FFFDF9;padding:19px 46px;font-family:var(--mono);
+font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;cursor:pointer;text-decoration:none;
+box-shadow:0 2px 0 rgba(12,50,52,.16);transition:background .24s,box-shadow .24s,transform .24s}
+.btn:hover{background:var(--deep);border-color:var(--deep);box-shadow:0 4px 0 rgba(12,50,52,.22);transform:translateY(-1px)}
+.btn:active{transform:translateY(0);box-shadow:0 1px 0 rgba(12,50,52,.22)}
+[hidden]{display:none!important}
+.booklink{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(20,112,110,.4);padding-bottom:3px}
+.fine{font-size:12.5px;line-height:1.7;color:var(--ink3);margin:26px auto 0;max-width:54ch;text-align:center}
+.fine b{color:var(--ink2);font-weight:400}
+.dir{margin-top:22px}
+.dir a{color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(20,112,110,.28)}
+
+/* ---- footer ---- */
+footer{background:var(--paper2);border-top:1px solid var(--line);padding:46px 0 54px}
+footer .wrap{max-width:1320px}
+footer .lg{font-size:19px}
+footer p{font-size:11.5px;line-height:2;color:var(--ink3);margin-top:14px;max-width:none}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 46px;margin-top:6px}
+@media(max-width:820px){.fgrid{grid-template-columns:1fr}}
+footer p b{color:var(--ink3);font-weight:400}
+.fr{border-top:1px solid var(--hair);margin:22px 0 0;padding-top:18px}
+
+/* ---------- TAPE ---------- */
+.tape{background:var(--deep);overflow:hidden;position:relative;border-bottom:1px solid rgba(255,255,255,.1)}
+.tape:before,.tape:after{content:"";position:absolute;top:0;bottom:0;width:70px;z-index:2;pointer-events:none}
+.tape:before{left:0;background:linear-gradient(90deg,var(--deep),transparent)}
+.tape:after{right:0;background:linear-gradient(270deg,var(--deep),transparent)}
+.trun{display:flex;width:max-content;animation:tp 96s linear infinite}
+.tape:hover .trun{animation-play-state:paused}
+@keyframes tp{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tseq{display:flex;flex:0 0 auto}
+.ti{display:flex;align-items:baseline;gap:9px;padding:11px 20px;border-right:1px solid rgba(255,255,255,.08);white-space:nowrap;font-family:var(--mono);font-size:10.5px}
+.ti i{font-style:normal;color:#7FC4BC;letter-spacing:.13em;text-transform:uppercase;font-size:8.5px}
+.ti s{text-decoration:none;color:rgba(242,239,233,.52);font-family:var(--sans);font-size:11.5px;letter-spacing:0}
+.ti b{color:#F2EFE9;font-weight:500;font-size:12px}
+.ti u{text-decoration:none;font-size:9px;color:rgba(242,239,233,.4)}
+@media(prefers-reduced-motion:reduce){.trun{animation:none}}
+/* ---------- ADVISORS ---------- */
+.adv{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:38px}
+.ad,.ad *{text-align:left}
+@media(max-width:820px){.adv{grid-template-columns:1fr}}
+.ad{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:22px 23px;display:grid;grid-template-columns:52px minmax(0,1fr);gap:17px;align-items:start}
+.ad.lead{grid-column:1/-1;border-color:rgba(20,112,110,.34);background:linear-gradient(180deg,rgba(20,112,110,.05),var(--card) 52%)}
+.ad-a{width:52px;height:52px;border-radius:50%;background:var(--deep);color:#F7F5F0;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:13px;letter-spacing:.06em}
+.ad.lead .ad-a{background:var(--teal)}
+.ad-b h3{font-family:var(--ser);font-size:19px;font-weight:400;line-height:1.2;margin:0 0 3px}
+.ad-r{font-family:var(--mono);font-size:8.5px;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-bottom:10px}
+.ad-b p{font-size:13.5px;line-height:1.63;color:var(--ink3);margin:0}
+.ad-b p b{color:var(--ink2);font-weight:500}
+
+/* green doors and flip fronts */
+.dr{background:var(--deep)!important;border:0}
+.dr:hover{background:var(--deep2)!important}
+.dr h3{color:#FFFDF9}
+.dr p{color:rgba(244,241,235,.74)}
+.dr .dr-n{color:#8FD4CB}
+.dr .seatn{color:rgba(244,241,235,.42);border-color:rgba(255,255,255,.14)}
+.dr:hover .seatn{color:#8FD4CB;border-color:rgba(143,212,203,.34)}
+.dr .dr-go{color:#8FD4CB}
+.dr .dr-go s{background:#8FD4CB}
+.doors{background:rgba(255,255,255,.14);border-color:transparent}
+.fc2f{background:var(--deep)!important;border-color:var(--deep)}
+.fc2f h3{color:#FFFDF9}
+.fc2f p{color:rgba(244,241,235,.76)}
+.fc2f p b{color:#FFF;font-weight:400}
+.fc2f .dr-n{color:#8FD4CB}
+.fc2f .dr-go{color:#8FD4CB}
+.fc2f .dr-go s{background:#8FD4CB}
+.fc2b{background:var(--teal)!important;border-color:var(--teal)}
+</style></head><body>
+
+<!-- TAPE -->
+
+
+<div class="mast"><div class="wrap">
+<div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></div>
+<div class="lab">Pre-transaction intelligence</div>
+</div></div>
+
+<header>
+<canvas id="hbg"></canvas>
+<div class="wrap hin">
+<div class="kick"><span>Vertical software &middot; 28 industries &middot; twelve open desks</span></div>
+<h1 id="h1"></h1>
+<p class="dek">The industries that will never buy AI from a foundational model will get it anyway. It arrives inside the software they already run on. <b class="cr">Capital <i>Row</i></b> sits at the intersection of that market with the founders who build those systems of record on one side, and the buyers adding AI and embedding payments on top of them on the other.</p>
+<p class="layer">We are the <i>intelligence layer</i> in between, and we know both sides of the deal before either one is ready to talk.</p>
+<p class="scarce"><span>Three buyers to a desk.</span> When the third seat is taken,<br><b>the desk closes.</b></p>
+<div class="band">
+<span class="lab xl">Eight live &middot; four opening &middot; three seats to a desk</span>
+<div class="desks">
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Billing, coding &amp; claims</span>
+<span class="dkb">Every payer connection took months to certify. Replace the software and cash slows until they are rebuilt</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Denials &amp; clearinghouse workflow</span>
+<span class="dkb">The rework layer. Where a practice finds out what its billing system actually costs it</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Specialty practice management</span>
+<span class="dkb">Switching costs include re-establishing payer relationships</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Credentialing &amp; provider data</span>
+<span class="dkb">A provider who is not credentialed cannot bill. The software holds the clock</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Veterinary practice software</span>
+<span class="dkb">Two diagnostics companies hold most of the vendor layer. The rest is founder-owned, on a short buyer list</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Dispatch, TMS &amp; freight audit</span>
+<span class="dkb">Hours of service and fuel tax are filings, not reports</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Fleet compliance &amp; telematics</span>
+<span class="dkb">DOT and FMCSA obligations sit inside the software</span></span></span>
+<span class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Behavioural &amp; specialty health</span>
+<span class="dkb">Intake, documentation and measurement-based care. What a payer audit actually asks the record to prove</span></span></span>
+<span class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Dental practice software</span>
+<span class="dkb">Desk opening &middot; group consolidation decides which systems survive a change of ownership</span></span></span>
+<span class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Aesthetics &amp; med spa</span>
+<span class="dkb">Desk opening &middot; cash-pay, no payer layer, fastest to read</span></span></span>
+<span class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Home health &amp; hospice software</span>
+<span class="dkb">Desk opening &middot; Medicare-certified, survey-bound</span></span></span>
+<span class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Pharmacy, DME &amp; infusion</span>
+<span class="dkb">Desk opening &middot; licence-bound billing and delivery</span></span></span>
+</div>
+
+<div class="tam">
+<div class="tm"><b>~<span class="cu" data-to="2700" data-fmt="int">0</span></b><u>SaaS transactions<br>in 2025, up 28%</u></div>
+<div class="tm"><b><span class="cu" data-to="49" data-fmt="int">0</span>%</b><u>of SaaS M&amp;A is<br>vertical software</u></div>
+<div class="tm"><b><span class="cu" data-to="351" data-fmt="int">0</span></b><u>software holdcos<br>with live M&amp;A</u></div>
+<div class="tm"><b><span class="cu" data-to="3" data-fmt="int">0</span></b><u>seats per desk,<br>then it closes</u></div>
+</div>
+<p class="src" style="margin-top:18px">Software Equity Group, 2026 Annual SaaS Report and 1Q26 buyer trends &middot; Axial software holding company directory, September 2026 &middot; Industry count, IDC Industry Taxonomy and Worldwide ICT Spending Guide &middot; Seat cap is Capital Row policy</p>
+</div>
+</div>
+</header>
+
+<div class="figpage"><div class="wrap">
+<div class="lab big">The problem, measured</div>
+<div class="fig">
+<div class="fig-n"><span id="ctr">0.0</span><span style="font-size:.4em;vertical-align:.42em">%</span></div>
+<div class="fig-t">is all the average buyer ever sees of their own target market. <em>Four out of five companies that fit a mandate never reach the buyer holding it.</em></div>
+</div>
+<div class="figaside"><span class="src">Sutton Place Strategies and With Intelligence, Deal Origination Benchmark, October 2025. 177 qualified private equity firms across eight peer groups, twelve months to 30 June 2025. Median 17.6%, top quartile 27.5%</span></div>
+</div></div>
+
+<section><div class="wrap">
+<div class="ctr">
+<div class="lab big">Take a seat at the table</div>
+<h2 class="cen">Which side of the table <em>do you sit on?</em></h2>
+<p class="sd cen">Where you sit changes the conversation, and what the work is allowed to produce.</p>
+</div>
+<div class="doors d3">
+<a class="dr" href="#talk" data-seat="Builder"><span class="seatn">01</span>
+<span class="dr-n">You built the software</span>
+<h3>I&rsquo;m a builder</h3>
+<p>Find what a buyer&rsquo;s team would find, while the record can still change and before anyone has leverage over the answer.</p>
+<span class="dr-go"><s></s>Continue</span></a>
+<a class="dr" href="#talk" data-seat="Buyer"><span class="seatn">02</span>
+<span class="dr-n">You buy software companies</span>
+<h3>I&rsquo;m a buyer</h3>
+<p>Coverage of one desk, maintained and delivered on a cycle. Three seats, and when the third is taken the desk closes.</p>
+<span class="dr-go"><s></s>Continue</span></a>
+<a class="dr" href="#talk" data-seat="Adviser"><span class="seatn">03</span>
+<span class="dr-n">You represent someone who does</span>
+<h3>I&rsquo;m an adviser</h3>
+<p>You sit on both sides. Your client, your engagement, our record. Non-attest only, and we take no fee in any direction on attested work.</p>
+<span class="dr-go"><s></s>Continue</span></a>
+</div>
+</div></section>
+
+<section class="rule"><div class="wrap">
+<div class="ctr">
+<div class="lab big">Why the order matters</div>
+<h2 class="cen">The examination happens <em>before</em> the price, not after it.</h2>
+<p class="sd cen twice"><s>The price is set twice.</s> Once before the letter of intent is signed, on <em>what everybody believes.</em> And again during due diligence, on <em>what can actually be proved.</em> <b>We move the evidence in front of the first number, so there is only one.</b></p>
+</div>
+
+<div class="doors d2flip">
+<div class="fc2" tabindex="0"><div class="fc2i">
+<div class="fc2f"><span class="dr-n">For builders</span><h3>Run the diligence on your own numbers first</h3>
+<p>Retention tied to the billing system, the recurring revenue schedule tied to the ledger and the bank, concentration, founder dependency and ownership of the codebase.</p>
+<span class="dr-go"><s></s>What it costs to find out second</span></div>
+<div class="fc2b"><span class="dr-n dark">For builders</span><h3>The price becomes a discount</h3>
+<p>Found after the letter of intent, the same four findings are leverage rather than diligence items, and the leverage has already changed hands. <b>Whatever a buyer&rsquo;s team would find, you want to be holding it first.</b></p></div>
+</div></div>
+<div class="fc2" tabindex="0"><div class="fc2i">
+<div class="fc2f"><span class="dr-n">For buyers</span><h3>Fast-track origination</h3>
+<p>One hire cannot map a market, and every buyer is chasing the same short list of clean, transactable companies. Coverage puts you in front of qualified targets sooner, with the evidence already run and the end-market read attached.</p>
+<span class="dr-go"><s></s>Does an informed seller cost you?</span></div>
+<div class="fc2b"><span class="dr-n dark">For buyers</span><h3>No. A dead deal costs you</h3>
+<p>Sixty-one per cent of broken letters died on evidence that arrived after the price was set, and every one cost a buyer four months and a diligence budget. <b>A price set on evidence closes. A price set on assertion gets retraded, and a retrade is a coin flip.</b></p></div>
+</div></div>
+</div>
+<p class="src cen" style="margin-top:16px">Axial, Dead Deal Report, January 2026. Seventy-five broken letters of intent across eight firm types and eight industries</p>
+</div></section>
+
+<section class="rule tenth"><div class="wrap ctr">
+<div class="lab big">The tenth dimension</div>
+<h2 class="cen big10">Nine of the ten things that set the price are already published.</h2>
+<h2 class="cen big10 bz tenline">The tenth is ours.</h2>
+<p class="sd cen">Retention, net retention, churn, recurring share, margin, concentration, founder dependency, sales efficiency and evidence quality. Every competent adviser runs those nine, and every one of them is winnable with time.</p>
+<div class="tenbox">
+<div class="ten-n">10</div>
+<div class="ten-t"><b>End-market durability.</b> Who is consolidating your customers&rsquo; industry, how fast they are moving, and what they do to the software after a closing. <b>Nobody prices it,</b> because pricing it means knowing the services market as well as the software one. It is the dimension that reprices a deal ninety days after a letter of intent, and it is the reason to call us.</div>
+</div>
+</div></section>
+
+<section class="rule"><div class="wrap ctr">
+<div class="lab big benchlab">The bench</div>
+<h2 class="cen">Every desk has a bench.<br><em>Every deal has a principal.</em></h2>
+
+<p class="sd cen benchlead">Every desk carries the same three seats, filled for that vertical and never from a general panel. <b>An accountant</b> who has examined recurring-revenue businesses in that end market, so the revenue-quality read is not generic. <b>Counsel</b> who has worked on software contracts and that vertical&rsquo;s regulator, so change-of-control exposure is found before a buyer&rsquo;s lawyer finds it. <b>An operator</b> who has run a company there, so we know whether the software is load-bearing or merely installed.</p>
+<p class="sd cen" style="margin-top:18px">The principal carries the end-market read and every buyer conversation. The bench carries the vertical. Neither is outsourced to the other.</p>
+</div></section>
+
+
+
+<section class="alt" id="talk"><div class="wrap">
+<div class="ctr">
+<div class="lab big">Request access</div>
+<h2 id="ch" class="cen prewrap">Which side of the table do you sit on?</h2>
+<p class="sd cen" id="cd">The seat informs what the conversation is about, and what the work is permitted to produce. <b>Everything you send is confidential and is never shared, circulated or sold.</b> Read by a person, usually the same day.</p>
+</div>
+
+<form class="frm" id="f" onsubmit="return go(event)">
+<div class="fld seatfld"><label for="seat">Which side of the table</label><select id="seat">
+<option value="">Select one</option>
+<option value="Builder">I build the software</option>
+<option value="Buyer">I buy software companies</option>
+<option value="Adviser">I advise someone who does</option>
+</select></div>
+<div class="fld"><label for="kind" id="kl">What kind</label><select id="kind">
+<option value="">Select the side of the table first</option>
+</select></div>
+<div class="fld"><label for="vert" id="vl">What vertical do you serve</label><select id="vert">
+<option value="">Select one</option>
+<option>Billing, coding &amp; claims</option>
+<option>Denials &amp; clearinghouse workflow</option>
+<option>Specialty practice management</option>
+<option>Credentialing &amp; provider data</option>
+<option>Veterinary practice software</option>
+<option>Dispatch, TMS &amp; freight audit</option>
+<option>Fleet compliance &amp; telematics</option>
+<option>Behavioural &amp; specialty health</option>
+<option>Dental practice software</option>
+<option>Aesthetics &amp; med spa</option>
+<option>Home health &amp; hospice software</option>
+<option>Pharmacy, DME &amp; infusion</option>
+<option>Another vertical, not listed</option>
+</select></div>
+<div class="fld"><label for="band" id="bl">Recurring revenue</label><select id="band">
+<option value="">Select one</option>
+<option>Under $1M ARR</option>
+<option>$1M to $3M ARR</option>
+<option>$3M to $10M ARR</option>
+<option>$10M to $25M ARR</option>
+<option>Over $25M ARR</option>
+<option>Not applicable</option>
+</select></div>
+<div class="fld"><label for="nm">Name</label><input id="nm" required autocomplete="name"></div>
+<div class="fld"><label for="co">Company</label><input id="co" autocomplete="organization"></div>
+<div class="fld"><label for="em">Work email</label><input id="em" type="email" required autocomplete="email"></div>
+<div class="fld"><label for="how">How did you hear about us</label><input id="how" placeholder="A conference, a name, a search"></div>
+<div class="fld"><label for="msg" id="ml">What are you trying to work out</label><textarea id="msg"></textarea></div>
+<button class="btn" type="submit">Get connected</button>
+</form>
+<p class="fine">Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter.</p>
+<p class="fine dir" id="bookw" hidden><a class="booklink" id="book" target="_blank" rel="noopener">Or pick a time directly &rarr;</a></p>
+<p class="fine dir">Or write to the desk directly at <a href="mailto:team@thecapitalrow.com?subject=Capital%20Row">team@thecapitalrow.com</a></p>
+</div></section>
+
+<footer><div class="wrap">
+<div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></div>
+<div class="src" style="margin-top:5px">Every number traced to a source document, or marked not provided</div>
+<div class="fr"></div>
+<div class="fgrid"><p>Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not represent businesses for sale, and it does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation.</p>
+<p><b>Nothing on this site satisfies, meets, fulfills or discharges any lender or SBA requirement,</b> and nothing here represents that a lender will accept any report in place of one it commissions itself. General information only, and not legal, tax or accounting advice.</p></div>
+<p style="margin-top:22px;color:var(--faint)">&copy; 2026 Capital Row. All rights reserved. <span style="margin-left:14px;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase">Rev 1.0 &middot; September 2026</span></p>
+</div></footer>
+
+<script>
+/* Scheduling. Leave a seat empty and no link is offered for it.
+   Every current Calendly event type is AHC or Behavioral Blueprints branded, so none is wired here.
+   Fill these only with Capital Row event types. */
+var CALENDLY={'Builder':'','Buyer':'','Adviser':''};
+function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.value]:'';
+ var el=document.getElementById('book'),w=document.getElementById('bookw');if(!el||!w)return;
+ if(u){el.href=u;w.hidden=false;}else{w.hidden=true;}}
+(function(){var seq=document.getElementById("tseq"),run=document.getElementById("trun");
+ if(seq&&run){var c=seq.cloneNode(true);c.removeAttribute("id");c.setAttribute("aria-hidden","true");run.appendChild(c);}})();
+
+(function(){var el=document.getElementById('h1');if(!el)return;
+ var parts=[['The',0],['M&A',0],['firm',0],['for',0],['software',0],['the',0],
+            ['working',1],['economy',1],['cannot',1],['switch',1],['off.',1]];
+ var html='';
+ for(var i=0;i<parts.length;i++){
+  var w=parts[i][0],em=parts[i][1];
+  var inner=em?'<em>'+w+'</em>':w;
+  html+='<span class="w" style="animation-delay:'+(0.12+i*0.062).toFixed(3)+'s">'+inner+'</span> ';}
+ el.innerHTML=html;})();
+(function(){var sel=document.getElementById('seat'),kind=document.getElementById('kind'),
+ h=document.getElementById('ch'),d=document.getElementById('cd'),ml=document.getElementById('ml'),
+ vl=document.getElementById('vl'),bl=document.getElementById('bl'),kl=document.getElementById('kl');
+ if(!sel||!kind||!h||!d)return;
+
+ /* which kinds each side of the table can be */
+ var KINDS={
+  'Builder':['Vertical software, subscription','Software plus a services arm','Services only, no software'],
+  'Buyer':['Consolidator or permanent capital','Sponsor-backed platform','Strategic acquirer','Searcher or independent sponsor','Lender or credit officer'],
+  'Adviser':['CPA or accountant','Attorney','Investment banker or M&A adviser','Wealth or family office adviser','Operating or management consultant']};
+
+ /* field labels by side of the table */
+ var L={'':['What kind','What vertical do you serve','Recurring revenue'],
+  'Builder':['What do you sell','What vertical do you serve','Your recurring revenue'],
+  'Buyer':['What kind of buyer','What vertical are you targeting','Recurring revenue you buy at'],
+  'Adviser':['What kind of adviser','Your client&rsquo;s vertical','Your client&rsquo;s recurring revenue']};
+
+ /* headline and dek, keyed on the specific kind where we have something to say */
+ var M={
+ '':['Which side of the table do you sit on?',
+     'Where you sit decides what the conversation is about, and what the work is permitted to produce. Everything you send is confidential and is never shared, circulated or sold. Read by a person, usually the same day.',
+     'What are you trying to work out'],
+ 'Builder':['Find out what a buyer will find, while you can still change it.',
+     'Nothing to sign, and no obligation to act on the answer. Plenty of these businesses should not go to market this year, and we will say so. Read by a person, usually the same day.',
+     'Are you heading for an exit, or building toward one'],
+ 'Buyer':['Three buyers to a desk.\nAsk which are open.',
+     'Coverage is retained, non-exclusive and capped at three buyers per desk. The first conversation is only about whether your mandate and our desks actually overlap. If they do not, we will say so on that call.',
+     'What does your buy box look like'],
+ 'Adviser':['Your client, your engagement, our record.',
+     'Non-attest work only. We take no fee of any kind on attested work, in any direction. If your client needs an audit, review, compilation or attestation, that goes to an independent firm and we take nothing on it.',
+     'What does your client need, and what is the timing'],
+ 'Services only, no software':['We should tell you this now.',
+     'Capital Row covers vertical software companies. A services business is outside what our desks are built to read, and we would rather say that here than on a call. If the software question is really a services question, say so below and we will point you somewhere useful.',
+     'Tell us what you are actually working out'],
+ 'Software plus a services arm':['The services line is where the multiple is won or lost.',
+     'A services arm is not a problem, but it is the first thing a buyer separates out, and the split decides whether you are priced as software or as a services business with a product. That is a conversation worth having early.',
+     'How much of revenue is services, and is it recurring'],
+ 'Sponsor-backed platform':['Three buyers to a desk.\nAsk which are open.',
+     'Coverage is retained, non-exclusive and capped at three buyers per desk, and the map is shared while the pursuit is not. The first conversation is about whether your thesis and our desks overlap.',
+     'Which thesis are you filling, and what is the fund clock'],
+ 'Strategic acquirer':['You are buying into an industry you do not run. We do.',
+     'Coverage of one desk, retained and delivered on a cycle, with the end-market read a corporate development team cannot staff for. Three seats per desk, and the first conversation is about overlap.',
+     'Which market are you entering, and what is the timeline'],
+ 'Searcher or independent sponsor':['One transaction, and one chance to get the evidence right.',
+     'We do not sell coverage seats to single-transaction buyers, and we will say that plainly. What we can do is run the evidence on a target before a letter is priced.',
+     'What are you looking at, and where are you in the process'],
+ 'Lender or credit officer':['Happy to talk. One thing stated up front.',
+     'Nothing we produce satisfies, meets, fulfills or discharges any lender or SBA requirement, and nothing here substitutes for a report your institution commissions itself. What we can discuss is the record a borrower has already built, and what it is and is not good for.',
+     'What are you trying to establish, and on which file']};
+
+ function fillKinds(){
+  var k=sel.value,list=KINDS[k]||[];
+  kind.innerHTML='';
+  var o=document.createElement('option');
+  o.value='';o.textContent=list.length?'Select one':'Select the side of the table first';
+  kind.appendChild(o);
+  for(var i=0;i<list.length;i++){var x=document.createElement('option');x.textContent=list[i];kind.appendChild(x);}
+ }
+ function labels(){var l=L[sel.value]||L[''];
+  if(kl)kl.innerHTML=l[0];if(vl)vl.innerHTML=l[1];if(bl)bl.innerHTML=l[2];}
+ function copy(){var m=(kind.value&&M[kind.value])||(sel.value&&M[sel.value])||M[''];
+  h.classList.add('sw');d.classList.add('sw');
+  setTimeout(function(){h.textContent=m[0];d.textContent=m[1];if(ml)ml.textContent=m[2];
+   h.classList.remove('sw');d.classList.remove('sw');},300);}
+ function seatChanged(){fillKinds();labels();copy();bookLink();}
+
+ sel.addEventListener('change',seatChanged);
+ kind.addEventListener('change',function(){copy();bookLink();});
+ Array.prototype.forEach.call(document.querySelectorAll('.dr[data-seat]'),function(a){
+  a.addEventListener('click',function(){sel.value=a.getAttribute('data-seat');seatChanged();
+   var f=sel.closest('.fld');if(f)f.classList.add('answered');
+   setTimeout(function(){try{kind.focus({preventScroll:true});}catch(e){}},700);});});
+ sel.addEventListener('change',function(){var f=sel.closest('.fld');if(f)f.classList.remove('answered');});
+ fillKinds();})();
+(function(){var ns=document.querySelectorAll('.cu');if(!ns.length)return;
+ var red=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+ function fmt(v){return Math.round(v).toLocaleString('en-US');}
+ function run(el){var to=parseFloat(el.getAttribute('data-to'))||0;
+  if(red){el.textContent=fmt(to);return;}
+  var t0=null,D=1400;
+  function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/D),e=1-Math.pow(1-k,3);
+   el.textContent=fmt(to*e);if(k<1)requestAnimationFrame(step);else el.textContent=fmt(to);}
+  requestAnimationFrame(step);}
+ if('IntersectionObserver' in window){var o=new IntersectionObserver(function(es){
+  es.forEach(function(x){if(x.isIntersecting){run(x.target);o.unobserve(x.target);}});},{threshold:.4});
+  ns.forEach(function(n){o.observe(n);});}else{ns.forEach(run);}})();
+(function(){var el=document.getElementById('ctr');if(!el)return;var TO=18.4,done=false;
+ if(window.matchMedia('(prefers-reduced-motion:reduce)').matches){el.textContent=TO.toFixed(1);return;}
+ function run(){if(done)return;done=true;var t0=null,D=1500;
+  function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/D),e=1-Math.pow(1-k,3);
+   el.textContent=(TO*e).toFixed(1);if(k<1)requestAnimationFrame(step);else el.textContent=TO.toFixed(1);}
+  requestAnimationFrame(step);}
+ if('IntersectionObserver' in window){var o=new IntersectionObserver(function(es){
+  es.forEach(function(x){if(x.isIntersecting){run();o.disconnect();}});},{threshold:.35});o.observe(el);}else{run();}})();
+function go(e){e.preventDefault();
+ var v=function(i){var el=document.getElementById(i);return el?el.value:'';};
+ var body='Name: '+v('nm')+'\nCompany: '+v('co')+'\nEmail: '+v('em')+'\nSide: '+v('seat')+'\nKind: '+v('kind')+'\nVertical: '+v('vert')+'\nRecurring revenue: '+v('band')+'\nHeard via: '+v('how')+'\n\n'+v('msg');
+ window.location.href='mailto:team@thecapitalrow.com?subject='+encodeURIComponent('Capital Row · '+(v('co')||'inquiry'))+'&body='+encodeURIComponent(body);
+ return false;}
+var cv=document.getElementById('hbg');
+if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+ var ctx=cv.getContext('2d'),W=0,H=0,raf=null,dpr=Math.min(window.devicePixelRatio||1,2);
+ var G=74,cols=0,rows=0,nodes=[,
+     'Which desk did we talk about','Recurring revenue, if it came up'],pulses=[];
+ function size(){var r=cv.parentNode.getBoundingClientRect();W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);seed();}
+ function nodeAt(i,j){if(i<0||j<0||i>=cols||j>=rows)return null;return nodes[i*rows+j];}
+ function mk(){return {i:Math.floor(Math.random()*cols),j:Math.floor(Math.random()*rows),d:Math.random()<.5?0:1,
+  dir:Math.random()<.5?1:-1,p:Math.random(),v:.004+Math.random()*.005,len:.22+Math.random()*.26,bz:Math.random()<.12};}
+ function seed(){cols=Math.ceil(W/G)+1;rows=Math.ceil(H/G)+1;nodes=[];
+  for(var i=0;i<cols;i++)for(var j=0;j<rows;j++)nodes.push({x:i*G,y:j*G,on:((i*7+j*13+(i*j)%5)%7)<2,f:0});
+  pulses=[];var n=Math.max(6,Math.min(18,Math.round(W/94)));for(var k=0;k<n;k++)pulses.push(mk());}
+ function draw(){ctx.clearRect(0,0,W,H);
+  ctx.lineWidth=1;ctx.strokeStyle='rgba(12,50,52,.06)';
+  for(var i=0;i<cols;i++){ctx.beginPath();ctx.moveTo(i*G+.5,0);ctx.lineTo(i*G+.5,H);ctx.stroke();}
+  for(var j=0;j<rows;j++){ctx.beginPath();ctx.moveTo(0,j*G+.5);ctx.lineTo(W,j*G+.5);ctx.stroke();}
+  for(var k=0;k<nodes.length;k++){var nd=nodes[k];if(!nd.on)continue;
+   if(nd.f>0)nd.f-=.016;var f=nd.f>0?nd.f:0;
+   ctx.fillStyle='rgba(20,112,110,'+(.15+f*.5)+')';
+   ctx.beginPath();ctx.arc(nd.x,nd.y,1.5+f*2.6,0,6.284);ctx.fill();
+   if(f>.15){ctx.strokeStyle='rgba(20,112,110,'+(f*.3)+')';ctx.beginPath();ctx.arc(nd.x,nd.y,4+(1-f)*18,0,6.284);ctx.stroke();}}
+  for(var q=0;q<pulses.length;q++){var P=pulses[q],ax,ay,bx,by;
+   if(P.d===0){ax=P.i*G;bx=(P.i+P.dir)*G;ay=by=P.j*G;}else{ay=P.j*G;by=(P.j+P.dir)*G;ax=bx=P.i*G;}
+   var h=P.p-P.len;if(h<0)h=0;var tt=P.p>1?1:P.p;
+   var x1=ax+(bx-ax)*h,y1=ay+(by-ay)*h,x2=ax+(bx-ax)*tt,y2=ay+(by-ay)*tt;
+   var c=P.bz?'166,124,61':'20,112,110';
+   if(x1!==x2||y1!==y2){var g=ctx.createLinearGradient(x1,y1,x2,y2);
+    g.addColorStop(0,'rgba('+c+',0)');g.addColorStop(1,'rgba('+c+',.5)');
+    ctx.strokeStyle=g;ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();ctx.lineWidth=1;}
+   ctx.fillStyle='rgba('+c+',.7)';ctx.beginPath();ctx.arc(x2,y2,1.8,0,6.284);ctx.fill();
+   P.p+=P.v;
+   if(P.p>=1){var ni=P.d===0?P.i+P.dir:P.i,nj=P.d===1?P.j+P.dir:P.j,nd2=nodeAt(ni,nj);
+    if(nd2){nd2.on=true;nd2.f=1;}
+    if(!nd2||Math.random()<.2){pulses[q]=mk();}
+    else{P.i=ni;P.j=nj;P.p=0;P.v=.004+Math.random()*.005;P.len=.22+Math.random()*.26;
+     if(Math.random()<.44){P.d=P.d===0?1:0;P.dir=Math.random()<.5?1:-1;}}}}
+  raf=requestAnimationFrame(draw);}
+ function start(){if(!raf)raf=requestAnimationFrame(draw);}
+ function stop(){if(raf){cancelAnimationFrame(raf);raf=null;}}
+ size();start();
+ var t;window.addEventListener('resize',function(){clearTimeout(t);t=setTimeout(size,180);});
+ document.addEventListener('visibilitychange',function(){document.hidden?stop():start();});}
+</script>
+</body></html>
