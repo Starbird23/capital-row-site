@@ -1,18 +1,17 @@
-
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Capital Row — Pre-transaction intelligence for vertical software</title>
+<title>Capital Row &mdash; the M&amp;A firm for software the working economy cannot switch off</title>
 <meta name="description" content="Pre-transaction intelligence and M&amp;A advisory for vertical software. Twelve desks, three buyers to a desk.">
 <link rel="canonical" href="https://thecapitalrow.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Capital Row">
 <meta property="og:url" content="https://thecapitalrow.com/">
-<meta property="og:title" content="Capital Row — the M&amp;A firm for the software the working economy cannot switch off">
+<meta property="og:title" content="Capital Row — the M&amp;A firm for software the working economy cannot switch off">
 <meta property="og:description" content="Pre-transaction intelligence and M&amp;A advisory for vertical software. Twelve desks, three buyers to a desk.">
 <meta property="og:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Capital Row. Pre-transaction intelligence and M&amp;A advisory. The M&amp;A firm for software the working economy cannot switch off.">
+<meta property="og:image:alt" content="Capital Row. Retained buy-side origination and pre-transaction intelligence for vertical software.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
@@ -24,7 +23,7 @@
 --paper:#FBF9F5;--paper2:#F4F0E9;--card:#FFFFFF;
 --deep:#0C3234;--teal:#14706E;--bronze:#A67C3D;
 --ink:#141E1F;--ink2:#2A3A3B;--ink3:#5C6B6B;--faint:#9AA6A6;
---deep2:#0A2729;--red:#9C4A3C;--ghost:#BFC8C7;--line2:rgba(12,50,52,.07);--line:rgba(12,50,52,.11);--hair:rgba(12,50,52,.07);
+--deep2:#0A2729;--red:#9C4A3C;--faint2:#5F6D6D;--bronze2:#805C29;--ghost:#BFC8C7;--line2:rgba(12,50,52,.07);--line:rgba(12,50,52,.11);--hair:rgba(12,50,52,.07);
 --ser:'Cormorant Garamond',Georgia,serif;--sans:'Outfit',system-ui,sans-serif;--mono:'IBM Plex Mono',monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -198,10 +197,10 @@ footer .mark i{background:var(--ink)}footer .mark i:nth-child(3){background:var(
  .kick span i+i::before{content:none}
  .kick s{flex-basis:18px}}
 h1{font-size:clamp(30px,4.6vw,54px);line-height:1.06;font-weight:500;max-width:22ch;margin:0 auto 30px;text-align:center;letter-spacing:-.016em}
-h1 .w{display:inline-block;opacity:0;transform:translateY(.34em);
-animation:rise .82s cubic-bezier(.22,1,.36,1) forwards}
+h1 .wl{display:block;opacity:0;transform:translateY(.24em);
+animation:rise .68s cubic-bezier(.22,1,.36,1) forwards}
 @keyframes rise{to{opacity:1;transform:none}}
-@media(prefers-reduced-motion:reduce){h1 .w{animation:none;opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){h1 .wl{animation:none;opacity:1;transform:none}}
 h1 em{font-weight:500}
 .dek{font-size:clamp(15.5px,2.1vw,18px);line-height:1.72;color:var(--ink3);max-width:58ch;font-weight:300;margin:0 auto}
 @media(max-width:620px){.dek{font-size:15px;line-height:1.78;max-width:34ch}}
@@ -220,7 +219,7 @@ line-height:1.32;font-weight:400;color:var(--ink2);font-style:italic}
 .desks{display:flex;flex-wrap:wrap;justify-content:center;gap:11px}
 .dk{display:block;perspective:760px;width:214px;height:78px;cursor:default;flex:0 0 auto}
 .dki{display:block;position:relative;width:100%;height:100%;transition:transform .62s cubic-bezier(.22,1,.36,1);transform-style:preserve-3d}
-.dk:hover .dki,.dk:focus-within .dki{transform:rotateX(180deg)}
+
 .dkf,.dkb{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;
 padding:8px 13px;border:1px solid var(--line);border-radius:9px;backface-visibility:hidden;-webkit-backface-visibility:hidden;line-height:1.32}
 .dkf{background:rgba(255,255,255,.72);font-size:14px;font-weight:300;color:var(--ink2);position:absolute}
@@ -229,7 +228,7 @@ font-family:var(--mono);font-size:9.5px;letter-spacing:.02em;line-height:1.5;ove
 .dk.soon .dkf{color:var(--ink3);border-style:dashed;opacity:.82}
 .dkf:after{position:absolute;right:9px;bottom:6px;font-family:var(--mono);font-size:6.5px;letter-spacing:.18em;line-height:1}
 .dk .dkf:after{content:"OPEN";color:var(--teal);opacity:.75}
-.dk.soon .dkf:after{content:"WAITLIST";color:var(--bronze);opacity:.85}
+.dk.soon .dkf:after{content:"NOT YET OPEN";color:var(--bronze);opacity:.85}
 .dk.soon .dkb{background:var(--bronze);border-color:var(--bronze);color:#FFF9F0}
 @media(max-width:560px){.dk{width:calc(50% - 6px);height:66px}.dkf{font-size:12.5px}.dkb{font-size:8px}}
 
@@ -371,7 +370,7 @@ line-height:1.4;color:var(--teal)}
 @media(max-width:860px){.d2flip{grid-template-columns:1fr}}
 .fc2{perspective:1400px;min-height:300px}
 .fc2i{position:relative;width:100%;height:100%;min-height:300px;transition:transform .68s cubic-bezier(.22,1,.36,1);transform-style:preserve-3d}
-.fc2:hover .fc2i,.fc2:focus-within .fc2i{transform:rotateY(180deg)}
+
 .fc2f,.fc2b{position:absolute;inset:0;padding:34px 30px 30px;border:1px solid var(--line);border-radius:3px;
 backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column}
 .fc2f{background:var(--paper)}
@@ -506,7 +505,7 @@ footer p b{color:var(--ink3);font-weight:400}
 /* Readability and touch layout, 16 September 2026. */
 :root{--faint:#626F6F}
 html{scroll-padding-top:100px}
-section[id],div[id="market"]{scroll-margin-top:100px}
+section[id],div[id="market"]{scroll-margin-top:24px}
 :focus-visible{outline:2px solid var(--teal);outline-offset:5px}
 .src{font-size:11px;letter-spacing:.035em;text-transform:none}
 .src a{color:inherit;text-underline-offset:3px}
@@ -526,7 +525,7 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
  .hin{padding-top:44px;padding-bottom:48px}
  .kick span{font-size:11px;line-height:1.7;letter-spacing:.12em}
  h1{font-size:clamp(32px,7.8vw,48px);line-height:1.12;max-width:22ch;text-wrap:balance}
- h1 .w{opacity:1;transform:none;animation:none}
+ h1 .wl{opacity:1;transform:none;animation:none}
  .dek{font-size:17px;line-height:1.7;max-width:38ch;text-align:left;color:var(--ink2)}
  .layer,.scarce{font-size:24px;line-height:1.4;text-wrap:balance}
  .scarce br{display:none}
@@ -584,9 +583,724 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
 }
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
- h1 .w{opacity:1;transform:none}
+ h1 .wl{opacity:1;transform:none}
 }
 
+
+/* Explicit, reversible card interaction at every viewport. */
+.status-line,.question-line{display:block}
+.status-line{white-space:nowrap}
+.status-line+.status-line{margin-top:4px}
+#seats h2{max-width:none}
+.ndp a{font-size:13px;color:var(--ink)}
+.ndp a span{font-size:12px;color:var(--ink3)}
+.dk,.fc2{cursor:pointer;perspective:1200px;height:auto;min-height:0;scroll-margin-top:110px}
+.dki,.fc2i{display:grid;height:auto;min-height:0;transform:none!important;transform-style:preserve-3d;
+ transition:transform .55s ease;overflow:visible;background:transparent;border:0}
+.dkf,.dkb,.fc2f,.fc2b{grid-area:1 / 1;position:relative;inset:auto;height:auto;
+ backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:9px;
+ overflow:visible;visibility:visible;pointer-events:none}
+.dkf,.dkb{display:flex;flex-direction:column;align-items:center;justify-content:center;
+ text-align:center;padding:18px 16px 30px;border:1px solid var(--line);min-height:145px}
+.dkf{background:var(--card);font-size:15px;transform:rotateY(0deg)}
+.dkb,.dk.soon .dkb{background:var(--deep);color:#F4F1EB;font-family:var(--sans);
+ font-size:14px;line-height:1.5;transform:rotateY(180deg)}
+.dkf:after{position:static;font-size:10px;margin-top:9px}
+.fc2f,.fc2b{padding:28px 24px;min-height:340px}
+.fc2f{transform:rotateY(0deg)}
+.fc2b{transform:rotateY(180deg)}
+.dk.is-flipped .dki,.fc2.is-flipped .fc2i{transform:rotateY(180deg)!important}
+.flip-hint{display:block;margin-top:12px;font:11px var(--sans);letter-spacing:.02em;color:inherit;opacity:.85}
+.dkf .flip-hint{margin-top:8px}
+.fc2f .dr-go{display:block;margin-top:16px}
+.fc2b p{margin-bottom:0}
+#desks{scroll-margin-top:110px}
+@media(max-width:820px){
+ .nv{max-height:calc(100dvh - 80px);overflow-y:auto}
+ .desks{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .dkf,.dkb{min-height:190px;padding:16px 12px;font-size:14px}
+ .dki,.fc2i{transition:transform .55s ease}
+ .doors.d2flip{grid-template-columns:minmax(0,1fr);gap:20px}
+ .fc2f,.fc2b{min-height:350px}
+ .band .lab{letter-spacing:.07em}
+ .question-line{white-space:nowrap;font-size:clamp(25px,6.2vw,36px)}
+ .fc2f .dr-go{display:block}
+}
+@media(max-width:360px){.desks{grid-template-columns:minmax(0,1fr)}.dkf,.dkb{min-height:140px}}
+
+
+/* ---- form status. Only ever filled in by a real server response ---- */
+.formmsg{margin-top:14px;font-size:13.5px;line-height:1.6;padding:12px 14px;border-radius:9px;
+ border:1px solid var(--line);background:var(--card);color:var(--ink2)}
+.formmsg.busy{color:var(--ink3)}
+.formmsg.ok{border-color:rgba(20,112,110,.45);background:rgba(20,112,110,.07);color:var(--ink)}
+.formmsg.err{border-color:rgba(156,74,60,.5);background:rgba(156,74,60,.07);color:#7A382D}
+
+/* ---- legibility and touch floor. Last block on purpose: it has to win. ---- */
+@media(max-width:820px){
+ .ndh,#dkhead{font-size:11px;letter-spacing:.13em;line-height:1.7}
+ .fine,footer .fine,footer p,footer small,footer span,footer div span{font-size:11px!important;line-height:1.8}
+ .src{font-size:11px;line-height:1.95;letter-spacing:.04em;text-transform:none}
+ .fld select,.fld input,.fld textarea{min-height:46px;font-size:16px}
+ .fld label{font-size:12.5px;line-height:1.5;padding-bottom:4px}
+ .nvb{width:44px;height:44px;display:flex;align-items:center;justify-content:center}
+ .cta,.btn,.mastcta{min-height:46px;display:inline-flex;align-items:center;justify-content:center}
+}
+/* the mailto fallback is the safety net for the form, so it gets a real target */
+a[href^="mailto:"]{display:inline-block;padding:11px 0;min-height:46px;line-height:1.7}
+.src a[href^="mailto:"]{min-height:0;padding:0}
+
+/* ================= Rev 2.3, 17 September 2026 =================
+   Two live defects found by measurement, fixed here as the LAST block
+   in the sheet so nothing above can win on source order.
+
+   1. Cormorant Garamond defaults to OLDSTYLE figures. The four evidence
+      boxes were rendering "16%" as "i6%" and dropping 2,784 below the
+      baseline, because the lining-numeral fix lived on a .cu class the
+      markup never carried. font-variant-numeric inherits, so it is set
+      on body and then restated on every numeral surface. No element
+      can miss it now.
+   2. Four elements sat under 11px on a phone. One was 7px.
+   ============================================================== */
+body,h1,h2,h3,h4,h5,h6,p,span,b,i,u,s,em,strong,div,a,li,td,th,
+.tm b,.tm u,.fig-n,.ten-n,.big10,.cu,.dkb,.dkf,.dkrow,.dkfam,.lg,.scarce,.layer,.twice s{
+ font-variant-numeric:lining-nums tabular-nums;
+ font-feature-settings:"lnum" 1,"tnum" 1;
+}
+
+@media(max-width:820px){
+ /* the caption under each evidence box was 9px */
+ .tm u{font-size:11px!important;line-height:1.75;letter-spacing:.1em}
+ /* desk family headings were 8.5px */
+ .dkfam{font-size:11px!important;letter-spacing:.11em;line-height:1.7}
+ /* every uppercase mono button label */
+ .cta,.mastcta,.nv a.cta,.btn{font-size:11px!important}
+ /* 7px "Open" / "Opening" is a hover affordance. There is no hover on a
+    touch screen, so it is decoration at an unreadable size. Remove it. */
+ .dkrow u{display:none!important}
+}
+
+/* ================= Rev 3.0, 17 September 2026 =================
+   Buy-side-first pitch, seller hook, role CTAs, and the tile fix.
+   Last block in the sheet on purpose.
+   ============================================================== */
+
+/* ---- THE TILE FIX ----
+   The twelve tiles were flex items with height:78px, but two later rules
+   set height:auto;min-height:0, so every tile sized to its own text.
+   Measured: 181px, 160px and 145px side by side at desktop, 207 and 190
+   on a phone. Grid rows are equal by construction, and 12 divides evenly
+   into 4, 3 and 2 columns, so no row is ever left with an orphan. */
+.desks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));
+ grid-auto-rows:1fr;gap:10px;justify-content:stretch}
+@media(max-width:900px){.desks{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.desks{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+.dk{width:auto!important;height:auto!important;min-height:0!important;display:block}
+.dki{height:100%;min-height:92px}
+@media(max-width:820px){.dki{min-height:0}}
+
+/* ---- the three-figure strip under the headline figure ---- */
+.figsub{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.14);
+ border:1px solid rgba(255,255,255,.14);margin:40px auto 26px;max-width:720px}
+@media(max-width:640px){.figsub{grid-template-columns:1fr}}
+.figsub .fs{background:var(--deep);padding:20px 14px;text-align:center}
+.figsub .fs b{display:block;font-family:var(--ser);font-size:clamp(30px,4.4vw,38px);font-weight:300;
+ color:#8FD4CB;line-height:1;font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.figsub .fs u{display:block;text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+ text-transform:uppercase;color:#BCCBC8;margin-top:11px;line-height:1.7}
+
+/* ---- the callout ---- */
+.note{max-width:840px;margin:36px auto 0;padding:26px 28px;background:var(--card);
+ border:1px solid var(--line);border-left:3px solid var(--bronze);border-radius:3px}
+.note p{font-size:15px;line-height:1.78;color:var(--ink3)}
+.note p+p{margin-top:12px}
+.note p b{color:var(--ink2);font-weight:400}
+.note .lab{color:var(--bronze);margin-bottom:12px;display:block}
+@media(max-width:560px){.note{padding:22px 20px}}
+
+/* ---- what a seat buys, three columns ---- */
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+ border:1px solid var(--line);margin-top:42px;text-align:left}
+@media(max-width:820px){.three{grid-template-columns:1fr}}
+.three .th{background:var(--card);padding:32px 28px}
+.three .thn{font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--teal);
+ display:block;margin-bottom:18px}
+.three .th h3{font-size:24px;font-weight:400;line-height:1.16;margin-bottom:12px}
+.three .th p{font-size:14px;line-height:1.75;color:var(--ink3)}
+
+/* ---- the role CTAs ----
+   Every .dr on this page is forced dark by an earlier !important rule, so the
+   hierarchy is built with the action instead of the background. Buyers pay for
+   the desk, so the buyer door gets the only filled button on the page and a
+   gold rule; the other two keep the quieter text-link treatment. Body copy in
+   a card is left-aligned, because centred paragraphs are harder to scan. */
+.doors.roles{align-items:stretch}
+.doors.roles .dr{padding:36px 30px 30px;text-align:left}
+.doors.roles .dr h3,.doors.roles .dr p,.doors.roles .dr .dr-n{text-align:left;margin-left:0;margin-right:0}
+.doors.roles .dr h3{font-size:clamp(25px,3vw,31px);margin-bottom:14px}
+.doors.roles .dr p{color:#CBD8D6;font-size:14px;line-height:1.72}
+.doors.roles .dr-n{color:#8FD4CB}
+.doors.roles .seatn{color:#8FD4CB;border-color:rgba(255,255,255,.18)}
+.dr-micro{display:block;margin-top:14px;padding-top:13px;
+ border-top:1px solid rgba(255,255,255,.16);font-size:12.5px;line-height:1.66;color:#AEC0BD}
+
+/* the primary door: gold rule, gold index, filled button */
+.dr.primary{box-shadow:inset 0 0 0 1px rgba(199,154,92,.34)}
+.dr.primary:before{background:#C79A5C;transform:scaleX(1);left:0;right:0;height:3px}
+.dr.primary .dr-n,.dr.primary .seatn{color:#D8AE72}
+.dr.primary .dr-micro{color:#C6D2CF}
+
+/* one filled button on the page, and it is the buyer's */
+.doors.roles .dr-go{margin-top:auto}
+.doors.roles .dr.primary .dr-go{display:inline-flex;align-items:center;justify-content:center;gap:0;
+ background:#D8AE72;color:#0C3234;border-radius:2px;padding:0 20px;min-height:48px;
+ font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+ line-height:1.4;text-align:center;margin-bottom:0;transition:background .22s,transform .22s}
+.doors.roles .dr.primary .dr-go s{display:none}
+.dr.primary:hover .dr-go{background:#EBC48A;transform:translateY(-1px)}
+
+/* the two secondary doors stay as text links */
+.doors.roles .dr:not(.primary) .dr-go{padding-top:24px;font-size:11px;letter-spacing:.13em;
+ line-height:1.6;align-items:center;color:#8FD4CB;min-height:46px}
+.doors.roles .dr:not(.primary) .dr-go s{background:#8FD4CB}
+
+@media(max-width:860px){
+ .doors.roles .dr{padding:28px 24px 26px}
+ .doors.roles .dr.primary .dr-go{width:100%}
+}
+
+/* the dead-deal figure row reuses .tam, first box leads */
+.tam.bsp{margin-top:38px}
+.tam.bsp .tm.lead b{font-size:clamp(44px,7vw,64px)}
+
+/* ================= Rev 4.0 buy-side, 17 September 2026 =================
+   One customer: buyers. Owners are supply, and get a band plus their own
+   page. Advisers and M&A firms are off the homepage entirely for launch.
+   ======================================================================= */
+
+/* ---- the three-way comparison. This is the actual purchase decision. ---- */
+.vs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px;text-align:left}
+@media(max-width:900px){.vs{grid-template-columns:1fr;max-width:520px;margin-left:auto;margin-right:auto}}
+.vsc{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:30px 26px;
+ display:flex;flex-direction:column}
+.vsc.lead{background:var(--deep);border-color:var(--deep);box-shadow:0 18px 40px -28px rgba(12,50,52,.6)}
+.vsn{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+ color:var(--faint2);display:block;margin-bottom:16px}
+.vsc.lead .vsn{color:#D8AE72}
+.vsc h3{font-size:25px;font-weight:400;line-height:1.14;margin-bottom:16px}
+.vsc.lead h3{color:#fff}
+.vsp{font-family:var(--ser);font-size:clamp(25px,3vw,32px);font-weight:400;color:var(--teal);
+ line-height:1.1;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--hair);
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.vsc.lead .vsp{color:#8FD4CB;border-bottom-color:rgba(255,255,255,.16)}
+.vsp u{display:block;text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+ text-transform:uppercase;color:var(--faint2);margin-top:10px;line-height:1.7}
+.vsc.lead .vsp u{color:#BCCBC8}
+.vsc p{font-size:14px;line-height:1.75;color:var(--ink3);margin:0}
+.vsc.lead p{color:#CBD8D6}
+
+/* ---- six-up grid for what a desk contains ---- */
+.three.six{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.three.six{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.three.six{grid-template-columns:1fr}}
+
+/* ---- month one against month twelve, the cold-start answer ---- */
+.tl{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+ border:1px solid var(--line);margin-top:42px;text-align:left}
+@media(max-width:900px){.tl{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.tl{grid-template-columns:1fr}}
+.tli{background:var(--card);padding:28px 24px}
+.tln{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+ color:var(--teal);display:block;margin-bottom:14px}
+.tli b{display:block;font-family:var(--ser);font-size:21px;font-weight:400;line-height:1.2;margin-bottom:10px}
+.tli p{font-size:13.5px;line-height:1.72;color:var(--ink3)}
+
+/* ---- the owner door, present but subordinate ---- */
+.ownlink{margin-top:30px}
+.ownlink a{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+ color:var(--teal);text-decoration:none;border-bottom:1px solid rgba(20,112,110,.34);
+ padding:12px 0 5px;min-height:46px;display:inline-flex;align-items:center;gap:10px}
+.ownlink a span{transition:transform .18s;display:inline-block}
+.ownlink a:hover span{transform:translateX(4px)}
+
+/* ---- one CTA on the page ---- */
+.bigcta{display:inline-flex;align-items:center;justify-content:center;margin-top:34px;
+ background:#D8AE72;color:#0C3234;border:0;border-radius:2px;padding:0 44px;min-height:58px;
+ font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+ text-decoration:none;box-shadow:0 3px 0 rgba(12,50,52,.18);
+ transition:background .22s,transform .22s,box-shadow .22s}
+.bigcta:hover{background:#EBC48A;transform:translateY(-1px);box-shadow:0 5px 0 rgba(12,50,52,.2)}
+.bigcta:active{transform:translateY(0);box-shadow:0 1px 0 rgba(12,50,52,.2)}
+@media(max-width:480px){.bigcta{width:100%;padding:0 20px;letter-spacing:.14em}}
+.ctamicro{font-size:13px;line-height:1.7;color:var(--ink3);max-width:46ch;margin:18px auto 0}
+
+/* ---- the five buyer types, named but not a second decision ---- */
+.whofor{margin:46px auto 0;padding-top:28px;border-top:1px solid var(--hair);max-width:840px}
+.whofor .lab{margin-bottom:16px}
+.wf{display:flex;flex-wrap:wrap;gap:9px;justify-content:center}
+.wf span{font-family:var(--sans);font-size:13.5px;font-weight:300;color:var(--ink2);
+ border:1px solid var(--line);border-radius:2px;padding:9px 15px;background:var(--card);white-space:nowrap}
+
+@media(max-width:820px){
+ .vsn,.vsp u,.tln,.ownlink a,.bigcta{font-size:11px}
+ .wf span{font-size:13px;padding:9px 12px}
+ .vsc{padding:26px 22px}
+ .tli{padding:24px 20px}
+}
+
+/* ---- Rev 4.1: the three mandates ---- */
+.seats3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:42px;text-align:left}
+@media(max-width:860px){.seats3{grid-template-columns:1fr;max-width:480px;margin-left:auto;margin-right:auto}}
+.s3{background:var(--card);border:1px solid var(--line);border-top:2px solid var(--teal);
+ border-radius:3px;padding:28px 24px}
+.s3:nth-child(3){border-top-color:#C79A5C}
+.s3n{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
+ color:var(--faint2);display:block;margin-bottom:16px}
+.s3 b{display:block;font-family:var(--ser);font-size:clamp(27px,3.4vw,34px);font-weight:400;
+ color:var(--teal);line-height:1.05;
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.s3:nth-child(3) b{color:#8A6630}
+.s3 u{display:block;text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+ text-transform:uppercase;color:var(--faint2);margin-top:9px;padding-bottom:16px;
+ border-bottom:1px solid var(--hair)}
+.s3 p{font-size:13.5px;line-height:1.72;color:var(--ink3);margin-top:16px}
+@media(max-width:820px){.s3n,.s3 u{font-size:11px}.s3{padding:24px 20px}}
+
+/* ================= Rev 5.0, 17 September 2026 =================
+   The price comparison and the three-mandate detail came off the
+   homepage: anchoring a buyer on $12,000 before they understand the
+   desk is backwards. Both are kept as sections for /buyers and /desks.
+   The six-item list became an actual map, because that is what it was
+   describing. The ramp became four words per step.
+   ============================================================== */
+
+/* ---- the map ---- */
+.maprow{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:26px;
+ align-items:stretch;margin-top:44px;text-align:left}
+.maprow.two{grid-template-columns:1fr 1fr;margin-top:22px}
+@media(max-width:880px){.maprow,.maprow.two{grid-template-columns:1fr;gap:20px}}
+.mapfield{background:var(--deep);border-radius:4px;padding:28px 26px 22px;
+ display:flex;flex-direction:column}
+.mapfield .mapgrid{flex:0 0 auto}
+.mapfield .mapkey{margin-top:auto}
+.mapgrid{display:grid;grid-template-columns:repeat(14,1fr);gap:9px}
+@media(max-width:1080px){.mapgrid{grid-template-columns:repeat(12,1fr)}}
+@media(max-width:560px){.mapgrid{grid-template-columns:repeat(10,1fr);gap:8px}}
+.mapgrid i{display:block;aspect-ratio:1;border-radius:50%;background:rgba(244,241,235,.17)}
+.mapgrid i.k1{background:#5FB5AC}
+.mapgrid i.k2{background:transparent;box-shadow:inset 0 0 0 1.5px rgba(244,241,235,.5)}
+.mapgrid i.k3{background:#A67C3D;opacity:.65}
+.mapgrid i.k4{background:#8FD4CB;box-shadow:0 0 0 3px rgba(143,212,203,.26)}
+.mapkey{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:24px;padding-top:18px;
+ border-top:1px solid rgba(255,255,255,.14)}
+.mapkey span{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);
+ font-size:11px;letter-spacing:.06em;color:#CBD8D6;line-height:1.7}
+.mapkey i{width:9px;height:9px;border-radius:50%;flex:0 0 9px}
+.mapkey i.k1{background:#5FB5AC}
+.mapkey i.k2{box-shadow:inset 0 0 0 1.5px rgba(244,241,235,.6)}
+.mapkey i.k3{background:#A67C3D}
+.mapkey i.k4{background:#8FD4CB;box-shadow:0 0 0 3px rgba(143,212,203,.3)}
+.mapfield .src{color:#9FB3AF;margin-top:16px}
+
+.mapnotes{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+.mn{background:var(--card);padding:22px 22px}
+.mnn{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+ text-transform:uppercase;color:var(--teal);margin-bottom:10px}
+.mn p{font-size:13.5px;line-height:1.72;color:var(--ink3)}
+
+.mnbig{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:28px 26px}
+.mnbig h3{font-size:21px;font-weight:400;line-height:1.24;margin:0 0 18px}
+.mnbig p{font-size:13.5px;line-height:1.74;color:var(--ink3);margin-top:14px}
+.rangebar{display:flex;align-items:center;gap:14px;margin:6px 0 4px}
+.rblo,.rbhi{font-family:var(--ser);font-size:26px;font-weight:400;color:var(--teal);white-space:nowrap;
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.rbtrack{flex:1 1 auto;height:3px;background:var(--line);position:relative;border-radius:2px}
+.rbtrack i{position:absolute;inset:0;background:linear-gradient(90deg,var(--teal),#C79A5C);border-radius:2px}
+.brk{list-style:none;margin:0}
+.brk li{font-size:13.5px;line-height:1.66;color:var(--ink2);padding:9px 0 9px 20px;position:relative;
+ border-top:1px solid var(--hair)}
+.brk li:first-child{border-top:0}
+.brk li:before{content:"";position:absolute;left:0;top:17px;width:7px;height:1px;background:#C79A5C}
+
+/* ---- the ramp ---- */
+.ramp{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+ border:1px solid var(--line);margin-top:40px}
+@media(max-width:700px){.ramp{grid-template-columns:repeat(2,1fr)}}
+.rs{background:var(--card);padding:26px 18px;text-align:center}
+.rs.on{background:var(--deep)}
+.rs b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+ color:var(--teal);margin-bottom:12px}
+.rs.on b{color:#8FD4CB}
+.rs span{display:block;font-family:var(--ser);font-size:clamp(18px,2.2vw,22px);font-weight:400;
+ line-height:1.22;color:var(--ink)}
+.rs.on span{color:#fff}
+.rampnote{font-size:15px;line-height:1.78;color:var(--ink3);max-width:60ch;margin:28px auto 0}
+.rampnote b{color:var(--ink2);font-weight:400}
+
+@media(max-width:820px){
+ .mapkey span,.mnn,.rs b{font-size:11px}
+ .mapfield{padding:22px 20px 18px}
+ .mn,.mnbig{padding:22px 20px}
+}
+
+/* ---- Rev 5.1: the terms are the trust artifact. No names, no
+   testimonials, nothing that needs written approval. ---- */
+.terms{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:40px}
+.terms span{font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink2);
+ background:var(--card);border:1px solid var(--line);border-radius:2px;padding:14px 20px;white-space:nowrap}
+.terms span.lead{background:var(--deep);border-color:var(--deep);color:#fff;font-weight:400}
+@media(max-width:560px){.terms span{font-size:14px;padding:13px 16px;white-space:normal}}
+.termsnote{font-size:15px;line-height:1.8;color:var(--ink3);max-width:62ch;margin:30px auto 0}
+.termsnote b{color:var(--ink2);font-weight:400}
+
+/* ================= Rev 6.0, 18 September 2026 =================
+   CORRECTION: the previous build carried 3.5x to 7.0x, which is a
+   healthcare SERVICES EBITDA range, on a page about vertical SOFTWARE.
+   Wrong asset class. Replaced with EV/ARR by band, sourced.
+   Visuals rebuilt: the coverage stat is now a benchmark scale a firm
+   can place itself on, the map is a sorting funnel, and the ramp is
+   a curve rather than four boxes.
+   ============================================================== */
+
+/* ---- the benchmark scale ---- */
+.scale{max-width:820px;margin:48px auto 0}
+.scaletrack{position:relative;height:5px;background:rgba(255,255,255,.15);border-radius:3px;margin:64px 0 0}
+.scaletrack .fill{position:absolute;left:0;top:0;bottom:0;width:33.2%;border-radius:3px;
+ background:linear-gradient(90deg,#14706E,#8FD4CB);animation:grow 1.4s cubic-bezier(.22,1,.36,1) both}
+@keyframes grow{from{width:0}}
+@media(prefers-reduced-motion:reduce){.scaletrack .fill{animation:none}}
+.tick{position:absolute;top:50%;transform:translate(-50%,-50%);text-align:center;white-space:nowrap}
+.tick:after{content:"";display:block;width:2px;height:26px;background:rgba(255,255,255,.4);
+ margin:0 auto;position:absolute;left:50%;top:-10px;transform:translateX(-50%)}
+.tick b{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);font-family:var(--ser);
+ font-size:clamp(23px,2.8vw,30px);font-weight:400;color:#fff;line-height:1;
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.tick u{position:absolute;top:26px;left:50%;transform:translateX(-50%);text-decoration:none;
+ font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#BCCBC8}
+.tick.med:after{background:#8FD4CB;height:34px;top:-14px;width:3px}
+.tick.med b{color:#8FD4CB}
+.tick.top{transform:translate(-100%,-50%)}
+.tick.top b,.tick.top u{left:auto;right:0;transform:none}
+.scaleaxis{display:flex;justify-content:space-between;margin-top:64px;padding-top:14px;
+ border-top:1px solid rgba(255,255,255,.12);font-family:var(--mono);font-size:11px;
+ letter-spacing:.08em;color:#9FB3AF}
+@media(max-width:700px){
+ .tick u{font-size:11px;white-space:normal;width:82px;line-height:1.4}
+ .tick b{font-size:20px}
+ .scaleaxis span:nth-child(2){display:none}
+}
+.benchask{font-size:16px;line-height:1.8;color:#CBD8D6;max-width:60ch;margin:34px auto 22px}
+.benchask b{color:#fff;font-weight:400}
+
+/* ---- why deals die ---- */
+.hot{color:var(--bronze);font-style:italic;font-weight:500}
+.figpage .hot,.why .hot{color:#C79A5C}
+.why{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:42px;text-align:left}
+.wr{background:var(--card);display:grid;grid-template-columns:150px minmax(0,1fr);gap:24px;
+ align-items:baseline;padding:24px 26px}
+.wr.lead{background:var(--deep)}
+@media(max-width:640px){.wr{grid-template-columns:1fr;gap:8px;padding:22px 20px}}
+.wn{font-family:var(--ser);font-size:clamp(30px,4vw,40px);font-weight:400;color:var(--teal);line-height:1;
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.wr.lead .wn{color:#C79A5C}
+.wt b{display:block;font-family:var(--ser);font-size:19px;font-weight:400;line-height:1.3;margin-bottom:7px}
+.wr.lead .wt b{color:#fff}
+.wt span{display:block;font-size:13.5px;line-height:1.72;color:var(--ink3)}
+.wr.lead .wt span{color:#CBD8D6}
+
+/* ---- the sorting funnel ---- */
+.funnel{margin-top:44px;display:grid;gap:10px}
+.fl{position:relative;background:var(--card);border:1px solid var(--line);border-radius:3px;
+ padding:22px 26px;overflow:hidden}
+.fl:before{content:"";position:absolute;left:0;top:0;bottom:0;background:rgba(20,112,110,.07);
+ width:calc(var(--w,100) * 1%);transition:width 1s cubic-bezier(.22,1,.36,1)}
+.fl[data-w="100"]{--w:100}.fl[data-w="72"]{--w:72}.fl[data-w="52"]{--w:52}
+.fl[data-w="34"]{--w:34}.fl[data-w="18"]{--w:18}
+.fl.on{background:var(--deep);border-color:var(--deep)}
+.fl.on:before{background:rgba(143,212,203,.16)}
+.fl>*{position:relative;z-index:1}
+.flb{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+ color:var(--faint2);margin-bottom:9px}
+.fl.on .flb{color:#8FD4CB}
+.fl b{display:block;font-family:var(--ser);font-size:21px;font-weight:400;line-height:1.24;margin-bottom:8px}
+.fl.on b{color:#fff}
+.fl p{font-size:13.5px;line-height:1.72;color:var(--ink3);max-width:70ch}
+.fl.on p{color:#CBD8D6}
+
+/* ---- the multiple bands ---- */
+.bands{display:grid;gap:14px;margin:20px 0 6px}
+.bd.out{opacity:.72}
+.bd.out u{color:var(--faint2)}
+.bdout{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:11px;
+ letter-spacing:.1em;text-transform:uppercase;color:var(--faint2);white-space:nowrap}
+.bdout:after{content:"";flex:1 1 auto;height:0;border-top:1px dashed var(--line)}
+@media(max-width:560px){.bdout:after{display:none}}
+.bd{display:grid;grid-template-columns:118px minmax(0,1fr) 88px;gap:14px;align-items:center}
+@media(max-width:560px){.bd{grid-template-columns:1fr;gap:5px}}
+.bd u{text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink3)}
+.bdbar{position:relative;height:8px;background:var(--paper2);border-radius:4px;overflow:hidden}
+.bdbar:after{content:"";position:absolute;top:0;bottom:0;border-radius:4px;
+ left:calc(var(--lo) / 8 * 100%);right:calc(100% - (var(--hi) / 8 * 100%));
+ background:linear-gradient(90deg,var(--teal),#C79A5C)}
+.bd b{font-family:var(--ser);font-size:19px;font-weight:400;color:var(--ink);text-align:right;
+ font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+@media(max-width:560px){.bd b{text-align:left}}
+
+/* ---- what breaks, revealed on scroll ---- */
+.brk li{opacity:0;transform:translateY(8px);transition:opacity .5s ease,transform .5s ease}
+.brk.in li{opacity:1;transform:none}
+.brk.in li:nth-child(1){transition-delay:.05s}
+.brk.in li:nth-child(2){transition-delay:.18s}
+.brk.in li:nth-child(3){transition-delay:.31s}
+.brk.in li:nth-child(4){transition-delay:.44s}
+@media(prefers-reduced-motion:reduce){.brk li{opacity:1;transform:none;transition:none}}
+.brk li b{color:var(--ink);font-weight:400}
+
+/* ---- the curve ---- */
+.curve{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+ border:1px solid var(--line);margin-top:40px;text-align:left;align-items:stretch}
+@media(max-width:760px){.curve{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.curve{grid-template-columns:1fr}}
+.cv{background:var(--card);padding:26px 22px;display:flex;flex-direction:column;position:relative}
+.cv:before{content:"";position:absolute;left:0;right:0;top:0;height:3px;background:var(--teal);
+ transform-origin:left;transform:scaleX(var(--p,.25));opacity:.35}
+.cv:nth-child(1){--p:.25}.cv:nth-child(2){--p:.5}.cv:nth-child(3){--p:.75}.cv:nth-child(4){--p:1}
+.cv.on{background:var(--deep)}
+.cv.on:before{background:#C79A5C;opacity:1}
+.cvd{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+ color:var(--teal);margin-bottom:14px}
+.cv.on .cvd{color:#C79A5C}
+.cv b{display:block;font-family:var(--ser);font-size:22px;font-weight:400;line-height:1.2;margin-bottom:9px}
+.cv.on b{color:#fff}
+.cv p{font-size:13px;line-height:1.66;color:var(--ink3);margin-top:auto}
+.cv.on p{color:#CBD8D6}
+
+/* ---- mandate chips ---- */
+.wf span{display:inline-flex;align-items:center;gap:11px;padding:13px 18px;transition:border-color .22s,transform .22s}
+.wf span i{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--faint2)}
+.wf span:hover{border-color:rgba(20,112,110,.45);transform:translateY(-1px)}
+
+/* ================= Rev 7.0, 18 September 2026 ================= */
+/* smaller, quieter sources everywhere */
+.src{font-size:10.5px!important;line-height:1.75;opacity:.9}
+@media(max-width:820px){.src{font-size:11px!important}}
+
+/* benchmark figure sized with the sentence under it */
+.fig-n{font-size:clamp(64px,10vw,116px)!important;letter-spacing:-.02em}
+
+/* problem / solution */
+.ps{display:flex;align-items:center;justify-content:center;gap:14px;margin-bottom:20px;
+ font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase}
+.ps i{font-style:normal;color:#9C4A3C}
+.ps em{font-style:normal;color:var(--teal)}
+.ps s{text-decoration:none;width:5px;height:5px;border-radius:50%;background:var(--faint2);display:block}
+.psrow{display:grid;grid-template-columns:1fr 44px 1fr;gap:0;align-items:stretch;text-align:left}
+@media(max-width:760px){.psrow{grid-template-columns:1fr;gap:12px}.psarrow{display:none}}
+.psc{padding:22px 24px;border-radius:3px}
+.psc.bad{background:rgba(156,74,60,.06);border:1px solid rgba(156,74,60,.2)}
+.psc.good{background:rgba(20,112,110,.07);border:1px solid rgba(20,112,110,.26)}
+.psc span{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+ margin-bottom:11px}
+.psc.bad span{color:#9C4A3C}.psc.good span{color:var(--teal)}
+.psc p{font-size:14px;line-height:1.72;color:var(--ink3)}
+.psc p b{color:var(--ink2);font-weight:400}
+.psarrow{position:relative}
+.psarrow:before{content:"";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+ width:0;height:0;border-left:11px solid var(--teal);border-top:8px solid transparent;border-bottom:8px solid transparent;opacity:.55}
+
+/* the line she wanted bigger */
+.bigline{font-family:var(--ser);font-size:clamp(20px,2.6vw,27px);line-height:1.44;font-weight:300;
+ color:var(--ink2);max-width:40ch;margin:22px auto 0}
+.bigline b{color:var(--teal);font-weight:400;font-style:italic}
+
+/* funnel: the band narrows left to right, so it reads as a funnel. The tint
+   is light enough that copy sits over it at full contrast, and a hard edge
+   marks where each step ends. */
+.fl:before{left:0;right:auto;border:0;
+ background:linear-gradient(90deg,rgba(20,112,110,.085) 0%,rgba(20,112,110,.085) 78%,rgba(20,112,110,0) 100%)}
+.fl.on:before{background:linear-gradient(90deg,rgba(143,212,203,.15) 0%,rgba(143,212,203,.15) 78%,rgba(143,212,203,0) 100%)}
+.fl>*{max-width:none}
+.fl p{max-width:64ch}
+
+/* true cost */
+.cost{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px;text-align:left}
+@media(max-width:900px){.cost{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.cost{grid-template-columns:1fr}}
+.cc{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:26px 22px}
+.cc.lead{background:var(--deep);border-color:var(--deep)}
+.cc b{display:block;font-family:var(--ser);font-size:clamp(34px,4.6vw,46px);font-weight:400;
+ color:var(--teal);line-height:1;font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1,"tnum" 1}
+.cc.lead b{color:#C79A5C}
+.cc u{display:block;text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+ text-transform:uppercase;color:var(--faint2);margin:12px 0 12px;padding-bottom:12px;border-bottom:1px solid var(--hair)}
+.cc.lead u{color:#BCCBC8;border-bottom-color:rgba(255,255,255,.16)}
+.cc p{font-size:13px;line-height:1.7;color:var(--ink3)}
+.cc.lead p{color:#CBD8D6}
+
+/* what-breaks carousel */
+.cartabs{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0 20px}
+.ct{background:transparent;border:1px solid var(--line);border-radius:2px;padding:8px 12px;cursor:pointer;
+ font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--ink3);min-height:38px;transition:.18s}
+.ct:hover{border-color:rgba(20,112,110,.4);color:var(--teal)}
+.ct.on{background:var(--deep);border-color:var(--deep);color:#fff}
+.carpanes{position:relative}
+.carpanes .brk{display:none}
+.carpanes .brk.on{display:block}
+.carnote{font-size:13px;line-height:1.7;color:var(--ink3);margin-top:16px}
+@media(max-width:820px){.ct{min-height:44px;font-size:11px}}
+
+/* interactive timeline */
+.tlx{max-width:860px;margin:44px auto 0;position:relative}
+#tlr{-webkit-appearance:none;appearance:none;width:100%;background:transparent;position:relative;z-index:3;
+ height:34px;margin:0;cursor:grab}
+#tlr:active{cursor:grabbing}
+#tlr::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;
+ background:#C79A5C;border:3px solid var(--paper);box-shadow:0 2px 8px rgba(12,50,52,.3);cursor:grab}
+#tlr::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#C79A5C;
+ border:3px solid var(--paper);box-shadow:0 2px 8px rgba(12,50,52,.3);cursor:grab}
+#tlr:focus-visible{outline:2px solid var(--teal);outline-offset:4px;border-radius:20px}
+.tlline{position:absolute;left:11px;right:11px;top:16px;height:3px;background:var(--line);border-radius:2px;z-index:1}
+.tlline i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--teal),#C79A5C);
+ border-radius:2px;transition:width .35s cubic-bezier(.22,1,.36,1)}
+.tlmarks{display:flex;justify-content:space-between;margin-top:6px}
+.tlmarks span{font-family:var(--mono);font-size:11px;letter-spacing:.11em;text-transform:uppercase;
+ color:var(--faint2);flex:1;text-align:center;transition:color .25s}
+.tlmarks span:first-child{text-align:left}.tlmarks span:last-child{text-align:right}
+.tlmarks span.on{color:var(--teal)}
+.tlpanes{margin-top:26px;min-height:150px;text-align:left;background:var(--card);
+ border:1px solid var(--line);border-radius:4px;padding:28px 30px}
+.tp{display:none}.tp.on{display:block;animation:fadein .35s ease both}
+@keyframes fadein{from{opacity:0;transform:translateY(6px)}}
+@media(prefers-reduced-motion:reduce){.tp.on{animation:none}}
+.tp b{display:block;font-family:var(--ser);font-size:clamp(22px,2.6vw,27px);font-weight:400;line-height:1.2;margin-bottom:11px}
+.tp p{font-size:14.5px;line-height:1.75;color:var(--ink3)}
+@media(max-width:560px){.tlmarks span{font-size:11px;letter-spacing:.02em}.tlpanes{padding:24px 22px}}
+
+.tn1{color:var(--ink);font-weight:500;font-size:1.05em}
+
+/* ---- Rev 7.1 ---- */
+.fig-n.small{font-size:clamp(50px,7.6vw,86px)!important}
+.tick.med b{color:#E08A6E}
+.tick.med:after{background:#E08A6E}
+.benchask{font-size:clamp(19px,2.4vw,25px);font-family:var(--ser);font-weight:400;
+ color:#fff;margin:36px auto 20px;max-width:none}
+.benchask b{color:#8FD4CB;font-weight:400}
+
+/* cost cards centred so the figures line up */
+.cost{text-align:center}
+.cc{display:flex;flex-direction:column;align-items:center;text-align:center}
+.cc b{min-height:1.05em}
+.cc u{width:100%}
+
+/* arrow bullets instead of dashes */
+.brk li:before{content:"";position:absolute;left:0;top:11px;width:0;height:0;
+ border-left:5px solid #C79A5C;border-top:4px solid transparent;border-bottom:4px solid transparent;background:none}
+.brk li{padding-left:18px;position:relative}
+.sc.out li:before,.tr li:before,.st li:before{content:"";width:0;height:0;
+ border-left:5px solid #C79A5C;border-top:4px solid transparent;border-bottom:4px solid transparent;background:none}
+
+/* interactive terms */
+.terms{gap:8px}
+.tm2{font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink2);cursor:pointer;
+ background:var(--card);border:1px solid var(--line);border-radius:2px;padding:14px 20px;
+ white-space:nowrap;min-height:48px;transition:.2s}
+.tm2:hover{border-color:rgba(20,112,110,.45)}
+.tm2.on{background:var(--deep);border-color:var(--deep);color:#fff}
+.tm2.lead{border-color:rgba(199,154,92,.55)}
+.tm2.lead.on{background:var(--deep);border-color:#C79A5C}
+@media(max-width:560px){.tm2{font-size:14px;padding:13px 15px;white-space:normal}}
+.termpanes{max-width:64ch;margin:26px auto 0;min-height:96px}
+.tpn{display:none;font-size:15px;line-height:1.8;color:var(--ink3)}
+.tpn.on{display:block;animation:fadein .32s ease both}
+.termsnote{margin-top:26px}
+.tn1{font-family:var(--ser);font-size:clamp(20px,2.4vw,26px);font-weight:400;color:var(--ink);line-height:1.34}
+.whonote{font-size:13.5px;line-height:1.75;color:var(--ink3);max-width:64ch;margin:18px auto 0}
+
+/* ---- Rev 8.1: hero conflict rules, owner line, mandate discipline ---- */
+.rules{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+ gap:0 40px;margin:38px auto 0;max-width:980px}
+.rules span{position:relative;font-family:var(--mono);font-size:12.5px;
+ letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);
+ padding:9px 0;white-space:nowrap}
+.rules span+span::before{content:"";position:absolute;left:-20px;top:50%;
+ transform:translateY(-50%);width:1px;height:13px;background:var(--line)}
+@media(max-width:900px){
+ .rules{flex-direction:column;gap:0;max-width:420px;margin-top:32px;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+ .rules span{white-space:normal;width:100%;text-align:center;padding:13px 0;
+  font-size:12px;letter-spacing:.09em;line-height:1.55}
+ .rules span+span{border-top:1px solid var(--line2)}
+ .rules span+span::before{display:none}
+}
+.ownerlink{margin:34px auto 0;font-size:15px;line-height:1.75;color:var(--ink3);max-width:56ch}
+.ownerlink b{font-weight:400;color:var(--ink2)}
+.ownerlink a{color:var(--teal);text-decoration:none;
+ border-bottom:1px solid rgba(20,112,110,.3);padding-bottom:1px;transition:border-color .25s}
+.ownerlink a:hover{border-bottom-color:var(--teal)}
+.ownerlink a s{text-decoration:none;display:inline-block;transition:transform .25s}
+.ownerlink a:hover s{transform:translateX(3px)}
+@media(max-width:560px){.ownerlink{font-size:14px;margin-top:26px}
+ .ownerlink b{display:block;margin-bottom:3px}}
+
+#mandate .wrap{text-align:left}
+.mdgrid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);
+ gap:52px;align-items:start}
+@media(max-width:820px){.mdgrid{grid-template-columns:minmax(0,1fr);gap:32px}}
+#mandate h2{max-width:16ch;margin:16px 0 20px;color:#F4F1EB}
+#mandate h2 em{color:#8FD4CB;font-style:italic}
+.mdlede{font-size:14px;line-height:1.78;font-weight:300;
+ color:rgba(244,241,235,.6);max-width:42ch}
+.mdlist{display:grid;gap:0;border-top:1px solid rgba(255,255,255,.13)}
+.mdi{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px;
+ padding:22px 0;border-bottom:1px solid rgba(255,255,255,.13)}
+.mdi>b{font-family:var(--ser);font-size:19px;font-weight:300;line-height:1.28;
+ color:#8FD4CB;letter-spacing:.02em}
+.mdi strong{display:block;font-family:var(--sans);font-size:13px;font-weight:400;
+ letter-spacing:.005em;color:#F4F1EB;margin-bottom:7px}
+.mdi p{font-size:13px;line-height:1.72;font-weight:300;
+ color:rgba(244,241,235,.6);max-width:54ch}
+@media(max-width:560px){
+ .mdlede{font-size:13px}
+ .mdi{gap:14px;padding:18px 0}
+ .mdi>b{font-size:17px}
+ .mdi strong{font-size:12.5px}
+ .mdi p{font-size:12.5px}
+}
+
+
+
+/* ================= Rev 8.1, 23 September 2026 =================
+   Type floor, last word in the sheet so nothing later undercuts it.
+   Plus the desk-tile fix: title row held at a fixed height so the
+   status label lands at the same place whether the title wraps or not. */
+.src,.src *{font-size:11px!important}
+.ndh{font-size:11px!important}
+.cta,a.cta,.nv a.cta,.mastcta,.btn{font-size:11px!important}
+.whofor .lab{font-size:11px!important;letter-spacing:.2em}
+.dkf{display:grid;grid-template-rows:minmax(2.8em,auto) auto auto;align-content:center;justify-items:center}
+@media(max-width:820px){.dkf{grid-template-rows:minmax(4.2em,auto) auto auto}}
+@media(max-width:360px){.dkf{grid-template-rows:minmax(4.2em,auto) auto auto}}
+
+/* ================= Rev 8.6, 24 September 2026 =================
+   The 11px floor, finished. Measured every text node and pseudo-element on
+   all pages at 1440, 1024, 820, 560, 390 and 320, hidden menus included.
+   Five items were still under 11px: the menu eyebrows (8px), the desk-family
+   labels in the Desk menu (8.5px), the Open / Not yet open hover label in the
+   Desk menu (7px), the Open / Not yet open chip on the desk tiles (10px) and
+   the booking link on desktop (10px). All five are 11px from here. This block
+   stays last so nothing above can win on source order. */
+.ndh,#dkhead,.dkfam,.dkrow u,.dkkey,.booklink{font-size:11px!important}
+.ndp .dkall span{display:inline-block;margin-left:6px}
+.dkf:after,.dk .dkf:after,.dk.soon .dkf:after{font-size:11px!important}
+/* landing only: the stat-tile captions were 9px on desktop */
+.tm u{font-size:11px!important;letter-spacing:.1em;line-height:1.6}
+.dkfam{letter-spacing:.12em}
+#dkhead{letter-spacing:.08em}
+/* At 11px the hover label would reserve its width on every row and force the
+   desk names to wrap. It now takes no space until the row is hovered or
+   focused. Touch widths still hide it entirely (the !important rule above). */
+.dkrow u{letter-spacing:.08em;display:none;opacity:.85}
+.dkrow:hover u,.dkrow:focus-visible u{display:inline}
 </style></head><body>
 
 <!-- TAPE -->
@@ -594,7 +1308,7 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
 
 <!--
   ============================================================================
-  NAVIGATION  -  for Victor
+  NAVIGATION  -  for the developer
   ----------------------------------------------------------------------------
   Four dropdowns and one CTA. Every item opens; nothing is a bare link that
   behaves differently from its neighbours. Every destination is a section that
@@ -614,158 +1328,215 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
   ============================================================================
 -->
 <a id="top"></a>
-<div class="mast"><div class="wrap">
-<a class="lg" href="#top" style="text-decoration:none"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></a>
-<a class="cta mastcta" href="#talk">Request access</a>
-
-</div></div>
-
 <header>
 <canvas id="hbg" aria-hidden="true"></canvas>
 <div class="wrap hin">
-<div class="kick"><span><i>Vertical software</i><i>28 industries</i><i>Twelve specialist desks</i></span></div>
-<h1 id="h1">The M&amp;A firm for software the <em>working economy cannot switch off.</em></h1>
-<p class="dek">Many businesses will adopt AI through the software they already use. <b class="cr">Capital <i>Row</i></b> sits at the intersection of that market with the founders who build those systems of record on one side, and the buyers adding AI and embedding payments on top of them on the other.</p>
-<p class="layer">We are the <i>intelligence layer</i> in between, and we know both sides of the deal before either one is ready to talk.</p>
-<p class="scarce">We launch each vertical with <span>three buyers to a desk.</span> When the third seat is taken,<br><b>the desk closes.</b></p>
+<div class="kick"><span><i>Buy-side coverage</i><i>28 industries</i><i>5 desks open</i></span></div>
+<h1 id="h1">The M&amp;A firm for software <em>the working economy cannot switch off.</em></h1>
+<p class="dek">Maintained coverage of one vertical for acquisitive platforms and strategic buyers. The company map, the owner signals, and the questions that decide the price, all of it in hand before a letter of intent rather than after one.</p>
+<div class="rules">
+ <span>One vertical per desk</span>
+ <span>Up to three non-overlapping mandates</span>
+ <span>No shared target pursuit</span>
+</div>
+<p class="ownerlink"><b>Own a vertical software company?</b> <a href="#fill">Request a confidential market read</a></p>
+
 <div class="band">
-<span class="lab xl">Eight live &middot; four opening &middot; three seats to a desk</span>
-<div class="desks">
-<span data-g="rev" data-slug="billing-coding-claims" class="dk" tabindex="0"><span class="dki">
+<span class="lab xl"><span class="status-line">Twelve verticals</span><span class="status-line">Three mandates to a desk</span></span>
+<div class="desks" id="desks">
+<span id="desk-billing-coding-claims" data-g="rev" data-slug="billing-coding-claims" class="dk" tabindex="0"><span class="dki">
 <span class="dkf">Billing, coding &amp; claims</span>
 <span class="dkb">Every payer connection took months to certify. Replace the software and cash slows until they are rebuilt</span></span></span>
-<span data-g="rev" data-slug="denials-clearinghouse" class="dk" tabindex="0"><span class="dki">
+<span id="desk-denials-clearinghouse" data-g="rev" data-slug="denials-clearinghouse" class="dk" tabindex="0"><span class="dki">
 <span class="dkf">Denials &amp; clearinghouse workflow</span>
 <span class="dkb">The rework layer. Where a practice finds out what its billing system actually costs it</span></span></span>
-<span data-g="prac" data-slug="specialty-practice-management" class="dk" tabindex="0"><span class="dki">
-<span class="dkf">Specialty practice management</span>
-<span class="dkb">Switching costs include re-establishing payer relationships</span></span></span>
-<span data-g="rev" data-slug="credentialing-provider-data" class="dk" tabindex="0"><span class="dki">
+<span id="desk-credentialing-provider-data" data-g="rev" data-slug="credentialing-provider-data" class="dk" tabindex="0"><span class="dki">
 <span class="dkf">Credentialing &amp; provider data</span>
 <span class="dkb">A provider who is not credentialed cannot bill. The software holds the clock</span></span></span>
-<span data-g="prac" data-slug="veterinary-practice-software" class="dk" tabindex="0"><span class="dki">
+<span id="desk-specialty-practice-management" data-g="prac" data-slug="specialty-practice-management" class="dk" tabindex="0"><span class="dki">
+<span class="dkf">Specialty practice management</span>
+<span class="dkb">Switching costs include re-establishing payer relationships</span></span></span>
+<span id="desk-veterinary-practice-software" data-g="prac" data-slug="veterinary-practice-software" class="dk" tabindex="0"><span class="dki">
 <span class="dkf">Veterinary practice software</span>
 <span class="dkb">Two diagnostics companies hold most of the vendor layer. The rest is founder-owned, on a short buyer list</span></span></span>
-<span data-g="fleet" data-slug="dispatch-tms-freight-audit" class="dk" tabindex="0"><span class="dki">
-<span class="dkf">Dispatch, TMS &amp; freight audit</span>
-<span class="dkb">Hours of service and fuel tax are filings, not reports</span></span></span>
-<span data-g="fleet" data-slug="fleet-compliance-telematics" class="dk" tabindex="0"><span class="dki">
-<span class="dkf">Fleet compliance &amp; telematics</span>
-<span class="dkb">DOT and FMCSA obligations sit inside the software</span></span></span>
-<span data-g="care" data-slug="behavioural-specialty-health" class="dk" tabindex="0"><span class="dki">
-<span class="dkf">Behavioural &amp; specialty health</span>
-<span class="dkb">Intake, documentation and measurement-based care. What a payer audit actually asks the record to prove</span></span></span>
-<span data-g="prac" data-slug="dental-practice-software" class="dk soon" tabindex="0"><span class="dki">
+<span id="desk-dental-practice-software" data-g="prac" data-slug="dental-practice-software" class="dk soon" tabindex="0"><span class="dki">
 <span class="dkf">Dental practice software</span>
 <span class="dkb">Desk opening &middot; group consolidation decides which systems survive a change of ownership</span></span></span>
-<span data-g="prac" data-slug="aesthetics-med-spa" class="dk soon" tabindex="0"><span class="dki">
-<span class="dkf">Aesthetics &amp; med spa</span>
-<span class="dkb">Desk opening &middot; cash-pay, no payer layer, fastest to read</span></span></span>
-<span data-g="care" data-slug="home-health-hospice" class="dk soon" tabindex="0"><span class="dki">
+<span id="desk-home-health-hospice" data-g="care" data-slug="home-health-hospice" class="dk soon" tabindex="0"><span class="dki">
 <span class="dkf">Home health &amp; hospice software</span>
 <span class="dkb">Desk opening &middot; Medicare-certified, survey-bound</span></span></span>
-<span data-g="care" data-slug="pharmacy-dme-infusion" class="dk soon" tabindex="0"><span class="dki">
+<span id="desk-dispatch-tms-freight-audit" data-g="fleet" data-slug="dispatch-tms-freight-audit" class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Dispatch, TMS &amp; freight audit</span>
+<span class="dkb">Hours of service and fuel tax are filings, not reports</span></span></span>
+<span id="desk-fleet-compliance-telematics" data-g="fleet" data-slug="fleet-compliance-telematics" class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Fleet compliance &amp; telematics</span>
+<span class="dkb">DOT and FMCSA obligations sit inside the software</span></span></span>
+<span id="desk-aesthetics-med-spa" data-g="prac" data-slug="aesthetics-med-spa" class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Aesthetics &amp; med spa</span>
+<span class="dkb">Desk opening &middot; cash-pay, no payer layer, fastest to read</span></span></span>
+<span id="desk-pharmacy-dme-infusion" data-g="care" data-slug="pharmacy-dme-infusion" class="dk soon" tabindex="0"><span class="dki">
 <span class="dkf">Pharmacy, DME &amp; infusion</span>
 <span class="dkb">Desk opening &middot; licence-bound billing and delivery</span></span></span>
+<span id="desk-behavioural-specialty-health" data-g="care" data-slug="behavioural-specialty-health" class="dk soon" tabindex="0"><span class="dki">
+<span class="dkf">Behavioural &amp; specialty health</span>
+<span class="dkb">Intake, documentation and measurement-based care. What a payer audit actually asks the record to prove</span></span></span>
 </div>
 
 <div class="tam">
-<div class="tm lead"><b>~<span class="cu" data-to="2700" data-fmt="int">2,700</span></b><u>SaaS transactions<br>in 2025, up 28%</u></div>
-<div class="tm"><b><span class="cu" data-to="49" data-fmt="int">49</span>%</b><u>of SaaS M&amp;A is<br>vertical software</u></div>
-<div class="tm"><b><span class="cu" data-to="351" data-fmt="int">351</span></b><u>software holdcos<br>with live M&amp;A</u></div>
-<div class="tm"><b><span class="cu" data-to="3" data-fmt="int">3</span></b><u>seats per desk,<br>then it closes</u></div>
+<div class="tm lead"><b>2,784</b><u>SaaS M&amp;A transactions<br>12 months through Q2 2026</u></div>
+<div class="tm"><b>+9.6%</b><u>Q2 2026 deal volume<br>against Q2 2025</u></div>
+<div class="tm"><b>54%</b><u>Vertical software share<br>of SaaS M&amp;A, Q2 2026</u></div>
+<div class="tm"><b>16%</b><u>Healthcare share of vertical<br>SaaS M&amp;A, Q2 2026</u></div>
 </div>
-<p class="src" style="margin-top:18px">Software Equity Group, 2026 Annual SaaS Report and 1Q26 buyer trends &middot; Axial software holding company directory, September 2026 &middot; Industry count, IDC Industry Taxonomy and Worldwide ICT Spending Guide &middot; Seat cap is Capital Row policy</p>
+<p class="src" style="margin-top:18px">Source: <a href="https://softwareequity.com/research/quarterly-saas-report" target="_blank" rel="noopener">Software Equity Group, Q2 2026 SaaS M&amp;A and Public Market Report</a>. The trailing-year count and the quarterly growth rate are different measures, labeled as such; SEG publishes no year-to-date 2026 figure. Industry count, IDC Industry Taxonomy and Worldwide ICT Spending Guide. Desk count and the three-seat cap are Capital Row policy, not published figures. Share figures are for Q2 2026; healthcare uses vertical SaaS deals as its denominator. Industry count: 28 major industries as classified by IDC. Research houses counting at this level report between 18 and 28, each stating the set is representative rather than exhaustive.</p>
 </div>
 </div>
 </header>
 
 <div class="figpage" id="market"><div class="wrap">
-<div class="lab big">The problem, measured</div>
+<div class="lab big">The coverage benchmark</div>
 <div class="fig">
-<div class="fig-n"><span id="ctr">18.4</span><span style="font-size:.4em;vertical-align:.42em">%</span></div>
-<div class="fig-t">median market coverage among the private equity firms in the SPS benchmark. <em>A narrow view of completed deals can leave a buyer with an incomplete market picture.</em></div>
+<div class="fig-n small">1 in 5</div>
+<p class="fig-t">On average a sponsor sees <em>one deal in five</em> of the ones actually available inside its own stated market.</p>
 </div>
-<div class="figaside"><span class="src">Source: <a href="https://www.withintelligence.com/wp-content/uploads/2025/10/sps-origination-benchmark-report-ltm-2025-oct.pdf" target="_blank" rel="noopener">SPS / With Intelligence, Deal Origination Benchmark Report</a>, LTM June 2025. 177 qualified PE firms across eight peer groups. Median 18.4%; top quartile 27.9%. Coverage measures completed deals with a PE buyer and sell-side adviser in relevant industries and size ranges that a firm reviewed; it does not measure all companies in a target market.</span></div>
+
+<div class="scale">
+ <div class="scaletrack">
+  <i class="fill"></i>
+  <span class="tick med" style="left:33.2%"><b>18.4%</b><u>Average</u></span>
+  <span class="tick q1" style="left:50.4%"><b>27.9%</b><u>Top quarter</u></span>
+  <span class="tick top" style="left:100%"><b>55.4%</b><u>Strongest</u></span>
+ </div>
+ <div class="scaleaxis"><span>0%</span><span>Share of available deals seen</span><span>55.4%</span></div>
+</div>
+
+<p class="benchask"><b>Where would your firm land?</b></p>
+<p class="src cen" style="max-width:800px;margin-left:auto;margin-right:auto">177 private equity firms, each measured against the industries and deal sizes it says it covers. Coverage is the share of completed deals, with a private equity buyer and a sell-side adviser, that the firm actually saw. SPS / With Intelligence, Deal Origination Benchmark Report, LTM to 30 June 2025.</p>
 </div></div>
 
-<section id="seats"><div class="wrap">
-<div class="ctr">
-<div class="lab big">Take a seat at the table</div>
-<h2 class="cen">Which side of the table <em>do you sit on?</em></h2>
-<p class="sd cen">Where you sit changes the conversation, and what the work is allowed to produce.</p>
+<section class="rule" id="breaks"><div class="wrap ctr">
+<span class="lab big">And the ones you do see</span>
+<h2 class="cen">A quarter of dead deals died on something that was never about the <em class="hot">earnings</em>.</h2>
+<p class="sd cen">Seventy-five letters of intent that were signed and then collapsed. These are the reasons they collapsed, as reported, with earnings problems accounting for barely a fifth.</p>
+<div class="why">
+ <div class="wr lead">
+  <div class="wn">25.3%</div>
+  <div class="wt"><b>A critical finding that had nothing to do with earnings</b><span>A licence, a contract, a customer, a person. Found in diligence, after the letter was signed and the money was already being spent.</span></div>
+ </div>
+ <div class="wr">
+  <div class="wn">21.3%</div>
+  <div class="wt"><b>The earnings were not what was presented</b><span>Adjusted EBITDA did not survive contact with the source documents.</span></div>
+ </div>
+ <div class="wr">
+  <div class="wn">14.7%</div>
+  <div class="wt"><b>The renegotiation that followed</b><span>The finding did not kill the deal. The argument about the price after it did.</span></div>
+ </div>
+ <div class="wr">
+  <div class="wn">29&ndash;159</div>
+  <div class="wt"><b>Days under exclusivity before it died</b><span>Best case a month of a partner's time. Worst case five, plus the diligence bill.</span></div>
+ </div>
 </div>
-<div class="doors d3">
-<a class="dr" href="#talk" data-seat="Builder"><span class="seatn">01</span>
-<span class="dr-n">You built the software</span>
-<h3>I&rsquo;m a builder</h3>
-<p>Find what a buyer&rsquo;s team would find, while the record can still change and before anyone has leverage over the answer.</p>
-<span class="dr-go"><s></s>Continue</span></a>
-<a class="dr" href="#talk" data-seat="Buyer"><span class="seatn">02</span>
-<span class="dr-n">You buy software companies</span>
-<h3>I&rsquo;m a buyer</h3>
-<p>Coverage of one desk, maintained and delivered on a cycle. Three seats, and when the third is taken the desk closes.</p>
-<span class="dr-go"><s></s>Continue</span></a>
-<a class="dr" href="#talk" data-seat="Adviser"><span class="seatn">03</span>
-<span class="dr-n">You represent someone who does</span>
-<h3>I&rsquo;m an adviser</h3>
-<p>You sit on both sides. Your client, your engagement, our record. Non-attest only, and we take no fee in any direction on attested work.</p>
-<span class="dr-go"><s></s>Continue</span></a>
+<div class="note cen" style="text-align:left;border-left-color:var(--teal)">
+ <span class="ps"><i>The problem</i><s></s><em>The solution</em></span>
+ <div class="psrow">
+  <div class="psc bad"><span>Today</span><p><b>Origination and diligence are two separate events</b>, run by different teams, months apart. By the time anyone looks properly the price is on the table and the leverage has already moved.</p></div>
+  <div class="psarrow" aria-hidden="true"></div>
+  <div class="psc good"><span>On a desk</span><p><b>They are one process.</b> The findings that normally surface in week six of exclusivity are on the record before the name reaches you, so you are pricing against them instead of renegotiating after them.</p></div>
+ </div>
+</div>
+<p class="src cen" style="margin-top:20px">Axial, Dead Deal Report, 27 January 2026. Seventy-five broken letters of intent across eight firm types and eight industries. The percentages are separate reported categories and are not summed here.</p>
+</div></section>
+
+
+
+<section class="figpage" id="mandate"><div class="wrap">
+<div class="mdgrid">
+ <div>
+  <span class="lab big">Mandate discipline</span>
+  <h2>Limited by design, and <em>settled before any work begins.</em></h2>
+  <p class="mdlede">Scarcity only means something when the conflict rules are credible. Ours are written down, and they are the reason a seat is worth holding rather than just hard to get.</p>
+ </div>
+ <div class="mdlist">
+  <div class="mdi"><b>01</b><div><strong>Pre-cleared scope</strong><p>Every mandate is separated from the others on the desk by target size, product, geography or strategic objective, agreed in writing before the first piece of work.</p></div></div>
+  <div class="mdi"><b>02</b><div><strong>No overlapping pursuit</strong><p>If two clients could reasonably pursue the same company under the same thesis, we do not accept the second mandate. Not managed, not disclosed and worked around. Declined.</p></div></div>
+  <div class="mdi"><b>03</b><div><strong>No shared work product</strong><p>Company-level findings, target pursuit and client strategy stay inside the mandate that paid for them. The map of the vertical is common. Everything past it is not.</p></div></div>
+ </div>
+</div></div></section>
+
+<section class="rule" id="cost"><div class="wrap ctr">
+<span class="lab big">What coverage actually costs</span>
+<h2 class="cen">Coverage is not a data problem. It is a <em>time</em> problem.</h2>
+<p class="sd cen">Roughly what one buy-side team spends to get from a filtered list to a signed letter, on a single vertical.</p>
+<div class="cost">
+ <div class="cc"><b>1</b><u>Analyst, full time</u><p>Mapping, outreach, qualifying. The person is $135,000 to $253,000 loaded, and cannot run a process at the same time.</p></div>
+ <div class="cc"><b>12&ndash;18</b><u>Months to vertical depth</u><p>How long before a new hire knows which names are unbuyable and why, rather than adding them to the list again.</p></div>
+ <div class="cc"><b>29&ndash;159</b><u>Days lost per dead deal</u><p>Partner time under exclusivity on a deal that dies, plus the diligence invoices already committed.</p></div>
+ <div class="cc lead"><b>$12k</b><u>A desk, per year</u><p>One vertical already mapped, three mandates, and the diligence view attached before the name reaches you.</p></div>
+</div>
+<p class="src cen" style="margin-top:20px">Compensation range compiled by CT Acquisitions from Glassdoor data, August 2024, for a US M&amp;A associate. Days under exclusivity from Axial, Dead Deal Report, January 2026. The ramp figure is an estimate, not a measurement.</p>
+</div></section>
+
+
+
+
+
+
+
+
+
+<section class="rule" id="fill"><div class="wrap ctr">
+<span class="lab big">Why the phone gets answered</span>
+<h2 class="cen">Your company is not buyer inventory.</h2>
+<p class="sd cen">Owners talk to us because of what we do not ask for. No company-level information reaches a buyer, and no introduction is made, without the owner's express permission.</p>
+<div class="terms" role="tablist">
+ <button class="tm2 on" data-t="0">No documents</button>
+ <button class="tm2" data-t="1">No listing agreement</button>
+ <button class="tm2" data-t="2">No charge</button>
+ <button class="tm2" data-t="3">No obligation</button>
+ <button class="tm2 lead" data-t="4">We say when not to sell</button>
+</div>
+<div class="termpanes">
+ <p class="tpn on" data-t="0">Nothing is requested and nothing is uploaded. The read is built from a structured conversation about the business, its end market and its contracts. An owner who is eleven months from a decision is not handing anyone a data room, and should not be asked to.</p>
+ <p class="tpn" data-t="1">No engagement letter, no exclusivity, no right of first refusal, and no claim on the business if it ever does transact. The read creates no obligation in either direction.</p>
+ <p class="tpn" data-t="2">Not discounted, not credited against something later. Complimentary, because the read is how a vertical gets known, and the coverage is what gets paid for.</p>
+ <p class="tpn" data-t="3">They can act on it, sit on it for three years, or hand it to a banker we will never work with. It is theirs to keep.</p>
+ <p class="tpn" data-t="4">The one that actually earns the next call. Plenty of these businesses should not go to market this year, and the read says so when that is the answer. An owner who has been told to wait tells the other owners in the vertical, which is how a desk fills.</p>
+</div>
+<p class="termsnote"><b class="tn1">A desk is not a list of companies for sale. It is the year spent in a vertical before anyone went to market.</b></p>
+</div></section>
+
+<section class="rule" id="seats"><div class="wrap ctr">
+<span class="lab big">Access</span>
+<h2 class="cen">More looks is the wrong goal. <em>Earlier</em> looks is the right one.</h2>
+<p class="sd cen">You can buy volume anywhere, and your competitors already have. What a desk changes is where in the cycle a name reaches you, and how much is already known about it when it does. Tell us the vertical and the mandate. If a desk is open and yours does not overlap the mandates already seated, we will send the coverage brief.</p>
+<a class="bigcta" href="#talk">Discuss a mandate</a>
+<p class="ctamicro">One business day, read by a person. If your mandate overlaps a seat already taken, we will say so rather than take the meeting.</p>
+<div class="whofor">
+ <span class="lab">Mandates we seat</span>
+ <div class="wf">
+  <span><i>01</i>Permanent capital</span>
+  <span><i>02</i>Sponsor-backed platforms</span>
+  <span><i>03</i>Strategic acquirers</span>
+  <span><i>04</i>Searchers and independent sponsors</span>
+  <span><i>05</i>Lenders and credit</span>
+ </div>
+ <p class="whonote">Three of these hold a desk at any time, and they are not one of each. The seats are chosen so the mandates do not overlap, which can be three sponsors at different sizes, or a sponsor, a strategic and a lender. The brief is written differently for each.</p>
 </div>
 </div></section>
 
-<section class="rule" id="order"><div class="wrap">
-<div class="ctr">
-<div class="lab big">Why the order matters</div>
-<h2 class="cen">The examination happens <em>before</em> the price, not after it.</h2>
-<p class="sd cen twice"><s>The price is set twice.</s> Once before the letter of intent is signed, on <em>what everybody believes.</em> And again during due diligence, on <em>what can actually be proved.</em> <b>We move the evidence in front of the first number, reducing the risk of surprises and repricing during diligence.</b></p>
-</div>
 
-<div class="doors d2flip">
-<div class="fc2" tabindex="0"><div class="fc2i">
-<div class="fc2f"><span class="dr-n">For builders</span><h3>Run the diligence on your own numbers first</h3>
-<p>Retention tied to the billing system, the recurring revenue schedule tied to the ledger and the bank, concentration, founder dependency and ownership of the codebase.</p>
-<span class="dr-go"><s></s>What it costs to find out second</span></div>
-<div class="fc2b"><span class="dr-n dark">For builders</span><h3>The price becomes a discount</h3>
-<p>Found after the letter of intent, the same four findings are leverage rather than diligence items, and the leverage has already changed hands. <b>Whatever a buyer&rsquo;s team would find, you want to be holding it first.</b></p></div>
-</div></div>
-<div class="fc2" tabindex="0"><div class="fc2i">
-<div class="fc2f"><span class="dr-n">For buyers</span><h3>Fast-track origination</h3>
-<p>One hire cannot map a market, and every buyer is chasing the same short list of clean, transactable companies. Coverage puts you in front of qualified targets sooner, with the evidence already run and the end-market read attached.</p>
-<span class="dr-go"><s></s>Does an informed seller cost you?</span></div>
-<div class="fc2b"><span class="dr-n dark">For buyers</span><h3>No. A dead deal costs you</h3>
-<p>Forty-seven per cent of broken letters died in diligence, split almost evenly between quality-of-earnings discrepancies and findings that had nothing to do with earnings. Count the renegotiations those findings triggered and it is sixty-one. <b>A price set on evidence closes. A price set on assertion gets retraded, and a retrade is a coin flip.</b></p></div>
-</div></div>
-</div>
-<p class="src cen" style="margin-top:16px">Axial, Dead Deal Report, 27 January 2026. Seventy-five broken letters of intent across eight firm types and eight industries. Non-QoE diligence findings 25.3 per cent, QoE EBITDA discrepancies 21.3 per cent, renegotiation challenges 14.7 per cent. The 47 and 61 figures are those categories summed by Capital Row, not single figures published by Axial</p>
-</div></section>
 
-<section class="rule tenth" id="tenth"><div class="wrap ctr">
-<div class="lab big">The tenth dimension</div>
-<h2 class="cen big10">Nine of the ten things that set the price are already published.</h2>
-<h2 class="cen big10 bz tenline">The tenth is ours.</h2>
-<p class="sd cen">Retention, net retention, churn, recurring share, margin, concentration, founder dependency, sales efficiency and evidence quality. Every competent adviser runs those nine, and every one of them is winnable with time.</p>
-<div class="tenbox">
-<div class="ten-n">10</div>
-<div class="ten-t"><b>End-market durability.</b> Who is consolidating your customers&rsquo; industry, how fast they are moving, and what they do to the software after a closing. <b>Pricing it requires</b> knowing the services market as well as the software one. It is the dimension that reprices a deal ninety days after a letter of intent, and it is the reason to call us.</div>
-</div>
-</div></section>
 
-<section class="rule" id="bench"><div class="wrap ctr">
-<div class="lab big benchlab">The bench</div>
-<h2 class="cen">Every desk has a bench.<br><em>Every deal has a principal.</em></h2>
 
-<p class="sd cen benchlead">Every desk draws on three advisory roles, selected for that vertical rather than a general panel. These are separate from the three buyer seats. <b>An accountant</b> who has examined recurring-revenue businesses in that end market, so the revenue-quality read is not generic. <b>Counsel</b> who has worked on software contracts and that vertical&rsquo;s regulator, so change-of-control exposure is found before a buyer&rsquo;s lawyer finds it. <b>An operator</b> who has run a company there, so we know whether the software is load-bearing or merely installed.</p>
-<p class="sd cen" style="margin-top:18px">The principal carries the end-market read and every buyer conversation. The bench carries the vertical. Neither is outsourced to the other.</p>
-</div></section>
+
 
 
 
 <section class="alt" id="talk"><div class="wrap">
 <div class="ctr">
 <div class="lab big">Request access</div>
-<h2 id="ch" class="cen prewrap">Which side of the table do you sit on?</h2>
-<p class="sd cen" id="cd">The seat informs what the conversation is about, and what the work is permitted to produce. <b>We use your inquiry to respond to you. Please keep sensitive details out of this form.</b> Read by a person, usually the same day.</p>
+<h2 id="ch" class="cen prewrap">Tell us what you are working on.</h2>
+<p class="sd cen" id="cd">Tell us what you are working on and where you need clarity. We will respond to discuss fit and the next step.</p>
 </div>
 
 <form class="frm" id="f" onsubmit="return go(event)">
@@ -773,34 +1544,21 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
 <option value="">Select one</option>
 <option value="Builder">I build the software</option>
 <option value="Buyer">I buy software companies</option>
-<option value="Adviser">I advise someone who does</option>
+<option value="Adviser">I advise founders or acquirers</option>
 </select></div>
 <div class="fld"><label for="kind" id="kl">What kind</label><select id="kind">
 <option value="">Select the side of the table first</option>
 </select></div>
 <div class="fld"><label for="vert" id="vl">What vertical do you serve</label><select id="vert">
 <option value="">Select one</option>
-<option>Billing, coding &amp; claims</option>
-<option>Denials &amp; clearinghouse workflow</option>
-<option>Specialty practice management</option>
-<option>Credentialing &amp; provider data</option>
-<option>Veterinary practice software</option>
-<option>Dispatch, TMS &amp; freight audit</option>
-<option>Fleet compliance &amp; telematics</option>
-<option>Behavioural &amp; specialty health</option>
-<option>Dental practice software</option>
-<option>Aesthetics &amp; med spa</option>
-<option>Home health &amp; hospice software</option>
-<option>Pharmacy, DME &amp; infusion</option>
-<option>Another vertical, not listed</option>
-</select></div>
+<option>Billing, coding &amp; claims</option><option>Denials &amp; clearinghouse workflow</option><option>Credentialing &amp; provider data</option><option>Dispatch, TMS &amp; freight audit</option><option>Fleet compliance &amp; telematics</option><option>Specialty practice management</option><option>Dental practice software</option><option>Home health &amp; hospice software</option><option>Veterinary practice software</option><option>Aesthetics &amp; med spa</option><option>Pharmacy, DME &amp; infusion</option><option>Behavioural &amp; specialty health</option><option>Another vertical, not listed</option></select></div>
 <div class="fld"><label for="band" id="bl">Recurring revenue</label><select id="band">
 <option value="">Select one</option>
-<option>Under $1M ARR</option>
-<option>$1M to $3M ARR</option>
+<option>Under $3M ARR</option>
 <option>$3M to $10M ARR</option>
 <option>$10M to $25M ARR</option>
-<option>Over $25M ARR</option>
+<option>$25M to $50M ARR</option>
+<option>Over $50M ARR</option>
 <option>Not applicable</option>
 </select></div>
 <div class="fld"><label for="nm">Name</label><input id="nm" required autocomplete="name"></div>
@@ -808,8 +1566,9 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
 <div class="fld"><label for="em">Work email</label><input id="em" type="email" required autocomplete="email"></div>
 <div class="fld"><label for="how">How did you hear about us</label><input id="how" placeholder="A conference, a name, a search"></div>
 <div class="fld"><label for="msg" id="ml">What are you trying to work out</label><textarea id="msg"></textarea></div>
-<button class="btn" type="submit" aria-describedby="email-help">Prepare inquiry email</button>
-<p class="fine" id="email-help" role="status">This opens a draft in your email app. Review it and press Send there to deliver your inquiry. If no draft opens, email team@thecapitalrow.com directly.</p>
+<button class="btn" type="submit">Get connected</button>
+<p class="formmsg" id="formmsg" hidden></p>
+
 </form>
 <p class="fine">Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter.</p>
 <p class="fine dir" id="bookw" hidden><a class="booklink" id="book" target="_blank" rel="noopener">Or pick a time directly &rarr;</a></p>
@@ -818,16 +1577,15 @@ p,.src,.dkf,.dkb,.fc2 h3{overflow-wrap:break-word}
 
 <footer><div class="wrap">
 <div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></div>
-<div class="src" style="margin-top:5px">Every number traced to a source document.</div>
+<div class="src" style="margin-top:5px">The vertical, already known.</div>
 <div class="fr"></div>
 <div class="fgrid"><p>Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not represent businesses for sale, and it does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation.</p>
-<p><b>Nothing on this site satisfies, meets, fulfills or discharges any lender or SBA requirement,</b> and nothing here represents that a lender will accept any report in place of one it commissions itself. General information only, and not legal, tax or accounting advice.</p></div>
-<p style="margin-top:22px;color:var(--faint)">&copy; 2026 Capital Row. All rights reserved. <span style="margin-left:14px;font-family:var(--mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase">Rev 2.1 &middot; 16 September 2026</span></p>
+<p><b>Engagement scope is agreed in writing.</b> Our work supports transaction preparation and decision-making. Any lender-required valuation or assurance work is separately scoped and commissioned. General information only; not legal, tax or accounting advice.</p></div>
+<p style="margin-top:22px;color:var(--faint)">&copy; 2026 Capital Row. All rights reserved. <span style="margin-left:14px;font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase">Rev 8.2 buy-side &middot; 24 September 2026</span></p>
 </div></footer>
 
 <script>
 /* Scheduling. Leave a seat empty and no link is offered for it.
-   Every current Calendly event type is AHC or Behavioral Blueprints branded, so none is wired here.
    Fill these only with Capital Row event types. */
 var CALENDLY={'Builder':'','Buyer':'','Adviser':''};
 function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.value]:'';
@@ -837,13 +1595,28 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
  if(seq&&run){var c=seq.cloneNode(true);c.removeAttribute("id");c.setAttribute("aria-hidden","true");run.appendChild(c);}})();
 
 (function(){var el=document.getElementById('h1');if(!el)return;
- var parts=[['The',0],['M&A',0],['firm',0],['for',0],['software',0],['the',0],
-            ['working',1],['economy',1],['cannot',1],['switch',1],['off.',1]];
- var html='';
+ /* third field breaks the line after that word, so "moves." never orphans */
+ var parts=[['The',0,0],['M&A',0,0],['firm',0,0],['for',0,0],['software',0,1],
+            ['the',0,0],['working',1,0],['economy',1,0],['cannot',1,0],
+            ['switch',1,0],['off.',1,0]];
+ /* Reveal a LINE at a time, not a word at a time. Eleven words each rising
+    on its own delay put five words of one line at five different heights
+    mid-animation, which read as ragged rather than as a wave. The third
+    field marks the last word of a line. */
+ var lines=[[]];
  for(var i=0;i<parts.length;i++){
-  var w=parts[i][0],em=parts[i][1];
-  var inner=em?'<em>'+w+'</em>':w;
-  html+='<span class="w" style="animation-delay:'+(0.12+i*0.062).toFixed(3)+'s">'+inner+'</span> ';}
+  lines[lines.length-1].push(parts[i]);
+  if(parts[i][2]&&i<parts.length-1)lines.push([]);
+ }
+ var html='';
+ for(var L=0;L<lines.length;L++){
+  var inner='';
+  for(var j=0;j<lines[L].length;j++){
+   var w=lines[L][j][0],em=lines[L][j][1];
+   inner+=(em?'<em>'+w+'</em>':w)+(j<lines[L].length-1?' ':'');
+  }
+  html+='<span class="wl" style="animation-delay:'+(0.08+L*0.13).toFixed(3)+'s">'+inner+'</span>';
+ }
  el.innerHTML=html;})();
 (function(){var sel=document.getElementById('seat'),kind=document.getElementById('kind'),
  h=document.getElementById('ch'),d=document.getElementById('cd'),ml=document.getElementById('ml'),
@@ -864,8 +1637,8 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
 
  /* headline and dek, keyed on the specific kind where we have something to say */
  var M={
- '':['Which side of the table do you sit on?',
-     'Where you sit decides what the conversation is about, and what the work is permitted to produce. We use your inquiry to respond to you. Please keep sensitive details out of this form. Read by a person, usually the same day.',
+ '':['Tell us what you are working on.',
+     'Name the vertical and where you need clarity. A person reads it, usually the same day, and will say plainly if there is no fit.',
      'What are you trying to work out'],
  'Builder':['Find out what a buyer will find, while you can still change it.',
      'Nothing to sign, and no obligation to act on the answer. Plenty of these businesses should not go to market this year, and we will say so. Read by a person, usually the same day.',
@@ -876,9 +1649,9 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
  'Adviser':['Your client, your engagement, our record.',
      'Non-attest work only. We take no fee of any kind on attested work, in any direction. If your client needs an audit, review, compilation or attestation, that goes to an independent firm and we take nothing on it.',
      'What does your client need, and what is the timing'],
- 'Services only, no software':['We should tell you this now.',
-     'Capital Row covers vertical software companies. A services business is outside what our desks are built to read, and we would rather say that here than on a call. If the software question is really a services question, say so below and we will point you somewhere useful.',
-     'Tell us what you are actually working out'],
+ 'Services only, no software':['Different engagement, same evidence.',
+     'The desks cover software vendors, and a desk seat is a subscription we cannot sell you. The read is separate: a one-time engagement on your own business, scoped and priced on its own, using the same evidence standard a buyer will apply. Tell us what you are working out and we will say whether it is worth doing.',
+     'What are you working out, and on what timeline'],
  'Software plus a services arm':['The services line is where the multiple is won or lost.',
      'A services arm is not a problem, but it is the first thing a buyer separates out, and the split decides whether you are priced as software or as a services business with a product. That is a conversation worth having early.',
      'How much of revenue is services, and is it recurring'],
@@ -892,7 +1665,7 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
      'We do not sell coverage seats to single-transaction buyers, and we will say that plainly. What we can do is run the evidence on a target before a letter is priced.',
      'What are you looking at, and where are you in the process'],
  'Lender or credit officer':['Happy to talk. One thing stated up front.',
-     'Nothing we produce satisfies, meets, fulfills or discharges any lender or SBA requirement, and nothing here substitutes for a report your institution commissions itself. What we can discuss is the record a borrower has already built, and what it is and is not good for.',
+     'We can discuss the evidence a borrower has assembled and the questions it helps answer. Any lender-required valuation or assurance work is separately scoped and commissioned.',
      'What are you trying to establish, and on which file']};
 
  function fillKinds(){
@@ -907,7 +1680,7 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
   if(kl)kl.innerHTML=l[0];if(vl)vl.innerHTML=l[1];if(bl)bl.innerHTML=l[2];}
  function copy(){var m=(kind.value&&M[kind.value])||(sel.value&&M[sel.value])||M[''];
   h.classList.add('sw');d.classList.add('sw');
-  setTimeout(function(){h.textContent=m[0];d.textContent=m[1];if(ml)ml.textContent=m[2];
+  setTimeout(function(){h.textContent=m[0];if(m===M['Builder']){h.innerHTML='Find out what a buyer will find, while you can still <em>change</em> it.';}d.textContent=m[1];if(ml)ml.textContent=m[2];
    h.classList.remove('sw');d.classList.remove('sw');},300);}
  function seatChanged(){fillKinds();labels();copy();bookLink();}
 
@@ -925,7 +1698,8 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
 (function(){var ns=document.querySelectorAll('.cu');if(!ns.length)return;
  var red=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
  function fmt(v){return Math.round(v).toLocaleString('en-US');}
- function run(el){var to=parseFloat(el.getAttribute('data-to'))||0;
+ function run(el){if(!el.hasAttribute('data-to'))return;/* no target, leave the text as authored */
+  var to=parseFloat(el.getAttribute('data-to'))||0;
   if(red){el.textContent=fmt(to);return;}
   var t0=null,D=1400;
   function step(ts){if(!t0)t0=ts;var k=Math.min(1,(ts-t0)/D),e=1-Math.pow(1-k,3);
@@ -942,10 +1716,65 @@ function bookLink(){var s=document.getElementById('seat');var u=s?CALENDLY[s.val
   requestAnimationFrame(step);}
  if('IntersectionObserver' in window){var o=new IntersectionObserver(function(es){
   es.forEach(function(x){if(x.isIntersecting){run();o.disconnect();}});},{threshold:.35});o.observe(el);}else{run();}})();
+/* ---------------------------------------------------------------
+   FORM ENDPOINT.  Paste your endpoint between the quotes and the
+   form posts straight to your inbox with no mail client involved.
+   Leave it empty and the form falls back to mailto, exactly as now,
+   so the page is never broken while this is unset.
+   Formspree:   https://formspree.io/f/xxxxxxxx
+   Web3Forms:   https://api.web3forms.com/submit   (also set FORM_KEY)
+------------------------------------------------------------------ */
+var FORM_ENDPOINT='';
+var FORM_KEY='';
+
+function fieldValues(){var v=function(i){var el=document.getElementById(i);return el?el.value:'';};
+ return {name:v('nm'),company:v('co'),email:v('em'),side:v('seat'),kind:v('kind'),
+         vertical:v('vert'),recurring_revenue:v('band'),heard_via:v('how'),message:v('msg')};}
+
+function formStatus(state,text){
+ var box=document.getElementById('formmsg'); if(!box)return;
+ box.className='formmsg '+state; box.textContent=text;
+ box.setAttribute('role', state==='err'?'alert':'status');
+ box.hidden=false;}
+
+function mailtoFallback(d){
+ var body='Name: '+d.name+'\nCompany: '+d.company+'\nEmail: '+d.email+'\nSide: '+d.side+
+  '\nKind: '+d.kind+'\nVertical: '+d.vertical+'\nRecurring revenue: '+d.recurring_revenue+
+  '\nHeard via: '+d.heard_via+'\n\n'+d.message;
+ window.location.href='mailto:team@thecapitalrow.com?subject='+
+  encodeURIComponent('Capital Row \u00B7 '+(d.company||'inquiry'))+'&body='+encodeURIComponent(body);}
+
 function go(e){e.preventDefault();
- var v=function(i){var el=document.getElementById(i);return el?el.value:'';};
- var body='Name: '+v('nm')+'\nCompany: '+v('co')+'\nEmail: '+v('em')+'\nSide: '+v('seat')+'\nKind: '+v('kind')+'\nVertical: '+v('vert')+'\nRecurring revenue: '+v('band')+'\nHeard via: '+v('how')+'\n\n'+v('msg');
- window.location.href='mailto:team@thecapitalrow.com?subject='+encodeURIComponent('Capital Row · '+(v('co')||'inquiry'))+'&body='+encodeURIComponent(body);
+ var d=fieldValues();
+ var btn=document.querySelector('#talk form button[type=submit]');
+
+ /* no endpoint set: behave exactly as before */
+ if(!FORM_ENDPOINT){mailtoFallback(d);return false;}
+
+ /* HubSpot's Forms API wants {fields:[{name,value}]}, not flat JSON.
+    Paste a HubSpot submit URL into FORM_ENDPOINT and this reshapes it. */
+ var payload;
+ if(/hsforms\.com/.test(FORM_ENDPOINT)){
+   payload={fields:Object.keys(d).map(function(k){return {name:k,value:d[k]||''};}),
+            context:{pageUri:location.href,pageName:document.title}};
+ } else if(FORM_KEY){ payload=Object.assign({access_key:FORM_KEY},d);
+ } else { payload=d; }
+ if(btn){btn.disabled=true;btn.dataset.label=btn.textContent;btn.textContent='Sending\u2026';}
+ formStatus('busy','Sending\u2026');
+
+ fetch(FORM_ENDPOINT,{method:'POST',
+   headers:{'Content-Type':'application/json','Accept':'application/json'},
+   body:JSON.stringify(payload)})
+  .then(function(r){
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    /* success is only ever shown after the server actually accepted it */
+    formStatus('ok','Sent. We will reply from team@thecapitalrow.com, usually the same day.');
+    var f=document.querySelector('#talk form'); if(f)f.reset();
+    if(btn){btn.disabled=false;btn.textContent=btn.dataset.label||'Get connected';}})
+  .catch(function(){
+    formStatus('err','That did not send. Opening your mail app instead, or write to team@thecapitalrow.com.');
+    if(btn){btn.disabled=false;btn.textContent=btn.dataset.label||'Get connected';}
+    setTimeout(function(){mailtoFallback(d);},900);});
  return false;}
 var cv=document.getElementById('hbg');
 if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
@@ -1005,11 +1834,18 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
  var mq=window.matchMedia('(max-width:1180px)');
  function shutAll(except){document.querySelectorAll('.nd.open').forEach(function(o){if(o!==except)o.classList.remove('open');});}
  document.querySelectorAll('.nd').forEach(function(d){
-  var t=d.querySelector('.ndt'),tm=null;
-  function open(){shutAll(d);d.classList.add('open');t.setAttribute('aria-expanded','true');}
-  function close(){d.classList.remove('open');t.setAttribute('aria-expanded','false');}
-  t.addEventListener('click',function(e){e.stopPropagation();d.classList.contains('open')?close():open();});
-  d.addEventListener('mouseenter',function(){if(mq.matches)return;clearTimeout(tm);open();});
+  var t=d.querySelector('.ndt'),tm=null,viaHover=false;
+  function open(fromHover){shutAll(d);d.classList.add('open');viaHover=!!fromHover;
+   t.setAttribute('aria-expanded','true');}
+  function close(){d.classList.remove('open');viaHover=false;t.setAttribute('aria-expanded','false');}
+  /* Hover opens the panel on desktop. A click on a panel the pointer already
+     opened must PIN it, not toggle it shut. Before this, hovering then clicking
+     the trigger, which is what most people do, snapped the menu closed. */
+  t.addEventListener('click',function(e){e.stopPropagation();
+   if(!d.classList.contains('open')){open(false);return;}
+   if(viaHover){viaHover=false;return;}
+   close();});
+  d.addEventListener('mouseenter',function(){if(mq.matches)return;clearTimeout(tm);open(true);});
   d.addEventListener('mouseleave',function(){if(mq.matches)return;tm=setTimeout(close,170);});
   d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){close();});});
  });
@@ -1027,7 +1863,7 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
     Change a pill in the page body and this menu follows on the next load. */
  var FAM=[['rev','Revenue cycle'],['prac','Practice & clinic'],
           ['care','Care delivery'],['fleet','Transport & fleet']];
- var BASE='/desks/';           /* <- Victor: swap to '#desk-' to run before the pages exist */
+ var BASE='#desk-';           /* <- developer: swap to '#desk-' to run before the pages exist */
  var pills=document.querySelectorAll('.dk'),open=0,soon=0,by={};
  Array.prototype.forEach.call(pills,function(p){
   var f=p.querySelector('.dkf'); if(!f)return;
@@ -1047,16 +1883,80 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
    a.href=BASE+d.slug;
    a.innerHTML='<i></i><b></b><u></u>';
    a.querySelector('b').textContent=d.name;
-   a.querySelector('u').textContent=d.soon?'Opening':'Open';
+   a.querySelector('u').textContent=d.soon?'Not yet open':'Open';
    blk.appendChild(a);
   });
   board.appendChild(blk);
  });
  var all=document.createElement('a');
- all.className='dkall'; all.href=BASE;
+ all.className='dkall'; all.href='#desks';
  all.innerHTML='All twelve desks <span>&rarr;</span>';
  board.appendChild(all);
- if(head) head.textContent=open+' desks open \u00B7 '+soon+' opening \u00B7 three seats to a desk';
+ if(head) head.textContent=(open+soon)+' verticals \u00B7 '+open+' desks open \u00B7 three mandates to a desk';
 })();
 </script>
+
+<script>
+(function(){
+ document.querySelectorAll('.dk,.fc2').forEach(function(card){
+  var front=card.querySelector('.dkf,.fc2f'),back=card.querySelector('.dkb,.fc2b');
+  if(!front||!back)return;
+  card.setAttribute('role','button');card.setAttribute('tabindex','0');card.setAttribute('aria-pressed','false');
+  var head=front.querySelector('h3,h4,.dkf,.fc2h');var title=(head?head.textContent:front.childNodes[0]&&front.childNodes[0].textContent||'').trim().replace(/\s+/g,' ');
+  [front,back].forEach(function(face,i){var hint=document.createElement('span');hint.className='flip-hint';hint.textContent=i?'Tap to return':'Tap to flip';face.appendChild(hint);});
+  function update(flipped){card.classList.toggle('is-flipped',flipped);card.setAttribute('aria-pressed',String(flipped));
+   front.setAttribute('aria-hidden',String(flipped));back.setAttribute('aria-hidden',String(!flipped));
+   card.setAttribute('aria-label',flipped?back.textContent.trim():title+'. Tap to flip');}
+  card.addEventListener('click',function(){update(!card.classList.contains('is-flipped'));});
+  card.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();update(!card.classList.contains('is-flipped'));}if(e.key==='Escape')update(false);});
+  update(false);
+ });
+ document.querySelectorAll('a[href="#talk"]:not([data-seat])').forEach(function(a){a.addEventListener('click',function(){
+  var seat=document.getElementById('seat');seat.value='';seat.dispatchEvent(new Event('change',{bubbles:true}));
+ });});
+})();
+</script>
+
+
+<script>
+
+(function(){
+ var ts=[].slice.call(document.querySelectorAll('.tm2'));
+ var ps=[].slice.call(document.querySelectorAll('.tpn'));
+ ts.forEach(function(t){t.addEventListener('click',function(){
+  var k=t.getAttribute('data-t');
+  ts.forEach(function(o){o.classList.toggle('on',o===t);});
+  ps.forEach(function(p){p.classList.toggle('on',p.getAttribute('data-t')===k);});});});
+})();
+(function(){
+ var tabs=[].slice.call(document.querySelectorAll('.ct'));
+ var panes=[].slice.call(document.querySelectorAll('.carpanes .brk'));
+ tabs.forEach(function(t){t.addEventListener('click',function(){
+  var d=t.getAttribute('data-d');
+  tabs.forEach(function(o){o.classList.toggle('on',o===t);});
+  panes.forEach(function(p){p.classList.toggle('on',p.getAttribute('data-d')===d);});
+ });});
+})();
+(function(){
+ var r=document.getElementById('tlr');if(!r)return;
+ var fill=document.getElementById('tlfill');
+ var marks=[].slice.call(document.querySelectorAll('.tlmarks span'));
+ var panes=[].slice.call(document.querySelectorAll('.tp'));
+ function draw(){var v=+r.value;
+  fill.style.width=(v/3*100)+'%';
+  marks.forEach(function(m,i){m.classList.toggle('on',i<=v);});
+  panes.forEach(function(p,i){p.classList.toggle('on',i===v);});}
+ r.addEventListener('input',draw); draw();
+})();
+</script>
+<script>
+(function(){
+ if(!('IntersectionObserver' in window))return;
+ var o=new IntersectionObserver(function(es){es.forEach(function(x){
+  if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target);}});},{threshold:.35});
+ document.querySelectorAll('.brk').forEach(function(e){o.observe(e);});
+})();
+</script>
+
+
 </body></html>
