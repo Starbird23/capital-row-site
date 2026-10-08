@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8">
-<script>if(/^https?:$/.test(location.protocol)&&location.pathname!=="/"){try{history.replaceState(null,"","/"+location.search+((/^\/(report|pre-market-assessment|preqoe|reserve)\/?$/.exec(location.pathname)||[])[1]?"#"+/^\/(report|pre-market-assessment|preqoe|reserve)/.exec(location.pathname)[1].replace("preqoe","pre-market-assessment"):location.hash));}catch(e){}}</script>
+<script>if(/^https?:$/.test(location.protocol)&&location.pathname!=="/"){try{history.replaceState(null,"","/"+location.search+((/^\/(report|pre-market-assessment|preqoe|reserve|privacy|terms)\/?$/.exec(location.pathname)||[])[1]?"#"+/^\/(report|pre-market-assessment|preqoe|reserve|privacy|terms)/.exec(location.pathname)[1].replace("preqoe","pre-market-assessment"):location.hash));}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Capital Row: the M&amp;A firm for software the working economy cannot switch off</title>
 <meta name="description" content="The M&amp;A firm for software the working economy cannot switch off. Deal intelligence and financials traced to source, before the letter of intent.">
@@ -2106,10 +2106,11 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <div class="fld"><label for="pqnm">Name</label><input id="pqnm" required autocomplete="name"></div>
 <div class="fld"><label for="pqem">Work email</label><input id="pqem" type="email" required autocomplete="email"></div>
 <div class="fld"><label for="pqco">Company</label><input id="pqco" autocomplete="organization"></div>
-<div class="fld"><label for="pqph">Phone, optional</label><input id="pqph" type="tel" autocomplete="tel"></div>
+<div class="fld"><label for="pqph">Mobile number, optional</label><input id="pqph" type="tel" inputmode="tel" autocomplete="tel"></div>
 <div class="fld"><label for="pqsec">Sector</label><select id="pqsec"><option value="">Select one</option></select></div>
 <div class="fld"><label for="pqkind">Kind of business</label><select id="pqkind"><option value="">Select one</option><option>Vertical software, SaaS</option><option>Services</option><option>Hybrid models</option></select></div><div class="fld"><label for="pqrev">Annual revenue</label><select id="pqrev"><option value="">Select one</option><option>Under $3M</option><option>$3M to $10M</option><option>$10M to $25M</option><option>$25M to $50M</option><option>Over $50M</option><option>Prefer not to say</option></select></div><div class="fld"><label for="pqwhen">When you plan to go to market</label><select id="pqwhen"><option value="">Select one</option><option>Within 6 months</option><option>6 to 12 months</option><option>12 to 24 months</option><option>No date yet</option></select></div><div class="fld wide"><label for="pqfin">Who prepares your financial statements</label><select id="pqfin"><option value="">Select one</option><option>In-house</option><option>Outside bookkeeper</option><option>CPA firm</option><option>Not sure</option></select></div>
 <div class="fld wide"><label for="pqmsg">What you want to work out before a buyer looks</label><textarea id="pqmsg"></textarea></div>
+<label class="smsok wide" for="pqsms"><input type="checkbox" id="pqsms" value="yes"><span id="pqsmstext">I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a href="#privacy">Privacy Policy</a> and <a href="#terms">SMS Terms</a>.</span></label>
 <label class="smsok wide" for="pqos"><input type="checkbox" id="pqos" value="yes"><span>Reserve my seat at the owner session on 18 November and send me the playbook.</span></label>
 <button class="btn wide" type="submit">Request a Pre-Market Assessment</button>
 <p class="formnote wide">Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission.</p>
@@ -2133,14 +2134,69 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <div class="fld"><label for="stem">Work email</label><input id="stem" type="email" required autocomplete="email"></div>
 <div class="fld"><label for="stco">Company</label><input id="stco" autocomplete="organization"></div>
 <div class="fld"><label for="strole">I am</label><select id="strole"><option value="">Select one</option><option>An owner</option><option>A CPA or accountant</option><option>An adviser to owners</option><option>A buyer or lender</option><option>Other</option></select></div>
-<div class="fld wide"><label for="stsec">Sector</label><select id="stsec"><option value="">Select one</option></select></div>
+<div class="fld"><label for="stsec">Sector</label><select id="stsec"><option value="">Select one</option></select></div>
+<div class="fld"><label for="stph">Mobile number, optional</label><input id="stph" type="tel" inputmode="tel" autocomplete="tel"></div>
 <div class="fld wide"><label for="stq">One question you want answered, optional</label><textarea id="stq"></textarea></div>
+<label class="smsok wide" for="stsms"><input type="checkbox" id="stsms" value="yes"><span id="stsmstext">I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a href="#privacy">Privacy Policy</a> and <a href="#terms">SMS Terms</a>.</span></label>
 <button class="btn wide" type="submit">Reserve your seat</button>
 <p class="formmsg wide" id="stmsg" hidden></p>
 </form>
 <div class="rptdone" id="stdone" hidden>
 <a class="bigcta" href="#pre-market-assessment">Request a Pre-Market Assessment</a>
 <p class="ctamicro">Your numbers traced to source documents, before a buyer looks.</p>
+</div>
+</div></section>
+
+<section class="rule rptpage scrpage" id="privacy" hidden><div class="wrap">
+<p class="rptback" style="text-align:center"><a href="#top">&larr; Back to Capital Row</a></p>
+<div class="legal">
+<p class="upd">Last updated 2 October 2026</p>
+<h2 style="text-align:left;max-width:none;font-size:clamp(34px,5vw,50px);font-weight:300;margin:10px 0 18px">Privacy Policy</h2>
+<p>This policy explains what Capital Row LLC (&ldquo;Capital Row&rdquo;, &ldquo;we&rdquo;) collects through thecapitalrow.com, how it is used, and the choices you have.</p>
+<h2>What we collect</h2>
+<p>When you complete the form on this site or write to us, we collect what you send: your name, company, work email address, the answers you select, your message and, if you choose to give it, your mobile number and your consent to receive text messages.</p>
+<p>Please do not send financial documents, patient records, protected health information or other confidential information through this site. Sensitive information moves through a controlled workspace, under a signed engagement letter.</p>
+<h2>How we use it</h2>
+<ul>
+<li>To reply to your inquiry and to discuss whether there is a fit.</li>
+<li>To send you the communications you have asked for, including text messages where you have given consent.</li>
+<li>To keep a record of your consent and of our correspondence.</li>
+</ul>
+<h2>Text messages</h2>
+<p>We send text messages only to people who have agreed to receive them. Text messaging originator opt-in data and consent will not be shared with any third parties, excluding aggregators and providers of the text message services. We do not sell, rent or share mobile numbers or text message consent with third parties or affiliates for their marketing. The full program terms are in the <a href="#terms">SMS Terms</a>.</p>
+<h2>Who we share information with</h2>
+<p>We do not sell personal information. We use service providers to host this site and to manage email and contact records, and they process information on our behalf. We disclose information where the law requires it. These categories exclude text messaging originator opt-in data and consent, which are not shared with any third parties.</p>
+<h2>Owner and buyer confidentiality</h2>
+<p>Nothing from an owner&rsquo;s review or assessment reaches a buyer, or anyone else, without the owner&rsquo;s written permission.</p>
+<h2>Your choices</h2>
+<p>You may ask us to correct or delete the information you have sent, or to stop contacting you, by writing to <a href="mailto:team@thecapitalrow.com">team@thecapitalrow.com</a>. To stop text messages, reply STOP to any message.</p>
+<h2>Contact</h2>
+<p>Capital Row LLC, <a href="mailto:team@thecapitalrow.com">team@thecapitalrow.com</a>.</p>
+</div>
+</div></section>
+
+<section class="rule rptpage scrpage" id="terms" hidden><div class="wrap">
+<p class="rptback" style="text-align:center"><a href="#top">&larr; Back to Capital Row</a></p>
+<div class="legal">
+<p class="upd">Last updated 2 October 2026</p>
+<h2 style="text-align:left;max-width:none;font-size:clamp(34px,5vw,50px);font-weight:300;margin:10px 0 18px">SMS Terms</h2>
+<p>These terms apply to text messages sent by Capital Row LLC (&ldquo;Capital Row&rdquo;).</p>
+<h2>The program</h2>
+<p>If you tick the text message box on our form and give a mobile number, you agree to receive marketing text messages from Capital Row LLC, such as market updates and event invitations. Consent is not a condition of any engagement or purchase.</p>
+<h2>Message frequency</h2>
+<p>Message frequency varies.</p>
+<h2>Cost</h2>
+<p>Message and data rates may apply, according to your mobile plan.</p>
+<h2>How to stop</h2>
+<p>Reply STOP to any message to opt out. You will receive one message confirming that you have been unsubscribed, and no further messages after it.</p>
+<h2>Help</h2>
+<p>Reply HELP to any message, or write to <a href="mailto:team@thecapitalrow.com">team@thecapitalrow.com</a>.</p>
+<h2>Carriers</h2>
+<p>Carriers are not liable for delayed or undelivered messages.</p>
+<h2>Privacy</h2>
+<p>Text messaging originator opt-in data and consent will not be shared with any third parties, excluding aggregators and providers of the text message services. See the <a href="#privacy">Privacy Policy</a>.</p>
+<h2>What not to send</h2>
+<p>Please do not send financial documents, patient records, protected health information or other confidential information by text message.</p>
 </div>
 </div></section>
 
@@ -2179,6 +2235,8 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <div class="fld"><label for="nm">Name</label><input id="nm" required autocomplete="name"></div>
 <div class="fld"><label for="co">Company</label><input id="co" autocomplete="organization"></div>
 <div class="fld"><label for="em">Work email</label><input id="em" type="email" required autocomplete="email"></div>
+<div class="fld"><label for="ph">Mobile number, optional</label><input id="ph" type="tel" inputmode="tel" autocomplete="tel"></div>
+<label class="smsok" for="sms"><input type="checkbox" id="sms" name="sms_consent" value="yes"><span id="smstext">I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a href="#privacy">Privacy Policy</a> and <a href="#terms">SMS Terms</a>.</span></label>
 <label class="smsok" for="onfile" id="onfilew" hidden><input type="checkbox" id="onfile" value="yes"><span>Keep my criteria on file and send me notes on my sector.</span></label>
 <label class="smsok" for="osbox" id="osboxw" hidden><input type="checkbox" id="osbox" value="yes"><span>Reserve my seat at the owner session on 18 November and send me the playbook.</span></label>
 <div class="fld"><label for="how">How did you hear about us</label><input id="how" placeholder="A conference, a name, a search"></div>
@@ -2195,7 +2253,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <footer><div class="wrap">
 <div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></div>
 <div class="src" style="margin-top:5px">The vertical, already known.</div>
-<p class="flinks"><a href="#seats">Buyers</a><a href="#fill">Sellers</a><a href="#" data-follow="1">Follow a sector</a><a href="#report">Report a bad or broken deal</a><a href="#talk">Start the conversation</a></p><div class="fr"></div>
+<p class="flinks"><a href="#seats">Buyers</a><a href="#fill">Sellers</a><a href="#" data-follow="1">Follow a sector</a><a href="#report">Report a bad or broken deal</a><a href="#talk">Start the conversation</a><a href="#privacy">Privacy Policy</a><a href="#terms">SMS Terms</a></p><div class="fr"></div>
 <div class="fgrid"><p>Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not represent businesses for sale, and it does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation.</p>
 <p><b>Engagement scope is agreed in writing.</b> Our work supports transaction preparation and decision-making. Any lender-required valuation or assurance work is separately scoped and commissioned. General information only; not legal, tax or accounting advice.</p></div>
 <p style="margin-top:22px;color:var(--faint)">&copy; 2026 Capital Row. All rights reserved.</p>
@@ -2660,7 +2718,7 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
 
  /* ---- 2c. Form screens: the report, the Pre-Market Assessment request and the seat reservation each open as a screen of their own ---- */
  (function(){
-  var SCR=['report','pre-market-assessment','reserve'],cur='';
+  var SCR=['report','pre-market-assessment','reserve','privacy','terms'],cur='';
   function route(){
    if(location.hash==='#broken-report'){try{history.replaceState(null,'','#report');}catch(e){}}
    if(location.hash==='#preqoe'){try{history.replaceState(null,'','#pre-market-assessment');}catch(e){}}
@@ -2678,6 +2736,7 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
    Array.prototype.forEach.call(vert.options,function(o){var t=o.text;if(!t||/^Select/.test(t))return;var n=document.createElement('option');n.textContent=t;sec.appendChild(n);});});
   Array.prototype.forEach.call(document.querySelectorAll('a[data-pqkind]'),function(a){a.addEventListener('click',function(){var k=$('pqkind');if(k)k.value=a.getAttribute('data-pqkind');});});
   function v(i){var e=$(i);return e?(e.value||'').trim():'';}
+  function sms(id){var c=$(id),t=$(id+'text');return (c&&c.checked)?{time:new Date().toISOString(),wording:t?t.textContent.trim():''}:null;}
   function wire(formId,msgId,doneId,kind,read,okText){
    var f=$(formId),msg=$(msgId),done=$(doneId); if(!f||!msg) return;
    function say(cls,t){msg.className='formmsg wide '+cls;msg.textContent=t;msg.setAttribute('role',cls==='err'?'alert':'status');msg.hidden=false;}
@@ -2685,16 +2744,17 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
     var d=read(); 
     if(!d.name){say('err','Add your name.');f.querySelector('input').focus();return;}
     if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)){say('err','Add a work email address.');f.querySelector('input[type=email]').focus();return;}
+    if(d.sms&&!String(d.phone||'').replace(/\D/g,'')){say('err','Add a mobile number, or clear the text message box.');f.querySelector('input[type=tel]').focus();return;}
     var btn=f.querySelector('button[type=submit]'); if(btn)btn.disabled=true;
     say('busy','Sending…');
     hsSubmit(kind,d,function(pv){say('ok',okText+(pv?' (Preview: nothing was sent.)':''));f.reset();if(btn)btn.disabled=false;if(done)done.hidden=false;},
      function(){say('err','That did not send. Please write to team@thecapitalrow.com.');if(btn)btn.disabled=false;});
    });
   }
-  wire('pqf','pqmsgbox','pqdone','Pre-Market Assessment request',function(){return {name:v('pqnm'),email:v('pqem'),company:v('pqco'),phone:v('pqph'),sector:v('pqsec'),kind:v('pqkind'),revenue_band:v('pqrev'),
+  wire('pqf','pqmsgbox','pqdone','Pre-Market Assessment request',function(){return {name:v('pqnm'),email:v('pqem'),company:v('pqco'),phone:v('pqph'),sms:sms('pqsms'),sector:v('pqsec'),kind:v('pqkind'),revenue_band:v('pqrev'),
     timing:v('pqwhen'),prepared_by:v('pqfin'),message:v('pqmsg'),owner_session:($('pqos')&&$('pqos').checked)?'yes':'no'};},
    'Received. We will reply from team@thecapitalrow.com within one business day.');
-  wire('stf','stmsg','stdone','Owner session seat',function(){return {name:v('stnm'),email:v('stem'),company:v('stco'),role:v('strole'),sector:v('stsec'),message:v('stq')};},
+  wire('stf','stmsg','stdone','Owner session seat',function(){return {name:v('stnm'),email:v('stem'),company:v('stco'),phone:v('stph'),sms:sms('stsms'),role:v('strole'),sector:v('stsec'),message:v('stq')};},
    'Your seat is reserved. The session link and the playbook will come from team@thecapitalrow.com.');
  })();
 
@@ -2797,7 +2857,10 @@ function hsFields(kind,d){
  var nm=(d.name||'').trim(),sp=nm.indexOf(' ');
  add('email',d.email);add('firstname',sp>0?nm.slice(0,sp):nm);add('lastname',sp>0?nm.slice(sp+1):'');
  /* "Company name" on a HubSpot form can be the contact's field or the company record's field: send both */
- add('company',d.company);add('name',d.company,'0-2');add('phone',d.phone);
+ var mob=d.phone||d.mobile;
+ /* text message consent: the contact form gives it as fields, the other forms as one object */
+ var sms=d.sms||(d.sms_consent==='yes'?{time:d.sms_consent_time,wording:d.sms_consent_wording}:null);
+ add('company',d.company);add('name',d.company,'0-2');add('phone',mob);add('mobilephone',mob);
  if(kind==='Conversation'){
   L.push(['Side',d.side,'cr_side'],['Kind',d.kind,'cr_kind'],['Sector',d.vertical,'cr_sector'],['Recurring revenue',d.recurring_revenue,'cr_revenue_band'],['Heard via',d.heard_via,'cr_heard_via']);
   if(d.side==='Buyer'){L.push(['Criteria on file',yn(d.criteria_on_file)]);add('cr_criteria_on_file',d.criteria_on_file==='yes'?'true':'false');}
@@ -2827,7 +2890,9 @@ function hsFields(kind,d){
  L.forEach(function(r){if(r[2])add(r[2],r[1]);});
  var lines=L.filter(function(r){return has(r[1]);}).map(function(r){return r[0]+': '+String(r[1]).trim();});
  if(has(d.company))lines.push('Company: '+String(d.company).trim());
- if(has(d.phone))lines.push('Phone: '+String(d.phone).trim());
+ if(has(mob))lines.push('Mobile: '+String(mob).trim());
+ if(kind==='Conversation'||kind==='Pre-Market Assessment request'||kind==='Owner session seat')
+  lines.push('Text message consent: '+(sms?'Yes, '+sms.time+'. Wording shown: '+sms.wording:'No'));
  add('message',(has(free)?String(free).trim()+'\n\n':'')+lines.join('\n'));
  return f;
 }
@@ -2866,6 +2931,8 @@ var HS_FAIL='That did not send. Please write to team@thecapitalrow.com.';
 /* the contact form */
 window.go=function(e){e.preventDefault();
  var d=fieldValues(),form=document.getElementById('f'),btn=form?form.querySelector('button[type=submit]'):null;
+ /* text message consent needs a number to apply to; the box is never required */
+ if(d.sms_consent==='yes'&&!String(d.mobile||'').replace(/\D/g,'')){formStatus('err','Add a mobile number, or clear the text message box.');var p=document.getElementById('ph');if(p)p.focus();return false;}
  if(btn){btn.disabled=true;}
  formStatus('busy','Sending…');
  hsSubmit('Conversation',d,function(pv){
