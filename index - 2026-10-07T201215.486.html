@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head>
 <meta charset="utf-8">
-<script>if(/^https?:$/.test(location.protocol)&&location.pathname!=="/"){try{history.replaceState(null,"","/"+location.search+((/^\/(report|pre-market-assessment|preqoe|reserve)\/?$/.exec(location.pathname)||[])[1]?"#"+/^\/(report|pre-market-assessment|preqoe|reserve)/.exec(location.pathname)[1].replace("preqoe","pre-market-assessment"):location.hash));}catch(e){}}</script>
+<script>if(/^https?:$/.test(location.protocol)&&location.pathname!=="/"){try{history.replaceState(null,"","/"+location.search+(/^\/report\/?$/.test(location.pathname)?"#report":location.hash));}catch(e){}}</script>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Capital Row: the M&amp;A firm for software the working economy cannot switch off</title>
 <meta name="description" content="The M&amp;A firm for software the working economy cannot switch off. Deal intelligence and financials traced to source, before the letter of intent.">
@@ -1591,7 +1591,7 @@ header.inner .ownerlink{margin-left:0}
 .smsok[hidden]{display:none}
 /* calculator */
 .bcalc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:14px;align-items:end;max-width:820px;margin:6px auto 0;text-align:left}
-.bcf label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;line-height:1.55;color:#fff;margin-bottom:8px}
+.bcf label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.06em;line-height:1.55;color:#BCCBC8;margin-bottom:8px}
 .bcf input{width:100%;min-height:48px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.24);border-radius:2px;color:#fff;
  font-family:var(--sans);font-size:16px;font-weight:300;padding:10px 14px;-moz-appearance:textfield;appearance:textfield}
 .bcf input::-webkit-outer-spin-button,.bcf input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
@@ -1655,11 +1655,8 @@ header.inner .ownerlink{margin-left:0}
 .rptback{margin:0 0 30px;font-size:13px;letter-spacing:.04em}
 .rptback a{color:var(--teal);text-decoration:none;display:inline-block;padding:10px 0}
 .rptback a:hover{text-decoration:underline;text-underline-offset:4px}
-.rptdone[hidden],.scrpage[hidden]{display:none}
-body.scr>header,body.scr>.figpage,body.scr>section:not(.scrpage),body.scr>.sn,body.scr>.snt,body.scr>.rt{display:none!important}
-.nc{text-transform:none}
-#pre-market-assessment h2,#reserve h2{max-width:none}
-.scrpage .bdfrm+.ctamicro{margin-top:22px}
+.rptdone[hidden],.rptpage[hidden]{display:none}
+body.rpt>header,body.rpt>.figpage,body.rpt>section:not(#report),body.rpt>.sn,body.rpt>.snt,body.rpt>.rt{display:none!important}
 .bdline{font-size:15.5px;line-height:1.7;color:var(--ink2);margin:30px auto 0;max-width:60ch}
 .bdline b{font-weight:500;color:var(--ink)}
 .bdline a{color:var(--teal);text-underline-offset:4px}
@@ -1720,7 +1717,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 </style></head><body>
 
 <a id="top"></a>
-<div class="osbar"><div class="wrap"><span class="ost"><b>Selling in 2027?</b><span class="osm"> What a buyer will find in your 2026 numbers, and how to find it first. Live session, 18 November.</span><span class="osp"> Owner session, 18 November.</span></span><a class="osgo" href="#reserve">Reserve your seat</a></div></div>
+<div class="osbar"><div class="wrap"><span class="ost"><b>Selling in 2027?</b><span class="osm"> What a buyer will find in your 2026 numbers, and how to find it first. Live session, 18 November.</span><span class="osp"> Owner session, 18 November.</span></span><a class="osgo" href="#session">Reserve a place</a></div></div>
 <div class="mast"><div class="wrap">
 <a class="lg" href="#top" style="text-decoration:none" aria-label="Capital Row, home"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></a>
 <button class="nvb" id="nvb" type="button" aria-label="Menu" aria-controls="nv" aria-expanded="false"><i></i><i></i><i></i></button>
@@ -1739,7 +1736,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <div class="ndp ndp-wide"><div class="ndh" id="dkhead"></div>
 <div class="dkboard" id="dkboard"></div>
 </div></div>
-<a class="cta" href="#talk">Start the conversation</a>
+<a class="cta" href="#talk">Start a conversation</a>
 </nav>
 </div></div>
 <header>
@@ -1758,7 +1755,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
  <span>Financials traced to source</span>
  <span>Before the letter of intent</span>
 </div>
-<p class="ownerlink"><b>Selling a software company?</b> <a href="#pre-market-assessment">Request a Pre-Market Assessment</a></p>
+<p class="ownerlink"><b>Selling a software company?</b> <a href="#fill">Request a pre-market review</a></p>
 
 <div class="band">
 <span class="lab xl"><span class="status-line">Explore our sector coverage</span></span>
@@ -2040,27 +2037,27 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
  <div class="ac"><u>Source documents</u><b>What supported and unsupported look like</b></div>
  <div class="ac"><u>Before market</u><b>What is worth fixing before you go to market</b></div>
 </div>
-<a class="bigcta" href="#reserve">Reserve your seat</a>
-<p class="ctamicro">Everyone who reserves a seat receives the playbook.</p>
+<a class="bigcta" href="#talk" data-seat="Seller" data-session="1">Reserve a place</a>
+<p class="ctamicro">Everyone who reserves a place receives the playbook.</p>
 </div></section>
 
 <section class="rule" id="fill"><div class="wrap ctr">
 <span class="lab big">For owners &middot; Before the letter of intent</span>
 <h2 class="cen">A valuation is only as strong as <em>the quality of the earnings behind it.</em></h2>
 <p class="sd cen">Find the financial gaps and earnings questions a buyer&rsquo;s diligence will raise, while you still control the timeline. Your numbers traced to source documents, and a findings report that is yours to keep.</p>
-<a class="bigcta" href="#pre-market-assessment">Request a Pre-Market Assessment</a>
+<a class="bigcta" href="#talk" data-seat="Seller">Request a pre-market review</a>
 <p class="ctamicro">Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission.</p>
 <div class="whofor">
  <span class="lab">Owners we work with</span>
  <div class="wf">
-  <a href="#pre-market-assessment" data-pqkind="Vertical software, SaaS"><i>01</i>Vertical software, SaaS</a>
-  <a href="#pre-market-assessment" data-pqkind="Services"><i>02</i>Services</a>
-  <a href="#pre-market-assessment" data-pqkind="Hybrid models"><i>03</i>Hybrid models</a>
+  <a href="#talk" data-seat="Seller" data-kind="Vertical software, SaaS"><i>01</i>Vertical software, SaaS</a>
+  <a href="#talk" data-seat="Seller" data-kind="Services"><i>02</i>Services</a>
+  <a href="#talk" data-seat="Seller" data-kind="Hybrid models"><i>03</i>Hybrid models</a>
  </div>
 </div>
 <p class="termsnote"><b class="tn1">A desk is not a list of companies for sale. It is the year spent in a vertical before anyone went to market.</b></p>
-<a class="bigcta" href="#reserve">Reserve your seat at the owner session</a>
-<p class="ctamicro">Wednesday 18 November, live online. Everyone who reserves a seat receives the playbook.</p>
+<a class="bigcta" href="#talk" data-seat="Seller" data-session="1">Reserve a place at the owner session</a>
+<p class="ctamicro">Wednesday 18 November, live online. Everyone who reserves a place receives the playbook.</p>
 </div></section>
 
 <section class="rule" id="approach"><div class="wrap ctr">
@@ -2070,7 +2067,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <p class="sd cen">Financial preparation here starts with repeatable calculations and evidence that can be traced to its source. Advisers guide the review throughout and lead the last mile of delivery: understanding the business, evaluating adjustments and applying professional judgment.</p>
 <p class="closing">Technology creates capacity. Human expertise turns that capacity into trusted advice.</p>
 <p class="ctamicro">This is non-attest preparation. It is not a quality of earnings report and it does not replace one.</p>
-<a class="bigcta" href="#pre-market-assessment">Request a Pre-Market Assessment</a>
+<a class="bigcta" href="#talk" data-seat="Seller">Request a pre-market review</a>
 </div></section>
 
 <section class="rule" id="broken"><div class="wrap ctr">
@@ -2080,7 +2077,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <a class="bigcta" id="bdopen" href="#report">Report a bad or broken deal</a>
 </div></section>
 
-<section class="rule rptpage scrpage" id="report" hidden><div class="wrap ctr">
+<section class="rule rptpage" id="report" hidden><div class="wrap ctr">
 <p class="rptback"><a href="#broken">&larr; Back to Capital Row</a></p>
 <span class="lab big">For owners &middot; Confidential report</span>
 <h2 class="cen">Report a bad or broken deal.<br><em>Tell us what happened, confidentially.</em></h2>
@@ -2092,61 +2089,14 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <p class="formmsg wide" id="bdmsg" hidden></p>
 </form>
 <div class="rptdone" id="rptdone" hidden>
-<a class="bigcta" href="#reserve">Reserve your seat at the owner session</a>
+<a class="bigcta" href="#talk" data-seat="Seller" data-session="1">Reserve a place at the owner session</a>
 <p class="ctamicro">Wednesday 18 November. What a buyer will find in your 2026 numbers, and how to find it first.</p>
-</div>
-</div></section>
-
-<section class="rule rptpage scrpage" id="pre-market-assessment" hidden><div class="wrap ctr">
-<p class="rptback"><a href="#fill">&larr; Back to Capital Row</a></p>
-<span class="lab big">For owners &middot; Before the letter of intent</span>
-<h2 class="cen">Request a Pre-Market Assessment.<br><em>Before the letter of intent.</em></h2>
-<p class="sd cen">Find the financial gaps and earnings questions a buyer&rsquo;s diligence will raise, while you still control the timeline. Your numbers traced to source documents, and a findings report that is yours to keep.</p>
-<form class="bdfrm" id="pqf" novalidate>
-<div class="fld"><label for="pqnm">Name</label><input id="pqnm" required autocomplete="name"></div>
-<div class="fld"><label for="pqem">Work email</label><input id="pqem" type="email" required autocomplete="email"></div>
-<div class="fld"><label for="pqco">Company</label><input id="pqco" autocomplete="organization"></div>
-<div class="fld"><label for="pqph">Phone, optional</label><input id="pqph" type="tel" autocomplete="tel"></div>
-<div class="fld"><label for="pqsec">Sector</label><select id="pqsec"><option value="">Select one</option></select></div>
-<div class="fld"><label for="pqkind">Kind of business</label><select id="pqkind"><option value="">Select one</option><option>Vertical software, SaaS</option><option>Services</option><option>Hybrid models</option></select></div><div class="fld"><label for="pqrev">Annual revenue</label><select id="pqrev"><option value="">Select one</option><option>Under $3M</option><option>$3M to $10M</option><option>$10M to $25M</option><option>$25M to $50M</option><option>Over $50M</option><option>Prefer not to say</option></select></div><div class="fld"><label for="pqwhen">When you plan to go to market</label><select id="pqwhen"><option value="">Select one</option><option>Within 6 months</option><option>6 to 12 months</option><option>12 to 24 months</option><option>No date yet</option></select></div><div class="fld wide"><label for="pqfin">Who prepares your financial statements</label><select id="pqfin"><option value="">Select one</option><option>In-house</option><option>Outside bookkeeper</option><option>CPA firm</option><option>Not sure</option></select></div>
-<div class="fld wide"><label for="pqmsg">What you want to work out before a buyer looks</label><textarea id="pqmsg"></textarea></div>
-<label class="smsok wide" for="pqos"><input type="checkbox" id="pqos" value="yes"><span>Reserve my seat at the owner session on 18 November and send me the playbook.</span></label>
-<button class="btn wide" type="submit">Request a Pre-Market Assessment</button>
-<p class="formnote wide">Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission.</p>
-<p class="formmsg wide" id="pqmsgbox" hidden></p>
-</form>
-<p class="ctamicro">This is non-attest preparation. It is not a quality of earnings report and it does not replace one.</p>
-<div class="rptdone" id="pqdone" hidden>
-<a class="bigcta" href="#reserve">Reserve your seat at the owner session</a>
-<p class="ctamicro">Wednesday 18 November, live online. Everyone who reserves a seat receives the playbook.</p>
-</div>
-</div></section>
-
-<section class="rule rptpage scrpage" id="reserve" hidden><div class="wrap ctr">
-<p class="rptback"><a href="#session">&larr; Back to Capital Row</a></p>
-<span class="lab big">For owners &middot; Session and playbook</span>
-<h2 class="cen">Selling in 2027?<br><em>Reserve your seat.</em></h2>
-<p class="oswhen"><span>Wednesday 18 November 2026</span><span>10:00 am Pacific &middot; 1:00 pm Eastern</span><span>45 minutes, live online</span></p>
-<p class="sd cen">What a buyer will find in your 2026 numbers, and how to find it first. For owners, and the CPAs who prepare their numbers. Everyone who reserves a seat receives the playbook.</p>
-<form class="bdfrm" id="stf" novalidate>
-<div class="fld"><label for="stnm">Name</label><input id="stnm" required autocomplete="name"></div>
-<div class="fld"><label for="stem">Work email</label><input id="stem" type="email" required autocomplete="email"></div>
-<div class="fld"><label for="stco">Company</label><input id="stco" autocomplete="organization"></div>
-<div class="fld"><label for="strole">I am</label><select id="strole"><option value="">Select one</option><option>An owner</option><option>A CPA or accountant</option><option>An adviser to owners</option><option>A buyer or lender</option><option>Other</option></select></div>
-<div class="fld wide"><label for="stsec">Sector</label><select id="stsec"><option value="">Select one</option></select></div>
-<div class="fld wide"><label for="stq">One question you want answered, optional</label><textarea id="stq"></textarea></div>
-<button class="btn wide" type="submit">Reserve your seat</button>
-<p class="formmsg wide" id="stmsg" hidden></p>
-</form>
-<div class="rptdone" id="stdone" hidden>
-<a class="bigcta" href="#pre-market-assessment">Request a Pre-Market Assessment</a>
-<p class="ctamicro">Your numbers traced to source documents, before a buyer looks.</p>
 </div>
 </div></section>
 
 <section class="alt" id="talk"><div class="wrap">
 <div class="ctr">
-<div class="lab big">Start the conversation</div>
+<div class="lab big">Start a conversation</div>
 <div class="ctaproof">
 <p class="cp2">Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent. For owners, and the CPAs who prepare their numbers, it is the first look at what a buyer&rsquo;s diligence will find, while there is still time to fix it.</p>
 </div>
@@ -2180,7 +2130,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <div class="fld"><label for="co">Company</label><input id="co" autocomplete="organization"></div>
 <div class="fld"><label for="em">Work email</label><input id="em" type="email" required autocomplete="email"></div>
 <label class="smsok" for="onfile" id="onfilew" hidden><input type="checkbox" id="onfile" value="yes"><span>Keep my criteria on file and send me notes on my sector.</span></label>
-<label class="smsok" for="osbox" id="osboxw" hidden><input type="checkbox" id="osbox" value="yes"><span>Reserve my seat at the owner session on 18 November and send me the playbook.</span></label>
+<label class="smsok" for="osbox" id="osboxw" hidden><input type="checkbox" id="osbox" value="yes"><span>Reserve my place at the owner session on 18 November and send me the playbook.</span></label>
 <div class="fld"><label for="how">How did you hear about us</label><input id="how" placeholder="A conference, a name, a search"></div>
 <div class="fld"><label for="msg" id="ml">What are you trying to work out</label><textarea id="msg"></textarea></div>
 <button class="btn" type="submit">Send</button>
@@ -2195,7 +2145,7 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <footer><div class="wrap">
 <div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>Capital <span>Row</span></div>
 <div class="src" style="margin-top:5px">The vertical, already known.</div>
-<p class="flinks"><a href="#seats">Buyers</a><a href="#fill">Sellers</a><a href="#" data-follow="1">Follow a sector</a><a href="#report">Report a bad or broken deal</a><a href="#talk">Start the conversation</a></p><div class="fr"></div>
+<p class="flinks"><a href="#seats">Buyers</a><a href="#fill">Sellers</a><a href="#" data-follow="1">Follow a sector</a><a href="#report">Report a bad or broken deal</a><a href="#talk">Start a conversation</a></p><div class="fr"></div>
 <div class="fgrid"><p>Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not represent businesses for sale, and it does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation.</p>
 <p><b>Engagement scope is agreed in writing.</b> Our work supports transaction preparation and decision-making. Any lender-required valuation or assurance work is separately scoped and commissioned. General information only; not legal, tax or accounting advice.</p></div>
 <p style="margin-top:22px;color:var(--faint)">&copy; 2026 Capital Row. All rights reserved.</p>
@@ -2216,9 +2166,9 @@ button.bigcta{cursor:pointer;font-family:var(--mono)}
 <button class="snt" id="snt" type="button" aria-controls="sn">Follow a sector</button>
 
 <div class="rt" id="rt">
- <div class="rtp" id="rtp" role="dialog" aria-label="Start the conversation" hidden>
+ <div class="rtp" id="rtp" role="dialog" aria-label="Start a conversation" hidden>
   <button class="snx" id="rtx" type="button" aria-label="Close">&times;</button>
-  <span class="lab">Start the conversation</span>
+  <span class="lab">Start a conversation</span>
   <p class="snh">Which side of the table?</p>
   <a href="#talk" data-seat="Buyer">I buy software companies</a>
   <a href="#talk" data-seat="Seller">I own the business</a>
@@ -2645,7 +2595,7 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
   var form=$('f'); if(form) form.addEventListener('reset',function(){setTimeout(sync,0);});
  })();
 
- /* ---- 2b. Owner session box: shown to owners and advisers, shown on the contact form ---- */
+ /* ---- 2b. Owner session box: shown to owners and advisers, ticked by the "Reserve a place" buttons ---- */
  (function(){
   var w=$('osboxw'),c=$('osbox'),seat=$('seat'); if(!w||!c||!seat) return;
   function sync(){var o=seat.value==='Seller'||seat.value==='Adviser';w.hidden=!o;if(!o)c.checked=false;}
@@ -2658,50 +2608,21 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
   var form=$('f'); if(form) form.addEventListener('reset',function(){setTimeout(sync,0);});
  })();
 
- /* ---- 2c. Form screens: the report, the Pre-Market Assessment request and the seat reservation each open as a screen of their own ---- */
- (function(){
-  var SCR=['report','pre-market-assessment','reserve'],cur='';
-  function route(){
-   if(location.hash==='#broken-report'){try{history.replaceState(null,'','#report');}catch(e){}}
-   if(location.hash==='#preqoe'){try{history.replaceState(null,'','#pre-market-assessment');}catch(e){}}
-   var h=location.hash.slice(1),on=SCR.indexOf(h)>=0?h:'';
-   if(on===cur) return;
-   cur=on; document.body.classList.toggle('scr',!!on);
-   SCR.forEach(function(k){var e=$(k);if(e)e.hidden=(k!==on);});
-   if(on){window.scrollTo(0,0);setTimeout(function(){if(cur===on)window.scrollTo(0,0);},60);}
-   else{var t=h?document.getElementById(h):null;
-    if(t){var top=t.getBoundingClientRect().top+window.pageYOffset-96;window.scrollTo(0,top<0?0:top);} else window.scrollTo(0,0);}
-  }
-  window.addEventListener('hashchange',route); route();
-  var vert=$('vert');
-  ['pqsec','stsec'].forEach(function(id){var sec=$(id);if(!sec||!vert)return;
-   Array.prototype.forEach.call(vert.options,function(o){var t=o.text;if(!t||/^Select/.test(t))return;var n=document.createElement('option');n.textContent=t;sec.appendChild(n);});});
-  Array.prototype.forEach.call(document.querySelectorAll('a[data-pqkind]'),function(a){a.addEventListener('click',function(){var k=$('pqkind');if(k)k.value=a.getAttribute('data-pqkind');});});
-  function v(i){var e=$(i);return e?(e.value||'').trim():'';}
-  function wire(formId,msgId,doneId,kind,read,okText){
-   var f=$(formId),msg=$(msgId),done=$(doneId); if(!f||!msg) return;
-   function say(cls,t){msg.className='formmsg wide '+cls;msg.textContent=t;msg.setAttribute('role',cls==='err'?'alert':'status');msg.hidden=false;}
-   f.addEventListener('submit',function(e){e.preventDefault();
-    var d=read(); 
-    if(!d.name){say('err','Add your name.');f.querySelector('input').focus();return;}
-    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)){say('err','Add a work email address.');f.querySelector('input[type=email]').focus();return;}
-    var btn=f.querySelector('button[type=submit]'); if(btn)btn.disabled=true;
-    say('busy','Sending…');
-    hsSubmit(kind,d,function(pv){say('ok',okText+(pv?' (Preview: nothing was sent.)':''));f.reset();if(btn)btn.disabled=false;if(done)done.hidden=false;},
-     function(){say('err','That did not send. Please write to team@thecapitalrow.com.');if(btn)btn.disabled=false;});
-   });
-  }
-  wire('pqf','pqmsgbox','pqdone','Pre-Market Assessment request',function(){return {name:v('pqnm'),email:v('pqem'),company:v('pqco'),phone:v('pqph'),sector:v('pqsec'),kind:v('pqkind'),revenue_band:v('pqrev'),
-    timing:v('pqwhen'),prepared_by:v('pqfin'),message:v('pqmsg'),owner_session:($('pqos')&&$('pqos').checked)?'yes':'no'};},
-   'Received. We will reply from team@thecapitalrow.com within one business day.');
-  wire('stf','stmsg','stdone','Owner session seat',function(){return {name:v('stnm'),email:v('stem'),company:v('stco'),role:v('strole'),sector:v('stsec'),message:v('stq')};},
-   'Your seat is reserved. The session link and the playbook will come from team@thecapitalrow.com.');
- })();
-
- /* ---- 2d. Bad or broken deal report ---- */
+ /* ---- 2c. Broken deal report: opens on request; goes straight to HubSpot ---- */
  (function(){
   var f=$('bdf'),page=$('report'),sec=$('bdsec'),vert=$('vert'),msg=$('bdmsg'),done=$('rptdone'); if(!f||!page) return;
   if(sec&&vert){Array.prototype.forEach.call(vert.options,function(o){var t=o.text;if(!t||/^Select/.test(t))return;var n=document.createElement('option');n.textContent=t;sec.appendChild(n);});}
+  var wasOn=false;
+  function route(){
+   if(location.hash==='#broken-report'){try{history.replaceState(null,'','#report');}catch(e){}}
+   var on=location.hash==='#report';
+   if(on===wasOn) return;
+   wasOn=on; document.body.classList.toggle('rpt',on); page.hidden=!on;
+   if(on){window.scrollTo(0,0);setTimeout(function(){if(wasOn)window.scrollTo(0,0);},60);}
+   else{var t=location.hash.length>1?document.getElementById(location.hash.slice(1)):null;
+    if(t){var top=t.getBoundingClientRect().top+window.pageYOffset-96;window.scrollTo(0,top<0?0:top);} else window.scrollTo(0,0);}
+  }
+  window.addEventListener('hashchange',route); route();
   function v(i){var e=$(i);return e?(e.value||'').trim():'';}
   function say(cls,t){msg.className='formmsg wide '+cls;msg.textContent=t;msg.setAttribute('role',cls==='err'?'alert':'status');msg.hidden=false;}
   f.addEventListener('submit',function(e){e.preventDefault();
@@ -2750,7 +2671,7 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
    if(t){r=t.getBoundingClientRect();if(r.top<innerHeight*.8&&r.bottom>0) return true;}
    return false;}
   function maybe(){
-   if(shown||recent()||document.body.classList.contains('scr')) return;
+   if(shown||recent()||document.body.classList.contains('rpt')) return;
    /* opens when the visitor reaches the buyers section */
    var st=$('seats'),top=st?st.getBoundingClientRect().top:1e9;
    if(top>innerHeight*.6||busy()) return;
@@ -2781,81 +2702,64 @@ if(cv&&!window.matchMedia('(prefers-reduced-motion:reduce)').matches){
 })();
 </script>
 <script>
-/* ===== Every website form goes straight to HubSpot. =====
-   HubSpot keeps only the fields that are on the HubSpot form and silently ignores the rest (checked against the live form, 7 October 2026).
-   So every answer is also written into the Message field, one per line. Nothing depends on the custom fields existing;
-   when they are added to the HubSpot form they start filling by themselves. */
-/* HUBSPOT: form = the form every website form goes into. seat = the form for owner session seats, so HubSpot can send the confirmation by itself.
-   Leave seat as it is and seats go into the first form as well. */
-var HS={portal:'247329185',form:'8e02c346-11f0-4b2d-a17c-a596397264ee',seat:'2252081f-64ac-4259-925b-0bd99f4fb517'};
-function hsId(x){return /^[0-9a-fA-F-]{30,40}$/.test(x||'');}
+/* ===== All three forms go straight to HubSpot. =====
+   One HubSpot form receives all three website forms. A field the HubSpot form does not have yet is not lost:
+   its answer is folded into the details or message field and the submission is sent again. */
+/* HUBSPOT: paste the form ID between the quotes on the next line. Nothing else needs to change. */
+var HS={portal:'247329185',form:'PASTE-HUBSPOT-FORM-ID-HERE'};
+var HS_LABEL={cr_form:'Form',cr_side:'Side',cr_kind:'Kind',cr_sector:'Sector',cr_revenue_band:'Revenue band',cr_heard_via:'Heard via',
+ cr_criteria_on_file:'Criteria on file',cr_owner_session:'Owner session 18 November',cr_sector_followed:'Sector followed',cr_details:'Details',
+ email:'Email',firstname:'First name',lastname:'Last name',company:'Company',message:'Message'};
 function hsFields(kind,d){
- var f=[],L=[['Form',kind,'cr_form']],free='';
- function has(v){return v!==undefined&&v!==null&&String(v).trim()!=='';}
- function add(n,v,ot){if(has(v))f.push({objectTypeId:ot||'0-1',name:n,value:String(v).trim()});}
- function yn(v){return v==='yes'?'Yes':'No';}
+ var f=[];
+ function add(n,v){if(v!==undefined&&v!==null&&String(v).trim()!=='')f.push({objectTypeId:'0-1',name:n,value:String(v).trim()});}
  var nm=(d.name||'').trim(),sp=nm.indexOf(' ');
- add('email',d.email);add('firstname',sp>0?nm.slice(0,sp):nm);add('lastname',sp>0?nm.slice(sp+1):'');
- /* "Company name" on a HubSpot form can be the contact's field or the company record's field: send both */
- add('company',d.company);add('name',d.company,'0-2');add('phone',d.phone);
+ add('email',d.email);add('firstname',sp>0?nm.slice(0,sp):nm);add('lastname',sp>0?nm.slice(sp+1):'');add('company',d.company);
+ add('cr_form',kind);
  if(kind==='Conversation'){
-  L.push(['Side',d.side,'cr_side'],['Kind',d.kind,'cr_kind'],['Sector',d.vertical,'cr_sector'],['Recurring revenue',d.recurring_revenue,'cr_revenue_band'],['Heard via',d.heard_via,'cr_heard_via']);
-  if(d.side==='Buyer'){L.push(['Criteria on file',yn(d.criteria_on_file)]);add('cr_criteria_on_file',d.criteria_on_file==='yes'?'true':'false');}
-  if(d.side==='Seller'||d.side==='Adviser'){L.push(['Owner session seat, 18 November',yn(d.owner_session)]);add('cr_owner_session',d.owner_session==='yes'?'true':'false');}
-  free=d.message;
+  add('cr_side',d.side);add('cr_kind',d.kind);add('cr_sector',d.vertical);add('cr_revenue_band',d.recurring_revenue);add('cr_heard_via',d.heard_via);add('message',d.message);
+  if(d.side==='Buyer')add('cr_criteria_on_file',d.criteria_on_file==='yes'?'true':'false');
+  if(d.side==='Seller'||d.side==='Adviser')add('cr_owner_session',d.owner_session==='yes'?'true':'false');
  }
- if(kind==='Follow a sector'){L.push(['Sector followed',d.sector,'cr_sector_followed']);}
- if(kind==='Pre-Market Assessment request'){
-  L.push(['Side','Seller','cr_side'],['Kind of business',d.kind,'cr_kind'],['Sector',d.sector,'cr_sector'],['Annual revenue',d.revenue_band,'cr_revenue_band'],
-   ['Plans to go to market',d.timing],['Financial statements prepared by',d.prepared_by],['Owner session seat, 18 November',yn(d.owner_session)]);
-  add('cr_owner_session',d.owner_session==='yes'?'true':'false');
-  add('cr_details',[['Plans to go to market',d.timing],['Financial statements prepared by',d.prepared_by]].filter(function(r){return has(r[1]);}).map(function(r){return r[0]+': '+r[1];}).join(' | '));
-  free=d.message;
- }
- if(kind==='Owner session seat'){
-  L.push(['Side',d.role==='An owner'?'Seller':(d.role==='A buyer or lender'?'Buyer':(d.role?'Adviser':'')),'cr_side'],['I am',d.role,'cr_kind'],['Sector',d.sector,'cr_sector'],['Question',d.message]);
-  add('cr_owner_session','true');
- }
+ if(kind==='Follow a sector'){add('cr_sector_followed',d.sector);}
  if(kind==='Bad or broken deal report'){
-  var R=[['Kind of business',d.business_kind],['Annual revenue at the time',d.revenue_band],['Adjusted earnings at the time',d.earnings_band],['Buyer',d.buyer_type],
+  var L=[['Kind of business',d.business_kind],['Annual revenue at the time',d.revenue_band],['Adjusted earnings at the time',d.earnings_band],['Buyer',d.buyer_type],
    ['Adviser on the sale',d.adviser_type],['When',d.year],['How far it got',d.stage],['Days under exclusivity',d.days_exclusive],['What went wrong',d.main_reason],
    ['Price or structure changed',d.price_changed],['Where it stands today',d.outcome],['Prepared before market',d.prepared],['Entity type',d.entity_type],['Real estate',d.real_estate],
-   ['Contracts needing consent',d.consent_contracts],['May contact',yn(d.contact_ok)]];
-  L.push(['Sector',d.sector,'cr_sector']);L=L.concat(R);L.push(['What I would do differently',d.differently]);
-  add('cr_details',R.filter(function(r){return has(r[1]);}).map(function(r){return r[0]+': '+r[1];}).join(' | '));
+   ['Contracts needing consent',d.consent_contracts],['May contact',d.contact_ok]];
+  add('cr_sector',d.sector);
+  add('cr_details',L.filter(function(r){return r[1];}).map(function(r){return r[0]+': '+r[1];}).join(' | '));
+  add('message',d.differently);
  }
- L.forEach(function(r){if(r[2])add(r[2],r[1]);});
- var lines=L.filter(function(r){return has(r[1]);}).map(function(r){return r[0]+': '+String(r[1]).trim();});
- if(has(d.company))lines.push('Company: '+String(d.company).trim());
- if(has(d.phone))lines.push('Phone: '+String(d.phone).trim());
- add('message',(has(free)?String(free).trim()+'\n\n':'')+lines.join('\n'));
  return f;
 }
 function hsSubmit(kind,d,ok,fail){
  if(window.CR_PREVIEW){setTimeout(function(){ok(true);},350);return;}
- var fid=(kind==='Owner session seat'&&hsId(HS.seat))?HS.seat:HS.form;
- if(!hsId(fid)){fail();return;}
- var url='https://api.hsforms.com/submissions/v3/integration/submit/'+HS.portal+'/'+fid,fields=hsFields(kind,d),tries=0;
+ if(!/^[0-9a-fA-F-]{30,40}$/.test(HS.form)){fail();return;}
+ var url='https://api.hsforms.com/submissions/v3/integration/submit/'+HS.portal+'/'+HS.form,fields=hsFields(kind,d),gone=[],tries=0;
  function send(){
   fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fields:fields,context:{pageUri:location.href.split('#')[0],pageName:document.title}})})
   .then(function(r){
-   if(r.ok){
-    /* a seat reserved with the box on another form is also entered on the seat form, so the same confirmation goes out */
-    if(kind!=='Owner session seat'&&d.owner_session==='yes'&&d.email&&hsId(HS.seat)){
-     hsSubmit('Owner session seat',{name:d.name,email:d.email,company:d.company,role:d.side==='Adviser'?'An adviser to owners':'An owner',sector:d.sector||d.vertical,message:''},function(){},function(){});}
-    ok(false);return;}
+   if(r.ok){ok(false);return;}
    return r.json().then(function(j){
-    /* if HubSpot ever refuses a field it does not have, drop that field and send again: the answer is already in the Message */
     var bad=[],miss=false,names=fields.map(function(x){return x.name;});
     ((j&&j.errors)||[]).forEach(function(e){if(e.errorType!=='FIELD_NOT_IN_FORM_DEFINITION')return;miss=true;
      var t=e.message||'',hit=false;
      names.forEach(function(n){if(new RegExp('(^|[^A-Za-z0-9_])'+n+'([^A-Za-z0-9_]|$)').test(t)){hit=true;if(bad.indexOf(n)<0)bad.push(n);}});
      if(!hit)bad.push('?');});
+    /* HubSpot named no field we can match: set aside our own fields first, then the standard ones, and keep the answers in the message */
     if(bad.indexOf('?')>=0){bad=names.filter(function(n){return n.indexOf('cr_')===0;});
      if(!bad.length)bad=names.filter(function(n){return n!=='email'&&n!=='message';});}
-    if(!miss||!bad.length||bad.indexOf('message')>=0||tries>=4){fail();return;}
-    tries++;
-    fields=fields.filter(function(x){return bad.indexOf(x.name)<0;});
+    if(!miss||!bad.length||tries>=4){fail();return;}
+    tries++;gone=gone.concat(bad);
+    var moved=[];
+    fields=fields.filter(function(x){if(bad.indexOf(x.name)<0)return true;moved.push((HS_LABEL[x.name]||x.name)+': '+x.value);return false;});
+    var tgt=gone.indexOf('cr_details')<0?'cr_details':(gone.indexOf('message')<0?'message':null);
+    if(moved.length){
+     if(!tgt){fail();return;}
+     var ex=null;fields.forEach(function(x){if(x.name===tgt)ex=x;});
+     if(ex)ex.value=ex.value+' | '+moved.join(' | ');else fields.push({objectTypeId:'0-1',name:tgt,value:moved.join(' | ')});
+    }
     send();
    },function(){fail();});
   }).catch(function(){fail();});
