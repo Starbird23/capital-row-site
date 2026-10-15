@@ -1,0 +1,123 @@
+{
+ "path": "/privacy/",
+ "seoTitle": "Capital Row: Privacy Policy",
+ "seoDescription": "How Capital Row LLC collects, uses and protects the information you send through this site.",
+ "sections": [
+  {
+   "id": "rule",
+   "name": "Privacy Policy",
+   "items": [
+    {
+     "key": "rule.1",
+     "kind": "Paragraph",
+     "text": "Last updated 14 October 2026"
+    },
+    {
+     "key": "rule.2",
+     "kind": "Page headline",
+     "text": "Privacy Policy"
+    },
+    {
+     "key": "rule.3",
+     "kind": "Paragraph",
+     "text": "This policy explains what Capital Row LLC (“Capital Row”, “we”) collects through thecapitalrow.com, how it is used, and the choices you have."
+    },
+    {
+     "key": "rule.4",
+     "kind": "Section headline",
+     "text": "What we collect"
+    },
+    {
+     "key": "rule.5",
+     "kind": "Paragraph",
+     "text": "When you complete the form on this site or write to us, we collect what you send: your name, company, work email address, the answers you select, your message and, if you choose to give it, your mobile number and your consent to receive text messages."
+    },
+    {
+     "key": "rule.6",
+     "kind": "Paragraph",
+     "text": "Please do not send financial documents, patient records, protected health information or other confidential information through this site. Sensitive information moves through a controlled workspace, under a signed engagement letter."
+    },
+    {
+     "key": "rule.7",
+     "kind": "Section headline",
+     "text": "How we use it"
+    },
+    {
+     "key": "rule.8",
+     "kind": "List item",
+     "text": "To reply to your inquiry and to discuss whether there is a fit."
+    },
+    {
+     "key": "rule.9",
+     "kind": "List item",
+     "text": "To send you the communications you have asked for, including text messages where you have given consent."
+    },
+    {
+     "key": "rule.10",
+     "kind": "List item",
+     "text": "To keep a record of your consent and of our correspondence."
+    },
+    {
+     "key": "rule.11",
+     "kind": "Section headline",
+     "text": "Text messages"
+    },
+    {
+     "key": "rule.12",
+     "kind": "Paragraph",
+     "text": "We send text messages only to people who have agreed to receive them. Text messaging originator opt-in data and consent will not be shared with any third parties, excluding aggregators and providers of the text message services. We do not sell, rent or share mobile numbers or text message consent with third parties or affiliates for their marketing. The full program terms are in the <a>SMS Terms</a>."
+    },
+    {
+     "key": "rule.13",
+     "kind": "Section headline",
+     "text": "Who we share information with"
+    },
+    {
+     "key": "rule.14",
+     "kind": "Paragraph",
+     "text": "We do not sell personal information. We use service providers to host this site and to manage email and contact records, and they process information on our behalf. We disclose information where the law requires it. These categories exclude text messaging originator opt-in data and consent, which are not shared with any third parties."
+    },
+    {
+     "key": "rule.15",
+     "kind": "Section headline",
+     "text": "Cookies"
+    },
+    {
+     "key": "rule.16",
+     "kind": "Paragraph",
+     "text": "This site uses cookies from HubSpot, the service that manages our contact records, to see which pages are read. They are set only if you accept them in the cookie banner. If you decline, or make no choice, the HubSpot script does not load and no HubSpot cookie is set. If you accept and then send a form on this site, HubSpot can connect the pages you read here to the details you send. Your choice is kept in your browser, so the banner does not ask again on every page. You can change it at any time with “Cookie settings” at the foot of every page. Declining stops the HubSpot script from loading on the pages you visit next and removes the HubSpot cookies stored for this site."
+    },
+    {
+     "key": "rule.17",
+     "kind": "Section headline",
+     "text": "Owner and buyer confidentiality"
+    },
+    {
+     "key": "rule.18",
+     "kind": "Paragraph",
+     "text": "Nothing from an owner’s review or assessment reaches a buyer, or anyone else, without the owner’s written permission."
+    },
+    {
+     "key": "rule.19",
+     "kind": "Section headline",
+     "text": "Your choices"
+    },
+    {
+     "key": "rule.20",
+     "kind": "Paragraph",
+     "text": "You may ask us to correct or delete the information you have sent, or to stop contacting you, by writing to <a>team@thecapitalrow.com</a>. To stop text messages, reply STOP to any message."
+    },
+    {
+     "key": "rule.21",
+     "kind": "Section headline",
+     "text": "Contact"
+    },
+    {
+     "key": "rule.22",
+     "kind": "Paragraph",
+     "text": "Capital Row LLC, <a>team@thecapitalrow.com</a>."
+    }
+   ]
+  }
+ ]
+}

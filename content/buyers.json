@@ -1,0 +1,715 @@
+{
+ "path": "/buyers/",
+ "seoTitle": "Capital Row, for buyers: deal intelligence before the letter of intent",
+ "seoDescription": "For buyers of vertical software: businesses that fit your acquisition strategy, relationships with owners, and each opportunity assessed before a letter of intent.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "Volume isn’t the problem. Intelligence is.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Buy-side coverage"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "Vertical software"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "5 desks open"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "Volume isn’t the problem. <em>Intelligence is.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Deal intelligence"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "Financials traced to source"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "Before the letter of intent"
+    },
+    {
+     "key": "inner.10",
+     "kind": "Text",
+     "text": "Financing an acquisition?"
+    },
+    {
+     "key": "inner.11",
+     "kind": "Link",
+     "text": "Discuss acquisition financing"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "name": "Four acquisition routes. Each reads a target differently.",
+   "items": [
+    {
+     "key": "types.1",
+     "kind": "Small label",
+     "text": "For buyers · Which describes you"
+    },
+    {
+     "key": "types.2",
+     "kind": "Section headline",
+     "text": "Four acquisition routes. <em>Each reads a target differently.</em>"
+    },
+    {
+     "key": "types.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "types.4",
+     "kind": "Small label",
+     "text": "Buy to hold"
+    },
+    {
+     "key": "types.5",
+     "kind": "Heading",
+     "text": "Permanent capital and family offices"
+    },
+    {
+     "key": "types.6",
+     "kind": "Paragraph",
+     "text": "With no exit, the end market is the whole case. You carry it for as long as you hold."
+    },
+    {
+     "key": "types.7",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.8",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "types.9",
+     "kind": "Small label",
+     "text": "Platform and add-ons"
+    },
+    {
+     "key": "types.10",
+     "kind": "Heading",
+     "text": "Private equity and platform acquirers"
+    },
+    {
+     "key": "types.11",
+     "kind": "Paragraph",
+     "text": "The return has moved into the add-ons, and the exit buyer will run the end-market work on your customer base."
+    },
+    {
+     "key": "types.12",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.13",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "types.14",
+     "kind": "Small label",
+     "text": "Corporate development"
+    },
+    {
+     "key": "types.15",
+     "kind": "Heading",
+     "text": "Strategic acquirers"
+    },
+    {
+     "key": "types.16",
+     "kind": "Paragraph",
+     "text": "You pay the premium. Outside an industry you operate in, the premium is the risk."
+    },
+    {
+     "key": "types.17",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.18",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "types.19",
+     "kind": "Small label",
+     "text": "One transaction"
+    },
+    {
+     "key": "types.20",
+     "kind": "Heading",
+     "text": "Independent sponsors"
+    },
+    {
+     "key": "types.21",
+     "kind": "Paragraph",
+     "text": "One company, and nothing to average it against. The evidence on a target, before a letter is priced."
+    },
+    {
+     "key": "types.22",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.23",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "types.24",
+     "kind": "Small label",
+     "text": "Financing"
+    },
+    {
+     "key": "types.25",
+     "kind": "Heading",
+     "text": "Lenders and financing partners"
+    },
+    {
+     "key": "types.26",
+     "kind": "Paragraph",
+     "text": "A borrower’s revenue is its customers’ credit, and the distress has moved to the customers."
+    },
+    {
+     "key": "types.27",
+     "kind": "Text",
+     "text": "Read more"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "For buyers · The coverage benchmark",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "For buyers · The coverage benchmark"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "1 in 5"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "The median private equity firm sees fewer than <em>one deal in five</em> of the ones available inside its own stated market."
+    },
+    {
+     "key": "market.4",
+     "kind": "Text",
+     "text": "18.4%"
+    },
+    {
+     "key": "market.5",
+     "kind": "Text",
+     "text": "Median"
+    },
+    {
+     "key": "market.6",
+     "kind": "Text",
+     "text": "27.9%"
+    },
+    {
+     "key": "market.7",
+     "kind": "Text",
+     "text": "Top quarter"
+    },
+    {
+     "key": "market.8",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "market.9",
+     "kind": "Text",
+     "text": "Strongest"
+    },
+    {
+     "key": "market.10",
+     "kind": "Text",
+     "text": "Your firm"
+    },
+    {
+     "key": "market.11",
+     "kind": "Text",
+     "text": "0%"
+    },
+    {
+     "key": "market.12",
+     "kind": "Text",
+     "text": "Share of available deals seen"
+    },
+    {
+     "key": "market.13",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "market.14",
+     "kind": "Paragraph",
+     "text": "Where would your firm land?"
+    },
+    {
+     "key": "market.15",
+     "kind": "Button",
+     "text": "Open the deal coverage calculator"
+    },
+    {
+     "key": "market.16",
+     "kind": "Note",
+     "text": "How this was measured: the study took 177 private equity firms. For each one, it listed the deals completed in the industries and sizes that firm says it targets, each with a private equity buyer and a sell-side adviser, and counted how many of those the firm saw. SPS / With Intelligence, Deal Origination Benchmark Report, twelve months to 30 June 2025."
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "name": "Coverage is not a data problem. It is a time problem.",
+   "items": [
+    {
+     "key": "cost.1",
+     "kind": "Small label",
+     "text": "For buyers · What origination costs"
+    },
+    {
+     "key": "cost.2",
+     "kind": "Section headline",
+     "text": "Coverage is not a data problem. <em>It is a time problem.</em>"
+    },
+    {
+     "key": "cost.3",
+     "kind": "Paragraph",
+     "text": "Roughly what one buy-side team spends to get from a filtered list to a signed letter, on a single vertical."
+    },
+    {
+     "key": "cost.4",
+     "kind": "Text",
+     "text": "Associate, full time"
+    },
+    {
+     "key": "cost.5",
+     "kind": "Paragraph",
+     "text": "Mapping, outreach, qualifying. The person is $135,000 to $253,000 in total compensation, and cannot run a process at the same time."
+    },
+    {
+     "key": "cost.6",
+     "kind": "Text",
+     "text": "12–18"
+    },
+    {
+     "key": "cost.7",
+     "kind": "Text",
+     "text": "Months to vertical depth"
+    },
+    {
+     "key": "cost.8",
+     "kind": "Paragraph",
+     "text": "How long before a new hire knows which names are unbuyable and why, rather than adding them to the list again."
+    },
+    {
+     "key": "cost.9",
+     "kind": "Text",
+     "text": "37–159"
+    },
+    {
+     "key": "cost.10",
+     "kind": "Text",
+     "text": "Days under exclusivity per dead deal"
+    },
+    {
+     "key": "cost.11",
+     "kind": "Paragraph",
+     "text": "The average by buyer type, from a family office to a senior lender, plus the diligence invoices already committed."
+    },
+    {
+     "key": "cost.12",
+     "kind": "Text",
+     "text": "Sector desk, retained"
+    },
+    {
+     "key": "cost.13",
+     "kind": "Paragraph",
+     "text": "One vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+    },
+    {
+     "key": "cost.14",
+     "kind": "Note",
+     "text": "Compensation range compiled by a sell-side advisory firm from Glassdoor data, August 2024, for a US M&A associate, total compensation. Days under exclusivity from a lower-middle-market deal platform’s study of broken letters of intent, January 2026, averages by buyer type. The ramp figure is an estimate, not a measurement."
+    },
+    {
+     "key": "cost.15",
+     "kind": "Button",
+     "text": "See what one deal costs to originate"
+    },
+    {
+     "key": "cost.16",
+     "kind": "Note",
+     "text": "The deal coverage calculator: your numbers, nothing sent anywhere."
+    }
+   ]
+  },
+  {
+   "id": "breaks",
+   "name": "A quarter broke on a finding outside the earnings work.",
+   "items": [
+    {
+     "key": "breaks.1",
+     "kind": "Small label",
+     "text": "For buyers · Why deals break"
+    },
+    {
+     "key": "breaks.2",
+     "kind": "Section headline",
+     "text": "A quarter broke on a finding <em>outside the earnings work.</em>"
+    },
+    {
+     "key": "breaks.3",
+     "kind": "Paragraph",
+     "text": "Seventy-five letters of intent that were signed and then collapsed. Three of the reported reasons, on one scale."
+    },
+    {
+     "key": "breaks.4",
+     "kind": "Text",
+     "text": "A finding outside the quality-of-earnings work: a license, a contract, a compliance gap, a customer concentration"
+    },
+    {
+     "key": "breaks.5",
+     "kind": "Text",
+     "text": "25.3%"
+    },
+    {
+     "key": "breaks.6",
+     "kind": "Text",
+     "text": "The earnings were not what was presented"
+    },
+    {
+     "key": "breaks.7",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "breaks.8",
+     "kind": "Text",
+     "text": "The renegotiation that followed a finding"
+    },
+    {
+     "key": "breaks.9",
+     "kind": "Text",
+     "text": "14.7%"
+    },
+    {
+     "key": "breaks.10",
+     "kind": "Text",
+     "text": "0%"
+    },
+    {
+     "key": "breaks.11",
+     "kind": "Text",
+     "text": "30%"
+    },
+    {
+     "key": "breaks.12",
+     "kind": "Note",
+     "text": "A lower-middle-market deal platform’s published study of broken letters of intent, 27 January 2026: seventy-five broken letters across eight buyer types and eight industries. These are three selected categories on a scale of 0 to 30 percent. They are not the full distribution and are not summed."
+    },
+    {
+     "key": "breaks.13",
+     "kind": "Text",
+     "text": "The problem"
+    },
+    {
+     "key": "breaks.14",
+     "kind": "Text",
+     "text": "The solution"
+    },
+    {
+     "key": "breaks.15",
+     "kind": "Text",
+     "text": "Today"
+    },
+    {
+     "key": "breaks.16",
+     "kind": "Paragraph",
+     "text": "<b>Origination and diligence are two separate events</b>, run by different teams, months apart. By the time anyone looks properly the price is on the table and the leverage has already moved."
+    },
+    {
+     "key": "breaks.17",
+     "kind": "Text",
+     "text": "On a desk"
+    },
+    {
+     "key": "breaks.18",
+     "kind": "Paragraph",
+     "text": "<b>They are one process.</b> The findings that normally surface in week six of exclusivity are on the record before the name reaches you, so you are pricing against them instead of renegotiating after them."
+    },
+    {
+     "key": "breaks.19",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "breaks.20",
+     "kind": "Note",
+     "text": "Or read the cases: <a>Dead Deal Notes</a>, ten public deals and why each one ended."
+    }
+   ]
+  },
+  {
+   "id": "intelligence",
+   "name": "What we look for when a software company adds AI features or embedd...",
+   "items": [
+    {
+     "key": "intelligence.1",
+     "kind": "Small label",
+     "text": "For buyers · Intelligence"
+    },
+    {
+     "key": "intelligence.2",
+     "kind": "Section headline",
+     "text": "What we look for when a software company adds<br> <em>AI features or embedded payments.</em>"
+    },
+    {
+     "key": "intelligence.3",
+     "kind": "Paragraph",
+     "text": "Two revenue lines buyers now ask about. For each, four things we trace in the records before a letter of intent."
+    },
+    {
+     "key": "intelligence.4",
+     "kind": "Text",
+     "text": "AI features"
+    },
+    {
+     "key": "intelligence.5",
+     "kind": "Text",
+     "text": "How is it paid for, and do customers keep paying for it?"
+    },
+    {
+     "key": "intelligence.6",
+     "kind": "List item",
+     "text": "Paid adoption"
+    },
+    {
+     "key": "intelligence.7",
+     "kind": "List item",
+     "text": "Customer retention"
+    },
+    {
+     "key": "intelligence.8",
+     "kind": "List item",
+     "text": "Cost to deliver"
+    },
+    {
+     "key": "intelligence.9",
+     "kind": "List item",
+     "text": "Earnings contribution"
+    },
+    {
+     "key": "intelligence.10",
+     "kind": "Text",
+     "text": "Embedded finance"
+    },
+    {
+     "key": "intelligence.11",
+     "kind": "Text",
+     "text": "Does the payment activity reconcile to revenue?"
+    },
+    {
+     "key": "intelligence.12",
+     "kind": "List item",
+     "text": "Payment activity"
+    },
+    {
+     "key": "intelligence.13",
+     "kind": "List item",
+     "text": "Reconciled revenue"
+    },
+    {
+     "key": "intelligence.14",
+     "kind": "List item",
+     "text": "Delivery economics"
+    },
+    {
+     "key": "intelligence.15",
+     "kind": "List item",
+     "text": "Contract exposure"
+    },
+    {
+     "key": "intelligence.16",
+     "kind": "Button",
+     "text": "Follow a sector"
+    },
+    {
+     "key": "intelligence.17",
+     "kind": "Note",
+     "text": "Our notes on your sectors, as they are published."
+    },
+    {
+     "key": "intelligence.18",
+     "kind": "Paragraph",
+     "text": "<b>Capital Connections.</b> Financing for acquisitions, ownership transitions and growth. <a>See Capital Connections</a>"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Each engagement starts with your acquisition criteria and a clearly...",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "For buyers · How an engagement works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Each engagement starts with your acquisition criteria and <em>a clearly defined sector.</em>"
+    },
+    {
+     "key": "how.3",
+     "kind": "Paragraph",
+     "text": "One sector at a time. Relationships built before a process starts, and each opportunity assessed before a letter of intent."
+    },
+    {
+     "key": "how.4",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "how.5",
+     "kind": "Paragraph",
+     "text": "Your acquisition criteria and a clearly defined sector. Scope and fee are agreed in writing before any work begins."
+    },
+    {
+     "key": "how.6",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "how.7",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector that match your acquisition strategy."
+    },
+    {
+     "key": "how.8",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "how.9",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "how.10",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "how.11",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
+    },
+    {
+     "key": "how.12",
+     "kind": "Small label",
+     "text": "Criteria on file"
+    },
+    {
+     "key": "how.13",
+     "kind": "Text",
+     "text": "Register once"
+    },
+    {
+     "key": "how.14",
+     "kind": "Paragraph",
+     "text": "Tell us what you buy: sector, size and structure."
+    },
+    {
+     "key": "how.15",
+     "kind": "Text",
+     "text": "Kept current"
+    },
+    {
+     "key": "how.16",
+     "kind": "Paragraph",
+     "text": "We confirm your criteria with you each quarter."
+    },
+    {
+     "key": "how.17",
+     "kind": "Text",
+     "text": "You hear from us"
+    },
+    {
+     "key": "how.18",
+     "kind": "Paragraph",
+     "text": "When we publish a note on your sector, or when an opportunity fits your criteria."
+    },
+    {
+     "key": "how.19",
+     "kind": "Paragraph",
+     "text": "Not ready to register criteria? <a>Follow a sector</a> and we send our notes on it as they are published."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Start with your criteria. <em>See the deals you have been missing.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

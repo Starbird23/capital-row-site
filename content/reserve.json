@@ -1,0 +1,138 @@
+{
+ "path": "/reserve/",
+ "seoTitle": "Capital Row: Reserve your seat",
+ "seoDescription": "Selling in 2027? What a buyer will find in your 2026 numbers, and how to find it first. Owner session, Wednesday 20 January 2027, live online.",
+ "sections": [
+  {
+   "id": "reserve",
+   "name": "Selling in 2027?Reserve your seat.",
+   "items": [
+    {
+     "key": "reserve.1",
+     "kind": "Paragraph",
+     "text": "<a>← Back to Capital Row</a>"
+    },
+    {
+     "key": "reserve.2",
+     "kind": "Small label",
+     "text": "For owners · Session and playbook"
+    },
+    {
+     "key": "reserve.3",
+     "kind": "Page headline",
+     "text": "Selling in 2027?<br><em>Reserve your seat.</em>"
+    },
+    {
+     "key": "reserve.4",
+     "kind": "Text",
+     "text": "Wednesday 20 January 2027"
+    },
+    {
+     "key": "reserve.5",
+     "kind": "Text",
+     "text": "10:00 am Pacific · 1:00 pm Eastern"
+    },
+    {
+     "key": "reserve.6",
+     "kind": "Text",
+     "text": "45 minutes, live online"
+    },
+    {
+     "key": "reserve.7",
+     "kind": "Paragraph",
+     "text": "What a buyer will find in your 2026 numbers, and how to find it first. For owners, and the CPAs who prepare their numbers. Everyone who reserves a seat receives the playbook."
+    },
+    {
+     "key": "reserve.8",
+     "kind": "Paragraph",
+     "text": "A buyer in 2027 will read the year you are closing now. In a published study of seventy-five letters of intent that were signed and then collapsed, the reported reason in 21.3% was that the earnings were not what was presented. This session shows owners, and the CPAs who prepare their numbers, where a buyer looks."
+    },
+    {
+     "key": "reserve.9",
+     "kind": "Text",
+     "text": "Adjustments"
+    },
+    {
+     "key": "reserve.10",
+     "kind": "Text",
+     "text": "Which adjustments a buyer questions first"
+    },
+    {
+     "key": "reserve.11",
+     "kind": "Text",
+     "text": "Source documents"
+    },
+    {
+     "key": "reserve.12",
+     "kind": "Text",
+     "text": "What supported and unsupported look like"
+    },
+    {
+     "key": "reserve.13",
+     "kind": "Text",
+     "text": "Before market"
+    },
+    {
+     "key": "reserve.14",
+     "kind": "Text",
+     "text": "What is worth fixing before you go to market"
+    },
+    {
+     "key": "reserve.15",
+     "kind": "Form label",
+     "text": "Name"
+    },
+    {
+     "key": "reserve.16",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "reserve.17",
+     "kind": "Form label",
+     "text": "Company"
+    },
+    {
+     "key": "reserve.18",
+     "kind": "Form label",
+     "text": "I am"
+    },
+    {
+     "key": "reserve.19",
+     "kind": "Form label",
+     "text": "Sector"
+    },
+    {
+     "key": "reserve.20",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "reserve.21",
+     "kind": "Form label",
+     "text": "One question you want answered, optional"
+    },
+    {
+     "key": "reserve.22",
+     "kind": "Text",
+     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "reserve.23",
+     "kind": "Button",
+     "text": "Reserve your seat"
+    },
+    {
+     "key": "reserve.24",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "reserve.25",
+     "kind": "Note",
+     "text": "Your numbers traced to source documents, before a buyer looks."
+    }
+   ]
+  }
+ ]
+}

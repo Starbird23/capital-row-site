@@ -1,0 +1,11 @@
+{
+  "name": "capital-row-site",
+  "private": true,
+  "description": "thecapitalrow.com: layouts and code here, every word in Sanity (project 2a68e4yk, dataset site).",
+  "scripts": {
+    "build": "node tools/build.js layouts sanity assets dist",
+    "build:local": "node tools/build.js layouts content assets dist",
+    "verify": "node tools/verify.js dist dist-reference"
+  },
+  "engines": { "node": ">=20" }
+}

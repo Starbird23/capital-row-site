@@ -1,0 +1,1393 @@
+{
+ "path": "/dead-deal-notes/",
+ "seoTitle": "Capital Row: Dead Deal Notes",
+ "seoDescription": "Ten signed deals that died or were repriced, told from court opinions, regulatory filings and company announcements, with Capital Row’s read on what would have surfaced each problem sooner.",
+ "sections": [
+  {
+   "id": "notes-top",
+   "name": "Dead Deal Notes.Why signed deals die, from the public record.",
+   "items": [
+    {
+     "key": "notestop.1",
+     "kind": "Small label",
+     "text": "Insights · Dead Deal Notes"
+    },
+    {
+     "key": "notestop.2",
+     "kind": "Page headline",
+     "text": "Dead Deal Notes.<br><em>Why signed deals die, from the public record.</em>"
+    },
+    {
+     "key": "notestop.3",
+     "kind": "Paragraph",
+     "text": "Ten deals that were signed and then died, or were cut in price before closing. Each one is told from court opinions, regulatory filings and company announcements, with the documents listed under it, and with our read on what would have surfaced the problem sooner."
+    },
+    {
+     "key": "notestop.4",
+     "kind": "Paragraph",
+     "text": "Ten notes · Last updated 14 October 2026"
+    },
+    {
+     "key": "notestop.5",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "notestop.6",
+     "kind": "Paragraph",
+     "text": "Drawn from the court opinions, filings and announcements listed under the note. Where those documents describe a cause, the note uses their description."
+    },
+    {
+     "key": "notestop.7",
+     "kind": "Text",
+     "text": "Reported to Capital Row"
+    },
+    {
+     "key": "notestop.8",
+     "kind": "Paragraph",
+     "text": "Told to us by an owner through the dead deal report, and published only with the owner’s permission, with every identifying detail removed. None has been published yet."
+    }
+   ]
+  },
+  {
+   "id": "causes",
+   "name": "What ended them.",
+   "items": [
+    {
+     "key": "causes.1",
+     "kind": "Small label",
+     "text": "Dead Deal Notes · The tally"
+    },
+    {
+     "key": "causes.2",
+     "kind": "Section headline",
+     "text": "What ended them."
+    },
+    {
+     "key": "causes.3",
+     "kind": "Paragraph",
+     "text": "Each note is counted once, under the main cause the court or the filings give. Choose a cause to see only those notes."
+    },
+    {
+     "key": "causes.4",
+     "kind": "Text",
+     "text": "A regulator sued to block it"
+    },
+    {
+     "key": "causes.5",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.6",
+     "kind": "Text",
+     "text": "The buyer claimed a material adverse effect"
+    },
+    {
+     "key": "causes.7",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.8",
+     "kind": "Text",
+     "text": "A compliance or contract finding"
+    },
+    {
+     "key": "causes.9",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.10",
+     "kind": "Text",
+     "text": "The seller changed the business before closing"
+    },
+    {
+     "key": "causes.11",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.12",
+     "kind": "Text",
+     "text": "A missed deadline or notice"
+    },
+    {
+     "key": "causes.13",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.14",
+     "kind": "Text",
+     "text": "A better offer arrived"
+    },
+    {
+     "key": "causes.15",
+     "kind": "Text",
+     "text": "of 10"
+    },
+    {
+     "key": "causes.16",
+     "kind": "Button",
+     "text": "Show all ten"
+    },
+    {
+     "key": "causes.17",
+     "kind": "Paragraph",
+     "text": "Showing all 10 notes."
+    }
+   ]
+  },
+  {
+   "id": "the-notes",
+   "name": "The notes.",
+   "items": [
+    {
+     "key": "thenotes.1",
+     "kind": "Section headline",
+     "text": "The notes."
+    },
+    {
+     "key": "thenotes.2",
+     "kind": "Text",
+     "text": "Note 01"
+    },
+    {
+     "key": "thenotes.3",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.4",
+     "kind": "Heading",
+     "text": "IQVIA and Propel Media"
+    },
+    {
+     "key": "thenotes.5",
+     "kind": "Text",
+     "text": "Health care advertising technology"
+    },
+    {
+     "key": "thenotes.6",
+     "kind": "Text",
+     "text": "Value not disclosed"
+    },
+    {
+     "key": "thenotes.7",
+     "kind": "Text",
+     "text": "Agreed July 2022"
+    },
+    {
+     "key": "thenotes.8",
+     "kind": "Text",
+     "text": "Ended January 2024"
+    },
+    {
+     "key": "thenotes.9",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.10",
+     "kind": "List item",
+     "text": "An agreement to buy substantially all of Propel’s assets, challenged by the Federal Trade Commission and halted by a federal court."
+    },
+    {
+     "key": "thenotes.11",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.12",
+     "kind": "List item",
+     "text": "The FTC challenged the deal in July 2023, alleging that it would combine two of the top three providers of programmatic advertising aimed at health care professionals: Propel’s DeepIntent and IQVIA’s Lasso. On 29 December 2023 a federal judge in New York granted a preliminary injunction blocking the deal until the FTC’s own trial."
+    },
+    {
+     "key": "thenotes.13",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.14",
+     "kind": "List item",
+     "text": "IQVIA said in January 2024 that the agreement had been terminated in light of the court’s decision. The FTC dismissed its complaint on 2 February 2024."
+    },
+    {
+     "key": "thenotes.15",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.16",
+     "kind": "Paragraph",
+     "text": "When a deal puts two of the leading providers in one niche under one owner, the regulator’s view of that market is part of the price. That view can be drawn before the letter is signed, and the months it adds belong in the timeline from the start."
+    },
+    {
+     "key": "thenotes.17",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A regulator sued to block it"
+    },
+    {
+     "key": "thenotes.18",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.19",
+     "kind": "List item",
+     "text": "<a>FTC administrative complaint, July 2023 (PDF)</a>"
+    },
+    {
+     "key": "thenotes.20",
+     "kind": "List item",
+     "text": "<a>Federal court opinion and order granting the preliminary injunction, S.D.N.Y. (PDF)</a>"
+    },
+    {
+     "key": "thenotes.21",
+     "kind": "List item",
+     "text": "<a>FTC statement on the preliminary injunction, 3 January 2024</a>"
+    },
+    {
+     "key": "thenotes.22",
+     "kind": "List item",
+     "text": "<a>FTC order dismissing the complaint, 2 February 2024 (PDF)</a>"
+    },
+    {
+     "key": "thenotes.23",
+     "kind": "List item",
+     "text": "<a>Pharmaceutical Executive: IQVIA responds to the FTC’s block</a>"
+    },
+    {
+     "key": "thenotes.24",
+     "kind": "Text",
+     "text": "Note 02"
+    },
+    {
+     "key": "thenotes.25",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.26",
+     "kind": "Heading",
+     "text": "Option Care Health and Amedisys"
+    },
+    {
+     "key": "thenotes.27",
+     "kind": "Text",
+     "text": "Home health and hospice"
+    },
+    {
+     "key": "thenotes.28",
+     "kind": "Text",
+     "text": "About $3.6 billion including net debt, all stock"
+    },
+    {
+     "key": "thenotes.29",
+     "kind": "Text",
+     "text": "Signed May 2023"
+    },
+    {
+     "key": "thenotes.30",
+     "kind": "Text",
+     "text": "Ended June 2023"
+    },
+    {
+     "key": "thenotes.31",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.32",
+     "kind": "List item",
+     "text": "Signed merger agreement, awaiting stockholder and regulatory approvals."
+    },
+    {
+     "key": "thenotes.33",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.34",
+     "kind": "List item",
+     "text": "On 26 May 2023 Optum made an unsolicited all-cash proposal of $100 per share. The Amedisys board found that it could reasonably be expected to lead to a superior proposal. On 26 June 2023 Option Care and Amedisys signed a mutual termination agreement, and the same day Amedisys signed a merger agreement with UnitedHealth Group at $101 per share in cash, announced as a combination with Optum."
+    },
+    {
+     "key": "thenotes.35",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.36",
+     "kind": "List item",
+     "text": "Option Care received a $106 million termination fee, which UnitedHealth Group paid on behalf of Amedisys. The Department of Justice challenged the UnitedHealth Group deal in November 2024. On 7 August 2025 it filed a proposed settlement requiring the sale of 164 home health and hospice locations, and the deal closed on 14 August 2025."
+    },
+    {
+     "key": "thenotes.37",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.38",
+     "kind": "Paragraph",
+     "text": "A signed public deal still has a door open: the target’s board can take a better offer and pay the fee. A private owner usually signs exclusivity instead, which closes that door. The competition between buyers has to happen before the letter is signed, not after."
+    },
+    {
+     "key": "thenotes.39",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A better offer arrived"
+    },
+    {
+     "key": "thenotes.40",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.41",
+     "kind": "List item",
+     "text": "<a>Option Care Health announcement of the merger, 3 May 2023 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.42",
+     "kind": "List item",
+     "text": "<a>Amedisys announcement of the Optum proposal, 5 June 2023 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.43",
+     "kind": "List item",
+     "text": "<a>Amedisys announcement of the combination with Optum, 26 June 2023 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.44",
+     "kind": "List item",
+     "text": "<a>Amedisys Form 8-K on the UnitedHealth Group merger agreement, 26 June 2023 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.45",
+     "kind": "List item",
+     "text": "<a>Option Care Health Form 8-K on the termination, 26 June 2023 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.46",
+     "kind": "List item",
+     "text": "<a>Amedisys annual report for 2024, merger note (SEC)</a>"
+    },
+    {
+     "key": "thenotes.47",
+     "kind": "List item",
+     "text": "<a>Department of Justice on the proposed settlement, 7 August 2025</a>"
+    },
+    {
+     "key": "thenotes.48",
+     "kind": "List item",
+     "text": "<a>Amedisys Form 8-K on completion, 14 August 2025 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.49",
+     "kind": "Text",
+     "text": "Note 03"
+    },
+    {
+     "key": "thenotes.50",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.51",
+     "kind": "Heading",
+     "text": "Visa and Plaid"
+    },
+    {
+     "key": "thenotes.52",
+     "kind": "Text",
+     "text": "Payments software"
+    },
+    {
+     "key": "thenotes.53",
+     "kind": "Text",
+     "text": "$5.3 billion"
+    },
+    {
+     "key": "thenotes.54",
+     "kind": "Text",
+     "text": "Announced January 2020"
+    },
+    {
+     "key": "thenotes.55",
+     "kind": "Text",
+     "text": "Ended January 2021"
+    },
+    {
+     "key": "thenotes.56",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.57",
+     "kind": "List item",
+     "text": "Definitive agreement announced, then sued by the Department of Justice."
+    },
+    {
+     "key": "thenotes.58",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.59",
+     "kind": "List item",
+     "text": "On 5 November 2020 the Department of Justice sued to block the deal. It alleged that Visa holds a monopoly in online debit and that buying Plaid would eliminate a nascent competitor developing a lower-cost alternative."
+    },
+    {
+     "key": "thenotes.60",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.61",
+     "kind": "List item",
+     "text": "Visa and Plaid abandoned the merger on 12 January 2021, and the case was dismissed."
+    },
+    {
+     "key": "thenotes.62",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.63",
+     "kind": "Paragraph",
+     "text": "A regulator can object to what the target might become, not only to what it is today. When the buyer leads the market and the target could one day compete with it, the deal has to answer that question before it can close."
+    },
+    {
+     "key": "thenotes.64",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A regulator sued to block it"
+    },
+    {
+     "key": "thenotes.65",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.66",
+     "kind": "List item",
+     "text": "<a>Visa announcement, 13 January 2020</a>"
+    },
+    {
+     "key": "thenotes.67",
+     "kind": "List item",
+     "text": "<a>Department of Justice suit, 5 November 2020</a>"
+    },
+    {
+     "key": "thenotes.68",
+     "kind": "List item",
+     "text": "<a>Department of Justice on the abandonment, 12 January 2021</a>"
+    },
+    {
+     "key": "thenotes.69",
+     "kind": "Text",
+     "text": "Note 04"
+    },
+    {
+     "key": "thenotes.70",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.71",
+     "kind": "Text",
+     "text": "Repriced, not dead"
+    },
+    {
+     "key": "thenotes.72",
+     "kind": "Heading",
+     "text": "Advent International and Forescout"
+    },
+    {
+     "key": "thenotes.73",
+     "kind": "Text",
+     "text": "Cybersecurity software"
+    },
+    {
+     "key": "thenotes.74",
+     "kind": "Text",
+     "text": "$1.9 billion at $33.00 per share as signed"
+    },
+    {
+     "key": "thenotes.75",
+     "kind": "Text",
+     "text": "Signed February 2020"
+    },
+    {
+     "key": "thenotes.76",
+     "kind": "Text",
+     "text": "Closed August 2020 at $29.00 per share"
+    },
+    {
+     "key": "thenotes.77",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.78",
+     "kind": "List item",
+     "text": "Signed merger agreement, approved by Forescout shareholders, with closing set for 18 May 2020."
+    },
+    {
+     "key": "thenotes.79",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.80",
+     "kind": "List item",
+     "text": "On 15 May 2020 Advent told Forescout that it would not close on 18 May, asserting that a material adverse effect had occurred. Forescout disputed this and sued in the Delaware Court of Chancery on 19 May 2020."
+    },
+    {
+     "key": "thenotes.81",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.82",
+     "kind": "List item",
+     "text": "Five days before the trial date of 20 July 2020, the parties signed an amended agreement at $29.00 per share, down from $33.00, and agreed to settle and dismiss the litigation. The deal closed on 17 August 2020."
+    },
+    {
+     "key": "thenotes.83",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.84",
+     "kind": "Paragraph",
+     "text": "Not every broken deal dies. Some are repriced, and the cut comes when the seller has the least room to refuse: after shareholder approval, with the closing date set. A seller who can show current results month by month, already reconciled, leaves a buyer less room to argue that the business has changed."
+    },
+    {
+     "key": "thenotes.85",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>The buyer claimed a material adverse effect"
+    },
+    {
+     "key": "thenotes.86",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.87",
+     "kind": "List item",
+     "text": "<a>Forescout announcement of the merger, 6 February 2020 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.88",
+     "kind": "List item",
+     "text": "<a>Forescout announcement of the lawsuit against Advent, 20 May 2020 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.89",
+     "kind": "List item",
+     "text": "<a>Forescout announcement of the amended agreement, 15 July 2020 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.90",
+     "kind": "List item",
+     "text": "<a>Forescout Form 8-K on the amended agreement, July 2020 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.91",
+     "kind": "List item",
+     "text": "<a>Forescout Schedule 14D-9 on the tender offer, trial date and settlement (SEC)</a>"
+    },
+    {
+     "key": "thenotes.92",
+     "kind": "List item",
+     "text": "<a>Forescout Form 8-K on completion, August 2020 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.93",
+     "kind": "Text",
+     "text": "Note 05"
+    },
+    {
+     "key": "thenotes.94",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.95",
+     "kind": "Heading",
+     "text": "Mirae Asset and Strategic Hotels"
+    },
+    {
+     "key": "thenotes.96",
+     "kind": "Text",
+     "text": "Luxury hotels"
+    },
+    {
+     "key": "thenotes.97",
+     "kind": "Text",
+     "text": "$5.8 billion for 15 hotels"
+    },
+    {
+     "key": "thenotes.98",
+     "kind": "Text",
+     "text": "Signed September 2019"
+    },
+    {
+     "key": "thenotes.99",
+     "kind": "Text",
+     "text": "Ended May 2020"
+    },
+    {
+     "key": "thenotes.100",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.101",
+     "kind": "List item",
+     "text": "Signed sale agreement. The closing set for 17 April 2020 did not take place."
+    },
+    {
+     "key": "thenotes.102",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.103",
+     "kind": "List item",
+     "text": "In response to COVID-19 the seller changed how the hotels ran without the buyer’s consent. It closed two hotels entirely, severely limited operations at the other 13, and laid off or furloughed more than 5,200 full-time-equivalent employees. Separately, there were fraudulent deeds on some of the hotels, and the title insurers excluded them from coverage."
+    },
+    {
+     "key": "thenotes.104",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.105",
+     "kind": "List item",
+     "text": "The seller sued on 27 April 2020, and the buyer gave notice of termination on 3 May 2020. On 30 November 2020 the Court of Chancery held that the changes breached the seller’s covenant to run the hotels in the ordinary course, so the buyer had validly terminated. The Delaware Supreme Court affirmed on 8 December 2021, holding that the covenant applied on its own terms, separately from the agreement’s material adverse effect clause."
+    },
+    {
+     "key": "thenotes.106",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.107",
+     "kind": "Paragraph",
+     "text": "What a seller does between signing and closing is part of the deal. A covenant to run the business in the ordinary course means what the agreement says, and a sensible response to a crisis can still breach it if the buyer has not consented."
+    },
+    {
+     "key": "thenotes.108",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>The seller changed the business before closing"
+    },
+    {
+     "key": "thenotes.109",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.110",
+     "kind": "List item",
+     "text": "<a>Delaware Supreme Court opinion, AB Stable VIII v. MAPS Hotels, 8 December 2021</a>"
+    },
+    {
+     "key": "thenotes.111",
+     "kind": "List item",
+     "text": "<a>Mayer Brown on the Court of Chancery decision, December 2020</a>"
+    },
+    {
+     "key": "thenotes.112",
+     "kind": "Text",
+     "text": "Note 06"
+    },
+    {
+     "key": "thenotes.113",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.114",
+     "kind": "Heading",
+     "text": "Vintage Capital and Rent-A-Center"
+    },
+    {
+     "key": "thenotes.115",
+     "kind": "Text",
+     "text": "Rent-to-own retail"
+    },
+    {
+     "key": "thenotes.116",
+     "kind": "Text",
+     "text": "About $1.365 billion including net debt, at $15.00 per share"
+    },
+    {
+     "key": "thenotes.117",
+     "kind": "Text",
+     "text": "Signed June 2018"
+    },
+    {
+     "key": "thenotes.118",
+     "kind": "Text",
+     "text": "Ended December 2018"
+    },
+    {
+     "key": "thenotes.119",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.120",
+     "kind": "List item",
+     "text": "Signed merger agreement, not closed by the end date of 17 December 2018."
+    },
+    {
+     "key": "thenotes.121",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.122",
+     "kind": "List item",
+     "text": "Either side could extend the end date by written notice delivered by 11:59 p.m. Eastern time on 17 December 2018. Vintage did not deliver one, and Rent-A-Center terminated the agreement by email at 6:55 a.m. the next morning."
+    },
+    {
+     "key": "thenotes.123",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.124",
+     "kind": "List item",
+     "text": "On 14 March 2019 the Court of Chancery held that Rent-A-Center had validly terminated. The $126.5 million reverse termination fee was left for later argument, and in April 2019 Rent-A-Center settled all of the litigation, receiving $92.5 million in cash."
+    },
+    {
+     "key": "thenotes.125",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.126",
+     "kind": "Paragraph",
+     "text": "Deals die on process as well as on findings. Every date and notice in a signed agreement is a right that someone can use, and the side that keeps the calendar has choices the other side does not."
+    },
+    {
+     "key": "thenotes.127",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A missed deadline or notice"
+    },
+    {
+     "key": "thenotes.128",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.129",
+     "kind": "List item",
+     "text": "<a>Delaware Court of Chancery opinion, Vintage Rodeo Parent v. Rent-A-Center, 14 March 2019</a>"
+    },
+    {
+     "key": "thenotes.130",
+     "kind": "List item",
+     "text": "<a>Rent-A-Center quarterly report, first quarter 2019 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.131",
+     "kind": "Text",
+     "text": "Note 07"
+    },
+    {
+     "key": "thenotes.132",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.133",
+     "kind": "Heading",
+     "text": "Fresenius Kabi and Akorn"
+    },
+    {
+     "key": "thenotes.134",
+     "kind": "Text",
+     "text": "Generic pharmaceuticals"
+    },
+    {
+     "key": "thenotes.135",
+     "kind": "Text",
+     "text": "About $4.3 billion plus about $450 million of assumed debt"
+    },
+    {
+     "key": "thenotes.136",
+     "kind": "Text",
+     "text": "Signed April 2017"
+    },
+    {
+     "key": "thenotes.137",
+     "kind": "Text",
+     "text": "Ended April 2018"
+    },
+    {
+     "key": "thenotes.138",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.139",
+     "kind": "List item",
+     "text": "Signed merger agreement, approved by Akorn shareholders in July 2017."
+    },
+    {
+     "key": "thenotes.140",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.141",
+     "kind": "List item",
+     "text": "After signing, Akorn’s results fell sharply. Whistleblower letters led to an investigation that found serious and pervasive data integrity problems at Akorn. Fresenius terminated the agreement on 22 April 2018."
+    },
+    {
+     "key": "thenotes.142",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.143",
+     "kind": "List item",
+     "text": "On 1 October 2018 the Court of Chancery held that Fresenius had validly terminated: Akorn had suffered a material adverse effect, and its representations about regulatory compliance were inaccurate in a way that would reasonably be expected to cause one. It was described at the time as the first Delaware decision to let a buyer walk away on that ground. The Delaware Supreme Court affirmed on 7 December 2018."
+    },
+    {
+     "key": "thenotes.144",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.145",
+     "kind": "Paragraph",
+     "text": "Data integrity is a compliance question, not an earnings question, and earnings work alone would not have found it. In a regulated business a buyer reads the licenses, the filings and the inspection record as closely as the financial statements. The owner who reads them first decides what is found, and when."
+    },
+    {
+     "key": "thenotes.146",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A compliance or contract finding"
+    },
+    {
+     "key": "thenotes.147",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.148",
+     "kind": "List item",
+     "text": "<a>Akorn announcement of the merger, 24 April 2017 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.149",
+     "kind": "List item",
+     "text": "<a>Akorn announcement of shareholder approval, 19 July 2017 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.150",
+     "kind": "List item",
+     "text": "<a>Akorn annual report for 2018, litigation note (SEC)</a>"
+    },
+    {
+     "key": "thenotes.151",
+     "kind": "List item",
+     "text": "<a>Mintz on the Court of Chancery decision, October 2018</a>"
+    },
+    {
+     "key": "thenotes.152",
+     "kind": "Text",
+     "text": "Note 08"
+    },
+    {
+     "key": "thenotes.153",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.154",
+     "kind": "Heading",
+     "text": "Anthem and Cigna"
+    },
+    {
+     "key": "thenotes.155",
+     "kind": "Text",
+     "text": "Health insurance"
+    },
+    {
+     "key": "thenotes.156",
+     "kind": "Text",
+     "text": "$54.2 billion enterprise value"
+    },
+    {
+     "key": "thenotes.157",
+     "kind": "Text",
+     "text": "Signed July 2015"
+    },
+    {
+     "key": "thenotes.158",
+     "kind": "Text",
+     "text": "Ended May 2017"
+    },
+    {
+     "key": "thenotes.159",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.160",
+     "kind": "List item",
+     "text": "Signed merger agreement, sued by the Department of Justice and state attorneys general, then enjoined by a federal court."
+    },
+    {
+     "key": "thenotes.161",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.162",
+     "kind": "List item",
+     "text": "In July 2016 the Department of Justice and state attorneys general sued to block the merger, alleging that it would substantially reduce competition in commercial health coverage. A federal judge in Washington, D.C. enjoined it on 8 February 2017, and the appeals court affirmed in April 2017."
+    },
+    {
+     "key": "thenotes.163",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.164",
+     "kind": "List item",
+     "text": "Cigna gave notice of termination on 14 February 2017 and sued in Delaware for the $1.85 billion reverse termination fee and more than $13 billion in damages. The Court of Chancery temporarily barred Cigna from terminating. After the appeals court ruled, Anthem delivered its own notice of termination on 12 May 2017. On 31 August 2020 the Court of Chancery held that neither side could recover from the other, and the Delaware Supreme Court affirmed on 3 May 2021."
+    },
+    {
+     "key": "thenotes.165",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.166",
+     "kind": "Paragraph",
+     "text": "A deal that never closed produced more than four years of litigation. Once a deal is contested, every dispute runs through the efforts clauses and the fee clauses, so they deserve the same reading as the price."
+    },
+    {
+     "key": "thenotes.167",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A regulator sued to block it"
+    },
+    {
+     "key": "thenotes.168",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.169",
+     "kind": "List item",
+     "text": "<a>Cigna announcement of the merger, 24 July 2015 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.170",
+     "kind": "List item",
+     "text": "<a>Department of Justice suit, 21 July 2016</a>"
+    },
+    {
+     "key": "thenotes.171",
+     "kind": "List item",
+     "text": "<a>Cigna Form 8-K on the termination, 14 February 2017 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.172",
+     "kind": "List item",
+     "text": "<a>Cigna Form 8-K on the Court of Chancery order, 16 February 2017 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.173",
+     "kind": "List item",
+     "text": "<a>Anthem Form 8-K on its notice of termination, 12 May 2017 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.174",
+     "kind": "List item",
+     "text": "<a>Harvard Law School Forum on Corporate Governance on the 2020 decision</a>"
+    },
+    {
+     "key": "thenotes.175",
+     "kind": "List item",
+     "text": "<a>A&O Shearman on the Delaware Supreme Court affirmance, May 2021</a>"
+    },
+    {
+     "key": "thenotes.176",
+     "kind": "Text",
+     "text": "Note 09"
+    },
+    {
+     "key": "thenotes.177",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.178",
+     "kind": "Heading",
+     "text": "Apollo Tyres and Cooper Tire"
+    },
+    {
+     "key": "thenotes.179",
+     "kind": "Text",
+     "text": "Tire manufacturing"
+    },
+    {
+     "key": "thenotes.180",
+     "kind": "Text",
+     "text": "About $2.5 billion, $35.00 per share in cash"
+    },
+    {
+     "key": "thenotes.181",
+     "kind": "Text",
+     "text": "Signed June 2013"
+    },
+    {
+     "key": "thenotes.182",
+     "kind": "Text",
+     "text": "Ended December 2013"
+    },
+    {
+     "key": "thenotes.183",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.184",
+     "kind": "List item",
+     "text": "Signed merger agreement. It never closed."
+    },
+    {
+     "key": "thenotes.185",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.186",
+     "kind": "List item",
+     "text": "A labor arbitrator ruled that the merger could not close until Apollo reached agreement with the United Steelworkers union, and no agreement was reached. In China, workers at Cooper’s joint-venture plant, acting at the direction of the minority partner’s chairman, seized the plant: it stopped making Cooper-branded tires and kept Cooper’s staff from its records and facilities. Cooper terminated the agreement on 30 December 2013, saying it had been notified that financing for the deal was no longer available."
+    },
+    {
+     "key": "thenotes.187",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.188",
+     "kind": "List item",
+     "text": "In November 2013 the Court of Chancery found that Apollo had not breached its obligations over the union talks and declined to order the deal closed. In October 2014 it held that Cooper had not kept its joint venture operating in the ordinary course, so the conditions to closing were not met, a finding the court said would likely decide Cooper’s claim to the reverse termination fee. Cooper appealed, and the case was dismissed by agreement in December 2014."
+    },
+    {
+     "key": "thenotes.189",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.190",
+     "kind": "Paragraph",
+     "text": "Two things outside the financial statements decided this deal: a labor agreement whose terms reached the change of ownership, and a plant the seller did not control on its own. Which agreements need consent when ownership changes, and who controls each part of the business, are questions a buyer will ask. They are cheaper to answer before the letter."
+    },
+    {
+     "key": "thenotes.191",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>A compliance or contract finding"
+    },
+    {
+     "key": "thenotes.192",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.193",
+     "kind": "List item",
+     "text": "<a>Cooper announcement of the merger, 12 June 2013 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.194",
+     "kind": "List item",
+     "text": "<a>Cooper announcement of the termination, 30 December 2013 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.195",
+     "kind": "List item",
+     "text": "<a>Delaware Court of Chancery opinion, Cooper Tire v. Apollo, 31 October 2014</a>"
+    },
+    {
+     "key": "thenotes.196",
+     "kind": "List item",
+     "text": "<a>Cooper annual report for 2015, litigation note (SEC)</a>"
+    },
+    {
+     "key": "thenotes.197",
+     "kind": "Text",
+     "text": "Note 10"
+    },
+    {
+     "key": "thenotes.198",
+     "kind": "Text",
+     "text": "Public record"
+    },
+    {
+     "key": "thenotes.199",
+     "kind": "Heading",
+     "text": "J.C. Flowers group and Sallie Mae"
+    },
+    {
+     "key": "thenotes.200",
+     "kind": "Text",
+     "text": "Student lending"
+    },
+    {
+     "key": "thenotes.201",
+     "kind": "Text",
+     "text": "About $25 billion, $60.00 per share"
+    },
+    {
+     "key": "thenotes.202",
+     "kind": "Text",
+     "text": "Signed April 2007"
+    },
+    {
+     "key": "thenotes.203",
+     "kind": "Text",
+     "text": "Ended January 2008"
+    },
+    {
+     "key": "thenotes.204",
+     "kind": "List item",
+     "text": "How far it got"
+    },
+    {
+     "key": "thenotes.205",
+     "kind": "List item",
+     "text": "Signed merger agreement, approved by SLM shareholders on 15 August 2007."
+    },
+    {
+     "key": "thenotes.206",
+     "kind": "List item",
+     "text": "What broke"
+    },
+    {
+     "key": "thenotes.207",
+     "kind": "List item",
+     "text": "The buyer group, led by J.C. Flowers & Co. with Friedman Fleischer & Lowe, Bank of America and JPMorgan Chase, said the conditions to closing would not be met, asserting that a material adverse effect had occurred and pointing to federal student loan legislation then pending and to changes in the legislative and economic environment. The merger agreement dealt with changes in education finance law in specific terms, and Sallie Mae asked the court to rule on what its definition of a material adverse effect covered."
+    },
+    {
+     "key": "thenotes.208",
+     "kind": "List item",
+     "text": "How it ended"
+    },
+    {
+     "key": "thenotes.209",
+     "kind": "List item",
+     "text": "Sallie Mae sued the buyer group in the Delaware Court of Chancery in October 2007, with a $900 million reverse termination fee at stake. On 25 January 2008 the parties signed a settlement that terminated the merger agreement and dismissed the lawsuit and all counterclaims."
+    },
+    {
+     "key": "thenotes.210",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "thenotes.211",
+     "kind": "Paragraph",
+     "text": "A change in the law between signing and closing can reopen the price. What the material adverse effect clause leaves out decides who carries that risk, and it deserves as much reading as the number at the top of the agreement."
+    },
+    {
+     "key": "thenotes.212",
+     "kind": "Paragraph",
+     "text": "<b>Counted as</b>The buyer claimed a material adverse effect"
+    },
+    {
+     "key": "thenotes.213",
+     "kind": "Text",
+     "text": "Sources"
+    },
+    {
+     "key": "thenotes.214",
+     "kind": "List item",
+     "text": "<a>SLM announcement of the merger, 16 April 2007 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.215",
+     "kind": "List item",
+     "text": "<a>SLM merger agreement, April 2007 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.216",
+     "kind": "List item",
+     "text": "<a>SLM quarterly report, third quarter 2007 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.217",
+     "kind": "List item",
+     "text": "<a>SLM Form 8-K on the settlement and termination, 29 January 2008 (SEC)</a>"
+    },
+    {
+     "key": "thenotes.218",
+     "kind": "List item",
+     "text": "<a>SLM annual report for 2007, on the lawsuit and its dismissal (SEC)</a>"
+    },
+    {
+     "key": "thenotes.219",
+     "kind": "List item",
+     "text": "<a>Private Equity Wire on the lawsuit, 12 October 2007</a>"
+    }
+   ]
+  },
+  {
+   "id": "baseline",
+   "name": "Public cases are the large ones. The lower middle market dies quietly.",
+   "items": [
+    {
+     "key": "baseline.1",
+     "kind": "Small label",
+     "text": "Dead Deal Notes · For comparison"
+    },
+    {
+     "key": "baseline.2",
+     "kind": "Section headline",
+     "text": "Public cases are the large ones. <em>The lower middle market dies quietly.</em>"
+    },
+    {
+     "key": "baseline.3",
+     "kind": "Paragraph",
+     "text": "Public cases lean toward large deals and toward the disputes that reach a court or a regulator. Most lower-middle-market deals die in diligence, under exclusivity, and no court ever hears about them. This is the closest published view of that market: seventy-five letters of intent that were signed and then collapsed, and the reasons they collapsed, as reported."
+    },
+    {
+     "key": "baseline.4",
+     "kind": "Text",
+     "text": "25.3%"
+    },
+    {
+     "key": "baseline.5",
+     "kind": "Text",
+     "text": "A finding outside the quality-of-earnings work"
+    },
+    {
+     "key": "baseline.6",
+     "kind": "Text",
+     "text": "A license, a contract, a compliance gap, a customer concentration. Two of the ten public notes ended on a finding of this kind."
+    },
+    {
+     "key": "baseline.7",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "baseline.8",
+     "kind": "Text",
+     "text": "The earnings were not what was presented"
+    },
+    {
+     "key": "baseline.9",
+     "kind": "Text",
+     "text": "Adjusted EBITDA did not survive contact with the source documents."
+    },
+    {
+     "key": "baseline.10",
+     "kind": "Text",
+     "text": "14.7%"
+    },
+    {
+     "key": "baseline.11",
+     "kind": "Text",
+     "text": "The renegotiation that followed"
+    },
+    {
+     "key": "baseline.12",
+     "kind": "Text",
+     "text": "The finding did not kill the deal. The argument about the price after it did."
+    },
+    {
+     "key": "baseline.13",
+     "kind": "Note",
+     "text": "A lower-middle-market deal platform’s published study of broken letters of intent, 27 January 2026: seventy-five broken letters across eight buyer types and eight industries. The percentages are separate reported categories and are not summed here."
+    }
+   ]
+  },
+  {
+   "id": "index",
+   "name": "Every dead deal is a reading of value. The index is built on them.",
+   "items": [
+    {
+     "key": "index.1",
+     "kind": "Small label",
+     "text": "Dead Deal Notes · What the notes are for"
+    },
+    {
+     "key": "index.2",
+     "kind": "Section headline",
+     "text": "Every dead deal is a reading of value. <em>The index is built on them.</em>"
+    },
+    {
+     "key": "index.3",
+     "kind": "Paragraph",
+     "text": "Each note is coded the same way: what was found, at what stage, by which kind of buyer, and what it cost. Read together, they show which findings end deals, which only move the price, and which a buyer rarely raises. Those patterns inform the Capital Row Enterprise Value Index, our score of how a buyer is likely to read the whole business. The index is in development for vertical software."
+    },
+    {
+     "key": "index.4",
+     "kind": "Link",
+     "text": "About the Enterprise Value Index"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "Find it before a buyer does.",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "Dead Deal Notes · Your deal"
+    },
+    {
+     "key": "next.2",
+     "kind": "Section headline",
+     "text": "Find it before a buyer does."
+    },
+    {
+     "key": "next.3",
+     "kind": "Heading",
+     "text": "Had a deal die?"
+    },
+    {
+     "key": "next.4",
+     "kind": "Paragraph",
+     "text": "Tell us what happened, confidentially. With your permission it joins these notes with every identifying detail removed, and you get twenty minutes with our team on what a buyer is likely to raise next time."
+    },
+    {
+     "key": "next.5",
+     "kind": "Link",
+     "text": "Report a dead deal"
+    },
+    {
+     "key": "next.6",
+     "kind": "Heading",
+     "text": "Selling in the next two years?"
+    },
+    {
+     "key": "next.7",
+     "kind": "Paragraph",
+     "text": "Find the financial gaps and earnings questions a buyer’s diligence will raise, while you still control the timeline. Your numbers traced to source documents, and a findings report that is yours to keep."
+    },
+    {
+     "key": "next.8",
+     "kind": "Link",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "next.9",
+     "kind": "Note",
+     "text": "Capital Row was not involved in any of the transactions described on this page. Each note summarizes public court opinions, regulatory filings and company announcements, which are listed under it, and dates and amounts are as those documents state them. Our read is Capital Row’s opinion. General information only; not legal, tax or accounting advice."
+    }
+   ]
+  }
+ ]
+}

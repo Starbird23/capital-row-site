@@ -1,0 +1,1284 @@
+{
+ "path": "/about/",
+ "seoTitle": "Capital Row: About",
+ "seoDescription": "Capital Row is the M&A firm for software the working economy cannot switch off. Why the firm exists, how it works, and who you work with.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "The vertical, already known.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "<i>About Capital Row</i>"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "The vertical, <em>already known.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "Capital Row is the M&A firm for software the working economy cannot switch off. We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "For owners, we show what a buyer will find in the numbers while there is still time to change it."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "Our vision is to help every business understand and substantiate the earnings behind its value."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "10 industries"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "23 sectors"
+    },
+    {
+     "key": "inner.10",
+     "kind": "Text",
+     "text": "5 desks open"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "name": "The market is busy. Most of it goes unseen.",
+   "items": [
+    {
+     "key": "why.1",
+     "kind": "Text",
+     "text": "Why Capital Row exists"
+    },
+    {
+     "key": "why.2",
+     "kind": "Section headline",
+     "text": "The market is busy. <em>Most of it goes unseen.</em>"
+    },
+    {
+     "key": "why.3",
+     "kind": "Text",
+     "text": "2,784"
+    },
+    {
+     "key": "why.4",
+     "kind": "Text",
+     "text": "SaaS M&A transactions<br>12 months through Q2 2026"
+    },
+    {
+     "key": "why.5",
+     "kind": "Text",
+     "text": "54%"
+    },
+    {
+     "key": "why.6",
+     "kind": "Text",
+     "text": "Vertical software share<br>of SaaS M&A, Q2 2026"
+    },
+    {
+     "key": "why.7",
+     "kind": "Text",
+     "text": "18.4%"
+    },
+    {
+     "key": "why.8",
+     "kind": "Text",
+     "text": "Share of its own stated market<br>the median private equity firm sees"
+    },
+    {
+     "key": "why.9",
+     "kind": "Paragraph",
+     "text": "Volume isn’t the problem. <em>Intelligence is.</em>"
+    },
+    {
+     "key": "why.10",
+     "kind": "Note",
+     "text": "Sources: <a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a> (transactions and vertical share). SPS / With Intelligence, Deal Origination Benchmark Report, LTM to 30 June 2025 (coverage, measured across 177 private equity firms)."
+    }
+   ]
+  },
+  {
+   "id": "process",
+   "name": "Intelligence first, in five rows.",
+   "items": [
+    {
+     "key": "process.1",
+     "kind": "Text",
+     "text": "Our process"
+    },
+    {
+     "key": "process.2",
+     "kind": "Section headline",
+     "text": "Intelligence first, <em>in five rows.</em>"
+    },
+    {
+     "key": "process.3",
+     "kind": "Paragraph",
+     "text": "Every engagement runs the same way. The intelligence comes before the introduction."
+    },
+    {
+     "key": "process.4",
+     "kind": "Text",
+     "text": "Row 1"
+    },
+    {
+     "key": "process.5",
+     "kind": "Text",
+     "text": "Sector intelligence"
+    },
+    {
+     "key": "process.6",
+     "kind": "Paragraph",
+     "text": "The sector is mapped before anyone goes to market: the companies in it, the buyers active in it, and where its deals break."
+    },
+    {
+     "key": "process.7",
+     "kind": "Text",
+     "text": "Row 2"
+    },
+    {
+     "key": "process.8",
+     "kind": "Text",
+     "text": "Criteria"
+    },
+    {
+     "key": "process.9",
+     "kind": "Paragraph",
+     "text": "What a buyer buys, in writing: sector, size and structure. Kept on file and confirmed each quarter."
+    },
+    {
+     "key": "process.10",
+     "kind": "Text",
+     "text": "Row 3"
+    },
+    {
+     "key": "process.11",
+     "kind": "Text",
+     "text": "Match"
+    },
+    {
+     "key": "process.12",
+     "kind": "Paragraph",
+     "text": "Each opportunity is set against the criteria on file. A buyer hears about the ones that fit."
+    },
+    {
+     "key": "process.13",
+     "kind": "Text",
+     "text": "Row 4"
+    },
+    {
+     "key": "process.14",
+     "kind": "Text",
+     "text": "Evidence"
+    },
+    {
+     "key": "process.15",
+     "kind": "Paragraph",
+     "text": "Before a letter of intent, the numbers are traced to source documents and every adjustment is marked supported or unsupported."
+    },
+    {
+     "key": "process.16",
+     "kind": "Text",
+     "text": "Row 5"
+    },
+    {
+     "key": "process.17",
+     "kind": "Text",
+     "text": "Transaction"
+    },
+    {
+     "key": "process.18",
+     "kind": "Paragraph",
+     "text": "Capital Row acts for one side of the transaction, under a scope and fee agreed in writing."
+    },
+    {
+     "key": "process.19",
+     "kind": "Link",
+     "text": "For buyers"
+    },
+    {
+     "key": "process.20",
+     "kind": "Link",
+     "text": "For owners"
+    },
+    {
+     "key": "process.21",
+     "kind": "Link",
+     "text": "Capital Connections"
+    }
+   ]
+  },
+  {
+   "id": "team",
+   "name": "Collaborative deal team.",
+   "items": [
+    {
+     "key": "team.1",
+     "kind": "Section headline",
+     "text": "Collaborative <em>deal team.</em>"
+    },
+    {
+     "key": "team.2",
+     "kind": "Paragraph",
+     "text": "Capital Row works in collaboration with American Healthcare Capital. Each adviser is listed with their own firm and focus."
+    },
+    {
+     "key": "team.3",
+     "kind": "Heading",
+     "text": "Shawnee Mercier"
+    },
+    {
+     "key": "team.4",
+     "kind": "Paragraph",
+     "text": "CEO and Principal"
+    },
+    {
+     "key": "team.5",
+     "kind": "Paragraph",
+     "text": "Capital Row"
+    },
+    {
+     "key": "team.6",
+     "kind": "Paragraph",
+     "text": "Vertical software and healthcare technology"
+    },
+    {
+     "key": "team.7",
+     "kind": "Paragraph",
+     "text": "Shawnee Mercier is the founder of Capital Row. She brings more than a decade of experience in healthcare startup planning, growth strategy, staffing and exit planning, with a focus on behavioral health, home health, staffing and health technology."
+    },
+    {
+     "key": "team.8",
+     "kind": "Paragraph",
+     "text": "Before Capital Row, she led executive search and business development for some of the nation’s fastest-growing healthcare organizations, scaling executive teams and divisions to more than $10 million in annual revenue. Her background includes work with federally qualified health centers, private equity-backed platforms and health technology ventures, where she advised on go-to-market strategy, commercial scaling and exit positioning."
+    },
+    {
+     "key": "team.9",
+     "kind": "Paragraph",
+     "text": "She holds a bachelor’s degree from Western Michigan University."
+    },
+    {
+     "key": "team.10",
+     "kind": "Heading",
+     "text": "Dennis Nelson"
+    },
+    {
+     "key": "team.11",
+     "kind": "Paragraph",
+     "text": "Operations Director"
+    },
+    {
+     "key": "team.12",
+     "kind": "Paragraph",
+     "text": "Capital Row"
+    },
+    {
+     "key": "team.13",
+     "kind": "Paragraph",
+     "text": "Operations, transportation and logistics"
+    },
+    {
+     "key": "team.14",
+     "kind": "Paragraph",
+     "text": "Dennis Nelson directs operations at Capital Row and is building its transportation and logistics desk."
+    },
+    {
+     "key": "team.15",
+     "kind": "Heading",
+     "text": "Jack Eskenazi"
+    },
+    {
+     "key": "team.16",
+     "kind": "Paragraph",
+     "text": "CEO and Founder"
+    },
+    {
+     "key": "team.17",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.18",
+     "kind": "Paragraph",
+     "text": "Jack Eskenazi founded American Healthcare Capital in 1989 and HealthCare Receivable Lenders in 2014 after ending a prosperous real estate career that spanned over twenty five years. He is a graduate of Riverside Military Academy, Ohio State University, and UCLA’s School of Business. He was a pro-bono Adjunct Professor at Cal State Northridge University, teaching from his book “Valuations of Real Estate and Business Opportunities.” Subsequently, the University bestowed an honorary degree for his civic contribution as a Civil Rights Commissioner for the State of California. Today, Jack is active in all aspects of AHC, with a vision to expand its services to other financial services and products."
+    },
+    {
+     "key": "team.19",
+     "kind": "Heading",
+     "text": "Michelle Albanna"
+    },
+    {
+     "key": "team.20",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.21",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.22",
+     "kind": "Paragraph",
+     "text": "Home Care, Behavioral Health (Mental Health Practices, ABA Therapy, Drug/Alcohol Substance Abuse, etc.) and Medical Device"
+    },
+    {
+     "key": "team.23",
+     "kind": "Paragraph",
+     "text": "To business owners nationwide, Michelle Albanna brings seven years of in-home care franchise resale M & A expertise as well as more than twenty-five years of global sales, marketing and project management experience in the biotech and medical device sectors (microbiology, drugs of abuse, chemistry). She has an MBA with an emphasis in International Business/Marketing from University Detroit-Mercy and speaks French and German with some capacity in Spanish and Arabic. Michelle enjoys using her extensive network of contacts for sell-side and buy-side representation and is dedicated to providing exceptional service by diligently managing the deal process to achieve the finest result."
+    },
+    {
+     "key": "team.24",
+     "kind": "Heading",
+     "text": "Jim Aram"
+    },
+    {
+     "key": "team.25",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.26",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.27",
+     "kind": "Paragraph",
+     "text": "Physical Therapy and Home Health"
+    },
+    {
+     "key": "team.28",
+     "kind": "Paragraph",
+     "text": "Jim Aram joins AHC after serving as the Director of Regional Development for PT Solutions, LLC. Prior to joining PT Solutions via acquisition at the end of 2019, Jim was Chief Excitement Officer and Co- Owner of Advantage Physical Therapy & Rehabilitation, LLC. He holds a Bachelor of Arts in History and Masters of Business Administration from the University of Florida. With his prolific professional profile, Jim has developed excellent corporate communications and client relationship management skills that contribute greatly to the representation of his clients."
+    },
+    {
+     "key": "team.29",
+     "kind": "Heading",
+     "text": "Chris Baer"
+    },
+    {
+     "key": "team.30",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.31",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.32",
+     "kind": "Paragraph",
+     "text": "Behavioral Health and Staffing"
+    },
+    {
+     "key": "team.33",
+     "kind": "Paragraph",
+     "text": "Chris Baer specializes in business development, deal origination, and transaction advisory services for healthcare M&A. Chris brings with him his “Book of Business” of over 2,000 followers who have extensive experience in healthcare recruitment, contract negotiation, and business aquisitions. Before joining AHC, Chris founded Allied Psych Advisors, a healthcare recruitment firm where he built strong industry relationships and executed high-value contracts with healthcare organizations nationwide. His expertise in market expansion and deal structuring enables him to identify opportunities that maximize value for buyers and sellers. With a proven track record in business development and transaction execution, Chris plays a key role in connecting clients with the right opportunities and guiding them through the M&A process ."
+    },
+    {
+     "key": "team.34",
+     "kind": "Heading",
+     "text": "Sheri Baker"
+    },
+    {
+     "key": "team.35",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.36",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.37",
+     "kind": "Paragraph",
+     "text": "Behavioral Health, Revenue Cycle Management, and Staffing"
+    },
+    {
+     "key": "team.38",
+     "kind": "Paragraph",
+     "text": "Sheri Baker joined American HealthCare Capital after more than two decades as a trusted Executive Senior Advisor for several of Wall Street’s most notable firms. At JPMorgan and Merrill Lynch, Sheri worked closely with some of the world’s largest institutional and corporate clients, developing and executing a variety of financial strategies tailored to meet each customer’s specific goals. Sheri also started an executive recruiting firm where her focus on developing long-term relationships with top Wall Street firms, fostering confidentiality, and carefully matching the needs of both employer and employee made her a standout in the field. Sheri graduated cum laude from Wellesley College with a degree in Economics. Her primary focus at AHC is on acquisitions, equity, and debt financing in the areas of Behavioral Health, Revenue Cycle Management, and Staffing, but she is also available to advise companies on all healthcare-related transactions, large and small."
+    },
+    {
+     "key": "team.39",
+     "kind": "Heading",
+     "text": "Tony Baker"
+    },
+    {
+     "key": "team.40",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.41",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.42",
+     "kind": "Paragraph",
+     "text": "Pharmacy, Infusion, Home Health and Urgent Care Clinics"
+    },
+    {
+     "key": "team.43",
+     "kind": "Paragraph",
+     "text": "Tony Baker utilizes his extensive experience to help healthcare business owners understand the current market value of their company and provide them with a customized exit strategy. Prior to joining American HealthCare Capital, Tony was a consultant for a well-known national consulting firm, providing financial services such as loans, insurance and advisory services. He has also worked as a financial improvement consultant where he worked with companies in twenty different industries to increase revenues and market share throughout North America."
+    },
+    {
+     "key": "team.44",
+     "kind": "Heading",
+     "text": "Michael Bass"
+    },
+    {
+     "key": "team.45",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.46",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.47",
+     "kind": "Paragraph",
+     "text": "DME, O&P, PT and Diagnostics"
+    },
+    {
+     "key": "team.48",
+     "kind": "Paragraph",
+     "text": "Michael Bass, MBA, CPA has over 25 years of Mergers & Acquisitions experience in healthcare. He was an officer for a national public Orthotic & Prosthetic company that acquired many facilities. Following the sale of this company to a larger public national O&P company, Michael represented O&P companies in sales, and also developed strong experience representing Outpatient Rehabilitation and other types of Therapy Services companies. He has a strong network of national and regional corporate buyers in O&P and Physical Therapy, as well as Private Equity Groups focusing on healthcare services."
+    },
+    {
+     "key": "team.49",
+     "kind": "Heading",
+     "text": "Michael J. Bradley, Jr."
+    },
+    {
+     "key": "team.50",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.51",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.52",
+     "kind": "Paragraph",
+     "text": "Financial Consulting, Medical Practices, and Hospitals"
+    },
+    {
+     "key": "team.53",
+     "kind": "Paragraph",
+     "text": "Michael J. Bradley, Jr., MBA has over 33 years of experience performing financial and operational consulting for both independent and publicly held healthcare organizations, with an emphasis on medical practices. In his career, Michael has worked with hundreds of companies to perform Practice Valuations, Practice Assessments, and provide litigation support and expert testimony. He has also served as Interim Leadership for large multi-specialty, multi-location physician group practices during financially distressed periods and/or changes in leadership situations. Michael is ready and available to utilize his extensive experience and expertise to assist all types of healthcare companies with their M&A needs, including acquisitions, divestitures, financing, and more."
+    },
+    {
+     "key": "team.54",
+     "kind": "Heading",
+     "text": "Myriam Cohen"
+    },
+    {
+     "key": "team.55",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.56",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.57",
+     "kind": "Paragraph",
+     "text": "Laboratory, Home Care, and Hospice"
+    },
+    {
+     "key": "team.58",
+     "kind": "Paragraph",
+     "text": "Myriam Cohen started her career as a programmer consultant and quickly evolved into a serial entrepreneur. She started her first business, a job board for computer professionals, in the dot-com era. Her company SelectJobs.com was acquired 3 years after its inception. Her second business, started in 2001, providing email marketing services to retailers was successfully sold in 2013. Concurrently, Myriam started a daily deal site in 2010 which was successfully acquired in 2013. Myriam has leveraged her extensive business experience to provide her clients selling their businesses a unique insight. Myriam graduated with a BS in Computer Science and Engineering from the University of Texas and earned her MBA from Southern Methodist University. She is fluent in Spanish and Hebrew. She lives in Davie, Florida with her husband and two dogs. She is an avid golfer and world traveler."
+    },
+    {
+     "key": "team.59",
+     "kind": "Heading",
+     "text": "Vincent D’Alise"
+    },
+    {
+     "key": "team.60",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.61",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.62",
+     "kind": "Paragraph",
+     "text": "Dental Practices, Dental Labs, and Medical Devices & Manufacturers"
+    },
+    {
+     "key": "team.63",
+     "kind": "Paragraph",
+     "text": "Vincent D’Alise specializes in sell-side representation and strategic advisory. With an MBA from Rice University and over 15 years of experience in corporate finance, business development, and operational leadership, he provides a sophisticated, CFO-level perspective to every transaction."
+    },
+    {
+     "key": "team.64",
+     "kind": "Paragraph",
+     "text": "Throughout his career, including his tenure as President of a medical device manufacturing firm, Vincent has developed a deep expertise in navigating the unique regulatory and financial hurdles of the healthcare sector. His background as a CFO and his proficiency in advanced financial modeling (NPV, IRR, and LBO structures) allow him to uncover “hidden” EBITDA and maximize valuation for his clients across all medical fields."
+    },
+    {
+     "key": "team.65",
+     "kind": "Paragraph",
+     "text": "Vincent is dedicated to helping healthcare entrepreneurs and practitioners bridge the gap between clinical success and financial exit, ensuring that every transition is backed by institutional-grade data and a “certainty of close” mindset."
+    },
+    {
+     "key": "team.66",
+     "kind": "Heading",
+     "text": "Tom Diedrich"
+    },
+    {
+     "key": "team.67",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.68",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.69",
+     "kind": "Paragraph",
+     "text": "Health & Wellness, Hospice, and Home Health"
+    },
+    {
+     "key": "team.70",
+     "kind": "Paragraph",
+     "text": "Tom Diedrich comes to AHC after spending over 25 years in the Mergers & Acquisitions and advertising arena. Throughout his career, Tom’s resourcefulness and motivational talents have allowed him to continuously overperform and create an enviable outcome for all his clients. His ability to attain the highest level of client satisfaction through trusted relationships has repeatedly validated his professionalism. Tom’s history of success has been achieved by providing outstanding customer service and following up with team support. Communication and intrapersonal skills have enabled him to forge positive relationships and lucrative strategic alliances that transcend recognition worthy of praise. Tom’s vast experience with all types of industries via his advertising background will provide potential buyers and sellers with an additional creative dimension in marketing. Tom is excited to leverage his experience again within the Healthcare field!"
+    },
+    {
+     "key": "team.71",
+     "kind": "Heading",
+     "text": "Nancy Diller-Shively"
+    },
+    {
+     "key": "team.72",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.73",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.74",
+     "kind": "Paragraph",
+     "text": "Home Care & Home Health"
+    },
+    {
+     "key": "team.75",
+     "kind": "Paragraph",
+     "text": "Nancy Diller-Shively has been in the Home Health Care industry for over 30 years. She received her RN degree from St Thomas and her Business degree from Malone University. Nancy began her career as a home health nurse in a small Ohio-based company where she quickly advanced to management. When that company sold to Hooper Holmes, Inc, she was chosen to be their Chief Operating Officer, thus launching her fast-tracked career in the mergers and acquisitions world. As the COO, Nancy was involved in all nationwide acquisitions for Hooper (dba Nurses House Call), evaluating hundreds of companies for acquisition, participating in due diligence, and heading up the integration process. After gaining the experience of managing 120 locations nationwide, Nancy founded her own company, Cambridge Home Health Care, which was a Medicare Certified, Joint Commission Accredited home health agency. Over the course of a decade, the company grew to 36 locations throughout Ohio and Pennsylvania, and it was named one of the best companies to work for. Having received multiple awards herself, including INC 500 and Entrepreneur of the Year to name a few, Nancy understands the importance of balancing quality of care issues with employee appreciation and retention, while expanding and growing a company."
+    },
+    {
+     "key": "team.76",
+     "kind": "Heading",
+     "text": "Steve Ditman"
+    },
+    {
+     "key": "team.77",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.78",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.79",
+     "kind": "Paragraph",
+     "text": "Medical Device Manufacturers & Distributors, DME, Medical Groups, Home Health, and Technology (IT SaaS)"
+    },
+    {
+     "key": "team.80",
+     "kind": "Paragraph",
+     "text": "Steve Ditman is a CPA and has more than 25 years of healthcare experience as a Chief Financial Officer directing all aspects of M&A strategic growth for middle-market Private Equity Backed Companies. He has successfully closed over 50 M&A transactions totaling in excess of $750 million. He has actively rolled up 3 middle market, healthcare-related industries, including Group Medical Providers, Insurance Medical Bill Review, and Managed Care PPO services. He has extensive experience in DME, Medical Devices, Medical Groups, Optometry & Ophthalmology, Dental Groups, Home Health, and Healthcare Technology (IT SaaS). He is based in Boynton Beach, Florida and has successfully handled M&A transactions of all sizes."
+    },
+    {
+     "key": "team.81",
+     "kind": "Heading",
+     "text": "David Feuer"
+    },
+    {
+     "key": "team.82",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.83",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.84",
+     "kind": "Paragraph",
+     "text": "Long Term Care Pharmacy, Skilled Nursing Facilities, and DME"
+    },
+    {
+     "key": "team.85",
+     "kind": "Paragraph",
+     "text": "David Feuer has more than 20 years of experience in Medical Mergers and Acquisitions and as an accomplished owner and executive of multi-million dollar medical and non-medical companies. With his long time expertise in Wholesale & Retail Pharmacies, Hospice, Medical Devises, DME, Long Term Care facilities, and other specialties, he can help companies in growth mode to fulfill their upside potential. David has the experience and expertise to help enhance the value of your company, and he understands the intricacies involved in selling both small and large companies."
+    },
+    {
+     "key": "team.86",
+     "kind": "Heading",
+     "text": "Sam Fuhrer"
+    },
+    {
+     "key": "team.87",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.88",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.89",
+     "kind": "Paragraph",
+     "text": "Alcohol, Drug Abuse, Behavioral Health & I/DD, Life Sciences and Manufacturing Financing"
+    },
+    {
+     "key": "team.90",
+     "kind": "Paragraph",
+     "text": "Sam Fuhrer comes from an extensive background in the world of behavioral health and consulting, with an emphasis on drug & alcohol rehabilitation facilities. He graduated with honors with a BA from Muhlenberg College, and he continues to participate as a volunteer in several community programs while serving on multiple Boards as a Director. With a license in real estate and a formidable track record, Sam stands ready to attend the needs of our client base who can capitalize on his skillsets. He brings a wealth of knowledge and expertise regarding the M&A process."
+    },
+    {
+     "key": "team.91",
+     "kind": "Heading",
+     "text": "Vincent Harrison"
+    },
+    {
+     "key": "team.92",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.93",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.94",
+     "kind": "Paragraph",
+     "text": "Hospitals & Surgery Centers, Veterinary Practices, and MRI & Imaging Centers"
+    },
+    {
+     "key": "team.95",
+     "kind": "Paragraph",
+     "text": "Vincent Harrison has spent over two decades structuring and scaling, multimillion-dollar businesses for exits, as a founder, CEO, and operator. Having personally navigated transactions from the buy-side, sell-side, and ownership perspective, he brings a pragmatic, deal-driven approach to American Healthcare Capital, facilitating efficient processes, aligned expectations, and timely closings that work for both buyers and business owners."
+    },
+    {
+     "key": "team.96",
+     "kind": "Heading",
+     "text": "Ivana Harrison"
+    },
+    {
+     "key": "team.97",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.98",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.99",
+     "kind": "Paragraph",
+     "text": "Behavioral Health (with an emphasis on Autism), Management Consultant, and Laboratory"
+    },
+    {
+     "key": "team.100",
+     "kind": "Paragraph",
+     "text": "Ivana Harrison brings over 15 years of commercial leadership experience in the healthcare industry, having successfully guided companies through every phase of growth, from developing innovative products and services to navigating successful exits through private equity and IPOs. Her deep industry expertise and strategic acumen enable her to position businesses for maximum market appeal and enterprise value, while advising founders and stakeholders on optimal timing and execution for successful exits."
+    },
+    {
+     "key": "team.101",
+     "kind": "Paragraph",
+     "text": "Ivana holds a B.A. in Quantitative Economics and Finance from Providence College and an M.A. in Economics from CUNY Hunter College. She is based in Los Angeles, where she lives with her husband and son. Outside of work, Ivana is a dedicated CrossFit athlete and enthusiastic world traveler."
+    },
+    {
+     "key": "team.102",
+     "kind": "Heading",
+     "text": "Luci Jameson"
+    },
+    {
+     "key": "team.103",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.104",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.105",
+     "kind": "Paragraph",
+     "text": "Home Health, Hospice, and Behavioral Health"
+    },
+    {
+     "key": "team.106",
+     "kind": "Paragraph",
+     "text": "Luci Jameson brings almost three decades of experience in healthcare M&A support, business development, customer service, and operations to American HealthCare Capital."
+    },
+    {
+     "key": "team.107",
+     "kind": "Paragraph",
+     "text": "Prior to joining AHC, Luci worked with Ascend Healthcare Advisors under the tutelage of the late Brian Brunderman, where she managed the firm’s day-to-day operations and supported its healthcare M&A activities. She previously served as Business Transaction Manager for Stoneridge Partners, a healthcare M&A firm, where she worked closely with business owners, buyers, vendors, and internal deal teams throughout the transaction process."
+    },
+    {
+     "key": "team.108",
+     "kind": "Paragraph",
+     "text": "Luci also has prior healthcare experience with Humana, where she worked as a Business Specialist/Healthcare Liaison and Clinical Pharmacy Review Specialist. Earlier in her career, she spent more than 15 years in business operations and client relations."
+    },
+    {
+     "key": "team.109",
+     "kind": "Paragraph",
+     "text": "With her background in healthcare, M&A support, relationship management, and business development, Luci is well-positioned to support clients and buyers throughout the transaction process."
+    },
+    {
+     "key": "team.110",
+     "kind": "Heading",
+     "text": "Justin Honsch"
+    },
+    {
+     "key": "team.111",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.112",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.113",
+     "kind": "Paragraph",
+     "text": "Veterinary, Life Sciences, Technology, and Medical Groups"
+    },
+    {
+     "key": "team.114",
+     "kind": "Paragraph",
+     "text": "Justin Honsch brings over 25 years of expertise in marketing to animal health and life sciences organizations to American Healthcare Capital, complemented by his background in technology and medical group practices. He began his career in sales, gaining valuable insight into DVMs and staff through visits to more than 2,000 veterinary hospitals nationwide."
+    },
+    {
+     "key": "team.115",
+     "kind": "Paragraph",
+     "text": "Throughout his career, Justin assumed progressively responsible roles in commercial operations with major companies, including Merck and Novartis Animal Health. In 2015, he transitioned to consulting within the veterinary sector, where he has assisted veterinary hospitals with business growth strategy, pharmacy management, telemedicine implementation, hospital valuation assessments, and guidance through the sale process."
+    },
+    {
+     "key": "team.116",
+     "kind": "Paragraph",
+     "text": "Justin holds a Master of Business Administration with a concentration in Finance from the University of Notre Dame, as well as a Bachelor of Arts in Communication from the University of North Carolina."
+    },
+    {
+     "key": "team.117",
+     "kind": "Heading",
+     "text": "Kelly Kenworthy"
+    },
+    {
+     "key": "team.118",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.119",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.120",
+     "kind": "Paragraph",
+     "text": "Dental Practices, Dental Labs, and Billing, Collections & Revenue Cycle Management"
+    },
+    {
+     "key": "team.121",
+     "kind": "Paragraph",
+     "text": "Kelly Kenworthy brings 12 years of combined direct and ancillary experience spanning healthcare advisory, M&A, and wealth advisory. Her background includes 4 years of supporting executives in the healthcare industry, 3 years contributing to the growth of Futuredontics from private equity investment through its acquisition by Dentsply Sirona, 5 years of M&A-related business development and deal origination experience, and 3 years in wealth advisory. In her current role, Kelly serves as a multi-specialty healthcare advisor focused on originating opportunities and building relationships across the healthcare industry."
+    },
+    {
+     "key": "team.122",
+     "kind": "Heading",
+     "text": "Tim Le"
+    },
+    {
+     "key": "team.123",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.124",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.125",
+     "kind": "Paragraph",
+     "text": "Traumatic Brain and Spine Injury, and Behavioral Health"
+    },
+    {
+     "key": "team.126",
+     "kind": "Paragraph",
+     "text": "Tim Le has been providing financial and marketing services for over ten years. His experience spans across multiple industries, from real estate, to finance, to healthcare. Since joining American HealthCare Capital, he has focused on closing transactions in behavioral health and mental health, specifically in the traumatic brain and spinal cord injury sector. He has also had great success in the home health and hospice arena, with a strong network of buyers and sellers. In addition to his M&A activities, Tim is able to provide effective loan transactions for acquisitions and other needs through AHC Banking, a wholly-owned subsidiary of American Healthcare Capital."
+    },
+    {
+     "key": "team.127",
+     "kind": "Heading",
+     "text": "Jim Lobel"
+    },
+    {
+     "key": "team.128",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.129",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.130",
+     "kind": "Paragraph",
+     "text": "Urgent Care, Occupational Medicine, Physical Therapy, and Healthcare Consultant"
+    },
+    {
+     "key": "team.131",
+     "kind": "Paragraph",
+     "text": "Jim Lobel has been a serial entrepreneur for many years, a healthcare consultant for more than a decade, and the CEO of numerous companies, including a multi-facility healthcare company which he sold in 2018 for a premium. In addition, he is a top mentor and counselor for SCORE.org, helping entrepreneurs of all types with their business aspirations or challenges with their existing businesses. Jim has been involved in numerous M&A transactions on both the buy and sell side and provides a variety of services, including valuations and financial analysis."
+    },
+    {
+     "key": "team.132",
+     "kind": "Heading",
+     "text": "James McGeehan"
+    },
+    {
+     "key": "team.133",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.134",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.135",
+     "kind": "Paragraph",
+     "text": "Private Equity Collaborator, Health Care Facilities, Corporate Finance, Home Health and Hospice"
+    },
+    {
+     "key": "team.136",
+     "kind": "Paragraph",
+     "text": "James McGeehnan has a stellar background and reputation after thirty years in the business by providing business development opportunities for start-up companies in their quest for market share and expansion. James started a waste disposal business in his own basement, grew the venture and managed it successfully for many years. He eventually sold his start-up for a 4 times multiple. He is quite known for developing business through sales management, modern-day techniques and key alliances with Corporate America. James has a B.S. in Civil Engineering. He also has multiple professional affiliations and sits on several charity boards."
+    },
+    {
+     "key": "team.137",
+     "kind": "Heading",
+     "text": "Dr. Allen Nazeri"
+    },
+    {
+     "key": "team.138",
+     "kind": "Paragraph",
+     "text": "Managing and Medical Director"
+    },
+    {
+     "key": "team.139",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.140",
+     "kind": "Paragraph",
+     "text": "U.S. and International Healthcare Sales Expert"
+    },
+    {
+     "key": "team.141",
+     "kind": "Paragraph",
+     "text": "Known professionally the world over as Dr. Allen, he brings over 35 years of experience as a clinician, entrepreneur, and M&A advisor to private and publicly traded healthcare companies. His expertise spans across 52+ healthcare verticals and cross-border transactions. He holds a DDS from Creighton University and an MBA in Investment Banking from the University of Bedfordshire, UK. Dr. Allen is also a Certified M&A Professional (CM&AP) and a Master Certified Intermediary (M&AMI). He is the author of: “Value Engineering: How to 10X the Value of Your Company” & “Sell Your Healthcare Company at a Premium” available on Amazon.com Dr. Allen’s weekly articles can be found on Linked in. Dr. Allen is available for keynotes, panels, and webinars across all healthcare sectors."
+    },
+    {
+     "key": "team.142",
+     "kind": "Heading",
+     "text": "Maxim Safonov"
+    },
+    {
+     "key": "team.143",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.144",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.145",
+     "kind": "Paragraph",
+     "text": "Hospice, Home Health, Pharmacy, DME and Chaplain"
+    },
+    {
+     "key": "team.146",
+     "kind": "Paragraph",
+     "text": "Maxim Safonov specializes in Home Health, Hospice, Pharmacy, and DME. Prior to joining American HealthCare Capital, Max worked for a bank providing business development services to the community before transitioning to the healthcare profession where he worked for multiple hospice agencies as a Chaplain. He later founded and successfully operated his own hospice agency, which eventually sold for a profit. He graduated with an M.A. degree from Andrews University in Berrien Springs, Michigan, and completed his Chaplain residency at UC Davis Medical Center. Max is bilingual in English and Russian and is available for consultation as a Chaplain and to advise on sell-side and buy-side engagements for companies of all sizes."
+    },
+    {
+     "key": "team.147",
+     "kind": "Heading",
+     "text": "Mark Santoleri"
+    },
+    {
+     "key": "team.148",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.149",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.150",
+     "kind": "Paragraph",
+     "text": "Home Health & Hospice, and Health & Wellness"
+    },
+    {
+     "key": "team.151",
+     "kind": "Paragraph",
+     "text": "Mark Santoleri is a seasoned executive with over 40 years of quantifiable success across a wide spectrum of international and domestic service markets. His expertise spans operations, sales, and marketing, with more than two decades of specialized leadership in the home care sector. Mark has held full P&L responsibility from startup through exit, having successfully built, scaled, and sold a sizable home care agency through American HealthCare Capital to a strategic acquirer."
+    },
+    {
+     "key": "team.152",
+     "kind": "Paragraph",
+     "text": "With a deep understanding of the M&A process from a seller’s perspective, Mark brings valuable insight to companies preparing for growth or transition. He is also highly skilled in cultivating strategic partnerships and excels in operations, communications, negotiations, management, and interpersonal skills. His effectiveness is further enhanced by extensive experience working in diverse, multicultural environments."
+    },
+    {
+     "key": "team.153",
+     "kind": "Heading",
+     "text": "Greg Schriber"
+    },
+    {
+     "key": "team.154",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.155",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.156",
+     "kind": "Paragraph",
+     "text": "Physical Therapy, Pediatric Therapy, Home Health, Home Care, Behavioral Health, Medical Staffing and Software and Technology"
+    },
+    {
+     "key": "team.157",
+     "kind": "Paragraph",
+     "text": "Greg Schriber joined American HealthCare Capital in 2017 and specializes in Physical Therapy, Pediatric Therapy, Home Health, Home Care, Behavioral Health, Medical Staffing, and Software and Technology businesses nationwide. Greg is a seasoned professional with over 15 years of experience in financial management, specializing in the healthcare industry. Greg has a B.A. degree from the University of North Carolina at Charlotte and has a strong background in strategic marketing, sales, and finance. In addition to his financial expertise, he provides exceptional service to his clients and understands the unique challenges and opportunities faced by healthcare companies. He is skilled at identifying potential sellers and buyers, negotiating favorable terms, and guiding clients through the M&A process. He is available for consultation on sell-side and buy-side engagements for companies of all sizes."
+    },
+    {
+     "key": "team.158",
+     "kind": "Heading",
+     "text": "Joseph Sexton"
+    },
+    {
+     "key": "team.159",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.160",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.161",
+     "kind": "Paragraph",
+     "text": "Home Care, Home Health and Hospice"
+    },
+    {
+     "key": "team.162",
+     "kind": "Paragraph",
+     "text": "Joseph Sexton specializes in Home Care, Home Health, and Hospice. He earned a BBA in Finance from the University of Texas at Austin, and his background includes experience with Fortune 500 companies in the areas of sales, marketing, and financial analysis. He is a Certified Merger and Acquisition Advisor (CM&AA), a member of the Alliance of Merger & Acquisition Advisors (AM&AA), and he has worked in the business transfer space since 2011. Prior to joining American HealthCare Capital, Joseph operated a business brokerage firm specializing in sell-side representation of main street businesses. He also served as Marketing Director for a national business broker network, where he developed creative marketing systems that helped the network achieve substantial growth."
+    },
+    {
+     "key": "team.163",
+     "kind": "Heading",
+     "text": "Noah Stults"
+    },
+    {
+     "key": "team.164",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.165",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.166",
+     "kind": "Paragraph",
+     "text": "Clinical Trials, Medical Labs, and Revenue Cycle Management"
+    },
+    {
+     "key": "team.167",
+     "kind": "Paragraph",
+     "text": "As a serial entrepreneur and the founder of multiple successful digital agencies, Noah brings a deep-rooted understanding of business scalability and enterprise growth to American HealthCare Capital. For the past several years, Noah has served as a strategic partner to the firm, identifying high-potential healthcare opportunities and successfully connecting owners with the AHC team to facilitate premium exits."
+    },
+    {
+     "key": "team.168",
+     "kind": "Paragraph",
+     "text": "Prior to joining the firm as a Managing Director, Noah specialized in driving enterprise-level expansion for B2B and healthcare organizations through sophisticated digital marketing and bespoke software solutions. He has a proven track record of helping medical providers optimize patient engagement platforms and streamline telehealth integrations. This hands-on experience in clinical operational efficiency allows him to uniquely identify hidden value drivers and effectively position healthcare businesses for maximum valuation in the M&A marketplace."
+    },
+    {
+     "key": "team.169",
+     "kind": "Heading",
+     "text": "Connor Weinacht"
+    },
+    {
+     "key": "team.170",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.171",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.172",
+     "kind": "Paragraph",
+     "text": "Clinical Trials, Medical Labs, and Revenue Cycle Management"
+    },
+    {
+     "key": "team.173",
+     "kind": "Paragraph",
+     "text": "Connor Weinacht joined AHC as Managing Director, bringing a wealth of leadership experience from his tenure as President of a premier digital advisory firm. Throughout his career, Connor has specialized in fueling growth for Private Equity and healthcare organizations by bridging the gap between digital strategy and high-stakes marketing services. Much like the industry’s top M&A advisors, he operates with the philosophy that a firm’s greatest asset is its network."
+    },
+    {
+     "key": "team.174",
+     "kind": "Paragraph",
+     "text": "Drawing on this leadership background, Connor has developed a proprietary ecosystem that connects PE firms with key stakeholders across the medical and professional service sectors. His expertise lies in navigating the complexities of the healthcare marketplace, ensuring that every engagement is backed by measurable results and a data-driven strategy. Whether the goal is seller-side acquisition or buyer-side expansion, Connor provides the digital infrastructure necessary to close the gap between opportunity and execution for American HealthCare Capital."
+    },
+    {
+     "key": "team.175",
+     "kind": "Heading",
+     "text": "Stephen Williams"
+    },
+    {
+     "key": "team.176",
+     "kind": "Paragraph",
+     "text": "Managing Director"
+    },
+    {
+     "key": "team.177",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital"
+    },
+    {
+     "key": "team.178",
+     "kind": "Paragraph",
+     "text": "Pharmaceuticals and Supplements, Pharmacies, and Medical Staffing"
+    },
+    {
+     "key": "team.179",
+     "kind": "Paragraph",
+     "text": "Steve Williams is an accomplished pharmaceutical scientific leader, business development professional, and executive recruiter for bio pharma companies. Steve earned his Bachelor of Science degree at the University of North Carolina at Chapel Hill and his Ph.D. in Pharmacology at Duke University. He began his career at DuPont as a toxicologist. During his tenure with Dupont, he worked in several different divisions, leading teams in discovery, development, and new product planning. From there he was recruited to Bristol Myers Squibb as a Medical Director in their Strategic Medical Planning organization. After BMS, Steve worked in biotech as a VP of Business Development and eventually entered the field of Executive Recruiting in 1998, where he enjoyed leadership roles at Bench International and Catalyst Advisors, two firms that were focused on recruiting C-level executives and board directors to top-tier bio-pharma companies. He has worked extensively with leading companies including Pfizer, Roche, Novartis, Regeneron, Vertex, Celgene, Bristol-Myers Squibb, Gilead, BioMarin, and a range of start-up and venture-backed bio pharma companies. With his vast experience and expertise, Steve is uniquely equipped to assist healthcare business owners looking to buy or sell in today’s market."
+    },
+    {
+     "key": "team.180",
+     "kind": "Button",
+     "text": "Show all 33 people"
+    }
+   ]
+  },
+  {
+   "id": "join",
+   "name": "You know the sector.We bring the buyers and the process.",
+   "items": [
+    {
+     "key": "join.1",
+     "kind": "Text",
+     "text": "Join the network"
+    },
+    {
+     "key": "join.2",
+     "kind": "Section headline",
+     "text": "You know the sector.<br><em>We bring the buyers and the process.</em>"
+    },
+    {
+     "key": "join.3",
+     "kind": "Paragraph",
+     "text": "Capital Row is adding independent advisers. Each one covers a sector they know from the inside, and is listed here with their own firm and focus."
+    },
+    {
+     "key": "join.4",
+     "kind": "Text",
+     "text": "A sector you know"
+    },
+    {
+     "key": "join.5",
+     "kind": "Paragraph",
+     "text": "Software or services in one of our ten industries, known from operating in it or from transactions closed in it."
+    },
+    {
+     "key": "join.6",
+     "kind": "Text",
+     "text": "Transaction experience"
+    },
+    {
+     "key": "join.7",
+     "kind": "Paragraph",
+     "text": "Buy-side or sell-side work with owners, buyers or lenders, and the judgment to say when a business needs more preparation first."
+    },
+    {
+     "key": "join.8",
+     "kind": "Text",
+     "text": "Your own firm"
+    },
+    {
+     "key": "join.9",
+     "kind": "Paragraph",
+     "text": "Advisers stay independent. Capital Row adds the sector intelligence, the buyer criteria on file and the process."
+    },
+    {
+     "key": "join.10",
+     "kind": "Paragraph",
+     "text": "Send a short note on the sector you cover. <a>Start the conversation</a>"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "name": "What nearly 40 years of deal flow has taught us.",
+   "items": [
+    {
+     "key": "reading.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "reading.2",
+     "kind": "Section headline",
+     "text": "What nearly 40 years of deal flow <em>has taught us.</em>"
+    },
+    {
+     "key": "reading.3",
+     "kind": "Paragraph",
+     "text": "American Healthcare Capital has been in this market since 1989. Capital Row adds the sector research."
+    },
+    {
+     "key": "reading.4",
+     "kind": "Text",
+     "text": "The market"
+    },
+    {
+     "key": "reading.5",
+     "kind": "Text",
+     "text": "The median firm sees fewer than one deal in five"
+    },
+    {
+     "key": "reading.6",
+     "kind": "Text",
+     "text": "Read"
+    },
+    {
+     "key": "reading.7",
+     "kind": "Text",
+     "text": "Why deals break"
+    },
+    {
+     "key": "reading.8",
+     "kind": "Text",
+     "text": "A quarter died on a finding outside the earnings work"
+    },
+    {
+     "key": "reading.9",
+     "kind": "Text",
+     "text": "Read"
+    },
+    {
+     "key": "reading.10",
+     "kind": "Text",
+     "text": "What origination costs"
+    },
+    {
+     "key": "reading.11",
+     "kind": "Text",
+     "text": "Volume isn’t the problem. Intelligence is"
+    },
+    {
+     "key": "reading.12",
+     "kind": "Text",
+     "text": "Read"
+    }
+   ]
+  },
+  {
+   "id": "start",
+   "name": "Tell us what you are working on.",
+   "items": [
+    {
+     "key": "start.1",
+     "kind": "Section headline",
+     "text": "Tell us what you are <em>working on.</em>"
+    },
+    {
+     "key": "start.2",
+     "kind": "Paragraph",
+     "text": "Name the vertical and where you need clarity. A person reads it."
+    },
+    {
+     "key": "start.3",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "start.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    }
+   ]
+  }
+ ]
+}

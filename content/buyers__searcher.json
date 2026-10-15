@@ -1,0 +1,307 @@
+{
+ "path": "/buyers/searcher/",
+ "seoTitle": "Capital Row, for searchers and independent sponsors: one transaction, and nothing to average it against",
+ "seoDescription": "For searchers and independent sponsors: the evidence on one target, before a letter of intent is priced.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "One transaction, and nothing to average it against.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Buy-side coverage"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "Independent sponsors"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Page headline",
+     "text": "One transaction, <em>and nothing to average it against.</em>"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "A fund averages its mistakes across a portfolio. A searcher has one company. For a single transaction, we run the evidence on a target before a letter is priced."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "One target"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Evidence before the letter"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "Financials traced to source"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "For buyers · What searchers earn",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "For buyers · What searchers earn"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "4.75x"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "is the aggregate search fund return one university publishes. <em>Another puts the weighted average at 2.50 times.</em> Each is right about what it measured."
+    },
+    {
+     "key": "market.4",
+     "kind": "Note",
+     "text": "Stanford Graduate School of Business, 2026 Search Fund Study, data to 31 December 2025: more than 850 funds in the United States and Canada. Yale School of Management, How are Search Fund Investors Really Faring?, 27 October 2025: 1,192 observations from 12 investors in 23 funds. Yale does not say the Stanford figure is wrong; it argues that it is a population index no single investor can replicate. Both are shown; neither is preferred here."
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "The returns are disputed. The earnings question is no longer optional.",
+   "items": [
+    {
+     "key": "evidence.1",
+     "kind": "Small label",
+     "text": "For buyers · What a single transaction carries"
+    },
+    {
+     "key": "evidence.2",
+     "kind": "Section headline",
+     "text": "The returns are disputed. <em>The earnings question is no longer optional.</em>"
+    },
+    {
+     "key": "evidence.3",
+     "kind": "Paragraph",
+     "text": "On an SBA-financed purchase above the threshold, the lender now commissions its own quality of earnings. It will read the same records you can read first."
+    },
+    {
+     "key": "evidence.4",
+     "kind": "Text",
+     "text": "$3M"
+    },
+    {
+     "key": "evidence.5",
+     "kind": "Text",
+     "text": "Purchase price at which an SBA-financed change of ownership requires a quality of earnings"
+    },
+    {
+     "key": "evidence.6",
+     "kind": "Text",
+     "text": "From 1 October 2026. It must be commissioned by the lender, and the rule provides that it may not be prepared by or for the borrower or the seller. Nothing here substitutes for it."
+    },
+    {
+     "key": "evidence.7",
+     "kind": "Text",
+     "text": "31%"
+    },
+    {
+     "key": "evidence.8",
+     "kind": "Text",
+     "text": "Completed search fund deals that returned more than three times invested capital"
+    },
+    {
+     "key": "evidence.9",
+     "kind": "Text",
+     "text": "In the Yale data. Its authors conclude that an investor should expect 2.0 to 3.0 times."
+    },
+    {
+     "key": "evidence.10",
+     "kind": "Text",
+     "text": "$16M"
+    },
+    {
+     "key": "evidence.11",
+     "kind": "Text",
+     "text": "Median purchase price, acquisitions made in 2024 and 2025"
+    },
+    {
+     "key": "evidence.12",
+     "kind": "Text",
+     "text": "After a typical search of about twenty months."
+    },
+    {
+     "key": "evidence.13",
+     "kind": "Text",
+     "text": "70"
+    },
+    {
+     "key": "evidence.14",
+     "kind": "Text",
+     "text": "Average days in exclusivity before a search fund’s deal broke"
+    },
+    {
+     "key": "evidence.15",
+     "kind": "Text",
+     "text": "Against 106 for private equity and 125 for a corporation. Less time to find the problem."
+    },
+    {
+     "key": "evidence.16",
+     "kind": "Note",
+     "text": "SBA Information Notice 5000-880695, Issuance of SOP 50 10 8.1, effective 1 October 2026; the procedure binds SBA lenders and does not apply directly to a privately financed transaction. Yale School of Management, 27 October 2025. Stanford Graduate School of Business, 2026 Search Fund Study. A lower-middle-market deal platform’s published study of seventy-five broken letters of intent, 27 January 2026; exclusivity figures are averages by buyer type."
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "name": "The evidence on one target, before the letter is priced.",
+   "items": [
+    {
+     "key": "work.1",
+     "kind": "Small label",
+     "text": "For buyers · What the work covers"
+    },
+    {
+     "key": "work.2",
+     "kind": "Section headline",
+     "text": "The evidence on one target, <em>before the letter is priced.</em>"
+    },
+    {
+     "key": "work.3",
+     "kind": "Paragraph",
+     "text": "This is non-attest preparation."
+    },
+    {
+     "key": "work.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "work.5",
+     "kind": "Text",
+     "text": "Earnings, traced"
+    },
+    {
+     "key": "work.6",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, and reported earnings tied to the records behind them."
+    },
+    {
+     "key": "work.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "work.8",
+     "kind": "Text",
+     "text": "Every adjustment, marked"
+    },
+    {
+     "key": "work.9",
+     "kind": "Paragraph",
+     "text": "Each add-back in the seller’s presentation marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "work.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "work.11",
+     "kind": "Text",
+     "text": "Customers and contracts"
+    },
+    {
+     "key": "work.12",
+     "kind": "Paragraph",
+     "text": "Concentration, retention and contract terms, including what transfers on a change of ownership."
+    },
+    {
+     "key": "work.13",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "work.14",
+     "kind": "Text",
+     "text": "A findings report"
+    },
+    {
+     "key": "work.15",
+     "kind": "Paragraph",
+     "text": "What was found and what it affects, before you price the letter. Scope and fee are agreed in writing before any work begins."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Start with your criteria. <em>See the deals you have been missing.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    },
+    {
+     "key": "next.6",
+     "kind": "Small label",
+     "text": "The other routes"
+    },
+    {
+     "key": "next.7",
+     "kind": "Link",
+     "text": "<i>01</i>Permanent capital and family offices"
+    },
+    {
+     "key": "next.8",
+     "kind": "Link",
+     "text": "<i>02</i>Private equity and platform acquirers"
+    },
+    {
+     "key": "next.9",
+     "kind": "Link",
+     "text": "<i>03</i>Strategic acquirers"
+    },
+    {
+     "key": "next.10",
+     "kind": "Text",
+     "text": "<i>04</i>Independent sponsors"
+    },
+    {
+     "key": "next.11",
+     "kind": "Link",
+     "text": "<i>05</i>Lenders and financing partners"
+    }
+   ]
+  }
+ ]
+}

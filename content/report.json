@@ -1,0 +1,233 @@
+{
+ "path": "/report/",
+ "seoTitle": "Capital Row: Report a dead deal",
+ "seoDescription": "Did your deal blow up? Tell Capital Row what happened, confidentially. We publish nothing that identifies you, the buyer or the business.",
+ "sections": [
+  {
+   "id": "report",
+   "name": "Report a dead deal.Tell us what happened, confidentially.",
+   "items": [
+    {
+     "key": "report.1",
+     "kind": "Paragraph",
+     "text": "<a>← Back to Capital Row</a>"
+    },
+    {
+     "key": "report.2",
+     "kind": "Small label",
+     "text": "For owners · Confidential report"
+    },
+    {
+     "key": "report.3",
+     "kind": "Page headline",
+     "text": "Report a dead deal.<br><em>Tell us what happened, confidentially.</em>"
+    },
+    {
+     "key": "report.4",
+     "kind": "Paragraph",
+     "text": "Every report adds to Capital Row’s record of why deals fail: what was found, at what stage, by which kind of buyer, and what it cost. Each one is read by a person and coded by deterministic AI, the same way every time, so the patterns hold. We use them to show owners what a buyer is likely to raise before the next letter of intent, yours included."
+    },
+    {
+     "key": "report.5",
+     "kind": "Text",
+     "text": "Confidential"
+    },
+    {
+     "key": "report.6",
+     "kind": "Text",
+     "text": "Never shared"
+    },
+    {
+     "key": "report.7",
+     "kind": "Paragraph",
+     "text": "Read by a person at Capital Row and never passed to a buyer, a broker or anyone else. We publish nothing that identifies you, the buyer or the business."
+    },
+    {
+     "key": "report.8",
+     "kind": "Text",
+     "text": "What you get"
+    },
+    {
+     "key": "report.9",
+     "kind": "Text",
+     "text": "A confidential debrief"
+    },
+    {
+     "key": "report.10",
+     "kind": "Paragraph",
+     "text": "Twenty minutes with our team: what a buyer is likely to raise next time, and what to fix first."
+    },
+    {
+     "key": "report.11",
+     "kind": "Text",
+     "text": "When we publish"
+    },
+    {
+     "key": "report.12",
+     "kind": "Text",
+     "text": "The findings, first"
+    },
+    {
+     "key": "report.13",
+     "kind": "Paragraph",
+     "text": "Our dead deal findings by sector, sent to you before they are published."
+    },
+    {
+     "key": "report.14",
+     "kind": "Button",
+     "text": "Start the report"
+    },
+    {
+     "key": "report.15",
+     "kind": "Note",
+     "text": "About two minutes. Only the main reason and an email address are required."
+    },
+    {
+     "key": "report.16",
+     "kind": "Paragraph",
+     "text": "Report a dead deal"
+    },
+    {
+     "key": "report.17",
+     "kind": "Form label",
+     "text": "Sector"
+    },
+    {
+     "key": "report.18",
+     "kind": "Form label",
+     "text": "Kind of business"
+    },
+    {
+     "key": "report.19",
+     "kind": "Form label",
+     "text": "Annual revenue at the time"
+    },
+    {
+     "key": "report.20",
+     "kind": "Form label",
+     "text": "Adjusted earnings at the time"
+    },
+    {
+     "key": "report.21",
+     "kind": "Form label",
+     "text": "Who the buyer was"
+    },
+    {
+     "key": "report.22",
+     "kind": "Form label",
+     "text": "Who advised you on the sale"
+    },
+    {
+     "key": "report.23",
+     "kind": "Form label",
+     "text": "When it happened"
+    },
+    {
+     "key": "report.24",
+     "kind": "Form label",
+     "text": "How far it got"
+    },
+    {
+     "key": "report.25",
+     "kind": "Form label",
+     "text": "Days under exclusivity, if any"
+    },
+    {
+     "key": "report.26",
+     "kind": "Form label",
+     "text": "What went wrong, the main reason"
+    },
+    {
+     "key": "report.27",
+     "kind": "Form label",
+     "text": "Was the price or structure changed before it ended"
+    },
+    {
+     "key": "report.28",
+     "kind": "Form label",
+     "text": "Where it stands today"
+    },
+    {
+     "key": "report.29",
+     "kind": "Form label",
+     "text": "What had been prepared before going to market"
+    },
+    {
+     "key": "report.30",
+     "kind": "Form label",
+     "text": "Entity type"
+    },
+    {
+     "key": "report.31",
+     "kind": "Form label",
+     "text": "Real estate"
+    },
+    {
+     "key": "report.32",
+     "kind": "Form label",
+     "text": "Contracts needing consent when ownership changes"
+    },
+    {
+     "key": "report.33",
+     "kind": "Form label",
+     "text": "What you would do differently. Please leave out names."
+    },
+    {
+     "key": "report.34",
+     "kind": "Form label",
+     "text": "Name, optional"
+    },
+    {
+     "key": "report.35",
+     "kind": "Form label",
+     "text": "Email. A personal address is fine."
+    },
+    {
+     "key": "report.36",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "report.37",
+     "kind": "Text",
+     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "report.38",
+     "kind": "Text",
+     "text": "You may contact me about this report, and to set up my debrief."
+    },
+    {
+     "key": "report.39",
+     "kind": "Text",
+     "text": "You may share what I describe here anonymously in Capital Row’s published work, with every identifying detail removed."
+    },
+    {
+     "key": "report.40",
+     "kind": "Button",
+     "text": "Send the report"
+    },
+    {
+     "key": "report.41",
+     "kind": "Paragraph",
+     "text": "Your report goes directly to Capital Row and is kept confidential. A name is optional, and a personal email address is fine."
+    },
+    {
+     "key": "report.42",
+     "kind": "Paragraph",
+     "text": "Thank you. If you ticked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
+    },
+    {
+     "key": "report.43",
+     "kind": "Button",
+     "text": "Reserve your seat at the owner session"
+    },
+    {
+     "key": "report.44",
+     "kind": "Note",
+     "text": "Wednesday 20 January. What a buyer will find in your 2026 numbers, and how to find it first."
+    }
+   ]
+  }
+ ]
+}
