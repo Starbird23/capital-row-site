@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "Sector coverage: ten industries, 51 sectors, five desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 51 sectors, with five desks open in healthcare. Choose an industry to see its sectors and which are active.",
+ "seoTitle": "Sector coverage: ten industries, 63 sectors, five desks open | Capital Row",
+ "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with five desks open in healthcare. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Ten industries. Fifty-one sectors. Five desks open.",
+   "name": "Ten industries. Sixty-three sectors. Five desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -25,7 +25,7 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Ten industries. Fifty-one sectors. <em>Five desks open.</em>"
+     "text": "Ten industries. Sixty-three sectors. <em>Five desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -881,12 +881,12 @@
     {
      "key": "band.165",
      "kind": "Text",
-     "text": "Point of sale, reservations and property management for operators."
+     "text": "Point of sale, property, events, fitness and attractions systems for operators."
     },
     {
      "key": "band.166",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "6 sectors<br>Planned"
     },
     {
      "key": "band.167",
@@ -896,12 +896,12 @@
     {
      "key": "band.168",
      "kind": "Paragraph",
-     "text": "Point of sale, reservations and property management for operators."
+     "text": "Point of sale, property, events, fitness and attractions systems for operators."
     },
     {
      "key": "band.169",
      "kind": "Text",
-     "text": "Restaurant & hotel software"
+     "text": "Restaurant POS & back office"
     },
     {
      "key": "band.170",
@@ -911,42 +911,42 @@
     {
      "key": "band.171",
      "kind": "Paragraph",
-     "text": "Point of sale, back office, reservations and property management for operators"
+     "text": "Order-taking and payment terminals, with the inventory, labor and reporting tools a restaurant group runs on"
     },
     {
      "key": "band.172",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Hotel property management & revenue tools"
     },
     {
      "key": "band.173",
      "kind": "Text",
-     "text": "Retail & automotive"
+     "text": "Planned"
     },
     {
      "key": "band.174",
-     "kind": "Text",
-     "text": "Dealer management, service and parts for dealers and repair shops."
+     "kind": "Paragraph",
+     "text": "Reservations, check-in, billing, rate setting and distribution to booking sites for hotels"
     },
     {
      "key": "band.175",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "Event & venue management software"
     },
     {
      "key": "band.176",
-     "kind": "Heading",
-     "text": "Retail & automotive"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.177",
      "kind": "Paragraph",
-     "text": "Dealer management, service and parts for dealers and repair shops."
+     "text": "Booking, floor plans, contracts and registration for venues that host private events"
     },
     {
      "key": "band.178",
      "kind": "Text",
-     "text": "Auto dealer & repair software"
+     "text": "Fitness & gym management software"
     },
     {
      "key": "band.179",
@@ -956,102 +956,102 @@
     {
      "key": "band.180",
      "kind": "Paragraph",
-     "text": "Dealer management, service and parts systems for dealerships and independent repair shops"
+     "text": "Member billing, class scheduling, check-in and retention tools for gyms and studios"
     },
     {
      "key": "band.181",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Salon, spa & wellness software"
     },
     {
      "key": "band.182",
      "kind": "Text",
-     "text": "Legal & professional services"
+     "text": "Planned"
     },
     {
      "key": "band.183",
-     "kind": "Text",
-     "text": "Matter, billing, document and litigation systems for law firms."
+     "kind": "Paragraph",
+     "text": "Appointment booking, point of sale, memberships and marketing for salons, spas and wellness studios"
     },
     {
      "key": "band.184",
      "kind": "Text",
-     "text": "2 sectors<br>Planned"
+     "text": "Ticketing & attractions software"
     },
     {
      "key": "band.185",
-     "kind": "Heading",
-     "text": "Legal & professional services"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.186",
      "kind": "Paragraph",
-     "text": "Matter, billing, document and litigation systems for law firms."
+     "text": "Ticket sales, memberships, waivers and guest flow for attractions, family entertainment centers and tours"
     },
     {
      "key": "band.187",
-     "kind": "Text",
-     "text": "Legal practice software"
-    },
-    {
-     "key": "band.188",
-     "kind": "Text",
-     "text": "Planned"
-    },
-    {
-     "key": "band.189",
-     "kind": "Paragraph",
-     "text": "Matter, billing, document and client intake systems for law firms"
-    },
-    {
-     "key": "band.190",
-     "kind": "Text",
-     "text": "Litigation support & e-discovery software"
-    },
-    {
-     "key": "band.191",
-     "kind": "Text",
-     "text": "Planned"
-    },
-    {
-     "key": "band.192",
-     "kind": "Paragraph",
-     "text": "Document review, evidence bundles and trial presentation for law firms and legal service providers"
-    },
-    {
-     "key": "band.193",
      "kind": "Button",
      "text": "All ten industries"
     },
     {
+     "key": "band.188",
+     "kind": "Text",
+     "text": "Retail & automotive"
+    },
+    {
+     "key": "band.189",
+     "kind": "Text",
+     "text": "Dealer, repair, fuel-site and car wash systems for operators."
+    },
+    {
+     "key": "band.190",
+     "kind": "Text",
+     "text": "3 sectors<br>Planned"
+    },
+    {
+     "key": "band.191",
+     "kind": "Heading",
+     "text": "Retail & automotive"
+    },
+    {
+     "key": "band.192",
+     "kind": "Paragraph",
+     "text": "Dealer, repair, fuel-site and car wash systems for operators."
+    },
+    {
+     "key": "band.193",
+     "kind": "Text",
+     "text": "Auto dealer & repair software"
+    },
+    {
      "key": "band.194",
      "kind": "Text",
-     "text": "Government"
+     "text": "Planned"
     },
     {
      "key": "band.195",
-     "kind": "Text",
-     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+     "kind": "Paragraph",
+     "text": "Dealer management, repair shop management, collision tools and parts systems for dealerships and independent shops"
     },
     {
      "key": "band.196",
      "kind": "Text",
-     "text": "5 sectors<br>Planned"
+     "text": "Convenience store & fuel retail software"
     },
     {
      "key": "band.197",
-     "kind": "Heading",
-     "text": "Government"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.198",
      "kind": "Paragraph",
-     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+     "text": "Back office, point of sale, loyalty and mobile payments for convenience stores and fuel sites"
     },
     {
      "key": "band.199",
      "kind": "Text",
-     "text": "State & local government software"
+     "text": "Car wash software"
     },
     {
      "key": "band.200",
@@ -1061,42 +1061,42 @@
     {
      "key": "band.201",
      "kind": "Paragraph",
-     "text": "Permitting, courts, public safety, finance and utility billing for cities, counties and districts"
+     "text": "Membership, customer records, point of sale and site analytics for tunnel and in-bay washes"
     },
     {
      "key": "band.202",
-     "kind": "Text",
-     "text": "Public safety & emergency communications"
+     "kind": "Button",
+     "text": "All ten industries"
     },
     {
      "key": "band.203",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Legal & professional services"
     },
     {
      "key": "band.204",
-     "kind": "Paragraph",
-     "text": "Dispatch, incident records, evidence and 911 call handling for police, fire and EMS"
+     "kind": "Text",
+     "text": "Systems for law firms, associations, nonprofits and staffing agencies."
     },
     {
      "key": "band.205",
      "kind": "Text",
-     "text": "Utility billing & customer systems"
+     "text": "5 sectors<br>Planned"
     },
     {
      "key": "band.206",
-     "kind": "Text",
-     "text": "Planned"
+     "kind": "Heading",
+     "text": "Legal & professional services"
     },
     {
      "key": "band.207",
      "kind": "Paragraph",
-     "text": "Metered billing, customer accounts and payments for water, sewer, electric and gas utilities"
+     "text": "Systems for law firms, associations, nonprofits and staffing agencies."
     },
     {
      "key": "band.208",
      "kind": "Text",
-     "text": "K-12 district administration software"
+     "text": "Legal practice software"
     },
     {
      "key": "band.209",
@@ -1106,12 +1106,12 @@
     {
      "key": "band.210",
      "kind": "Paragraph",
-     "text": "Student records, bus routing, meal programs, district finance and HR"
+     "text": "Matter, billing, document and client intake systems for law firms"
     },
     {
      "key": "band.211",
      "kind": "Text",
-     "text": "Parks & recreation software"
+     "text": "Litigation support & e-discovery software"
     },
     {
      "key": "band.212",
@@ -1121,65 +1121,245 @@
     {
      "key": "band.213",
      "kind": "Paragraph",
-     "text": "Program registration, facility booking, memberships and payments for recreation departments"
+     "text": "Document review, evidence bundles and trial presentation for law firms and legal service providers"
     },
     {
      "key": "band.214",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Association & membership software"
     },
     {
      "key": "band.215",
      "kind": "Text",
-     "text": "2,784"
+     "text": "Planned"
     },
     {
      "key": "band.216",
-     "kind": "Text",
-     "text": "SaaS M&A transactions<br>12 months through Q2 2026"
+     "kind": "Paragraph",
+     "text": "Membership records, dues, events and certification for trade groups and chambers"
     },
     {
      "key": "band.217",
      "kind": "Text",
-     "text": "+9.6%"
+     "text": "Nonprofit & church software"
     },
     {
      "key": "band.218",
      "kind": "Text",
-     "text": "Q2 2026 deal volume<br>against Q2 2025"
+     "text": "Planned"
     },
     {
      "key": "band.219",
-     "kind": "Text",
-     "text": "54%"
+     "kind": "Paragraph",
+     "text": "Donor records, online giving, events and volunteer management for nonprofits and churches"
     },
     {
      "key": "band.220",
      "kind": "Text",
-     "text": "Vertical software share<br>of SaaS M&A, Q2 2026"
+     "text": "Staffing & recruiting software"
     },
     {
      "key": "band.221",
      "kind": "Text",
-     "text": "16%"
+     "text": "Planned"
     },
     {
      "key": "band.222",
+     "kind": "Paragraph",
+     "text": "Applicant tracking, client records, onboarding and pay and bill for staffing agencies"
+    },
+    {
+     "key": "band.223",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.224",
+     "kind": "Text",
+     "text": "Government"
+    },
+    {
+     "key": "band.225",
+     "kind": "Text",
+     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+    },
+    {
+     "key": "band.226",
+     "kind": "Text",
+     "text": "7 sectors<br>Planned"
+    },
+    {
+     "key": "band.227",
+     "kind": "Heading",
+     "text": "Government"
+    },
+    {
+     "key": "band.228",
+     "kind": "Paragraph",
+     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+    },
+    {
+     "key": "band.229",
+     "kind": "Text",
+     "text": "Municipal finance & administration software"
+    },
+    {
+     "key": "band.230",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.231",
+     "kind": "Paragraph",
+     "text": "Finance, HR, payroll, records and resident services for cities, counties and districts"
+    },
+    {
+     "key": "band.232",
+     "kind": "Text",
+     "text": "Public safety & emergency communications"
+    },
+    {
+     "key": "band.233",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.234",
+     "kind": "Paragraph",
+     "text": "Dispatch, incident records, evidence and 911 call handling for police, fire and EMS"
+    },
+    {
+     "key": "band.235",
+     "kind": "Text",
+     "text": "Utility billing & customer systems"
+    },
+    {
+     "key": "band.236",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.237",
+     "kind": "Paragraph",
+     "text": "Metered billing, customer accounts and payments for water, sewer, electric and gas utilities"
+    },
+    {
+     "key": "band.238",
+     "kind": "Text",
+     "text": "K-12 district administration software"
+    },
+    {
+     "key": "band.239",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.240",
+     "kind": "Paragraph",
+     "text": "Student records, bus routing, meal programs, district finance and HR"
+    },
+    {
+     "key": "band.241",
+     "kind": "Text",
+     "text": "Parks & recreation software"
+    },
+    {
+     "key": "band.242",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.243",
+     "kind": "Paragraph",
+     "text": "Program registration, facility booking, memberships and payments for recreation departments"
+    },
+    {
+     "key": "band.244",
+     "kind": "Text",
+     "text": "Courts & justice software"
+    },
+    {
+     "key": "band.245",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.246",
+     "kind": "Paragraph",
+     "text": "Case management, e-filing, courtroom recording and probation supervision for courts"
+    },
+    {
+     "key": "band.247",
+     "kind": "Text",
+     "text": "Permitting & licensing software"
+    },
+    {
+     "key": "band.248",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.249",
+     "kind": "Paragraph",
+     "text": "Online permits, licenses, inspections and code enforcement for cities and counties"
+    },
+    {
+     "key": "band.250",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.251",
+     "kind": "Text",
+     "text": "2,784"
+    },
+    {
+     "key": "band.252",
+     "kind": "Text",
+     "text": "SaaS M&A transactions<br>12 months through Q2 2026"
+    },
+    {
+     "key": "band.253",
+     "kind": "Text",
+     "text": "+9.6%"
+    },
+    {
+     "key": "band.254",
+     "kind": "Text",
+     "text": "Q2 2026 deal volume<br>against Q2 2025"
+    },
+    {
+     "key": "band.255",
+     "kind": "Text",
+     "text": "54%"
+    },
+    {
+     "key": "band.256",
+     "kind": "Text",
+     "text": "Vertical software share<br>of SaaS M&A, Q2 2026"
+    },
+    {
+     "key": "band.257",
+     "kind": "Text",
+     "text": "16%"
+    },
+    {
+     "key": "band.258",
      "kind": "Text",
      "text": "Healthcare share of vertical<br>SaaS M&A, Q2 2026"
     },
     {
-     "key": "band.223",
+     "key": "band.259",
      "kind": "Note",
      "text": "Source: <a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a>. The trailing-year count and the quarterly growth rate are different measures, labeled as such; SEG publishes no year-to-date 2026 figure. The industry, sector and desk counts are Capital Row’s own coverage list, not published figures. Share figures are for Q2 2026; healthcare uses vertical SaaS deals as its denominator."
     },
     {
-     "key": "band.224",
+     "key": "band.260",
      "kind": "Button",
      "text": "Follow a sector"
     },
     {
-     "key": "band.225",
+     "key": "band.261",
      "kind": "Note",
      "text": "Our notes on your sectors, as they are published."
     }

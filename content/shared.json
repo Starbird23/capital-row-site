@@ -865,80 +865,140 @@
    {
     "key": "sh.sn.54",
     "kind": "Text",
-    "text": "Restaurant & hotel software"
+    "text": "Restaurant POS & back office"
    },
    {
     "key": "sh.sn.55",
     "kind": "Text",
-    "text": "Retail & automotive"
+    "text": "Hotel property management & revenue tools"
    },
    {
     "key": "sh.sn.56",
     "kind": "Text",
-    "text": "Auto dealer & repair software"
+    "text": "Event & venue management software"
    },
    {
     "key": "sh.sn.57",
     "kind": "Text",
-    "text": "Legal & professional services"
+    "text": "Fitness & gym management software"
    },
    {
     "key": "sh.sn.58",
     "kind": "Text",
-    "text": "Legal practice software"
+    "text": "Salon, spa & wellness software"
    },
    {
     "key": "sh.sn.59",
     "kind": "Text",
-    "text": "Litigation support & e-discovery software"
+    "text": "Ticketing & attractions software"
    },
    {
     "key": "sh.sn.60",
     "kind": "Text",
-    "text": "Government"
+    "text": "Retail & automotive"
    },
    {
     "key": "sh.sn.61",
     "kind": "Text",
-    "text": "State & local government software"
+    "text": "Auto dealer & repair software"
    },
    {
     "key": "sh.sn.62",
     "kind": "Text",
-    "text": "Public safety & emergency communications"
+    "text": "Convenience store & fuel retail software"
    },
    {
     "key": "sh.sn.63",
     "kind": "Text",
-    "text": "Utility billing & customer systems"
+    "text": "Car wash software"
    },
    {
     "key": "sh.sn.64",
     "kind": "Text",
-    "text": "K-12 district administration software"
+    "text": "Legal & professional services"
    },
    {
     "key": "sh.sn.65",
     "kind": "Text",
-    "text": "Parks & recreation software"
+    "text": "Legal practice software"
    },
    {
     "key": "sh.sn.66",
     "kind": "Text",
-    "text": "Another sector"
+    "text": "Litigation support & e-discovery software"
    },
    {
     "key": "sh.sn.67",
+    "kind": "Text",
+    "text": "Association & membership software"
+   },
+   {
+    "key": "sh.sn.68",
+    "kind": "Text",
+    "text": "Nonprofit & church software"
+   },
+   {
+    "key": "sh.sn.69",
+    "kind": "Text",
+    "text": "Staffing & recruiting software"
+   },
+   {
+    "key": "sh.sn.70",
+    "kind": "Text",
+    "text": "Government"
+   },
+   {
+    "key": "sh.sn.71",
+    "kind": "Text",
+    "text": "Municipal finance & administration software"
+   },
+   {
+    "key": "sh.sn.72",
+    "kind": "Text",
+    "text": "Public safety & emergency communications"
+   },
+   {
+    "key": "sh.sn.73",
+    "kind": "Text",
+    "text": "Utility billing & customer systems"
+   },
+   {
+    "key": "sh.sn.74",
+    "kind": "Text",
+    "text": "K-12 district administration software"
+   },
+   {
+    "key": "sh.sn.75",
+    "kind": "Text",
+    "text": "Parks & recreation software"
+   },
+   {
+    "key": "sh.sn.76",
+    "kind": "Text",
+    "text": "Courts & justice software"
+   },
+   {
+    "key": "sh.sn.77",
+    "kind": "Text",
+    "text": "Permitting & licensing software"
+   },
+   {
+    "key": "sh.sn.78",
+    "kind": "Text",
+    "text": "Another sector"
+   },
+   {
+    "key": "sh.sn.79",
     "kind": "Form label",
     "text": "Which sector"
    },
    {
-    "key": "sh.sn.68",
+    "key": "sh.sn.80",
     "kind": "Form label",
     "text": "Work email"
    },
    {
-    "key": "sh.sn.69",
+    "key": "sh.sn.81",
     "kind": "Button",
     "text": "Follow"
    }
