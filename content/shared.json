@@ -670,135 +670,275 @@
    {
     "key": "sh.sn.15",
     "kind": "Text",
-    "text": "Financial services"
+    "text": "Physical therapy & rehab software"
    },
    {
     "key": "sh.sn.16",
     "kind": "Text",
-    "text": "Bank & credit union software"
+    "text": "Long-term care & senior living software"
    },
    {
     "key": "sh.sn.17",
     "kind": "Text",
-    "text": "Insurance software"
+    "text": "Payment integrity software"
    },
    {
     "key": "sh.sn.18",
     "kind": "Text",
-    "text": "Wealth & advisory software"
+    "text": "Healthcare staffing & scheduling software"
    },
    {
     "key": "sh.sn.19",
     "kind": "Text",
-    "text": "Construction, real estate & field services"
+    "text": "Veterinary practice software"
    },
    {
     "key": "sh.sn.20",
     "kind": "Text",
-    "text": "Construction & contractor software"
+    "text": "Financial services"
    },
    {
     "key": "sh.sn.21",
     "kind": "Text",
-    "text": "Field service management software"
+    "text": "Bank & credit union software"
    },
    {
     "key": "sh.sn.22",
     "kind": "Text",
-    "text": "Property management software"
+    "text": "Insurance software"
    },
    {
     "key": "sh.sn.23",
     "kind": "Text",
-    "text": "Transportation & logistics"
+    "text": "Wealth & advisory software"
    },
    {
     "key": "sh.sn.24",
     "kind": "Text",
-    "text": "Dispatch, TMS & freight audit"
+    "text": "Lending & mortgage software"
    },
    {
     "key": "sh.sn.25",
     "kind": "Text",
-    "text": "Fleet compliance & telematics"
+    "text": "Accounting & tax firm software"
    },
    {
     "key": "sh.sn.26",
     "kind": "Text",
-    "text": "Technology services"
+    "text": "Collections & receivables software"
    },
    {
     "key": "sh.sn.27",
     "kind": "Text",
-    "text": "MSP & IT service software"
+    "text": "Compliance software for advisers & broker-dealers"
    },
    {
     "key": "sh.sn.28",
     "kind": "Text",
-    "text": "Manufacturing"
+    "text": "Construction, real estate & field services"
    },
    {
     "key": "sh.sn.29",
     "kind": "Text",
-    "text": "Manufacturing ERP & shop floor"
+    "text": "Construction & contractor software"
    },
    {
     "key": "sh.sn.30",
     "kind": "Text",
-    "text": "Hospitality"
+    "text": "Field service management software"
    },
    {
     "key": "sh.sn.31",
     "kind": "Text",
-    "text": "Restaurant & hotel software"
+    "text": "Property management software"
    },
    {
     "key": "sh.sn.32",
     "kind": "Text",
-    "text": "Retail & automotive"
+    "text": "HOA & community association software"
    },
    {
     "key": "sh.sn.33",
     "kind": "Text",
-    "text": "Auto dealer & repair software"
+    "text": "Equipment rental software"
    },
    {
     "key": "sh.sn.34",
     "kind": "Text",
-    "text": "Legal & professional services"
+    "text": "Transportation & logistics"
    },
    {
     "key": "sh.sn.35",
     "kind": "Text",
-    "text": "Legal practice software"
+    "text": "Dispatch, TMS & freight audit"
    },
    {
     "key": "sh.sn.36",
     "kind": "Text",
-    "text": "Government"
+    "text": "Fleet compliance & telematics"
    },
    {
     "key": "sh.sn.37",
     "kind": "Text",
-    "text": "State & local government software"
+    "text": "Warehouse management for 3PLs"
    },
    {
     "key": "sh.sn.38",
     "kind": "Text",
-    "text": "Another sector"
+    "text": "Customs & trade compliance software"
    },
    {
     "key": "sh.sn.39",
+    "kind": "Text",
+    "text": "Freight brokerage & visibility software"
+   },
+   {
+    "key": "sh.sn.40",
+    "kind": "Text",
+    "text": "Fleet maintenance software"
+   },
+   {
+    "key": "sh.sn.41",
+    "kind": "Text",
+    "text": "School bus & transit routing"
+   },
+   {
+    "key": "sh.sn.42",
+    "kind": "Text",
+    "text": "Technology services"
+   },
+   {
+    "key": "sh.sn.43",
+    "kind": "Text",
+    "text": "MSP & IT service software"
+   },
+   {
+    "key": "sh.sn.44",
+    "kind": "Text",
+    "text": "Security tools for MSPs"
+   },
+   {
+    "key": "sh.sn.45",
+    "kind": "Text",
+    "text": "Backup & disaster recovery software"
+   },
+   {
+    "key": "sh.sn.46",
+    "kind": "Text",
+    "text": "Manufacturing"
+   },
+   {
+    "key": "sh.sn.47",
+    "kind": "Text",
+    "text": "Manufacturing ERP & shop floor"
+   },
+   {
+    "key": "sh.sn.48",
+    "kind": "Text",
+    "text": "Quality management software"
+   },
+   {
+    "key": "sh.sn.49",
+    "kind": "Text",
+    "text": "Maintenance & asset management"
+   },
+   {
+    "key": "sh.sn.50",
+    "kind": "Text",
+    "text": "Distribution & wholesale ERP"
+   },
+   {
+    "key": "sh.sn.51",
+    "kind": "Text",
+    "text": "Machine monitoring & industrial IoT"
+   },
+   {
+    "key": "sh.sn.52",
+    "kind": "Text",
+    "text": "Environment, health & safety software"
+   },
+   {
+    "key": "sh.sn.53",
+    "kind": "Text",
+    "text": "Hospitality"
+   },
+   {
+    "key": "sh.sn.54",
+    "kind": "Text",
+    "text": "Restaurant & hotel software"
+   },
+   {
+    "key": "sh.sn.55",
+    "kind": "Text",
+    "text": "Retail & automotive"
+   },
+   {
+    "key": "sh.sn.56",
+    "kind": "Text",
+    "text": "Auto dealer & repair software"
+   },
+   {
+    "key": "sh.sn.57",
+    "kind": "Text",
+    "text": "Legal & professional services"
+   },
+   {
+    "key": "sh.sn.58",
+    "kind": "Text",
+    "text": "Legal practice software"
+   },
+   {
+    "key": "sh.sn.59",
+    "kind": "Text",
+    "text": "Litigation support & e-discovery software"
+   },
+   {
+    "key": "sh.sn.60",
+    "kind": "Text",
+    "text": "Government"
+   },
+   {
+    "key": "sh.sn.61",
+    "kind": "Text",
+    "text": "State & local government software"
+   },
+   {
+    "key": "sh.sn.62",
+    "kind": "Text",
+    "text": "Public safety & emergency communications"
+   },
+   {
+    "key": "sh.sn.63",
+    "kind": "Text",
+    "text": "Utility billing & customer systems"
+   },
+   {
+    "key": "sh.sn.64",
+    "kind": "Text",
+    "text": "K-12 district administration software"
+   },
+   {
+    "key": "sh.sn.65",
+    "kind": "Text",
+    "text": "Parks & recreation software"
+   },
+   {
+    "key": "sh.sn.66",
+    "kind": "Text",
+    "text": "Another sector"
+   },
+   {
+    "key": "sh.sn.67",
     "kind": "Form label",
     "text": "Which sector"
    },
    {
-    "key": "sh.sn.40",
+    "key": "sh.sn.68",
     "kind": "Form label",
     "text": "Work email"
    },
    {
-    "key": "sh.sn.41",
+    "key": "sh.sn.69",
     "kind": "Button",
     "text": "Follow"
    }

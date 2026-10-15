@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "Sector coverage: ten industries, 23 sectors, five desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 23 sectors, with five desks open in healthcare. Choose an industry to see its sectors and which are active.",
+ "seoTitle": "Sector coverage: ten industries, 51 sectors, five desks open | Capital Row",
+ "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 51 sectors, with five desks open in healthcare. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Ten industries. Twenty-three sectors. Five desks open.",
+   "name": "Ten industries. Fifty-one sectors. Five desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -25,7 +25,7 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Ten industries. Twenty-three sectors. <em>Five desks open.</em>"
+     "text": "Ten industries. Fifty-one sectors. <em>Five desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -76,7 +76,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "9 sectors<br>5 desks open"
+     "text": "14 sectors<br>5 desks open"
     },
     {
      "key": "band.5",
@@ -225,38 +225,38 @@
     },
     {
      "key": "band.34",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Physical therapy & rehab software"
     },
     {
      "key": "band.35",
      "kind": "Text",
-     "text": "Financial services"
+     "text": "Planned"
     },
     {
      "key": "band.36",
-     "kind": "Text",
-     "text": "Lending, insurance and advisory systems for regulated firms."
+     "kind": "Paragraph",
+     "text": "Scheduling, charting, billing and outcomes for therapy clinics; visit limits and authorizations sit inside the software"
     },
     {
      "key": "band.37",
      "kind": "Text",
-     "text": "3 sectors<br>Planned"
+     "text": "Long-term care & senior living software"
     },
     {
      "key": "band.38",
-     "kind": "Heading",
-     "text": "Financial services"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.39",
      "kind": "Paragraph",
-     "text": "Lending, insurance and advisory systems for regulated firms."
+     "text": "Resident records, medication administration, billing and census for nursing homes and assisted living"
     },
     {
      "key": "band.40",
      "kind": "Text",
-     "text": "Bank & credit union software"
+     "text": "Payment integrity software"
     },
     {
      "key": "band.41",
@@ -266,12 +266,12 @@
     {
      "key": "band.42",
      "kind": "Paragraph",
-     "text": "Lending, account opening, compliance and collections systems for community banks and credit unions"
+     "text": "Claim editing and overpayment recovery for health plans and plan administrators"
     },
     {
      "key": "band.43",
      "kind": "Text",
-     "text": "Insurance software"
+     "text": "Healthcare staffing & scheduling software"
     },
     {
      "key": "band.44",
@@ -281,12 +281,12 @@
     {
      "key": "band.45",
      "kind": "Paragraph",
-     "text": "Policy, underwriting, claims and agency management systems for carriers, program administrators and agencies"
+     "text": "Shift scheduling, open shifts and credential tracking for hospitals and staffing agencies"
     },
     {
      "key": "band.46",
      "kind": "Text",
-     "text": "Wealth & advisory software"
+     "text": "Veterinary practice software"
     },
     {
      "key": "band.47",
@@ -296,7 +296,7 @@
     {
      "key": "band.48",
      "kind": "Paragraph",
-     "text": "Portfolio reporting, client records and back-office workflow for advisory firms"
+     "text": "Records, scheduling, billing and client messaging for animal hospitals"
     },
     {
      "key": "band.49",
@@ -306,32 +306,32 @@
     {
      "key": "band.50",
      "kind": "Text",
-     "text": "Construction, real estate & field services"
+     "text": "Financial services"
     },
     {
      "key": "band.51",
      "kind": "Text",
-     "text": "Estimating, field service and property systems that run the job and the bill."
+     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
     },
     {
      "key": "band.52",
      "kind": "Text",
-     "text": "3 sectors<br>Planned"
+     "text": "7 sectors<br>Planned"
     },
     {
      "key": "band.53",
      "kind": "Heading",
-     "text": "Construction, real estate & field services"
+     "text": "Financial services"
     },
     {
      "key": "band.54",
      "kind": "Paragraph",
-     "text": "Estimating, field service and property systems that run the job and the bill."
+     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
     },
     {
      "key": "band.55",
      "kind": "Text",
-     "text": "Construction & contractor software"
+     "text": "Bank & credit union software"
     },
     {
      "key": "band.56",
@@ -341,12 +341,12 @@
     {
      "key": "band.57",
      "kind": "Paragraph",
-     "text": "Estimating, job cost, project management and payments for builders and specialty contractors"
+     "text": "Lending, account opening, compliance and collections systems for community banks and credit unions"
     },
     {
      "key": "band.58",
      "kind": "Text",
-     "text": "Field service management software"
+     "text": "Insurance software"
     },
     {
      "key": "band.59",
@@ -356,12 +356,12 @@
     {
      "key": "band.60",
      "kind": "Paragraph",
-     "text": "Scheduling, dispatch, work orders, invoicing and payments for essential service businesses"
+     "text": "Policy, underwriting, claims and agency management systems for carriers, program administrators and agencies"
     },
     {
      "key": "band.61",
      "kind": "Text",
-     "text": "Property management software"
+     "text": "Wealth & advisory software"
     },
     {
      "key": "band.62",
@@ -371,42 +371,42 @@
     {
      "key": "band.63",
      "kind": "Paragraph",
-     "text": "Leasing, rent, maintenance and association management for owners and managers"
+     "text": "Portfolio reporting, client records and back-office workflow for advisory firms"
     },
     {
      "key": "band.64",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Lending & mortgage software"
     },
     {
      "key": "band.65",
      "kind": "Text",
-     "text": "Transportation & logistics"
+     "text": "Planned"
     },
     {
      "key": "band.66",
-     "kind": "Text",
-     "text": "Dispatch, compliance and telematics, where hours of service are filings."
+     "kind": "Paragraph",
+     "text": "Loan origination from application to funding for lenders, banks and credit unions"
     },
     {
      "key": "band.67",
      "kind": "Text",
-     "text": "2 sectors<br>Planned"
+     "text": "Accounting & tax firm software"
     },
     {
      "key": "band.68",
-     "kind": "Heading",
-     "text": "Transportation & logistics"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.69",
      "kind": "Paragraph",
-     "text": "Dispatch, compliance and telematics, where hours of service are filings."
+     "text": "Workflow, client documents, e-signature and tax delivery for CPA and tax firms"
     },
     {
      "key": "band.70",
      "kind": "Text",
-     "text": "Dispatch, TMS & freight audit"
+     "text": "Collections & receivables software"
     },
     {
      "key": "band.71",
@@ -416,12 +416,12 @@
     {
      "key": "band.72",
      "kind": "Paragraph",
-     "text": "Hours of service and fuel tax are filings, not reports"
+     "text": "Tracks, contacts and settles overdue accounts for agencies and in-house recovery teams"
     },
     {
      "key": "band.73",
      "kind": "Text",
-     "text": "Fleet compliance & telematics"
+     "text": "Compliance software for advisers & broker-dealers"
     },
     {
      "key": "band.74",
@@ -431,7 +431,7 @@
     {
      "key": "band.75",
      "kind": "Paragraph",
-     "text": "DOT and FMCSA obligations sit inside the software"
+     "text": "Message archiving, employee trading and regulator filings for RIAs and broker-dealers"
     },
     {
      "key": "band.76",
@@ -441,32 +441,32 @@
     {
      "key": "band.77",
      "kind": "Text",
-     "text": "Technology services"
+     "text": "Construction, real estate & field services"
     },
     {
      "key": "band.78",
      "kind": "Text",
-     "text": "Service desk, monitoring, backup and security tools for IT providers."
+     "text": "Estimating, field service and property systems that run the job and the bill."
     },
     {
      "key": "band.79",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "5 sectors<br>Planned"
     },
     {
      "key": "band.80",
      "kind": "Heading",
-     "text": "Technology services"
+     "text": "Construction, real estate & field services"
     },
     {
      "key": "band.81",
      "kind": "Paragraph",
-     "text": "Service desk, monitoring, backup and security tools for IT providers."
+     "text": "Estimating, field service and property systems that run the job and the bill."
     },
     {
      "key": "band.82",
      "kind": "Text",
-     "text": "MSP & IT service software"
+     "text": "Construction & contractor software"
     },
     {
      "key": "band.83",
@@ -476,42 +476,42 @@
     {
      "key": "band.84",
      "kind": "Paragraph",
-     "text": "Service desk, remote monitoring, backup and security tools for IT service providers"
+     "text": "Estimating, job cost, project management and payments for builders and specialty contractors"
     },
     {
      "key": "band.85",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Field service management software"
     },
     {
      "key": "band.86",
      "kind": "Text",
-     "text": "Manufacturing"
+     "text": "Planned"
     },
     {
      "key": "band.87",
-     "kind": "Text",
-     "text": "Planning, production, quality and inventory on the shop floor."
+     "kind": "Paragraph",
+     "text": "Scheduling, dispatch, work orders, invoicing and payments for essential service businesses"
     },
     {
      "key": "band.88",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "Property management software"
     },
     {
      "key": "band.89",
-     "kind": "Heading",
-     "text": "Manufacturing"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.90",
      "kind": "Paragraph",
-     "text": "Planning, production, quality and inventory on the shop floor."
+     "text": "Leasing, rent, maintenance and association management for owners and managers"
     },
     {
      "key": "band.91",
      "kind": "Text",
-     "text": "Manufacturing ERP & shop floor"
+     "text": "HOA & community association software"
     },
     {
      "key": "band.92",
@@ -521,87 +521,87 @@
     {
      "key": "band.93",
      "kind": "Paragraph",
-     "text": "Planning, production, quality and inventory systems for small and mid-sized manufacturers"
+     "text": "Accounting, assessments, violations and resident portals for association managers"
     },
     {
      "key": "band.94",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Equipment rental software"
     },
     {
      "key": "band.95",
      "kind": "Text",
-     "text": "Hospitality"
-    },
-    {
-     "key": "band.96",
-     "kind": "Text",
-     "text": "Point of sale, reservations and property management for operators."
-    },
-    {
-     "key": "band.97",
-     "kind": "Text",
-     "text": "1 sector<br>Planned"
-    },
-    {
-     "key": "band.98",
-     "kind": "Heading",
-     "text": "Hospitality"
-    },
-    {
-     "key": "band.99",
-     "kind": "Paragraph",
-     "text": "Point of sale, reservations and property management for operators."
-    },
-    {
-     "key": "band.100",
-     "kind": "Text",
-     "text": "Restaurant & hotel software"
-    },
-    {
-     "key": "band.101",
-     "kind": "Text",
      "text": "Planned"
     },
     {
-     "key": "band.102",
+     "key": "band.96",
      "kind": "Paragraph",
-     "text": "Point of sale, back office, reservations and property management for operators"
+     "text": "Rental contracts, fleet, inspections and billing for rental yards and dealers"
     },
     {
-     "key": "band.103",
+     "key": "band.97",
      "kind": "Button",
      "text": "All ten industries"
     },
     {
+     "key": "band.98",
+     "kind": "Text",
+     "text": "Transportation & logistics"
+    },
+    {
+     "key": "band.99",
+     "kind": "Text",
+     "text": "Dispatch, warehouse, customs and fleet systems, where compliance is a filing."
+    },
+    {
+     "key": "band.100",
+     "kind": "Text",
+     "text": "7 sectors<br>Planned"
+    },
+    {
+     "key": "band.101",
+     "kind": "Heading",
+     "text": "Transportation & logistics"
+    },
+    {
+     "key": "band.102",
+     "kind": "Paragraph",
+     "text": "Dispatch, warehouse, customs and fleet systems, where compliance is a filing."
+    },
+    {
+     "key": "band.103",
+     "kind": "Text",
+     "text": "Dispatch, TMS & freight audit"
+    },
+    {
      "key": "band.104",
      "kind": "Text",
-     "text": "Retail & automotive"
+     "text": "Planned"
     },
     {
      "key": "band.105",
-     "kind": "Text",
-     "text": "Dealer management, service and parts for dealers and repair shops."
+     "kind": "Paragraph",
+     "text": "Hours of service and fuel tax are filings, not reports"
     },
     {
      "key": "band.106",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "Fleet compliance & telematics"
     },
     {
      "key": "band.107",
-     "kind": "Heading",
-     "text": "Retail & automotive"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.108",
      "kind": "Paragraph",
-     "text": "Dealer management, service and parts for dealers and repair shops."
+     "text": "DOT and FMCSA obligations sit inside the software"
     },
     {
      "key": "band.109",
      "kind": "Text",
-     "text": "Auto dealer & repair software"
+     "text": "Warehouse management for 3PLs"
     },
     {
      "key": "band.110",
@@ -611,42 +611,42 @@
     {
      "key": "band.111",
      "kind": "Paragraph",
-     "text": "Dealer management, service and parts systems for dealerships and independent repair shops"
+     "text": "Inventory, orders, billing and fulfillment for third-party warehouses"
     },
     {
      "key": "band.112",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "Customs & trade compliance software"
     },
     {
      "key": "band.113",
      "kind": "Text",
-     "text": "Legal & professional services"
+     "text": "Planned"
     },
     {
      "key": "band.114",
-     "kind": "Text",
-     "text": "Matter, billing, document and intake systems for law firms."
+     "kind": "Paragraph",
+     "text": "Customs entries, denied-party screening and export licenses"
     },
     {
      "key": "band.115",
      "kind": "Text",
-     "text": "1 sector<br>Planned"
+     "text": "Freight brokerage & visibility software"
     },
     {
      "key": "band.116",
-     "kind": "Heading",
-     "text": "Legal & professional services"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.117",
      "kind": "Paragraph",
-     "text": "Matter, billing, document and intake systems for law firms."
+     "text": "Load matching, carrier onboarding, fraud checks and shipment tracking for brokers"
     },
     {
      "key": "band.118",
      "kind": "Text",
-     "text": "Legal practice software"
+     "text": "Fleet maintenance software"
     },
     {
      "key": "band.119",
@@ -656,110 +656,530 @@
     {
      "key": "band.120",
      "kind": "Paragraph",
-     "text": "Matter, billing, document and client intake systems for law firms"
+     "text": "Work orders, preventive maintenance, inspections and parts for vehicle fleets"
     },
     {
      "key": "band.121",
-     "kind": "Button",
-     "text": "All ten industries"
+     "kind": "Text",
+     "text": "School bus & transit routing"
     },
     {
      "key": "band.122",
      "kind": "Text",
-     "text": "Government"
-    },
-    {
-     "key": "band.123",
-     "kind": "Text",
-     "text": "Permitting, courts, public safety and utility billing for local government."
-    },
-    {
-     "key": "band.124",
-     "kind": "Text",
-     "text": "1 sector<br>Planned"
-    },
-    {
-     "key": "band.125",
-     "kind": "Heading",
-     "text": "Government"
-    },
-    {
-     "key": "band.126",
-     "kind": "Paragraph",
-     "text": "Permitting, courts, public safety and utility billing for local government."
-    },
-    {
-     "key": "band.127",
-     "kind": "Text",
-     "text": "State & local government software"
-    },
-    {
-     "key": "band.128",
-     "kind": "Text",
      "text": "Planned"
     },
     {
-     "key": "band.129",
+     "key": "band.123",
      "kind": "Paragraph",
-     "text": "Permitting, courts, public safety, finance and utility billing for cities, counties and districts"
+     "text": "Student routing, trip management and crew scheduling for districts and transit agencies"
     },
     {
-     "key": "band.130",
+     "key": "band.124",
      "kind": "Button",
      "text": "All ten industries"
     },
     {
+     "key": "band.125",
+     "kind": "Text",
+     "text": "Technology services"
+    },
+    {
+     "key": "band.126",
+     "kind": "Text",
+     "text": "Service desk, monitoring, backup and security tools for IT providers."
+    },
+    {
+     "key": "band.127",
+     "kind": "Text",
+     "text": "3 sectors<br>Planned"
+    },
+    {
+     "key": "band.128",
+     "kind": "Heading",
+     "text": "Technology services"
+    },
+    {
+     "key": "band.129",
+     "kind": "Paragraph",
+     "text": "Service desk, monitoring, backup and security tools for IT providers."
+    },
+    {
+     "key": "band.130",
+     "kind": "Text",
+     "text": "MSP & IT service software"
+    },
+    {
      "key": "band.131",
      "kind": "Text",
-     "text": "2,784"
+     "text": "Planned"
     },
     {
      "key": "band.132",
-     "kind": "Text",
-     "text": "SaaS M&A transactions<br>12 months through Q2 2026"
+     "kind": "Paragraph",
+     "text": "Service desk, remote monitoring, documentation and asset records for IT service providers"
     },
     {
      "key": "band.133",
      "kind": "Text",
-     "text": "+9.6%"
+     "text": "Security tools for MSPs"
     },
     {
      "key": "band.134",
      "kind": "Text",
-     "text": "Q2 2026 deal volume<br>against Q2 2025"
+     "text": "Planned"
     },
     {
      "key": "band.135",
-     "kind": "Text",
-     "text": "54%"
+     "kind": "Paragraph",
+     "text": "Threat detection, Microsoft 365 protection and monitoring an IT provider resells to its clients"
     },
     {
      "key": "band.136",
      "kind": "Text",
-     "text": "Vertical software share<br>of SaaS M&A, Q2 2026"
+     "text": "Backup & disaster recovery software"
     },
     {
      "key": "band.137",
      "kind": "Text",
-     "text": "16%"
+     "text": "Planned"
     },
     {
      "key": "band.138",
+     "kind": "Paragraph",
+     "text": "Copies client data and systems so an IT provider can restore them after an outage or attack"
+    },
+    {
+     "key": "band.139",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.140",
+     "kind": "Text",
+     "text": "Manufacturing"
+    },
+    {
+     "key": "band.141",
+     "kind": "Text",
+     "text": "Planning, production, quality, maintenance and inventory on the shop floor."
+    },
+    {
+     "key": "band.142",
+     "kind": "Text",
+     "text": "6 sectors<br>Planned"
+    },
+    {
+     "key": "band.143",
+     "kind": "Heading",
+     "text": "Manufacturing"
+    },
+    {
+     "key": "band.144",
+     "kind": "Paragraph",
+     "text": "Planning, production, quality, maintenance and inventory on the shop floor."
+    },
+    {
+     "key": "band.145",
+     "kind": "Text",
+     "text": "Manufacturing ERP & shop floor"
+    },
+    {
+     "key": "band.146",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.147",
+     "kind": "Paragraph",
+     "text": "Planning, production, quality and inventory systems for small and mid-sized manufacturers"
+    },
+    {
+     "key": "band.148",
+     "kind": "Text",
+     "text": "Quality management software"
+    },
+    {
+     "key": "band.149",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.150",
+     "kind": "Paragraph",
+     "text": "Document control, corrective actions, audits and calibration records"
+    },
+    {
+     "key": "band.151",
+     "kind": "Text",
+     "text": "Maintenance & asset management"
+    },
+    {
+     "key": "band.152",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.153",
+     "kind": "Paragraph",
+     "text": "Schedules maintenance and tracks assets, work orders and downtime"
+    },
+    {
+     "key": "band.154",
+     "kind": "Text",
+     "text": "Distribution & wholesale ERP"
+    },
+    {
+     "key": "band.155",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.156",
+     "kind": "Paragraph",
+     "text": "Order entry, pricing, inventory and product data for distributors"
+    },
+    {
+     "key": "band.157",
+     "kind": "Text",
+     "text": "Machine monitoring & industrial IoT"
+    },
+    {
+     "key": "band.158",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.159",
+     "kind": "Paragraph",
+     "text": "Collects machine data and shows utilization and downtime on the shop floor"
+    },
+    {
+     "key": "band.160",
+     "kind": "Text",
+     "text": "Environment, health & safety software"
+    },
+    {
+     "key": "band.161",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.162",
+     "kind": "Paragraph",
+     "text": "Incident logging, chemical and waste records and safety audits"
+    },
+    {
+     "key": "band.163",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.164",
+     "kind": "Text",
+     "text": "Hospitality"
+    },
+    {
+     "key": "band.165",
+     "kind": "Text",
+     "text": "Point of sale, reservations and property management for operators."
+    },
+    {
+     "key": "band.166",
+     "kind": "Text",
+     "text": "1 sector<br>Planned"
+    },
+    {
+     "key": "band.167",
+     "kind": "Heading",
+     "text": "Hospitality"
+    },
+    {
+     "key": "band.168",
+     "kind": "Paragraph",
+     "text": "Point of sale, reservations and property management for operators."
+    },
+    {
+     "key": "band.169",
+     "kind": "Text",
+     "text": "Restaurant & hotel software"
+    },
+    {
+     "key": "band.170",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.171",
+     "kind": "Paragraph",
+     "text": "Point of sale, back office, reservations and property management for operators"
+    },
+    {
+     "key": "band.172",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.173",
+     "kind": "Text",
+     "text": "Retail & automotive"
+    },
+    {
+     "key": "band.174",
+     "kind": "Text",
+     "text": "Dealer management, service and parts for dealers and repair shops."
+    },
+    {
+     "key": "band.175",
+     "kind": "Text",
+     "text": "1 sector<br>Planned"
+    },
+    {
+     "key": "band.176",
+     "kind": "Heading",
+     "text": "Retail & automotive"
+    },
+    {
+     "key": "band.177",
+     "kind": "Paragraph",
+     "text": "Dealer management, service and parts for dealers and repair shops."
+    },
+    {
+     "key": "band.178",
+     "kind": "Text",
+     "text": "Auto dealer & repair software"
+    },
+    {
+     "key": "band.179",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.180",
+     "kind": "Paragraph",
+     "text": "Dealer management, service and parts systems for dealerships and independent repair shops"
+    },
+    {
+     "key": "band.181",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.182",
+     "kind": "Text",
+     "text": "Legal & professional services"
+    },
+    {
+     "key": "band.183",
+     "kind": "Text",
+     "text": "Matter, billing, document and litigation systems for law firms."
+    },
+    {
+     "key": "band.184",
+     "kind": "Text",
+     "text": "2 sectors<br>Planned"
+    },
+    {
+     "key": "band.185",
+     "kind": "Heading",
+     "text": "Legal & professional services"
+    },
+    {
+     "key": "band.186",
+     "kind": "Paragraph",
+     "text": "Matter, billing, document and litigation systems for law firms."
+    },
+    {
+     "key": "band.187",
+     "kind": "Text",
+     "text": "Legal practice software"
+    },
+    {
+     "key": "band.188",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.189",
+     "kind": "Paragraph",
+     "text": "Matter, billing, document and client intake systems for law firms"
+    },
+    {
+     "key": "band.190",
+     "kind": "Text",
+     "text": "Litigation support & e-discovery software"
+    },
+    {
+     "key": "band.191",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.192",
+     "kind": "Paragraph",
+     "text": "Document review, evidence bundles and trial presentation for law firms and legal service providers"
+    },
+    {
+     "key": "band.193",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.194",
+     "kind": "Text",
+     "text": "Government"
+    },
+    {
+     "key": "band.195",
+     "kind": "Text",
+     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+    },
+    {
+     "key": "band.196",
+     "kind": "Text",
+     "text": "5 sectors<br>Planned"
+    },
+    {
+     "key": "band.197",
+     "kind": "Heading",
+     "text": "Government"
+    },
+    {
+     "key": "band.198",
+     "kind": "Paragraph",
+     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+    },
+    {
+     "key": "band.199",
+     "kind": "Text",
+     "text": "State & local government software"
+    },
+    {
+     "key": "band.200",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.201",
+     "kind": "Paragraph",
+     "text": "Permitting, courts, public safety, finance and utility billing for cities, counties and districts"
+    },
+    {
+     "key": "band.202",
+     "kind": "Text",
+     "text": "Public safety & emergency communications"
+    },
+    {
+     "key": "band.203",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.204",
+     "kind": "Paragraph",
+     "text": "Dispatch, incident records, evidence and 911 call handling for police, fire and EMS"
+    },
+    {
+     "key": "band.205",
+     "kind": "Text",
+     "text": "Utility billing & customer systems"
+    },
+    {
+     "key": "band.206",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.207",
+     "kind": "Paragraph",
+     "text": "Metered billing, customer accounts and payments for water, sewer, electric and gas utilities"
+    },
+    {
+     "key": "band.208",
+     "kind": "Text",
+     "text": "K-12 district administration software"
+    },
+    {
+     "key": "band.209",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.210",
+     "kind": "Paragraph",
+     "text": "Student records, bus routing, meal programs, district finance and HR"
+    },
+    {
+     "key": "band.211",
+     "kind": "Text",
+     "text": "Parks & recreation software"
+    },
+    {
+     "key": "band.212",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.213",
+     "kind": "Paragraph",
+     "text": "Program registration, facility booking, memberships and payments for recreation departments"
+    },
+    {
+     "key": "band.214",
+     "kind": "Button",
+     "text": "All ten industries"
+    },
+    {
+     "key": "band.215",
+     "kind": "Text",
+     "text": "2,784"
+    },
+    {
+     "key": "band.216",
+     "kind": "Text",
+     "text": "SaaS M&A transactions<br>12 months through Q2 2026"
+    },
+    {
+     "key": "band.217",
+     "kind": "Text",
+     "text": "+9.6%"
+    },
+    {
+     "key": "band.218",
+     "kind": "Text",
+     "text": "Q2 2026 deal volume<br>against Q2 2025"
+    },
+    {
+     "key": "band.219",
+     "kind": "Text",
+     "text": "54%"
+    },
+    {
+     "key": "band.220",
+     "kind": "Text",
+     "text": "Vertical software share<br>of SaaS M&A, Q2 2026"
+    },
+    {
+     "key": "band.221",
+     "kind": "Text",
+     "text": "16%"
+    },
+    {
+     "key": "band.222",
      "kind": "Text",
      "text": "Healthcare share of vertical<br>SaaS M&A, Q2 2026"
     },
     {
-     "key": "band.139",
+     "key": "band.223",
      "kind": "Note",
      "text": "Source: <a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a>. The trailing-year count and the quarterly growth rate are different measures, labeled as such; SEG publishes no year-to-date 2026 figure. The industry, sector and desk counts are Capital Row’s own coverage list, not published figures. Share figures are for Q2 2026; healthcare uses vertical SaaS deals as its denominator."
     },
     {
-     "key": "band.140",
+     "key": "band.224",
      "kind": "Button",
      "text": "Follow a sector"
     },
     {
-     "key": "band.141",
+     "key": "band.225",
      "kind": "Note",
      "text": "Our notes on your sectors, as they are published."
     }

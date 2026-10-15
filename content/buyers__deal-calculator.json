@@ -181,100 +181,240 @@
     {
      "key": "coverage.26",
      "kind": "Text",
-     "text": "Bank & credit union software"
+     "text": "Physical therapy & rehab software"
     },
     {
      "key": "coverage.27",
      "kind": "Text",
-     "text": "Insurance software"
+     "text": "Long-term care & senior living software"
     },
     {
      "key": "coverage.28",
      "kind": "Text",
-     "text": "Wealth & advisory software"
+     "text": "Payment integrity software"
     },
     {
      "key": "coverage.29",
      "kind": "Text",
-     "text": "Construction & contractor software"
+     "text": "Healthcare staffing & scheduling software"
     },
     {
      "key": "coverage.30",
      "kind": "Text",
-     "text": "Field service management software"
+     "text": "Veterinary practice software"
     },
     {
      "key": "coverage.31",
      "kind": "Text",
-     "text": "Property management software"
+     "text": "Bank & credit union software"
     },
     {
      "key": "coverage.32",
      "kind": "Text",
-     "text": "State & local government software"
+     "text": "Insurance software"
     },
     {
      "key": "coverage.33",
      "kind": "Text",
-     "text": "Dispatch, TMS & freight audit"
+     "text": "Wealth & advisory software"
     },
     {
      "key": "coverage.34",
      "kind": "Text",
-     "text": "Fleet compliance & telematics"
+     "text": "Lending & mortgage software"
     },
     {
      "key": "coverage.35",
      "kind": "Text",
-     "text": "Manufacturing ERP & shop floor"
+     "text": "Accounting & tax firm software"
     },
     {
      "key": "coverage.36",
      "kind": "Text",
-     "text": "Restaurant & hotel software"
+     "text": "Collections & receivables software"
     },
     {
      "key": "coverage.37",
      "kind": "Text",
-     "text": "Auto dealer & repair software"
+     "text": "Compliance software for advisers & broker-dealers"
     },
     {
      "key": "coverage.38",
      "kind": "Text",
-     "text": "Legal practice software"
+     "text": "Construction & contractor software"
     },
     {
      "key": "coverage.39",
      "kind": "Text",
-     "text": "MSP & IT service software"
+     "text": "Field service management software"
     },
     {
      "key": "coverage.40",
+     "kind": "Text",
+     "text": "Property management software"
+    },
+    {
+     "key": "coverage.41",
+     "kind": "Text",
+     "text": "HOA & community association software"
+    },
+    {
+     "key": "coverage.42",
+     "kind": "Text",
+     "text": "Equipment rental software"
+    },
+    {
+     "key": "coverage.43",
+     "kind": "Text",
+     "text": "Dispatch, TMS & freight audit"
+    },
+    {
+     "key": "coverage.44",
+     "kind": "Text",
+     "text": "Fleet compliance & telematics"
+    },
+    {
+     "key": "coverage.45",
+     "kind": "Text",
+     "text": "Warehouse management for 3PLs"
+    },
+    {
+     "key": "coverage.46",
+     "kind": "Text",
+     "text": "Customs & trade compliance software"
+    },
+    {
+     "key": "coverage.47",
+     "kind": "Text",
+     "text": "Freight brokerage & visibility software"
+    },
+    {
+     "key": "coverage.48",
+     "kind": "Text",
+     "text": "Fleet maintenance software"
+    },
+    {
+     "key": "coverage.49",
+     "kind": "Text",
+     "text": "School bus & transit routing"
+    },
+    {
+     "key": "coverage.50",
+     "kind": "Text",
+     "text": "MSP & IT service software"
+    },
+    {
+     "key": "coverage.51",
+     "kind": "Text",
+     "text": "Security tools for MSPs"
+    },
+    {
+     "key": "coverage.52",
+     "kind": "Text",
+     "text": "Backup & disaster recovery software"
+    },
+    {
+     "key": "coverage.53",
+     "kind": "Text",
+     "text": "Manufacturing ERP & shop floor"
+    },
+    {
+     "key": "coverage.54",
+     "kind": "Text",
+     "text": "Quality management software"
+    },
+    {
+     "key": "coverage.55",
+     "kind": "Text",
+     "text": "Maintenance & asset management"
+    },
+    {
+     "key": "coverage.56",
+     "kind": "Text",
+     "text": "Distribution & wholesale ERP"
+    },
+    {
+     "key": "coverage.57",
+     "kind": "Text",
+     "text": "Machine monitoring & industrial IoT"
+    },
+    {
+     "key": "coverage.58",
+     "kind": "Text",
+     "text": "Environment, health & safety software"
+    },
+    {
+     "key": "coverage.59",
+     "kind": "Text",
+     "text": "Restaurant & hotel software"
+    },
+    {
+     "key": "coverage.60",
+     "kind": "Text",
+     "text": "Auto dealer & repair software"
+    },
+    {
+     "key": "coverage.61",
+     "kind": "Text",
+     "text": "Legal practice software"
+    },
+    {
+     "key": "coverage.62",
+     "kind": "Text",
+     "text": "Litigation support & e-discovery software"
+    },
+    {
+     "key": "coverage.63",
+     "kind": "Text",
+     "text": "State & local government software"
+    },
+    {
+     "key": "coverage.64",
+     "kind": "Text",
+     "text": "Public safety & emergency communications"
+    },
+    {
+     "key": "coverage.65",
+     "kind": "Text",
+     "text": "Utility billing & customer systems"
+    },
+    {
+     "key": "coverage.66",
+     "kind": "Text",
+     "text": "K-12 district administration software"
+    },
+    {
+     "key": "coverage.67",
+     "kind": "Text",
+     "text": "Parks & recreation software"
+    },
+    {
+     "key": "coverage.68",
      "kind": "Form label",
      "text": "Deals your firm saw, last twelve months"
     },
     {
-     "key": "coverage.41",
+     "key": "coverage.69",
      "kind": "Form label",
      "text": "Completed deals in your stated market <i>(optional)</i>"
     },
     {
-     "key": "coverage.42",
+     "key": "coverage.70",
      "kind": "Button",
      "text": "See where your firm lands"
     },
     {
-     "key": "coverage.43",
+     "key": "coverage.71",
      "kind": "Paragraph",
      "text": "<a>Discuss acquisition criteria</a>"
     },
     {
-     "key": "coverage.44",
+     "key": "coverage.72",
      "kind": "Paragraph",
      "text": "Do not know the market count? Leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
     },
     {
-     "key": "coverage.45",
+     "key": "coverage.73",
      "kind": "Note",
      "text": "How this was measured: the study took 177 private equity firms. For each one, it listed the deals completed in the industries and sizes that firm says it targets, each with a private equity buyer and a sell-side adviser, and counted how many of those the firm saw. SPS / With Intelligence, Deal Origination Benchmark Report, twelve months to 30 June 2025."
     }
@@ -342,12 +482,12 @@
     {
      "key": "cost.12",
      "kind": "Text",
-     "text": "Sector desk, retained"
+     "text": "Retained search, one sector"
     },
     {
      "key": "cost.13",
      "kind": "Paragraph",
-     "text": "One vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
     },
     {
      "key": "cost.14",
