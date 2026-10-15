@@ -1,0 +1,373 @@
+{
+ "path": "/insights/",
+ "seoTitle": "Insights: the market, why deals break, what origination costs, and what a buyer finds | Capital Row",
+ "seoDescription": "Research notes for buyers, owners and lenders in vertical software. Every figure is sourced: the market, why signed deals die, what origination costs, what a buyer’s diligence finds, the first offer, what a quality of earnings report is, and the SBA acquisition loan rules.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "What the record shows, before the letter of intent.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For buyers, owners and lenders"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Page headline",
+     "text": "What the record shows, <em>before the letter of intent.</em>"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "Research notes on the lower middle market in vertical software: where the deals are, why the signed ones die, what it costs to originate one, and what a buyer’s diligence will find. Every figure on these pages is sourced, and the sources are listed under it."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Read the notes"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "Sourced figures"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Updated as the record changes"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "No company named without its permission"
+    }
+   ]
+  },
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "For buyers"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "For owners"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Financing"
+    }
+   ]
+  },
+  {
+   "id": "buyers",
+   "name": "The market, and what it costs to see it.",
+   "items": [
+    {
+     "key": "buyers.1",
+     "kind": "Small label",
+     "text": "Insights · For buyers"
+    },
+    {
+     "key": "buyers.2",
+     "kind": "Section headline",
+     "text": "The market, and what it costs to see it."
+    },
+    {
+     "key": "buyers.3",
+     "kind": "Text",
+     "text": "The market"
+    },
+    {
+     "key": "buyers.4",
+     "kind": "Text",
+     "text": "The market is busy. Most of it goes unseen."
+    },
+    {
+     "key": "buyers.5",
+     "kind": "Paragraph",
+     "text": "2,784 SaaS transactions in twelve months, more than half of them vertical software, and the median private equity firm saw fewer than one in five of the deals inside its own stated market."
+    },
+    {
+     "key": "buyers.6",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "buyers.7",
+     "kind": "Text",
+     "text": "Why deals break"
+    },
+    {
+     "key": "buyers.8",
+     "kind": "Text",
+     "text": "A quarter broke on a finding outside the earnings work."
+    },
+    {
+     "key": "buyers.9",
+     "kind": "Paragraph",
+     "text": "Seventy-five signed letters of intent that collapsed in 2025, what ended them, and what the same findings cost after closing."
+    },
+    {
+     "key": "buyers.10",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "buyers.11",
+     "kind": "Text",
+     "text": "What origination costs"
+    },
+    {
+     "key": "buyers.12",
+     "kind": "Text",
+     "text": "Coverage is not a data problem. It is a time problem."
+    },
+    {
+     "key": "buyers.13",
+     "kind": "Paragraph",
+     "text": "What one buy-side team spends to get from a filtered list to a signed letter, and what a dead letter wastes, with a calculator for your own figures."
+    },
+    {
+     "key": "buyers.14",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "buyers.15",
+     "kind": "Text",
+     "text": "New revenue lines"
+    },
+    {
+     "key": "buyers.16",
+     "kind": "Text",
+     "text": "What we look for when a software company adds AI features or embedded payments."
+    },
+    {
+     "key": "buyers.17",
+     "kind": "Paragraph",
+     "text": "Two revenue lines buyers now ask about. For each, four things we trace in the records before a letter of intent."
+    },
+    {
+     "key": "buyers.18",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "buyers.19",
+     "kind": "Text",
+     "text": "Dead Deal Notes"
+    },
+    {
+     "key": "buyers.20",
+     "kind": "Text",
+     "text": "Why signed deals die, from the public record."
+    },
+    {
+     "key": "buyers.21",
+     "kind": "Paragraph",
+     "text": "Ten deals that were signed and then died, or were cut in price before closing, told from court opinions, filings and announcements."
+    },
+    {
+     "key": "buyers.22",
+     "kind": "Text",
+     "text": "Read the note →"
+    }
+   ]
+  },
+  {
+   "id": "owners",
+   "name": "What a buyer will find, and what the first offer is worth.",
+   "items": [
+    {
+     "key": "owners.1",
+     "kind": "Small label",
+     "text": "Insights · For owners"
+    },
+    {
+     "key": "owners.2",
+     "kind": "Section headline",
+     "text": "What a buyer will find, <em>and what the first offer is worth.</em>"
+    },
+    {
+     "key": "owners.3",
+     "kind": "Text",
+     "text": "What a buyer finds"
+    },
+    {
+     "key": "owners.4",
+     "kind": "Text",
+     "text": "What a buyer’s diligence finds, and what it does to the price."
+    },
+    {
+     "key": "owners.5",
+     "kind": "Paragraph",
+     "text": "The findings that recur in founder-owned software and services companies, what each one does to price and terms, and how to find them first."
+    },
+    {
+     "key": "owners.6",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "owners.7",
+     "kind": "Text",
+     "text": "The first offer"
+    },
+    {
+     "key": "owners.8",
+     "kind": "Text",
+     "text": "The first number is rarely the last."
+    },
+    {
+     "key": "owners.9",
+     "kind": "Paragraph",
+     "text": "What the evidence says about unsolicited offers, deals the owner starts, the party who sees the market, and the terms behind a headline price."
+    },
+    {
+     "key": "owners.10",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "owners.11",
+     "kind": "Text",
+     "text": "Quality of earnings"
+    },
+    {
+     "key": "owners.12",
+     "kind": "Text",
+     "text": "What a quality of earnings report is, and why a lender will not take yours."
+    },
+    {
+     "key": "owners.13",
+     "kind": "Paragraph",
+     "text": "The definition, the professional standard it is performed under, the new SBA rule at $3 million, and why software alone cannot sign one."
+    },
+    {
+     "key": "owners.14",
+     "kind": "Text",
+     "text": "Read the note →"
+    }
+   ]
+  },
+  {
+   "id": "financing",
+   "name": "The rules behind an acquisition loan, and the lender’s view of soft...",
+   "items": [
+    {
+     "key": "financing.1",
+     "kind": "Small label",
+     "text": "Insights · Financing"
+    },
+    {
+     "key": "financing.2",
+     "kind": "Section headline",
+     "text": "The rules behind an acquisition loan, <em>and the lender’s view of software.</em>"
+    },
+    {
+     "key": "financing.3",
+     "kind": "Text",
+     "text": "SBA acquisition loans"
+    },
+    {
+     "key": "financing.4",
+     "kind": "Text",
+     "text": "What an SBA 7(a) acquisition loan requires, as of 1 October 2026."
+    },
+    {
+     "key": "financing.5",
+     "kind": "Paragraph",
+     "text": "The loan limit, the equity injection, the seller note, the valuation, the quality of earnings at $3 million, the fees, and what a seller can and cannot agree to."
+    },
+    {
+     "key": "financing.6",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "financing.7",
+     "kind": "Text",
+     "text": "For lenders"
+    },
+    {
+     "key": "financing.8",
+     "kind": "Text",
+     "text": "You are underwriting the paper, not buying the company."
+    },
+    {
+     "key": "financing.9",
+     "kind": "Paragraph",
+     "text": "A software borrower’s revenue is its customers’ credit. Where the risk has moved, and the evidence a borrower can assemble before the credit committee asks."
+    },
+    {
+     "key": "financing.10",
+     "kind": "Text",
+     "text": "Read the note →"
+    },
+    {
+     "key": "financing.11",
+     "kind": "Text",
+     "text": "Capital Connections"
+    },
+    {
+     "key": "financing.12",
+     "kind": "Text",
+     "text": "Financing for acquisitions, ownership transitions and growth."
+    },
+    {
+     "key": "financing.13",
+     "kind": "Paragraph",
+     "text": "Introductions to financing providers, with the business story read first. The provider handles its application, underwriting and credit decision."
+    },
+    {
+     "key": "financing.14",
+     "kind": "Text",
+     "text": "Read the note →"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

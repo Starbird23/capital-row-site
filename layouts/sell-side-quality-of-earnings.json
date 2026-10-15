@@ -247,9 +247,9 @@
    "section": "mast"
   },
   "sh.mast.32": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -282,16 +282,16 @@
    "section": "mast"
   },
   "sh.mast.37": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ndt",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "mast"
   },
   "sh.mast.38": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -317,13 +317,83 @@
    "section": "mast"
   },
   "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
    "tags": [],
    "section": "mast"
   },
-  "sh.mast.43": {
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
    "kind": "Button",
    "tag": "a",
    "cls": "cta",
@@ -394,13 +464,6 @@
    "section": "ssq"
   },
   "ssq.10": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
-   "tags": [],
-   "section": "ssq"
-  },
-  "ssq.11": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
@@ -605,70 +668,70 @@
   },
   "qwhy.6": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.7": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-why"
   },
-  "qwhy.7": {
+  "qwhy.8": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-why"
-  },
-  "qwhy.8": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-why"
   },
   "qwhy.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-why"
-  },
-  "qwhy.10": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-why"
-  },
-  "qwhy.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-why"
-  },
-  "qwhy.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-why"
-  },
-  "qwhy.13": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-why"
   },
-  "qwhy.14": {
+  "qwhy.10": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-why"
   },
-  "qwhy.15": {
+  "qwhy.11": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.12": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.14": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.15": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-why"
@@ -676,7 +739,7 @@
   "qwhy.16": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-why"
   },
@@ -688,16 +751,16 @@
    "section": "q-why"
   },
   "qwhy.18": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-why"
   },
   "qwhy.19": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-why"
   },
@@ -709,20 +772,48 @@
    "section": "q-why"
   },
   "qwhy.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "q-why"
   },
   "qwhy.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.23": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-why"
   },
-  "qwhy.23": {
+  "qwhy.24": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.25": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.26": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-why"
+  },
+  "qwhy.27": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
@@ -955,70 +1046,70 @@
   },
   "qqoe.15": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.16": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.16": {
+  "qqoe.17": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.17": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.18": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.19": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.20": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.21": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.22": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.23": {
+  "qqoe.19": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.24": {
+  "qqoe.20": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.21": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.23": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.24": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
@@ -1026,7 +1117,7 @@
   "qqoe.25": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1038,16 +1129,16 @@
    "section": "q-qoe"
   },
   "qqoe.27": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.28": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1059,72 +1150,72 @@
    "section": "q-qoe"
   },
   "qqoe.30": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.31": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
+  "qqoe.31": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-qoe"
+  },
   "qqoe.32": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.33": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.34": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.35": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.36": {
+  "qqoe.35": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.37": {
+  "qqoe.36": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.38": {
+  "qqoe.37": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.39": {
+  "qqoe.38": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.39": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1165,70 +1256,70 @@
   },
   "qqoe.45": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.46": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.46": {
+  "qqoe.47": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.47": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.48": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.49": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.50": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.51": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.52": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.53": {
+  "qqoe.49": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.54": {
+  "qqoe.50": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.51": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.52": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.53": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.54": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
@@ -1236,7 +1327,7 @@
   "qqoe.55": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1248,16 +1339,16 @@
    "section": "q-qoe"
   },
   "qqoe.57": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.58": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1269,72 +1360,72 @@
    "section": "q-qoe"
   },
   "qqoe.60": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.61": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
+  "qqoe.61": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-qoe"
+  },
   "qqoe.62": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.63": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
   "qqoe.64": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-qoe"
-  },
-  "qqoe.65": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.66": {
+  "qqoe.65": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.67": {
+  "qqoe.66": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.68": {
+  "qqoe.67": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-qoe"
   },
-  "qqoe.69": {
+  "qqoe.68": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.69": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-qoe"
   },
@@ -1360,6 +1451,90 @@
    "section": "q-qoe"
   },
   "qqoe.73": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.74": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.75": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.76": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.77": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.78": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.79": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.80": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.81": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.82": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.83": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.84": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-qoe"
+  },
+  "qqoe.85": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-ctar",
@@ -1792,70 +1967,70 @@
   },
   "qdataroom.6": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.7": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.7": {
+  "qdataroom.8": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.8": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.10": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.13": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.14": {
+  "qdataroom.10": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.15": {
+  "qdataroom.11": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.12": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.14": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.15": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
@@ -1863,7 +2038,7 @@
   "qdataroom.16": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -1875,16 +2050,16 @@
    "section": "q-dataroom"
   },
   "qdataroom.18": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.19": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -1896,72 +2071,72 @@
    "section": "q-dataroom"
   },
   "qdataroom.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.22": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
+  "qdataroom.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
   "qdataroom.23": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.24": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.25": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.26": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.27": {
+  "qdataroom.26": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.28": {
+  "qdataroom.27": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.29": {
+  "qdataroom.28": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.30": {
+  "qdataroom.29": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.30": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2002,70 +2177,70 @@
   },
   "qdataroom.36": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.37": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.37": {
+  "qdataroom.38": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.38": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.39": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.40": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.41": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.42": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.43": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.44": {
+  "qdataroom.40": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.45": {
+  "qdataroom.41": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.42": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.43": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.44": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.45": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
@@ -2073,7 +2248,7 @@
   "qdataroom.46": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2085,16 +2260,16 @@
    "section": "q-dataroom"
   },
   "qdataroom.48": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.49": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2106,72 +2281,72 @@
    "section": "q-dataroom"
   },
   "qdataroom.51": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.52": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
+  "qdataroom.52": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
   "qdataroom.53": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.54": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.55": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.56": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.57": {
+  "qdataroom.56": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.58": {
+  "qdataroom.57": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.59": {
+  "qdataroom.58": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.60": {
+  "qdataroom.59": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.60": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2212,70 +2387,70 @@
   },
   "qdataroom.66": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.67": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.67": {
+  "qdataroom.68": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.68": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.69": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.70": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.71": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.72": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.73": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.74": {
+  "qdataroom.70": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.75": {
+  "qdataroom.71": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.72": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.73": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.74": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.75": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
@@ -2283,7 +2458,7 @@
   "qdataroom.76": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2295,16 +2470,16 @@
    "section": "q-dataroom"
   },
   "qdataroom.78": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.79": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2316,72 +2491,72 @@
    "section": "q-dataroom"
   },
   "qdataroom.81": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.82": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
+  "qdataroom.82": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
   "qdataroom.83": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.84": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
   "qdataroom.85": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-dataroom"
-  },
-  "qdataroom.86": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.87": {
+  "qdataroom.86": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.88": {
+  "qdataroom.87": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.89": {
+  "qdataroom.88": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.90": {
+  "qdataroom.89": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.90": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-dataroom"
   },
@@ -2407,27 +2582,153 @@
    "section": "q-dataroom"
   },
   "qdataroom.94": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.95": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.96": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.97": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.98": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.99": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.100": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.101": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.102": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.103": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.104": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.105": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.106": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.107": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.108": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.109": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.110": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.111": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-dataroom"
+  },
+  "qdataroom.112": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "q-sub",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.95": {
+  "qdataroom.113": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-p",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.96": {
+  "qdataroom.114": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-p",
    "tags": [],
    "section": "q-dataroom"
   },
-  "qdataroom.97": {
+  "qdataroom.115": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-ctar",
@@ -2473,70 +2774,70 @@
   },
   "qfile.6": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.7": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.7": {
+  "qfile.8": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.8": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
   "qfile.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.10": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.13": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.14": {
+  "qfile.10": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.15": {
+  "qfile.11": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.12": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.14": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.15": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-file"
@@ -2544,7 +2845,7 @@
   "qfile.16": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-file"
   },
@@ -2556,16 +2857,16 @@
    "section": "q-file"
   },
   "qfile.18": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-file"
   },
   "qfile.19": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-file"
   },
@@ -2577,72 +2878,72 @@
    "section": "q-file"
   },
   "qfile.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.22": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
+  "qfile.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-file"
+  },
   "qfile.23": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
   "qfile.24": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-file"
   },
   "qfile.25": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-file"
-  },
-  "qfile.26": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.27": {
+  "qfile.26": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.28": {
+  "qfile.27": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.29": {
+  "qfile.28": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-file"
   },
-  "qfile.30": {
+  "qfile.29": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.30": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-file"
   },
@@ -2668,6 +2969,48 @@
    "section": "q-file"
   },
   "qfile.34": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.35": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.36": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.37": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.38": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.39": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-file"
+  },
+  "qfile.40": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-pull q-wide",
@@ -2846,50 +3189,50 @@
   },
   "qteam.6": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-team"
   },
   "qteam.7": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-team"
-  },
-  "qteam.8": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-team"
-  },
-  "qteam.9": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-team"
-  },
-  "qteam.10": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.11": {
+  "qteam.8": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.12": {
+  "qteam.9": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.10": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.11": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.12": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-team"
   },
@@ -2901,9 +3244,9 @@
    "section": "q-team"
   },
   "qteam.14": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "q-team"
   },
@@ -2915,44 +3258,44 @@
    "section": "q-team"
   },
   "qteam.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-team"
   },
   "qteam.17": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-team"
-  },
-  "qteam.18": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.19": {
+  "qteam.18": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.20": {
+  "qteam.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.21": {
+  "qteam.20": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.21": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-team"
   },
@@ -2986,89 +3329,131 @@
   },
   "qteam.26": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.27": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.27": {
+  "qteam.28": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-team"
-  },
-  "qteam.28": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
   "qteam.29": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "q-sub",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "q-team"
   },
   "qteam.30": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-p",
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
    "tags": [],
    "section": "q-team"
   },
   "qteam.31": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-p",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-team"
   },
   "qteam.32": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "q-sub",
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-team"
   },
   "qteam.33": {
-   "kind": "List item",
-   "tag": "li",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
   "qteam.34": {
-   "kind": "List item",
-   "tag": "li",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
   "qteam.35": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "q-sub",
    "tags": [],
    "section": "q-team"
   },
   "qteam.36": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "q-p",
    "tags": [],
    "section": "q-team"
   },
   "qteam.37": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "q-p",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.38": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "q-sub",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.39": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
    "tags": [],
    "section": "q-team"
   },
-  "qteam.38": {
+  "qteam.40": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.41": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.42": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.43": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "q-team"
+  },
+  "qteam.44": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -3112,70 +3497,70 @@
   },
   "qprocess.6": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.7": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.7": {
+  "qprocess.8": {
    "kind": "Heading",
    "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.8": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
   "qprocess.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.10": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.13": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.14": {
+  "qprocess.10": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.15": {
+  "qprocess.11": {
    "kind": "Heading",
    "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.12": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.14": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.15": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-process"
@@ -3183,7 +3568,7 @@
   "qprocess.16": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-cue",
+   "cls": "q-n",
    "tags": [],
    "section": "q-process"
   },
@@ -3195,16 +3580,16 @@
    "section": "q-process"
   },
   "qprocess.18": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-process"
   },
   "qprocess.19": {
    "kind": "Text",
    "tag": "span",
-   "cls": "q-n",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-process"
   },
@@ -3216,72 +3601,72 @@
    "section": "q-process"
   },
   "qprocess.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.22": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
+  "qprocess.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-process"
+  },
   "qprocess.23": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
   "qprocess.24": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-n",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-process"
   },
   "qprocess.25": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-process"
-  },
-  "qprocess.26": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.27": {
+  "qprocess.26": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.28": {
+  "qprocess.27": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.29": {
+  "qprocess.28": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-n",
    "tags": [],
    "section": "q-process"
   },
-  "qprocess.30": {
+  "qprocess.29": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.30": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-process"
   },
@@ -3300,6 +3685,48 @@
    "section": "q-process"
   },
   "qprocess.33": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.34": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-n",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.35": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.36": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.37": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.38": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-process"
+  },
+  "qprocess.39": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
@@ -3495,204 +3922,6 @@
    "tags": [],
    "section": "q-deliverables"
   },
-  "qevi.1": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-lab",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.2": {
-   "kind": "Section headline",
-   "tag": "h2",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.3": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-p",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.4": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-p",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.5": {
-   "kind": "Text",
-   "tag": "div",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.6": {
-   "kind": "Text",
-   "tag": "small",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.7": {
-   "kind": "Text",
-   "tag": "div",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.8": {
-   "kind": "Text",
-   "tag": "small",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.9": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "q-sub",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.10": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.13": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.14": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.15": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.16": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.17": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.18": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.19": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.20": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.21": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.22": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.23": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.24": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.25": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.26": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-pull",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.27": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-p",
-   "tags": [],
-   "section": "q-evi"
-  },
-  "qevi.28": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "q-ctar",
-   "tags": [
-    "<a class=\"q-btn q-ghost\" href=\"../index.html?seat=Seller#talk\">"
-   ],
-   "section": "q-evi"
-  },
   "qwho.1": {
    "kind": "Paragraph",
    "tag": "p",
@@ -3723,50 +3952,50 @@
   },
   "qwho.5": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-who"
   },
   "qwho.6": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-who"
-  },
-  "qwho.7": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-who"
-  },
-  "qwho.8": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-who"
-  },
-  "qwho.9": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.10": {
+  "qwho.7": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.11": {
+  "qwho.8": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.9": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.10": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.11": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
    "tags": [],
    "section": "q-who"
   },
@@ -3778,9 +4007,9 @@
    "section": "q-who"
   },
   "qwho.13": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "q-cue",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "q-who"
   },
@@ -3792,44 +4021,44 @@
    "section": "q-who"
   },
   "qwho.15": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-who"
   },
   "qwho.16": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "q-who"
-  },
-  "qwho.17": {
    "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.18": {
+  "qwho.17": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.19": {
+  "qwho.18": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.20": {
+  "qwho.19": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.20": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
    "tags": [],
    "section": "q-who"
   },
@@ -3863,26 +4092,68 @@
   },
   "qwho.25": {
    "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.26": {
+   "kind": "Text",
    "tag": "span",
    "cls": "q-cue",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.26": {
+  "qwho.27": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.27": {
+  "qwho.28": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "q-who"
   },
-  "qwho.28": {
+  "qwho.29": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.30": {
+   "kind": "Text",
+   "tag": "em",
+   "cls": "q-tease",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.31": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "q-cue",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.32": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.33": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "q-who"
+  },
+  "qwho.34": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "q-note q-small",
@@ -4325,7 +4596,7 @@
    "tags": [],
    "section": "q-next"
   },
-  "ssq.12": {
+  "ssq.11": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
@@ -4431,16 +4702,16 @@
    "section": "footer"
   },
   "sh.footer.15": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ckset",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "footer"
   },
   "sh.footer.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
    "tags": [],
    "section": "footer"
   },
@@ -4452,6 +4723,13 @@
    "section": "footer"
   },
   "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",

@@ -247,9 +247,9 @@
    "section": "mast"
   },
   "sh.mast.32": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -282,16 +282,16 @@
    "section": "mast"
   },
   "sh.mast.37": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ndt",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "mast"
   },
   "sh.mast.38": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -317,13 +317,83 @@
    "section": "mast"
   },
   "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
    "tags": [],
    "section": "mast"
   },
-  "sh.mast.43": {
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
    "kind": "Button",
    "tag": "a",
    "cls": "cta",
@@ -2356,16 +2426,16 @@
    "section": "footer"
   },
   "sh.footer.15": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ckset",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "footer"
   },
   "sh.footer.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
    "tags": [],
    "section": "footer"
   },
@@ -2377,6 +2447,13 @@
    "section": "footer"
   },
   "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",

@@ -45,6 +45,27 @@
    ]
   },
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "What you receive"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Where each path leads"
+    }
+   ]
+  },
+  {
    "id": "receive",
    "name": "Four answers, worked against your own numbers.",
    "items": [
@@ -61,87 +82,87 @@
     {
      "key": "receive.3",
      "kind": "Text",
-     "text": "The earnings a buyer would accept"
+     "text": "01"
     },
     {
      "key": "receive.4",
      "kind": "Text",
-     "text": "Tap to flip"
+     "text": "The earnings a buyer would accept"
     },
     {
      "key": "receive.5",
      "kind": "Text",
-     "text": "The earnings a buyer would accept"
+     "text": "02"
     },
     {
      "key": "receive.6",
      "kind": "Text",
-     "text": "Your adjusted earnings traced to source documents, with every adjustment marked supported or unsupported."
+     "text": "Who would buy it"
     },
     {
      "key": "receive.7",
      "kind": "Text",
-     "text": "Tap to return"
+     "text": "03"
     },
     {
      "key": "receive.8",
      "kind": "Text",
-     "text": "Who would buy it"
+     "text": "What raises the price"
     },
     {
      "key": "receive.9",
      "kind": "Text",
-     "text": "Tap to flip"
+     "text": "04"
     },
     {
      "key": "receive.10",
      "kind": "Text",
-     "text": "Who would buy it"
+     "text": "A written plan"
     },
     {
      "key": "receive.11",
      "kind": "Text",
-     "text": "The buyer types active in your sector, from the criteria buyers keep on file with Capital Row."
+     "text": "The earnings a buyer would accept"
     },
     {
      "key": "receive.12",
-     "kind": "Text",
-     "text": "Tap to return"
+     "kind": "Paragraph",
+     "text": "Your adjusted earnings traced to source documents, with every adjustment marked supported or unsupported."
     },
     {
      "key": "receive.13",
-     "kind": "Text",
-     "text": "What raises the price"
+     "kind": "Link",
+     "text": "The Pre-Market Assessment →"
     },
     {
      "key": "receive.14",
      "kind": "Text",
-     "text": "Tap to flip"
+     "text": "Who would buy it"
     },
     {
      "key": "receive.15",
-     "kind": "Text",
-     "text": "What raises the price"
+     "kind": "Paragraph",
+     "text": "The buyer types active in your sector, from the criteria buyers keep on file with Capital Row."
     },
     {
      "key": "receive.16",
-     "kind": "Text",
-     "text": "Keep building, buy a competitor, take a capital partner, or sell. What each path does to the price, and what it needs first."
+     "kind": "Link",
+     "text": "Who is buying, by sector →"
     },
     {
      "key": "receive.17",
      "kind": "Text",
-     "text": "Tap to return"
+     "text": "What raises the price"
     },
     {
      "key": "receive.18",
-     "kind": "Text",
-     "text": "A written plan"
+     "kind": "Paragraph",
+     "text": "Keep building, buy a competitor, take a capital partner, or sell. What each path does to the price, and what it needs first."
     },
     {
      "key": "receive.19",
-     "kind": "Text",
-     "text": "Tap to flip"
+     "kind": "Link",
+     "text": "Where each path leads →"
     },
     {
      "key": "receive.20",
@@ -150,13 +171,13 @@
     },
     {
      "key": "receive.21",
-     "kind": "Text",
+     "kind": "Paragraph",
      "text": "The path we would take, in order, and a decision session to go through it. Yours to keep."
     },
     {
      "key": "receive.22",
-     "kind": "Text",
-     "text": "Tap to return"
+     "kind": "Link",
+     "text": "How it works →"
     }
    ]
   },
@@ -243,52 +264,92 @@
     {
      "key": "paths.5",
      "kind": "Text",
-     "text": "A check each quarter on the numbers that move the price."
+     "text": "Buy"
     },
     {
      "key": "paths.6",
      "kind": "Text",
-     "text": "Buy"
+     "text": "Buy a competitor"
     },
     {
      "key": "paths.7",
      "kind": "Text",
-     "text": "Buy a competitor"
+     "text": "Partner"
     },
     {
      "key": "paths.8",
      "kind": "Text",
-     "text": "A search for the right company, and financing through <a>Capital Connections</a>."
+     "text": "Take a capital partner"
     },
     {
      "key": "paths.9",
      "kind": "Text",
-     "text": "Partner"
+     "text": "Sell"
     },
     {
      "key": "paths.10",
      "kind": "Text",
-     "text": "Take a capital partner"
+     "text": "Sell the company"
     },
     {
      "key": "paths.11",
      "kind": "Text",
-     "text": "Introductions to financing and capital partners through <a>Capital Connections</a>."
+     "text": "Keep building"
     },
     {
      "key": "paths.12",
-     "kind": "Text",
-     "text": "Sell"
+     "kind": "Paragraph",
+     "text": "A check each quarter on the numbers that move the price, against the 90-day plan from the assessment. Sell later, from a stronger record."
     },
     {
      "key": "paths.13",
-     "kind": "Text",
-     "text": "Sell the company"
+     "kind": "Link",
+     "text": "The Pre-Market Assessment →"
     },
     {
      "key": "paths.14",
      "kind": "Text",
-     "text": "The <a>Sell-Side QoE</a>, then a sale. Capital Row can represent you in the sale under a separate engagement."
+     "text": "Buy a competitor"
+    },
+    {
+     "key": "paths.15",
+     "kind": "Paragraph",
+     "text": "A search for the right company, the evidence on it before a letter is priced, and financing through Capital Connections."
+    },
+    {
+     "key": "paths.16",
+     "kind": "Link",
+     "text": "Capital Connections →"
+    },
+    {
+     "key": "paths.17",
+     "kind": "Text",
+     "text": "Take a capital partner"
+    },
+    {
+     "key": "paths.18",
+     "kind": "Paragraph",
+     "text": "Introductions to financing and capital partners through Capital Connections, with the business story read first."
+    },
+    {
+     "key": "paths.19",
+     "kind": "Link",
+     "text": "Capital Connections →"
+    },
+    {
+     "key": "paths.20",
+     "kind": "Text",
+     "text": "Sell the company"
+    },
+    {
+     "key": "paths.21",
+     "kind": "Paragraph",
+     "text": "The Sell-Side QoE, then a sale. Capital Row can represent you in the sale under a separate engagement."
+    },
+    {
+     "key": "paths.22",
+     "kind": "Link",
+     "text": "The Sell-Side QoE →"
     }
    ]
   },

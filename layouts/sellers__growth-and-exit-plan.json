@@ -247,9 +247,9 @@
    "section": "mast"
   },
   "sh.mast.32": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -282,16 +282,16 @@
    "section": "mast"
   },
   "sh.mast.37": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ndt",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "mast"
   },
   "sh.mast.38": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -317,13 +317,83 @@
    "section": "mast"
   },
   "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
    "tags": [],
    "section": "mast"
   },
-  "sh.mast.43": {
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
    "kind": "Button",
    "tag": "a",
    "cls": "cta",
@@ -379,6 +449,27 @@
    "tags": [],
    "section": "inner"
   },
+  "pgnav.1": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.2": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.3": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
   "receive.1": {
    "kind": "Small label",
    "tag": "span",
@@ -395,21 +486,21 @@
   },
   "receive.3": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.4": {
    "kind": "Text",
-   "tag": "i",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.5": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "receive"
@@ -417,98 +508,98 @@
   "receive.6": {
    "kind": "Text",
    "tag": "span",
-   "cls": "flip-t",
+   "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.7": {
    "kind": "Text",
-   "tag": "i",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.8": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.9": {
    "kind": "Text",
-   "tag": "i",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.10": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.11": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "flip-t",
+   "tag": "u",
+   "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.12": {
-   "kind": "Text",
-   "tag": "i",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.13": {
-   "kind": "Text",
-   "tag": "u",
-   "cls": "",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
    "tags": [],
    "section": "receive"
   },
   "receive.14": {
    "kind": "Text",
-   "tag": "i",
+   "tag": "u",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.15": {
-   "kind": "Text",
-   "tag": "u",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.16": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "flip-t",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
    "tags": [],
    "section": "receive"
   },
   "receive.17": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
-   "tags": [],
-   "section": "receive"
-  },
-  "receive.18": {
    "kind": "Text",
    "tag": "u",
    "cls": "",
    "tags": [],
    "section": "receive"
   },
-  "receive.19": {
-   "kind": "Text",
-   "tag": "i",
+  "receive.18": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
+   "tags": [],
+   "section": "receive"
+  },
+  "receive.19": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
    "tags": [],
    "section": "receive"
   },
@@ -520,16 +611,16 @@
    "section": "receive"
   },
   "receive.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "flip-t",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "receive"
   },
   "receive.22": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
    "tags": [],
    "section": "receive"
   },
@@ -619,29 +710,29 @@
   },
   "paths.3": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
-   "tags": [],
-   "section": "paths"
-  },
-  "paths.4": {
-   "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "paths"
   },
-  "paths.5": {
+  "paths.4": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
    "tags": [],
    "section": "paths"
   },
+  "paths.5": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
   "paths.6": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
+   "tag": "span",
+   "cls": "",
    "tags": [],
    "section": "paths"
   },
@@ -656,55 +747,105 @@
    "kind": "Text",
    "tag": "span",
    "cls": "",
-   "tags": [
-    "<a href=\"../../capital-connections/index.html\">"
-   ],
+   "tags": [],
    "section": "paths"
   },
   "paths.9": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
+   "tag": "b",
+   "cls": "",
    "tags": [],
    "section": "paths"
   },
   "paths.10": {
    "kind": "Text",
-   "tag": "b",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "paths"
   },
   "paths.11": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "u",
    "cls": "",
-   "tags": [
-    "<a href=\"../../capital-connections/index.html\">"
-   ],
+   "tags": [],
    "section": "paths"
   },
   "paths.12": {
-   "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [],
    "section": "paths"
   },
   "paths.13": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
    "tags": [],
    "section": "paths"
   },
   "paths.14": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "u",
    "cls": "",
-   "tags": [
-    "<a href=\"../../sell-side-quality-of-earnings/index.html\">"
-   ],
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.15": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.16": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.17": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.19": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.20": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.21": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "paths"
+  },
+  "paths.22": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "tgo",
+   "tags": [],
    "section": "paths"
   },
   "next.1": {
@@ -834,16 +975,16 @@
    "section": "footer"
   },
   "sh.footer.15": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ckset",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "footer"
   },
   "sh.footer.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
    "tags": [],
    "section": "footer"
   },
@@ -855,6 +996,13 @@
    "section": "footer"
   },
   "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",

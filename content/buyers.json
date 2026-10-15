@@ -65,6 +65,42 @@
    ]
   },
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Routes"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Coverage"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Origination cost"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Why deals break"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "New revenue lines"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "How it works"
+    }
+   ]
+  },
+  {
    "id": "types",
    "name": "Four acquisition routes. Each reads a target differently.",
    "items": [
@@ -175,31 +211,6 @@
     },
     {
      "key": "types.22",
-     "kind": "Text",
-     "text": "Read more"
-    },
-    {
-     "key": "types.23",
-     "kind": "Text",
-     "text": "05"
-    },
-    {
-     "key": "types.24",
-     "kind": "Small label",
-     "text": "Financing"
-    },
-    {
-     "key": "types.25",
-     "kind": "Heading",
-     "text": "Lenders and financing partners"
-    },
-    {
-     "key": "types.26",
-     "kind": "Paragraph",
-     "text": "A borrower’s revenue is its customers’ credit, and the distress has moved to the customers."
-    },
-    {
-     "key": "types.27",
      "kind": "Text",
      "text": "Read more"
     }
@@ -692,7 +703,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Start with your criteria. <em>See the deals you have been missing.</em>"
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
     },
     {
      "key": "next.3",

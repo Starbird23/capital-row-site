@@ -45,131 +45,217 @@
    ]
   },
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The first read"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What you receive"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The deeper step"
+    }
+   ]
+  },
+  {
    "id": "request",
-   "name": "Request a Pre-Market Assessment.Before the letter of intent.",
+   "name": "The first read.Then you decide.",
    "items": [
     {
      "key": "request.1",
      "kind": "Small label",
-     "text": "For owners · Before the letter of intent"
+     "text": "The Pre-Market Assessment · The first read"
     },
     {
      "key": "request.2",
      "kind": "Text",
-     "text": "Request a Pre-Market Assessment."
+     "text": "The first read."
     },
     {
      "key": "request.3",
      "kind": "Text",
-     "text": "Before the letter of intent."
+     "text": "Then you decide."
     },
     {
      "key": "request.4",
      "kind": "Paragraph",
-     "text": "Find the financial gaps and earnings questions a buyer’s diligence will raise, while you still control the timeline. Your numbers traced to source documents, and a findings report that is yours to keep."
+     "text": "Three steps, each deeper than the last. The Pre-Market Assessment gives you an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. The preparation review traces every figure to source. The Sell-Side QoE is the report. You can stop after any step, and nothing reaches a buyer without your written permission."
     },
     {
      "key": "request.5",
-     "kind": "Button",
-     "text": "Request a Pre-Market Assessment"
+     "kind": "Text",
+     "text": "Step one"
     },
     {
      "key": "request.6",
-     "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins."
+     "kind": "Text",
+     "text": "Pre-Market Assessment"
     },
     {
      "key": "request.7",
      "kind": "Paragraph",
-     "text": "Request a Pre-Market Assessment"
+     "text": "The first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never."
     },
     {
      "key": "request.8",
+     "kind": "Text",
+     "text": "What the assessment includes →"
+    },
+    {
+     "key": "request.9",
+     "kind": "Text",
+     "text": "Step two"
+    },
+    {
+     "key": "request.10",
+     "kind": "Text",
+     "text": "Preparation"
+    },
+    {
+     "key": "request.11",
+     "kind": "Paragraph",
+     "text": "The full trace: revenue reconciled to bank deposits, every adjustment marked supported or unsupported with the document that decides it, customers, contracts and licenses read the way a buyer will. Non-attest, and yours to keep."
+    },
+    {
+     "key": "request.12",
+     "kind": "Text",
+     "text": "What the review covers →"
+    },
+    {
+     "key": "request.13",
+     "kind": "Text",
+     "text": "Step three"
+    },
+    {
+     "key": "request.14",
+     "kind": "Text",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "request.15",
+     "kind": "Paragraph",
+     "text": "The report, from the independent CPA firm Capital Row partners with, built on the record the first two steps assembled. A buyer’s team meets reconciled schedules instead of a blank page."
+    },
+    {
+     "key": "request.16",
+     "kind": "Text",
+     "text": "About the Sell-Side QoE →"
+    },
+    {
+     "key": "request.17",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "request.18",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins."
+    },
+    {
+     "key": "request.19",
+     "kind": "Paragraph",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "request.20",
      "kind": "Form label",
      "text": "I am asking about"
     },
     {
-     "key": "request.9",
+     "key": "request.21",
      "kind": "Form label",
      "text": "Name"
     },
     {
-     "key": "request.10",
+     "key": "request.22",
      "kind": "Form label",
      "text": "Work email"
     },
     {
-     "key": "request.11",
+     "key": "request.23",
      "kind": "Form label",
      "text": "Company"
     },
     {
-     "key": "request.12",
+     "key": "request.24",
      "kind": "Form label",
      "text": "Mobile number, optional"
     },
     {
-     "key": "request.13",
+     "key": "request.25",
      "kind": "Form label",
      "text": "Sector"
     },
     {
-     "key": "request.14",
+     "key": "request.26",
      "kind": "Form label",
      "text": "Kind of business"
     },
     {
-     "key": "request.15",
+     "key": "request.27",
      "kind": "Form label",
      "text": "Annual revenue"
     },
     {
-     "key": "request.16",
+     "key": "request.28",
      "kind": "Form label",
      "text": "When you plan to go to market"
     },
     {
-     "key": "request.17",
+     "key": "request.29",
      "kind": "Form label",
      "text": "Who prepares your financial statements"
     },
     {
-     "key": "request.18",
+     "key": "request.30",
      "kind": "Form label",
      "text": "What you want to work out before a buyer looks"
     },
     {
-     "key": "request.19",
+     "key": "request.31",
      "kind": "Text",
      "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
-     "key": "request.20",
+     "key": "request.32",
      "kind": "Text",
      "text": "Reserve my seat at the owner session on 20 January and send me the playbook."
     },
     {
-     "key": "request.21",
+     "key": "request.33",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "request.22",
+     "key": "request.34",
      "kind": "Paragraph",
      "text": "Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
-     "key": "request.23",
+     "key": "request.35",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "request.24",
+     "key": "request.36",
      "kind": "Note",
      "text": "Wednesday 20 January, live online. Everyone who reserves a seat receives the playbook."
     },
     {
-     "key": "request.25",
+     "key": "request.37",
      "kind": "Note",
      "text": "This is non-attest preparation. For a quality of earnings report, see <a>Sell-Side QoE</a>."
     }
@@ -192,62 +278,62 @@
     {
      "key": "receive.3",
      "kind": "Text",
-     "text": "An indicative valuation range"
+     "text": "01"
     },
     {
      "key": "receive.4",
      "kind": "Text",
-     "text": "Tap to flip"
+     "text": "An indicative valuation range"
     },
     {
      "key": "receive.5",
      "kind": "Text",
-     "text": "An indicative valuation range"
+     "text": "02"
     },
     {
      "key": "receive.6",
      "kind": "Text",
-     "text": "A range, not a single number, with the assumptions behind it written down."
+     "text": "The earnings behind it"
     },
     {
      "key": "receive.7",
      "kind": "Text",
-     "text": "Tap to return"
+     "text": "03"
     },
     {
      "key": "receive.8",
      "kind": "Text",
-     "text": "The earnings behind it"
+     "text": "What moves the range"
     },
     {
      "key": "receive.9",
      "kind": "Text",
-     "text": "Tap to flip"
+     "text": "04"
     },
     {
      "key": "receive.10",
      "kind": "Text",
-     "text": "The earnings behind it"
+     "text": "A 90-day plan"
     },
     {
      "key": "receive.11",
      "kind": "Text",
-     "text": "Your adjusted earnings as you report them, and the adjustments a buyer is most likely to question."
+     "text": "An indicative valuation range"
     },
     {
      "key": "receive.12",
-     "kind": "Text",
-     "text": "Tap to return"
+     "kind": "Paragraph",
+     "text": "A range, not a single number, with the assumptions behind it written down."
     },
     {
      "key": "receive.13",
      "kind": "Text",
-     "text": "What moves the range"
+     "text": "The earnings behind it"
     },
     {
      "key": "receive.14",
-     "kind": "Text",
-     "text": "Tap to flip"
+     "kind": "Paragraph",
+     "text": "Your adjusted earnings as you report them, and the adjustments a buyer is most likely to question."
     },
     {
      "key": "receive.15",
@@ -256,41 +342,21 @@
     },
     {
      "key": "receive.16",
-     "kind": "Text",
+     "kind": "Paragraph",
      "text": "The findings a buyer’s diligence is most likely to raise, in order of their effect on value."
     },
     {
      "key": "receive.17",
      "kind": "Text",
-     "text": "Tap to return"
+     "text": "A 90-day plan"
     },
     {
      "key": "receive.18",
-     "kind": "Text",
-     "text": "A 90-day plan"
-    },
-    {
-     "key": "receive.19",
-     "kind": "Text",
-     "text": "Tap to flip"
-    },
-    {
-     "key": "receive.20",
-     "kind": "Text",
-     "text": "A 90-day plan"
-    },
-    {
-     "key": "receive.21",
-     "kind": "Text",
+     "kind": "Paragraph",
      "text": "What to work on over the next ninety days, in order."
     },
     {
-     "key": "receive.22",
-     "kind": "Text",
-     "text": "Tap to return"
-    },
-    {
-     "key": "receive.23",
+     "key": "receive.19",
      "kind": "Note",
      "text": "The valuation range is an indicative estimate for your own planning. It is not an appraisal or a fairness opinion, and it is not prepared for a lender, a tax filing or a court."
     }
@@ -369,7 +435,7 @@
     {
      "key": "deeper.3",
      "kind": "Paragraph",
-     "text": "Preparation is the deeper, separately scoped step: your numbers traced to source documents, and every adjustment marked supported or unsupported. It is non-attest. For a quality of earnings report, see <a>Sell-Side QoE</a>."
+     "text": "Preparation is the deeper, separately scoped step: your numbers traced to source documents, and every adjustment marked supported or unsupported. It is non-attest. For a quality of earnings report, see <a>the Sell-Side QoE</a>."
     },
     {
      "key": "deeper.4",

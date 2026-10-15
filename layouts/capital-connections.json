@@ -247,9 +247,9 @@
    "section": "mast"
   },
   "sh.mast.32": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -282,16 +282,16 @@
    "section": "mast"
   },
   "sh.mast.37": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ndt",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "mast"
   },
   "sh.mast.38": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -317,13 +317,83 @@
    "section": "mast"
   },
   "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
    "tags": [],
    "section": "mast"
   },
-  "sh.mast.43": {
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
    "kind": "Button",
    "tag": "a",
    "cls": "cta",
@@ -392,6 +462,48 @@
    "cls": "",
    "tags": [],
    "section": "inner"
+  },
+  "pgnav.1": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.2": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.3": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.4": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.5": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.6": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
   },
   "uses.1": {
    "kind": "Section headline",
@@ -521,6 +633,167 @@
    ],
    "section": "intelligence"
   },
+  "sba.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.4": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.5": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.6": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.7": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.8": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.9": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.10": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.11": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.12": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.13": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.14": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.15": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.16": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.17": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.19": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.20": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.21": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.22": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "src cen",
+   "tags": [],
+   "section": "sba"
+  },
+  "sba.23": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "ghostcta",
+   "tags": [],
+   "section": "sba"
+  },
   "how.1": {
    "kind": "Section headline",
    "tag": "h2",
@@ -570,6 +843,50 @@
    "tags": [],
    "section": "how"
   },
+  "partners.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "partners"
+  },
+  "partners.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "partners"
+  },
+  "partners.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "partners"
+  },
+  "partners.4": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "partners"
+  },
+  "partners.5": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta",
+   "tags": [],
+   "section": "partners"
+  },
+  "partners.6": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "ctamicro",
+   "tags": [
+    "<a href=\"../insights/for-lenders/index.html\" style=\"color:#8FD4CB\">"
+   ],
+   "section": "partners"
+  },
   "inquiry.1": {
    "kind": "Section headline",
    "tag": "h2",
@@ -592,23 +909,23 @@
    "section": "inquiry"
   },
   "inquiry.4": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "bigcta fpopen",
    "tags": [],
    "section": "inquiry"
   },
   "inquiry.5": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Note",
+   "tag": "p",
+   "cls": "ctamicro",
    "tags": [],
    "section": "inquiry"
   },
   "inquiry.6": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "fptitle",
    "tags": [],
    "section": "inquiry"
   },
@@ -634,9 +951,9 @@
    "section": "inquiry"
   },
   "inquiry.10": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "ccq wide",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "inquiry"
   },
@@ -655,9 +972,9 @@
    "section": "inquiry"
   },
   "inquiry.13": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "ccq wide",
    "tags": [],
    "section": "inquiry"
   },
@@ -683,6 +1000,27 @@
    "section": "inquiry"
   },
   "inquiry.17": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "inquiry"
+  },
+  "inquiry.18": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "inquiry"
+  },
+  "inquiry.19": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "inquiry"
+  },
+  "inquiry.20": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -692,14 +1030,14 @@
    ],
    "section": "inquiry"
   },
-  "inquiry.18": {
+  "inquiry.21": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.19": {
+  "inquiry.22": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "ccbook wide",
@@ -708,21 +1046,21 @@
    ],
    "section": "inquiry"
   },
-  "inquiry.20": {
+  "inquiry.23": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine ccdisc",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.21": {
+  "inquiry.24": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.22": {
+  "inquiry.25": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -830,16 +1168,16 @@
    "section": "footer"
   },
   "sh.footer.15": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ckset",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "footer"
   },
   "sh.footer.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
    "tags": [],
    "section": "footer"
   },
@@ -851,6 +1189,13 @@
    "section": "footer"
   },
   "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",

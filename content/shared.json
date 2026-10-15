@@ -95,7 +95,7 @@
    {
     "key": "sh.mast.14",
     "kind": "Link",
-    "text": "Lenders and financing partners"
+    "text": "Capital Connections"
    },
    {
     "key": "sh.mast.15",
@@ -184,18 +184,18 @@
    },
    {
     "key": "sh.mast.32",
-    "kind": "Link",
-    "text": "The market"
+    "kind": "Text",
+    "text": "For buyers"
    },
    {
     "key": "sh.mast.33",
     "kind": "Link",
-    "text": "Why deals break"
+    "text": "The market"
    },
    {
     "key": "sh.mast.34",
     "kind": "Link",
-    "text": "Dead Deal Notes"
+    "text": "Why deals break"
    },
    {
     "key": "sh.mast.35",
@@ -209,36 +209,86 @@
    },
    {
     "key": "sh.mast.37",
-    "kind": "Button",
-    "text": "About"
+    "kind": "Link",
+    "text": "Dead Deal Notes"
    },
    {
     "key": "sh.mast.38",
-    "kind": "Link",
-    "text": "About Capital Row"
+    "kind": "Text",
+    "text": "For owners"
    },
    {
     "key": "sh.mast.39",
     "kind": "Link",
-    "text": "Our process"
+    "text": "What a buyer finds"
    },
    {
     "key": "sh.mast.40",
     "kind": "Link",
-    "text": "Our team"
+    "text": "The first offer"
    },
    {
     "key": "sh.mast.41",
     "kind": "Link",
-    "text": "Join the network"
+    "text": "What a quality of earnings report is"
    },
    {
     "key": "sh.mast.42",
+    "kind": "Text",
+    "text": "Financing"
+   },
+   {
+    "key": "sh.mast.43",
+    "kind": "Link",
+    "text": "SBA acquisition loans"
+   },
+   {
+    "key": "sh.mast.44",
+    "kind": "Link",
+    "text": "For lenders"
+   },
+   {
+    "key": "sh.mast.45",
+    "kind": "Text",
+    "text": "All of it"
+   },
+   {
+    "key": "sh.mast.46",
+    "kind": "Link",
+    "text": "The Insights page"
+   },
+   {
+    "key": "sh.mast.47",
+    "kind": "Button",
+    "text": "About"
+   },
+   {
+    "key": "sh.mast.48",
+    "kind": "Link",
+    "text": "About Capital Row"
+   },
+   {
+    "key": "sh.mast.49",
+    "kind": "Link",
+    "text": "Our process"
+   },
+   {
+    "key": "sh.mast.50",
+    "kind": "Link",
+    "text": "Our team"
+   },
+   {
+    "key": "sh.mast.51",
+    "kind": "Link",
+    "text": "Join the network"
+   },
+   {
+    "key": "sh.mast.52",
     "kind": "Link",
     "text": "Contact"
    },
    {
-    "key": "sh.mast.43",
+    "key": "sh.mast.53",
     "kind": "Button",
     "text": "Start the conversation"
    }
@@ -280,60 +330,65 @@
    {
     "key": "sh.footer.7",
     "kind": "Link",
-    "text": "About"
+    "text": "Insights"
    },
    {
     "key": "sh.footer.8",
     "kind": "Link",
-    "text": "Sectors"
+    "text": "About"
    },
    {
     "key": "sh.footer.9",
     "kind": "Link",
-    "text": "Follow a sector"
+    "text": "Sectors"
    },
    {
     "key": "sh.footer.10",
     "kind": "Link",
-    "text": "Report a dead deal"
+    "text": "Follow a sector"
    },
    {
     "key": "sh.footer.11",
     "kind": "Link",
-    "text": "Dead Deal Notes"
+    "text": "Report a dead deal"
    },
    {
     "key": "sh.footer.12",
     "kind": "Link",
-    "text": "Start the conversation"
+    "text": "Dead Deal Notes"
    },
    {
     "key": "sh.footer.13",
     "kind": "Link",
-    "text": "Privacy Policy"
+    "text": "Start the conversation"
    },
    {
     "key": "sh.footer.14",
     "kind": "Link",
-    "text": "SMS Terms"
+    "text": "Privacy Policy"
    },
    {
     "key": "sh.footer.15",
+    "kind": "Link",
+    "text": "SMS Terms"
+   },
+   {
+    "key": "sh.footer.16",
     "kind": "Button",
     "text": "Cookie settings"
    },
    {
-    "key": "sh.footer.16",
+    "key": "sh.footer.17",
     "kind": "Paragraph",
     "text": "Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation."
    },
    {
-    "key": "sh.footer.17",
+    "key": "sh.footer.18",
     "kind": "Paragraph",
     "text": "<b>Engagement scope is agreed in writing.</b> Our work supports transaction preparation and decision-making. Any lender-required valuation or assurance work is separately scoped and commissioned. General information only; not legal, tax or accounting advice."
    },
    {
-    "key": "sh.footer.18",
+    "key": "sh.footer.19",
     "kind": "Paragraph",
     "text": "© 2026 Capital Row. All rights reserved."
    }

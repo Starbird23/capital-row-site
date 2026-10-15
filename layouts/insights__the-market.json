@@ -1,0 +1,1938 @@
+{
+ "page": "/insights/the-market/",
+ "slots": {
+  "sh.osbar.1": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "osbar"
+  },
+  "sh.osbar.2": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "osm",
+   "tags": [],
+   "section": "osbar"
+  },
+  "sh.osbar.3": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "osp",
+   "tags": [],
+   "section": "osbar"
+  },
+  "sh.osbar.4": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "osgo",
+   "tags": [],
+   "section": "osbar"
+  },
+  "sh.mast.1": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "lg",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.2": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.3": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.4": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.5": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.6": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.7": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.8": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.9": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.10": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.11": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.12": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.13": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.14": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.15": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.16": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.17": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.18": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.19": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.20": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.21": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.22": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.23": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.24": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.25": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.26": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.27": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.28": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.29": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.30": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.31": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.32": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.33": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.34": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.35": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.36": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.37": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.38": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.39": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.40": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.41": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "cta",
+   "tags": [],
+   "section": "mast"
+  },
+  "inner.1": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.2": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.3": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.4": {
+   "kind": "Page headline",
+   "tag": "h1",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.5": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "dek",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.6": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta teal",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.7": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.8": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "inner.9": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "inner"
+  },
+  "pgnav.1": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.2": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.3": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "figures.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.3": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.4": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.5": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.6": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.7": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.8": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.9": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.10": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.11": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.12": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.13": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.14": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.15": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.16": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.17": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.18": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "cu",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.19": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "figures.20": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "figures"
+  },
+  "coverage.1": {
+   "kind": "Small label",
+   "tag": "div",
+   "cls": "lab big",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.2": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "fig-n small",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "fig-t",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.4": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.5": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.6": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.7": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.8": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.9": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.10": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.11": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.12": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.14": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "benchask",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.15": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta",
+   "tags": [],
+   "section": "coverage"
+  },
+  "coverage.16": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "src cen",
+   "tags": [],
+   "section": "coverage"
+  },
+  "read.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "read"
+  },
+  "read.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "read"
+  },
+  "read.3": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.4": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.5": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.6": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.7": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.8": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "pull",
+   "tags": [],
+   "section": "read"
+  },
+  "read.9": {
+   "kind": "Text",
+   "tag": "small",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.10": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.11": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.12": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "read"
+  },
+  "read.13": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "read"
+  },
+  "read.14": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://www.withintelligence.com/wp-content/uploads/2025/10/sps-origination-benchmark-report-ltm-2025-oct.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "read"
+  },
+  "read.15": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://suttonplacestrategies.com/?p=7837\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "read"
+  },
+  "next.1": {
+   "kind": "Small label",
+   "tag": "div",
+   "cls": "lab big",
+   "tags": [],
+   "section": "next"
+  },
+  "next.2": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "cp1",
+   "tags": [],
+   "section": "next"
+  },
+  "next.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "cp2",
+   "tags": [],
+   "section": "next"
+  },
+  "next.4": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta",
+   "tags": [],
+   "section": "next"
+  },
+  "next.5": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "ctamicro",
+   "tags": [],
+   "section": "next"
+  },
+  "sh.footer.1": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "lg",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.2": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.3": {
+   "kind": "Note",
+   "tag": "div",
+   "cls": "src",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.4": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.5": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.6": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.7": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.8": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.9": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.10": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.11": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.12": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.13": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.14": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.15": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.16": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.17": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.sn.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.2": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "snh",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "snp",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.4": {
+   "kind": "Form label",
+   "tag": "legend",
+   "cls": "vh",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.5": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.6": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.7": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.8": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.9": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.10": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.11": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.12": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.14": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.15": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.16": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.17": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.18": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.19": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.20": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.21": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.23": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.24": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.25": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.26": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.27": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.28": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.29": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.30": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.31": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.32": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.33": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.34": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.35": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.36": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.37": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.38": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.39": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.40": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.41": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.42": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.43": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.44": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.45": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.46": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.47": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.48": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.49": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.50": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.51": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.52": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.53": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.54": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.55": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.56": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.57": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.58": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.59": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.60": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.61": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.62": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.63": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.64": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.65": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.66": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.67": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.68": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.69": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.70": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.71": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.72": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.73": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.74": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.75": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.76": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.77": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.78": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.79": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "vh",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.80": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "vh",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.sn.81": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "snb",
+   "tags": [],
+   "section": "sn"
+  },
+  "sh.snt.1": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "snt",
+   "tags": [],
+   "section": "snt"
+  },
+  "sh.rt.1": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "rtb",
+   "tags": [],
+   "section": "rt"
+  },
+  "sh.valuation.1": {
+   "kind": "Small label",
+   "tag": "p",
+   "cls": "vclab vctop",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "vch",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "vcd",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.4": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "on",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.5": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.6": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.7": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.8": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.9": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "vctip",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.10": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.11": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.12": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.13": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.14": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.15": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.16": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.17": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.18": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcbtn",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.19": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.20": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.21": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.22": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.23": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.24": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.25": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.26": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.27": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [
+    "<a href=\"../../privacy/index.html\">",
+    "<a href=\"../../terms/index.html\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.28": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "vcnote2",
+   "tags": [
+    "<a href=\"../../privacy/index.html\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.29": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcback",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.30": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcbtn",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.31": {
+   "kind": "Small label",
+   "tag": "p",
+   "cls": "vclab",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.32": {
+   "kind": "Small label",
+   "tag": "p",
+   "cls": "vclab",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.33": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.34": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "vcbtn",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.35": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "vcmicro",
+   "tags": [
+    "<a href=\"../../pre-market-assessment/index.html#request\" id=\"vcpma\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.36": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.37": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.38": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.39": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.40": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.41": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.42": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcback",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.43": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "vcfine",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.44": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "vcsrc",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.ck.1": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"../../privacy/index.html#cookies\">"
+   ],
+   "section": "ck"
+  },
+  "sh.ck.2": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckno",
+   "tags": [],
+   "section": "ck"
+  },
+  "sh.ck.3": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckyes",
+   "tags": [],
+   "section": "ck"
+  }
+ }
+}

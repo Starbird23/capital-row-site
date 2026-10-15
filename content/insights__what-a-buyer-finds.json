@@ -1,0 +1,498 @@
+{
+ "path": "/insights/what-a-buyer-finds/",
+ "seoTitle": "What a buyer’s diligence finds in a founder-owned company, and what it does to the price | Capital Row Insights",
+ "seoDescription": "The findings that recur in founder-owned software and services companies, what each one does to price and terms, the published figures on how often they end or reprice a deal, and how to find them first.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "What a buyer’s diligence finds, and what it does to the price.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For owners"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "What a buyer finds"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "What a buyer’s diligence finds, <em>and what it does to the price.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "The same findings recur in founder-owned companies, and each one has a known effect: a lower price, an earnout, an escrow, or a letter that dies. All of them are in documents the company already holds."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "The findings"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "What recurs"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "What it does to the price"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "How to find it first"
+    }
+   ]
+  },
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The findings"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The numbers"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
+   "id": "findings",
+   "name": "Eight findings that recur, and what each one does to the price.",
+   "items": [
+    {
+     "key": "findings.1",
+     "kind": "Small label",
+     "text": "What a buyer finds · The findings"
+    },
+    {
+     "key": "findings.2",
+     "kind": "Section headline",
+     "text": "Eight findings that recur, <em>and what each one does to the price.</em>"
+    },
+    {
+     "key": "findings.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "findings.4",
+     "kind": "Text",
+     "text": "Add-backs without a document"
+    },
+    {
+     "key": "findings.5",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "findings.6",
+     "kind": "Text",
+     "text": "Revenue booked when the cash arrived"
+    },
+    {
+     "key": "findings.7",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "findings.8",
+     "kind": "Text",
+     "text": "One customer, a third of revenue"
+    },
+    {
+     "key": "findings.9",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "findings.10",
+     "kind": "Text",
+     "text": "Statements that differ from the tax returns"
+    },
+    {
+     "key": "findings.11",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "findings.12",
+     "kind": "Text",
+     "text": "Working capital with a season in it"
+    },
+    {
+     "key": "findings.13",
+     "kind": "Text",
+     "text": "06"
+    },
+    {
+     "key": "findings.14",
+     "kind": "Text",
+     "text": "Sales tax, contractors, and the liabilities nobody booked"
+    },
+    {
+     "key": "findings.15",
+     "kind": "Text",
+     "text": "07"
+    },
+    {
+     "key": "findings.16",
+     "kind": "Text",
+     "text": "A contract that needs consent"
+    },
+    {
+     "key": "findings.17",
+     "kind": "Text",
+     "text": "08"
+    },
+    {
+     "key": "findings.18",
+     "kind": "Text",
+     "text": "A business that runs through its owner"
+    },
+    {
+     "key": "findings.19",
+     "kind": "Text",
+     "text": "Add-backs without a document"
+    },
+    {
+     "key": "findings.20",
+     "kind": "Paragraph",
+     "text": "Owner compensation, personal expenses, one-time costs and related-party items that are listed from memory. A buyer accepts the ones with a document and prices the business without the rest. The adjustment that fails is not argued; it is removed."
+    },
+    {
+     "key": "findings.21",
+     "kind": "Text",
+     "text": "Revenue booked when the cash arrived"
+    },
+    {
+     "key": "findings.22",
+     "kind": "Paragraph",
+     "text": "Subscription and contract revenue recorded on receipt rather than when earned, and one-time revenue presented as recurring. The buyer restates it, and the restated earnings are the ones that get priced."
+    },
+    {
+     "key": "findings.23",
+     "kind": "Text",
+     "text": "One customer, a third of revenue"
+    },
+    {
+     "key": "findings.24",
+     "kind": "Paragraph",
+     "text": "Concentration above 20 to 25 percent in one customer, payer or contract. The price does not always fall; the structure changes, and the earnout or the escrow carries the risk the buyer will not."
+    },
+    {
+     "key": "findings.25",
+     "kind": "Text",
+     "text": "Statements that differ from the tax returns"
+    },
+    {
+     "key": "findings.26",
+     "kind": "Paragraph",
+     "text": "The lender checks the seller’s financial data against IRS transcripts. Where the internal statements and the returns disagree, the lower figure is the one that gets underwritten."
+    },
+    {
+     "key": "findings.27",
+     "kind": "Text",
+     "text": "Working capital with a season in it"
+    },
+    {
+     "key": "findings.28",
+     "kind": "Paragraph",
+     "text": "A business that bills annually in January and spends through the year has a working capital pattern. The buyer sets the target from the trailing twelve months, and a seller who does not know the pattern funds the gap at closing."
+    },
+    {
+     "key": "findings.29",
+     "kind": "Text",
+     "text": "Sales tax, contractors, and the liabilities nobody booked"
+    },
+    {
+     "key": "findings.30",
+     "kind": "Paragraph",
+     "text": "Uncollected sales tax on software sold across states, contractors who look like employees, and the unrecorded liabilities that become the claims after closing. These are the findings that reach a judge."
+    },
+    {
+     "key": "findings.31",
+     "kind": "Text",
+     "text": "A contract that needs consent"
+    },
+    {
+     "key": "findings.32",
+     "kind": "Paragraph",
+     "text": "Customer, vendor and license agreements with change-of-control or assignment clauses. Each one is a counterparty who can say no, and a buyer counts them before pricing the certainty of close."
+    },
+    {
+     "key": "findings.33",
+     "kind": "Text",
+     "text": "A business that runs through its owner"
+    },
+    {
+     "key": "findings.34",
+     "kind": "Paragraph",
+     "text": "Relationships, approvals, pricing and sales that sit with one person. The buyer prices the transition, and the price of a transition is a longer earnout, a longer consulting term, or a lower number."
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "name": "How often the findings end a deal, or follow it home.",
+   "items": [
+    {
+     "key": "numbers.1",
+     "kind": "Small label",
+     "text": "What a buyer finds · The numbers"
+    },
+    {
+     "key": "numbers.2",
+     "kind": "Section headline",
+     "text": "How often the findings end a deal, <em>or follow it home.</em>"
+    },
+    {
+     "key": "numbers.3",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "numbers.4",
+     "kind": "Text",
+     "text": "Broken letters that ended on the earnings"
+    },
+    {
+     "key": "numbers.5",
+     "kind": "Paragraph",
+     "text": "Share of seventy-five collapsed letters of intent in 2025 where adjusted earnings were not what was presented. Double the share of two years earlier."
+    },
+    {
+     "key": "numbers.6",
+     "kind": "Text",
+     "text": "25.3%"
+    },
+    {
+     "key": "numbers.7",
+     "kind": "Text",
+     "text": "Broken letters that ended on another finding"
+    },
+    {
+     "key": "numbers.8",
+     "kind": "Paragraph",
+     "text": "A license, a contract, a compliance gap, a customer concentration: the findings outside the earnings work."
+    },
+    {
+     "key": "numbers.9",
+     "kind": "Text",
+     "text": "24%"
+    },
+    {
+     "key": "numbers.10",
+     "kind": "Text",
+     "text": "Claims for undisclosed liabilities"
+    },
+    {
+     "key": "numbers.11",
+     "kind": "Paragraph",
+     "text": "Share of all breach-of-representation claims against private sellers after closing, up from 11 percent two years earlier."
+    },
+    {
+     "key": "numbers.12",
+     "kind": "Text",
+     "text": "21"
+    },
+    {
+     "key": "numbers.13",
+     "kind": "Text",
+     "text": "Cents paid per dollar of earnout"
+    },
+    {
+     "key": "numbers.14",
+     "kind": "Paragraph",
+     "text": "Across private-target deals with an earnout, excluding life sciences, the share of the maximum earnout that was actually paid. An earnout is a finding that became a term."
+    },
+    {
+     "key": "numbers.15",
+     "kind": "Text",
+     "text": "89%"
+    },
+    {
+     "key": "numbers.16",
+     "kind": "Text",
+     "text": "Deals where the price moved after closing"
+    },
+    {
+     "key": "numbers.17",
+     "kind": "Paragraph",
+     "text": "Of deals with a purchase price adjustment mechanism, the share where an adjustment occurred."
+    },
+    {
+     "key": "numbers.18",
+     "kind": "Text",
+     "text": "60–90%"
+    },
+    {
+     "key": "numbers.19",
+     "kind": "Text",
+     "text": "Sellers with under a year of exit planning"
+    },
+    {
+     "key": "numbers.20",
+     "kind": "Paragraph",
+     "text": "Across five deal-size segments in the lower middle market, the share of sellers who arrived at the sale with less than one year of planning, or none."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "A buyer finds nothing the company did not already know. The buyer f...",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "What a buyer finds · What it means"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "A buyer finds nothing the company did not already know. <em>The buyer finds it later, with leverage.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "Why the same findings recur"
+    },
+    {
+     "key": "read.4",
+     "kind": "Paragraph",
+     "text": "A founder-owned company is run from its bank balance and its tax return, and that is enough to run it. A buyer reads it differently: as a set of earnings that must be traced to source, a set of customers whose contracts must transfer, and a set of liabilities that must be known before they are inherited. The findings above are the places where the two readings differ, and they recur because the records that produce them are the same from one founder-owned company to the next."
+    },
+    {
+     "key": "read.5",
+     "kind": "Paragraph",
+     "text": "What each finding does is also predictable. An unsupported add-back is removed. Restated revenue is repriced. A concentration becomes an earnout. A consent becomes a closing condition. An unrecorded liability becomes a claim against the escrow, and the claims for undisclosed liabilities are now a quarter of all claims and the slowest to resolve. Of the deals that have a purchase price adjustment mechanism, nearly nine in ten see an adjustment."
+    },
+    {
+     "key": "read.6",
+     "kind": "Text",
+     "text": "A buyer does not find anything the company did not already know. The buyer finds it later, with leverage."
+    },
+    {
+     "key": "read.7",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "read.8",
+     "kind": "Heading",
+     "text": "What finding it first changes"
+    },
+    {
+     "key": "read.9",
+     "kind": "Paragraph",
+     "text": "It does not change the finding. It changes who holds it, and when. An add-back with its document attached is accepted; the same add-back found by the buyer is removed and the rest are doubted. A concentration disclosed with the contract and the renewal history is a term to negotiate; the same concentration found in week six is a reason to reopen the price. The preparation review reads the records the way a buyer will, marks each adjustment supported or unsupported with the document that decides it, and lists what to fix first. The owner keeps the findings, and nothing reaches a buyer without written permission."
+    },
+    {
+     "key": "read.10",
+     "kind": "Paragraph",
+     "text": "The lower middle market arrives at the sale unprepared: across five size segments, 60 to 90 percent of sellers had less than a year of exit planning. In the 2023 owner survey, 42 percent of owners had a written transition plan and 22 percent had an advisory team. The buyer’s team, by contrast, has done this before."
+    },
+    {
+     "key": "read.11",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.12",
+     "kind": "List item",
+     "text": "<a>BPM, Due diligence findings, 15 May 2025</a>"
+    },
+    {
+     "key": "read.13",
+     "kind": "List item",
+     "text": "<a>CLA, How a sell-side quality of earnings can help close a business sale, 1 June 2026</a>"
+    },
+    {
+     "key": "read.14",
+     "kind": "List item",
+     "text": "<a>Lutz, Issues during the due diligence process in M&A transactions, 15 April 2019</a>"
+    },
+    {
+     "key": "read.15",
+     "kind": "List item",
+     "text": "<a>A lower-middle-market deal platform, Dead Deal Report: Unpacking 2025’s Broken LOIs, 27 January 2026</a>, seventy-five failed transactions"
+    },
+    {
+     "key": "read.16",
+     "kind": "List item",
+     "text": "<a>SRS Acquiom, 2024 M&A Claims Insights, 2025 info sheet</a>, undisclosed-liability claims and earnout payments"
+    },
+    {
+     "key": "read.17",
+     "kind": "List item",
+     "text": "<a>Goodwin, Undisclosed liability claims have doubled, 30 September 2025</a>"
+    },
+    {
+     "key": "read.18",
+     "kind": "List item",
+     "text": "<a>SRS Acquiom, 2026 M&A Deal Terms Study, as summarized in the July 2026 newsletter</a>, 2,300 private-target deals, 2020 to 2025, purchase price adjustments"
+    },
+    {
+     "key": "read.19",
+     "kind": "List item",
+     "text": "<a>IBBA and M&A Source, Market Pulse Q2 2026, released 25 August 2026</a>, 255 advisers, 181 closed deals, exit planning"
+    },
+    {
+     "key": "read.20",
+     "kind": "List item",
+     "text": "<a>Exit Planning Institute, 2023 national survey of owners</a>, 1,162 owners"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For owners",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For owners"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Find it before a buyer does.<br><em>Then decide what to do about it.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "The Pre-Market Assessment is the first read: an indicative valuation range, the earnings behind it as you report them, what moves the range, and a 90-day plan. You do not need to have decided to sell."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  }
+ ]
+}

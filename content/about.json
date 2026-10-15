@@ -30,7 +30,7 @@
     {
      "key": "inner.5",
      "kind": "Paragraph",
-     "text": "Our vision is to help every business understand and substantiate the earnings behind its value."
+     "text": "<i>Our vision</i>To help every business understand and substantiate the earnings behind its value."
     },
     {
      "key": "inner.6",
@@ -56,6 +56,42 @@
      "key": "inner.10",
      "kind": "Text",
      "text": "5 desks open"
+    }
+   ]
+  },
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Why"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Process"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Quality of earnings"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Team"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Join"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "What we have learned"
     }
    ]
   },
@@ -117,7 +153,7 @@
   },
   {
    "id": "process",
-   "name": "Intelligence first, in five rows.",
+   "name": "Intelligence first, on every mandate.",
    "items": [
     {
      "key": "process.1",
@@ -127,7 +163,7 @@
     {
      "key": "process.2",
      "kind": "Section headline",
-     "text": "Intelligence first, <em>in five rows.</em>"
+     "text": "Intelligence first, <em>on every mandate.</em>"
     },
     {
      "key": "process.3",
@@ -223,6 +259,42 @@
      "key": "process.21",
      "kind": "Link",
      "text": "Capital Connections"
+    }
+   ]
+  },
+  {
+   "id": "qoe",
+   "name": "The report behind the price, read before the buyer reads it.",
+   "items": [
+    {
+     "key": "qoe.1",
+     "kind": "Text",
+     "text": "What a quality of earnings report is"
+    },
+    {
+     "key": "qoe.2",
+     "kind": "Section headline",
+     "text": "The report behind the price, <em>read before the buyer reads it.</em>"
+    },
+    {
+     "key": "qoe.3",
+     "kind": "Paragraph",
+     "text": "A quality of earnings report is an independent analysis of what a business actually earns, as distinct from what it reports: revenue and expenses traced to bank records and tax filings, the non-recurring and personal items identified, and a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation. From 1 October 2026, an SBA lender must obtain one, commissioned for the lender, on any acquisition loan at a purchase price of $3 million or more."
+    },
+    {
+     "key": "qoe.4",
+     "kind": "Paragraph",
+     "text": "Capital Row reads an owner’s numbers the way that report will, first: the Pre-Market Assessment, then the preparation review, then the Sell-Side QoE from the independent CPA firm we partner with."
+    },
+    {
+     "key": "qoe.5",
+     "kind": "Link",
+     "text": "What a quality of earnings report is"
+    },
+    {
+     "key": "qoe.6",
+     "kind": "Link",
+     "text": "The Sell-Side QoE"
     }
    ]
   },

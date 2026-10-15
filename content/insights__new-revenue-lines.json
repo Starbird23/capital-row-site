@@ -1,0 +1,297 @@
+{
+ "path": "/insights/new-revenue-lines/",
+ "seoTitle": "New revenue lines: AI features and embedded payments, read before the letter of intent | Capital Row Insights",
+ "seoDescription": "Two revenue lines buyers now ask about in vertical software. For each, four things Capital Row traces in the records before a letter of intent: paid adoption, retention, cost to deliver, and whether the activity reconciles to revenue.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "What we look for when a software company adds AI features or embedd...",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For buyers"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "New revenue lines"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "What we look for when a software company adds <em>AI features or embedded payments.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "Two revenue lines buyers now ask about. Each can be real, and each can be a number that does not survive the records. For each, four things we trace before a letter of intent."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "The four things we trace"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Paid adoption"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "Reconciled revenue"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "Cost to deliver"
+    }
+   ]
+  },
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The four things"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "In the records"
+    }
+   ]
+  },
+  {
+   "id": "intelligence",
+   "name": "What we look for when a software company adds AI features or embedd...",
+   "items": [
+    {
+     "key": "intelligence.1",
+     "kind": "Small label",
+     "text": "New revenue lines · The four things we trace"
+    },
+    {
+     "key": "intelligence.2",
+     "kind": "Section headline",
+     "text": "What we look for when a software company adds<br> <em>AI features or embedded payments.</em>"
+    },
+    {
+     "key": "intelligence.3",
+     "kind": "Paragraph",
+     "text": "Two revenue lines buyers now ask about. For each, four things we trace in the records before a letter of intent."
+    },
+    {
+     "key": "intelligence.4",
+     "kind": "Text",
+     "text": "AI features"
+    },
+    {
+     "key": "intelligence.5",
+     "kind": "Text",
+     "text": "How is it paid for, and do customers keep paying for it?"
+    },
+    {
+     "key": "intelligence.6",
+     "kind": "List item",
+     "text": "Paid adoption"
+    },
+    {
+     "key": "intelligence.7",
+     "kind": "List item",
+     "text": "Customer retention"
+    },
+    {
+     "key": "intelligence.8",
+     "kind": "List item",
+     "text": "Cost to deliver"
+    },
+    {
+     "key": "intelligence.9",
+     "kind": "List item",
+     "text": "Earnings contribution"
+    },
+    {
+     "key": "intelligence.10",
+     "kind": "Text",
+     "text": "Embedded finance"
+    },
+    {
+     "key": "intelligence.11",
+     "kind": "Text",
+     "text": "Does the payment activity reconcile to revenue?"
+    },
+    {
+     "key": "intelligence.12",
+     "kind": "List item",
+     "text": "Payment activity"
+    },
+    {
+     "key": "intelligence.13",
+     "kind": "List item",
+     "text": "Reconciled revenue"
+    },
+    {
+     "key": "intelligence.14",
+     "kind": "List item",
+     "text": "Delivery economics"
+    },
+    {
+     "key": "intelligence.15",
+     "kind": "List item",
+     "text": "Contract exposure"
+    },
+    {
+     "key": "intelligence.16",
+     "kind": "Button",
+     "text": "Follow a sector"
+    },
+    {
+     "key": "intelligence.17",
+     "kind": "Note",
+     "text": "Our notes on your sectors, as they are published."
+    },
+    {
+     "key": "intelligence.18",
+     "kind": "Paragraph",
+     "text": "<b>Capital Connections.</b> Financing for acquisitions, ownership transitions and growth. <a>See Capital Connections</a>"
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "A new revenue line is a claim about the future made with eighteen m...",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "New revenue lines · In the records"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "A new revenue line is a claim about the future <em>made with eighteen months of records.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "AI features: four questions, in the records"
+    },
+    {
+     "key": "read.4",
+     "kind": "List item",
+     "text": "<b>Paid adoption.</b> How many customers pay for the feature as a separate line, how many have it bundled at no change in price, and how many have it switched on without using it. The invoice and the usage log answer this, not the product roadmap."
+    },
+    {
+     "key": "read.5",
+     "kind": "List item",
+     "text": "<b>Customer retention.</b> Whether the customers who adopted the feature renew at a different rate from those who did not, measured on the same cohort over the same period. A retention claim for a feature launched nine months ago is a claim about nine months."
+    },
+    {
+     "key": "read.6",
+     "kind": "List item",
+     "text": "<b>Cost to deliver.</b> The inference and model costs behind the feature, by customer and by month, against the price charged for it. A feature sold at a flat fee with a usage-based cost behind it has a margin that moves with adoption."
+    },
+    {
+     "key": "read.7",
+     "kind": "List item",
+     "text": "<b>Earnings contribution.</b> Whether the feature’s revenue, net of its cost to deliver, reaches adjusted earnings, or whether it is reported as growth while its cost sits in cost of revenue or in capitalized development."
+    },
+    {
+     "key": "read.8",
+     "kind": "Heading",
+     "text": "Embedded payments: the activity must reconcile"
+    },
+    {
+     "key": "read.9",
+     "kind": "List item",
+     "text": "<b>Payment activity.</b> The volume processed through the platform, by month, from the processor’s statements rather than the company’s dashboard."
+    },
+    {
+     "key": "read.10",
+     "kind": "List item",
+     "text": "<b>Reconciled revenue.</b> The company’s share of that volume, reconciled from the processor’s remittances to the general ledger to the bank. Gross and net presentation decide whether the revenue line is the volume or the margin on it."
+    },
+    {
+     "key": "read.11",
+     "kind": "List item",
+     "text": "<b>Delivery economics.</b> Interchange, processor fees, chargebacks and reserves, so that the margin on payments is read after the costs that attach to it."
+    },
+    {
+     "key": "read.12",
+     "kind": "List item",
+     "text": "<b>Contract exposure.</b> The processor agreement’s term, exclusivity, pricing resets and change-of-control terms, and the customer agreements’ consent to payment processing. A payments line is only as durable as the agreement it runs on."
+    },
+    {
+     "key": "read.13",
+     "kind": "Text",
+     "text": "A new revenue line is a claim about the future made with eighteen months of records. We read the eighteen months."
+    },
+    {
+     "key": "read.14",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "read.15",
+     "kind": "Heading",
+     "text": "Why this is diligence work and not a product question"
+    },
+    {
+     "key": "read.16",
+     "kind": "Paragraph",
+     "text": "Both lines arrive in a sale process as growth stories, and both are priced on the story unless someone traces them. The trace is the same one a buyer’s quality of earnings team will run in the sixth week of exclusivity: the invoice, the usage log, the processor statement, the ledger and the bank. Capital Row runs it before the letter of intent, for a buyer who has the company in view, or for an owner who wants to know what the buyer will find."
+    },
+    {
+     "key": "read.17",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.18",
+     "kind": "List item",
+     "text": "<a>Capital Row, the preparation review: what the review covers</a>"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

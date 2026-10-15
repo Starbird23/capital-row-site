@@ -51,12 +51,12 @@
   },
   {
    "id": "coverage",
-   "name": "1 · Coverage: the share of your market you see",
+   "name": "Coverage: the share of your market you see",
    "items": [
     {
      "key": "coverage.1",
      "kind": "Small label",
-     "text": "1 · Coverage: the share of your market you see"
+     "text": "Coverage: the share of your market you see"
     },
     {
      "key": "coverage.2",
@@ -487,7 +487,7 @@
     {
      "key": "cost.1",
      "kind": "Small label",
-     "text": "2 · What one deal costs to originate"
+     "text": "What one deal costs to originate"
     },
     {
      "key": "cost.2",
@@ -668,7 +668,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Start with your criteria. <em>See the deals you have been missing.</em>"
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
     },
     {
      "key": "next.3",

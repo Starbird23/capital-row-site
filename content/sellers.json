@@ -55,6 +55,52 @@
    ]
   },
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Find it first"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Why deals break"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Three kinds of business"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Pre-Market Assessment"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Advisers"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "dead-deal",
    "name": "dead-deal",
    "items": [
@@ -239,80 +285,85 @@
     {
      "key": "covers.3",
      "kind": "Paragraph",
-     "text": "This is non-attest preparation. It shows you what a buyer’s quality of earnings is likely to find, while there is still time to act on it. For the full report, see <a>Sell-Side QoE</a>."
+     "text": "This is non-attest preparation. It shows you what a buyer’s quality of earnings is likely to find, while there is still time to act on it. For the full report, see <a>the Sell-Side QoE</a>."
     },
     {
      "key": "covers.4",
-     "kind": "Text",
-     "text": "01"
+     "kind": "Link",
+     "text": "About the Sell-Side QoE"
     },
     {
      "key": "covers.5",
      "kind": "Text",
-     "text": "Earnings, traced"
+     "text": "01"
     },
     {
      "key": "covers.6",
+     "kind": "Text",
+     "text": "Earnings, traced"
+    },
+    {
+     "key": "covers.7",
      "kind": "Paragraph",
      "text": "Revenue reconciled to bank deposits, and reported earnings tied to the records behind them."
     },
     {
-     "key": "covers.7",
+     "key": "covers.8",
      "kind": "Text",
      "text": "02"
     },
     {
-     "key": "covers.8",
+     "key": "covers.9",
      "kind": "Text",
      "text": "Every adjustment, marked"
     },
     {
-     "key": "covers.9",
+     "key": "covers.10",
      "kind": "Paragraph",
      "text": "Each add-back you or your adviser proposes is marked supported or unsupported, with the document that decides it."
     },
     {
-     "key": "covers.10",
+     "key": "covers.11",
      "kind": "Text",
      "text": "03"
     },
     {
-     "key": "covers.11",
+     "key": "covers.12",
      "kind": "Text",
      "text": "Customers and payers"
     },
     {
-     "key": "covers.12",
+     "key": "covers.13",
      "kind": "Paragraph",
      "text": "Concentration, retention and contract terms, read the way a buyer will read them."
     },
     {
-     "key": "covers.13",
+     "key": "covers.14",
      "kind": "Text",
      "text": "04"
     },
     {
-     "key": "covers.14",
+     "key": "covers.15",
      "kind": "Text",
      "text": "Contracts and licenses"
     },
     {
-     "key": "covers.15",
+     "key": "covers.16",
      "kind": "Paragraph",
      "text": "Assignability, change-of-control terms, and the compliance items a buyer’s counsel will ask about."
     },
     {
-     "key": "covers.16",
+     "key": "covers.17",
      "kind": "Text",
      "text": "05"
     },
     {
-     "key": "covers.17",
+     "key": "covers.18",
      "kind": "Text",
      "text": "A findings report and workbook"
     },
     {
-     "key": "covers.18",
+     "key": "covers.19",
      "kind": "Paragraph",
      "text": "What was found, what it affects, and what to fix first. Yours to keep."
     }
@@ -472,40 +523,95 @@
   },
   {
    "id": "first",
-   "name": "Know your earnings. Before you negotiate your price.",
+   "name": "Your earnings, read the way a buyer will. Before you negotiate your...",
    "items": [
     {
      "key": "first.1",
      "kind": "Small label",
-     "text": "Receive a valuation"
+     "text": "The Pre-Market Assessment · The first read"
     },
     {
      "key": "first.2",
      "kind": "Section headline",
-     "text": "Know your earnings. <em>Before you negotiate your price.</em>"
+     "text": "Your earnings, read the way a buyer will. <em>Before you negotiate your price.</em>"
     },
     {
      "key": "first.3",
      "kind": "Paragraph",
-     "text": "The Pre-Market Assessment is the wider starting point: an indicative valuation range, the earnings behind it and a 90-day plan, for owners who want to grow now and keep their options open. You do not need to have decided to sell."
+     "text": "Three steps, each deeper than the last, and you decide after each one. The Pre-Market Assessment is the first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never. You do not need to have decided to sell."
     },
     {
      "key": "first.4",
-     "kind": "Button",
-     "text": "Talk to us about an assessment"
+     "kind": "Text",
+     "text": "Step one"
     },
     {
      "key": "first.5",
-     "kind": "Note",
-     "text": "<a>What the assessment includes</a>"
+     "kind": "Text",
+     "text": "Pre-Market Assessment"
     },
     {
      "key": "first.6",
+     "kind": "Paragraph",
+     "text": "The first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never."
+    },
+    {
+     "key": "first.7",
+     "kind": "Text",
+     "text": "What the assessment includes →"
+    },
+    {
+     "key": "first.8",
+     "kind": "Text",
+     "text": "Step two"
+    },
+    {
+     "key": "first.9",
+     "kind": "Text",
+     "text": "Preparation"
+    },
+    {
+     "key": "first.10",
+     "kind": "Paragraph",
+     "text": "The full trace: revenue reconciled to bank deposits, every adjustment marked supported or unsupported with the document that decides it, customers, contracts and licenses read the way a buyer will. Non-attest, and yours to keep."
+    },
+    {
+     "key": "first.11",
+     "kind": "Text",
+     "text": "What the review covers →"
+    },
+    {
+     "key": "first.12",
+     "kind": "Text",
+     "text": "Step three"
+    },
+    {
+     "key": "first.13",
+     "kind": "Text",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "first.14",
+     "kind": "Paragraph",
+     "text": "The report, from the independent CPA firm Capital Row partners with, built on the record the first two steps assembled. A buyer’s team meets reconciled schedules instead of a blank page."
+    },
+    {
+     "key": "first.15",
+     "kind": "Text",
+     "text": "About the Sell-Side QoE →"
+    },
+    {
+     "key": "first.16",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "first.17",
      "kind": "Text",
      "text": "Growth or working-capital needs?"
     },
     {
-     "key": "first.7",
+     "key": "first.18",
      "kind": "Link",
      "text": "See Capital Connections"
     }
@@ -529,56 +635,6 @@
      "key": "sell.3",
      "kind": "Paragraph",
      "text": "When you decide to go to market, Capital Row can represent you in the sale under a separate engagement. Nothing from your review reaches a buyer, or anyone else, without your written permission."
-    },
-    {
-     "key": "sell.4",
-     "kind": "Small label",
-     "text": "What we will not do"
-    },
-    {
-     "key": "sell.5",
-     "kind": "Text",
-     "text": "01"
-    },
-    {
-     "key": "sell.6",
-     "kind": "Text",
-     "text": "Share your findings without written permission"
-    },
-    {
-     "key": "sell.7",
-     "kind": "Text",
-     "text": "02"
-    },
-    {
-     "key": "sell.8",
-     "kind": "Text",
-     "text": "Act for both sides of your transaction"
-    },
-    {
-     "key": "sell.9",
-     "kind": "Text",
-     "text": "03"
-    },
-    {
-     "key": "sell.10",
-     "kind": "Text",
-     "text": "Ask for a listing agreement to start"
-    },
-    {
-     "key": "sell.11",
-     "kind": "Text",
-     "text": "04"
-    },
-    {
-     "key": "sell.12",
-     "kind": "Text",
-     "text": "Promise you a price"
-    },
-    {
-     "key": "sell.13",
-     "kind": "Paragraph",
-     "text": "Anyone who puts a number on what preparation adds to a price is quoting their own marketing. What a review does is show what your numbers support, and give you the chance to fix what they do not before a buyer prices it."
     }
    ]
   },
@@ -589,7 +645,7 @@
     {
      "key": "advisers.1",
      "kind": "Small label",
-     "text": "For advisers and CPAs"
+     "text": "For advisers and certified public accountants"
     },
     {
      "key": "advisers.2",
@@ -614,7 +670,7 @@
     {
      "key": "advisers.6",
      "kind": "Text",
-     "text": "CPAs and accountants"
+     "text": "Certified public accountants"
     },
     {
      "key": "advisers.7",
@@ -635,67 +691,132 @@
   },
   {
    "id": "faq",
-   "name": "Plain answers, before you ask.",
+   "name": "Plain answers, then a conversation if you want one.",
    "items": [
     {
      "key": "faq.1",
      "kind": "Small label",
-     "text": "The questions owners ask"
+     "text": "The questions most owners ask"
     },
     {
      "key": "faq.2",
      "kind": "Section headline",
-     "text": "Plain answers, <em>before you ask.</em>"
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
     },
     {
      "key": "faq.3",
      "kind": "Text",
-     "text": "Is this a quality of earnings report?"
+     "text": "What is a quality of earnings report?"
     },
     {
      "key": "faq.4",
      "kind": "Paragraph",
-     "text": "No. It is non-attest preparation for the questions a buyer’s quality of earnings will ask. It is not an audit, review, compilation or attestation, and it does not replace the report a buyer or lender commissions."
+     "text": "An independent analysis of what a business actually earns, as distinct from what it reports. A CPA firm traces revenue and expenses to bank records and tax filings, identifies the non-recurring, non-operating and personal items, and produces a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation, and it carries no opinion on the financial statements. <a>The full note</a>."
     },
     {
      "key": "faq.5",
      "kind": "Text",
-     "text": "Will it raise my price?"
+     "text": "Is the Pre-Market Assessment a quality of earnings report?"
     },
     {
      "key": "faq.6",
      "kind": "Paragraph",
-     "text": "We will not promise that. It shows what your numbers support, and gives you the chance to fix what they do not, before a buyer prices it."
+     "text": "No. It is the first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. The preparation review is the full trace, non-attest. The Sell-Side QoE is the report, from the independent CPA firm we partner with. You can stop after any step."
     },
     {
      "key": "faq.7",
      "kind": "Text",
-     "text": "Who sees the findings?"
+     "text": "Why would I pay for a report on my own company?"
     },
     {
      "key": "faq.8",
      "kind": "Paragraph",
-     "text": "You. Nothing reaches a buyer, an adviser or anyone else without your written permission."
+     "text": "Because the buyer will commission one either way, and the price moves on what it finds. In a 2025 study of seventy-five signed letters of intent that collapsed, 21.3 percent ended because the earnings were not what was presented, double the share of two years earlier, and 25.3 percent on a finding outside the earnings work. GF Data’s record of 360 private equity transactions since the third quarter of 2024 shows sellers with a sell-side report averaging 7.4 times adjusted earnings against 7.0 without; that is a correlation, concentrated in larger deals, and we do not read it as a promise. The surer effect is time: diligence proceeds on your record instead of the buyer’s reconstruction of it."
     },
     {
      "key": "faq.9",
      "kind": "Text",
-     "text": "What do you need from me?"
+     "text": "Why does a lender require a third-party report? Could software do it?"
     },
     {
      "key": "faq.10",
      "kind": "Paragraph",
-     "text": "To start, a conversation. The review itself begins with an agreed information request under a signed NDA. Patient records and protected health information are never requested."
+     "text": "From 1 October 2026, an SBA 7(a) acquisition loan at a purchase price of $3 million or more requires a quality of earnings report with a cash proof, performed by an independent financial professional for the lender; a report prepared by or for the seller does not count. The rule is about independence and responsibility, not technology. Software is used inside the work, for mapping, schedules and reconciliations. It cannot hold a license, carry professional liability, or be independent of the parties, and the AICPA’s position is that responsibility for the work product rests with the CPA. <a>The facts, with sources</a>."
     },
     {
      "key": "faq.11",
      "kind": "Text",
-     "text": "What does it cost?"
+     "text": "Why not take the first offer?"
     },
     {
      "key": "faq.12",
      "kind": "Paragraph",
-     "text": "The scope and the fee are agreed in writing before any work begins, once we know what the business needs."
+     "text": "Because the first number is rarely the last. In 841 acquisitions of S&P 1500 companies from 2005 to 2019, the winning bidder’s first bid averaged a 28.6 percent premium and the final price 38.2 percent; only 8 percent of winners won with a single bid. In the lower middle market, 87 percent of deals above $5 million drew three or more offers in the second quarter of 2026. An unsolicited offer arrives before you know what the alternatives would have been. <a>The full note</a>."
+    },
+    {
+     "key": "faq.13",
+     "kind": "Text",
+     "text": "Why go through an intermediary rather than deal with a buyer directly?"
+    },
+    {
+     "key": "faq.14",
+     "kind": "Paragraph",
+     "text": "Deals the seller starts, or takes unsolicited, price lower: target-initiated deals carry lower premiums and lower multiples of earnings, and the gap widens the less the buyer can confirm. Private sellers who hire an adviser receive higher valuations after correcting for who hires one. And buyers say so themselves: in their own words, the attraction of an off-market deal is that there is less competition and the price is attractive. The party who sees the whole market sets the price."
+    },
+    {
+     "key": "faq.15",
+     "kind": "Text",
+     "text": "How does a competitive process benefit me?"
+    },
+    {
+     "key": "faq.16",
+     "kind": "Paragraph",
+     "text": "Not by the count of bidders. The research finds target returns comparable between auctions and negotiations, and final premiums similar regardless of the number of bids. What a process run from your side changes is that the buyer who knows a competing bid is possible prices against it from the first round, and that the terms behind the headline, cash at closing, working capital, earnout and seller note, are set with alternatives in hand. In the lower middle market sellers received 83 to 92 percent of the price in cash at closing in the second quarter of 2026, and across deals with an earnout about 21 cents of each dollar of maximum earnout was paid."
+    },
+    {
+     "key": "faq.17",
+     "kind": "Text",
+     "text": "Will it raise my price?"
+    },
+    {
+     "key": "faq.18",
+     "kind": "Paragraph",
+     "text": "We will not promise that. It shows what your numbers support, and gives you the chance to fix what they do not, before a buyer prices it."
+    },
+    {
+     "key": "faq.19",
+     "kind": "Text",
+     "text": "Who sees the findings?"
+    },
+    {
+     "key": "faq.20",
+     "kind": "Paragraph",
+     "text": "You. Nothing reaches a buyer, an adviser or anyone else without your written permission."
+    },
+    {
+     "key": "faq.21",
+     "kind": "Text",
+     "text": "What do you need from me?"
+    },
+    {
+     "key": "faq.22",
+     "kind": "Paragraph",
+     "text": "To start, a conversation. The review itself begins with an agreed information request under a signed NDA. Patient records and protected health information are never requested."
+    },
+    {
+     "key": "faq.23",
+     "kind": "Text",
+     "text": "What does it cost, and how long does it take?"
+    },
+    {
+     "key": "faq.24",
+     "kind": "Paragraph",
+     "text": "The scope and the fee are agreed in writing before any work begins, once we know what the business needs. A sell-side quality of earnings engagement runs four to eight weeks of fieldwork, and the practitioners who do the work recommend commissioning it three to six months before going to market."
+    },
+    {
+     "key": "faq.25",
+     "kind": "Note",
+     "text": "Figures from a lower-middle-market deal platform’s study of broken letters of intent (27 January 2026); GF Data via ACG’s Middle Market Growth (Fall 2025); Liu, Officer and Tu (2023); Masulis and Simsir, Journal of Financial and Quantitative Analysis (2018); Agrawal, Cooper, Lian and Wang, Quarterly Journal of Finance (2023); Boone and Mulherin, Journal of Finance (2007); IBBA and M&A Source Market Pulse Q2 2026; SRS Acquiom claims and deal terms studies; SBA SOP 50 10 8.1. Each is linked from the <a>Insights</a> pages."
     }
    ]
   },

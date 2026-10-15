@@ -55,6 +55,42 @@
    ]
   },
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "What you are financing"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The business story"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "SBA loans"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Financing partners"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Start"
+    }
+   ]
+  },
+  {
    "id": "uses",
    "name": "What are you financing?",
    "items": [
@@ -157,6 +193,127 @@
    ]
   },
   {
+   "id": "sba",
+   "name": "What an SBA 7(a) acquisition loan requires, as of 1 October 2026.",
+   "items": [
+    {
+     "key": "sba.1",
+     "kind": "Small label",
+     "text": "Capital Connections · The rules behind an SBA acquisition loan"
+    },
+    {
+     "key": "sba.2",
+     "kind": "Section headline",
+     "text": "What an SBA 7(a) acquisition loan requires, <em>as of 1 October 2026.</em>"
+    },
+    {
+     "key": "sba.3",
+     "kind": "Paragraph",
+     "text": "The Small Business Administration rewrote its procedure for business acquisitions this year. These are the rules a buyer and a seller meet on a 7(a) acquisition loan, taken from the procedure itself. Capital Row is not a lender and does not package or broker loans."
+    },
+    {
+     "key": "sba.4",
+     "kind": "Text",
+     "text": "$5,000,000"
+    },
+    {
+     "key": "sba.5",
+     "kind": "Text",
+     "text": "Maximum 7(a) loan"
+    },
+    {
+     "key": "sba.6",
+     "kind": "Paragraph",
+     "text": "SBA guarantees 75 percent above $150,000, and 85 percent at or below it."
+    },
+    {
+     "key": "sba.7",
+     "kind": "Text",
+     "text": "10%"
+    },
+    {
+     "key": "sba.8",
+     "kind": "Text",
+     "text": "Equity injection"
+    },
+    {
+     "key": "sba.9",
+     "kind": "Paragraph",
+     "text": "Of total project cost on an initial acquisition, and it cannot be reduced. A seller note counts toward it only on full standby for the term of the loan, and only up to half."
+    },
+    {
+     "key": "sba.10",
+     "kind": "Text",
+     "text": "$350,000"
+    },
+    {
+     "key": "sba.11",
+     "kind": "Text",
+     "text": "Independent valuation above"
+    },
+    {
+     "key": "sba.12",
+     "kind": "Paragraph",
+     "text": "An accredited, independent valuator, engaged by the lender. A valuation prepared for the buyer or the seller may not be used."
+    },
+    {
+     "key": "sba.13",
+     "kind": "Text",
+     "text": "$3,000,000"
+    },
+    {
+     "key": "sba.14",
+     "kind": "Text",
+     "text": "Quality of earnings at or above"
+    },
+    {
+     "key": "sba.15",
+     "kind": "Paragraph",
+     "text": "A report with a cash proof, from an independent financial professional, for the lender, on an initial acquisition or business expansion."
+    },
+    {
+     "key": "sba.16",
+     "kind": "Text",
+     "text": "1.25"
+    },
+    {
+     "key": "sba.17",
+     "kind": "Text",
+     "text": "Debt service coverage"
+    },
+    {
+     "key": "sba.18",
+     "kind": "Paragraph",
+     "text": "Historical earnings over all debt service after the transaction, from the last year or the average of the last two. Projections may not be used."
+    },
+    {
+     "key": "sba.19",
+     "kind": "Text",
+     "text": "24 months"
+    },
+    {
+     "key": "sba.20",
+     "kind": "Text",
+     "text": "The seller may stay, as a consultant"
+    },
+    {
+     "key": "sba.21",
+     "kind": "Paragraph",
+     "text": "Not as an owner, officer, director or employee. Seller earnouts are prohibited; working capital true-ups are allowed."
+    },
+    {
+     "key": "sba.22",
+     "kind": "Note",
+     "text": "SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective 1 October 2026, Appendix 15 and Appendix 16. This is information, not advice; the procedure governs, and a lender, an attorney and a CPA should confirm each item before it is relied on."
+    },
+    {
+     "key": "sba.23",
+     "kind": "Link",
+     "text": "The full note, with the fees, the ownership rule and what a seller can agree to"
+    }
+   ]
+  },
+  {
    "id": "how",
    "name": "How Capital Connections works.",
    "items": [
@@ -198,6 +355,42 @@
    ]
   },
   {
+   "id": "partners",
+   "name": "A financing need, read before it reaches you.",
+   "items": [
+    {
+     "key": "partners.1",
+     "kind": "Small label",
+     "text": "Capital Connections · For lenders and financing partners"
+    },
+    {
+     "key": "partners.2",
+     "kind": "Section headline",
+     "text": "A financing need, <em>read before it reaches you.</em>"
+    },
+    {
+     "key": "partners.3",
+     "kind": "Paragraph",
+     "text": "Capital Row introduces financing needs it has already read: the business story, the purpose and amount, the cash flow that supports repayment, and what in the financial information needs preparation first. Software and services companies in the sectors we cover, from $3 million in revenue. The provider handles its application, underwriting and credit decision."
+    },
+    {
+     "key": "partners.4",
+     "kind": "Paragraph",
+     "text": "If you lend to or invest in companies like these and want to be on the panel, tell us what you finance, at what size, and in which sectors."
+    },
+    {
+     "key": "partners.5",
+     "kind": "Button",
+     "text": "Join the panel"
+    },
+    {
+     "key": "partners.6",
+     "kind": "Note",
+     "text": "One business day, read by a person. <a>Our note for lenders: the borrower’s customers</a>."
+    }
+   ]
+  },
+  {
    "id": "inquiry",
    "name": "Let’s discuss what comes next.",
    "items": [
@@ -218,96 +411,111 @@
     },
     {
      "key": "inquiry.4",
-     "kind": "Form label",
-     "text": "Name"
+     "kind": "Button",
+     "text": "Discuss the financing need"
     },
     {
      "key": "inquiry.5",
-     "kind": "Form label",
-     "text": "Company"
+     "kind": "Note",
+     "text": "Five questions a financing provider asks first. Nothing is sent to a provider without your permission."
     },
     {
      "key": "inquiry.6",
-     "kind": "Form label",
-     "text": "Work email"
+     "kind": "Paragraph",
+     "text": "Discuss the financing need"
     },
     {
      "key": "inquiry.7",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Name"
     },
     {
      "key": "inquiry.8",
      "kind": "Form label",
-     "text": "Business type"
+     "text": "Company"
     },
     {
      "key": "inquiry.9",
      "kind": "Form label",
-     "text": "Annual revenue"
+     "text": "Work email"
     },
     {
      "key": "inquiry.10",
-     "kind": "Paragraph",
-     "text": "The five questions a financing provider asks first"
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "inquiry.11",
      "kind": "Form label",
-     "text": "1. What is the capital for?"
+     "text": "Business type"
     },
     {
      "key": "inquiry.12",
      "kind": "Form label",
-     "text": "Approximate amount"
+     "text": "Annual revenue"
     },
     {
      "key": "inquiry.13",
-     "kind": "Form label",
-     "text": "2. What cash flow supports repayment?"
+     "kind": "Paragraph",
+     "text": "The five questions a financing provider asks first"
     },
     {
      "key": "inquiry.14",
      "kind": "Form label",
-     "text": "3. What existing debt, receivables or assets affect the financing need? Optional"
+     "text": "1. What is the capital for?"
     },
     {
      "key": "inquiry.15",
      "kind": "Form label",
-     "text": "4. What financial information needs preparation or clarification?"
+     "text": "Approximate amount"
     },
     {
      "key": "inquiry.16",
      "kind": "Form label",
-     "text": "5. What does the transaction timeline require?"
+     "text": "2. What cash flow supports repayment?"
     },
     {
      "key": "inquiry.17",
+     "kind": "Form label",
+     "text": "3. What existing debt, receivables or assets affect the financing need? Optional"
+    },
+    {
+     "key": "inquiry.18",
+     "kind": "Form label",
+     "text": "4. What financial information needs preparation or clarification?"
+    },
+    {
+     "key": "inquiry.19",
+     "kind": "Form label",
+     "text": "5. What does the transaction timeline require?"
+    },
+    {
+     "key": "inquiry.20",
      "kind": "Text",
      "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
-     "key": "inquiry.18",
+     "key": "inquiry.21",
      "kind": "Button",
      "text": "Request a Capital Connections conversation"
     },
     {
-     "key": "inquiry.19",
+     "key": "inquiry.22",
      "kind": "Paragraph",
      "text": "<a>Book a call</a>"
     },
     {
-     "key": "inquiry.20",
+     "key": "inquiry.23",
      "kind": "Note",
      "text": "Capital Row introduces businesses to financing providers. We do not lend money or make credit decisions. Each provider sets its own eligibility, terms and approval. If a provider pays Capital Row a referral fee, we tell you before the introduction. Our financial preparation does not replace a lender’s underwriting, or a quality of earnings report where a lender requires one."
     },
     {
-     "key": "inquiry.21",
+     "key": "inquiry.24",
      "kind": "Note",
      "text": "Please do not send financial documents or confidential information here."
     },
     {
-     "key": "inquiry.22",
+     "key": "inquiry.25",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

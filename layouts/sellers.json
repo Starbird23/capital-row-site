@@ -247,9 +247,9 @@
    "section": "mast"
   },
   "sh.mast.32": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -282,16 +282,16 @@
    "section": "mast"
   },
   "sh.mast.37": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ndt",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "mast"
   },
   "sh.mast.38": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "",
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
    "tags": [],
    "section": "mast"
   },
@@ -317,13 +317,83 @@
    "section": "mast"
   },
   "sh.mast.42": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.43": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
    "tags": [],
    "section": "mast"
   },
-  "sh.mast.43": {
+  "sh.mast.44": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.45": {
+   "kind": "Text",
+   "tag": "div",
+   "cls": "ndh",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.46": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.47": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ndt",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.48": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.49": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.50": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.51": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.52": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "mast"
+  },
+  "sh.mast.53": {
    "kind": "Button",
    "tag": "a",
    "cls": "cta",
@@ -392,6 +462,62 @@
    "cls": "",
    "tags": [],
    "section": "hasph"
+  },
+  "pgnav.1": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.2": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.3": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.4": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.5": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.6": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.7": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "pgnav.8": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
   },
   "deaddeal.1": {
    "kind": "Paragraph",
@@ -627,104 +753,111 @@
    "section": "covers"
   },
   "covers.4": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "ghostcta",
+   "tags": [],
+   "section": "covers"
+  },
+  "covers.5": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
-  "covers.5": {
+  "covers.6": {
    "kind": "Text",
    "tag": "strong",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
-  "covers.6": {
+  "covers.7": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "covers"
-  },
-  "covers.7": {
-   "kind": "Text",
-   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.8": {
    "kind": "Text",
-   "tag": "strong",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.9": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Text",
+   "tag": "strong",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.10": {
-   "kind": "Text",
-   "tag": "b",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.11": {
    "kind": "Text",
-   "tag": "strong",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.12": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Text",
+   "tag": "strong",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.13": {
-   "kind": "Text",
-   "tag": "b",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.14": {
    "kind": "Text",
-   "tag": "strong",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
   "covers.15": {
+   "kind": "Text",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "covers"
+  },
+  "covers.16": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
-  "covers.16": {
+  "covers.17": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
-  "covers.17": {
+  "covers.18": {
    "kind": "Text",
    "tag": "strong",
    "cls": "",
    "tags": [],
    "section": "covers"
   },
-  "covers.18": {
+  "covers.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
@@ -790,7 +923,7 @@
   "how.9": {
    "kind": "Text",
    "tag": "b",
-   "cls": "",
+   "cls": "you",
    "tags": [],
    "section": "how"
   },
@@ -949,29 +1082,104 @@
    "section": "first"
   },
   "first.4": {
-   "kind": "Button",
-   "tag": "a",
-   "cls": "bigcta",
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
    "tags": [],
    "section": "first"
   },
   "first.5": {
-   "kind": "Note",
-   "tag": "p",
-   "cls": "ctamicro",
-   "tags": [
-    "<a href=\"../pre-market-assessment/index.html\">"
-   ],
-   "section": "first"
-  },
-  "first.6": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "first"
   },
+  "first.6": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
   "first.7": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.8": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.9": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.10": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.11": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.12": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.13": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.14": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.15": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.16": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta",
+   "tags": [],
+   "section": "first"
+  },
+  "first.17": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "first"
+  },
+  "first.18": {
    "kind": "Link",
    "tag": "a",
    "cls": "",
@@ -996,76 +1204,6 @@
    "kind": "Paragraph",
    "tag": "p",
    "cls": "sd cen",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.4": {
-   "kind": "Small label",
-   "tag": "span",
-   "cls": "lab",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.5": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.6": {
-   "kind": "Text",
-   "tag": "em",
-   "cls": "wft",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.7": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.8": {
-   "kind": "Text",
-   "tag": "em",
-   "cls": "wft",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.9": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.10": {
-   "kind": "Text",
-   "tag": "em",
-   "cls": "wft",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.11": {
-   "kind": "Text",
-   "tag": "i",
-   "cls": "",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.12": {
-   "kind": "Text",
-   "tag": "em",
-   "cls": "wft",
-   "tags": [],
-   "section": "sell"
-  },
-  "sell.13": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "whonote",
    "tags": [],
    "section": "sell"
   },
@@ -1157,7 +1295,9 @@
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
-   "tags": [],
+   "tags": [
+    "<a href=\"../insights/what-a-qoe-is/index.html\">"
+   ],
    "section": "faq"
   },
   "faq.5": {
@@ -1199,7 +1339,9 @@
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
-   "tags": [],
+   "tags": [
+    "<a href=\"../insights/what-a-qoe-is/index.html#ai\">"
+   ],
    "section": "faq"
   },
   "faq.11": {
@@ -1213,7 +1355,102 @@
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
+   "tags": [
+    "<a href=\"../insights/the-first-offer/index.html\">"
+   ],
+   "section": "faq"
+  },
+  "faq.13": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
    "tags": [],
+   "section": "faq"
+  },
+  "faq.14": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.15": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.16": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.17": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.19": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.20": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.21": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.22": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.23": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.24": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "faq"
+  },
+  "faq.25": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "src cen",
+   "tags": [
+    "<a href=\"../insights/index.html\">"
+   ],
    "section": "faq"
   },
   "broken.1": {
@@ -1497,16 +1734,16 @@
    "section": "footer"
   },
   "sh.footer.15": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "ckset",
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
    "tags": [],
    "section": "footer"
   },
   "sh.footer.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckset",
    "tags": [],
    "section": "footer"
   },
@@ -1518,6 +1755,13 @@
    "section": "footer"
   },
   "sh.footer.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "footer"
+  },
+  "sh.footer.19": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
