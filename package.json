@@ -7,5 +7,10 @@
     "build:local": "node tools/build.js layouts content assets dist",
     "verify": "node tools/verify.js dist dist-reference"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "parse5": "7.1.2"
+  }
 }
