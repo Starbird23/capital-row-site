@@ -4,6 +4,52 @@
  "seoDescription": "The Pre-Market Assessment: an indicative valuation range, the earnings behind it and a 90-day plan, for owners who want to grow now and keep their options open.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The first read"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Why it matters"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What you receive"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Who it is for"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "What it is not"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "The deeper step"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Know what your business is worth. Before you go to market.",
    "items": [
@@ -41,32 +87,6 @@
      "key": "inner.7",
      "kind": "Text",
      "text": "A 90-day plan"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The first read"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "What you receive"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "How it works"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "The deeper step"
     }
    ]
   },
@@ -197,67 +217,178 @@
     {
      "key": "request.25",
      "kind": "Form label",
-     "text": "Sector"
+     "text": "Kind of business"
     },
     {
      "key": "request.26",
      "kind": "Form label",
-     "text": "Kind of business"
+     "text": "Industry"
     },
     {
      "key": "request.27",
      "kind": "Form label",
-     "text": "Annual revenue"
+     "text": "Sector"
     },
     {
      "key": "request.28",
      "kind": "Form label",
-     "text": "When you plan to go to market"
+     "text": "Annual revenue"
     },
     {
      "key": "request.29",
      "kind": "Form label",
-     "text": "Who prepares your financial statements"
+     "text": "When you plan to go to market"
     },
     {
      "key": "request.30",
      "kind": "Form label",
-     "text": "What you want to work out before a buyer looks"
+     "text": "Who prepares your financial statements"
     },
     {
      "key": "request.31",
-     "kind": "Text",
-     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "kind": "Form label",
+     "text": "Has the business had a quality of earnings report?"
     },
     {
      "key": "request.32",
+     "kind": "Form label",
+     "text": "When"
+    },
+    {
+     "key": "request.33",
+     "kind": "Form label",
+     "text": "Who prepared it, optional"
+    },
+    {
+     "key": "request.34",
+     "kind": "Form label",
+     "text": "What you want to work out before a buyer looks"
+    },
+    {
+     "key": "request.35",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "request.36",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "request.37",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "request.38",
      "kind": "Text",
      "text": "Reserve my seat at the owner session on January 20 and send me the playbook."
     },
     {
-     "key": "request.33",
+     "key": "request.39",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "request.34",
+     "key": "request.40",
      "kind": "Paragraph",
      "text": "Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
-     "key": "request.35",
+     "key": "request.41",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "request.36",
+     "key": "request.42",
      "kind": "Note",
      "text": "Wednesday January 20, live online. Everyone who reserves a seat receives the playbook."
     },
     {
-     "key": "request.37",
+     "key": "request.43",
      "kind": "Note",
      "text": "This is non-attest preparation. For a quality of earnings report, see <a>Sell-Side QoE</a>."
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "name": "Most owners arrive at the sale without a read on their own numbers.",
+   "items": [
+    {
+     "key": "why.1",
+     "kind": "Small label",
+     "text": "The Pre-Market Assessment · Why it matters"
+    },
+    {
+     "key": "why.2",
+     "kind": "Section headline",
+     "text": "Most owners arrive at the sale <em>without a read on their own numbers.</em>"
+    },
+    {
+     "key": "why.3",
+     "kind": "Paragraph",
+     "text": "The valuation gap is the most cited reason a deal does not close, and it is a gap between what the owner expects and what the records support. The assessment reads the records first."
+    },
+    {
+     "key": "why.4",
+     "kind": "Text",
+     "text": "60–90%"
+    },
+    {
+     "key": "why.5",
+     "kind": "Text",
+     "text": "Sellers with under a year of exit planning"
+    },
+    {
+     "key": "why.6",
+     "kind": "Paragraph",
+     "text": "Across five deal-size segments in the lower middle market, the share of sellers who arrived at the sale with less than a year of planning, or none. IBBA and M&A Source, Market Pulse, Q2 2026."
+    },
+    {
+     "key": "why.7",
+     "kind": "Text",
+     "text": "49%"
+    },
+    {
+     "key": "why.8",
+     "kind": "Text",
+     "text": "Engagements that died on the valuation gap"
+    },
+    {
+     "key": "why.9",
+     "kind": "Paragraph",
+     "text": "Share of investment bankers’ engagements that did not close because of the gap between the owner’s price and the market’s. Pepperdine, 2024. Two thirds of those gaps were 11 to 30 percent."
+    },
+    {
+     "key": "why.10",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "why.11",
+     "kind": "Text",
+     "text": "Broken letters that ended on the earnings"
+    },
+    {
+     "key": "why.12",
+     "kind": "Paragraph",
+     "text": "Share of seventy-five collapsed letters of intent in 2025 where adjusted earnings were not what was presented. Double the share of two years earlier."
+    },
+    {
+     "key": "why.13",
+     "kind": "Text",
+     "text": "11–12"
+    },
+    {
+     "key": "why.14",
+     "kind": "Text",
+     "text": "Months from engagement to closing"
+    },
+    {
+     "key": "why.15",
+     "kind": "Paragraph",
+     "text": "In the lower middle market, in the second quarter of 2026. The assessment is the read that comes before the year."
     }
    ]
   },
@@ -419,6 +550,168 @@
    ]
   },
   {
+   "id": "who",
+   "name": "Owners who may sell in two years, or never.",
+   "items": [
+    {
+     "key": "who.1",
+     "kind": "Small label",
+     "text": "The Pre-Market Assessment · Who it is for"
+    },
+    {
+     "key": "who.2",
+     "kind": "Section headline",
+     "text": "Owners who may sell in two years, <em>or never.</em>"
+    },
+    {
+     "key": "who.3",
+     "kind": "Text",
+     "text": "Two years out"
+    },
+    {
+     "key": "who.4",
+     "kind": "Text",
+     "text": "A sale on the horizon"
+    },
+    {
+     "key": "who.5",
+     "kind": "Paragraph",
+     "text": "The range, the earnings behind it and a 90-day plan, with time to act on all three before a buyer sets the first number."
+    },
+    {
+     "key": "who.6",
+     "kind": "Text",
+     "text": "An offer in hand"
+    },
+    {
+     "key": "who.7",
+     "kind": "Text",
+     "text": "An unsolicited approach"
+    },
+    {
+     "key": "who.8",
+     "kind": "Paragraph",
+     "text": "A read on what the records support before the conversation goes further. The first number is rarely the last."
+    },
+    {
+     "key": "who.9",
+     "kind": "Text",
+     "text": "Not selling"
+    },
+    {
+     "key": "who.10",
+     "kind": "Text",
+     "text": "Growing, and keeping the options open"
+    },
+    {
+     "key": "who.11",
+     "kind": "Paragraph",
+     "text": "What the business is worth today, what moves the range, and what to work on. Useful whichever path you take."
+    },
+    {
+     "key": "who.12",
+     "kind": "Text",
+     "text": "A partner buyout"
+    },
+    {
+     "key": "who.13",
+     "kind": "Text",
+     "text": "Two owners, one number"
+    },
+    {
+     "key": "who.14",
+     "kind": "Paragraph",
+     "text": "An indicative range both sides can read, with the assumptions written down."
+    },
+    {
+     "key": "who.15",
+     "kind": "Text",
+     "text": "Financing ahead"
+    },
+    {
+     "key": "who.16",
+     "kind": "Text",
+     "text": "Before the lender asks"
+    },
+    {
+     "key": "who.17",
+     "kind": "Paragraph",
+     "text": "The earnings as a lender will read them, and the findings that move them, before the application."
+    },
+    {
+     "key": "who.18",
+     "kind": "Text",
+     "text": "Advisers and certified public accountants"
+    },
+    {
+     "key": "who.19",
+     "kind": "Text",
+     "text": "A client who needs the first read"
+    },
+    {
+     "key": "who.20",
+     "kind": "Paragraph",
+     "text": "Non-attest, with the engagement held by you. We take no fee of any kind on attested work."
+    }
+   ]
+  },
+  {
+   "id": "not",
+   "name": "Four things the assessment is not.",
+   "items": [
+    {
+     "key": "not.1",
+     "kind": "Small label",
+     "text": "The Pre-Market Assessment · What it is not"
+    },
+    {
+     "key": "not.2",
+     "kind": "Section headline",
+     "text": "Four things the assessment <em>is not.</em>"
+    },
+    {
+     "key": "not.3",
+     "kind": "Text",
+     "text": "An appraisal or a fairness opinion"
+    },
+    {
+     "key": "not.4",
+     "kind": "Text",
+     "text": "The range is an indicative estimate for your own planning. It is not prepared for a lender, a tax filing or a court."
+    },
+    {
+     "key": "not.5",
+     "kind": "Text",
+     "text": "A quality of earnings report"
+    },
+    {
+     "key": "not.6",
+     "kind": "Text",
+     "text": "The assessment reads your adjusted earnings as you report them. The preparation review traces them; the Sell-Side QoE is the report, from the independent CPA firm we partner with."
+    },
+    {
+     "key": "not.7",
+     "kind": "Text",
+     "text": "A listing agreement"
+    },
+    {
+     "key": "not.8",
+     "kind": "Text",
+     "text": "You do not need to have decided to sell, and nothing in the assessment commits you to anything."
+    },
+    {
+     "key": "not.9",
+     "kind": "Text",
+     "text": "A promise about price"
+    },
+    {
+     "key": "not.10",
+     "kind": "Text",
+     "text": "It shows what your numbers support and gives you the chance to fix what they do not, before a buyer prices it."
+    }
+   ]
+  },
+  {
    "id": "deeper",
    "name": "When you have a valuation, pressure-test the earnings behind it.",
    "items": [
@@ -446,6 +739,82 @@
      "key": "deeper.5",
      "kind": "Note",
      "text": "Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "The Pre-Market Assessment · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "What do I need to send?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "To start, nothing but a conversation. The assessment begins with an agreed information request: the financial statements as you keep them, the customer list by revenue, and the adjustments you would propose. No financial documents through the website."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "How long does it take?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Three working sessions and one written assessment, usually inside a month, with a 90-day plan at the end of it."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Is the valuation range a number I can quote?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "It is an indicative range for your own planning, with the assumptions written down. It is not an appraisal, and it is not a price."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "What happens after the 90 days?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "You decide. Sell now, sell later, keep building, or take the deeper step: the preparation review that traces every figure to source."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Who sees it?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "You. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    },
+    {
+     "key": "faq.13",
+     "kind": "Text",
+     "text": "What does it cost?"
+    },
+    {
+     "key": "faq.14",
+     "kind": "Paragraph",
+     "text": "Scope and fee are agreed in writing before any work begins, once we know what the business needs."
     }
    ]
   },

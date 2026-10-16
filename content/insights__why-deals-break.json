@@ -4,6 +4,37 @@
  "seoDescription": "Seventy-five signed letters of intent that collapsed in 2025, what ended them, how long each buyer type held exclusivity, and what the same findings cost after closing.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "What ended them"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The full list"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Days under exclusivity"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "After closing"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "A quarter broke on a finding outside the earnings work.",
    "items": [
@@ -36,52 +67,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "See what ended them"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Broken letters, 2025"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Days under exclusivity"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "Claims after closing"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "What ended them"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "The full list"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "Days under exclusivity"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "After closing"
-    },
-    {
-     "key": "pgnav.5",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

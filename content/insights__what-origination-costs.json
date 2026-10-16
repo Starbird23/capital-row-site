@@ -4,6 +4,27 @@
  "seoDescription": "What one buy-side team spends to get from a filtered list to a signed letter of intent, what a dead letter wastes, and a calculator that runs the figures on your own numbers without sending them anywhere.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The figures"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Your own figures"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Coverage is not a data problem. It is a time problem.",
    "items": [
@@ -36,42 +57,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "Run your own figures"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Published benchmarks"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Your own figures"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "Nothing sent anywhere"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The figures"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "Your own figures"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

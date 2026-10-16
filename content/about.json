@@ -4,62 +4,6 @@
  "seoDescription": "Capital Row is the M&A firm for software the working economy cannot switch off. Why the firm exists, how it works, and who you work with.",
  "sections": [
   {
-   "id": "inner",
-   "name": "The vertical, already known.",
-   "items": [
-    {
-     "key": "inner.1",
-     "kind": "Text",
-     "text": "<i>About Capital Row</i>"
-    },
-    {
-     "key": "inner.2",
-     "kind": "Page headline",
-     "text": "The vertical, <em>already known.</em>"
-    },
-    {
-     "key": "inner.3",
-     "kind": "Paragraph",
-     "text": "Capital Row is the M&A firm for software the working economy cannot switch off. We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent."
-    },
-    {
-     "key": "inner.4",
-     "kind": "Paragraph",
-     "text": "For owners, we show what a buyer will find in the numbers while there is still time to change it."
-    },
-    {
-     "key": "inner.5",
-     "kind": "Paragraph",
-     "text": "<i>Our vision</i>To help every business understand and substantiate the earnings behind its value."
-    },
-    {
-     "key": "inner.6",
-     "kind": "Button",
-     "text": "Discuss acquisition criteria"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Button",
-     "text": "Request a Pre-Market Assessment"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "10 industries"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "63 sectors"
-    },
-    {
-     "key": "inner.10",
-     "kind": "Text",
-     "text": "5 desks open"
-    }
-   ]
-  },
-  {
    "id": "pgnav",
    "name": "pgnav",
    "items": [
@@ -87,11 +31,57 @@
      "key": "pgnav.5",
      "kind": "Link",
      "text": "Join"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "The vertical, already known.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "<i>About Capital Row</i>"
     },
     {
-     "key": "pgnav.6",
-     "kind": "Link",
-     "text": "What we have learned"
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "The vertical, <em>already known.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "Capital Row is the M&A firm for software the working economy cannot switch off. We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "For owners, we show what a buyer will find in the numbers while there is still time to change it."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "10 industries"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "63 sectors"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "5 desks open"
     }
    ]
   },
@@ -1211,7 +1201,7 @@
     {
      "key": "join.1",
      "kind": "Text",
-     "text": "Join the network"
+     "text": "Join Capital Row"
     },
     {
      "key": "join.2",
@@ -1257,72 +1247,6 @@
      "key": "join.10",
      "kind": "Paragraph",
      "text": "Send a short note on the sector you cover. <a>Start the conversation</a>"
-    }
-   ]
-  },
-  {
-   "id": "reading",
-   "name": "What nearly 40 years of deal flow has taught us.",
-   "items": [
-    {
-     "key": "reading.1",
-     "kind": "Text",
-     "text": "Insights"
-    },
-    {
-     "key": "reading.2",
-     "kind": "Section headline",
-     "text": "What nearly 40 years of deal flow <em>has taught us.</em>"
-    },
-    {
-     "key": "reading.3",
-     "kind": "Paragraph",
-     "text": "American Healthcare Capital has been in this market since 1989. Capital Row adds the sector research."
-    },
-    {
-     "key": "reading.4",
-     "kind": "Text",
-     "text": "The market"
-    },
-    {
-     "key": "reading.5",
-     "kind": "Text",
-     "text": "The median firm sees fewer than one deal in five"
-    },
-    {
-     "key": "reading.6",
-     "kind": "Text",
-     "text": "Read"
-    },
-    {
-     "key": "reading.7",
-     "kind": "Text",
-     "text": "Why deals break"
-    },
-    {
-     "key": "reading.8",
-     "kind": "Text",
-     "text": "A quarter died on a finding outside the earnings work"
-    },
-    {
-     "key": "reading.9",
-     "kind": "Text",
-     "text": "Read"
-    },
-    {
-     "key": "reading.10",
-     "kind": "Text",
-     "text": "What origination costs"
-    },
-    {
-     "key": "reading.11",
-     "kind": "Text",
-     "text": "Volume isn’t the problem. Intelligence is"
-    },
-    {
-     "key": "reading.12",
-     "kind": "Text",
-     "text": "Read"
     }
    ]
   },

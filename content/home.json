@@ -1932,75 +1932,90 @@
     {
      "key": "talk.7",
      "kind": "Form label",
-     "text": "What vertical do you serve"
+     "text": "Industry"
     },
     {
      "key": "talk.8",
      "kind": "Form label",
-     "text": "Recurring revenue"
+     "text": "What vertical do you serve"
     },
     {
      "key": "talk.9",
      "kind": "Form label",
-     "text": "Name"
+     "text": "Recurring revenue"
     },
     {
      "key": "talk.10",
      "kind": "Form label",
-     "text": "Company"
+     "text": "Name"
     },
     {
      "key": "talk.11",
      "kind": "Form label",
-     "text": "Work email"
+     "text": "Company"
     },
     {
      "key": "talk.12",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Work email"
     },
     {
      "key": "talk.13",
-     "kind": "Text",
-     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "talk.14",
      "kind": "Text",
-     "text": "Keep my criteria on file and send me notes on my sector."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "talk.15",
      "kind": "Text",
-     "text": "Reserve my seat at the owner session on January 20 and send me the playbook."
+     "text": "Optional."
     },
     {
      "key": "talk.16",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "talk.17",
+     "kind": "Text",
+     "text": "Keep my criteria on file and send me notes on my sector."
+    },
+    {
+     "key": "talk.18",
+     "kind": "Text",
+     "text": "Reserve my seat at the owner session on January 20 and send me the playbook."
+    },
+    {
+     "key": "talk.19",
      "kind": "Form label",
      "text": "How did you hear about us"
     },
     {
-     "key": "talk.17",
+     "key": "talk.20",
      "kind": "Form label",
      "text": "What are you trying to work out"
     },
     {
-     "key": "talk.18",
+     "key": "talk.21",
      "kind": "Button",
      "text": "Send"
     },
     {
-     "key": "talk.19",
+     "key": "talk.22",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.20",
+     "key": "talk.23",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.21",
+     "key": "talk.24",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

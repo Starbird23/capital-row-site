@@ -4,6 +4,52 @@
  "seoDescription": "For owners of software businesses with a services arm: the discount on services sits in revenue multiples far more than in earnings multiples.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Two multiples"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What a buyer separates"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Read first"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it is read"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What to fix first"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Two businesses in one transaction. The software leads your price.",
    "items": [
@@ -153,6 +199,436 @@
      "key": "evidence.16",
      "kind": "Note",
      "text": "Benchmarkit, 583 companies, May 2025. A healthcare technology advisory firm’s market review, July 2026. SaaS Metrics Standards Board. The services-share thresholds are practitioner opinion, reported as such."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six lines a buyer recomputes from your own records.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Hybrid models · What a buyer reads first"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six lines a buyer recomputes <em>from your own records.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "Two businesses in one transaction. The split decides whether you are priced as software or as a services business with a product."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "The split"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "Software and services, apart"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "Revenue, cost of revenue and gross margin for each, by month. A buyer builds the split if you have not, and prices the whole company on the result."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "Services share"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "Of revenue and of margin"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "Practitioners put the threshold that changes how you are priced somewhere between 15 and 35 percent of revenue. Nobody publishes realized multiples by share. A buyer decides case by case, from your split."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "Implementation"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "One-time, or part of the subscription"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Implementation fees bundled into the subscription inflate ARR. Billed apart, they are services. A buyer restates them to the standard."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "Subscription margin"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "After hosting and support"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "Median subscription gross margin in the published survey is 81 percent against 30 percent on services. A buyer reads yours after allocating the shared costs."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "Retention"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Of the software, not the account"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "A customer who keeps the services and drops the software is churn. A buyer rebuilds retention on the software line alone."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "Dependency"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Which business sells the other"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "If the services team sells the software, the buyer prices the services as a cost of sale. If the software sells the services, the services are a margin a buyer may not keep."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "As owners keep it. As a buyer reads it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Hybrid models · How the numbers are read"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "As owners keep it. <em>As a buyer reads it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Area"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "As most owners keep it"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "As a buyer reads it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "Revenue"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "One revenue line, sometimes two."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "Subscription, implementation, managed services and project work, each recognized under its own policy and reported apart."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "Cost of revenue"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "Hosting and salaries, combined."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Hosting, support and third-party software against the subscription; delivery labor against the services; shared costs allocated by a written rule."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "ARR"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "Everything that recurs."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Subscription only, under the standard. Recurring services reported as recurring services, not as ARR."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "Retention"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "Accounts that stayed."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "Software retention by cohort, with services-only accounts counted as lost software customers."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "Headcount"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "One team."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Engineering, implementation, support and delivery, each with its cost, so a buyer can see which business each person belongs to."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "Working capital"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "The bank balance."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "Deferred subscription revenue, unbilled services, receivables and payables on a monthly trend."
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "name": "Five things worth fixing before a buyer prices them.",
+   "items": [
+    {
+     "key": "fix.1",
+     "kind": "Small label",
+     "text": "Hybrid models · What to fix first"
+    },
+    {
+     "key": "fix.2",
+     "kind": "Section headline",
+     "text": "Five things worth fixing <em>before a buyer prices them.</em>"
+    },
+    {
+     "key": "fix.3",
+     "kind": "Paragraph",
+     "text": "In order of what moves the price, from the records the review reads."
+    },
+    {
+     "key": "fix.4",
+     "kind": "Text",
+     "text": "Build the split"
+    },
+    {
+     "key": "fix.5",
+     "kind": "Text",
+     "text": "Revenue and gross margin by line, by month, for the trailing twenty-four months, with the allocation rule written down. The split is the price."
+    },
+    {
+     "key": "fix.6",
+     "kind": "Text",
+     "text": "Restate ARR to the standard"
+    },
+    {
+     "key": "fix.7",
+     "kind": "Text",
+     "text": "Subscription only. Move implementation and recurring services to their own lines before a buyer does it less kindly."
+    },
+    {
+     "key": "fix.8",
+     "kind": "Text",
+     "text": "Rebuild software retention"
+    },
+    {
+     "key": "fix.9",
+     "kind": "Text",
+     "text": "On the subscription line alone, by cohort. Decide what the number is before a buyer decides it."
+    },
+    {
+     "key": "fix.10",
+     "kind": "Text",
+     "text": "Price the services honestly"
+    },
+    {
+     "key": "fix.11",
+     "kind": "Text",
+     "text": "If the services run at a 30 percent margin, show it. A buyer who finds a 30 percent margin reported as 77 percent reopens every other number."
+    },
+    {
+     "key": "fix.12",
+     "kind": "Text",
+     "text": "Document every adjustment"
+    },
+    {
+     "key": "fix.13",
+     "kind": "Text",
+     "text": "Owner compensation, personal expenses, one-time costs, each with the document behind it. Undocumented add-backs are removed, not argued."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Three steps, and you decide what happens after each one.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Hybrid models · How it works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Three steps, and <em>you decide</em> what happens after each one."
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "A conversation"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "About the business, its market and your timing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "The review"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "Starts with an agreed information request under a signed NDA. Scope and fee are set in writing before any work begins."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "The findings"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own adviser."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "You"
+    },
+    {
+     "key": "how.10",
+     "kind": "Text",
+     "text": "You decide"
+    },
+    {
+     "key": "how.11",
+     "kind": "Paragraph",
+     "text": "Sell now, sell later or keep building. Nothing reaches a buyer without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Hybrid models · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Should I shrink the services before going to market?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "Not necessarily. Profitable services with their own margin are a position you can take. Unprofitable services bundled into software revenue are a finding. The review shows which you have."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "At what services share am I priced as a services business?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Nobody publishes a threshold with data behind it. The practitioner range is 15 to 35 percent of revenue. The split, the margins and the retention on the software line decide it case by case."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Does implementation revenue count as recurring?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Not under the standard, even where every customer buys it. A buyer restates it to services."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Will the review raise my price?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "We will not promise that. It shows what your numbers support and gives you the chance to fix what they do not before a buyer prices it."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Who sees the findings?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "You. Nothing reaches a buyer, an adviser or anyone else without your written permission."
     }
    ]
   },

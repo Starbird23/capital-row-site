@@ -4,6 +4,27 @@
  "seoDescription": "The findings that recur in founder-owned software and services companies, what each one does to price and terms, the published figures on how often they end or reprice a deal, and how to find them first.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The findings"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The numbers"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "What a buyer’s diligence finds, and what it does to the price.",
    "items": [
@@ -36,42 +57,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "The findings"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "What recurs"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "What it does to the price"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "How to find it first"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The findings"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "The numbers"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

@@ -4,6 +4,22 @@
  "seoDescription": "Two revenue lines buyers now ask about in vertical software. For each, four things Capital Row traces in the records before a letter of intent: paid adoption, retention, cost to deliver, and whether the activity reconciles to revenue.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The four things"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "In the records"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "What we look for when a software company adds AI features or embedd...",
    "items": [
@@ -36,37 +52,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "The four things we trace"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Paid adoption"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Reconciled revenue"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "Cost to deliver"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The four things"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "In the records"
     }
    ]
   },

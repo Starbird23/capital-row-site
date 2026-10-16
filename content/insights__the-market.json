@@ -4,6 +4,27 @@
  "seoDescription": "2,784 SaaS M&A transactions in twelve months, 54 percent of them vertical software, and the median private equity firm saw 18.4 percent of the deals inside its own stated market. What coverage means, and what it costs to raise it.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The figures"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The coverage benchmark"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "The market is busy. Most of it goes unseen.",
    "items": [
@@ -36,42 +57,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "See the coverage benchmark"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Transactions, twelve months"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Vertical software share"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "Coverage, by firm"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The figures"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "The coverage benchmark"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

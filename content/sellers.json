@@ -4,6 +4,52 @@
  "seoDescription": "For owners of vertical software and technology-enabled services businesses. Find the earnings questions a buyer’s diligence will raise, traced to source documents, before you go to market.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Find it first"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Why deals break"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Three kinds of business"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Pre-Market Assessment"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Advisers"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "hasph",
    "name": "You have a valuation. Now pressure-test the earnings behind it.",
    "items": [
@@ -51,52 +97,6 @@
      "key": "hasph.9",
      "kind": "Link",
      "text": "Know your earnings before you negotiate your price"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "Find it first"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "Why deals break"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "The review"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "How it works"
-    },
-    {
-     "key": "pgnav.5",
-     "kind": "Link",
-     "text": "Three kinds of business"
-    },
-    {
-     "key": "pgnav.6",
-     "kind": "Link",
-     "text": "Pre-Market Assessment"
-    },
-    {
-     "key": "pgnav.7",
-     "kind": "Link",
-     "text": "Advisers"
-    },
-    {
-     "key": "pgnav.8",
-     "kind": "Link",
-     "text": "Questions"
     }
    ]
   },
@@ -888,70 +888,85 @@
     {
      "key": "talk.8",
      "kind": "Form label",
-     "text": "What vertical do you serve"
+     "text": "Industry"
     },
     {
      "key": "talk.9",
      "kind": "Form label",
-     "text": "Recurring revenue"
+     "text": "What vertical do you serve"
     },
     {
      "key": "talk.10",
      "kind": "Form label",
-     "text": "Name"
+     "text": "Recurring revenue"
     },
     {
      "key": "talk.11",
      "kind": "Form label",
-     "text": "Company"
+     "text": "Name"
     },
     {
      "key": "talk.12",
      "kind": "Form label",
-     "text": "Work email"
+     "text": "Company"
     },
     {
      "key": "talk.13",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Work email"
     },
     {
      "key": "talk.14",
-     "kind": "Text",
-     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "talk.15",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "talk.16",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "talk.17",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "talk.18",
      "kind": "Form label",
      "text": "How did you hear about us"
     },
     {
-     "key": "talk.16",
+     "key": "talk.19",
      "kind": "Form label",
      "text": "What are you trying to work out"
     },
     {
-     "key": "talk.17",
+     "key": "talk.20",
      "kind": "Button",
      "text": "Continue by email"
     },
     {
-     "key": "talk.18",
+     "key": "talk.21",
      "kind": "Paragraph",
      "text": "This opens a draft in your email application. Review it and press send."
     },
     {
-     "key": "talk.19",
+     "key": "talk.22",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.20",
+     "key": "talk.23",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.21",
+     "key": "talk.24",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

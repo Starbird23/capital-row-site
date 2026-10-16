@@ -4,6 +4,22 @@
  "seoDescription": "The SBA 7(a) rules for buying a business under SOP 50 10 8.1: the $5 million limit, the 10 percent equity injection, the seller note on full standby, the independent valuation, the quality of earnings at $3 million, the fees, the ownership rule, and what a seller can and cannot agree to.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The rules"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026.",
    "items": [
@@ -36,37 +52,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "The rules"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "SOP 50 10 8.1"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Effective October 1, 2026"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "Sourced line by line"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The rules"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

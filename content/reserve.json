@@ -100,35 +100,50 @@
     {
      "key": "reserve.19",
      "kind": "Form label",
-     "text": "Sector"
+     "text": "Industry"
     },
     {
      "key": "reserve.20",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Sector"
     },
     {
      "key": "reserve.21",
      "kind": "Form label",
-     "text": "One question you want answered, optional"
+     "text": "Mobile number, optional"
     },
     {
      "key": "reserve.22",
-     "kind": "Text",
-     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "kind": "Form label",
+     "text": "One question you want answered, optional"
     },
     {
      "key": "reserve.23",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "reserve.24",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "reserve.25",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "reserve.26",
      "kind": "Button",
      "text": "Reserve your seat"
     },
     {
-     "key": "reserve.24",
+     "key": "reserve.27",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "reserve.25",
+     "key": "reserve.28",
      "kind": "Note",
      "text": "Your numbers traced to source documents, before a buyer looks."
     }

@@ -4,6 +4,27 @@
  "seoDescription": "A software borrower’s revenue is its customers’ credit. Where the risk in software lending has moved, what the published record shows, and the evidence a borrower can assemble before the credit committee asks.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The exposure"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Where the risk has moved"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What we can discuss"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "You are underwriting the paper, not buying the company.",
    "items": [
@@ -35,48 +56,12 @@
     {
      "key": "inner.6",
      "kind": "Text",
-     "text": "The borrower’s customers"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Evidence traced to source"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Separately scoped"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
      "text": "Financing providers:"
     },
     {
-     "key": "inner.10",
+     "key": "inner.7",
      "kind": "Link",
      "text": "join the Capital Connections panel"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The exposure"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "Where the risk has moved"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "What we can discuss"
     }
    ]
   },

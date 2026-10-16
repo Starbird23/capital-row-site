@@ -4,6 +4,47 @@
  "seoDescription": "For consolidators and permanent capital buying vertical software: the end market and the customer base, read before the letter of intent.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Where the deals are"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What you carry"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What the desk does"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The evidence"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What the work covers"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Buy to hold means you cannot sell the mistake.",
    "items": [
@@ -158,6 +199,360 @@
      "key": "evidence.16",
      "kind": "Note",
      "text": "SaaS Capital, annual survey of more than 1,000 private B2B SaaS companies, April 24, 2026. ChartMogul, billing-platform data, December 10, 2025. The two retention figures measure different populations and are shown side by side, not averaged. PitchBook LCD, September 2, 2026. A lower-middle-market deal platform’s published study of broken letters of intent, January 27, 2026: seventy-five broken letters across eight buyer types and eight industries, with 2023 comparisons from the same series. The percentages are separate reported categories and are not summed here."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six things the desk does before a name reaches you.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Permanent capital · What the desk does for you"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six things the desk does <em>before a name reaches you.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "A permanent holder cannot sell the mistake. The desk reads what you will hold before you hold it."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "The sector"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "Mapped before anyone sells"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "The companies in it, the buyers active in it, and where its deals break, read before any owner has decided to sell."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "The end market"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "Read for the hold"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "With no exit, the customers’ own industry is the whole case. The desk reads its condition and its direction, not the quarter."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "The owners"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "Known ahead of a process"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Relationships built before a banker is hired, so a holder with a long horizon is already known when the owner decides."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "The evidence"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "Traced to source"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, every adjustment marked supported or unsupported, before the letter is priced."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "The customers"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Behind the retention figure"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "A retention rate is a median. The desk reads the customers behind it, their contracts and their own markets."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "The fit"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Scored against your criteria"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "Each business scored and ranked against criteria and weights you approved. You decide which to pursue."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "What is on the record before you price it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Permanent capital · The evidence before the letter"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "What is on the record <em>before you price it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Question"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "How it is usually answered"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "How the desk answers it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "Who are the customers?"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "A top-ten list from the deck."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "Every customer, by revenue, contract term, renewal date and the condition of its own industry."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "Does the retention hold?"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "A figure from the CRM."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Gross and net retention by cohort, rebuilt from invoices and bank deposits."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "What does the business earn?"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "Adjusted earnings, as presented."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Every adjustment marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "Can it run without the owner?"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "A conversation at the management meeting."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "Who decides, who sells, who delivers, from the records and the procedures, before the meeting."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "What transfers?"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "Counsel’s review, in week six."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Every contract, license and permit with a consent requirement, listed before the letter."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "What ended the last deal in this sector?"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "Nobody asks."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "The Dead Deal Notes, coded by sector, stage and finding."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Each engagement starts with your criteria and a clearly defined sec...",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Permanent capital · How an engagement works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Each engagement starts with your criteria and <em>a clearly defined sector.</em>"
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "Your acquisition criteria and a clearly defined sector. Criteria on file is non-exclusive, at no fee. A retained search is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector, scored and ranked against criteria and weights you approved. You decide which to pursue."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "how.10",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Permanent capital · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Why is the end market the whole case for a permanent holder?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "Because there is no exit buyer to run the end-market work for you. A fund sells before the customers’ industry turns; a holder carries it. The desk reads the customers’ market before the opportunity is priced."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "What does criteria on file cost?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Nothing. Criteria on file is non-exclusive, at no fee, and confirmed with you each quarter. A retained search in one sector, exclusive to you in that sector, is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Do you represent the seller as well?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Never on the same transaction. Capital Row acts for one side, under a scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "How does a company reach me?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "Only with its owner’s permission, and only when it fits criteria you approved. You hear about the ones that fit, with the evidence attached."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "What is the first conversation?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "Your criteria and the sectors that match them. One business day, read by a person."
     }
    ]
   },

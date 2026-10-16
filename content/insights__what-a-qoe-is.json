@@ -4,6 +4,32 @@
  "seoDescription": "The definition of a quality of earnings report, the AICPA standard it is performed under, how it differs from an audit, review and compilation, the SBA rule that requires one at $3 million, why software alone cannot sign one, and what it costs in time.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The definition"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The lender’s rule"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Can software do it"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The three steps"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "What a quality of earnings report is, and why a lender will not tak...",
    "items": [
@@ -36,47 +62,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "Start with the definition"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "The definition"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "The standard"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "The lender’s rule"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The definition"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "The lender’s rule"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "Can software do it"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "The three steps"
     }
    ]
   },

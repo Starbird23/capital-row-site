@@ -4,6 +4,42 @@
  "seoDescription": "For buyers of vertical software: businesses that fit your acquisition strategy, relationships with owners, and each opportunity assessed before a letter of intent.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Routes"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Coverage"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Origination cost"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Why deals break"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "New revenue lines"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "How it works"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Volume isn’t the problem. Intelligence is.",
    "items": [
@@ -61,42 +97,6 @@
      "key": "inner.11",
      "kind": "Link",
      "text": "Discuss acquisition financing"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "Routes"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "Coverage"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "Origination cost"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "Why deals break"
-    },
-    {
-     "key": "pgnav.5",
-     "kind": "Link",
-     "text": "New revenue lines"
-    },
-    {
-     "key": "pgnav.6",
-     "kind": "Link",
-     "text": "How it works"
     }
    ]
   },

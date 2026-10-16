@@ -4,6 +4,37 @@
  "seoDescription": "Ten signed deals that died or were repriced, told from court opinions, regulatory filings and company announcements, with Capital Row’s read on what would have surfaced each problem sooner.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The tally"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The notes"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "The lower middle market"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Add yours"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Your deal"
+    }
+   ]
+  },
+  {
    "id": "notes-top",
    "name": "Dead Deal Notes.Why signed deals die, from the public record.",
    "items": [
@@ -40,43 +71,12 @@
     {
      "key": "notestop.7",
      "kind": "Text",
-     "text": "Reported to Capital Row"
+     "text": "Reported"
     },
     {
      "key": "notestop.8",
      "kind": "Paragraph",
      "text": "Reported anonymously or confidentially through the dead deal report, and published only with permission, with every identifying detail removed. None has been published yet."
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The tally"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "The notes"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "The lower middle market"
-    },
-    {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "Add yours"
-    },
-    {
-     "key": "pgnav.5",
-     "kind": "Link",
-     "text": "Your deal"
     }
    ]
   },

@@ -4,6 +4,47 @@
  "seoDescription": "For searchers and independent sponsors: the evidence on one target, before a letter of intent is priced.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Where the deals are"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What you carry"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What the desk does"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The evidence"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What the work covers"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "One transaction, and nothing to average it against.",
    "items": [
@@ -158,6 +199,360 @@
      "key": "evidence.16",
      "kind": "Note",
      "text": "SBA Information Notice 5000-880695, Issuance of SOP 50 10 8.1, effective October 1, 2026; the procedure binds SBA lenders and does not apply directly to a privately financed transaction. Yale School of Management, October 27, 2025. Stanford Graduate School of Business, 2026 Search Fund Study. A lower-middle-market deal platform’s published study of seventy-five broken letters of intent, January 27, 2026; exclusivity figures are averages by buyer type."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six things the desk does before a name reaches you.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Independent sponsors · What the desk does for you"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six things the desk does <em>before a name reaches you.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "One company, and nothing to average it against. The desk puts the evidence on the record before the letter is priced."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "The sector"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "Mapped before you commit"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "The companies in it, the buyers active in it, and where its deals break, so one transaction is chosen from the whole sector rather than from what arrived."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "The evidence"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "Before the letter is priced"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "One company, and nothing to average it against. Revenue reconciled to bank deposits and every adjustment marked, before exclusivity, not during it."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "The owners"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "Known ahead of a process"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Relationships built before a banker is hired, so a sponsor with a specific thesis is already known when the owner decides."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "The equity story"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "Built on the record"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "The evidence a sponsor raises equity on, assembled before the raise, so the capital arrives with the letter rather than after it."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "The clock"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Read from the record"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "Independent sponsors held broken letters longest in the published study, 129 days on average. The desk shortens the part of that time spent finding out."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "The fit"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Scored against your criteria"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "Each business scored and ranked against criteria and weights you approved. You decide which to pursue."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "What is on the record before you price it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Independent sponsors · The evidence before the letter"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "What is on the record <em>before you price it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Question"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "How it is usually answered"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "How the desk answers it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "What does the business earn?"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "Adjusted earnings, as presented."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "Every adjustment marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "Does the retention hold?"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "A figure from the CRM."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Gross and net retention by cohort, rebuilt from invoices and bank deposits."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "Can it run without the owner?"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "A conversation at the management meeting."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Who decides, who sells, who delivers, from the records and the procedures, before the meeting."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "Will the lender accept the earnings?"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "The lender’s own report, after the letter."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "The earnings traced to source before the letter, so the lender’s report finds what you already knew."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "What transfers?"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "Counsel’s review, in week six."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Every contract, license and permit with a consent requirement, listed before the letter."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "What ended the last deal in this sector?"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "Nobody asks."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "The Dead Deal Notes, coded by sector, stage and finding."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Each engagement starts with your criteria and a clearly defined sec...",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Independent sponsors · How an engagement works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Each engagement starts with your criteria and <em>a clearly defined sector.</em>"
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "Your acquisition criteria and a clearly defined sector. Criteria on file is non-exclusive, at no fee. A retained search is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector, scored and ranked against criteria and weights you approved. You decide which to pursue."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "how.10",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Independent sponsors · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Why does one transaction change the evidence standard?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "A fund averages its mistakes across a portfolio. A sponsor has one company. The findings that a fund absorbs are the findings that end a sponsor’s deal, so they have to be on the record before the letter is priced."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "What does criteria on file cost?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Nothing. Criteria on file is non-exclusive, at no fee, and confirmed with you each quarter. A retained search in one sector, exclusive to you in that sector, is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Can the desk help with the financing?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Capital Connections introduces financing needs it has already read to financing providers. The provider handles its application, underwriting and credit decision. The SBA acquisition loan rules are on the Insights page."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Do you represent the seller as well?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "Never on the same transaction. Capital Row acts for one side, under a scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "What is the first conversation?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "What you are looking at, and where you are in the process. One business day, read by a person."
     }
    ]
   },

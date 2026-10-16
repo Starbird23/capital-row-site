@@ -80,7 +80,7 @@
     {
      "key": "report.15",
      "kind": "Note",
-     "text": "About two minutes. Only the main reason and an email address are required."
+     "text": "About two minutes. Only what went wrong and an email address are required. Confidential, and never shared without your express written permission."
     },
     {
      "key": "report.16",
@@ -89,8 +89,8 @@
     },
     {
      "key": "report.17",
-     "kind": "Form label",
-     "text": "Sector"
+     "kind": "Paragraph",
+     "text": "<b>Confidential.</b> Nothing you write here is shared or published without your express written permission. No names are requested, and a personal email address is fine."
     },
     {
      "key": "report.18",
@@ -100,130 +100,225 @@
     {
      "key": "report.19",
      "kind": "Form label",
-     "text": "Annual revenue at the time"
+     "text": "Industry"
     },
     {
      "key": "report.20",
      "kind": "Form label",
-     "text": "Adjusted earnings at the time"
+     "text": "Sector"
     },
     {
      "key": "report.21",
      "kind": "Form label",
-     "text": "Who the buyer was"
+     "text": "Annual revenue at the time"
     },
     {
      "key": "report.22",
      "kind": "Form label",
-     "text": "Who advised you on the sale"
+     "text": "Adjusted earnings at the time"
     },
     {
      "key": "report.23",
      "kind": "Form label",
-     "text": "When it happened"
+     "text": "Who the buyer was"
     },
     {
      "key": "report.24",
      "kind": "Form label",
-     "text": "How far it got"
+     "text": "Who advised you on the sale"
     },
     {
      "key": "report.25",
      "kind": "Form label",
-     "text": "Days under exclusivity, if any"
+     "text": "When it happened"
     },
     {
      "key": "report.26",
      "kind": "Form label",
-     "text": "What went wrong, the main reason"
+     "text": "How far it got"
     },
     {
      "key": "report.27",
      "kind": "Form label",
-     "text": "Was the price or structure changed before it ended"
+     "text": "Days under exclusivity, if any"
     },
     {
      "key": "report.28",
      "kind": "Form label",
-     "text": "Where it stands today"
+     "text": "What went wrong. Choose all that apply."
     },
     {
      "key": "report.29",
-     "kind": "Form label",
-     "text": "What had been prepared before going to market"
+     "kind": "Text",
+     "text": "The earnings were not what was presented"
     },
     {
      "key": "report.30",
-     "kind": "Form label",
-     "text": "Entity type"
+     "kind": "Text",
+     "text": "Customer or payer concentration"
     },
     {
      "key": "report.31",
-     "kind": "Form label",
-     "text": "Real estate"
+     "kind": "Text",
+     "text": "A license, contract or compliance finding"
     },
     {
      "key": "report.32",
-     "kind": "Form label",
-     "text": "Contracts needing consent when ownership changes"
+     "kind": "Text",
+     "text": "Dependence on the owner or a key person"
     },
     {
      "key": "report.33",
-     "kind": "Form label",
-     "text": "What you would do differently. Please leave out names."
+     "kind": "Text",
+     "text": "Records or systems could not support the numbers"
     },
     {
      "key": "report.34",
-     "kind": "Form label",
-     "text": "Name, optional"
+     "kind": "Text",
+     "text": "Financing"
     },
     {
      "key": "report.35",
-     "kind": "Form label",
-     "text": "Email. A personal address is fine."
+     "kind": "Text",
+     "text": "Price expectations"
     },
     {
      "key": "report.36",
-     "kind": "Form label",
-     "text": "Mobile number, optional"
+     "kind": "Text",
+     "text": "Cultural mismatch or fit"
     },
     {
      "key": "report.37",
      "kind": "Text",
-     "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "The buyer’s own reasons"
     },
     {
      "key": "report.38",
      "kind": "Text",
-     "text": "You may contact me about this report, and to set up my debrief."
+     "text": "I walked away; the business was not ready"
     },
     {
      "key": "report.39",
      "kind": "Text",
-     "text": "You may share what I describe here anonymously in Capital Row’s published work, with every identifying detail removed."
+     "text": "Other"
     },
     {
      "key": "report.40",
+     "kind": "Form label",
+     "text": "What was not ready?"
+    },
+    {
+     "key": "report.41",
+     "kind": "Form label",
+     "text": "Tell us what happened. Please leave out names."
+    },
+    {
+     "key": "report.42",
+     "kind": "Form label",
+     "text": "Was the price or structure changed before it ended"
+    },
+    {
+     "key": "report.43",
+     "kind": "Form label",
+     "text": "Where it stands today"
+    },
+    {
+     "key": "report.44",
+     "kind": "Form label",
+     "text": "What had been prepared before going to market"
+    },
+    {
+     "key": "report.45",
+     "kind": "Form label",
+     "text": "Was there a quality of earnings report before the deal?"
+    },
+    {
+     "key": "report.46",
+     "kind": "Form label",
+     "text": "When, and who prepared it, optional"
+    },
+    {
+     "key": "report.47",
+     "kind": "Form label",
+     "text": "Entity type"
+    },
+    {
+     "key": "report.48",
+     "kind": "Form label",
+     "text": "Real estate"
+    },
+    {
+     "key": "report.49",
+     "kind": "Form label",
+     "text": "Contracts needing consent when ownership changes"
+    },
+    {
+     "key": "report.50",
+     "kind": "Form label",
+     "text": "What you would do differently. Please leave out names."
+    },
+    {
+     "key": "report.51",
+     "kind": "Form label",
+     "text": "Name, optional"
+    },
+    {
+     "key": "report.52",
+     "kind": "Form label",
+     "text": "Email. A personal address is fine."
+    },
+    {
+     "key": "report.53",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "report.54",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "report.55",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "report.56",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "report.57",
+     "kind": "Text",
+     "text": "You may contact me about this report, and to set up my debrief."
+    },
+    {
+     "key": "report.58",
+     "kind": "Text",
+     "text": "You may share what I describe here anonymously in Capital Row’s published work, with every identifying detail removed."
+    },
+    {
+     "key": "report.59",
      "kind": "Button",
      "text": "Send the report"
     },
     {
-     "key": "report.41",
+     "key": "report.60",
      "kind": "Paragraph",
      "text": "Your report goes directly to Capital Row and is kept confidential. A name is optional, and a personal email address is fine."
     },
     {
-     "key": "report.42",
+     "key": "report.61",
      "kind": "Paragraph",
      "text": "Thank you. If you ticked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
     },
     {
-     "key": "report.43",
+     "key": "report.62",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "report.44",
+     "key": "report.63",
      "kind": "Note",
      "text": "Wednesday January 20. What a buyer will find in your 2026 numbers, and how to find it first."
     }

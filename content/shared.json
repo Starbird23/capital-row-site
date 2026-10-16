@@ -250,12 +250,12 @@
    {
     "key": "sh.mast.45",
     "kind": "Text",
-    "text": "All of it"
+    "text": "Overview"
    },
    {
     "key": "sh.mast.46",
     "kind": "Link",
-    "text": "The Insights page"
+    "text": "All insights"
    },
    {
     "key": "sh.mast.47",
@@ -280,7 +280,7 @@
    {
     "key": "sh.mast.51",
     "kind": "Link",
-    "text": "Join the network"
+    "text": "Join Capital Row"
    },
    {
     "key": "sh.mast.52",
@@ -540,90 +540,100 @@
    {
     "key": "sh.valuation.27",
     "kind": "Text",
-    "text": "I agree to receive marketing text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
    },
    {
     "key": "sh.valuation.28",
+    "kind": "Text",
+    "text": "Optional."
+   },
+   {
+    "key": "sh.valuation.29",
+    "kind": "Text",
+    "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+   },
+   {
+    "key": "sh.valuation.30",
     "kind": "Paragraph",
     "text": "When you press Calculate, your answers and details come to Capital Row, so that we can follow up. <a>Privacy Policy</a>."
    },
    {
-    "key": "sh.valuation.29",
+    "key": "sh.valuation.31",
     "kind": "Button",
     "text": "Previous"
    },
    {
-    "key": "sh.valuation.30",
+    "key": "sh.valuation.32",
     "kind": "Button",
     "text": "Calculate"
    },
    {
-    "key": "sh.valuation.31",
+    "key": "sh.valuation.33",
     "kind": "Small label",
     "text": "What a buyer will look at"
    },
    {
-    "key": "sh.valuation.32",
+    "key": "sh.valuation.34",
     "kind": "Small label",
     "text": "What moves the range"
    },
    {
-    "key": "sh.valuation.33",
+    "key": "sh.valuation.35",
     "kind": "Paragraph",
     "text": "A buyer prices the earnings it can support with documents. Every added-back item you cannot document comes off your earnings before any multiple is applied. A Pre-Market Assessment traces your numbers to source documents before a buyer does."
    },
    {
-    "key": "sh.valuation.34",
+    "key": "sh.valuation.36",
     "kind": "Button",
     "text": "Book a consultation"
    },
    {
-    "key": "sh.valuation.35",
+    "key": "sh.valuation.37",
     "kind": "Paragraph",
     "text": "Twenty minutes, confidential, on a Pre-Market Assessment for your business. <a>Request a Pre-Market Assessment</a>"
    },
    {
-    "key": "sh.valuation.36",
+    "key": "sh.valuation.38",
     "kind": "Text",
     "text": "Your earnings or your revenue"
    },
    {
-    "key": "sh.valuation.37",
+    "key": "sh.valuation.39",
     "kind": "Paragraph",
     "text": "Services businesses are priced on adjusted earnings. Software is usually priced on revenue."
    },
    {
-    "key": "sh.valuation.38",
+    "key": "sh.valuation.40",
     "kind": "Text",
     "text": "Published medians"
    },
    {
-    "key": "sh.valuation.39",
+    "key": "sh.valuation.41",
     "kind": "Paragraph",
     "text": "Three named, dated figures for your kind of business, from Pepperdine, IBBA and M&A Source, and Software Equity Group."
    },
    {
-    "key": "sh.valuation.40",
+    "key": "sh.valuation.42",
     "kind": "Text",
     "text": "Your range"
    },
    {
-    "key": "sh.valuation.41",
+    "key": "sh.valuation.43",
     "kind": "Paragraph",
     "text": "From the lowest reading to the highest. A buyer sets the price after diligence of your records."
    },
    {
-    "key": "sh.valuation.42",
+    "key": "sh.valuation.44",
     "kind": "Button",
     "text": "Change my answers"
    },
    {
-    "key": "sh.valuation.43",
+    "key": "sh.valuation.45",
     "kind": "Note",
     "text": "The range is an educational estimate from your own answers and published medians. It is not a valuation, an appraisal or an offer, and it is not financial, tax or legal advice. It does not account for the specific factors that can change what a buyer pays. For an accurate view, speak with a qualified adviser."
    },
    {
-    "key": "sh.valuation.44",
+    "key": "sh.valuation.46",
     "kind": "Note",
     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report, July 2, 2026: investment banker survey, median multiples of recast EBITDA by size band, business services. IBBA and M&A Source, Market Pulse, Q2 2026: median multiple at $5M to $50M of enterprise value. Software Equity Group, Q2 2026 SaaS M&A and Public Market Report, August 5, 2026: enterprise value to trailing revenue, the median and the average SaaS transaction and the listed SaaS index median. Each figure is for its own size band and period, not a figure for your business."
    }

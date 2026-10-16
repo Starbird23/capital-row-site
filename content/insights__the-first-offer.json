@@ -4,6 +4,22 @@
  "seoDescription": "What the evidence says about unsolicited offers, deals the owner starts, whether a competitive process raises the price, what an adviser changes for a private seller, and the terms behind a headline price.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The evidence"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "The first number is rarely the last. And the party who sees the mar...",
    "items": [
@@ -36,37 +52,6 @@
      "key": "inner.6",
      "kind": "Button",
      "text": "What the evidence says"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "First bid against final"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "Who starts the deal"
-    },
-    {
-     "key": "inner.9",
-     "kind": "Text",
-     "text": "The terms behind the price"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "The evidence"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "What it means"
     }
    ]
   },

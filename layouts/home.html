@@ -2019,6 +2019,47 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 @keyframes s4b2{0%,21.7%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}23.7%,92%{background:var(--teal);border-color:var(--teal);color:#fff;box-shadow:0 0 0 6px rgba(20,112,110,.14)}100%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}}
 @keyframes s4b3{0%,43.5%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}45.5%,92%{background:var(--teal);border-color:var(--teal);color:#fff;box-shadow:0 0 0 6px rgba(20,112,110,.14)}100%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}}
 @keyframes s4b4{0%,65.2%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}67.2%,92%{background:var(--teal);border-color:var(--teal);color:#fff;box-shadow:0 0 0 6px rgba(20,112,110,.14)}100%{background:var(--paper);border-color:var(--teal);color:var(--teal);box-shadow:0 0 0 0 rgba(20,112,110,0)}}
+.pgnav{border-top:1px solid var(--hair);top:var(--qtop,89px)}
+.pgnav .wrap{justify-content:center}
+@media(max-width:1060px){.pgnav .wrap{justify-content:flex-start}}
+.fld.ckgrp .ckl,.ckl{display:flex;align-items:flex-start;gap:12px;min-height:44px;padding:8px 0;margin:0;font-family:var(--sans);font-size:14.5px;letter-spacing:0;text-transform:none;line-height:1.45;color:var(--ink2);cursor:pointer;text-align:left}
+.fld.ckgrp .ckl input,.ckl input{width:18px;height:18px;min-height:0;margin:2px 0 0;padding:0;flex:0 0 auto;accent-color:var(--teal);border:0;background:none}
+.fld.ckgrp .ckl span{display:block}
+.ckgrp{border:0;padding:0;margin:0;min-width:0}
+.ckgrp legend{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--ink3);margin-bottom:6px;line-height:1.5;padding:0}
+.ckgrp .ckg{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+@media(max-width:640px){.ckgrp .ckg{grid-template-columns:1fr}}
+.smsok .opt{font-weight:500;color:var(--teal)}
+.confid{max-width:62ch;margin:0 auto 18px;padding:12px 16px;border-left:3px solid #C79A5C;background:var(--paper2);font-size:14px;line-height:1.6;color:var(--ink2);text-align:left}
+.fpbox .confid{margin-top:-8px}
+.kcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:38px auto 0;max-width:1100px;text-align:left}
+.kcards div{background:var(--card);border:1px solid var(--line);border-radius:3px;padding:22px 22px 20px;box-shadow:inset 0 3px 0 var(--teal);transition:transform .35s,box-shadow .35s}
+.kcards div:hover{transform:translateY(-3px);box-shadow:inset 0 3px 0 var(--teal),0 18px 36px -22px rgba(12,50,52,.45)}
+.kcards u{display:block;text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:10px}
+.kcards b{display:block;font-family:var(--ser);font-size:21px;font-weight:500;line-height:1.22;color:var(--ink);margin-bottom:8px}
+.kcards p{font-size:14.5px;line-height:1.65;color:var(--ink2);margin:0}
+@media(max-width:900px){.kcards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.kcards{grid-template-columns:1fr}}
+.ktable-w{max-width:1100px;margin:38px auto 0;overflow-x:auto;border:1px solid var(--line);border-radius:3px;background:var(--card);text-align:left}
+.ktable{width:100%;border-collapse:collapse;min-width:640px}
+.ktable th{background:var(--deep);color:#F4F1EB;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:400;text-align:left;padding:14px 18px}
+.ktable td{padding:16px 18px;border-top:1px solid var(--hair);font-size:14.5px;line-height:1.6;color:var(--ink2);vertical-align:top}
+.ktable td:first-child{font-family:var(--ser);font-size:19px;color:var(--ink);line-height:1.25;width:19%}
+.ktable td:nth-child(3){color:var(--deep);background:rgba(20,112,110,.04)}
+.ktable tr:nth-child(even) td{background:rgba(12,50,52,.015)}
+.ktable tr:nth-child(even) td:nth-child(3){background:rgba(20,112,110,.055)}
+.klist{list-style:none;counter-reset:k;margin:38px auto 0;padding:0;max-width:820px;text-align:left}
+.klist li{position:relative;display:grid;grid-template-columns:44px minmax(0,1fr);gap:16px;padding:18px 0;border-bottom:1px solid var(--line);counter-increment:k}
+.klist li:before{content:counter(k,decimal-leading-zero);grid-column:1;grid-row:1 / span 2;font-family:var(--ser);font-size:26px;line-height:1;color:#C79A5C;font-variant-numeric:lining-nums tabular-nums;padding-top:2px}
+.klist li>b,.klist li>span{grid-column:2}
+.klist b{display:block;font-family:var(--ser);font-size:21px;font-weight:500;line-height:1.25;color:var(--ink);margin-bottom:6px}
+.klist span{display:block;font-size:15px;line-height:1.65;color:var(--ink2)}
+.klist.dark li{border-bottom-color:rgba(255,255,255,.14)}
+.klist.dark b{color:#F4F1EB}
+.klist.dark span{color:#CBD8D6}
+.klist.dark li:before{content:"";width:3px;height:26px;background:#C79A5C;border-radius:1px;margin-left:18px}
+.dndeck.open .dnc{animation:dnin .5s ease both}
+@keyframes dnin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
 </style>
 </head>
 <body>
@@ -2525,35 +2566,32 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <div class="fld"><label for="kind" id="kl">{{talk.6}}</label><select id="kind">
 <option value="">Select the side of the table first</option>
 </select></div>
-<div class="fld"><label for="vert" id="vl">{{talk.7}}</label><select id="vert">
+<div class="fld"><label for="vert_ind">{{talk.7}}</label><select id="vert_ind" name="industry" data-ind-for="vert"><option value="">Select one</option><option value="hc">Healthcare</option><option value="fin">Financial services</option><option value="built">Construction, real estate &amp; field services</option><option value="fleet">Transportation &amp; logistics</option><option value="tech">Technology services</option><option value="mfg">Manufacturing</option><option value="hosp">Hospitality</option><option value="retail">Retail &amp; automotive</option><option value="prof">Legal &amp; professional services</option><option value="gov">Government</option><option value="other">Another industry</option></select></div><div class="fld"><label for="vert" id="vl">{{talk.8}}</label><select id="vert" name="sector" disabled><option value="">Select the industry first</option></select></div>
+<div class="fld"><label for="band" id="bl">{{talk.9}}</label><select id="band">
 <option value="">Select one</option>
-<option>Billing, coding &amp; claims</option><option>Denials &amp; clearinghouse workflow</option><option>Credentialing &amp; provider data</option><option>Specialty practice management</option><option>Dental practice software</option><option>Home health &amp; hospice software</option><option>Behavioral &amp; specialty health</option><option>Pharmacy, DME &amp; infusion</option><option>Aesthetics &amp; med spa</option><option>Physical therapy &amp; rehab software</option><option>Long-term care &amp; senior living software</option><option>Payment integrity software</option><option>Healthcare staffing &amp; scheduling software</option><option>Veterinary practice software</option><option>Bank &amp; credit union software</option><option>Insurance software</option><option>Wealth &amp; advisory software</option><option>Lending &amp; mortgage software</option><option>Accounting &amp; tax firm software</option><option>Collections &amp; receivables software</option><option>Compliance software for advisers &amp; broker-dealers</option><option>Construction &amp; contractor software</option><option>Field service management software</option><option>Property management software</option><option>HOA &amp; community association software</option><option>Equipment rental software</option><option>Dispatch, TMS &amp; freight audit</option><option>Fleet compliance &amp; telematics</option><option>Warehouse management for 3PLs</option><option>Customs &amp; trade compliance software</option><option>Freight brokerage &amp; visibility software</option><option>Fleet maintenance software</option><option>School bus &amp; transit routing</option><option>MSP &amp; IT service software</option><option>Security tools for MSPs</option><option>Backup &amp; disaster recovery software</option><option>Manufacturing ERP &amp; shop floor</option><option>Quality management software</option><option>Maintenance &amp; asset management</option><option>Distribution &amp; wholesale ERP</option><option>Machine monitoring &amp; industrial IoT</option><option>Environment, health &amp; safety software</option><option>Restaurant POS &amp; back office</option><option>Hotel property management &amp; revenue tools</option><option>Event &amp; venue management software</option><option>Fitness &amp; gym management software</option><option>Salon, spa &amp; wellness software</option><option>Ticketing &amp; attractions software</option><option>Auto dealer &amp; repair software</option><option>Convenience store &amp; fuel retail software</option><option>Car wash software</option><option>Legal practice software</option><option>Litigation support &amp; e-discovery software</option><option>Association &amp; membership software</option><option>Nonprofit &amp; church software</option><option>Staffing &amp; recruiting software</option><option>Municipal finance &amp; administration software</option><option>Public safety &amp; emergency communications</option><option>Utility billing &amp; customer systems</option><option>K-12 district administration software</option><option>Parks &amp; recreation software</option><option>Courts &amp; justice software</option><option>Permitting &amp; licensing software</option><option>Another vertical, not listed</option></select></div>
-<div class="fld"><label for="band" id="bl">{{talk.8}}</label><select id="band">
-<option value="">Select one</option>
-<option>Under $3M ARR</option>
-<option>$3M to $5M ARR</option>
+<option>Under $5M ARR</option>
 <option>$5M to $10M ARR</option>
 <option>$10M to $25M ARR</option>
 <option>$25M to $50M ARR</option>
 <option>Over $50M ARR</option>
 <option>Not applicable</option>
 </select></div>
-<div class="fld"><label for="nm">{{talk.9}}</label><input id="nm" required autocomplete="name"></div>
-<div class="fld"><label for="co">{{talk.10}}</label><input id="co" autocomplete="organization"></div>
-<div class="fld"><label for="em">{{talk.11}}</label><input id="em" type="email" required autocomplete="email"></div>
-<div class="fld"><label for="ph">{{talk.12}}</label><input id="ph" type="tel" inputmode="tel" autocomplete="tel"></div>
-<label class="smsok" for="sms"><input type="checkbox" id="sms" name="sms_consent" value="yes"><span id="smstext">{{talk.13}}</span></label>
-<label class="smsok" for="onfile" id="onfilew" hidden><input type="checkbox" id="onfile" value="yes"><span>{{talk.14}}</span></label>
-<label class="smsok" for="osbox" id="osboxw" hidden><input type="checkbox" id="osbox" value="yes"><span>{{talk.15}}</span></label>
-<div class="fld"><label for="how">{{talk.16}}</label><input id="how" placeholder="A conference, a name, a search"></div>
-<div class="fld"><label for="msg" id="ml">{{talk.17}}</label><textarea id="msg"></textarea></div>
-<button class="btn" type="submit">{{talk.18}}</button>
+<div class="fld"><label for="nm">{{talk.10}}</label><input id="nm" name="name" required autocomplete="name"></div>
+<div class="fld"><label for="co">{{talk.11}}</label><input id="co" name="organization" autocomplete="organization"></div>
+<div class="fld"><label for="em">{{talk.12}}</label><input id="em" name="email" type="email" required autocomplete="email"></div>
+<div class="fld"><label for="ph">{{talk.13}}</label><input id="ph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
+<label class="smsok" for="sms"><input type="checkbox" id="sms" name="sms_consent" value="yes"><span id="smstext">{{talk.14}} <b class="opt">{{talk.15}}</b> {{talk.16}}</span></label>
+<label class="smsok" for="onfile" id="onfilew" hidden><input type="checkbox" id="onfile" value="yes"><span>{{talk.17}}</span></label>
+<label class="smsok" for="osbox" id="osboxw" hidden><input type="checkbox" id="osbox" value="yes"><span>{{talk.18}}</span></label>
+<div class="fld"><label for="how">{{talk.19}}</label><input id="how" placeholder="A conference, a name, a search"></div>
+<div class="fld"><label for="msg" id="ml">{{talk.20}}</label><textarea id="msg"></textarea></div>
+<button class="btn" type="submit">{{talk.21}}</button>
 <p class="formmsg" id="formmsg" hidden></p>
 
 </form>
-<p class="fine">{{talk.19}}</p>
-<p class="fine dir" id="bookw" hidden>{{talk.20}}</p>
-<p class="fine dir">{{talk.21}}</p>
+<p class="fine">{{talk.22}}</p>
+<p class="fine dir" id="bookw" hidden>{{talk.23}}</p>
+<p class="fine dir">{{talk.24}}</p>
 </div></section>
 
 <footer><div class="wrap">
@@ -2611,14 +2649,14 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <div class="vcfld"><label for="vcfn">{{sh.valuation.21}}</label><input id="vcfn" type="text" autocomplete="given-name" required></div>
 <div class="vcfld"><label for="vcln">{{sh.valuation.22}}</label><input id="vcln" type="text" autocomplete="family-name" required></div>
 <div class="vcfld"><label for="vcem">{{sh.valuation.23}}</label><input id="vcem" type="email" autocomplete="email" required></div>
-<div class="vcfld"><label for="vcph">{{sh.valuation.24}}</label><input id="vcph" type="tel" inputmode="tel" autocomplete="tel"></div>
+<div class="vcfld"><label for="vcph">{{sh.valuation.24}}</label><input id="vcph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
 <div class="vcfld"><label for="vcwhen">{{sh.valuation.25}}</label><select id="vcwhen" required><option value="">Select one</option><option>Within 6 months</option><option>6 to 12 months</option><option>12 to 24 months</option><option>More than 2 years</option><option>Not planning to sell</option></select></div>
 <div class="vcfld"><label for="vchow">{{sh.valuation.26}}</label><input id="vchow" type="text"></div>
-<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.27}}</span></label>
+<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.27}} <b class="opt">{{sh.valuation.28}}</b> {{sh.valuation.29}}</span></label>
 </div>
 <p class="vcerr" id="vcerr2" role="alert" hidden></p>
-<p class="vcnote2">{{sh.valuation.28}}</p>
-<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.29}}</button><button class="vcbtn" type="submit">{{sh.valuation.30}}</button></div>
+<p class="vcnote2">{{sh.valuation.30}}</p>
+<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.31}}</button><button class="vcbtn" type="submit">{{sh.valuation.32}}</button></div>
 </form>
 <div class="vcres" id="vcres" hidden>
 <p class="vchi" id="vchi"></p>
@@ -2626,15 +2664,15 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <p class="vcbasis" id="vcbasis"></p>
 <div class="vcgroups" id="vcgroups"></div>
 <p class="vcsent" id="vcsent"></p>
-<div class="vclook"><p class="vclab">{{sh.valuation.31}}</p><ul id="vcnotes"></ul></div>
-<div class="vcmove"><p class="vclab">{{sh.valuation.32}}</p><p>{{sh.valuation.33}}</p></div>
-<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.34}}</a>
-<p class="vcmicro">{{sh.valuation.35}}</p></div>
-<ol class="vchow"><li><b>1</b><u>{{sh.valuation.36}}</u><p>{{sh.valuation.37}}</p></li><li><b>2</b><u>{{sh.valuation.38}}</u><p>{{sh.valuation.39}}</p></li><li><b>3</b><u>{{sh.valuation.40}}</u><p>{{sh.valuation.41}}</p></li></ol>
-<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.42}}</button></div>
+<div class="vclook"><p class="vclab">{{sh.valuation.33}}</p><ul id="vcnotes"></ul></div>
+<div class="vcmove"><p class="vclab">{{sh.valuation.34}}</p><p>{{sh.valuation.35}}</p></div>
+<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.36}}</a>
+<p class="vcmicro">{{sh.valuation.37}}</p></div>
+<ol class="vchow"><li><b>1</b><u>{{sh.valuation.38}}</u><p>{{sh.valuation.39}}</p></li><li><b>2</b><u>{{sh.valuation.40}}</u><p>{{sh.valuation.41}}</p></li><li><b>3</b><u>{{sh.valuation.42}}</u><p>{{sh.valuation.43}}</p></li></ol>
+<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.44}}</button></div>
 </div>
-<p class="vcfine">{{sh.valuation.43}}</p>
-<p class="vcsrc">{{sh.valuation.44}}</p>
+<p class="vcfine">{{sh.valuation.45}}</p>
+<p class="vcsrc">{{sh.valuation.46}}</p>
 </div></div>
 
 <script>
@@ -2893,6 +2931,10 @@ function fieldValues() {
   side: v("seat"),
   kind: v("kind"),
   vertical: v("vert"),
+  industry: function() {
+   var e = document.getElementById("vert_ind");
+   return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
+  }(),
   recurring_revenue: v("band"),
   heard_via: v("how"),
   message: v("msg"),
@@ -3690,8 +3732,15 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
     phone: v("pqph"),
     sms: sms("pqsms"),
     sector: v("pqsec"),
+    industry: function() {
+     var e = document.getElementById("pqsec_ind");
+     return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
+    }(),
     kind: v("pqkind"),
     revenue_band: v("pqrev"),
+    qoe_had: v("pqqoe"),
+    qoe_year: v("pqqoeyr"),
+    qoe_by: v("pqqoeby"),
     timing: v("pqwhen"),
     prepared_by: v("pqfin"),
     message: v("pqmsg"),
@@ -3707,6 +3756,10 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
     sms: sms("stsms"),
     role: v("strole"),
     sector: v("stsec"),
+    industry: function() {
+     var e = document.getElementById("stsec_ind");
+     return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
+    }(),
     message: v("stq")
    };
   }), "Your seat is reserved. The session link and the playbook will come from team@thecapitalrow.com.");
@@ -4024,7 +4077,7 @@ function hsFields(kind, d) {
  add("phone", mob);
  add("mobilephone", mob);
  if (kind === "Conversation") {
-  L.push([ "Side", d.side, "cr_side" ], [ "Kind", d.kind, "cr_kind" ], [ "Sector", d.vertical, "cr_sector" ], [ "Recurring revenue", d.recurring_revenue, "cr_revenue_band" ], [ "Heard via", d.heard_via, "cr_heard_via" ]);
+  L.push([ "Side", d.side, "cr_side" ], [ "Kind", d.kind, "cr_kind" ], [ "Industry", d.industry ], [ "Sector", d.vertical, "cr_sector" ], [ "Recurring revenue", d.recurring_revenue, "cr_revenue_band" ], [ "Heard via", d.heard_via, "cr_heard_via" ]);
   if (d.side === "Buyer") {
    L.push([ "Criteria on file", yn(d.criteria_on_file) ]);
    add("cr_criteria_on_file", d.criteria_on_file === "yes" ? "true" : "false");
@@ -4039,9 +4092,9 @@ function hsFields(kind, d) {
   L.push([ "Sector followed", d.sector, "cr_sector_followed" ]);
  }
  if (kind === "Pre-Market Assessment request") {
-  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Sector", d.sector, "cr_sector" ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
+  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Industry", d.industry ], [ "Sector", d.sector, "cr_sector" ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
   add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
-  add("cr_details", [ [ "Asking about", d.about ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ] ].filter((function(r) {
+  add("cr_details", [ [ "Asking about", d.about ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ] ].filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
    return r[0] + ": " + r[1];
@@ -4049,12 +4102,12 @@ function hsFields(kind, d) {
   free = d.message;
  }
  if (kind === "Owner session seat") {
-  L.push([ "Side", d.role === "An owner" ? "Seller" : d.role === "A buyer or lender" ? "Buyer" : d.role ? "Adviser" : "", "cr_side" ], [ "I am", d.role, "cr_kind" ], [ "Sector", d.sector, "cr_sector" ], [ "Question", d.message ]);
+  L.push([ "Side", d.role === "An owner" ? "Seller" : d.role === "A buyer or lender" ? "Buyer" : d.role ? "Adviser" : "", "cr_side" ], [ "I am", d.role, "cr_kind" ], [ "Industry", d.industry ], [ "Sector", d.sector, "cr_sector" ], [ "Question", d.message ]);
   add("cr_owner_session", "true");
  }
  if (kind === "Bad or broken deal report") {
-  var R = [ [ "Kind of business", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Adviser on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "What went wrong", d.main_reason ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
-  L.push([ "Sector", d.sector, "cr_sector" ]);
+  var R = [ [ "Kind of business", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Adviser on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "What went wrong", d.main_reason ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
+  L.push([ "Industry", d.industry ], [ "Sector", d.sector, "cr_sector" ]);
   L = L.concat(R);
   L.push([ "What I would do differently", d.differently ]);
   add("cr_details", R.filter((function(r) {
@@ -4924,6 +4977,68 @@ window.go = function(e) {
   }
   paint();
  }
+})();
+</script>
+<script>
+(function() {
+ function qt() {
+  var m = document.querySelector(".mast");
+  if (m) document.documentElement.style.setProperty("--qtop", Math.round(m.getBoundingClientRect().height) + "px");
+ }
+ qt();
+ window.addEventListener("resize", qt);
+ window.addEventListener("load", qt);
+})();
+
+(function() {
+ var src = document.getElementById("vcsec");
+ if (!src) return;
+ var map = {};
+ try {
+  map = JSON.parse(src.getAttribute("data-map"));
+ } catch (e) {}
+ [].forEach.call(document.querySelectorAll("select[data-ind-for]"), (function(ind) {
+  var sec = document.getElementById(ind.getAttribute("data-ind-for"));
+  if (!sec) return;
+  function fill() {
+   var v = ind.value, list = map[v] || [];
+   sec.innerHTML = "";
+   var o = document.createElement("option");
+   o.value = "";
+   o.textContent = v ? v === "other" ? "Another sector, not listed" : "Select one" : "Select the industry first";
+   sec.appendChild(o);
+   list.concat(v && v !== "other" ? [ "Another sector, not listed" ] : []).forEach((function(t) {
+    var x = document.createElement("option");
+    x.textContent = t;
+    sec.appendChild(x);
+   }));
+   sec.disabled = !v || v === "other";
+   var f = sec.closest(".fld");
+   if (f) f.classList.remove("answered");
+  }
+  ind.addEventListener("change", fill);
+  fill();
+  var form = ind.closest("form");
+  if (form) form.addEventListener("reset", (function() {
+   setTimeout(fill, 0);
+  }));
+ }));
+ [].forEach.call(document.querySelectorAll("[data-reveal]"), (function(el) {
+  var ids = el.getAttribute("data-reveal").split(" ");
+  function on() {
+   var v = el.type === "checkbox" ? el.checked : /^Yes|^Both/.test(el.value);
+   ids.forEach((function(id) {
+    var w = document.getElementById(id);
+    if (w) w.hidden = !v;
+   }));
+  }
+  el.addEventListener("change", on);
+  on();
+  var form = el.closest("form");
+  if (form) form.addEventListener("reset", (function() {
+   setTimeout(on, 0);
+  }));
+ }));
 })();
 </script>
 <div class="ck" id="ck" role="region" aria-label="Cookie choice" hidden><div class="ckin">

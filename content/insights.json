@@ -4,6 +4,27 @@
  "seoDescription": "Research notes for buyers, owners and lenders in vertical software. Every figure is sourced: the market, why signed deals die, what origination costs, what a buyer’s diligence finds, the first offer, what a quality of earnings report is, and the SBA acquisition loan rules.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "For buyers"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "For owners"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Financing"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "What the record shows, before the letter of intent.",
    "items": [
@@ -31,42 +52,6 @@
      "key": "inner.5",
      "kind": "Button",
      "text": "Read the notes"
-    },
-    {
-     "key": "inner.6",
-     "kind": "Text",
-     "text": "Sourced figures"
-    },
-    {
-     "key": "inner.7",
-     "kind": "Text",
-     "text": "Updated as the record changes"
-    },
-    {
-     "key": "inner.8",
-     "kind": "Text",
-     "text": "No company named without its permission"
-    }
-   ]
-  },
-  {
-   "id": "pgnav",
-   "name": "pgnav",
-   "items": [
-    {
-     "key": "pgnav.1",
-     "kind": "Link",
-     "text": "For buyers"
-    },
-    {
-     "key": "pgnav.2",
-     "kind": "Link",
-     "text": "For owners"
-    },
-    {
-     "key": "pgnav.3",
-     "kind": "Link",
-     "text": "Financing"
     }
    ]
   },

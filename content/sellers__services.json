@@ -4,6 +4,52 @@
  "seoDescription": "For owners of technology-enabled services businesses: how size moves the multiple, with both published readings shown.",
  "sections": [
   {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "What size does"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Two readings"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Read first"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it is read"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What to fix first"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
    "id": "inner",
    "name": "Priced as services. Size moves your number more than the label does.",
    "items": [
@@ -153,6 +199,436 @@
      "key": "evidence.16",
      "kind": "Note",
      "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report, July 2, 2026. An M&A advisory firm’s analysis of a transaction database, July to August 2026. GF Data, January 27, 2026, nine months of 2025. IBBA and M&A Source, Market Pulse, Q2 2026. The survey and the database measure different things and are not reconciled here."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six lines a buyer recomputes from your own records.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Services · What a buyer reads first"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six lines a buyer recomputes <em>from your own records.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "Services businesses are bought on adjusted earnings, and the multiple rises with size. What a buyer reads is how durable the earnings are once the owner steps back."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "Recurring against project"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "What repeats, and under what paper"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "Retainers, managed services and maintenance contracts are read apart from projects. A buyer prices the repeating part on one multiple and the project part on another."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "Utilization"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "Billable hours over paid hours"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "Labor is the cost of revenue. A buyer rebuilds utilization and realization by person and by month, and reads the trend before the average."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "Backlog and pipeline"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "Signed, scheduled, probable"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Signed work with a start date is backlog. Everything else is pipeline. A buyer counts only the first and asks how the second converted last year."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "Concentration"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "Customers and referral sources"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "The five largest customers, and where the next ones come from. A services business whose work arrives through one referral source has a concentration a buyer will find."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "Work in progress"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Billed, unbilled, and overbilled"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "Unbilled work is an asset a buyer discounts. Overbilling is a liability a buyer counts as debt-like. Both come out of the working capital target."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "The owner’s hours"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Who sells, who delivers, who decides"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "If the owner sells the work and delivers the hardest of it, the buyer prices the transition: a longer consulting term, an earnout, or a lower number."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "As owners keep it. As a buyer reads it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Services · How the numbers are read"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "As owners keep it. <em>As a buyer reads it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Area"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "As most owners keep it"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "As a buyer reads it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "Revenue"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "Invoices sent, by month."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "Recurring and project revenue apart, each with its own margin, recognized when earned rather than when billed."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "Labor"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "Payroll, in one line."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Cost of revenue by person and by engagement, with utilization and realization by month and the subcontractor share."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "Pricing"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "The rate card."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Realized rates against the card, discounts by customer, and the share of fixed-fee work that ran over budget."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "Customers"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "The top ten, by revenue."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "Concentration, contract terms, renewal dates, and the referral sources behind the new ones."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "Working capital"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "The bank balance."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Receivables aging, unbilled work, overbillings and payables on a monthly trend; a target set from the trailing twelve months."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "The owner"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "Not on the P&L."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "Owner compensation normalized to a market salary, and the owner’s own billable hours priced as a cost of replacing them."
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "name": "Five things worth fixing before a buyer prices them.",
+   "items": [
+    {
+     "key": "fix.1",
+     "kind": "Small label",
+     "text": "Services · What to fix first"
+    },
+    {
+     "key": "fix.2",
+     "kind": "Section headline",
+     "text": "Five things worth fixing <em>before a buyer prices them.</em>"
+    },
+    {
+     "key": "fix.3",
+     "kind": "Paragraph",
+     "text": "In order of what moves the price, from the records the review reads."
+    },
+    {
+     "key": "fix.4",
+     "kind": "Text",
+     "text": "Split recurring from project revenue"
+    },
+    {
+     "key": "fix.5",
+     "kind": "Text",
+     "text": "In the statements, by month, with the contract behind each recurring line. The split is the first thing a buyer asks for and the first thing that moves the multiple."
+    },
+    {
+     "key": "fix.6",
+     "kind": "Text",
+     "text": "Put the owner on the payroll"
+    },
+    {
+     "key": "fix.7",
+     "kind": "Text",
+     "text": "At a market salary, so adjusted earnings are the earnings a buyer will accept rather than the earnings before anyone paid the owner."
+    },
+    {
+     "key": "fix.8",
+     "kind": "Text",
+     "text": "Rebuild utilization"
+    },
+    {
+     "key": "fix.9",
+     "kind": "Text",
+     "text": "By person and by month from the time records. Decide what the number is before a buyer decides it for you."
+    },
+    {
+     "key": "fix.10",
+     "kind": "Text",
+     "text": "Age the receivables and the unbilled work"
+    },
+    {
+     "key": "fix.11",
+     "kind": "Text",
+     "text": "A buyer sets the working capital target from twelve months of history; clean the history first."
+    },
+    {
+     "key": "fix.12",
+     "kind": "Text",
+     "text": "Document every adjustment"
+    },
+    {
+     "key": "fix.13",
+     "kind": "Text",
+     "text": "Owner compensation, personal expenses, one-time costs, each with the document behind it. Undocumented add-backs are removed, not argued."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Three steps, and you decide what happens after each one.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Services · How it works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Three steps, and <em>you decide</em> what happens after each one."
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "A conversation"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "About the business, its market and your timing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "The review"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "Starts with an agreed information request under a signed NDA. Scope and fee are set in writing before any work begins."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "The findings"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own adviser."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "You"
+    },
+    {
+     "key": "how.10",
+     "kind": "Text",
+     "text": "You decide"
+    },
+    {
+     "key": "how.11",
+     "kind": "Paragraph",
+     "text": "Sell now, sell later or keep building. Nothing reaches a buyer without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Services · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Why are the published multiples so far apart?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "Because they measure different things. A banker survey reports recast earnings multiples by size band; a transaction database reports what closed. The pages show both and do not reconcile them. Your own number depends on size, contracts and what the earnings are once traced to source."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Does recurring revenue change how a services business is priced?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Yes, where it is contracted and reported apart. A retainer with a term is priced differently from a project that may repeat."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "What does a buyer do about my own hours?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Prices them. If you sell the work and deliver the hardest of it, the buyer prices the transition. The review shows how much of the business runs through you, so you can change it before a buyer measures it."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Will the review raise my price?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "We will not promise that. It shows what your numbers support and gives you the chance to fix what they do not before a buyer prices it."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Who sees the findings?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "You. Nothing reaches a buyer, an adviser or anyone else without your written permission."
     }
    ]
   },
