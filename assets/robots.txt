@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /buyers/lender/
+
+Sitemap: https://thecapitalrow.com/sitemap.xml

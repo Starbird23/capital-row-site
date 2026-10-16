@@ -1,7 +1,7 @@
 {
  "path": "/reserve/",
  "seoTitle": "Capital Row: Reserve your seat",
- "seoDescription": "Selling in 2027? What a buyer will find in your 2026 numbers, and how to find it first. Owner session, Wednesday 20 January 2027, live online.",
+ "seoDescription": "Selling in 2027? What a buyer will find in your 2026 numbers, and how to find it first. Owner session, Wednesday, January 20, 2027, live online.",
  "sections": [
   {
    "id": "reserve",
@@ -25,7 +25,7 @@
     {
      "key": "reserve.4",
      "kind": "Text",
-     "text": "Wednesday 20 January 2027"
+     "text": "Wednesday, January 20, 2027"
     },
     {
      "key": "reserve.5",

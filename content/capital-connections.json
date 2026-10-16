@@ -194,7 +194,7 @@
   },
   {
    "id": "sba",
-   "name": "What an SBA 7(a) acquisition loan requires, as of 1 October 2026.",
+   "name": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026.",
    "items": [
     {
      "key": "sba.1",
@@ -204,7 +204,7 @@
     {
      "key": "sba.2",
      "kind": "Section headline",
-     "text": "What an SBA 7(a) acquisition loan requires, <em>as of 1 October 2026.</em>"
+     "text": "What an SBA 7(a) acquisition loan requires, <em>as of October 1, 2026.</em>"
     },
     {
      "key": "sba.3",
@@ -304,7 +304,7 @@
     {
      "key": "sba.22",
      "kind": "Note",
-     "text": "SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective 1 October 2026, Appendix 15 and Appendix 16. This is information, not advice; the procedure governs, and a lender, an attorney and a CPA should confirm each item before it is relied on."
+     "text": "SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective October 1, 2026, Appendix 15 and Appendix 16. This is information, not advice; the procedure governs, and a lender, an attorney and a CPA should confirm each item before it is relied on."
     },
     {
      "key": "sba.23",

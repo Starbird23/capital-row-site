@@ -4030,7 +4030,7 @@ function hsFields(kind, d) {
    add("cr_criteria_on_file", d.criteria_on_file === "yes" ? "true" : "false");
   }
   if (d.side === "Seller" || d.side === "Adviser") {
-   L.push([ "Owner session seat, 20 January", yn(d.owner_session) ]);
+   L.push([ "Owner session seat, January 20", yn(d.owner_session) ]);
    add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
   }
   free = d.message;
@@ -4039,7 +4039,7 @@ function hsFields(kind, d) {
   L.push([ "Sector followed", d.sector, "cr_sector_followed" ]);
  }
  if (kind === "Pre-Market Assessment request") {
-  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Sector", d.sector, "cr_sector" ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Owner session seat, 20 January", yn(d.owner_session) ]);
+  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Sector", d.sector, "cr_sector" ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
   add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
   add("cr_details", [ [ "Asking about", d.about ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ] ].filter((function(r) {
    return has(r[1]);

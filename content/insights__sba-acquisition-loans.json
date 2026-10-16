@@ -1,11 +1,11 @@
 {
  "path": "/insights/sba-acquisition-loans/",
- "seoTitle": "What an SBA 7(a) acquisition loan requires, as of 1 October 2026 | Capital Row Insights",
+ "seoTitle": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026 | Capital Row Insights",
  "seoDescription": "The SBA 7(a) rules for buying a business under SOP 50 10 8.1: the $5 million limit, the 10 percent equity injection, the seller note on full standby, the independent valuation, the quality of earnings at $3 million, the fees, the ownership rule, and what a seller can and cannot agree to.",
  "sections": [
   {
    "id": "inner",
-   "name": "What an SBA 7(a) acquisition loan requires, as of 1 October 2026.",
+   "name": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026.",
    "items": [
     {
      "key": "inner.1",
@@ -25,7 +25,7 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "What an SBA 7(a) acquisition loan requires, <em>as of 1 October 2026.</em>"
+     "text": "What an SBA 7(a) acquisition loan requires, <em>as of October 1, 2026.</em>"
     },
     {
      "key": "inner.5",
@@ -45,7 +45,7 @@
     {
      "key": "inner.8",
      "kind": "Text",
-     "text": "Effective 1 October 2026"
+     "text": "Effective October 1, 2026"
     },
     {
      "key": "inner.9",
@@ -217,7 +217,7 @@
     {
      "key": "rules.29",
      "kind": "Paragraph",
-     "text": "From 1 March 2026, every direct and indirect owner and every required guarantor must be a U.S. citizen or national with a principal residence in the United States. Lawful permanent residents are no longer eligible."
+     "text": "From March 1, 2026, every direct and indirect owner and every required guarantor must be a U.S. citizen or national with a principal residence in the United States. Lawful permanent residents are no longer eligible."
     },
     {
      "key": "rules.30",
@@ -303,7 +303,7 @@
     {
      "key": "read.13",
      "kind": "Paragraph",
-     "text": "SBA rules require anyone who refers an applicant to a lender, or a lender to an applicant, for a fee to disclose the fee on SBA Form 159, signed by the applicant, the agent and the lender. An agent may be paid by the applicant or by the lender, but not both for the same service. Fees must be reasonable and customary for the services actually performed, fees charged to the applicant may not be contingent on the loan being approved or closed, and a lender may not pass a referral fee to the borrower. In California, brokering commercial loans to a licensed finance lender requires a license under the California Financing Law; referrals to a bank are not within that definition, and a new law signed on 30 September 2026 will license commercial financing brokers for offers of $500,000 or less from 1 July 2028. Capital Row makes introductions through Capital Connections and does not package or broker loans; whether and how any introduction fee may be paid is a question of federal and state rules on which Capital Row takes counsel."
+     "text": "SBA rules require anyone who refers an applicant to a lender, or a lender to an applicant, for a fee to disclose the fee on SBA Form 159, signed by the applicant, the agent and the lender. An agent may be paid by the applicant or by the lender, but not both for the same service. Fees must be reasonable and customary for the services actually performed, fees charged to the applicant may not be contingent on the loan being approved or closed, and a lender may not pass a referral fee to the borrower. In California, brokering commercial loans to a licensed finance lender requires a license under the California Financing Law; referrals to a bank are not within that definition, and a new law signed on September 30, 2026 will license commercial financing brokers for offers of $500,000 or less from July 1, 2028. Capital Row makes introductions through Capital Connections and does not package or broker loans; whether and how any introduction fee may be paid is a question of federal and state rules on which Capital Row takes counsel."
     },
     {
      "key": "read.14",
@@ -328,17 +328,17 @@
     {
      "key": "read.18",
      "kind": "List item",
-     "text": "<a>SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective 1 October 2026</a>"
+     "text": "<a>SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective October 1, 2026</a>"
     },
     {
      "key": "read.19",
      "kind": "List item",
-     "text": "<a>SBA Information Notice 5000-880695, Issuance of SOP 50 10 8.1, 14 August 2026</a>"
+     "text": "<a>SBA Information Notice 5000-880695, Issuance of SOP 50 10 8.1, August 14, 2026</a>"
     },
     {
      "key": "read.20",
      "kind": "List item",
-     "text": "<a>SBA Information Notice 5000-881797, 7(a) Fees for Fiscal Year 2027, 3 September 2026</a>"
+     "text": "<a>SBA Information Notice 5000-881797, 7(a) Fees for Fiscal Year 2027, September 3, 2026</a>"
     },
     {
      "key": "read.21",
@@ -358,22 +358,22 @@
     {
      "key": "read.24",
      "kind": "List item",
-     "text": "<a>CohnReznick, The new SBA quality of earnings requirement, 8 October 2026</a>"
+     "text": "<a>CohnReznick, The new SBA quality of earnings requirement, October 8, 2026</a>"
     },
     {
      "key": "read.25",
      "kind": "List item",
-     "text": "<a>SBA Policy Notice 5000-876441, citizenship and residency requirements, effective 1 March 2026</a>"
+     "text": "<a>SBA Policy Notice 5000-876441, citizenship and residency requirements, effective March 1, 2026</a>"
     },
     {
      "key": "read.26",
      "kind": "List item",
-     "text": "<a>California Department of Financial Protection and Innovation, About the California Financing Law, updated 12 August 2025</a>"
+     "text": "<a>California Department of Financial Protection and Innovation, About the California Financing Law, updated August 12, 2025</a>"
     },
     {
      "key": "read.27",
      "kind": "List item",
-     "text": "<a>California AB 2116 (2025–2026), commercial financing provider and broker licensing, approved 30 September 2026</a>"
+     "text": "<a>California AB 2116 (2025–2026), commercial financing provider and broker licensing, approved September 30, 2026</a>"
     }
    ]
   },
