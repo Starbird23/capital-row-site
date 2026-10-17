@@ -1,0 +1,108 @@
+{
+ "path": "/terms/",
+ "seoTitle": "Capital Row: SMS Terms",
+ "seoDescription": "The terms of the Capital Row LLC text message program: what is sent, how often, and how to stop.",
+ "sections": [
+  {
+   "id": "rule",
+   "name": "SMS Terms",
+   "items": [
+    {
+     "key": "rule.1",
+     "kind": "Paragraph",
+     "text": "Last updated October 2, 2026"
+    },
+    {
+     "key": "rule.2",
+     "kind": "Page headline",
+     "text": "SMS Terms"
+    },
+    {
+     "key": "rule.3",
+     "kind": "Paragraph",
+     "text": "These terms apply to text messages sent by Capital Row LLC (“Capital Row”)."
+    },
+    {
+     "key": "rule.4",
+     "kind": "Section headline",
+     "text": "The program"
+    },
+    {
+     "key": "rule.5",
+     "kind": "Paragraph",
+     "text": "If you tick the text message box on our form and give a mobile number, you agree to receive marketing text messages from Capital Row LLC, such as market updates and event invitations. Consent is not a condition of any engagement or purchase."
+    },
+    {
+     "key": "rule.6",
+     "kind": "Section headline",
+     "text": "Message frequency"
+    },
+    {
+     "key": "rule.7",
+     "kind": "Paragraph",
+     "text": "Message frequency varies."
+    },
+    {
+     "key": "rule.8",
+     "kind": "Section headline",
+     "text": "Cost"
+    },
+    {
+     "key": "rule.9",
+     "kind": "Paragraph",
+     "text": "Message and data rates may apply, according to your mobile plan."
+    },
+    {
+     "key": "rule.10",
+     "kind": "Section headline",
+     "text": "How to stop"
+    },
+    {
+     "key": "rule.11",
+     "kind": "Paragraph",
+     "text": "Reply STOP to any message to opt out. You will receive one message confirming that you have been unsubscribed, and no further messages after it."
+    },
+    {
+     "key": "rule.12",
+     "kind": "Section headline",
+     "text": "Help"
+    },
+    {
+     "key": "rule.13",
+     "kind": "Paragraph",
+     "text": "Reply HELP to any message, or write to <a>team@thecapitalrow.com</a>."
+    },
+    {
+     "key": "rule.14",
+     "kind": "Section headline",
+     "text": "Carriers"
+    },
+    {
+     "key": "rule.15",
+     "kind": "Paragraph",
+     "text": "Carriers are not liable for delayed or undelivered messages."
+    },
+    {
+     "key": "rule.16",
+     "kind": "Section headline",
+     "text": "Privacy"
+    },
+    {
+     "key": "rule.17",
+     "kind": "Paragraph",
+     "text": "Text messaging originator opt-in data and consent will not be shared with any third parties, excluding aggregators and providers of the text message services. See the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "rule.18",
+     "kind": "Section headline",
+     "text": "What not to send"
+    },
+    {
+     "key": "rule.19",
+     "kind": "Paragraph",
+     "text": "Please do not send financial documents, patient records, protected health information or other confidential information by text message."
+    }
+   ]
+  }
+ ]
+}

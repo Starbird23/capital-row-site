@@ -1,0 +1,273 @@
+{
+ "path": "/insights/for-lenders/",
+ "seoTitle": "For lenders: you are underwriting the paper, not buying the company | Capital Row Insights",
+ "seoDescription": "A software borrower’s revenue is its customers’ credit. Where the risk in software lending has moved, what the published record shows, and the evidence a borrower can assemble before the credit committee asks.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The exposure"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Where the risk has moved"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What we can discuss"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "You are underwriting the paper, not buying the company.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For lenders and financing partners"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Page headline",
+     "text": "You are underwriting the paper, <em>not buying the company.</em>"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "A software borrower’s revenue is its customers’ credit. Software loans were marked down this year and have only partly recovered, and the distress has moved to the borrowers’ customers. What the record shows, and the evidence a borrower can assemble before the credit committee asks."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Talk to the desk"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "Financing providers:"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Link",
+     "text": "join the Capital Connections panel"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "For lenders · The exposure",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "For lenders · The exposure"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "21%"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "of private credit issuance since 2020 has gone to <em>software companies</em>, roughly, and 16 percent of leveraged loan issuance. A credit book is long software whether it chose to be or not."
+    },
+    {
+     "key": "market.4",
+     "kind": "Note",
+     "text": "Federal Reserve Board, FEDS Notes, August 11, 2026. Both markets stood at about $1.4tn at the end of 2025."
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "A borrower’s revenue is its customers’ credit. We could not find an...",
+   "items": [
+    {
+     "key": "evidence.1",
+     "kind": "Small label",
+     "text": "For lenders · Where the risk has moved"
+    },
+    {
+     "key": "evidence.2",
+     "kind": "Section headline",
+     "text": "A borrower’s revenue is its customers’ credit. <em>We could not find anyone who publishes guidance on that.</em>"
+    },
+    {
+     "key": "evidence.3",
+     "kind": "Paragraph",
+     "text": "We looked for published guidance on how a software borrower’s customer concentration or end-market exposure should be treated in underwriting: from the rating agencies, the bank regulators and the loan market’s trade association. We did not find any. If it exists, tell us and we will correct this page."
+    },
+    {
+     "key": "evidence.4",
+     "kind": "Text",
+     "text": "26%"
+    },
+    {
+     "key": "evidence.5",
+     "kind": "Text",
+     "text": "Healthcare providers’ share of August 2026 liability management transactions"
+    },
+    {
+     "key": "evidence.6",
+     "kind": "Text",
+     "text": "The largest single group, ahead of software and IT services at 11 percent each. For healthcare software, these are the borrower’s customers."
+    },
+    {
+     "key": "evidence.7",
+     "kind": "Text",
+     "text": "87.73"
+    },
+    {
+     "key": "evidence.8",
+     "kind": "Text",
+     "text": "Software loan bid at the end of August 2026, percent of par"
+    },
+    {
+     "key": "evidence.9",
+     "kind": "Text",
+     "text": "Up from a June low of 85.65, and still 330 basis points below January’s 95.20."
+    },
+    {
+     "key": "evidence.10",
+     "kind": "Text",
+     "text": "39%"
+    },
+    {
+     "key": "evidence.11",
+     "kind": "Text",
+     "text": "Private credit deals in 2025 that capped non-recurring add-backs"
+    },
+    {
+     "key": "evidence.12",
+     "kind": "Text",
+     "text": "Down from 47 percent in 2024 and 66 percent in 2023."
+    },
+    {
+     "key": "evidence.13",
+     "kind": "Text",
+     "text": "General principles that replaced the interagency guidance on leveraged lending"
+    },
+    {
+     "key": "evidence.14",
+     "kind": "Text",
+     "text": "The OCC and the FDIC rescinded the 2013 guidance on December 5, 2025. The Federal Reserve did not join."
+    },
+    {
+     "key": "evidence.15",
+     "kind": "Note",
+     "text": "PitchBook LCD, September 2, 2026. A law firm’s annual private credit deal-terms study, reported February 12, 2026. OCC Bulletin 2025-44, December 5, 2025. Default rates are not quoted here: the published rates differ by up to six times on methodology."
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "name": "The evidence a borrower has assembled, and the questions it helps a...",
+   "items": [
+    {
+     "key": "work.1",
+     "kind": "Small label",
+     "text": "For lenders · What we can discuss"
+    },
+    {
+     "key": "work.2",
+     "kind": "Section headline",
+     "text": "The evidence a borrower has assembled, <em>and the questions it helps answer.</em>"
+    },
+    {
+     "key": "work.3",
+     "kind": "Paragraph",
+     "text": "Any lender-required valuation or assurance work is separately scoped and commissioned."
+    },
+    {
+     "key": "work.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "work.5",
+     "kind": "Text",
+     "text": "The borrower’s customers"
+    },
+    {
+     "key": "work.6",
+     "kind": "Paragraph",
+     "text": "Concentration, retention and contract terms, and the condition of the end market the revenue depends on."
+    },
+    {
+     "key": "work.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "work.8",
+     "kind": "Text",
+     "text": "Earnings, traced"
+    },
+    {
+     "key": "work.9",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, and each add-back marked supported or unsupported."
+    },
+    {
+     "key": "work.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "work.11",
+     "kind": "Text",
+     "text": "What it is not"
+    },
+    {
+     "key": "work.12",
+     "kind": "Paragraph",
+     "text": "Non-attest preparation. It is not a quality of earnings report, and nothing here substitutes for work a lender is required to commission."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For lenders and financing partners",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For lenders and financing partners"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "The borrower’s customers, <em>read before the credit committee asks.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row reads a software borrower the way its customers’ market will: concentration, retention and contract terms, with earnings traced to source. Any lender-required valuation or assurance work is separately scoped and commissioned."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Talk to the desk"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person. Financing providers who want to be on the Capital Connections panel can say so in the same note."
+    }
+   ]
+  }
+ ]
+}

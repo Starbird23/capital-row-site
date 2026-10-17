@@ -1,0 +1,352 @@
+{
+ "path": "/insights/the-first-offer/",
+ "seoTitle": "The first offer: the first number is rarely the last | Capital Row Insights",
+ "seoDescription": "What the evidence says about unsolicited offers, deals the owner starts, whether a competitive process raises the price, what an advisor changes for a private seller, and the terms behind a headline price.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The evidence"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "The first number is rarely the last. And the party who sees the mar...",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For owners"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "The first offer"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "The first number is rarely the last. <em>And the party who sees the market sets it.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "An unsolicited offer arrives before you know what the alternatives would have been. What the research says about first bids, deals the owner starts, the buyer’s own preference for being alone, and the terms behind a headline price."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "What the evidence says"
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "The first bid, the final price, and who started the deal.",
+   "items": [
+    {
+     "key": "evidence.1",
+     "kind": "Small label",
+     "text": "The first offer · The evidence"
+    },
+    {
+     "key": "evidence.2",
+     "kind": "Section headline",
+     "text": "The first bid, the final price, <em>and who started the deal.</em>"
+    },
+    {
+     "key": "evidence.3",
+     "kind": "Text",
+     "text": "28.6%"
+    },
+    {
+     "key": "evidence.4",
+     "kind": "Text",
+     "text": "The winning bidder’s first bid"
+    },
+    {
+     "key": "evidence.5",
+     "kind": "Paragraph",
+     "text": "Average premium of the winning bidder’s first bid over the target’s share price, across 841 acquisitions of S&P 1500 companies, 2005 to 2019."
+    },
+    {
+     "key": "evidence.6",
+     "kind": "Text",
+     "text": "38.2%"
+    },
+    {
+     "key": "evidence.7",
+     "kind": "Text",
+     "text": "The final price"
+    },
+    {
+     "key": "evidence.8",
+     "kind": "Paragraph",
+     "text": "Average final premium in the same deals. Only 8 percent of winners won with a single bid, and 44 percent of sellers made a counteroffer."
+    },
+    {
+     "key": "evidence.9",
+     "kind": "Text",
+     "text": "87%"
+    },
+    {
+     "key": "evidence.10",
+     "kind": "Text",
+     "text": "Deals above $5 million with three or more offers"
+    },
+    {
+     "key": "evidence.11",
+     "kind": "Paragraph",
+     "text": "In the lower middle market, in the second quarter of 2026, as reported by the advisors who ran them. A third drew ten or more."
+    },
+    {
+     "key": "evidence.12",
+     "kind": "Text",
+     "text": "15.1%"
+    },
+    {
+     "key": "evidence.13",
+     "kind": "Text",
+     "text": "Lower premium when the seller started it"
+    },
+    {
+     "key": "evidence.14",
+     "kind": "Paragraph",
+     "text": "In the same study, a process the target initiated that did not draw competition priced 15.1 percent below a comparable negotiation the buyer started."
+    },
+    {
+     "key": "evidence.15",
+     "kind": "Text",
+     "text": "49%"
+    },
+    {
+     "key": "evidence.16",
+     "kind": "Text",
+     "text": "Engagements that died on the valuation gap"
+    },
+    {
+     "key": "evidence.17",
+     "kind": "Paragraph",
+     "text": "Share of investment bankers’ engagements that did not close because of the gap between the owner’s price and the market’s, in the 2024 Pepperdine survey. Two thirds of those gaps were 11 to 30 percent."
+    },
+    {
+     "key": "evidence.18",
+     "kind": "Text",
+     "text": "9%"
+    },
+    {
+     "key": "evidence.19",
+     "kind": "Text",
+     "text": "Average private-phase price revision"
+    },
+    {
+     "key": "evidence.20",
+     "kind": "Paragraph",
+     "text": "In 1,324 public acquisitions from 1994 to 2016, the price moved before announcement in more than 80 percent of deals, by an average of 9 percent. What is negotiated is negotiated before anyone else sees it."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "What the research says, and what it does not.",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "The first offer · What it means"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "What the research says, <em>and what it does not.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "What the evidence says"
+    },
+    {
+     "key": "read.4",
+     "kind": "Paragraph",
+     "text": "The best measurement of first bids against final prices comes from public companies, because their filings record every bid. In 841 acquisitions of S&P 1500 companies between 2005 and 2019, the winning bidder’s first bid carried an average premium of 28.6 percent and the final price 38.2 percent. Only 8 percent of winners won with a single bid. Where the seller countered, which 44 percent did, the final price landed between the last bid and the counter two times in three. The first number was the opening of a negotiation, not the result of one."
+    },
+    {
+     "key": "read.5",
+     "kind": "Paragraph",
+     "text": "Who starts the deal matters as much as how it is run. Target-initiated deals carry lower premiums, lower announcement returns and lower multiples of earnings than deals a buyer initiated, and the gap widens the less the buyer can confirm. A seller who approaches a single buyer is telling that buyer two things: that there is no competing bid yet, and that the seller has a reason to sell. The buyer prices both."
+    },
+    {
+     "key": "read.6",
+     "kind": "Heading",
+     "text": "What the evidence does not say"
+    },
+    {
+     "key": "read.7",
+     "kind": "Paragraph",
+     "text": "It does not say that an auction beats a negotiation, or that more bidders means a higher price. The most cited study of how firms are sold found that target shareholders did about as well in negotiations with one buyer as in auctions with several, and the 2023 study above found final premiums similar regardless of the number of bids. What raises the price is not the count of bidders. It is that the buyer who knows a competing bid is possible prices against it from the first round, and that a seller who knows what the market would pay does not accept a number below it. Both depend on someone seeing the whole market."
+    },
+    {
+     "key": "read.8",
+     "kind": "Heading",
+     "text": "What an advisor changes for a private seller"
+    },
+    {
+     "key": "read.9",
+     "kind": "Paragraph",
+     "text": "The one study built on private sellers found that, after correcting for which sellers choose to hire an advisor, represented sellers received higher valuations, and that the acquirer’s own shareholders did slightly worse when the seller was represented, which is the same finding read from the other side. The size of the effect is disputed by the firms that cite the study, so we do not quote it here. The direction is not disputed."
+    },
+    {
+     "key": "read.10",
+     "kind": "Paragraph",
+     "text": "What an advisor actually does is narrower than the word suggests. The advisor knows which buyers are active in the sector and at what price, so the first offer is read against a market rather than against hope. The advisor assembles the evidence before the buyer asks for it, so the price survives diligence. And the advisor carries the negotiation, so the owner can keep running the business the buyer is paying for. The valuation gap that kills half of all engagements is a gap between what the owner expects and what the records support; the work is on the records."
+    },
+    {
+     "key": "read.11",
+     "kind": "Heading",
+     "text": "The terms behind the headline"
+    },
+    {
+     "key": "read.12",
+     "kind": "Paragraph",
+     "text": "A price is a headline. The terms decide what the seller receives. In the lower middle market in the second quarter of 2026, sellers received between 83 and 92 percent of the price in cash at closing, with the rest in seller financing, earnouts and retained equity. Earnouts appeared in 24 percent of private-target deals in 2025, and in 35 percent of deals under $25 million. Across the deals that had one, about 21 cents of every dollar of maximum earnout was paid. Rollover equity averaged 16.9 percent of enterprise value in private equity deals through the third quarter of 2025. An escrow without representation and warranty insurance ran a median 10 percent of the price."
+    },
+    {
+     "key": "read.13",
+     "kind": "Paragraph",
+     "text": "A first offer with an earnout, a seller note and a rollover can carry a headline well above a second offer paid in cash, and deliver less. Reading the terms is the second half of reading the offer."
+    },
+    {
+     "key": "read.14",
+     "kind": "Heading",
+     "text": "The time it takes"
+    },
+    {
+     "key": "read.15",
+     "kind": "Paragraph",
+     "text": "Lower-middle-market engagements took eleven to twelve months from signing with an advisor to closing in the second quarter of 2026, and 60 to 90 percent of sellers across five size segments arrived with less than a year of exit planning. In a 2018 survey of owners, three quarters believed they could sell within a year. The gap between those two figures is the time an unsolicited offer takes advantage of."
+    },
+    {
+     "key": "read.16",
+     "kind": "Heading",
+     "text": "Capital Row’s answer"
+    },
+    {
+     "key": "read.17",
+     "kind": "Paragraph",
+     "text": "The sector mapped before anyone goes to market, the buyers active in it, and your numbers traced to source before anyone prices them. The Pre-Market Assessment gives you an indicative valuation range, the earnings behind it and what moves the range, before a buyer sets the first number. When you decide to go to market, Capital Row can represent you in the sale under a separate engagement. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    },
+    {
+     "key": "read.18",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.19",
+     "kind": "List item",
+     "text": "<a>Liu, Officer and Tu, Negotiation, auction, or negotiauction? Evidence from the field, draft of December 2023</a>, 841 acquisitions of S&P 1500 companies, 2005 to 2019"
+    },
+    {
+     "key": "read.20",
+     "kind": "List item",
+     "text": "<a>Liu and Officer, Inside the black box of private merger negotiations, Columbia Law School Blue Sky Blog, June 18, 2019</a>, 1,324 acquisitions, 1994 to 2016"
+    },
+    {
+     "key": "read.21",
+     "kind": "List item",
+     "text": "<a>Masulis and Simsir, Deal Initiation in Mergers and Acquisitions, Journal of Financial and Quantitative Analysis 53(6), 2018</a>"
+    },
+    {
+     "key": "read.22",
+     "kind": "List item",
+     "text": "<a>Boone and Mulherin, How Are Firms Sold?, Journal of Finance 62(2), 2007</a>"
+    },
+    {
+     "key": "read.23",
+     "kind": "List item",
+     "text": "<a>Agrawal, Cooper, Lian and Wang, Does Hiring M&A Advisors Matter for Private Sellers?, Quarterly Journal of Finance 13(1), 2023</a>"
+    },
+    {
+     "key": "read.24",
+     "kind": "List item",
+     "text": "<a>Pepperdine Private Capital Markets Report 2024, investment banker survey</a>, n = 69"
+    },
+    {
+     "key": "read.25",
+     "kind": "List item",
+     "text": "<a>IBBA and M&A Source, Market Pulse Q2 2026, released August 25, 2026</a>, 255 advisors, 181 closed deals, offers per deal, cash at closing, time to close, exit planning"
+    },
+    {
+     "key": "read.26",
+     "kind": "List item",
+     "text": "<a>SRS Acquiom, 2026 M&A Deal Terms Study, as summarized in the July 2026 newsletter</a>, 2,300 private-target deals, 2020 to 2025, earnouts and escrows"
+    },
+    {
+     "key": "read.27",
+     "kind": "List item",
+     "text": "<a>SRS Acquiom, 2024 M&A Claims Insights, 2025 info sheet</a>, earnout payments, excluding life sciences"
+    },
+    {
+     "key": "read.28",
+     "kind": "List item",
+     "text": "<a>Middle Market Growth (ACG), 2026 outlook: GF Data on rollover equity, February 10, 2026</a>"
+    },
+    {
+     "key": "read.29",
+     "kind": "List item",
+     "text": "<a>UBS Investor Watch, Who’s the boss?, February 13, 2018</a>, 1,085 business owners"
+    },
+    {
+     "key": "read.30",
+     "kind": "List item",
+     "text": "<a>A lower-middle-market deal platform, 2026 Lower Middle Market M&A Outlook, March 24, 2026</a>, 107 participants"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For owners",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For owners"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Find it before a buyer does.<br><em>Then decide what to do about it.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "The Pre-Market Assessment is the first read: an indicative valuation range, the earnings behind it as you report them, what moves the range, and a 90-day plan. You do not need to have decided to sell."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  }
+ ]
+}

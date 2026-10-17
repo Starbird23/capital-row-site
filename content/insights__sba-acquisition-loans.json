@@ -1,0 +1,397 @@
+{
+ "path": "/insights/sba-acquisition-loans/",
+ "seoTitle": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026 | Capital Row Insights",
+ "seoDescription": "The SBA 7(a) rules for buying a business under SOP 50 10 8.1: the $5 million limit, the 10 percent equity injection, the seller note on full standby, the independent valuation, the quality of earnings at $3 million, the fees, the ownership rule, and what a seller can and cannot agree to.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The rules"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "Financing"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "SBA acquisition loans"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "What an SBA 7(a) acquisition loan requires, <em>as of October 1, 2026.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "The Small Business Administration rewrote its lending procedures for business acquisitions this year. These are the rules a buyer, a seller and their advisors meet on a 7(a) acquisition loan, taken from the procedure itself. Capital Row is not a lender and does not package or broker loans; this page is information, not advice."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "The rules"
+    }
+   ]
+  },
+  {
+   "id": "rules",
+   "name": "Ten rules a buyer and a seller meet on a 7(a) acquisition loan.",
+   "items": [
+    {
+     "key": "rules.1",
+     "kind": "Small label",
+     "text": "SBA acquisition loans · The rules"
+    },
+    {
+     "key": "rules.2",
+     "kind": "Section headline",
+     "text": "Ten rules a buyer and a seller meet <em>on a 7(a) acquisition loan.</em>"
+    },
+    {
+     "key": "rules.3",
+     "kind": "Text",
+     "text": "$5,000,000"
+    },
+    {
+     "key": "rules.4",
+     "kind": "Text",
+     "text": "Maximum 7(a) loan"
+    },
+    {
+     "key": "rules.5",
+     "kind": "Paragraph",
+     "text": "The most any one standard 7(a) loan can be. SBA guarantees 75 percent of loans above $150,000 and 85 percent at or below it, with a maximum guaranty of $3.75 million to one business and its affiliates."
+    },
+    {
+     "key": "rules.6",
+     "kind": "Text",
+     "text": "10%"
+    },
+    {
+     "key": "rules.7",
+     "kind": "Text",
+     "text": "Equity injection, initial acquisition"
+    },
+    {
+     "key": "rules.8",
+     "kind": "Paragraph",
+     "text": "Measured on total project cost. For a first acquisition the injection cannot be reduced or eliminated. For a business expansion or an owner buyout the lender may reduce it where the borrower has sufficient liquidity and no negative net worth at the last year end."
+    },
+    {
+     "key": "rules.9",
+     "kind": "Text",
+     "text": "Half"
+    },
+    {
+     "key": "rules.10",
+     "kind": "Text",
+     "text": "The most a seller note can count"
+    },
+    {
+     "key": "rules.11",
+     "kind": "Paragraph",
+     "text": "Seller debt counts toward the equity injection only if it is subordinated and on full standby, with no payments of principal or interest for the term of the 7(a) loan, and only up to half of the required injection. Every other seller note is debt."
+    },
+    {
+     "key": "rules.12",
+     "kind": "Text",
+     "text": "$350,000"
+    },
+    {
+     "key": "rules.13",
+     "kind": "Text",
+     "text": "Independent valuation above"
+    },
+    {
+     "key": "rules.14",
+     "kind": "Paragraph",
+     "text": "Where the business purchase price, real estate excluded, exceeds $350,000, or the buyer and seller are related, the lender must obtain a valuation from an accredited, independent valuator, prepared for the lender. A valuation prepared for the buyer or the seller may not be used."
+    },
+    {
+     "key": "rules.15",
+     "kind": "Text",
+     "text": "$3,000,000"
+    },
+    {
+     "key": "rules.16",
+     "kind": "Text",
+     "text": "Quality of earnings at or above"
+    },
+    {
+     "key": "rules.17",
+     "kind": "Paragraph",
+     "text": "For an initial acquisition or a business expansion at a purchase price of $3 million or more, the lender must obtain a quality of earnings report with a cash proof, from an independent financial professional, for the lender. Owner buyouts and special purpose properties are exempt."
+    },
+    {
+     "key": "rules.18",
+     "kind": "Text",
+     "text": "1.25"
+    },
+    {
+     "key": "rules.19",
+     "kind": "Text",
+     "text": "Debt service coverage"
+    },
+    {
+     "key": "rules.20",
+     "kind": "Paragraph",
+     "text": "Historical earnings before interest, taxes, depreciation and amortization, divided by all debt service after the transaction, using the last fiscal year or the average of the last two. Projections may not be used to meet it."
+    },
+    {
+     "key": "rules.21",
+     "kind": "Text",
+     "text": "10 years"
+    },
+    {
+     "key": "rules.22",
+     "kind": "Text",
+     "text": "Maximum amortization"
+    },
+    {
+     "key": "rules.23",
+     "kind": "Paragraph",
+     "text": "For the business, goodwill and working capital, with no balloon. Only the real estate portion may run longer, to 25 years, blended on a weighted average."
+    },
+    {
+     "key": "rules.24",
+     "kind": "Text",
+     "text": "24 months"
+    },
+    {
+     "key": "rules.25",
+     "kind": "Text",
+     "text": "The seller may stay, as a consultant"
+    },
+    {
+     "key": "rules.26",
+     "kind": "Paragraph",
+     "text": "In an initial acquisition the seller may not remain as an owner, officer, director or employee. A consulting role of up to 24 months is allowed. Seller earnouts are prohibited."
+    },
+    {
+     "key": "rules.27",
+     "kind": "Text",
+     "text": "100%"
+    },
+    {
+     "key": "rules.28",
+     "kind": "Text",
+     "text": "Owners must be U.S. citizens or nationals"
+    },
+    {
+     "key": "rules.29",
+     "kind": "Paragraph",
+     "text": "From March 1, 2026, every direct and indirect owner and every required guarantor must be a U.S. citizen or national with a principal residence in the United States. Lawful permanent residents are no longer eligible."
+    },
+    {
+     "key": "rules.30",
+     "kind": "Text",
+     "text": "3.5%"
+    },
+    {
+     "key": "rules.31",
+     "kind": "Text",
+     "text": "Upfront guaranty fee, larger loans"
+    },
+    {
+     "key": "rules.32",
+     "kind": "Paragraph",
+     "text": "For fiscal year 2027, on the guaranteed portion: 2 percent at or below $150,000; 3 percent to $700,000; above that, 3.5 percent on the first $1 million of the guaranteed portion and 3.75 percent on the rest. A $5 million loan at a 75 percent guaranty carries an upfront fee of $138,125."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "What a seller can agree to, and who may be paid for a referral.",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "SBA acquisition loans · What it means"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "What a seller can agree to, <em>and who may be paid for a referral.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "What a seller can and cannot agree to"
+    },
+    {
+     "key": "read.4",
+     "kind": "List item",
+     "text": "A seller note that counts as the buyer’s equity is on full standby for the life of the loan: no principal and no interest until the SBA loan is repaid. Interest may accrue, and the note may amortize afterward."
+    },
+    {
+     "key": "read.5",
+     "kind": "List item",
+     "text": "A seller note that is not on standby is debt, and the total debt supporting the purchase, including that note, is limited to the valuation amount. If the price exceeds the valuation, the difference is made up with equity or standby funds."
+    },
+    {
+     "key": "read.6",
+     "kind": "List item",
+     "text": "The seller cannot take an earnout. Working capital true-ups are allowed."
+    },
+    {
+     "key": "read.7",
+     "kind": "List item",
+     "text": "The seller cannot remain in the business except as a consultant for up to 24 months. In a partial buyout, a selling owner who keeps under 20 percent must guarantee the loan for at least two years after disbursement."
+    },
+    {
+     "key": "read.8",
+     "kind": "List item",
+     "text": "The lender checks the seller’s financial data against IRS tax transcripts, and the quality of earnings report, where one is required, must reconcile the accountant-prepared statements, the tax returns, the internal statements and the transcripts."
+    },
+    {
+     "key": "read.9",
+     "kind": "List item",
+     "text": "Out-of-pocket costs of the valuation and the quality of earnings report may be passed to the borrower, and count toward the borrower’s equity injection."
+    },
+    {
+     "key": "read.10",
+     "kind": "Heading",
+     "text": "What it means for a software or services acquisition"
+    },
+    {
+     "key": "read.11",
+     "kind": "Paragraph",
+     "text": "A buyer is treated as expanding, rather than acquiring for the first time, only if it has operated for two full fiscal years under its current ownership and the target is in the same four-digit industry group. Otherwise the deal is an initial acquisition: the 10 percent injection cannot be waived, debt service coverage must reach 1.25, and a quality of earnings report is required at $3 million. Intangible assets and goodwill, which are most of what a software company is, are financeable on a ten-year term. A virtual business may be confirmed without a physical site visit if the lender documents the alternative."
+    },
+    {
+     "key": "read.12",
+     "kind": "Heading",
+     "text": "Who may be paid for a referral"
+    },
+    {
+     "key": "read.13",
+     "kind": "Paragraph",
+     "text": "SBA rules require anyone who refers an applicant to a lender, or a lender to an applicant, for a fee to disclose the fee on SBA Form 159, signed by the applicant, the agent and the lender. An agent may be paid by the applicant or by the lender, but not both for the same service. Fees must be reasonable and customary for the services actually performed, fees charged to the applicant may not be contingent on the loan being approved or closed, and a lender may not pass a referral fee to the borrower. In California, brokering commercial loans to a licensed finance lender requires a license under the California Financing Law; referrals to a bank are not within that definition, and a new law signed on September 30, 2026 will license commercial financing brokers for offers of $500,000 or less from July 1, 2028. Capital Row makes introductions through Capital Connections and does not package or broker loans; whether and how any introduction fee may be paid is a question of federal and state rules on which Capital Row takes counsel."
+    },
+    {
+     "key": "read.14",
+     "kind": "Text",
+     "text": "The procedure is public, it changed twice in sixteen months, and the lender reads the current one. So should the seller."
+    },
+    {
+     "key": "read.15",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "read.16",
+     "kind": "Paragraph",
+     "text": "This page summarizes the procedure as published; the procedure governs. The rules differ for partial changes of ownership, employee stock ownership plans and special purpose properties, and SBA notices change them. A lender, an attorney and a CPA should confirm every item before it is relied on."
+    },
+    {
+     "key": "read.17",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.18",
+     "kind": "List item",
+     "text": "<a>SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective October 1, 2026</a>"
+    },
+    {
+     "key": "read.19",
+     "kind": "List item",
+     "text": "<a>SBA Information Notice 5000-880695, Issuance of SOP 50 10 8.1, August 14, 2026</a>"
+    },
+    {
+     "key": "read.20",
+     "kind": "List item",
+     "text": "<a>SBA Information Notice 5000-881797, 7(a) Fees for Fiscal Year 2027, September 3, 2026</a>"
+    },
+    {
+     "key": "read.21",
+     "kind": "List item",
+     "text": "<a>13 CFR Part 103, Standards for Conducting Business with SBA</a>"
+    },
+    {
+     "key": "read.22",
+     "kind": "List item",
+     "text": "<a>SBA Form 159, Fee Disclosure and Compensation Agreement</a>"
+    },
+    {
+     "key": "read.23",
+     "kind": "List item",
+     "text": "<a>Live Oak Bank, Buying a business with a 7(a) loan now works differently</a>"
+    },
+    {
+     "key": "read.24",
+     "kind": "List item",
+     "text": "<a>CohnReznick, The new SBA quality of earnings requirement, October 8, 2026</a>"
+    },
+    {
+     "key": "read.25",
+     "kind": "List item",
+     "text": "<a>SBA Policy Notice 5000-876441, citizenship and residency requirements, effective March 1, 2026</a>"
+    },
+    {
+     "key": "read.26",
+     "kind": "List item",
+     "text": "<a>California Department of Financial Protection and Innovation, About the California Financing Law, updated August 12, 2025</a>"
+    },
+    {
+     "key": "read.27",
+     "kind": "List item",
+     "text": "<a>California AB 2116 (2025 to 2026), commercial financing provider and broker licensing, approved September 30, 2026</a>"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "Financing",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "Financing"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Buying a business? Planning a partner buyout?<br><em>Start with the financing need.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Connections introduces financing needs it has already read to financing providers. The provider handles its application, underwriting and credit decision."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Capital Connections"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "Introductions only. Capital Row is not a lender and does not package or broker loans."
+    }
+   ]
+  }
+ ]
+}

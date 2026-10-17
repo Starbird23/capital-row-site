@@ -1,0 +1,1082 @@
+{
+ "osbar": {
+  "name": "Top bar",
+  "items": [
+   {
+    "key": "sh.osbar.1",
+    "kind": "Text",
+    "text": "Selling in 2027?"
+   },
+   {
+    "key": "sh.osbar.2",
+    "kind": "Text",
+    "text": "What a buyer will find in your 2026 numbers, and how to find it first. Live session, January 20."
+   },
+   {
+    "key": "sh.osbar.3",
+    "kind": "Text",
+    "text": "Owner session, January 20."
+   },
+   {
+    "key": "sh.osbar.4",
+    "kind": "Button",
+    "text": "Reserve your seat"
+   }
+  ]
+ },
+ "mast": {
+  "name": "Menu",
+  "items": [
+   {
+    "key": "sh.mast.1",
+    "kind": "Link",
+    "text": "Capital"
+   },
+   {
+    "key": "sh.mast.2",
+    "kind": "Text",
+    "text": "Row"
+   },
+   {
+    "key": "sh.mast.3",
+    "kind": "Button",
+    "text": "Buyers"
+   },
+   {
+    "key": "sh.mast.4",
+    "kind": "Text",
+    "text": "For buyers"
+   },
+   {
+    "key": "sh.mast.5",
+    "kind": "Link",
+    "text": "How an engagement works"
+   },
+   {
+    "key": "sh.mast.6",
+    "kind": "Link",
+    "text": "Deal coverage calculator"
+   },
+   {
+    "key": "sh.mast.7",
+    "kind": "Link",
+    "text": "Sector coverage"
+   },
+   {
+    "key": "sh.mast.8",
+    "kind": "Text",
+    "text": "Acquisition routes"
+   },
+   {
+    "key": "sh.mast.9",
+    "kind": "Link",
+    "text": "Permanent capital and family offices"
+   },
+   {
+    "key": "sh.mast.10",
+    "kind": "Link",
+    "text": "Private equity and platform acquirers"
+   },
+   {
+    "key": "sh.mast.11",
+    "kind": "Link",
+    "text": "Strategic acquirers"
+   },
+   {
+    "key": "sh.mast.12",
+    "kind": "Link",
+    "text": "Independent sponsors"
+   },
+   {
+    "key": "sh.mast.13",
+    "kind": "Text",
+    "text": "Financing"
+   },
+   {
+    "key": "sh.mast.14",
+    "kind": "Link",
+    "text": "Capital Connections"
+   },
+   {
+    "key": "sh.mast.15",
+    "kind": "Button",
+    "text": "Sellers"
+   },
+   {
+    "key": "sh.mast.16",
+    "kind": "Text",
+    "text": "For owners"
+   },
+   {
+    "key": "sh.mast.17",
+    "kind": "Link",
+    "text": "Pressure-test your earnings"
+   },
+   {
+    "key": "sh.mast.18",
+    "kind": "Link",
+    "text": "Valuation calculator"
+   },
+   {
+    "key": "sh.mast.19",
+    "kind": "Link",
+    "text": "Growth and Exit Plan"
+   },
+   {
+    "key": "sh.mast.20",
+    "kind": "Link",
+    "text": "Report a dead deal"
+   },
+   {
+    "key": "sh.mast.21",
+    "kind": "Text",
+    "text": "Preparation"
+   },
+   {
+    "key": "sh.mast.22",
+    "kind": "Link",
+    "text": "Pre-Market Assessment"
+   },
+   {
+    "key": "sh.mast.23",
+    "kind": "Link",
+    "text": "Sell-Side QoE"
+   },
+   {
+    "key": "sh.mast.24",
+    "kind": "Link",
+    "text": "Owner session, January 20"
+   },
+   {
+    "key": "sh.mast.25",
+    "kind": "Text",
+    "text": "Three kinds of business"
+   },
+   {
+    "key": "sh.mast.26",
+    "kind": "Link",
+    "text": "Vertical software, SaaS"
+   },
+   {
+    "key": "sh.mast.27",
+    "kind": "Link",
+    "text": "Services"
+   },
+   {
+    "key": "sh.mast.28",
+    "kind": "Link",
+    "text": "Hybrid models"
+   },
+   {
+    "key": "sh.mast.29",
+    "kind": "Text",
+    "text": "Acquisition and growth financing"
+   },
+   {
+    "key": "sh.mast.30",
+    "kind": "Link",
+    "text": "Capital Connections"
+   },
+   {
+    "key": "sh.mast.31",
+    "kind": "Button",
+    "text": "Insights"
+   },
+   {
+    "key": "sh.mast.32",
+    "kind": "Text",
+    "text": "For buyers"
+   },
+   {
+    "key": "sh.mast.33",
+    "kind": "Link",
+    "text": "The market"
+   },
+   {
+    "key": "sh.mast.34",
+    "kind": "Link",
+    "text": "Why deals break"
+   },
+   {
+    "key": "sh.mast.35",
+    "kind": "Link",
+    "text": "What origination costs"
+   },
+   {
+    "key": "sh.mast.36",
+    "kind": "Link",
+    "text": "New revenue lines"
+   },
+   {
+    "key": "sh.mast.37",
+    "kind": "Link",
+    "text": "Dead Deal Notes"
+   },
+   {
+    "key": "sh.mast.38",
+    "kind": "Text",
+    "text": "For owners"
+   },
+   {
+    "key": "sh.mast.39",
+    "kind": "Link",
+    "text": "What a buyer finds"
+   },
+   {
+    "key": "sh.mast.40",
+    "kind": "Link",
+    "text": "The first offer"
+   },
+   {
+    "key": "sh.mast.41",
+    "kind": "Link",
+    "text": "What a quality of earnings report is"
+   },
+   {
+    "key": "sh.mast.42",
+    "kind": "Text",
+    "text": "Financing"
+   },
+   {
+    "key": "sh.mast.43",
+    "kind": "Link",
+    "text": "SBA acquisition loans"
+   },
+   {
+    "key": "sh.mast.44",
+    "kind": "Link",
+    "text": "For lenders"
+   },
+   {
+    "key": "sh.mast.45",
+    "kind": "Text",
+    "text": "Overview"
+   },
+   {
+    "key": "sh.mast.46",
+    "kind": "Link",
+    "text": "All insights"
+   },
+   {
+    "key": "sh.mast.47",
+    "kind": "Button",
+    "text": "About"
+   },
+   {
+    "key": "sh.mast.48",
+    "kind": "Link",
+    "text": "About Capital Row"
+   },
+   {
+    "key": "sh.mast.49",
+    "kind": "Link",
+    "text": "Our process"
+   },
+   {
+    "key": "sh.mast.50",
+    "kind": "Link",
+    "text": "Our team"
+   },
+   {
+    "key": "sh.mast.51",
+    "kind": "Link",
+    "text": "Join Capital Row"
+   },
+   {
+    "key": "sh.mast.52",
+    "kind": "Link",
+    "text": "Contact"
+   },
+   {
+    "key": "sh.mast.53",
+    "kind": "Button",
+    "text": "Start the conversation"
+   }
+  ]
+ },
+ "footer": {
+  "name": "Footer",
+  "items": [
+   {
+    "key": "sh.footer.1",
+    "kind": "Text",
+    "text": "Capital"
+   },
+   {
+    "key": "sh.footer.2",
+    "kind": "Text",
+    "text": "Row"
+   },
+   {
+    "key": "sh.footer.3",
+    "kind": "Note",
+    "text": "The vertical, already known."
+   },
+   {
+    "key": "sh.footer.4",
+    "kind": "Link",
+    "text": "Buyers"
+   },
+   {
+    "key": "sh.footer.5",
+    "kind": "Link",
+    "text": "Sellers"
+   },
+   {
+    "key": "sh.footer.6",
+    "kind": "Link",
+    "text": "Sell-Side QoE"
+   },
+   {
+    "key": "sh.footer.7",
+    "kind": "Link",
+    "text": "Insights"
+   },
+   {
+    "key": "sh.footer.8",
+    "kind": "Link",
+    "text": "About"
+   },
+   {
+    "key": "sh.footer.9",
+    "kind": "Link",
+    "text": "Sectors"
+   },
+   {
+    "key": "sh.footer.10",
+    "kind": "Link",
+    "text": "Follow a sector"
+   },
+   {
+    "key": "sh.footer.11",
+    "kind": "Link",
+    "text": "Report a dead deal"
+   },
+   {
+    "key": "sh.footer.12",
+    "kind": "Link",
+    "text": "Dead Deal Notes"
+   },
+   {
+    "key": "sh.footer.13",
+    "kind": "Link",
+    "text": "Start the conversation"
+   },
+   {
+    "key": "sh.footer.14",
+    "kind": "Link",
+    "text": "Privacy Policy"
+   },
+   {
+    "key": "sh.footer.15",
+    "kind": "Link",
+    "text": "SMS Terms"
+   },
+   {
+    "key": "sh.footer.16",
+    "kind": "Button",
+    "text": "Cookie settings"
+   },
+   {
+    "key": "sh.footer.17",
+    "kind": "Paragraph",
+    "text": "Capital Row is an independent advisory firm. It performs non-attest services only, does not issue audit, review or examination opinions, and is not a registered broker-dealer. It does not represent an owner in a transaction with a buyer it serves, and it does not act for both sides of the same transaction, ever. Nothing produced here is an audit, a review, a compilation or an attestation."
+   },
+   {
+    "key": "sh.footer.18",
+    "kind": "Paragraph",
+    "text": "<b>Engagement scope is agreed in writing.</b> Our work supports transaction preparation and decision-making. Any lender-required valuation or assurance work is separately scoped and commissioned. General information only; not legal, tax or accounting advice."
+   },
+   {
+    "key": "sh.footer.19",
+    "kind": "Paragraph",
+    "text": "© 2026 Capital Row. All rights reserved."
+   }
+  ]
+ },
+ "rt": {
+  "name": "Valuation calculator button",
+  "items": [
+   {
+    "key": "sh.rt.1",
+    "kind": "Button",
+    "text": "Valuation calculator"
+   }
+  ]
+ },
+ "valuation": {
+  "name": "Valuation calculator",
+  "items": [
+   {
+    "key": "sh.valuation.1",
+    "kind": "Small label",
+    "text": "Valuation calculator"
+   },
+   {
+    "key": "sh.valuation.2",
+    "kind": "Section headline",
+    "text": "How would buyers value <em>your business?</em>"
+   },
+   {
+    "key": "sh.valuation.3",
+    "kind": "Paragraph",
+    "text": "Most owners have blind spots about what their business is worth. Answer ten questions and see the range a buyer would start from, in about a minute."
+   },
+   {
+    "key": "sh.valuation.4",
+    "kind": "List item",
+    "text": "<b>1</b>Your business"
+   },
+   {
+    "key": "sh.valuation.5",
+    "kind": "List item",
+    "text": "<b>2</b>About you"
+   },
+   {
+    "key": "sh.valuation.6",
+    "kind": "List item",
+    "text": "<b>3</b>Your range"
+   },
+   {
+    "key": "sh.valuation.7",
+    "kind": "Form label",
+    "text": "Last twelve months revenue"
+   },
+   {
+    "key": "sh.valuation.8",
+    "kind": "Form label",
+    "text": "Last twelve months adjusted earnings"
+   },
+   {
+    "key": "sh.valuation.9",
+    "kind": "Text",
+    "text": "Adjusted earnings is adjusted EBITDA: profit before interest, tax, depreciation and amortization, with your own pay above a market salary and one-time costs added back."
+   },
+   {
+    "key": "sh.valuation.10",
+    "kind": "Form label",
+    "text": "What you sell"
+   },
+   {
+    "key": "sh.valuation.11",
+    "kind": "Form label",
+    "text": "Yearly earnings growth, last three years"
+   },
+   {
+    "key": "sh.valuation.12",
+    "kind": "Form label",
+    "text": "Your industry, optional"
+   },
+   {
+    "key": "sh.valuation.13",
+    "kind": "Form label",
+    "text": "Your sector, optional"
+   },
+   {
+    "key": "sh.valuation.14",
+    "kind": "Form label",
+    "text": "Revenue that is repeat or recurring"
+   },
+   {
+    "key": "sh.valuation.15",
+    "kind": "Form label",
+    "text": "Revenue from your five largest customers"
+   },
+   {
+    "key": "sh.valuation.16",
+    "kind": "Form label",
+    "text": "Do you sell to a highly regulated industry"
+   },
+   {
+    "key": "sh.valuation.17",
+    "kind": "Form label",
+    "text": "Your plans for your own role after a sale"
+   },
+   {
+    "key": "sh.valuation.18",
+    "kind": "Button",
+    "text": "Next"
+   },
+   {
+    "key": "sh.valuation.19",
+    "kind": "Form label",
+    "text": "Company name"
+   },
+   {
+    "key": "sh.valuation.20",
+    "kind": "Form label",
+    "text": "Your role"
+   },
+   {
+    "key": "sh.valuation.21",
+    "kind": "Form label",
+    "text": "First name"
+   },
+   {
+    "key": "sh.valuation.22",
+    "kind": "Form label",
+    "text": "Last name"
+   },
+   {
+    "key": "sh.valuation.23",
+    "kind": "Form label",
+    "text": "Work email"
+   },
+   {
+    "key": "sh.valuation.24",
+    "kind": "Form label",
+    "text": "Mobile number, optional"
+   },
+   {
+    "key": "sh.valuation.25",
+    "kind": "Form label",
+    "text": "When do you plan to sell"
+   },
+   {
+    "key": "sh.valuation.26",
+    "kind": "Form label",
+    "text": "How did you hear about us, optional"
+   },
+   {
+    "key": "sh.valuation.27",
+    "kind": "Text",
+    "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+   },
+   {
+    "key": "sh.valuation.28",
+    "kind": "Text",
+    "text": "Optional."
+   },
+   {
+    "key": "sh.valuation.29",
+    "kind": "Text",
+    "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+   },
+   {
+    "key": "sh.valuation.30",
+    "kind": "Paragraph",
+    "text": "When you press Calculate, your answers and details come to Capital Row, so that we can follow up. <a>Privacy Policy</a>."
+   },
+   {
+    "key": "sh.valuation.31",
+    "kind": "Button",
+    "text": "Previous"
+   },
+   {
+    "key": "sh.valuation.32",
+    "kind": "Button",
+    "text": "Calculate"
+   },
+   {
+    "key": "sh.valuation.33",
+    "kind": "Small label",
+    "text": "What a buyer will look at"
+   },
+   {
+    "key": "sh.valuation.34",
+    "kind": "Small label",
+    "text": "What moves the range"
+   },
+   {
+    "key": "sh.valuation.35",
+    "kind": "Paragraph",
+    "text": "A buyer prices the earnings it can support with documents. Every added-back item you cannot document comes off your earnings before any multiple is applied. A Pre-Market Assessment traces your numbers to source documents before a buyer does."
+   },
+   {
+    "key": "sh.valuation.36",
+    "kind": "Button",
+    "text": "Book a consultation"
+   },
+   {
+    "key": "sh.valuation.37",
+    "kind": "Paragraph",
+    "text": "Twenty minutes, confidential, on a Pre-Market Assessment for your business. <a>Request a Pre-Market Assessment</a>"
+   },
+   {
+    "key": "sh.valuation.38",
+    "kind": "Text",
+    "text": "Your earnings or your revenue"
+   },
+   {
+    "key": "sh.valuation.39",
+    "kind": "Paragraph",
+    "text": "Services businesses are priced on adjusted earnings. Software is usually priced on revenue."
+   },
+   {
+    "key": "sh.valuation.40",
+    "kind": "Text",
+    "text": "Published medians"
+   },
+   {
+    "key": "sh.valuation.41",
+    "kind": "Paragraph",
+    "text": "Three named, dated figures for your kind of business, from Pepperdine, IBBA and M&A Source, and Software Equity Group."
+   },
+   {
+    "key": "sh.valuation.42",
+    "kind": "Text",
+    "text": "Your range"
+   },
+   {
+    "key": "sh.valuation.43",
+    "kind": "Paragraph",
+    "text": "From the lowest reading to the highest. A buyer sets the price after diligence of your records."
+   },
+   {
+    "key": "sh.valuation.44",
+    "kind": "Button",
+    "text": "Change my answers"
+   },
+   {
+    "key": "sh.valuation.45",
+    "kind": "Note",
+    "text": "The range is an educational estimate from your own answers and published medians. It is not a valuation, an appraisal or an offer, and it is not financial, tax or legal advice. It does not account for the specific factors that can change what a buyer pays. For an accurate view, speak with a qualified advisor."
+   },
+   {
+    "key": "sh.valuation.46",
+    "kind": "Note",
+    "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report, July 2, 2026: investment banker survey, median multiples of recast EBITDA by size band, business services. IBBA and M&A Source, Market Pulse, Q2 2026: median multiple at $5M to $50M of enterprise value. Software Equity Group, Q2 2026 SaaS M&A and Public Market Report, August 5, 2026: enterprise value to trailing revenue, the median and the average SaaS transaction and the listed SaaS index median. Each figure is for its own size band and period, not a figure for your business."
+   }
+  ]
+ },
+ "ck": {
+  "name": "Cookie notice",
+  "items": [
+   {
+    "key": "sh.ck.1",
+    "kind": "Paragraph",
+    "text": "This site uses cookies from HubSpot to see which pages are read. They are set only if you accept. <a>Privacy Policy</a>"
+   },
+   {
+    "key": "sh.ck.2",
+    "kind": "Button",
+    "text": "Decline"
+   },
+   {
+    "key": "sh.ck.3",
+    "kind": "Button",
+    "text": "Accept"
+   }
+  ]
+ },
+ "sn": {
+  "name": "Follow a sector box",
+  "items": [
+   {
+    "key": "sh.sn.1",
+    "kind": "Small label",
+    "text": "Sector notes"
+   },
+   {
+    "key": "sh.sn.2",
+    "kind": "Paragraph",
+    "text": "Follow a sector."
+   },
+   {
+    "key": "sh.sn.3",
+    "kind": "Paragraph",
+    "text": "Choose the sectors you follow and we send our notes on them as they are published."
+   },
+   {
+    "key": "sh.sn.4",
+    "kind": "Form label",
+    "text": "Sectors"
+   },
+   {
+    "key": "sh.sn.5",
+    "kind": "Text",
+    "text": "Healthcare"
+   },
+   {
+    "key": "sh.sn.6",
+    "kind": "Text",
+    "text": "Billing, coding & claims"
+   },
+   {
+    "key": "sh.sn.7",
+    "kind": "Text",
+    "text": "Denials & clearinghouse workflow"
+   },
+   {
+    "key": "sh.sn.8",
+    "kind": "Text",
+    "text": "Credentialing & provider data"
+   },
+   {
+    "key": "sh.sn.9",
+    "kind": "Text",
+    "text": "Specialty practice management"
+   },
+   {
+    "key": "sh.sn.10",
+    "kind": "Text",
+    "text": "Dental practice software"
+   },
+   {
+    "key": "sh.sn.11",
+    "kind": "Text",
+    "text": "Home health & hospice software"
+   },
+   {
+    "key": "sh.sn.12",
+    "kind": "Text",
+    "text": "Behavioral & specialty health"
+   },
+   {
+    "key": "sh.sn.13",
+    "kind": "Text",
+    "text": "Pharmacy, DME & infusion"
+   },
+   {
+    "key": "sh.sn.14",
+    "kind": "Text",
+    "text": "Aesthetics & med spa"
+   },
+   {
+    "key": "sh.sn.15",
+    "kind": "Text",
+    "text": "Physical therapy & rehab software"
+   },
+   {
+    "key": "sh.sn.16",
+    "kind": "Text",
+    "text": "Long-term care & senior living software"
+   },
+   {
+    "key": "sh.sn.17",
+    "kind": "Text",
+    "text": "Payment integrity software"
+   },
+   {
+    "key": "sh.sn.18",
+    "kind": "Text",
+    "text": "Healthcare staffing & scheduling software"
+   },
+   {
+    "key": "sh.sn.19",
+    "kind": "Text",
+    "text": "Veterinary practice software"
+   },
+   {
+    "key": "sh.sn.20",
+    "kind": "Text",
+    "text": "Financial services"
+   },
+   {
+    "key": "sh.sn.21",
+    "kind": "Text",
+    "text": "Bank & credit union software"
+   },
+   {
+    "key": "sh.sn.22",
+    "kind": "Text",
+    "text": "Insurance software"
+   },
+   {
+    "key": "sh.sn.23",
+    "kind": "Text",
+    "text": "Wealth & advisory software"
+   },
+   {
+    "key": "sh.sn.24",
+    "kind": "Text",
+    "text": "Lending & mortgage software"
+   },
+   {
+    "key": "sh.sn.25",
+    "kind": "Text",
+    "text": "Accounting & tax firm software"
+   },
+   {
+    "key": "sh.sn.26",
+    "kind": "Text",
+    "text": "Collections & receivables software"
+   },
+   {
+    "key": "sh.sn.27",
+    "kind": "Text",
+    "text": "Compliance software for advisors & broker-dealers"
+   },
+   {
+    "key": "sh.sn.28",
+    "kind": "Text",
+    "text": "Construction, real estate & field services"
+   },
+   {
+    "key": "sh.sn.29",
+    "kind": "Text",
+    "text": "Construction & contractor software"
+   },
+   {
+    "key": "sh.sn.30",
+    "kind": "Text",
+    "text": "Field service management software"
+   },
+   {
+    "key": "sh.sn.31",
+    "kind": "Text",
+    "text": "Property management software"
+   },
+   {
+    "key": "sh.sn.32",
+    "kind": "Text",
+    "text": "HOA & community association software"
+   },
+   {
+    "key": "sh.sn.33",
+    "kind": "Text",
+    "text": "Equipment rental software"
+   },
+   {
+    "key": "sh.sn.34",
+    "kind": "Text",
+    "text": "Transportation & logistics"
+   },
+   {
+    "key": "sh.sn.35",
+    "kind": "Text",
+    "text": "Dispatch, TMS & freight audit"
+   },
+   {
+    "key": "sh.sn.36",
+    "kind": "Text",
+    "text": "Fleet compliance & telematics"
+   },
+   {
+    "key": "sh.sn.37",
+    "kind": "Text",
+    "text": "Warehouse management for 3PLs"
+   },
+   {
+    "key": "sh.sn.38",
+    "kind": "Text",
+    "text": "Customs & trade compliance software"
+   },
+   {
+    "key": "sh.sn.39",
+    "kind": "Text",
+    "text": "Freight brokerage & visibility software"
+   },
+   {
+    "key": "sh.sn.40",
+    "kind": "Text",
+    "text": "Fleet maintenance software"
+   },
+   {
+    "key": "sh.sn.41",
+    "kind": "Text",
+    "text": "School bus & transit routing"
+   },
+   {
+    "key": "sh.sn.42",
+    "kind": "Text",
+    "text": "Technology services"
+   },
+   {
+    "key": "sh.sn.43",
+    "kind": "Text",
+    "text": "MSP & IT service software"
+   },
+   {
+    "key": "sh.sn.44",
+    "kind": "Text",
+    "text": "Security tools for MSPs"
+   },
+   {
+    "key": "sh.sn.45",
+    "kind": "Text",
+    "text": "Backup & disaster recovery software"
+   },
+   {
+    "key": "sh.sn.46",
+    "kind": "Text",
+    "text": "Manufacturing"
+   },
+   {
+    "key": "sh.sn.47",
+    "kind": "Text",
+    "text": "Manufacturing ERP & shop floor"
+   },
+   {
+    "key": "sh.sn.48",
+    "kind": "Text",
+    "text": "Quality management software"
+   },
+   {
+    "key": "sh.sn.49",
+    "kind": "Text",
+    "text": "Maintenance & asset management"
+   },
+   {
+    "key": "sh.sn.50",
+    "kind": "Text",
+    "text": "Distribution & wholesale ERP"
+   },
+   {
+    "key": "sh.sn.51",
+    "kind": "Text",
+    "text": "Machine monitoring & industrial IoT"
+   },
+   {
+    "key": "sh.sn.52",
+    "kind": "Text",
+    "text": "Environment, health & safety software"
+   },
+   {
+    "key": "sh.sn.53",
+    "kind": "Text",
+    "text": "Hospitality"
+   },
+   {
+    "key": "sh.sn.54",
+    "kind": "Text",
+    "text": "Restaurant POS & back office"
+   },
+   {
+    "key": "sh.sn.55",
+    "kind": "Text",
+    "text": "Hotel property management & revenue tools"
+   },
+   {
+    "key": "sh.sn.56",
+    "kind": "Text",
+    "text": "Event & venue management software"
+   },
+   {
+    "key": "sh.sn.57",
+    "kind": "Text",
+    "text": "Fitness & gym management software"
+   },
+   {
+    "key": "sh.sn.58",
+    "kind": "Text",
+    "text": "Salon, spa & wellness software"
+   },
+   {
+    "key": "sh.sn.59",
+    "kind": "Text",
+    "text": "Ticketing & attractions software"
+   },
+   {
+    "key": "sh.sn.60",
+    "kind": "Text",
+    "text": "Retail & automotive"
+   },
+   {
+    "key": "sh.sn.61",
+    "kind": "Text",
+    "text": "Auto dealer & repair software"
+   },
+   {
+    "key": "sh.sn.62",
+    "kind": "Text",
+    "text": "Convenience store & fuel retail software"
+   },
+   {
+    "key": "sh.sn.63",
+    "kind": "Text",
+    "text": "Car wash software"
+   },
+   {
+    "key": "sh.sn.64",
+    "kind": "Text",
+    "text": "Legal & professional services"
+   },
+   {
+    "key": "sh.sn.65",
+    "kind": "Text",
+    "text": "Legal practice software"
+   },
+   {
+    "key": "sh.sn.66",
+    "kind": "Text",
+    "text": "Litigation support & e-discovery software"
+   },
+   {
+    "key": "sh.sn.67",
+    "kind": "Text",
+    "text": "Association & membership software"
+   },
+   {
+    "key": "sh.sn.68",
+    "kind": "Text",
+    "text": "Nonprofit & church software"
+   },
+   {
+    "key": "sh.sn.69",
+    "kind": "Text",
+    "text": "Staffing & recruiting software"
+   },
+   {
+    "key": "sh.sn.70",
+    "kind": "Text",
+    "text": "Government"
+   },
+   {
+    "key": "sh.sn.71",
+    "kind": "Text",
+    "text": "Municipal finance & administration software"
+   },
+   {
+    "key": "sh.sn.72",
+    "kind": "Text",
+    "text": "Public safety & emergency communications"
+   },
+   {
+    "key": "sh.sn.73",
+    "kind": "Text",
+    "text": "Utility billing & customer systems"
+   },
+   {
+    "key": "sh.sn.74",
+    "kind": "Text",
+    "text": "K-12 district administration software"
+   },
+   {
+    "key": "sh.sn.75",
+    "kind": "Text",
+    "text": "Parks & recreation software"
+   },
+   {
+    "key": "sh.sn.76",
+    "kind": "Text",
+    "text": "Courts & justice software"
+   },
+   {
+    "key": "sh.sn.77",
+    "kind": "Text",
+    "text": "Permitting & licensing software"
+   },
+   {
+    "key": "sh.sn.78",
+    "kind": "Text",
+    "text": "Another sector"
+   },
+   {
+    "key": "sh.sn.79",
+    "kind": "Form label",
+    "text": "Which sector"
+   },
+   {
+    "key": "sh.sn.80",
+    "kind": "Form label",
+    "text": "Work email"
+   },
+   {
+    "key": "sh.sn.81",
+    "kind": "Button",
+    "text": "Follow"
+   }
+  ]
+ },
+ "snt": {
+  "name": "Follow a sector tab",
+  "items": [
+   {
+    "key": "sh.snt.1",
+    "kind": "Button",
+    "text": "Follow a sector"
+   }
+  ]
+ }
+}

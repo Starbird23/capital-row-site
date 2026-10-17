@@ -1,0 +1,686 @@
+{
+ "path": "/buyers/deal-calculator/",
+ "seoTitle": "Deal coverage calculator: what one deal costs to originate | Capital Row",
+ "seoDescription": "Two calculations for buyers of vertical software: the share of your own market your firm sees, against a published benchmark, and what one signed letter costs to originate and what a dead one wastes.",
+ "sections": [
+  {
+   "id": "inner",
+   "name": "What one deal costs to originate, and what a dead one wastes.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "For buyers"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "Deal coverage calculator"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Page headline",
+     "text": "What one deal costs to originate, <em>and what a dead one wastes.</em>"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "Two calculations from published benchmarks and your own numbers: the share of your market your firm sees, and the cost of one signed letter. Nothing you enter leaves this page."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Text",
+     "text": "Published benchmarks"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "Your own figures"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Nothing sent anywhere"
+    }
+   ]
+  },
+  {
+   "id": "coverage",
+   "name": "Coverage: the share of your market you see",
+   "items": [
+    {
+     "key": "coverage.1",
+     "kind": "Small label",
+     "text": "Coverage: the share of your market you see"
+    },
+    {
+     "key": "coverage.2",
+     "kind": "Text",
+     "text": "1 in 5"
+    },
+    {
+     "key": "coverage.3",
+     "kind": "Paragraph",
+     "text": "The median private equity firm sees fewer than <em>one deal in five</em> of the ones available inside its own stated market."
+    },
+    {
+     "key": "coverage.4",
+     "kind": "Text",
+     "text": "18.4%"
+    },
+    {
+     "key": "coverage.5",
+     "kind": "Text",
+     "text": "Median"
+    },
+    {
+     "key": "coverage.6",
+     "kind": "Text",
+     "text": "27.9%"
+    },
+    {
+     "key": "coverage.7",
+     "kind": "Text",
+     "text": "Top quarter"
+    },
+    {
+     "key": "coverage.8",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "coverage.9",
+     "kind": "Text",
+     "text": "Strongest"
+    },
+    {
+     "key": "coverage.10",
+     "kind": "Text",
+     "text": "Your firm"
+    },
+    {
+     "key": "coverage.11",
+     "kind": "Text",
+     "text": "0%"
+    },
+    {
+     "key": "coverage.12",
+     "kind": "Text",
+     "text": "Share of available deals seen"
+    },
+    {
+     "key": "coverage.13",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "coverage.14",
+     "kind": "Paragraph",
+     "text": "Where would your firm land?"
+    },
+    {
+     "key": "coverage.15",
+     "kind": "Form label",
+     "text": "Your market"
+    },
+    {
+     "key": "coverage.16",
+     "kind": "Form label",
+     "text": "Sectors you buy in. Choose any."
+    },
+    {
+     "key": "coverage.17",
+     "kind": "Text",
+     "text": "Billing, coding & claims"
+    },
+    {
+     "key": "coverage.18",
+     "kind": "Text",
+     "text": "Denials & clearinghouse workflow"
+    },
+    {
+     "key": "coverage.19",
+     "kind": "Text",
+     "text": "Credentialing & provider data"
+    },
+    {
+     "key": "coverage.20",
+     "kind": "Text",
+     "text": "Specialty practice management"
+    },
+    {
+     "key": "coverage.21",
+     "kind": "Text",
+     "text": "Dental practice software"
+    },
+    {
+     "key": "coverage.22",
+     "kind": "Text",
+     "text": "Home health & hospice software"
+    },
+    {
+     "key": "coverage.23",
+     "kind": "Text",
+     "text": "Behavioral & specialty health"
+    },
+    {
+     "key": "coverage.24",
+     "kind": "Text",
+     "text": "Pharmacy, DME & infusion"
+    },
+    {
+     "key": "coverage.25",
+     "kind": "Text",
+     "text": "Aesthetics & med spa"
+    },
+    {
+     "key": "coverage.26",
+     "kind": "Text",
+     "text": "Physical therapy & rehab software"
+    },
+    {
+     "key": "coverage.27",
+     "kind": "Text",
+     "text": "Long-term care & senior living software"
+    },
+    {
+     "key": "coverage.28",
+     "kind": "Text",
+     "text": "Payment integrity software"
+    },
+    {
+     "key": "coverage.29",
+     "kind": "Text",
+     "text": "Healthcare staffing & scheduling software"
+    },
+    {
+     "key": "coverage.30",
+     "kind": "Text",
+     "text": "Veterinary practice software"
+    },
+    {
+     "key": "coverage.31",
+     "kind": "Text",
+     "text": "Bank & credit union software"
+    },
+    {
+     "key": "coverage.32",
+     "kind": "Text",
+     "text": "Insurance software"
+    },
+    {
+     "key": "coverage.33",
+     "kind": "Text",
+     "text": "Wealth & advisory software"
+    },
+    {
+     "key": "coverage.34",
+     "kind": "Text",
+     "text": "Lending & mortgage software"
+    },
+    {
+     "key": "coverage.35",
+     "kind": "Text",
+     "text": "Accounting & tax firm software"
+    },
+    {
+     "key": "coverage.36",
+     "kind": "Text",
+     "text": "Collections & receivables software"
+    },
+    {
+     "key": "coverage.37",
+     "kind": "Text",
+     "text": "Compliance software for advisors & broker-dealers"
+    },
+    {
+     "key": "coverage.38",
+     "kind": "Text",
+     "text": "Construction & contractor software"
+    },
+    {
+     "key": "coverage.39",
+     "kind": "Text",
+     "text": "Field service management software"
+    },
+    {
+     "key": "coverage.40",
+     "kind": "Text",
+     "text": "Property management software"
+    },
+    {
+     "key": "coverage.41",
+     "kind": "Text",
+     "text": "HOA & community association software"
+    },
+    {
+     "key": "coverage.42",
+     "kind": "Text",
+     "text": "Equipment rental software"
+    },
+    {
+     "key": "coverage.43",
+     "kind": "Text",
+     "text": "Dispatch, TMS & freight audit"
+    },
+    {
+     "key": "coverage.44",
+     "kind": "Text",
+     "text": "Fleet compliance & telematics"
+    },
+    {
+     "key": "coverage.45",
+     "kind": "Text",
+     "text": "Warehouse management for 3PLs"
+    },
+    {
+     "key": "coverage.46",
+     "kind": "Text",
+     "text": "Customs & trade compliance software"
+    },
+    {
+     "key": "coverage.47",
+     "kind": "Text",
+     "text": "Freight brokerage & visibility software"
+    },
+    {
+     "key": "coverage.48",
+     "kind": "Text",
+     "text": "Fleet maintenance software"
+    },
+    {
+     "key": "coverage.49",
+     "kind": "Text",
+     "text": "School bus & transit routing"
+    },
+    {
+     "key": "coverage.50",
+     "kind": "Text",
+     "text": "MSP & IT service software"
+    },
+    {
+     "key": "coverage.51",
+     "kind": "Text",
+     "text": "Security tools for MSPs"
+    },
+    {
+     "key": "coverage.52",
+     "kind": "Text",
+     "text": "Backup & disaster recovery software"
+    },
+    {
+     "key": "coverage.53",
+     "kind": "Text",
+     "text": "Manufacturing ERP & shop floor"
+    },
+    {
+     "key": "coverage.54",
+     "kind": "Text",
+     "text": "Quality management software"
+    },
+    {
+     "key": "coverage.55",
+     "kind": "Text",
+     "text": "Maintenance & asset management"
+    },
+    {
+     "key": "coverage.56",
+     "kind": "Text",
+     "text": "Distribution & wholesale ERP"
+    },
+    {
+     "key": "coverage.57",
+     "kind": "Text",
+     "text": "Machine monitoring & industrial IoT"
+    },
+    {
+     "key": "coverage.58",
+     "kind": "Text",
+     "text": "Environment, health & safety software"
+    },
+    {
+     "key": "coverage.59",
+     "kind": "Text",
+     "text": "Restaurant POS & back office"
+    },
+    {
+     "key": "coverage.60",
+     "kind": "Text",
+     "text": "Hotel property management & revenue tools"
+    },
+    {
+     "key": "coverage.61",
+     "kind": "Text",
+     "text": "Event & venue management software"
+    },
+    {
+     "key": "coverage.62",
+     "kind": "Text",
+     "text": "Fitness & gym management software"
+    },
+    {
+     "key": "coverage.63",
+     "kind": "Text",
+     "text": "Salon, spa & wellness software"
+    },
+    {
+     "key": "coverage.64",
+     "kind": "Text",
+     "text": "Ticketing & attractions software"
+    },
+    {
+     "key": "coverage.65",
+     "kind": "Text",
+     "text": "Auto dealer & repair software"
+    },
+    {
+     "key": "coverage.66",
+     "kind": "Text",
+     "text": "Convenience store & fuel retail software"
+    },
+    {
+     "key": "coverage.67",
+     "kind": "Text",
+     "text": "Car wash software"
+    },
+    {
+     "key": "coverage.68",
+     "kind": "Text",
+     "text": "Legal practice software"
+    },
+    {
+     "key": "coverage.69",
+     "kind": "Text",
+     "text": "Litigation support & e-discovery software"
+    },
+    {
+     "key": "coverage.70",
+     "kind": "Text",
+     "text": "Association & membership software"
+    },
+    {
+     "key": "coverage.71",
+     "kind": "Text",
+     "text": "Nonprofit & church software"
+    },
+    {
+     "key": "coverage.72",
+     "kind": "Text",
+     "text": "Staffing & recruiting software"
+    },
+    {
+     "key": "coverage.73",
+     "kind": "Text",
+     "text": "Municipal finance & administration software"
+    },
+    {
+     "key": "coverage.74",
+     "kind": "Text",
+     "text": "Public safety & emergency communications"
+    },
+    {
+     "key": "coverage.75",
+     "kind": "Text",
+     "text": "Utility billing & customer systems"
+    },
+    {
+     "key": "coverage.76",
+     "kind": "Text",
+     "text": "K-12 district administration software"
+    },
+    {
+     "key": "coverage.77",
+     "kind": "Text",
+     "text": "Parks & recreation software"
+    },
+    {
+     "key": "coverage.78",
+     "kind": "Text",
+     "text": "Courts & justice software"
+    },
+    {
+     "key": "coverage.79",
+     "kind": "Text",
+     "text": "Permitting & licensing software"
+    },
+    {
+     "key": "coverage.80",
+     "kind": "Form label",
+     "text": "Deals your firm saw, last twelve months"
+    },
+    {
+     "key": "coverage.81",
+     "kind": "Form label",
+     "text": "Completed deals in your stated market <i>(optional)</i>"
+    },
+    {
+     "key": "coverage.82",
+     "kind": "Button",
+     "text": "See where your firm lands"
+    },
+    {
+     "key": "coverage.83",
+     "kind": "Paragraph",
+     "text": "<a>Discuss acquisition criteria</a>"
+    },
+    {
+     "key": "coverage.84",
+     "kind": "Paragraph",
+     "text": "Do not know the market count? Leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
+    },
+    {
+     "key": "coverage.85",
+     "kind": "Note",
+     "text": "How this was measured: the study took 177 private equity firms. For each one, it listed the deals completed in the industries and sizes that firm says it targets, each with a private equity buyer and a sell-side advisor, and counted how many of those the firm saw. SPS / With Intelligence, Deal Origination Benchmark Report, twelve months to June 30, 2025."
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "name": "What one signed letter costs. And what a dead one wastes.",
+   "items": [
+    {
+     "key": "cost.1",
+     "kind": "Small label",
+     "text": "What one deal costs to originate"
+    },
+    {
+     "key": "cost.2",
+     "kind": "Section headline",
+     "text": "What one signed letter costs. <em>And what a dead one wastes.</em>"
+    },
+    {
+     "key": "cost.3",
+     "kind": "Paragraph",
+     "text": "The published figures below are the starting values. Change any of them to your own and the totals follow. Nothing you enter is sent anywhere."
+    },
+    {
+     "key": "cost.4",
+     "kind": "Text",
+     "text": "Associate, full time"
+    },
+    {
+     "key": "cost.5",
+     "kind": "Paragraph",
+     "text": "Mapping, outreach, qualifying. The person is $135,000 to $253,000 in total compensation, and cannot run a process at the same time."
+    },
+    {
+     "key": "cost.6",
+     "kind": "Text",
+     "text": "12 to 18"
+    },
+    {
+     "key": "cost.7",
+     "kind": "Text",
+     "text": "Months to vertical depth"
+    },
+    {
+     "key": "cost.8",
+     "kind": "Paragraph",
+     "text": "How long before a new hire knows which names are unbuyable and why, rather than adding them to the list again."
+    },
+    {
+     "key": "cost.9",
+     "kind": "Text",
+     "text": "37 to 159"
+    },
+    {
+     "key": "cost.10",
+     "kind": "Text",
+     "text": "Days under exclusivity per dead deal"
+    },
+    {
+     "key": "cost.11",
+     "kind": "Paragraph",
+     "text": "The average by buyer type, from a family office to a senior lender, plus the diligence invoices already committed."
+    },
+    {
+     "key": "cost.12",
+     "kind": "Text",
+     "text": "Retained search, one sector"
+    },
+    {
+     "key": "cost.13",
+     "kind": "Paragraph",
+     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+    },
+    {
+     "key": "cost.14",
+     "kind": "Form label",
+     "text": "Associate total compensation, a year <i>($)</i>"
+    },
+    {
+     "key": "cost.15",
+     "kind": "Text",
+     "text": "Midpoint of the published $135,000 to $253,000."
+    },
+    {
+     "key": "cost.16",
+     "kind": "Form label",
+     "text": "Months of that person’s time per signed letter"
+    },
+    {
+     "key": "cost.17",
+     "kind": "Text",
+     "text": "Your own figure. Twelve is a placeholder, not a measurement."
+    },
+    {
+     "key": "cost.18",
+     "kind": "Form label",
+     "text": "Days under exclusivity before a letter dies"
+    },
+    {
+     "key": "cost.19",
+     "kind": "Text",
+     "text": "Midpoint of the published 37 to 159, by buyer type."
+    },
+    {
+     "key": "cost.20",
+     "kind": "Form label",
+     "text": "Signed letters that died, last twelve months"
+    },
+    {
+     "key": "cost.21",
+     "kind": "Text",
+     "text": "Your own count."
+    },
+    {
+     "key": "cost.22",
+     "kind": "Button",
+     "text": "Show the cost"
+    },
+    {
+     "key": "cost.23",
+     "kind": "Text",
+     "text": "To originate one signed letter"
+    },
+    {
+     "key": "cost.24",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.25",
+     "kind": "Paragraph",
+     "text": "The associate’s time, at the compensation above, from a filtered list to a signed letter."
+    },
+    {
+     "key": "cost.26",
+     "kind": "Text",
+     "text": "Lost on one letter that dies in exclusivity"
+    },
+    {
+     "key": "cost.27",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.28",
+     "kind": "Paragraph",
+     "text": "The origination cost above, plus the days under exclusivity, before any diligence invoice."
+    },
+    {
+     "key": "cost.29",
+     "kind": "Text",
+     "text": "Lost on the letters that died last year"
+    },
+    {
+     "key": "cost.30",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.31",
+     "kind": "Paragraph",
+     "text": "Your count of dead letters, at the cost of one."
+    },
+    {
+     "key": "cost.32",
+     "kind": "Note",
+     "text": "Compensation range compiled by a sell-side advisory firm from Glassdoor data, August 2024, for a US M&A associate, total compensation. Days under exclusivity from a lower-middle-market deal platform’s study of broken letters of intent, January 2026, averages by buyer type: 37 days where a family office was the buyer, 159 where a senior lender was. The months per letter and the count of dead letters are yours; the calculator does not supply them. Diligence invoices, legal fees and the time of anyone other than the associate are not included."
+    },
+    {
+     "key": "cost.33",
+     "kind": "Button",
+     "text": "Discuss a sector"
+    },
+    {
+     "key": "cost.34",
+     "kind": "Note",
+     "text": "One vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

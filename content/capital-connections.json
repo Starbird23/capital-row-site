@@ -1,0 +1,848 @@
+{
+ "path": "/capital-connections/",
+ "seoTitle": "Capital Row: Capital Connections, financing for acquisitions, ownership transitions and growth",
+ "seoDescription": "Capital Connections: financing for acquisitions, ownership transitions and growth. Clarify your capital needs, identify financial preparation gaps and explore relevant financing introductions.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "What you are financing"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The five questions"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "The business story"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "SBA loans"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Who it is for"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Financing partners"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    },
+    {
+     "key": "pgnav.9",
+     "kind": "Link",
+     "text": "Start"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Financing for acquisitions, ownership transitions and growth.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "<i>Capital Connections</i>"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "Financing for acquisitions, ownership transitions <em>and growth.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "A financing conversation starts with understanding the business. Capital Connections brings Capital Row’s transaction intelligence to that conversation, helping buyers and owners clarify their capital needs, identify financial preparation gaps and explore relevant financing introductions."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "Our focus is vertical software and software-enabled services businesses."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Discuss acquisition financing"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Explore capital for your business"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Capital"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "Connections"
+    },
+    {
+     "key": "inner.9",
+     "kind": "Text",
+     "text": "Confidence"
+    }
+   ]
+  },
+  {
+   "id": "uses",
+   "name": "What are you financing?",
+   "items": [
+    {
+     "key": "uses.1",
+     "kind": "Section headline",
+     "text": "What are you <em>financing?</em>"
+    },
+    {
+     "key": "uses.2",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "uses.3",
+     "kind": "Text",
+     "text": "Acquire a business or transition ownership"
+    },
+    {
+     "key": "uses.4",
+     "kind": "Text",
+     "text": "Explore financing for a business acquisition, partner buyout or qualifying ownership transition."
+    },
+    {
+     "key": "uses.5",
+     "kind": "Text",
+     "text": "We help clarify the transaction, the proposed use of funds and the information a financing provider will need to assess the opportunity. Depending on eligibility and structure, potential routes may include SBA-backed or conventional financing."
+    },
+    {
+     "key": "uses.6",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "uses.7",
+     "kind": "Text",
+     "text": "Fund growth and working capital"
+    },
+    {
+     "key": "uses.8",
+     "kind": "Text",
+     "text": "Explore capital for expansion, hiring, operating needs or eligible debt refinancing."
+    },
+    {
+     "key": "uses.9",
+     "kind": "Text",
+     "text": "The starting point is a clear view of cash flow, existing obligations and how additional capital would support the business."
+    },
+    {
+     "key": "uses.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "uses.11",
+     "kind": "Text",
+     "text": "Finance receivables and business assets"
+    },
+    {
+     "key": "uses.12",
+     "kind": "Text",
+     "text": "For businesses with eligible receivables, inventory or other assets, financing may help bridge the gap between delivering services and collecting payment."
+    },
+    {
+     "key": "uses.13",
+     "kind": "Text",
+     "text": "Specialist financing may also be worth exploring when a business’s needs fall outside standard bank criteria."
+    }
+   ]
+  },
+  {
+   "id": "questions",
+   "name": "What a financing provider asks first, and what a good answer looks ...",
+   "items": [
+    {
+     "key": "questions.1",
+     "kind": "Small label",
+     "text": "Capital Connections · The five questions"
+    },
+    {
+     "key": "questions.2",
+     "kind": "Section headline",
+     "text": "What a financing provider asks first, <em>and what a good answer looks like.</em>"
+    },
+    {
+     "key": "questions.3",
+     "kind": "Paragraph",
+     "text": "The form on this page asks the same five questions, so the introduction arrives with the answers already in hand."
+    },
+    {
+     "key": "questions.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "questions.5",
+     "kind": "Text",
+     "text": "What is the capital for?"
+    },
+    {
+     "key": "questions.6",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "questions.7",
+     "kind": "Text",
+     "text": "What cash flow supports repayment?"
+    },
+    {
+     "key": "questions.8",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "questions.9",
+     "kind": "Text",
+     "text": "What existing debt, receivables or assets affect the need?"
+    },
+    {
+     "key": "questions.10",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "questions.11",
+     "kind": "Text",
+     "text": "What financial information needs preparation?"
+    },
+    {
+     "key": "questions.12",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "questions.13",
+     "kind": "Text",
+     "text": "Where is the business in the process?"
+    },
+    {
+     "key": "questions.14",
+     "kind": "Text",
+     "text": "What is the capital for?"
+    },
+    {
+     "key": "questions.15",
+     "kind": "Paragraph",
+     "text": "An acquisition, an ownership transition, growth and working capital, or receivables and assets. The purpose decides the provider, the structure and the paperwork, before any amount does."
+    },
+    {
+     "key": "questions.16",
+     "kind": "Text",
+     "text": "What cash flow supports repayment?"
+    },
+    {
+     "key": "questions.17",
+     "kind": "Paragraph",
+     "text": "Historical adjusted earnings over the debt service after the transaction. A provider underwrites the last fiscal year or the average of the last two, and may not use projections to meet the coverage it requires."
+    },
+    {
+     "key": "questions.18",
+     "kind": "Text",
+     "text": "What existing debt, receivables or assets affect the need?"
+    },
+    {
+     "key": "questions.19",
+     "kind": "Paragraph",
+     "text": "A bank line, an SBA loan, large receivables, equipment. Each one is either collateral or a prior claim, and the provider wants to know which before the first conversation."
+    },
+    {
+     "key": "questions.20",
+     "kind": "Text",
+     "text": "What financial information needs preparation?"
+    },
+    {
+     "key": "questions.21",
+     "kind": "Paragraph",
+     "text": "Statements that are current, statements that need clean-up, or statements that are behind. The answer sets the timeline: a provider cannot underwrite what is not reconciled."
+    },
+    {
+     "key": "questions.22",
+     "kind": "Text",
+     "text": "Where is the business in the process?"
+    },
+    {
+     "key": "questions.23",
+     "kind": "Paragraph",
+     "text": "A signed letter, a target in view, a plan for next year. The stage decides whether the introduction is now or after the preparation work."
+    }
+   ]
+  },
+  {
+   "id": "intelligence",
+   "name": "A useful financing introduction needs a clear business story.",
+   "items": [
+    {
+     "key": "intelligence.1",
+     "kind": "Small label",
+     "text": "Intelligence before the introduction"
+    },
+    {
+     "key": "intelligence.2",
+     "kind": "Section headline",
+     "text": "A useful financing introduction needs <em>a clear business story.</em>"
+    },
+    {
+     "key": "intelligence.3",
+     "kind": "Paragraph",
+     "text": "The form below asks the five questions a financing provider asks first. Where the numbers need work before an introduction, our preparation services can help."
+    },
+    {
+     "key": "intelligence.4",
+     "kind": "Button",
+     "text": "Answer the five questions"
+    },
+    {
+     "key": "intelligence.5",
+     "kind": "Paragraph",
+     "text": "<a>See financial preparation</a>"
+    }
+   ]
+  },
+  {
+   "id": "sba",
+   "name": "What an SBA 7(a) acquisition loan requires, as of October 1, 2026.",
+   "items": [
+    {
+     "key": "sba.1",
+     "kind": "Small label",
+     "text": "Capital Connections · The rules behind an SBA acquisition loan"
+    },
+    {
+     "key": "sba.2",
+     "kind": "Section headline",
+     "text": "What an SBA 7(a) acquisition loan requires, <em>as of October 1, 2026.</em>"
+    },
+    {
+     "key": "sba.3",
+     "kind": "Paragraph",
+     "text": "The Small Business Administration rewrote its procedure for business acquisitions this year. These are the rules a buyer and a seller meet on a 7(a) acquisition loan, taken from the procedure itself. Capital Row is not a lender and does not package or broker loans."
+    },
+    {
+     "key": "sba.4",
+     "kind": "Text",
+     "text": "$5,000,000"
+    },
+    {
+     "key": "sba.5",
+     "kind": "Text",
+     "text": "Maximum 7(a) loan"
+    },
+    {
+     "key": "sba.6",
+     "kind": "Paragraph",
+     "text": "SBA guarantees 75 percent above $150,000, and 85 percent at or below it."
+    },
+    {
+     "key": "sba.7",
+     "kind": "Text",
+     "text": "10%"
+    },
+    {
+     "key": "sba.8",
+     "kind": "Text",
+     "text": "Equity injection"
+    },
+    {
+     "key": "sba.9",
+     "kind": "Paragraph",
+     "text": "Of total project cost on an initial acquisition, and it cannot be reduced. A seller note counts toward it only on full standby for the term of the loan, and only up to half."
+    },
+    {
+     "key": "sba.10",
+     "kind": "Text",
+     "text": "$350,000"
+    },
+    {
+     "key": "sba.11",
+     "kind": "Text",
+     "text": "Independent valuation above"
+    },
+    {
+     "key": "sba.12",
+     "kind": "Paragraph",
+     "text": "An accredited, independent valuator, engaged by the lender. A valuation prepared for the buyer or the seller may not be used."
+    },
+    {
+     "key": "sba.13",
+     "kind": "Text",
+     "text": "$3,000,000"
+    },
+    {
+     "key": "sba.14",
+     "kind": "Text",
+     "text": "Quality of earnings at or above"
+    },
+    {
+     "key": "sba.15",
+     "kind": "Paragraph",
+     "text": "A report with a cash proof, from an independent financial professional, for the lender, on an initial acquisition or business expansion."
+    },
+    {
+     "key": "sba.16",
+     "kind": "Text",
+     "text": "1.25"
+    },
+    {
+     "key": "sba.17",
+     "kind": "Text",
+     "text": "Debt service coverage"
+    },
+    {
+     "key": "sba.18",
+     "kind": "Paragraph",
+     "text": "Historical earnings over all debt service after the transaction, from the last year or the average of the last two. Projections may not be used."
+    },
+    {
+     "key": "sba.19",
+     "kind": "Text",
+     "text": "24 months"
+    },
+    {
+     "key": "sba.20",
+     "kind": "Text",
+     "text": "The seller may stay, as a consultant"
+    },
+    {
+     "key": "sba.21",
+     "kind": "Paragraph",
+     "text": "Not as an owner, officer, director or employee. Seller earnouts are prohibited; working capital true-ups are allowed."
+    },
+    {
+     "key": "sba.22",
+     "kind": "Note",
+     "text": "SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective October 1, 2026, Appendix 15 and Appendix 16. This is information, not advice; the procedure governs, and a lender, an attorney and a CPA should confirm each item before it is relied on."
+    },
+    {
+     "key": "sba.23",
+     "kind": "Link",
+     "text": "The full note, with the fees, the ownership rule and what a seller can agree to"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "How Capital Connections works.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Section headline",
+     "text": "How Capital Connections <em>works.</em>"
+    },
+    {
+     "key": "how.2",
+     "kind": "Text",
+     "text": "Share the opportunity"
+    },
+    {
+     "key": "how.3",
+     "kind": "Paragraph",
+     "text": "Tell us about the business, financing purpose, approximate amount and timing."
+    },
+    {
+     "key": "how.4",
+     "kind": "Text",
+     "text": "Clarify the financing need"
+    },
+    {
+     "key": "how.5",
+     "kind": "Paragraph",
+     "text": "We discuss the opportunity and identify information or preparation needed before an introduction."
+    },
+    {
+     "key": "how.6",
+     "kind": "Text",
+     "text": "Explore a relevant introduction"
+    },
+    {
+     "key": "how.7",
+     "kind": "Paragraph",
+     "text": "With your permission, we introduce an appropriate financing provider where a potential fit exists. The provider handles its application, underwriting and credit decision."
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "name": "Buyers, owners and partners with a financing need and a story a len...",
+   "items": [
+    {
+     "key": "who.1",
+     "kind": "Small label",
+     "text": "Capital Connections · Who it is for"
+    },
+    {
+     "key": "who.2",
+     "kind": "Section headline",
+     "text": "Buyers, owners and partners <em>with a financing need and a story a lender can read.</em>"
+    },
+    {
+     "key": "who.3",
+     "kind": "Text",
+     "text": "A buyer"
+    },
+    {
+     "key": "who.4",
+     "kind": "Text",
+     "text": "Financing an acquisition"
+    },
+    {
+     "key": "who.5",
+     "kind": "Paragraph",
+     "text": "The target read before the letter, the equity and the seller note structured to the rules, and an introduction to a provider that lends in the sector."
+    },
+    {
+     "key": "who.6",
+     "kind": "Text",
+     "text": "An owner"
+    },
+    {
+     "key": "who.7",
+     "kind": "Text",
+     "text": "Growth or working capital"
+    },
+    {
+     "key": "who.8",
+     "kind": "Paragraph",
+     "text": "Earnings read the way a lender will, the gaps in the statements found first, and an introduction when the story holds."
+    },
+    {
+     "key": "who.9",
+     "kind": "Text",
+     "text": "Partners"
+    },
+    {
+     "key": "who.10",
+     "kind": "Text",
+     "text": "A buyout between owners"
+    },
+    {
+     "key": "who.11",
+     "kind": "Paragraph",
+     "text": "An owner buyout has its own rules on equity and guarantees. The need is read against them before the introduction."
+    },
+    {
+     "key": "who.12",
+     "kind": "Text",
+     "text": "A searcher"
+    },
+    {
+     "key": "who.13",
+     "kind": "Text",
+     "text": "One transaction, one lender"
+    },
+    {
+     "key": "who.14",
+     "kind": "Paragraph",
+     "text": "The evidence the lender’s own report will look for, assembled before the application."
+    },
+    {
+     "key": "who.15",
+     "kind": "Text",
+     "text": "A seller"
+    },
+    {
+     "key": "who.16",
+     "kind": "Text",
+     "text": "A buyer who needs a loan"
+    },
+    {
+     "key": "who.17",
+     "kind": "Paragraph",
+     "text": "What the buyer’s lender will require of you: the valuation, the quality of earnings at $3 million, the seller note on standby, the consulting term."
+    },
+    {
+     "key": "who.18",
+     "kind": "Text",
+     "text": "Not for"
+    },
+    {
+     "key": "who.19",
+     "kind": "Text",
+     "text": "Capital Row does not lend"
+    },
+    {
+     "key": "who.20",
+     "kind": "Paragraph",
+     "text": "Capital Row is not a lender and does not package or broker loans. The provider handles its application, underwriting and credit decision."
+    }
+   ]
+  },
+  {
+   "id": "partners",
+   "name": "A financing need, read before it reaches you.",
+   "items": [
+    {
+     "key": "partners.1",
+     "kind": "Small label",
+     "text": "Capital Connections · For lenders and financing partners"
+    },
+    {
+     "key": "partners.2",
+     "kind": "Section headline",
+     "text": "A financing need, <em>read before it reaches you.</em>"
+    },
+    {
+     "key": "partners.3",
+     "kind": "Paragraph",
+     "text": "Capital Row introduces financing needs it has already read: the business story, the purpose and amount, the cash flow that supports repayment, and what in the financial information needs preparation first. Software and services companies in the sectors we cover, from $3 million in revenue. The provider handles its application, underwriting and credit decision."
+    },
+    {
+     "key": "partners.4",
+     "kind": "Paragraph",
+     "text": "If you lend to or invest in companies like these and want to be on the panel, tell us what you finance, at what size, and in which sectors."
+    },
+    {
+     "key": "partners.5",
+     "kind": "Button",
+     "text": "Join the panel"
+    },
+    {
+     "key": "partners.6",
+     "kind": "Note",
+     "text": "One business day, read by a person. <a>Our note for lenders: the borrower’s customers</a>."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Capital Connections · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Is Capital Row a lender or a loan broker?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "Neither. Capital Row introduces a financing need it has already read to a financing provider, with your permission. The provider handles its application, underwriting and credit decision."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "What does the introduction cost me?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Scope and fee for any preparation work are agreed in writing. If a provider pays Capital Row a referral fee, we tell you before the introduction."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Will you send my financial information to a lender?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Not through this website, and not without your permission. Sensitive information moves through a controlled workspace under a signed engagement."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Does an SBA loan apply to my deal?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "The rules are on this page and in full on the Insights note: the loan limit, the equity injection, the seller note, the valuation, the quality of earnings at $3 million. A lender, an attorney and a CPA confirm each item for your deal."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "What if the statements are behind?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "Then the preparation comes first. A provider cannot underwrite what is not reconciled, and the introduction waits until the story holds."
+    }
+   ]
+  },
+  {
+   "id": "inquiry",
+   "name": "Let’s discuss what comes next.",
+   "items": [
+    {
+     "key": "inquiry.1",
+     "kind": "Section headline",
+     "text": "Let’s discuss <em>what comes next.</em>"
+    },
+    {
+     "key": "inquiry.2",
+     "kind": "Paragraph",
+     "text": "Buying a business? Planning a partner buyout? Funding the next stage of growth?"
+    },
+    {
+     "key": "inquiry.3",
+     "kind": "Paragraph",
+     "text": "Start with a conversation about the opportunity and the capital it requires."
+    },
+    {
+     "key": "inquiry.4",
+     "kind": "Button",
+     "text": "Discuss the financing need"
+    },
+    {
+     "key": "inquiry.5",
+     "kind": "Note",
+     "text": "Five questions a financing provider asks first. Nothing is sent to a provider without your permission."
+    },
+    {
+     "key": "inquiry.6",
+     "kind": "Paragraph",
+     "text": "Discuss the financing need"
+    },
+    {
+     "key": "inquiry.7",
+     "kind": "Form label",
+     "text": "Name"
+    },
+    {
+     "key": "inquiry.8",
+     "kind": "Form label",
+     "text": "Company"
+    },
+    {
+     "key": "inquiry.9",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "inquiry.10",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "inquiry.11",
+     "kind": "Form label",
+     "text": "Business type"
+    },
+    {
+     "key": "inquiry.12",
+     "kind": "Form label",
+     "text": "Annual revenue"
+    },
+    {
+     "key": "inquiry.13",
+     "kind": "Paragraph",
+     "text": "The five questions a financing provider asks first"
+    },
+    {
+     "key": "inquiry.14",
+     "kind": "Form label",
+     "text": "1. What is the capital for?"
+    },
+    {
+     "key": "inquiry.15",
+     "kind": "Form label",
+     "text": "Approximate amount"
+    },
+    {
+     "key": "inquiry.16",
+     "kind": "Form label",
+     "text": "2. What cash flow supports repayment?"
+    },
+    {
+     "key": "inquiry.17",
+     "kind": "Form label",
+     "text": "3. What existing debt, receivables or assets affect the financing need? Optional"
+    },
+    {
+     "key": "inquiry.18",
+     "kind": "Form label",
+     "text": "4. What financial information needs preparation or clarification?"
+    },
+    {
+     "key": "inquiry.19",
+     "kind": "Form label",
+     "text": "5. What does the transaction timeline require?"
+    },
+    {
+     "key": "inquiry.20",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "inquiry.21",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "inquiry.22",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "inquiry.23",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "inquiry.24",
+     "kind": "Button",
+     "text": "Request a Capital Connections conversation"
+    },
+    {
+     "key": "inquiry.25",
+     "kind": "Paragraph",
+     "text": "<a>Book a call</a>"
+    },
+    {
+     "key": "inquiry.26",
+     "kind": "Note",
+     "text": "Capital Row introduces businesses to financing providers. We do not lend money or make credit decisions. Each provider sets its own eligibility, terms and approval. If a provider pays Capital Row a referral fee, we tell you before the introduction. Our financial preparation does not replace a lender’s underwriting, or a quality of earnings report where a lender requires one."
+    },
+    {
+     "key": "inquiry.27",
+     "kind": "Note",
+     "text": "Please do not send financial documents or confidential information here."
+    },
+    {
+     "key": "inquiry.28",
+     "kind": "Note",
+     "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
+    }
+   ]
+  }
+ ]
+}

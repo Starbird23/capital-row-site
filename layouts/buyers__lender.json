@@ -1,0 +1,14 @@
+{
+ "page": "/buyers/lender/",
+ "slots": {
+  "p.1": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"../../insights/for-lenders/index.html\">"
+   ],
+   "section": "p"
+  }
+ }
+}

@@ -1,0 +1,1067 @@
+{
+ "path": "/sellers/",
+ "seoTitle": "Capital Row, for owners: pressure-test the earnings behind your valuation",
+ "seoDescription": "For owners of vertical software and technology-enabled services businesses. Find the earnings questions a buyer’s diligence will raise, traced to source documents, before you go to market.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Find it first"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Why deals break"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Three kinds of business"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Pre-Market Assessment"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Buyer map"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Advisors"
+    },
+    {
+     "key": "pgnav.9",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "hasph",
+   "name": "You have a valuation. Now pressure-test the earnings behind it.",
+   "items": [
+    {
+     "key": "hasph.1",
+     "kind": "Text",
+     "text": "<i>Before the offer</i>"
+    },
+    {
+     "key": "hasph.2",
+     "kind": "Page headline",
+     "text": "You have a valuation. <em>Now pressure-test the earnings behind it.</em>"
+    },
+    {
+     "key": "hasph.3",
+     "kind": "Paragraph",
+     "text": "Find the financial gaps and earnings questions a buyer’s diligence will raise, while you still control the timeline. Your numbers traced to source documents, and a findings report that is yours to keep."
+    },
+    {
+     "key": "hasph.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "hasph.5",
+     "kind": "Text",
+     "text": "Traced to source documents"
+    },
+    {
+     "key": "hasph.6",
+     "kind": "Text",
+     "text": "Findings you keep"
+    },
+    {
+     "key": "hasph.7",
+     "kind": "Text",
+     "text": "Nothing reaches a buyer without your permission"
+    },
+    {
+     "key": "hasph.8",
+     "kind": "Text",
+     "text": "Receive a valuation."
+    },
+    {
+     "key": "hasph.9",
+     "kind": "Link",
+     "text": "Know your earnings before you negotiate your price"
+    }
+   ]
+  },
+  {
+   "id": "dead-deal",
+   "name": "dead-deal",
+   "items": [
+    {
+     "key": "deaddeal.1",
+     "kind": "Paragraph",
+     "text": "Did your deal blow up?"
+    },
+    {
+     "key": "deaddeal.2",
+     "kind": "Text",
+     "text": "Tell us what happened, confidentially."
+    },
+    {
+     "key": "deaddeal.3",
+     "kind": "Link",
+     "text": "Report a dead deal"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "The gap between the valuation and the deal",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "The gap between the valuation and the deal"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "57%"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "of dealmakers surveyed attributed failed deals in the first half of 2026 to <em>valuation expectations</em>. A year earlier it was 28 percent."
+    },
+    {
+     "key": "market.4",
+     "kind": "Note",
+     "text": "Lower-middle-market dealmakers surveyed by a deal platform in July 2026, on deals that failed in the first half of the year, against 28 percent for 2025. Published August 11, 2026."
+    }
+   ]
+  },
+  {
+   "id": "breaks",
+   "name": "The findings that end deals are already in your records. Find them ...",
+   "items": [
+    {
+     "key": "breaks.1",
+     "kind": "Small label",
+     "text": "What diligence finds"
+    },
+    {
+     "key": "breaks.2",
+     "kind": "Section headline",
+     "text": "The findings that end deals are already in your records."
+    },
+    {
+     "key": "breaks.3",
+     "kind": "Text",
+     "text": "Find them first."
+    },
+    {
+     "key": "breaks.4",
+     "kind": "Paragraph",
+     "text": "Seventy-five letters of intent that were signed and then collapsed, with the reasons as reported. Each of these sits in records an owner already holds."
+    },
+    {
+     "key": "breaks.5",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "breaks.6",
+     "kind": "Text",
+     "text": "The earnings were not what was presented"
+    },
+    {
+     "key": "breaks.7",
+     "kind": "Text",
+     "text": "Adjusted earnings did not survive contact with the source documents. Twice the 2023 rate of 10.6 percent."
+    },
+    {
+     "key": "breaks.8",
+     "kind": "Text",
+     "text": "25.3%"
+    },
+    {
+     "key": "breaks.9",
+     "kind": "Text",
+     "text": "A finding outside the quality-of-earnings work"
+    },
+    {
+     "key": "breaks.10",
+     "kind": "Text",
+     "text": "A license, a contract, a compliance gap, a customer concentration. Up from 19.1 percent in 2023."
+    },
+    {
+     "key": "breaks.11",
+     "kind": "Text",
+     "text": "14.7%"
+    },
+    {
+     "key": "breaks.12",
+     "kind": "Text",
+     "text": "The renegotiation that followed"
+    },
+    {
+     "key": "breaks.13",
+     "kind": "Text",
+     "text": "The finding did not end the deal. The argument about the price after it did."
+    },
+    {
+     "key": "breaks.14",
+     "kind": "Text",
+     "text": "37 to 159"
+    },
+    {
+     "key": "breaks.15",
+     "kind": "Text",
+     "text": "Average days under exclusivity before it died"
+    },
+    {
+     "key": "breaks.16",
+     "kind": "Text",
+     "text": "From 37 days where a family office was the buyer to 159 where a senior lender was. The business is off the market the whole time."
+    },
+    {
+     "key": "breaks.17",
+     "kind": "Text",
+     "text": "The usual order"
+    },
+    {
+     "key": "breaks.18",
+     "kind": "Text",
+     "text": "Your order"
+    },
+    {
+     "key": "breaks.19",
+     "kind": "Text",
+     "text": "Today"
+    },
+    {
+     "key": "breaks.20",
+     "kind": "Paragraph",
+     "text": "<b>The buyer’s quality of earnings is the first close reading of your numbers.</b> It starts after the letter is signed and exclusivity has begun, when you have the least room to respond."
+    },
+    {
+     "key": "breaks.21",
+     "kind": "Text",
+     "text": "With a Pre-Market Assessment"
+    },
+    {
+     "key": "breaks.22",
+     "kind": "Paragraph",
+     "text": "<b>The same questions are answered before the first buyer call.</b> You fix what can be fixed, document what cannot, and negotiate from numbers already traced to source."
+    },
+    {
+     "key": "breaks.23",
+     "kind": "Note",
+     "text": "A lower-middle-market deal platform’s published study of broken letters of intent, January 27, 2026: seventy-five broken letters across eight buyer types and eight industries, with 2023 comparisons from the same series. The percentages are separate reported categories and are not summed here. Exclusivity figures are averages by buyer type, not individual deals."
+    }
+   ]
+  },
+  {
+   "id": "covers",
+   "name": "The questions a buyer’s quality of earnings will ask, answered on y...",
+   "items": [
+    {
+     "key": "covers.1",
+     "kind": "Small label",
+     "text": "Preparation · What the review covers"
+    },
+    {
+     "key": "covers.2",
+     "kind": "Section headline",
+     "text": "The questions a buyer’s quality of earnings will ask, <em>answered on your side of the table.</em>"
+    },
+    {
+     "key": "covers.3",
+     "kind": "Paragraph",
+     "text": "This is non-attest preparation. It shows you what a buyer’s quality of earnings is likely to find, while there is still time to act on it. For the full report, see <a>the Sell-Side QoE</a>."
+    },
+    {
+     "key": "covers.4",
+     "kind": "Link",
+     "text": "About the Sell-Side QoE"
+    },
+    {
+     "key": "covers.5",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "covers.6",
+     "kind": "Text",
+     "text": "Earnings, traced"
+    },
+    {
+     "key": "covers.7",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, and reported earnings tied to the records behind them."
+    },
+    {
+     "key": "covers.8",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "covers.9",
+     "kind": "Text",
+     "text": "Every adjustment, marked"
+    },
+    {
+     "key": "covers.10",
+     "kind": "Paragraph",
+     "text": "Each add-back you or your advisor proposes is marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "covers.11",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "covers.12",
+     "kind": "Text",
+     "text": "Customers and payers"
+    },
+    {
+     "key": "covers.13",
+     "kind": "Paragraph",
+     "text": "Concentration, retention and contract terms, read the way a buyer will read them."
+    },
+    {
+     "key": "covers.14",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "covers.15",
+     "kind": "Text",
+     "text": "Contracts and licenses"
+    },
+    {
+     "key": "covers.16",
+     "kind": "Paragraph",
+     "text": "Assignability, change-of-control terms, and the compliance items a buyer’s counsel will ask about."
+    },
+    {
+     "key": "covers.17",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "covers.18",
+     "kind": "Text",
+     "text": "A findings report and workbook"
+    },
+    {
+     "key": "covers.19",
+     "kind": "Paragraph",
+     "text": "What was found, what it affects, and what to fix first. Yours to keep."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Three steps, and you decide what happens after each one.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Preparation · How it works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Three steps, and <em>you decide</em> what happens after each one."
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "A conversation"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "About the business, its market and your timing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "The review"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "Starts with an agreed information request under a signed NDA. Scope and fee are set in writing before any work begins."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "The findings"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own advisor."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "You"
+    },
+    {
+     "key": "how.10",
+     "kind": "Text",
+     "text": "Decide what is next"
+    },
+    {
+     "key": "how.11",
+     "kind": "Paragraph",
+     "text": "Sell now, sell later or keep building. The review is useful whichever you choose."
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "name": "Three kinds of business. Each is priced differently.",
+   "items": [
+    {
+     "key": "types.1",
+     "kind": "Small label",
+     "text": "Which describes your business"
+    },
+    {
+     "key": "types.2",
+     "kind": "Section headline",
+     "text": "Three kinds of business. <em>Each is priced differently.</em>"
+    },
+    {
+     "key": "types.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "types.4",
+     "kind": "Small label",
+     "text": "Subscription revenue"
+    },
+    {
+     "key": "types.5",
+     "kind": "Heading",
+     "text": "Vertical software, SaaS"
+    },
+    {
+     "key": "types.6",
+     "kind": "Paragraph",
+     "text": "Keeping customers gets you the meeting. Growing them sets the price."
+    },
+    {
+     "key": "types.7",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.8",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "types.9",
+     "kind": "Small label",
+     "text": "Services revenue"
+    },
+    {
+     "key": "types.10",
+     "kind": "Heading",
+     "text": "Services"
+    },
+    {
+     "key": "types.11",
+     "kind": "Paragraph",
+     "text": "Priced as services. Size moves your number more than the label does."
+    },
+    {
+     "key": "types.12",
+     "kind": "Text",
+     "text": "Read more"
+    },
+    {
+     "key": "types.13",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "types.14",
+     "kind": "Small label",
+     "text": "Software and services"
+    },
+    {
+     "key": "types.15",
+     "kind": "Heading",
+     "text": "Hybrid models"
+    },
+    {
+     "key": "types.16",
+     "kind": "Paragraph",
+     "text": "Two businesses in one transaction. The software leads your price."
+    },
+    {
+     "key": "types.17",
+     "kind": "Text",
+     "text": "Read more"
+    }
+   ]
+  },
+  {
+   "id": "first",
+   "name": "Your earnings, read the way a buyer will. Before you negotiate your...",
+   "items": [
+    {
+     "key": "first.1",
+     "kind": "Small label",
+     "text": "The Pre-Market Assessment · The first read"
+    },
+    {
+     "key": "first.2",
+     "kind": "Section headline",
+     "text": "Your earnings, read the way a buyer will. <em>Before you negotiate your price.</em>"
+    },
+    {
+     "key": "first.3",
+     "kind": "Paragraph",
+     "text": "Three steps, each deeper than the last, and you decide after each one. The Pre-Market Assessment is the first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never. You do not need to have decided to sell."
+    },
+    {
+     "key": "first.4",
+     "kind": "Text",
+     "text": "Step one"
+    },
+    {
+     "key": "first.5",
+     "kind": "Text",
+     "text": "Pre-Market Assessment"
+    },
+    {
+     "key": "first.6",
+     "kind": "Paragraph",
+     "text": "The first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never."
+    },
+    {
+     "key": "first.7",
+     "kind": "Text",
+     "text": "What the assessment includes →"
+    },
+    {
+     "key": "first.8",
+     "kind": "Text",
+     "text": "Step two"
+    },
+    {
+     "key": "first.9",
+     "kind": "Text",
+     "text": "Preparation"
+    },
+    {
+     "key": "first.10",
+     "kind": "Paragraph",
+     "text": "The full trace: revenue reconciled to bank deposits, every adjustment marked supported or unsupported with the document that decides it, customers, contracts and licenses read the way a buyer will. Non-attest, and yours to keep."
+    },
+    {
+     "key": "first.11",
+     "kind": "Text",
+     "text": "What the review covers →"
+    },
+    {
+     "key": "first.12",
+     "kind": "Text",
+     "text": "Step three"
+    },
+    {
+     "key": "first.13",
+     "kind": "Text",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "first.14",
+     "kind": "Paragraph",
+     "text": "The report, from the independent CPA firm Capital Row partners with, built on the record the first two steps assembled. A buyer’s team meets reconciled schedules instead of a blank page."
+    },
+    {
+     "key": "first.15",
+     "kind": "Text",
+     "text": "About the Sell-Side QoE →"
+    },
+    {
+     "key": "first.16",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "first.17",
+     "kind": "Text",
+     "text": "Growth or working-capital needs?"
+    },
+    {
+     "key": "first.18",
+     "kind": "Link",
+     "text": "See Capital Connections"
+    }
+   ]
+  },
+  {
+   "id": "buyer-map",
+   "name": "Know who buys companies like yours before anyone calls.",
+   "items": [
+    {
+     "key": "buyermap.1",
+     "kind": "Small label",
+     "text": "Buyer map"
+    },
+    {
+     "key": "buyermap.2",
+     "kind": "Section headline",
+     "text": "Know who buys companies like yours <em>before anyone calls.</em>"
+    },
+    {
+     "key": "buyermap.3",
+     "kind": "Paragraph",
+     "text": "The buyer who approaches you alone is one of many. A buyer map names every acquirer active in your sector over the last 36 months, each tied to a dated deal and its source, with what they paid where it was disclosed and what they say they want next. Then it reads your company against them."
+    },
+    {
+     "key": "buyermap.4",
+     "kind": "Text",
+     "text": "The record"
+    },
+    {
+     "key": "buyermap.5",
+     "kind": "Text",
+     "text": "Public announcements only."
+    },
+    {
+     "key": "buyermap.6",
+     "kind": "Paragraph",
+     "text": "Press releases, the acquirer’s own newsroom, filings and trade press, each opened on the day it is read. Nothing is estimated, and no price or multiple appears unless the source states it."
+    },
+    {
+     "key": "buyermap.7",
+     "kind": "Text",
+     "text": "Your reading"
+    },
+    {
+     "key": "buyermap.8",
+     "kind": "Text",
+     "text": "Your company against the map."
+    },
+    {
+     "key": "buyermap.9",
+     "kind": "Paragraph",
+     "text": "Which of these buyers would look at a company like yours, why, and what they would find when they did. That reading is the engagement. The map is its evidence."
+    },
+    {
+     "key": "buyermap.10",
+     "kind": "Text",
+     "text": "The terms"
+    },
+    {
+     "key": "buyermap.11",
+     "kind": "Text",
+     "text": "One sector, fixed fee."
+    },
+    {
+     "key": "buyermap.12",
+     "kind": "Paragraph",
+     "text": "Scope and fee agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
+    },
+    {
+     "key": "buyermap.13",
+     "kind": "Button",
+     "text": "Request a buyer map"
+    },
+    {
+     "key": "buyermap.14",
+     "kind": "Link",
+     "text": "See the sample: field service software (PDF)"
+    },
+    {
+     "key": "buyermap.15",
+     "kind": "Note",
+     "text": "The sample reads the public record as of October 16, 2026: eleven acquirers, fourteen deals, every line with its source."
+    }
+   ]
+  },
+  {
+   "id": "sell",
+   "name": "Your findings stay yours. So does the decision to sell.",
+   "items": [
+    {
+     "key": "sell.1",
+     "kind": "Small label",
+     "text": "When you are ready"
+    },
+    {
+     "key": "sell.2",
+     "kind": "Section headline",
+     "text": "Your findings stay yours. <em>So does the decision to sell.</em>"
+    },
+    {
+     "key": "sell.3",
+     "kind": "Paragraph",
+     "text": "When you decide to go to market, Capital Row can represent you in the sale under a separate engagement. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "advisors",
+   "name": "Bring your client in before the buyer’s quality of earnings does.",
+   "items": [
+    {
+     "key": "advisors.1",
+     "kind": "Small label",
+     "text": "For advisors and certified public accountants"
+    },
+    {
+     "key": "advisors.2",
+     "kind": "Section headline",
+     "text": "Bring your client in <em>before the buyer’s quality of earnings does.</em>"
+    },
+    {
+     "key": "advisors.3",
+     "kind": "Text",
+     "text": "M&A advisors"
+    },
+    {
+     "key": "advisors.4",
+     "kind": "Text",
+     "text": "Answer the earnings questions before they disrupt the deal."
+    },
+    {
+     "key": "advisors.5",
+     "kind": "Paragraph",
+     "text": "Your seller arrives at the letter of intent with the add-backs already marked and the gaps already known. The engagement is with your client, and you stay the advisor."
+    },
+    {
+     "key": "advisors.6",
+     "kind": "Text",
+     "text": "Certified public accountants"
+    },
+    {
+     "key": "advisors.7",
+     "kind": "Text",
+     "text": "Your client, your engagement, our record."
+    },
+    {
+     "key": "advisors.8",
+     "kind": "Paragraph",
+     "text": "Non-attest work only. We take no fee of any kind on attested work, in any direction. If your client needs an audit, review, compilation or attestation, that goes to an independent firm."
+    },
+    {
+     "key": "advisors.9",
+     "kind": "Button",
+     "text": "Refer a client"
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "The questions most owners ask"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "What is a quality of earnings report?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "An independent analysis of what a business actually earns, as distinct from what it reports. A CPA firm traces revenue and expenses to bank records and tax filings, identifies the non-recurring, non-operating and personal items, and produces a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation, and it carries no opinion on the financial statements. <a>The full note</a>."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Is the Pre-Market Assessment a quality of earnings report?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "No. It is the first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. The preparation review is the full trace, non-attest. The Sell-Side QoE is the report, from the independent CPA firm we partner with. You can stop after any step."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Why would I pay for a report on my own company?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Because the buyer will commission one either way, and the price moves on what it finds. In a 2025 study of seventy-five signed letters of intent that collapsed, 21.3 percent ended because the earnings were not what was presented, double the share of two years earlier, and 25.3 percent on a finding outside the earnings work. GF Data’s record of 360 private equity transactions since the third quarter of 2024 shows sellers with a sell-side report averaging 7.4 times adjusted earnings against 7.0 without; that is a correlation, concentrated in larger deals, and we do not read it as a promise. The surer effect is time: diligence proceeds on your record instead of the buyer’s reconstruction of it."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Why does a lender require a third-party report? Could software do it?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "From October 1, 2026, an SBA 7(a) acquisition loan at a purchase price of $3 million or more requires a quality of earnings report with a cash proof, performed by an independent financial professional for the lender; a report prepared by or for the seller does not count. The rule is about independence and responsibility, not technology. Software is used inside the work, for mapping, schedules and reconciliations. It cannot hold a license, carry professional liability, or be independent of the parties, and the AICPA’s position is that responsibility for the work product rests with the CPA. <a>The facts, with sources</a>."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Why not take the first offer?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "Because the first number is rarely the last. In 841 acquisitions of S&P 1500 companies from 2005 to 2019, the winning bidder’s first bid averaged a 28.6 percent premium and the final price 38.2 percent; only 8 percent of winners won with a single bid. In the lower middle market, 87 percent of deals above $5 million drew three or more offers in the second quarter of 2026. An unsolicited offer arrives before you know what the alternatives would have been. <a>The full note</a>."
+    },
+    {
+     "key": "faq.13",
+     "kind": "Text",
+     "text": "Why go through an intermediary rather than deal with a buyer directly?"
+    },
+    {
+     "key": "faq.14",
+     "kind": "Paragraph",
+     "text": "Deals the seller starts, or takes unsolicited, price lower: target-initiated deals carry lower premiums and lower multiples of earnings, and the gap widens the less the buyer can confirm. Private sellers who hire an advisor receive higher valuations after correcting for who hires one. And buyers say so themselves: in their own words, the attraction of an off-market deal is that there is less competition and the price is attractive. The party who sees the whole market sets the price."
+    },
+    {
+     "key": "faq.15",
+     "kind": "Text",
+     "text": "How does a competitive process benefit me?"
+    },
+    {
+     "key": "faq.16",
+     "kind": "Paragraph",
+     "text": "Not by the count of bidders. The research finds target returns comparable between auctions and negotiations, and final premiums similar regardless of the number of bids. What a process run from your side changes is that the buyer who knows a competing bid is possible prices against it from the first round, and that the terms behind the headline, cash at closing, working capital, earnout and seller note, are set with alternatives in hand. In the lower middle market sellers received 83 to 92 percent of the price in cash at closing in the second quarter of 2026, and across deals with an earnout about 21 cents of each dollar of maximum earnout was paid."
+    },
+    {
+     "key": "faq.17",
+     "kind": "Text",
+     "text": "Will it raise my price?"
+    },
+    {
+     "key": "faq.18",
+     "kind": "Paragraph",
+     "text": "We will not promise that. It shows what your numbers support, and gives you the chance to fix what they do not, before a buyer prices it."
+    },
+    {
+     "key": "faq.19",
+     "kind": "Text",
+     "text": "Who sees the findings?"
+    },
+    {
+     "key": "faq.20",
+     "kind": "Paragraph",
+     "text": "You. Nothing reaches a buyer, an advisor or anyone else without your written permission."
+    },
+    {
+     "key": "faq.21",
+     "kind": "Text",
+     "text": "What do you need from me?"
+    },
+    {
+     "key": "faq.22",
+     "kind": "Paragraph",
+     "text": "To start, a conversation. The review itself begins with an agreed information request under a signed NDA. Patient records and protected health information are never requested."
+    },
+    {
+     "key": "faq.23",
+     "kind": "Text",
+     "text": "What does it cost, and how long does it take?"
+    },
+    {
+     "key": "faq.24",
+     "kind": "Paragraph",
+     "text": "The scope and the fee are agreed in writing before any work begins, once we know what the business needs. A sell-side quality of earnings engagement runs four to eight weeks of fieldwork, and the practitioners who do the work recommend commissioning it three to six months before going to market."
+    },
+    {
+     "key": "faq.25",
+     "kind": "Note",
+     "text": "Figures from a lower-middle-market deal platform’s study of broken letters of intent (January 27, 2026); GF Data via ACG’s Middle Market Growth (Fall 2025); Liu, Officer and Tu (2023); Masulis and Simsir, Journal of Financial and Quantitative Analysis (2018); Agrawal, Cooper, Lian and Wang, Quarterly Journal of Finance (2023); Boone and Mulherin, Journal of Finance (2007); IBBA and M&A Source Market Pulse Q2 2026; SRS Acquiom claims and deal terms studies; SBA SOP 50 10 8.1. Each is linked from the <a>Insights</a> pages."
+    }
+   ]
+  },
+  {
+   "id": "broken",
+   "name": "Did your deal blow up?Tell us what happened, confidentially.",
+   "items": [
+    {
+     "key": "broken.1",
+     "kind": "Small label",
+     "text": "For owners · Dead deals"
+    },
+    {
+     "key": "broken.2",
+     "kind": "Section headline",
+     "text": "Did your deal blow up?<br><em>Tell us what happened, confidentially.</em>"
+    },
+    {
+     "key": "broken.3",
+     "kind": "Paragraph",
+     "text": "We study dead deals, because that is where owners learn what a buyer found. A short form, read by a person. We publish nothing that identifies you, the buyer or the business."
+    },
+    {
+     "key": "broken.4",
+     "kind": "Button",
+     "text": "Report a dead deal"
+    }
+   ]
+  },
+  {
+   "id": "talk",
+   "name": "Tell us what you are working on.",
+   "items": [
+    {
+     "key": "talk.1",
+     "kind": "Small label",
+     "text": "Request a review"
+    },
+    {
+     "key": "talk.2",
+     "kind": "Paragraph",
+     "text": "Know what a buyer will find, <em>before the buyer does.</em>"
+    },
+    {
+     "key": "talk.3",
+     "kind": "Paragraph",
+     "text": "<b>Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market.</b> Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+    },
+    {
+     "key": "talk.4",
+     "kind": "Section headline",
+     "text": "Tell us what you are working on."
+    },
+    {
+     "key": "talk.5",
+     "kind": "Paragraph",
+     "text": "Tell us what you are working on and where you need clarity. We will respond to discuss fit and the next step."
+    },
+    {
+     "key": "talk.6",
+     "kind": "Form label",
+     "text": "Which side of the table"
+    },
+    {
+     "key": "talk.7",
+     "kind": "Form label",
+     "text": "What kind"
+    },
+    {
+     "key": "talk.8",
+     "kind": "Form label",
+     "text": "Industry"
+    },
+    {
+     "key": "talk.9",
+     "kind": "Form label",
+     "text": "What vertical do you serve"
+    },
+    {
+     "key": "talk.10",
+     "kind": "Form label",
+     "text": "Recurring revenue"
+    },
+    {
+     "key": "talk.11",
+     "kind": "Form label",
+     "text": "Name"
+    },
+    {
+     "key": "talk.12",
+     "kind": "Form label",
+     "text": "Company"
+    },
+    {
+     "key": "talk.13",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "talk.14",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "talk.15",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "talk.16",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "talk.17",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "talk.18",
+     "kind": "Form label",
+     "text": "How did you hear about us"
+    },
+    {
+     "key": "talk.19",
+     "kind": "Form label",
+     "text": "What are you trying to work out"
+    },
+    {
+     "key": "talk.20",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "talk.21",
+     "kind": "Button",
+     "text": "Continue by email"
+    },
+    {
+     "key": "talk.22",
+     "kind": "Paragraph",
+     "text": "This opens a draft in your email application. Review it and press send."
+    },
+    {
+     "key": "talk.23",
+     "kind": "Note",
+     "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
+    },
+    {
+     "key": "talk.24",
+     "kind": "Note",
+     "text": "<a>Or pick a time directly →</a>"
+    },
+    {
+     "key": "talk.25",
+     "kind": "Note",
+     "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
+    }
+   ]
+  }
+ ]
+}

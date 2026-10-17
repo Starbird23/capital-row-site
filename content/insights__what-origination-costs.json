@@ -1,0 +1,342 @@
+{
+ "path": "/insights/what-origination-costs/",
+ "seoTitle": "What origination costs: coverage is a time problem | Capital Row Insights",
+ "seoDescription": "What one buy-side team spends to get from a filtered list to a signed letter of intent, what a dead letter wastes, and a calculator that runs the figures on your own numbers without sending them anywhere.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The figures"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Your own figures"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Coverage is not a data problem. It is a time problem.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For buyers"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "What origination costs"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "Coverage is not a data problem. <em>It is a time problem.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "Roughly what one buy-side team spends to get from a filtered list to a signed letter, on a single vertical, and what a letter that dies in exclusivity wastes. The published figures are the starting values; the calculator takes yours."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Run your own figures"
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "name": "What one signed letter costs. And what a dead one wastes.",
+   "items": [
+    {
+     "key": "cost.1",
+     "kind": "Small label",
+     "text": "What one deal costs to originate"
+    },
+    {
+     "key": "cost.2",
+     "kind": "Section headline",
+     "text": "What one signed letter costs. <em>And what a dead one wastes.</em>"
+    },
+    {
+     "key": "cost.3",
+     "kind": "Paragraph",
+     "text": "The published figures below are the starting values. Change any of them to your own and the totals follow. Nothing you enter is sent anywhere."
+    },
+    {
+     "key": "cost.4",
+     "kind": "Text",
+     "text": "Associate, full time"
+    },
+    {
+     "key": "cost.5",
+     "kind": "Paragraph",
+     "text": "Mapping, outreach, qualifying. The person is $135,000 to $253,000 in total compensation, and cannot run a process at the same time."
+    },
+    {
+     "key": "cost.6",
+     "kind": "Text",
+     "text": "12 to 18"
+    },
+    {
+     "key": "cost.7",
+     "kind": "Text",
+     "text": "Months to vertical depth"
+    },
+    {
+     "key": "cost.8",
+     "kind": "Paragraph",
+     "text": "How long before a new hire knows which names are unbuyable and why, rather than adding them to the list again."
+    },
+    {
+     "key": "cost.9",
+     "kind": "Text",
+     "text": "37 to 159"
+    },
+    {
+     "key": "cost.10",
+     "kind": "Text",
+     "text": "Days under exclusivity per dead deal"
+    },
+    {
+     "key": "cost.11",
+     "kind": "Paragraph",
+     "text": "The average by buyer type, from a family office to a senior lender, plus the diligence invoices already committed."
+    },
+    {
+     "key": "cost.12",
+     "kind": "Text",
+     "text": "Retained search, one sector"
+    },
+    {
+     "key": "cost.13",
+     "kind": "Paragraph",
+     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+    },
+    {
+     "key": "cost.14",
+     "kind": "Form label",
+     "text": "Associate total compensation, a year <i>($)</i>"
+    },
+    {
+     "key": "cost.15",
+     "kind": "Text",
+     "text": "Midpoint of the published $135,000 to $253,000."
+    },
+    {
+     "key": "cost.16",
+     "kind": "Form label",
+     "text": "Months of that person’s time per signed letter"
+    },
+    {
+     "key": "cost.17",
+     "kind": "Text",
+     "text": "Your own figure. Twelve is a placeholder, not a measurement."
+    },
+    {
+     "key": "cost.18",
+     "kind": "Form label",
+     "text": "Days under exclusivity before a letter dies"
+    },
+    {
+     "key": "cost.19",
+     "kind": "Text",
+     "text": "Midpoint of the published 37 to 159, by buyer type."
+    },
+    {
+     "key": "cost.20",
+     "kind": "Form label",
+     "text": "Signed letters that died, last twelve months"
+    },
+    {
+     "key": "cost.21",
+     "kind": "Text",
+     "text": "Your own count."
+    },
+    {
+     "key": "cost.22",
+     "kind": "Button",
+     "text": "Show the cost"
+    },
+    {
+     "key": "cost.23",
+     "kind": "Text",
+     "text": "To originate one signed letter"
+    },
+    {
+     "key": "cost.24",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.25",
+     "kind": "Paragraph",
+     "text": "The associate’s time, at the compensation above, from a filtered list to a signed letter."
+    },
+    {
+     "key": "cost.26",
+     "kind": "Text",
+     "text": "Lost on one letter that dies in exclusivity"
+    },
+    {
+     "key": "cost.27",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.28",
+     "kind": "Paragraph",
+     "text": "The origination cost above, plus the days under exclusivity, before any diligence invoice."
+    },
+    {
+     "key": "cost.29",
+     "kind": "Text",
+     "text": "Lost on the letters that died last year"
+    },
+    {
+     "key": "cost.30",
+     "kind": "Text",
+     "text": "$0"
+    },
+    {
+     "key": "cost.31",
+     "kind": "Paragraph",
+     "text": "Your count of dead letters, at the cost of one."
+    },
+    {
+     "key": "cost.32",
+     "kind": "Note",
+     "text": "Compensation range compiled by a sell-side advisory firm from Glassdoor data, August 2024, for a US M&A associate, total compensation. Days under exclusivity from a lower-middle-market deal platform’s study of broken letters of intent, January 2026, averages by buyer type: 37 days where a family office was the buyer, 159 where a senior lender was. The months per letter and the count of dead letters are yours; the calculator does not supply them. Diligence invoices, legal fees and the time of anyone other than the associate are not included."
+    },
+    {
+     "key": "cost.33",
+     "kind": "Button",
+     "text": "Discuss a sector"
+    },
+    {
+     "key": "cost.34",
+     "kind": "Note",
+     "text": "One vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "The expensive part of origination is not the list.",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "What origination costs · What it means"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "The expensive part of origination <em>is not the list.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "Where the time goes"
+    },
+    {
+     "key": "read.4",
+     "kind": "Paragraph",
+     "text": "Origination in a vertical is a sequence: map the sector, find the owners, reach them, qualify the ones who answer, and build enough of a relationship that a conversation about selling is possible. An associate doing that work full time cannot run a live process at the same time, and the sector knowledge that makes the work efficient takes a year or more to build: which names are unbuyable and why, which owners have already said no to three other buyers, which companies are owned by a platform that will never sell. A new hire adds those names to the list again."
+    },
+    {
+     "key": "read.5",
+     "kind": "Paragraph",
+     "text": "The second cost is the one nobody budgets: the letter that dies. A buyer under exclusivity has stopped looking at other deals, has committed diligence invoices, and has spent the owner’s patience. The published averages run from 37 days where a family office was the buyer to 159 where a senior lender was, and the independent sponsor, who raises the equity after signing, holds the letter longest of all."
+    },
+    {
+     "key": "read.6",
+     "kind": "Text",
+     "text": "The expensive part of origination is not the list. It is the year it takes to know what is on it, and the months lost when a letter dies."
+    },
+    {
+     "key": "read.7",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "read.8",
+     "kind": "Heading",
+     "text": "What the calculator does"
+    },
+    {
+     "key": "read.9",
+     "kind": "Paragraph",
+     "text": "It multiplies the associate’s compensation by the months each signed letter takes, adds the days under exclusivity for a letter that dies, and multiplies by the number of letters that died last year. It does not include diligence invoices, legal fees or anyone’s time but the associate’s, so the result is a floor. The companion calculator on the <a>deal coverage page</a> estimates the share of your own market your firm sees."
+    },
+    {
+     "key": "read.10",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.11",
+     "kind": "List item",
+     "text": "<a>A sell-side advisory firm’s compilation of Glassdoor data, August 2024</a>, US M&A associate, total compensation, $135,000 to $253,000"
+    },
+    {
+     "key": "read.12",
+     "kind": "List item",
+     "text": "<a>A lower-middle-market deal platform, Dead Deal Report: Unpacking 2025’s Broken LOIs, January 27, 2026</a>, seventy-five failed transactions, days under exclusivity by buyer type"
+    },
+    {
+     "key": "read.13",
+     "kind": "List item",
+     "text": "<a>SPS by With Intelligence, Deal Origination Benchmark Report, LTM to June 30, 2025</a>, 177 private equity firms, coverage"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,783 @@
+{
+ "path": "/sellers/vertical-software-saas/",
+ "seoTitle": "Capital Row, for owners of subscription vertical software: keeping customers gets you the meeting, growing them sets the price",
+ "seoDescription": "For owners of subscription vertical software: what a buyer will recompute from your own records, before the letter of intent.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The gap"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What a buyer reads"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Read first"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "How it is read"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What to fix first"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "The review"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Keeping customers gets you the meeting. Growing them sets the price.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "<i>Vertical software, SaaS</i>"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "Keeping customers gets you the meeting. <em>Growing them sets the price.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "Over twelve months the listed software index fell from 5.7 to 3.2 times revenue, while the median private software transaction moved from 4.2 to 4.0. Private prices held. The gap between what owners expect and what clears is now the most cited reason deals fail."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Text",
+     "text": "Earnings traced to source"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "Customers and contracts"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Before the LOI"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "The gap between the valuation and the deal",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "The gap between the valuation and the deal"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "57%"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "of dealmakers surveyed attributed failed deals in the first half of 2026 to <em>valuation expectations</em>. A year earlier it was 28 percent."
+    },
+    {
+     "key": "market.4",
+     "kind": "Note",
+     "text": "Lower-middle-market dealmakers surveyed by a deal platform in July 2026, on deals that failed in the first half of the year, against 28 percent for 2025. Seventy-nine respondents. Published August 11, 2026."
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "The retention figure is the median. The end market is the argument.",
+   "items": [
+    {
+     "key": "evidence.1",
+     "kind": "Small label",
+     "text": "What a buyer reads"
+    },
+    {
+     "key": "evidence.2",
+     "kind": "Section headline",
+     "text": "The retention figure is the median. <em>The end market is the argument.</em>"
+    },
+    {
+     "key": "evidence.3",
+     "kind": "Paragraph",
+     "text": "A buyer will recompute your retention from your own records, and then ask who your customers are and who is buying them."
+    },
+    {
+     "key": "evidence.4",
+     "kind": "Text",
+     "text": "4.0x"
+    },
+    {
+     "key": "evidence.5",
+     "kind": "Text",
+     "text": "Median private SaaS transaction, enterprise value to trailing revenue, Q2 2026"
+    },
+    {
+     "key": "evidence.6",
+     "kind": "Text",
+     "text": "Above the listed index median of 3.2 times in the same quarter. Vertical software was 54 percent of deal volume."
+    },
+    {
+     "key": "evidence.7",
+     "kind": "Text",
+     "text": "103%"
+    },
+    {
+     "key": "evidence.8",
+     "kind": "Text",
+     "text": "Median net revenue retention at $3M to $20M of recurring revenue"
+    },
+    {
+     "key": "evidence.9",
+     "kind": "Text",
+     "text": "With 91 percent gross retention and 15 percent growth. Meeting the median does not set a business apart."
+    },
+    {
+     "key": "evidence.10",
+     "kind": "Text",
+     "text": "82%"
+    },
+    {
+     "key": "evidence.11",
+     "kind": "Text",
+     "text": "The same measure, from billing-platform data"
+    },
+    {
+     "key": "evidence.12",
+     "kind": "Text",
+     "text": "A different population of companies. A second panel puts median gross retention at 84 percent, down from 88."
+    },
+    {
+     "key": "evidence.13",
+     "kind": "Text",
+     "text": "21.3%"
+    },
+    {
+     "key": "evidence.14",
+     "kind": "Text",
+     "text": "Broken letters of intent where the earnings were not what was presented"
+    },
+    {
+     "key": "evidence.15",
+     "kind": "Text",
+     "text": "Twice the 2023 rate of 10.6 percent."
+    },
+    {
+     "key": "evidence.16",
+     "kind": "Paragraph",
+     "text": "No named publisher measures what growth, margin or preparation adds to the price of a private software company. The published premiums are for listed companies. Anyone putting a specific multiple on preparation is quoting their own marketing, and we will not."
+    },
+    {
+     "key": "evidence.17",
+     "kind": "Note",
+     "text": "Software Equity Group, Q2 2026 SaaS M&A and Public Market Report, August 5, 2026. SaaS Capital, annual survey of more than 1,000 private B2B SaaS companies, April 24, 2026. ChartMogul, December 10, 2025. Benchmarkit, 2026. The retention figures measure different populations and are shown side by side, not averaged. A lower-middle-market deal platform’s published study of broken letters of intent, January 27, 2026: seventy-five broken letters across eight buyer types and eight industries, with 2023 comparisons from the same series. The percentages are separate reported categories and are not summed here."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six lines a buyer recomputes from your own records.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Vertical software · What a buyer reads first"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six lines a buyer recomputes <em>from your own records.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "Retention is the meeting. What a buyer prices is the evidence behind it: who the customers are, what they signed, and what it costs to keep them."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "Retention"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "Gross and net, by cohort"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "A buyer rebuilds retention from invoices, by customer cohort and by month, and compares it with the figure in your deck. The cohort that signed two years ago is the one that gets read."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "Recurring revenue"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "What the standard counts"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "Annual recurring revenue excludes one-time fees and professional services, even where they recur. A buyer restates ARR to the standard before pricing it."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "Deferred revenue"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "Billed ahead, earned later"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Annual billing in advance creates a liability a buyer treats as debt-like at closing. The working capital target is set from it."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "Development cost"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "Capitalized or expensed"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "Capitalized development flatters earnings and builds an asset a buyer will write off. The buyer reads the policy, then the earnings without it."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "Concentration"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Customers, and their customers"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "A buyer reads your five largest customers, then the end market those customers sell into. In vertical software, the end market is the argument."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "Contracts"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Term, renewal and consent"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "Auto-renewal, price escalators, termination for convenience and change-of-control clauses. Each one is a term a buyer counts before pricing the certainty of close."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "As owners keep it. As a buyer reads it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Vertical software · How the numbers are read"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "As owners keep it. <em>As a buyer reads it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Area"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "As most owners keep it"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "As a buyer reads it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "Revenue"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "Bookings, invoices and cash, in one line."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "Recognized revenue under a written policy, with ARR restated to the standard and one-time items out."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "Retention"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "Logo retention, from the CRM."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Gross and net revenue retention by cohort, rebuilt from invoices and bank deposits."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "Gross margin"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "Hosting and support, sometimes."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Subscription margin and services margin apart, with hosting, support, implementation and third-party software allocated."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "Development"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "Salaries, in one line."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "Research, maintenance and new product separated; the capitalization policy read; earnings shown both ways."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "Customers"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "The top ten, by revenue."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Concentration, contract terms, renewal dates and the end market’s own condition, customer by customer."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "Working capital"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "The bank balance."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "Deferred revenue, receivables and payables on a monthly trend; a target set from the trailing twelve months."
+    }
+   ]
+  },
+  {
+   "id": "fix",
+   "name": "Five things worth fixing before a buyer prices them.",
+   "items": [
+    {
+     "key": "fix.1",
+     "kind": "Small label",
+     "text": "Vertical software · What to fix first"
+    },
+    {
+     "key": "fix.2",
+     "kind": "Section headline",
+     "text": "Five things worth fixing <em>before a buyer prices them.</em>"
+    },
+    {
+     "key": "fix.3",
+     "kind": "Paragraph",
+     "text": "In order of what moves the price, from the records the review reads."
+    },
+    {
+     "key": "fix.4",
+     "kind": "Text",
+     "text": "Restate recurring revenue to the standard"
+    },
+    {
+     "key": "fix.5",
+     "kind": "Text",
+     "text": "Pull one-time fees and services out of ARR before a buyer does. The figure gets smaller and more believable at the same time."
+    },
+    {
+     "key": "fix.6",
+     "kind": "Text",
+     "text": "Rebuild retention from invoices"
+    },
+    {
+     "key": "fix.7",
+     "kind": "Text",
+     "text": "By cohort, by month, gross and net. If your deck says 103 percent and the invoices say 96, the invoices win."
+    },
+    {
+     "key": "fix.8",
+     "kind": "Text",
+     "text": "Write the revenue recognition policy down"
+    },
+    {
+     "key": "fix.9",
+     "kind": "Text",
+     "text": "One page: when revenue is recognized, how multi-year contracts are treated, how deferred revenue is carried."
+    },
+    {
+     "key": "fix.10",
+     "kind": "Text",
+     "text": "Document every adjustment"
+    },
+    {
+     "key": "fix.11",
+     "kind": "Text",
+     "text": "Owner compensation, personal expenses, one-time costs, each with the document behind it. Undocumented add-backs are removed, not argued."
+    },
+    {
+     "key": "fix.12",
+     "kind": "Text",
+     "text": "List the consents"
+    },
+    {
+     "key": "fix.13",
+     "kind": "Text",
+     "text": "Every customer, vendor and license agreement with a change-of-control or assignment clause, and the counterparty who can say no."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Three steps, and you decide what happens after each one.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Vertical software · How it works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Three steps, and <em>you decide</em> what happens after each one."
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "A conversation"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "About the business, its market and your timing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "The review"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "Starts with an agreed information request under a signed NDA. Scope and fee are set in writing before any work begins."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "The findings"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own advisor."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "You"
+    },
+    {
+     "key": "how.10",
+     "kind": "Text",
+     "text": "You decide"
+    },
+    {
+     "key": "how.11",
+     "kind": "Paragraph",
+     "text": "Sell now, sell later or keep building. Nothing reaches a buyer without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Vertical software · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Is my retention figure wrong?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "It is usually measured differently from the way a buyer measures it. Logo retention from a CRM and net revenue retention by cohort from invoices are different figures, and a buyer prices the second. The review rebuilds the second from your own records."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Does a services arm hurt my price?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Not by itself. What decides the price is whether the services and the software are reported apart, with their own margins. The hybrid page covers it."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "What does a buyer do with capitalized development?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Reads the policy, then reads the earnings without it. If the policy is written and consistently applied, the adjustment is a conversation. If it is not, the adjustment is the buyer’s."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Will the review raise my price?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "We will not promise that. It shows what your numbers support and gives you the chance to fix what they do not before a buyer prices it."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Who sees the findings?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "You. Nothing reaches a buyer, an advisor or anyone else without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "name": "The questions a buyer’s quality of earnings will ask, answered on y...",
+   "items": [
+    {
+     "key": "work.1",
+     "kind": "Small label",
+     "text": "What the review covers"
+    },
+    {
+     "key": "work.2",
+     "kind": "Section headline",
+     "text": "The questions a buyer’s quality of earnings will ask, <em>answered on your side of the table.</em>"
+    },
+    {
+     "key": "work.3",
+     "kind": "Paragraph",
+     "text": "This is non-attest preparation. It shows you what a buyer’s quality of earnings is likely to find, while there is still time to act on it."
+    },
+    {
+     "key": "work.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "work.5",
+     "kind": "Text",
+     "text": "Earnings, traced"
+    },
+    {
+     "key": "work.6",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, and reported earnings tied to the records behind them."
+    },
+    {
+     "key": "work.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "work.8",
+     "kind": "Text",
+     "text": "Every adjustment, marked"
+    },
+    {
+     "key": "work.9",
+     "kind": "Paragraph",
+     "text": "Each add-back you or your advisor proposes is marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "work.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "work.11",
+     "kind": "Text",
+     "text": "Customers and payers"
+    },
+    {
+     "key": "work.12",
+     "kind": "Paragraph",
+     "text": "Concentration, retention and contract terms, read the way a buyer will read them."
+    },
+    {
+     "key": "work.13",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "work.14",
+     "kind": "Text",
+     "text": "Contracts and licenses"
+    },
+    {
+     "key": "work.15",
+     "kind": "Paragraph",
+     "text": "Assignability, change-of-control terms, and the compliance items a buyer’s counsel will ask about."
+    },
+    {
+     "key": "work.16",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "work.17",
+     "kind": "Text",
+     "text": "A findings report and workbook"
+    },
+    {
+     "key": "work.18",
+     "kind": "Paragraph",
+     "text": "What was found, what it affects, and what to fix first. Yours to keep. <a>See the full review</a>."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "The other kinds of business",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Paragraph",
+     "text": "Come <em>prepared.</em>"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+    },
+    {
+     "key": "next.3",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "next.4",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+    },
+    {
+     "key": "next.5",
+     "kind": "Small label",
+     "text": "The other kinds of business"
+    },
+    {
+     "key": "next.6",
+     "kind": "Text",
+     "text": "<i>01</i>Vertical software, SaaS"
+    },
+    {
+     "key": "next.7",
+     "kind": "Link",
+     "text": "<i>02</i>Services"
+    },
+    {
+     "key": "next.8",
+     "kind": "Link",
+     "text": "<i>03</i>Hybrid models"
+    }
+   ]
+  }
+ ]
+}

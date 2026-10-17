@@ -1,0 +1,363 @@
+{
+ "path": "/insights/the-market/",
+ "seoTitle": "The market is busy. Most of it goes unseen. | Capital Row Insights",
+ "seoDescription": "2,784 SaaS M&A transactions in twelve months, 54 percent of them vertical software, and the median private equity firm saw 18.4 percent of the deals inside its own stated market. What coverage means, and what it costs to raise it.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The figures"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The coverage benchmark"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What it means"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "The market is busy. Most of it goes unseen.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For buyers"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "The market"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "The market is busy. <em>Most of it goes unseen.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "Twelve months of SaaS transactions, more than half of them vertical software, and a benchmark that measures how much of its own market a buyer actually sees. The answer for the median private equity firm is fewer than one deal in five."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "See the coverage benchmark"
+    }
+   ]
+  },
+  {
+   "id": "figures",
+   "name": "Twelve months of transactions, and the share any one buyer sees.",
+   "items": [
+    {
+     "key": "figures.1",
+     "kind": "Small label",
+     "text": "The market · The figures"
+    },
+    {
+     "key": "figures.2",
+     "kind": "Section headline",
+     "text": "Twelve months of transactions, <em>and the share any one buyer sees.</em>"
+    },
+    {
+     "key": "figures.3",
+     "kind": "Text",
+     "text": "2,784"
+    },
+    {
+     "key": "figures.4",
+     "kind": "Text",
+     "text": "SaaS M&A transactions"
+    },
+    {
+     "key": "figures.5",
+     "kind": "Paragraph",
+     "text": "Twelve months through the second quarter of 2026, as counted by Software Equity Group."
+    },
+    {
+     "key": "figures.6",
+     "kind": "Text",
+     "text": "54%"
+    },
+    {
+     "key": "figures.7",
+     "kind": "Text",
+     "text": "Vertical software share"
+    },
+    {
+     "key": "figures.8",
+     "kind": "Paragraph",
+     "text": "Of SaaS M&A transactions in the second quarter of 2026. Software built for one industry is the larger half of the market."
+    },
+    {
+     "key": "figures.9",
+     "kind": "Text",
+     "text": "18.4%"
+    },
+    {
+     "key": "figures.10",
+     "kind": "Text",
+     "text": "Median market coverage"
+    },
+    {
+     "key": "figures.11",
+     "kind": "Paragraph",
+     "text": "The share of relevant, intermediated, closed deals the median private equity firm saw, across 177 firms, twelve months to June 30, 2025."
+    },
+    {
+     "key": "figures.12",
+     "kind": "Text",
+     "text": "9.0%"
+    },
+    {
+     "key": "figures.13",
+     "kind": "Text",
+     "text": "Lower-market coverage"
+    },
+    {
+     "key": "figures.14",
+     "kind": "Paragraph",
+     "text": "The median for firms buying at $10 million to $49 million of enterprise value. The smaller the deal, the less of the market any one buyer sees."
+    },
+    {
+     "key": "figures.15",
+     "kind": "Text",
+     "text": "199"
+    },
+    {
+     "key": "figures.16",
+     "kind": "Text",
+     "text": "Sell-side advisors per firm"
+    },
+    {
+     "key": "figures.17",
+     "kind": "Paragraph",
+     "text": "The median number of advisors a firm counted as a source of deals. Coverage is a function of who sends you what."
+    },
+    {
+     "key": "figures.18",
+     "kind": "Text",
+     "text": "19%"
+    },
+    {
+     "key": "figures.19",
+     "kind": "Text",
+     "text": "Lower-market deals transacted"
+    },
+    {
+     "key": "figures.20",
+     "kind": "Paragraph",
+     "text": "Of the deals in a lower-market firm’s pipeline, the median share that closed with that firm. Seeing a deal is not the same as winning it."
+    }
+   ]
+  },
+  {
+   "id": "coverage",
+   "name": "The coverage benchmark",
+   "items": [
+    {
+     "key": "coverage.1",
+     "kind": "Small label",
+     "text": "The coverage benchmark"
+    },
+    {
+     "key": "coverage.2",
+     "kind": "Text",
+     "text": "1 in 5"
+    },
+    {
+     "key": "coverage.3",
+     "kind": "Paragraph",
+     "text": "The median private equity firm sees fewer than <em>one deal in five</em> of the ones available inside its own stated market."
+    },
+    {
+     "key": "coverage.4",
+     "kind": "Text",
+     "text": "18.4%"
+    },
+    {
+     "key": "coverage.5",
+     "kind": "Text",
+     "text": "Median"
+    },
+    {
+     "key": "coverage.6",
+     "kind": "Text",
+     "text": "27.9%"
+    },
+    {
+     "key": "coverage.7",
+     "kind": "Text",
+     "text": "Top quarter"
+    },
+    {
+     "key": "coverage.8",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "coverage.9",
+     "kind": "Text",
+     "text": "Strongest"
+    },
+    {
+     "key": "coverage.10",
+     "kind": "Text",
+     "text": "Your firm"
+    },
+    {
+     "key": "coverage.11",
+     "kind": "Text",
+     "text": "0%"
+    },
+    {
+     "key": "coverage.12",
+     "kind": "Text",
+     "text": "Share of available deals seen"
+    },
+    {
+     "key": "coverage.13",
+     "kind": "Text",
+     "text": "55.4%"
+    },
+    {
+     "key": "coverage.14",
+     "kind": "Paragraph",
+     "text": "Where would your firm land?"
+    },
+    {
+     "key": "coverage.15",
+     "kind": "Button",
+     "text": "Open the deal coverage calculator"
+    },
+    {
+     "key": "coverage.16",
+     "kind": "Note",
+     "text": "How this was measured: the study took 177 private equity firms. For each one, it listed the deals completed in the industries and sizes that firm says it targets, each with a private equity buyer and a sell-side advisor, and counted how many of those the firm saw. SPS / With Intelligence, Deal Origination Benchmark Report, twelve months to June 30, 2025."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "No buyer sees most of its market. The question is who decides which...",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Small label",
+     "text": "The market · What it means"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "No buyer sees most of its market. <em>The question is who decides which part you see.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Heading",
+     "text": "What coverage measures"
+    },
+    {
+     "key": "read.4",
+     "kind": "Paragraph",
+     "text": "The benchmark takes a private equity firm’s own stated criteria, lists every closed transaction in those industries and sizes that had a private equity buyer and a sell-side advisor, and counts how many of them the firm saw. It is a measure of the market the firm says it wants, not of the whole market. A firm that saw 18.4 percent of its own stated market did not see the other 81.6 percent, and the sell-side advisors who ran those processes decided who did."
+    },
+    {
+     "key": "read.5",
+     "kind": "Paragraph",
+     "text": "The figure falls as deals get smaller. Firms buying at $10 million to $49 million of enterprise value saw a median of 9.0 percent. In the lower middle market the sell side is more fragmented, the processes are narrower, and a buyer’s coverage depends on relationships with a longer list of smaller advisors. The median firm counted 199 of them as sources."
+    },
+    {
+     "key": "read.6",
+     "kind": "Heading",
+     "text": "Why vertical software is harder to cover"
+    },
+    {
+     "key": "read.7",
+     "kind": "Paragraph",
+     "text": "Vertical software is sold by sector. The buyer of a dental practice management company is rarely the buyer of a freight audit platform, and the advisor who knows one sector rarely knows the other. A buyer with criteria across ten industries is trying to be known in ten separate markets at once, each with its own owners, its own acquirers and its own reasons a deal breaks. The share of SaaS transactions that are vertical software passed half in 2026, so the harder half of the market is now the larger half."
+    },
+    {
+     "key": "read.8",
+     "kind": "Text",
+     "text": "No buyer sees most of its own market. The question is who decides which part of it you see."
+    },
+    {
+     "key": "read.9",
+     "kind": "Text",
+     "text": "Our read"
+    },
+    {
+     "key": "read.10",
+     "kind": "Heading",
+     "text": "What raises coverage"
+    },
+    {
+     "key": "read.11",
+     "kind": "Paragraph",
+     "text": "Three things, in order. Criteria on file with the people who map a sector before anyone goes to market, so that a fit is recognized when it appears. Owner relationships built ahead of a process, so that a buyer is already known when the owner decides. And the evidence on a company assembled before a letter of intent, so that the time a buyer spends under exclusivity is spent on a deal that can close. Capital Row keeps a buyer’s criteria on file at no fee, non-exclusively, and confirms them each quarter. A retained search in one sector, exclusive to one buyer in that sector, is by exception."
+    },
+    {
+     "key": "read.12",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "read.13",
+     "kind": "List item",
+     "text": "<a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a>, transactions and vertical share"
+    },
+    {
+     "key": "read.14",
+     "kind": "List item",
+     "text": "<a>SPS by With Intelligence, Deal Origination Benchmark Report, LTM to June 30, 2025</a>, 177 private equity firms, coverage, advisors per firm and percent transacted"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    }
+   ]
+  }
+ ]
+}

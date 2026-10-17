@@ -1,0 +1,697 @@
+{
+ "path": "/buyers/strategic/",
+ "seoTitle": "Capital Row, for strategic acquirers: adjacent is still an industry you do not run",
+ "seoDescription": "For strategic acquirers of vertical software: the end-market read a corporate development team cannot staff for, before the letter of intent.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Who is buying"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What you carry"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What the desk does"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The evidence"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "What the work covers"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Adjacent is still an industry you do not run.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Buy-side coverage"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "Strategic acquirers"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Page headline",
+     "text": "Adjacent is still <em>an industry you do not run.</em>"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Paragraph",
+     "text": "Strategic acquirers took their largest share of software deals in nine years and paid the widest premium in a decade. Inside an industry you operate in, the premium is defensible. Outside it, the premium is the risk."
+    },
+    {
+     "key": "inner.5",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "The end-market read"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Financials traced to source"
+    },
+    {
+     "key": "inner.8",
+     "kind": "Text",
+     "text": "Before the letter of intent"
+    }
+   ]
+  },
+  {
+   "id": "market",
+   "name": "For buyers · Who is buying",
+   "items": [
+    {
+     "key": "market.1",
+     "kind": "Small label",
+     "text": "For buyers · Who is buying"
+    },
+    {
+     "key": "market.2",
+     "kind": "Text",
+     "text": "71%"
+    },
+    {
+     "key": "market.3",
+     "kind": "Paragraph",
+     "text": "of announced software deals in 2025 went to <em>strategic acquirers</em>, the highest share in nine years. In the first quarter of 2026 it was 76 percent."
+    },
+    {
+     "key": "market.4",
+     "kind": "Note",
+     "text": "An M&A advisory firm’s global software sector updates, February 16, 2026 and May 15, 2026: 2,897 announced transactions in 2025."
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "name": "You are paying the premium. Market extension is the deal type that ...",
+   "items": [
+    {
+     "key": "evidence.1",
+     "kind": "Small label",
+     "text": "For buyers · What the premium buys"
+    },
+    {
+     "key": "evidence.2",
+     "kind": "Section headline",
+     "text": "You are paying the premium. <em>Market extension is the deal type that returns the least.</em>"
+    },
+    {
+     "key": "evidence.3",
+     "kind": "Paragraph",
+     "text": "Two years after close, deals that extend into a new market rank last of five deal types on value created."
+    },
+    {
+     "key": "evidence.4",
+     "kind": "Text",
+     "text": "27%"
+    },
+    {
+     "key": "evidence.5",
+     "kind": "Text",
+     "text": "The premium strategic acquirers paid over financial sponsors"
+    },
+    {
+     "key": "evidence.6",
+     "kind": "Text",
+     "text": "5.6 times trailing revenue against 4.4 times, across announced global software deals in 2025. The widest in a decade."
+    },
+    {
+     "key": "evidence.7",
+     "kind": "Text",
+     "text": "31.9%"
+    },
+    {
+     "key": "evidence.8",
+     "kind": "Text",
+     "text": "Market extension, on value created two years after close"
+    },
+    {
+     "key": "evidence.9",
+     "kind": "Text",
+     "text": "Last of five deal types. Scale deals ranked first at 45.3 percent."
+    },
+    {
+     "key": "evidence.10",
+     "kind": "Text",
+     "text": "57.2%"
+    },
+    {
+     "key": "evidence.11",
+     "kind": "Text",
+     "text": "Acquirers that destroyed shareholder value"
+    },
+    {
+     "key": "evidence.12",
+     "kind": "Text",
+     "text": "Across 682 public deals of $100M or more, announced from 2012 to 2022."
+    },
+    {
+     "key": "evidence.13",
+     "kind": "Text",
+     "text": "0%"
+    },
+    {
+     "key": "evidence.14",
+     "kind": "Text",
+     "text": "Private-target deals in 2025 with a stand-alone indemnity for third-party consents"
+    },
+    {
+     "key": "evidence.15",
+     "kind": "Text",
+     "text": "In that study, no 2025 deal carried a separate remedy for a contract that could not be assigned."
+    },
+    {
+     "key": "evidence.16",
+     "kind": "Note",
+     "text": "An M&A advisory firm’s global software sector update, February 16, 2026. A professional services firm’s study of 682 public-to-public deals of $100M or more announced 2012 to 2022, published October 31, 2025; that study classified each deal by type using an AI tool, and its market extension and diversification groups hold 47 and 28 deals, so the direction is more reliable than the decimal. SRS Acquiom, 2026 M&A Deal Terms Study, deals closed 2020 to 2025."
+    }
+   ]
+  },
+  {
+   "id": "reads",
+   "name": "Six things the desk does before a name reaches you.",
+   "items": [
+    {
+     "key": "reads.1",
+     "kind": "Small label",
+     "text": "Strategic acquirers · What the desk does for you"
+    },
+    {
+     "key": "reads.2",
+     "kind": "Section headline",
+     "text": "Six things the desk does <em>before a name reaches you.</em>"
+    },
+    {
+     "key": "reads.3",
+     "kind": "Paragraph",
+     "text": "Adjacent is still an industry you do not run. The desk brings the sector knowledge the premium assumes you have."
+    },
+    {
+     "key": "reads.4",
+     "kind": "Text",
+     "text": "The adjacent sector"
+    },
+    {
+     "key": "reads.5",
+     "kind": "Text",
+     "text": "Mapped as if you ran it"
+    },
+    {
+     "key": "reads.6",
+     "kind": "Paragraph",
+     "text": "Outside an industry you operate in, the premium is the risk. The desk brings the operating knowledge of the sector you are entering."
+    },
+    {
+     "key": "reads.7",
+     "kind": "Text",
+     "text": "The end market"
+    },
+    {
+     "key": "reads.8",
+     "kind": "Text",
+     "text": "Read before the premium"
+    },
+    {
+     "key": "reads.9",
+     "kind": "Paragraph",
+     "text": "Who the target’s customers are, how they buy, and what is happening to their own industry, read before corporate development prices the synergy."
+    },
+    {
+     "key": "reads.10",
+     "kind": "Text",
+     "text": "The owners"
+    },
+    {
+     "key": "reads.11",
+     "kind": "Text",
+     "text": "Known ahead of a process"
+    },
+    {
+     "key": "reads.12",
+     "kind": "Paragraph",
+     "text": "Relationships built before a banker is hired, so a strategic buyer is already a known name when the owner decides."
+    },
+    {
+     "key": "reads.13",
+     "kind": "Text",
+     "text": "The evidence"
+    },
+    {
+     "key": "reads.14",
+     "kind": "Text",
+     "text": "Traced to source"
+    },
+    {
+     "key": "reads.15",
+     "kind": "Paragraph",
+     "text": "Revenue reconciled to bank deposits, every adjustment marked supported or unsupported, before the letter is priced."
+    },
+    {
+     "key": "reads.16",
+     "kind": "Text",
+     "text": "The integration"
+    },
+    {
+     "key": "reads.17",
+     "kind": "Text",
+     "text": "Read in the records"
+    },
+    {
+     "key": "reads.18",
+     "kind": "Paragraph",
+     "text": "Contracts with consents, customers shared with your own, systems and people that will not transfer, found before the letter."
+    },
+    {
+     "key": "reads.19",
+     "kind": "Text",
+     "text": "The fit"
+    },
+    {
+     "key": "reads.20",
+     "kind": "Text",
+     "text": "Scored against your criteria"
+    },
+    {
+     "key": "reads.21",
+     "kind": "Paragraph",
+     "text": "Each business scored and ranked against criteria and weights you approved. You decide which to pursue."
+    }
+   ]
+  },
+  {
+   "id": "table",
+   "name": "What is on the record before you price it.",
+   "items": [
+    {
+     "key": "table.1",
+     "kind": "Small label",
+     "text": "Strategic acquirers · The evidence before the letter"
+    },
+    {
+     "key": "table.2",
+     "kind": "Section headline",
+     "text": "What is on the record <em>before you price it.</em>"
+    },
+    {
+     "key": "table.3",
+     "kind": "Table cell",
+     "text": "Question"
+    },
+    {
+     "key": "table.4",
+     "kind": "Table cell",
+     "text": "How it is usually answered"
+    },
+    {
+     "key": "table.5",
+     "kind": "Table cell",
+     "text": "How the desk answers it"
+    },
+    {
+     "key": "table.6",
+     "kind": "Table cell",
+     "text": "Is the sector what the deck says it is?"
+    },
+    {
+     "key": "table.7",
+     "kind": "Table cell",
+     "text": "An analyst’s market study."
+    },
+    {
+     "key": "table.8",
+     "kind": "Table cell",
+     "text": "The sector mapped from its companies, its buyers and its broken deals, by people who have operated in it."
+    },
+    {
+     "key": "table.9",
+     "kind": "Table cell",
+     "text": "What does the target earn?"
+    },
+    {
+     "key": "table.10",
+     "kind": "Table cell",
+     "text": "Adjusted earnings, as presented."
+    },
+    {
+     "key": "table.11",
+     "kind": "Table cell",
+     "text": "Every adjustment marked supported or unsupported, with the document that decides it."
+    },
+    {
+     "key": "table.12",
+     "kind": "Table cell",
+     "text": "Will the customers stay after the deal?"
+    },
+    {
+     "key": "table.13",
+     "kind": "Table cell",
+     "text": "A synergy assumption."
+    },
+    {
+     "key": "table.14",
+     "kind": "Table cell",
+     "text": "Contract terms, consent clauses and concentration, customer by customer, before the premium is set."
+    },
+    {
+     "key": "table.15",
+     "kind": "Table cell",
+     "text": "What is the premium buying?"
+    },
+    {
+     "key": "table.16",
+     "kind": "Table cell",
+     "text": "Market extension, by the strategy."
+    },
+    {
+     "key": "table.17",
+     "kind": "Table cell",
+     "text": "The published record: market extension returns the least of the deal types. The desk reads the specific target against it."
+    },
+    {
+     "key": "table.18",
+     "kind": "Table cell",
+     "text": "What transfers?"
+    },
+    {
+     "key": "table.19",
+     "kind": "Table cell",
+     "text": "Counsel’s review, in week six."
+    },
+    {
+     "key": "table.20",
+     "kind": "Table cell",
+     "text": "Every contract, license and permit with a consent requirement, listed before the letter."
+    },
+    {
+     "key": "table.21",
+     "kind": "Table cell",
+     "text": "What ended the last deal in this sector?"
+    },
+    {
+     "key": "table.22",
+     "kind": "Table cell",
+     "text": "Nobody asks."
+    },
+    {
+     "key": "table.23",
+     "kind": "Table cell",
+     "text": "The Dead Deal Notes, coded by sector, stage and finding."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Each engagement starts with your criteria and a clearly defined sec...",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "Strategic acquirers · How an engagement works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Each engagement starts with your criteria and <em>a clearly defined sector.</em>"
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "Your acquisition criteria and a clearly defined sector. Criteria on file is non-exclusive, at no fee. A retained search is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector, scored and ranked against criteria and weights you approved. You decide which to pursue."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "how.10",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Strategic acquirers · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Why is the premium the risk outside my industry?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "Because the synergy that justifies it depends on customers, contracts and people you have not operated with. The published record puts market extension at the bottom of the deal types for returns. The desk reads the adjacent sector the way an operator in it would."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "What does criteria on file cost?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Nothing. Criteria on file is non-exclusive, at no fee, and confirmed with you each quarter. A retained search in one sector, exclusive to you in that sector, is by exception, with scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Can corporate development use the desk for one target?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Yes. The evidence on a single target, before the letter is priced, is a separately scoped engagement."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Do you represent the seller as well?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "Never on the same transaction. Capital Row acts for one side, under a scope and fee agreed in writing."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "What is the first conversation?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "Which market you are entering, and the timeline. One business day, read by a person."
+    }
+   ]
+  },
+  {
+   "id": "work",
+   "name": "The end-market read a corporate development team cannot staff for.",
+   "items": [
+    {
+     "key": "work.1",
+     "kind": "Small label",
+     "text": "For buyers · What the work covers"
+    },
+    {
+     "key": "work.2",
+     "kind": "Section headline",
+     "text": "The end-market read a corporate development team <em>cannot staff for.</em>"
+    },
+    {
+     "key": "work.3",
+     "kind": "Paragraph",
+     "text": "The first conversation is about your criteria and the desks that match them."
+    },
+    {
+     "key": "work.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "work.5",
+     "kind": "Text",
+     "text": "The sector, defined"
+    },
+    {
+     "key": "work.6",
+     "kind": "Paragraph",
+     "text": "Each engagement starts with your acquisition criteria and a clearly defined sector. Scope and fee are agreed in writing before any work begins."
+    },
+    {
+     "key": "work.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "work.8",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "work.9",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector that match your acquisition strategy."
+    },
+    {
+     "key": "work.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "work.11",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "work.12",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "work.13",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "work.14",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "work.15",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, with revenue reconciled to bank deposits and each adjustment marked supported or unsupported."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For buyers",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For buyers"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Put your criteria on file.<br><em>See the rest of your market.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "Capital Row helps buyers see more of their own market, with the financials traced to source before the letter of intent."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "One business day, read by a person."
+    },
+    {
+     "key": "next.6",
+     "kind": "Small label",
+     "text": "The other routes"
+    },
+    {
+     "key": "next.7",
+     "kind": "Link",
+     "text": "<i>01</i>Permanent capital and family offices"
+    },
+    {
+     "key": "next.8",
+     "kind": "Link",
+     "text": "<i>02</i>Private equity and platform acquirers"
+    },
+    {
+     "key": "next.9",
+     "kind": "Text",
+     "text": "<i>03</i>Strategic acquirers"
+    },
+    {
+     "key": "next.10",
+     "kind": "Link",
+     "text": "<i>04</i>Independent sponsors"
+    }
+   ]
+  }
+ ]
+}

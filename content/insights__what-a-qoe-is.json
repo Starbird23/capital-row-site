@@ -1,0 +1,444 @@
+{
+ "path": "/insights/what-a-qoe-is/",
+ "seoTitle": "What a quality of earnings report is, and why a lender will not take yours | Capital Row Insights",
+ "seoDescription": "The definition of a quality of earnings report, the AICPA standard it is performed under, how it differs from an audit, review and compilation, the SBA rule that requires one at $3 million, why software alone cannot sign one, and what it costs in time.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The definition"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The lender’s rule"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Can software do it"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The three steps"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "What a quality of earnings report is, and why a lender will not tak...",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "Insights"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Text",
+     "text": "For owners and advisors"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Text",
+     "text": "Quality of earnings"
+    },
+    {
+     "key": "inner.4",
+     "kind": "Page headline",
+     "text": "What a quality of earnings report is, <em>and why a lender will not take yours.</em>"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Paragraph",
+     "text": "Every buyer above a certain size commissions one, and from October 1, 2026 every SBA lender must, at a purchase price of $3 million or more. What the report is, which professional standard it sits under, what it is not, and why the question of who signs it is not a question about software."
+    },
+    {
+     "key": "inner.6",
+     "kind": "Button",
+     "text": "Start with the definition"
+    }
+   ]
+  },
+  {
+   "id": "definition",
+   "name": "What the report is, and what the other words mean.",
+   "items": [
+    {
+     "key": "definition.1",
+     "kind": "Small label",
+     "text": "Quality of earnings · The definition"
+    },
+    {
+     "key": "definition.2",
+     "kind": "Section headline",
+     "text": "What the report is, <em>and what the other words mean.</em>"
+    },
+    {
+     "key": "definition.3",
+     "kind": "Heading",
+     "text": "The definition"
+    },
+    {
+     "key": "definition.4",
+     "kind": "Paragraph",
+     "text": "A quality of earnings report is an independent analysis of what a business actually earns, as distinct from what it reports. A CPA firm traces reported revenue and expenses to bank records, tax filings and source documents, identifies the items that are non-recurring, non-operating or personal, and produces a normalized earnings figure, usually adjusted earnings before interest, taxes, depreciation and amortization, that a buyer or a lender can underwrite. It also reads the quality of the revenue behind that figure: customer concentration, retention, contract terms and the working capital the business needs to run."
+    },
+    {
+     "key": "definition.5",
+     "kind": "Paragraph",
+     "text": "In a national CPA firm’s words, a quality of earnings study is not an audit; it is a consulting engagement, which gives it flexibility of scope. An audit forms an opinion on whether financial statements are fairly presented under an accounting framework. A quality of earnings report asks a different question: whether the earnings are real, recurring and supported, and what a buyer can rely on going forward."
+    },
+    {
+     "key": "definition.6",
+     "kind": "Heading",
+     "text": "What the other words mean"
+    },
+    {
+     "key": "definition.7",
+     "kind": "List item",
+     "text": "<b>Compilation.</b> A CPA presents the financial statements from the company’s records and provides no assurance on them."
+    },
+    {
+     "key": "definition.8",
+     "kind": "List item",
+     "text": "<b>Review.</b> A CPA provides limited assurance that the statements contain no material misstatement. The CPA must be independent."
+    },
+    {
+     "key": "definition.9",
+     "kind": "List item",
+     "text": "<b>Audit.</b> A CPA provides high, though not absolute, assurance and issues an opinion. The CPA must be independent."
+    },
+    {
+     "key": "definition.10",
+     "kind": "List item",
+     "text": "<b>Quality of earnings.</b> A consulting engagement under the AICPA’s Statement on Standards for Consulting Services, CS section 100, whose list of transaction services includes the analysis of a potential merger or acquisition and the preparation of information for obtaining financing. It is not an attestation engagement, and the words attest, assurance, examination and opinion do not apply to it unless the engagement letter provides for an agreed-upon procedures report, which is a different engagement with a different report."
+    },
+    {
+     "key": "definition.11",
+     "kind": "List item",
+     "text": "<b>Business valuation.</b> A conclusion of value, prepared by an accredited valuator. A quality of earnings report supplies the earnings the valuation rests on; it is not itself a valuation."
+    },
+    {
+     "key": "definition.12",
+     "kind": "Paragraph",
+     "text": "Independence under the AICPA code is required for attest work. For consulting work it is not, so the independence of a quality of earnings preparer is imposed by the party relying on the report: a buyer commissions the report from a firm that does not act for the seller, and a lender commissions it from a firm that acts for the lender alone."
+    }
+   ]
+  },
+  {
+   "id": "lenders",
+   "name": "Independent, for the lender, at $3 million or more.",
+   "items": [
+    {
+     "key": "lenders.1",
+     "kind": "Small label",
+     "text": "Quality of earnings · The lender’s rule"
+    },
+    {
+     "key": "lenders.2",
+     "kind": "Section headline",
+     "text": "Independent, for the lender, <em>at $3 million or more.</em>"
+    },
+    {
+     "key": "lenders.3",
+     "kind": "Heading",
+     "text": "The rule that changed on October 1, 2026"
+    },
+    {
+     "key": "lenders.4",
+     "kind": "Paragraph",
+     "text": "Under SBA Standard Operating Procedure 50 10 8.1, for a 7(a) loan that finances an initial acquisition or a business expansion where the business purchase price is $3 million or more, the lender must obtain a quality of earnings report in addition to the required business valuation. The threshold is measured before buyer equity, seller debt or any other financing is applied. The report must be performed by an independent, experienced financial professional and conducted for the benefit of the lender; it must not be prepared by or for the seller. A report the buyer commissioned may be used only after one of the lender’s approved vendors has reviewed it. The report must include a cash proof that reconstructs receipts and disbursements from bank statements to the income statement and the tax return, on a trailing twelve-month basis and for the last two fiscal years, and the lender must use the earnings it produces in the debt service coverage calculation. If those earnings do not support the price and the debt, the loan amount is reduced."
+    },
+    {
+     "key": "lenders.5",
+     "kind": "Paragraph",
+     "text": "The rule is written for loans the government guarantees. It sets the lowest point at which any lender in the market is now required to commission one. Above that point the practice already runs ahead of the rule: practitioners estimate that at least nine in ten private-equity-backed deals use a sell-side report and about half of founder-led lower-middle-market sellers commission one, and GF Data’s record of 360 private equity transactions since the third quarter of 2024 shows sellers with a sell-side report averaging 7.4 times adjusted earnings against 7.0 times without. That is a correlation, concentrated in larger deals, and we do not read it as a promise."
+    },
+    {
+     "key": "lenders.6",
+     "kind": "Text",
+     "text": "Below $3 million the report is optional and increasingly expected. Above it, on an SBA loan, it is the law of the loan."
+    },
+    {
+     "key": "lenders.7",
+     "kind": "Text",
+     "text": "Our read"
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "name": "Software already does part of it. What it cannot do is sign.",
+   "items": [
+    {
+     "key": "ai.1",
+     "kind": "Small label",
+     "text": "Quality of earnings · Can software do it"
+    },
+    {
+     "key": "ai.2",
+     "kind": "Section headline",
+     "text": "Software already does part of it. <em>What it cannot do is sign.</em>"
+    },
+    {
+     "key": "ai.3",
+     "kind": "Heading",
+     "text": "Can software do it instead?"
+    },
+    {
+     "key": "ai.4",
+     "kind": "Paragraph",
+     "text": "Software already does part of it. A national CPA firm describes its transaction teams using AI to map trial balances, produce the first version of schedules, identify trends and anomalies, perform and review reconciliations, and draft the questions for management. The audit regulator’s own survey of the profession found generative AI in use for research, drafting and account reconciliations. The work of tracing is faster than it was."
+    },
+    {
+     "key": "ai.5",
+     "kind": "Paragraph",
+     "text": "What software cannot do is sign. Four facts decide that, and none of them is about capability."
+    },
+    {
+     "key": "ai.6",
+     "kind": "List item",
+     "text": "<b>Licensure.</b> In California, no person may practice public accountancy without a permit from the Board of Accountancy, and no person other than a licensee or a registered firm may use the title certified public accountant or any designation likely to be confused with it. A report issued by a CPA means a licensed natural person or a registered firm took responsibility for it."
+    },
+    {
+     "key": "ai.7",
+     "kind": "List item",
+     "text": "<b>Responsibility.</b> The AICPA’s Professional Ethics Division states the rule plainly: whether the AI was built in-house or comes from a provider, the responsibility for the final work product rests with the CPA, who must undertake only services they can complete competently and with due care, and who must treat the tool as an assistant rather than a substitute for judgment. The PCAOB’s staff found that generative AI output may not always be reliable, that it may be skewed or biased, and that human involvement remains essential to review it."
+    },
+    {
+     "key": "ai.8",
+     "kind": "List item",
+     "text": "<b>Independence and liability.</b> A lender relies on a report because a firm that is independent of the parties, carries professional liability for its work, and can be questioned by the credit committee stands behind it. Software holds no license and cannot sign an engagement letter."
+    },
+    {
+     "key": "ai.9",
+     "kind": "List item",
+     "text": "<b>The rule itself.</b> The SBA requires an independent, experienced financial professional, for the benefit of the lender. Buyer- and seller-prepared reports do not satisfy it, and a report prepared by anyone else must be reviewed by the lender’s own vendor."
+    },
+    {
+     "key": "ai.10",
+     "kind": "Paragraph",
+     "text": "The cost of getting this wrong has a published example. In 2025 a Big Four firm agreed to refund part of a government contract after a report it delivered was found to contain fabricated references and a fabricated quotation from a court judgment, with the use of a generative model disclosed only in the corrected version. The report was not financial analysis; the lesson is the same."
+    },
+    {
+     "key": "ai.11",
+     "kind": "Heading",
+     "text": "What it costs in time"
+    },
+    {
+     "key": "ai.12",
+     "kind": "Paragraph",
+     "text": "A sell-side quality of earnings engagement runs four to eight weeks of fieldwork and six to eleven weeks to a final report, and the practitioners who do the work recommend commissioning it three to six months before going to market. Published planning ranges from advisors run from about $25,000 to $150,000 depending on size, complexity and the state of the books; those are ranges, not quotes, and the CPA firm prices the engagement."
+    }
+   ]
+  },
+  {
+   "id": "steps",
+   "name": "Three steps, each deeper than the last, and you decide after each one.",
+   "items": [
+    {
+     "key": "steps.1",
+     "kind": "Small label",
+     "text": "Quality of earnings · The three steps"
+    },
+    {
+     "key": "steps.2",
+     "kind": "Section headline",
+     "text": "Three steps, each deeper than the last, <em>and you decide after each one.</em>"
+    },
+    {
+     "key": "steps.3",
+     "kind": "Text",
+     "text": "Step one"
+    },
+    {
+     "key": "steps.4",
+     "kind": "Text",
+     "text": "Pre-Market Assessment"
+    },
+    {
+     "key": "steps.5",
+     "kind": "Paragraph",
+     "text": "The first read: an indicative valuation range, your adjusted earnings as you report them, the adjustments a buyer is most likely to question, and a 90-day plan. For owners who may sell in two years or never."
+    },
+    {
+     "key": "steps.6",
+     "kind": "Text",
+     "text": "What the assessment includes →"
+    },
+    {
+     "key": "steps.7",
+     "kind": "Text",
+     "text": "Step two"
+    },
+    {
+     "key": "steps.8",
+     "kind": "Text",
+     "text": "Preparation"
+    },
+    {
+     "key": "steps.9",
+     "kind": "Paragraph",
+     "text": "The full trace: revenue reconciled to bank deposits, every adjustment marked supported or unsupported with the document that decides it, customers, contracts and licenses read the way a buyer will. Non-attest, and yours to keep."
+    },
+    {
+     "key": "steps.10",
+     "kind": "Text",
+     "text": "What the review covers →"
+    },
+    {
+     "key": "steps.11",
+     "kind": "Text",
+     "text": "Step three"
+    },
+    {
+     "key": "steps.12",
+     "kind": "Text",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "steps.13",
+     "kind": "Paragraph",
+     "text": "The report, from the independent CPA firm Capital Row partners with, built on the record the first two steps assembled. The report a buyer’s team meets with reconciled schedules instead of a blank page."
+    },
+    {
+     "key": "steps.14",
+     "kind": "Text",
+     "text": "About the Sell-Side QoE →"
+    },
+    {
+     "key": "steps.15",
+     "kind": "Small label",
+     "text": "Sources"
+    },
+    {
+     "key": "steps.16",
+     "kind": "List item",
+     "text": "<a>Baker Tilly, Ten considerations in a quality of earnings study, March 25, 2022</a>"
+    },
+    {
+     "key": "steps.17",
+     "kind": "List item",
+     "text": "<a>AICPA & CIMA, What is the difference among a compilation, review and audit?, September 30, 2023</a>"
+    },
+    {
+     "key": "steps.18",
+     "kind": "List item",
+     "text": "<a>Journal of Accountancy, Litigation services: standards and ethics, April 1997, reproducing AICPA Professional Standards CS section 100</a>"
+    },
+    {
+     "key": "steps.19",
+     "kind": "List item",
+     "text": "<a>Thomson Reuters, AICPA issues clarification on financial statement standards for client advisory services, April 10, 2025</a>"
+    },
+    {
+     "key": "steps.20",
+     "kind": "List item",
+     "text": "<a>Indiana CPA Society, What you need to know about independence, updated August 21, 2025</a>"
+    },
+    {
+     "key": "steps.21",
+     "kind": "List item",
+     "text": "<a>Carr, Riggs & Ingram, What is a quality of earnings analysis?, December 13, 2024</a>"
+    },
+    {
+     "key": "steps.22",
+     "kind": "List item",
+     "text": "<a>SBA, SOP 50 10 8.1, Lender and Development Company Loan Programs, with Technical Policy Updates, effective October 1, 2026</a>, Appendix 15, financial due diligence"
+    },
+    {
+     "key": "steps.23",
+     "kind": "List item",
+     "text": "<a>Live Oak Bank, Buying a business with a 7(a) loan now works differently</a>"
+    },
+    {
+     "key": "steps.24",
+     "kind": "List item",
+     "text": "<a>CohnReznick, The new SBA quality of earnings requirement, October 8, 2026</a>"
+    },
+    {
+     "key": "steps.25",
+     "kind": "List item",
+     "text": "<a>Middle Market Growth (ACG), Why more sellers are using quality of earnings reports, Fall 2025, citing GF Data</a>"
+    },
+    {
+     "key": "steps.26",
+     "kind": "List item",
+     "text": "<a>Journal of Accountancy, Accounting ethics in the age of AI, AICPA Professional Ethics Division, August 5, 2026</a>"
+    },
+    {
+     "key": "steps.27",
+     "kind": "List item",
+     "text": "<a>PCAOB, Spotlight: staff update on generative AI in audits and financial reporting, July 2024</a>"
+    },
+    {
+     "key": "steps.28",
+     "kind": "List item",
+     "text": "<a>AICPA & CIMA, practice aid on AI considerations for financial statement auditors, October 13, 2026</a>"
+    },
+    {
+     "key": "steps.29",
+     "kind": "List item",
+     "text": "<a>Forvis Mazars, Quality of earnings and due diligence in an AI world, September 8, 2026</a>"
+    },
+    {
+     "key": "steps.30",
+     "kind": "List item",
+     "text": "<a>California Accountancy Act, Business and Professions Code sections 5050, 5055 and 5058, California Board of Accountancy, current as of January 1, 2026</a>"
+    },
+    {
+     "key": "steps.31",
+     "kind": "List item",
+     "text": "<a>Fortune, Deloitte to partially refund the Australian government over an AI-assisted report, October 7, 2025</a>"
+    },
+    {
+     "key": "steps.32",
+     "kind": "List item",
+     "text": "<a>Mercer Capital, How does a quality of earnings report differ from an audit?, June 19, 2024</a>, 45 to 60 days"
+    },
+    {
+     "key": "steps.33",
+     "kind": "List item",
+     "text": "<a>An M&A advisory firm’s published cost guide to quality of earnings reports, July 25, 2026</a>, advisor-published ranges"
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "For owners",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Small label",
+     "text": "For owners"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Find it before a buyer does.<br><em>Then decide what to do about it.</em>"
+    },
+    {
+     "key": "next.3",
+     "kind": "Paragraph",
+     "text": "The Pre-Market Assessment is the first read: an indicative valuation range, the earnings behind it as you report them, what moves the range, and a 90-day plan. You do not need to have decided to sell."
+    },
+    {
+     "key": "next.4",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "next.5",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  }
+ ]
+}

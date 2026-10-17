@@ -1,0 +1,772 @@
+{
+ "path": "/sellers/growth-and-exit-plan/",
+ "seoTitle": "Capital Row: Growth and Exit Plan",
+ "seoDescription": "For owners who have not decided to sell: what the company is worth today, who would buy it, and what raises the price.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "pgnav",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "Why it matters"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "What you receive"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "How it works"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Where each path leads"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "The four paths"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Who it is for"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "What your company is worth today. And what raises the price.",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "<i>Growth and Exit Plan</i>"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "What your company is worth today. <em>And what raises the price.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "For owners who have not decided to sell. You leave with the earnings a buyer would accept, who would buy the company, and the moves that raise the price: buy, build, partner or sell. Four to six weeks, one fixed fee agreed in writing."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Button",
+     "text": "Request a Growth and Exit Plan"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Text",
+     "text": "The earnings a buyer would accept"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "Who would buy it"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Buy, build, partner or sell"
+    }
+   ]
+  },
+  {
+   "id": "why",
+   "name": "A sale is one of four paths. Most owners price only one.",
+   "items": [
+    {
+     "key": "why.1",
+     "kind": "Small label",
+     "text": "Growth and Exit Plan · Why it matters"
+    },
+    {
+     "key": "why.2",
+     "kind": "Section headline",
+     "text": "A sale is one of four paths. <em>Most owners price only one.</em>"
+    },
+    {
+     "key": "why.3",
+     "kind": "Paragraph",
+     "text": "Keep building, buy a competitor, take a capital partner, or sell. Each path has a price, and the price of each depends on the same earnings. The plan works all four against your own numbers."
+    },
+    {
+     "key": "why.4",
+     "kind": "Text",
+     "text": "42%"
+    },
+    {
+     "key": "why.5",
+     "kind": "Text",
+     "text": "Owners with a written transition plan"
+    },
+    {
+     "key": "why.6",
+     "kind": "Paragraph",
+     "text": "In the 2023 national survey of 1,162 owners. The rest will decide the path when a buyer, a partner or a lender forces the decision."
+    },
+    {
+     "key": "why.7",
+     "kind": "Text",
+     "text": "49%"
+    },
+    {
+     "key": "why.8",
+     "kind": "Text",
+     "text": "Engagements that died on the valuation gap"
+    },
+    {
+     "key": "why.9",
+     "kind": "Paragraph",
+     "text": "Share of investment bankers’ engagements that did not close on the gap between the owner’s price and the market’s. Pepperdine, 2024."
+    },
+    {
+     "key": "why.10",
+     "kind": "Text",
+     "text": "16.9%"
+    },
+    {
+     "key": "why.11",
+     "kind": "Text",
+     "text": "Rollover equity, share of enterprise value"
+    },
+    {
+     "key": "why.12",
+     "kind": "Paragraph",
+     "text": "The average in private equity deals through the third quarter of 2025. A sale is often a partnership with a different name."
+    },
+    {
+     "key": "why.13",
+     "kind": "Text",
+     "text": "24%"
+    },
+    {
+     "key": "why.14",
+     "kind": "Text",
+     "text": "Deals with an earnout, 2025"
+    },
+    {
+     "key": "why.15",
+     "kind": "Paragraph",
+     "text": "Across private-target deals; 35 percent of deals under $25 million. The path you choose decides how much of the price is cash."
+    }
+   ]
+  },
+  {
+   "id": "receive",
+   "name": "Four answers, worked against your own numbers.",
+   "items": [
+    {
+     "key": "receive.1",
+     "kind": "Small label",
+     "text": "What you receive"
+    },
+    {
+     "key": "receive.2",
+     "kind": "Section headline",
+     "text": "Four answers, <em>worked against your own numbers.</em>"
+    },
+    {
+     "key": "receive.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "receive.4",
+     "kind": "Text",
+     "text": "The earnings a buyer would accept"
+    },
+    {
+     "key": "receive.5",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "receive.6",
+     "kind": "Text",
+     "text": "Who would buy it"
+    },
+    {
+     "key": "receive.7",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "receive.8",
+     "kind": "Text",
+     "text": "What raises the price"
+    },
+    {
+     "key": "receive.9",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "receive.10",
+     "kind": "Text",
+     "text": "A written plan"
+    },
+    {
+     "key": "receive.11",
+     "kind": "Text",
+     "text": "The earnings a buyer would accept"
+    },
+    {
+     "key": "receive.12",
+     "kind": "Paragraph",
+     "text": "Your adjusted earnings traced to source documents, with every adjustment marked supported or unsupported."
+    },
+    {
+     "key": "receive.13",
+     "kind": "Link",
+     "text": "The Pre-Market Assessment →"
+    },
+    {
+     "key": "receive.14",
+     "kind": "Text",
+     "text": "Who would buy it"
+    },
+    {
+     "key": "receive.15",
+     "kind": "Paragraph",
+     "text": "The buyer types active in your sector, from the criteria buyers keep on file with Capital Row."
+    },
+    {
+     "key": "receive.16",
+     "kind": "Link",
+     "text": "Who is buying, by sector →"
+    },
+    {
+     "key": "receive.17",
+     "kind": "Text",
+     "text": "What raises the price"
+    },
+    {
+     "key": "receive.18",
+     "kind": "Paragraph",
+     "text": "Keep building, buy a competitor, take a capital partner, or sell. What each path does to the price, and what it needs first."
+    },
+    {
+     "key": "receive.19",
+     "kind": "Link",
+     "text": "Where each path leads →"
+    },
+    {
+     "key": "receive.20",
+     "kind": "Text",
+     "text": "A written plan"
+    },
+    {
+     "key": "receive.21",
+     "kind": "Paragraph",
+     "text": "The path we would take, in order, and a decision session to go through it. Yours to keep."
+    },
+    {
+     "key": "receive.22",
+     "kind": "Link",
+     "text": "How it works →"
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "name": "Four steps, and you decide what happens after each one.",
+   "items": [
+    {
+     "key": "how.1",
+     "kind": "Small label",
+     "text": "How it works"
+    },
+    {
+     "key": "how.2",
+     "kind": "Section headline",
+     "text": "Four steps, and <em>you decide</em> what happens after each one."
+    },
+    {
+     "key": "how.3",
+     "kind": "Text",
+     "text": "A conversation"
+    },
+    {
+     "key": "how.4",
+     "kind": "Paragraph",
+     "text": "About the business, its market and what you want from the next two years."
+    },
+    {
+     "key": "how.5",
+     "kind": "Text",
+     "text": "An agreed information request"
+    },
+    {
+     "key": "how.6",
+     "kind": "Paragraph",
+     "text": "Scope and fee are set in writing before any work begins."
+    },
+    {
+     "key": "how.7",
+     "kind": "Text",
+     "text": "Four to six weeks of work"
+    },
+    {
+     "key": "how.8",
+     "kind": "Paragraph",
+     "text": "Your numbers traced to source, your buyers mapped, and each path worked out."
+    },
+    {
+     "key": "how.9",
+     "kind": "Text",
+     "text": "A written plan and a decision session"
+    },
+    {
+     "key": "how.10",
+     "kind": "Paragraph",
+     "text": "The plan is yours to keep. Nothing reaches a buyer without your written permission."
+    }
+   ]
+  },
+  {
+   "id": "paths",
+   "name": "Whichever path you choose, the next step is already mapped.",
+   "items": [
+    {
+     "key": "paths.1",
+     "kind": "Small label",
+     "text": "Where each path leads"
+    },
+    {
+     "key": "paths.2",
+     "kind": "Section headline",
+     "text": "Whichever path you choose, <em>the next step is already mapped.</em>"
+    },
+    {
+     "key": "paths.3",
+     "kind": "Text",
+     "text": "Build"
+    },
+    {
+     "key": "paths.4",
+     "kind": "Text",
+     "text": "Keep building"
+    },
+    {
+     "key": "paths.5",
+     "kind": "Text",
+     "text": "Buy"
+    },
+    {
+     "key": "paths.6",
+     "kind": "Text",
+     "text": "Buy a competitor"
+    },
+    {
+     "key": "paths.7",
+     "kind": "Text",
+     "text": "Partner"
+    },
+    {
+     "key": "paths.8",
+     "kind": "Text",
+     "text": "Take a capital partner"
+    },
+    {
+     "key": "paths.9",
+     "kind": "Text",
+     "text": "Sell"
+    },
+    {
+     "key": "paths.10",
+     "kind": "Text",
+     "text": "Sell the company"
+    },
+    {
+     "key": "paths.11",
+     "kind": "Text",
+     "text": "Keep building"
+    },
+    {
+     "key": "paths.12",
+     "kind": "Paragraph",
+     "text": "A check each quarter on the numbers that move the price, against the 90-day plan from the assessment. Sell later, from a stronger record."
+    },
+    {
+     "key": "paths.13",
+     "kind": "Link",
+     "text": "The Pre-Market Assessment →"
+    },
+    {
+     "key": "paths.14",
+     "kind": "Text",
+     "text": "Buy a competitor"
+    },
+    {
+     "key": "paths.15",
+     "kind": "Paragraph",
+     "text": "A search for the right company, the evidence on it before a letter is priced, and financing through Capital Connections."
+    },
+    {
+     "key": "paths.16",
+     "kind": "Link",
+     "text": "Capital Connections →"
+    },
+    {
+     "key": "paths.17",
+     "kind": "Text",
+     "text": "Take a capital partner"
+    },
+    {
+     "key": "paths.18",
+     "kind": "Paragraph",
+     "text": "Introductions to financing and capital partners through Capital Connections, with the business story read first."
+    },
+    {
+     "key": "paths.19",
+     "kind": "Link",
+     "text": "Capital Connections →"
+    },
+    {
+     "key": "paths.20",
+     "kind": "Text",
+     "text": "Sell the company"
+    },
+    {
+     "key": "paths.21",
+     "kind": "Paragraph",
+     "text": "The Sell-Side QoE, then a sale. Capital Row can represent you in the sale under a separate engagement."
+    },
+    {
+     "key": "paths.22",
+     "kind": "Link",
+     "text": "The Sell-Side QoE →"
+    }
+   ]
+  },
+  {
+   "id": "compare",
+   "name": "What each path does to the price, and what it needs first.",
+   "items": [
+    {
+     "key": "compare.1",
+     "kind": "Small label",
+     "text": "Growth and Exit Plan · The four paths"
+    },
+    {
+     "key": "compare.2",
+     "kind": "Section headline",
+     "text": "What each path does to the price, <em>and what it needs first.</em>"
+    },
+    {
+     "key": "compare.3",
+     "kind": "Table cell",
+     "text": "Path"
+    },
+    {
+     "key": "compare.4",
+     "kind": "Table cell",
+     "text": "What it does to the price"
+    },
+    {
+     "key": "compare.5",
+     "kind": "Table cell",
+     "text": "What it needs first"
+    },
+    {
+     "key": "compare.6",
+     "kind": "Table cell",
+     "text": "The next step"
+    },
+    {
+     "key": "compare.7",
+     "kind": "Table cell",
+     "text": "Build"
+    },
+    {
+     "key": "compare.8",
+     "kind": "Table cell",
+     "text": "Raises it over time, if the numbers that move the price are the ones that grow."
+    },
+    {
+     "key": "compare.9",
+     "kind": "Table cell",
+     "text": "A quarterly check on retention, margin and concentration against the plan."
+    },
+    {
+     "key": "compare.10",
+     "kind": "Table cell",
+     "text": "The 90-day plan, then the assessment again next year."
+    },
+    {
+     "key": "compare.11",
+     "kind": "Table cell",
+     "text": "Buy"
+    },
+    {
+     "key": "compare.12",
+     "kind": "Table cell",
+     "text": "Raises size, which raises the multiple in every published series, and adds integration risk."
+    },
+    {
+     "key": "compare.13",
+     "kind": "Table cell",
+     "text": "A target read the way a buyer reads yours, and financing arranged before the letter."
+    },
+    {
+     "key": "compare.14",
+     "kind": "Table cell",
+     "text": "A search, and Capital Connections."
+    },
+    {
+     "key": "compare.15",
+     "kind": "Table cell",
+     "text": "Partner"
+    },
+    {
+     "key": "compare.16",
+     "kind": "Table cell",
+     "text": "Takes money off the table now and keeps a share of the price later."
+    },
+    {
+     "key": "compare.17",
+     "kind": "Table cell",
+     "text": "Earnings a partner can underwrite, and a story a lender can read."
+    },
+    {
+     "key": "compare.18",
+     "kind": "Table cell",
+     "text": "Introductions through Capital Connections."
+    },
+    {
+     "key": "compare.19",
+     "kind": "Table cell",
+     "text": "Sell"
+    },
+    {
+     "key": "compare.20",
+     "kind": "Table cell",
+     "text": "Sets the price once, on the earnings a buyer accepts."
+    },
+    {
+     "key": "compare.21",
+     "kind": "Table cell",
+     "text": "The preparation review, then the Sell-Side QoE."
+    },
+    {
+     "key": "compare.22",
+     "kind": "Table cell",
+     "text": "The sale, under a separate engagement."
+    }
+   ]
+  },
+  {
+   "id": "who",
+   "name": "Owners who have not decided to sell.",
+   "items": [
+    {
+     "key": "who.1",
+     "kind": "Small label",
+     "text": "Growth and Exit Plan · Who it is for"
+    },
+    {
+     "key": "who.2",
+     "kind": "Section headline",
+     "text": "Owners who have <em>not decided to sell.</em>"
+    },
+    {
+     "key": "who.3",
+     "kind": "Text",
+     "text": "Two or more owners"
+    },
+    {
+     "key": "who.4",
+     "kind": "Text",
+     "text": "Partners with different horizons"
+    },
+    {
+     "key": "who.5",
+     "kind": "Paragraph",
+     "text": "One number both can read, and the four paths worked out so the partner who wants to stay and the partner who wants to leave see the same arithmetic."
+    },
+    {
+     "key": "who.6",
+     "kind": "Text",
+     "text": "An offer in hand"
+    },
+    {
+     "key": "who.7",
+     "kind": "Text",
+     "text": "A buyer who called first"
+    },
+    {
+     "key": "who.8",
+     "kind": "Paragraph",
+     "text": "What the business is worth against the offer, and what the other three paths would return. The first number is rarely the last."
+    },
+    {
+     "key": "who.9",
+     "kind": "Text",
+     "text": "Five years out"
+    },
+    {
+     "key": "who.10",
+     "kind": "Text",
+     "text": "Building toward an exit"
+    },
+    {
+     "key": "who.11",
+     "kind": "Paragraph",
+     "text": "Which of the numbers that move the price to work on, and in which order, with a check each quarter."
+    },
+    {
+     "key": "who.12",
+     "kind": "Text",
+     "text": "A competitor for sale"
+    },
+    {
+     "key": "who.13",
+     "kind": "Text",
+     "text": "Buy or be bought"
+    },
+    {
+     "key": "who.14",
+     "kind": "Paragraph",
+     "text": "The target read the way a buyer reads yours, the financing read before the letter, and the combined price worked out."
+    },
+    {
+     "key": "who.15",
+     "kind": "Text",
+     "text": "A family transition"
+    },
+    {
+     "key": "who.16",
+     "kind": "Text",
+     "text": "The next generation, or not"
+    },
+    {
+     "key": "who.17",
+     "kind": "Paragraph",
+     "text": "A valuation both generations can read, and the paths if the next generation does not want it."
+    },
+    {
+     "key": "who.18",
+     "kind": "Text",
+     "text": "A lender ahead"
+    },
+    {
+     "key": "who.19",
+     "kind": "Text",
+     "text": "Financing the next stage"
+    },
+    {
+     "key": "who.20",
+     "kind": "Paragraph",
+     "text": "Earnings read the way a lender will read them, and what the records support before the application."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Plain answers, then a conversation if you want one.",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Small label",
+     "text": "Growth and Exit Plan · Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "Plain answers, <em>then a conversation if you want one.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "How is this different from the Pre-Market Assessment?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "The assessment gives you a valuation range and the earnings behind it. The plan starts from that read and works out all four paths against your numbers: who would buy, what raises the price, and what each path needs first. Four to six weeks, one fixed fee agreed in writing."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Do I have to choose a path at the end?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "No. The plan is yours to keep. A decision session at the end walks through the four, and you decide, then or later."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "Who would buy it?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "The buyer types active in your sector, from the criteria buyers keep on file with Capital Row. No buyer hears about you without your written permission."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "What if the answer is that I should not sell?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "Then the plan says so, with the path that returns more. We will not promise a price and we will not recommend a sale the numbers do not support."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "What does it cost?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "One fixed fee, agreed in writing before any work begins."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "next",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Paragraph",
+     "text": "Decide with the numbers <em>in front of you.</em>"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "A sale is one of four paths. The Growth and Exit Plan shows you all four, worked against your own earnings, before you choose."
+    },
+    {
+     "key": "next.3",
+     "kind": "Button",
+     "text": "Request a Growth and Exit Plan"
+    },
+    {
+     "key": "next.4",
+     "kind": "Note",
+     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your plan reaches a buyer, or anyone else, without your written permission."
+    }
+   ]
+  }
+ ]
+}

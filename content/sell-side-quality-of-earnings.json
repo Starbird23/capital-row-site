@@ -1,0 +1,3104 @@
+{
+ "path": "/sell-side-quality-of-earnings/",
+ "seoTitle": "Capital Row: sell-side Quality of Earnings and institutional-grade financials",
+ "seoDescription": "Sell-side Quality of Earnings and institutional-grade financials for owners preparing for a sale, recapitalization or investment.",
+ "sections": [
+  {
+   "id": "ssq",
+   "name": "Sell-Side Quality of Earnings and Institutional-Grade Financials",
+   "items": [
+    {
+     "key": "ssq.1",
+     "kind": "Link",
+     "text": "Why it matters"
+    },
+    {
+     "key": "ssq.2",
+     "kind": "Link",
+     "text": "What we build"
+    },
+    {
+     "key": "ssq.3",
+     "kind": "Link",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "ssq.4",
+     "kind": "Link",
+     "text": "Books"
+    },
+    {
+     "key": "ssq.5",
+     "kind": "Link",
+     "text": "Data room"
+    },
+    {
+     "key": "ssq.6",
+     "kind": "Link",
+     "text": "Diligence file"
+    },
+    {
+     "key": "ssq.7",
+     "kind": "Link",
+     "text": "SOPs"
+    },
+    {
+     "key": "ssq.8",
+     "kind": "Link",
+     "text": "Team"
+    },
+    {
+     "key": "ssq.9",
+     "kind": "Link",
+     "text": "Process"
+    },
+    {
+     "key": "ssq.10",
+     "kind": "Link",
+     "text": "FAQ"
+    },
+    {
+     "key": "ssq.11",
+     "kind": "Paragraph",
+     "text": "Capital Row provides M&A advisory and transaction preparation. Accounting, tax, legal, regulatory, compliance, valuation, attestation and other professional work is done by qualified third parties under their own engagements. A QoE is not an audit, a review, a valuation, or a guarantee of value or of closing. Capital Row arranges the sell-side Quality of Earnings with qualified, institutionally backed firms engaged separately. The QoE firm is responsible for its own method, findings and conclusions. Capital Row may supply deal context and proposed normalization items, and does not control the QoE firm's conclusions."
+    }
+   ]
+  },
+  {
+   "id": "q-hero",
+   "name": "Sell-Side Quality of Earnings and Institutional-Grade Financials",
+   "items": [
+    {
+     "key": "qhero.1",
+     "kind": "Paragraph",
+     "text": "Sell-Side QoE"
+    },
+    {
+     "key": "qhero.2",
+     "kind": "Page headline",
+     "text": "Sell-Side Quality of Earnings and Institutional-Grade Financials"
+    },
+    {
+     "key": "qhero.3",
+     "kind": "Paragraph",
+     "text": "Every number in your business will be read by a buyer's diligence team. Read them first, on your side of the table. We help owners reconcile the books to source, document the support behind normalized EBITDA, and build the data room and the diligence file before a letter of intent gives the buyer exclusivity."
+    },
+    {
+     "key": "qhero.4",
+     "kind": "Link",
+     "text": "Request a Confidential Preparation Review"
+    },
+    {
+     "key": "qhero.5",
+     "kind": "Link",
+     "text": "Request a QoE Quote"
+    },
+    {
+     "key": "qhero.6",
+     "kind": "Paragraph",
+     "text": "Built for a sale of all or part of the company, a recapitalization, a strategic investment or a refinancing with institutional capital."
+    },
+    {
+     "key": "qhero.7",
+     "kind": "Text",
+     "text": "The buyer-ready earnings bridge"
+    },
+    {
+     "key": "qhero.8",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qhero.9",
+     "kind": "Heading",
+     "text": "Reported results"
+    },
+    {
+     "key": "qhero.10",
+     "kind": "Paragraph",
+     "text": "Begin with the P&L, the balance sheet, the general ledger and the source systems."
+    },
+    {
+     "key": "qhero.11",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qhero.12",
+     "kind": "Heading",
+     "text": "Reconcile and normalize"
+    },
+    {
+     "key": "qhero.13",
+     "kind": "Paragraph",
+     "text": "Fix entries booked in the wrong period or category, missing accruals and intercompany differences."
+    },
+    {
+     "key": "qhero.14",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qhero.15",
+     "kind": "Heading",
+     "text": "Document adjustments"
+    },
+    {
+     "key": "qhero.16",
+     "kind": "Paragraph",
+     "text": "Each add-back and pro forma item is backed by a document a buyer can check."
+    },
+    {
+     "key": "qhero.17",
+     "kind": "Text",
+     "text": "Defensible, buyer-ready normalized EBITDA"
+    },
+    {
+     "key": "qhero.18",
+     "kind": "Text",
+     "text": "Normalized EBITDA"
+    },
+    {
+     "key": "qhero.19",
+     "kind": "Text",
+     "text": "Revenue quality"
+    },
+    {
+     "key": "qhero.20",
+     "kind": "Text",
+     "text": "Working capital"
+    },
+    {
+     "key": "qhero.21",
+     "kind": "Text",
+     "text": "Debt-like items"
+    },
+    {
+     "key": "qhero.22",
+     "kind": "Text",
+     "text": "Data room"
+    },
+    {
+     "key": "qhero.23",
+     "kind": "Text",
+     "text": "Buyer Q&A support"
+    }
+   ]
+  },
+  {
+   "id": "q-why",
+   "name": "Diligence is where an owner's leverage is kept or lost.",
+   "items": [
+    {
+     "key": "qwhy.1",
+     "kind": "Paragraph",
+     "text": "Why it matters"
+    },
+    {
+     "key": "qwhy.2",
+     "kind": "Section headline",
+     "text": "Diligence is where an owner's leverage is kept or lost."
+    },
+    {
+     "key": "qwhy.3",
+     "kind": "Paragraph",
+     "text": "Your numbers will be read with or without preparation. The question is who finds the issues first, and where: sized and explained <strong>on your side of the table</strong>, or surfaced after the letter of intent, when the buyer holds exclusivity and each open item can reopen the price, the structure, the working capital target, the escrow, the earn-out or the closing date."
+    },
+    {
+     "key": "qwhy.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qwhy.5",
+     "kind": "Heading",
+     "text": "Find the problems first"
+    },
+    {
+     "key": "qwhy.6",
+     "kind": "Text",
+     "text": "Revenue booked unevenly, month-end closes that vary, one-time costs hidden in…"
+    },
+    {
+     "key": "qwhy.7",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qwhy.8",
+     "kind": "Heading",
+     "text": "Find the problems first"
+    },
+    {
+     "key": "qwhy.9",
+     "kind": "Paragraph",
+     "text": "Revenue booked unevenly, month-end closes that vary, one-time costs hidden in operations, add-backs with no support and intercompany balances are found and explained before a buyer can use them to tell the story."
+    },
+    {
+     "key": "qwhy.10",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qwhy.11",
+     "kind": "Heading",
+     "text": "Defend normalized EBITDA"
+    },
+    {
+     "key": "qwhy.12",
+     "kind": "Text",
+     "text": "Buyers pay for earnings they can trace."
+    },
+    {
+     "key": "qwhy.13",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qwhy.14",
+     "kind": "Heading",
+     "text": "Defend normalized EBITDA"
+    },
+    {
+     "key": "qwhy.15",
+     "kind": "Paragraph",
+     "text": "Buyers pay for earnings they can trace. The bridge runs from reported results to normalized EBITDA, and every material adjustment is tied to a document."
+    },
+    {
+     "key": "qwhy.16",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qwhy.17",
+     "kind": "Heading",
+     "text": "Shorten diligence"
+    },
+    {
+     "key": "qwhy.18",
+     "kind": "Text",
+     "text": "With schedules, documents and answers organized in advance, the deal team responds…"
+    },
+    {
+     "key": "qwhy.19",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qwhy.20",
+     "kind": "Heading",
+     "text": "Shorten diligence"
+    },
+    {
+     "key": "qwhy.21",
+     "kind": "Paragraph",
+     "text": "With schedules, documents and answers organized in advance, the deal team responds faster, repeats fewer requests and keeps momentum toward closing."
+    },
+    {
+     "key": "qwhy.22",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qwhy.23",
+     "kind": "Heading",
+     "text": "Build buyer confidence"
+    },
+    {
+     "key": "qwhy.24",
+     "kind": "Text",
+     "text": "Consistent reporting and documented support show a business that is run professionally…"
+    },
+    {
+     "key": "qwhy.25",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qwhy.26",
+     "kind": "Heading",
+     "text": "Build buyer confidence"
+    },
+    {
+     "key": "qwhy.27",
+     "kind": "Paragraph",
+     "text": "Consistent reporting and documented support show a business that is run professionally and can change hands, with its risks stated plainly rather than hidden."
+    }
+   ]
+  },
+  {
+   "id": "q-build",
+   "name": "What we build.",
+   "items": [
+    {
+     "key": "qbuild.1",
+     "kind": "Paragraph",
+     "text": "What you receive"
+    },
+    {
+     "key": "qbuild.2",
+     "kind": "Section headline",
+     "text": "What we build."
+    },
+    {
+     "key": "qbuild.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qbuild.4",
+     "kind": "Heading",
+     "text": "Sell-Side Quality of Earnings and institutional-grade books"
+    },
+    {
+     "key": "qbuild.5",
+     "kind": "Paragraph",
+     "text": "Reported results reconciled to normalized EBITDA, with accounting applied the same way each period, figures tied to source data and schedules that hold up under a buyer's review."
+    },
+    {
+     "key": "qbuild.6",
+     "kind": "Link",
+     "text": "About the Sell-Side QoE"
+    },
+    {
+     "key": "qbuild.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qbuild.8",
+     "kind": "Heading",
+     "text": "Complete virtual data room"
+    },
+    {
+     "key": "qbuild.9",
+     "kind": "Paragraph",
+     "text": "An indexed room with controlled access, arranged around the requests buyers and lenders actually send: financial, legal, tax, people, operations, compliance and customers."
+    },
+    {
+     "key": "qbuild.10",
+     "kind": "Link",
+     "text": "About the data room"
+    },
+    {
+     "key": "qbuild.11",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qbuild.12",
+     "kind": "Heading",
+     "text": "Buyer-ready due-diligence file"
+    },
+    {
+     "key": "qbuild.13",
+     "kind": "Paragraph",
+     "text": "The request tracker, the risk log, the written answers and the evidence behind them, cross-referenced and reviewed before the first buyer request arrives."
+    },
+    {
+     "key": "qbuild.14",
+     "kind": "Link",
+     "text": "About diligence preparation"
+    },
+    {
+     "key": "qbuild.15",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qbuild.16",
+     "kind": "Heading",
+     "text": "Documentation, SOPs and management reporting"
+    },
+    {
+     "key": "qbuild.17",
+     "kind": "Paragraph",
+     "text": "Written policies, workflows, roles and KPI reporting that show the business runs without the owner and can pass to a new owner."
+    },
+    {
+     "key": "qbuild.18",
+     "kind": "Link",
+     "text": "About documentation and SOPs"
+    }
+   ]
+  },
+  {
+   "id": "q-qoe",
+   "name": "Know the EBITDA a buyer can underwrite.",
+   "items": [
+    {
+     "key": "qqoe.1",
+     "kind": "Paragraph",
+     "text": "Sell-side Quality of Earnings"
+    },
+    {
+     "key": "qqoe.2",
+     "kind": "Section headline",
+     "text": "Know the EBITDA a buyer can underwrite."
+    },
+    {
+     "key": "qqoe.3",
+     "kind": "Paragraph",
+     "text": "A sell-side Quality of Earnings report is financial diligence done for the seller, before a buyer does its own. It asks whether reported earnings are accurate, what they are made of, whether they will recur and how much of them turns into cash, and it reconciles reported results to normalized EBITDA. It is analysis with support behind every adjustment, not a list of add-backs the owner hopes a buyer will accept."
+    },
+    {
+     "key": "qqoe.4",
+     "kind": "Heading",
+     "text": "What a sell-side QoE does for the owner"
+    },
+    {
+     "key": "qqoe.5",
+     "kind": "Paragraph",
+     "text": "It shows the owner and the deal team the issues a private equity buyer, a strategic acquirer or a lender will raise, while there is still time to act. The owner then decides what to fix, what to document, what to disclose and how to tell the financial story before the business goes to market."
+    },
+    {
+     "key": "qqoe.6",
+     "kind": "Paragraph",
+     "text": "The work ties the financial statements back to the general ledger, the trial balance, bank statements, payroll, tax filings, customer and payer detail, operating systems and the contracts that matter. Any adjustment that moves value has its document in place before a buyer asks."
+    },
+    {
+     "key": "qqoe.7",
+     "kind": "Heading",
+     "text": "Sell-side QoE and ordinary bookkeeping"
+    },
+    {
+     "key": "qqoe.8",
+     "kind": "Paragraph",
+     "text": "Bookkeeping keeps the record. A sell-side QoE reads that record as a buyer will. Does revenue repeat? Do margins hold? Does an expense really end at closing? Is there enough working capital? Which liabilities count as debt? Can a new owner earn the same result?"
+    },
+    {
+     "key": "qqoe.9",
+     "kind": "Heading",
+     "text": "Sell-side QoE and buy-side QoE"
+    },
+    {
+     "key": "qqoe.10",
+     "kind": "Paragraph",
+     "text": "The seller's report sets an open, documented starting point. The buyer's report is paid for by the buyer, to support its case and to find what could go wrong. Buyers and lenders may still commission their own work, and a prepared seller meets it with reconciled schedules, written positions and an organized way to answer, rather than a blank page."
+    },
+    {
+     "key": "qqoe.11",
+     "kind": "Paragraph",
+     "text": "Nothing here is about hiding weaknesses. Each one is found, sized, explained and, where it can be, fixed before it becomes a lever in the buyer's hands."
+    },
+    {
+     "key": "qqoe.12",
+     "kind": "Heading",
+     "text": "What the analysis covers"
+    },
+    {
+     "key": "qqoe.13",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qqoe.14",
+     "kind": "Heading",
+     "text": "Source-data reconciliation"
+    },
+    {
+     "key": "qqoe.15",
+     "kind": "Text",
+     "text": "Financial statements tied to the trial balance, general ledger, tax returns, bank and…"
+    },
+    {
+     "key": "qqoe.16",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.17",
+     "kind": "Heading",
+     "text": "Source-data reconciliation"
+    },
+    {
+     "key": "qqoe.18",
+     "kind": "Paragraph",
+     "text": "Financial statements tied to the trial balance, general ledger, tax returns, bank and payroll records, card processing, billing and practice systems, ERP, CRM and any other system that holds material data."
+    },
+    {
+     "key": "qqoe.19",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qqoe.20",
+     "kind": "Heading",
+     "text": "Normalized EBITDA bridge"
+    },
+    {
+     "key": "qqoe.21",
+     "kind": "Text",
+     "text": "Reported net income or EBITDA bridged to normalized EBITDA, item by item: accounting…"
+    },
+    {
+     "key": "qqoe.22",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.23",
+     "kind": "Heading",
+     "text": "Normalized EBITDA bridge"
+    },
+    {
+     "key": "qqoe.24",
+     "kind": "Paragraph",
+     "text": "Reported net income or EBITDA bridged to normalized EBITDA, item by item: accounting corrections, timing, classification, one-time and non-operating items, and pro forma changes."
+    },
+    {
+     "key": "qqoe.25",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qqoe.26",
+     "kind": "Heading",
+     "text": "Add-back support"
+    },
+    {
+     "key": "qqoe.27",
+     "kind": "Text",
+     "text": "Each proposed add-back, from owner pay and personal expenses to one-time professional…"
+    },
+    {
+     "key": "qqoe.28",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.29",
+     "kind": "Heading",
+     "text": "Add-back support"
+    },
+    {
+     "key": "qqoe.30",
+     "kind": "Paragraph",
+     "text": "Each proposed add-back, from owner pay and personal expenses to one-time professional or legal fees, discontinued lines and related-party items, checked for amount, whether it recurs and whether it carries over to a new owner."
+    },
+    {
+     "key": "qqoe.31",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qqoe.32",
+     "kind": "Heading",
+     "text": "Revenue quality"
+    },
+    {
+     "key": "qqoe.33",
+     "kind": "Text",
+     "text": "Recurring against one-time revenue, organic against acquired growth, price and volume…"
+    },
+    {
+     "key": "qqoe.34",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.35",
+     "kind": "Heading",
+     "text": "Revenue quality"
+    },
+    {
+     "key": "qqoe.36",
+     "kind": "Paragraph",
+     "text": "Recurring against one-time revenue, organic against acquired growth, price and volume, churn, backlog, reimbursement and collections, cancellations, credits and refunds, and whether the recent trend will last."
+    },
+    {
+     "key": "qqoe.37",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "qqoe.38",
+     "kind": "Heading",
+     "text": "Concentration and mix"
+    },
+    {
+     "key": "qqoe.39",
+     "kind": "Text",
+     "text": "Revenue and margin broken out by customer, payer, provider, site, product, service…"
+    },
+    {
+     "key": "qqoe.40",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.41",
+     "kind": "Heading",
+     "text": "Concentration and mix"
+    },
+    {
+     "key": "qqoe.42",
+     "kind": "Paragraph",
+     "text": "Revenue and margin broken out by customer, payer, provider, site, product, service line, contract, region or channel, with concentration and renewal exposure."
+    },
+    {
+     "key": "qqoe.43",
+     "kind": "Text",
+     "text": "06"
+    },
+    {
+     "key": "qqoe.44",
+     "kind": "Heading",
+     "text": "Gross margin and cost structure"
+    },
+    {
+     "key": "qqoe.45",
+     "kind": "Text",
+     "text": "Cost of goods sold, labor and provider pay, purchasing, rent, commissions and overhead…"
+    },
+    {
+     "key": "qqoe.46",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.47",
+     "kind": "Heading",
+     "text": "Gross margin and cost structure"
+    },
+    {
+     "key": "qqoe.48",
+     "kind": "Paragraph",
+     "text": "Cost of goods sold, labor and provider pay, purchasing, rent, commissions and overhead, how margins have moved, which costs are fixed or variable, and which expenses a buyer will inherit."
+    },
+    {
+     "key": "qqoe.49",
+     "kind": "Text",
+     "text": "07"
+    },
+    {
+     "key": "qqoe.50",
+     "kind": "Heading",
+     "text": "Net working capital"
+    },
+    {
+     "key": "qqoe.51",
+     "kind": "Text",
+     "text": "Analyze monthly working capital, seasonality and unusual balances, set out the method…"
+    },
+    {
+     "key": "qqoe.52",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.53",
+     "kind": "Heading",
+     "text": "Net working capital"
+    },
+    {
+     "key": "qqoe.54",
+     "kind": "Paragraph",
+     "text": "Analyze monthly working capital, seasonality and unusual balances, set out the method, and build support for a normalized level before a buyer proposes a peg."
+    },
+    {
+     "key": "qqoe.55",
+     "kind": "Text",
+     "text": "08"
+    },
+    {
+     "key": "qqoe.56",
+     "kind": "Heading",
+     "text": "Balance sheet and debt-like items"
+    },
+    {
+     "key": "qqoe.57",
+     "kind": "Text",
+     "text": "Cash, debt, accruals, taxes owed, deal bonuses, deferred pay, leases, related-party…"
+    },
+    {
+     "key": "qqoe.58",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.59",
+     "kind": "Heading",
+     "text": "Balance sheet and debt-like items"
+    },
+    {
+     "key": "qqoe.60",
+     "kind": "Paragraph",
+     "text": "Cash, debt, accruals, taxes owed, deal bonuses, deferred pay, leases, related-party balances, old payables, customer deposits and anything else that can reduce what the owner takes home at closing."
+    },
+    {
+     "key": "qqoe.61",
+     "kind": "Text",
+     "text": "09"
+    },
+    {
+     "key": "qqoe.62",
+     "kind": "Heading",
+     "text": "Cash flow and capital expenditures"
+    },
+    {
+     "key": "qqoe.63",
+     "kind": "Text",
+     "text": "EBITDA set against the cash the business actually produces, recurring and postponed…"
+    },
+    {
+     "key": "qqoe.64",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.65",
+     "kind": "Heading",
+     "text": "Cash flow and capital expenditures"
+    },
+    {
+     "key": "qqoe.66",
+     "kind": "Paragraph",
+     "text": "EBITDA set against the cash the business actually produces, recurring and postponed capital needs, maintenance CapEx separated from growth CapEx, and the reasons earnings and cash differ."
+    },
+    {
+     "key": "qqoe.67",
+     "kind": "Text",
+     "text": "10"
+    },
+    {
+     "key": "qqoe.68",
+     "kind": "Heading",
+     "text": "Trends, seasonality and run rate"
+    },
+    {
+     "key": "qqoe.69",
+     "kind": "Text",
+     "text": "Month-by-month history and trailing-twelve-month results, with the acquisitions…"
+    },
+    {
+     "key": "qqoe.70",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.71",
+     "kind": "Heading",
+     "text": "Trends, seasonality and run rate"
+    },
+    {
+     "key": "qqoe.72",
+     "kind": "Paragraph",
+     "text": "Month-by-month history and trailing-twelve-month results, with the acquisitions, openings, closures, lost and new customers, contracts and staffing changes behind today's run rate."
+    },
+    {
+     "key": "qqoe.73",
+     "kind": "Text",
+     "text": "11"
+    },
+    {
+     "key": "qqoe.74",
+     "kind": "Heading",
+     "text": "Forecasts and sensitivities"
+    },
+    {
+     "key": "qqoe.75",
+     "kind": "Text",
+     "text": "The bridge from past results to the budget or forecast, and how value and borrowing…"
+    },
+    {
+     "key": "qqoe.76",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.77",
+     "kind": "Heading",
+     "text": "Forecasts and sensitivities"
+    },
+    {
+     "key": "qqoe.78",
+     "kind": "Paragraph",
+     "text": "The bridge from past results to the budget or forecast, and how value and borrowing capacity move under realistic revenue, margin, staffing and working-capital cases."
+    },
+    {
+     "key": "qqoe.79",
+     "kind": "Text",
+     "text": "12"
+    },
+    {
+     "key": "qqoe.80",
+     "kind": "Heading",
+     "text": "Risk flags and remediation"
+    },
+    {
+     "key": "qqoe.81",
+     "kind": "Text",
+     "text": "A ranked list of the issues a buyer will likely raise, the evidence each one needs, who…"
+    },
+    {
+     "key": "qqoe.82",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qqoe.83",
+     "kind": "Heading",
+     "text": "Risk flags and remediation"
+    },
+    {
+     "key": "qqoe.84",
+     "kind": "Paragraph",
+     "text": "A ranked list of the issues a buyer will likely raise, the evidence each one needs, who owns it, what to fix and the answer to give, written once and used every time."
+    },
+    {
+     "key": "qqoe.85",
+     "kind": "Paragraph",
+     "text": "<a>Request a Confidential Preparation Review</a>"
+    }
+   ]
+  },
+  {
+   "id": "q-not",
+   "name": "A sell-side QoE is not:",
+   "items": [
+    {
+     "key": "qnot.1",
+     "kind": "Paragraph",
+     "text": "What it is not"
+    },
+    {
+     "key": "qnot.2",
+     "kind": "Section headline",
+     "text": "A sell-side QoE is not:"
+    },
+    {
+     "key": "qnot.3",
+     "kind": "List item",
+     "text": "An audit, review, compilation, valuation or assurance opinion. Each of those is a separate engagement."
+    },
+    {
+     "key": "qnot.4",
+     "kind": "List item",
+     "text": "A promise that a buyer will accept each adjustment."
+    },
+    {
+     "key": "qnot.5",
+     "kind": "List item",
+     "text": "A replacement for legal, tax, regulatory or compliance diligence."
+    },
+    {
+     "key": "qnot.6",
+     "kind": "List item",
+     "text": "A substitute for a lender's report. An SBA-required quality of earnings must be commissioned by the lender, and the rule provides that it may not be prepared by or for the borrower or the seller. Nothing here substitutes for it."
+    },
+    {
+     "key": "qnot.7",
+     "kind": "List item",
+     "text": "A way to create earnings the business does not have."
+    },
+    {
+     "key": "qnot.8",
+     "kind": "List item",
+     "text": "A single report left behind, with no schedules and no help when buyers ask questions."
+    }
+   ]
+  },
+  {
+   "id": "q-books",
+   "name": "From an owner's books to a reporting system any buyer can follow.",
+   "items": [
+    {
+     "key": "qbooks.1",
+     "kind": "Paragraph",
+     "text": "Institutional-grade financial books"
+    },
+    {
+     "key": "qbooks.2",
+     "kind": "Section headline",
+     "text": "From an owner's books to a reporting system any buyer can follow."
+    },
+    {
+     "key": "qbooks.3",
+     "kind": "Paragraph",
+     "text": "<strong>Institutional-grade does not mean complicated.</strong> Every material number can be traced, is kept the same way each period, can be explained and can be produced again. A buyer can see how the books are made, what supports each key account and how management reads the business each month."
+    },
+    {
+     "key": "qbooks.4",
+     "kind": "Heading",
+     "text": "Traceable"
+    },
+    {
+     "key": "qbooks.5",
+     "kind": "Paragraph",
+     "text": "Every material figure ties to a source system, a document or a reconciliation."
+    },
+    {
+     "key": "qbooks.6",
+     "kind": "Heading",
+     "text": "Consistent"
+    },
+    {
+     "key": "qbooks.7",
+     "kind": "Paragraph",
+     "text": "The same accounting policies and account mapping are used in every period."
+    },
+    {
+     "key": "qbooks.8",
+     "kind": "Heading",
+     "text": "Explainable"
+    },
+    {
+     "key": "qbooks.9",
+     "kind": "Paragraph",
+     "text": "Management can explain what moves revenue, margin, working capital and cash."
+    },
+    {
+     "key": "qbooks.10",
+     "kind": "Heading",
+     "text": "Repeatable"
+    },
+    {
+     "key": "qbooks.11",
+     "kind": "Paragraph",
+     "text": "The month-end close, the reports and the KPIs run on a written process, not on one person."
+    },
+    {
+     "key": "qbooks.12",
+     "kind": "Table cell",
+     "text": "Area"
+    },
+    {
+     "key": "qbooks.13",
+     "kind": "Table cell",
+     "text": "Common founder-managed condition"
+    },
+    {
+     "key": "qbooks.14",
+     "kind": "Table cell",
+     "text": "Institutional condition"
+    },
+    {
+     "key": "qbooks.15",
+     "kind": "Table cell",
+     "text": "Monthly close"
+    },
+    {
+     "key": "qbooks.16",
+     "kind": "Table cell",
+     "text": "Books are cleaned up once a year, or when taxes are due."
+    },
+    {
+     "key": "qbooks.17",
+     "kind": "Table cell",
+     "text": "A close calendar, named account owners, reconciliations and review every month."
+    },
+    {
+     "key": "qbooks.18",
+     "kind": "Table cell",
+     "text": "Chart of accounts"
+    },
+    {
+     "key": "qbooks.19",
+     "kind": "Table cell",
+     "text": "Accounts have grown by habit and change from year to year."
+    },
+    {
+     "key": "qbooks.20",
+     "kind": "Table cell",
+     "text": "A stable chart, mapped across periods so results compare."
+    },
+    {
+     "key": "qbooks.21",
+     "kind": "Table cell",
+     "text": "Revenue recognition"
+    },
+    {
+     "key": "qbooks.22",
+     "kind": "Table cell",
+     "text": "Revenue is booked when the cash arrives."
+    },
+    {
+     "key": "qbooks.23",
+     "kind": "Table cell",
+     "text": "Revenue is recorded when earned, under a written policy applied the same way each period."
+    },
+    {
+     "key": "qbooks.24",
+     "kind": "Table cell",
+     "text": "Add-backs"
+    },
+    {
+     "key": "qbooks.25",
+     "kind": "Table cell",
+     "text": "Adjustments are listed from memory, close to the sale."
+    },
+    {
+     "key": "qbooks.26",
+     "kind": "Table cell",
+     "text": "Each adjustment has a document, an amount and a reason it will not recur."
+    },
+    {
+     "key": "qbooks.27",
+     "kind": "Table cell",
+     "text": "Segment reporting"
+    },
+    {
+     "key": "qbooks.28",
+     "kind": "Table cell",
+     "text": "Results cannot be shown by location, customer, product or service line."
+    },
+    {
+     "key": "qbooks.29",
+     "kind": "Table cell",
+     "text": "Consistent reporting by the segments that drive value, concentration and margin."
+    },
+    {
+     "key": "qbooks.30",
+     "kind": "Table cell",
+     "text": "Management reporting"
+    },
+    {
+     "key": "qbooks.31",
+     "kind": "Table cell",
+     "text": "Decisions rest on the bank balance or last year's tax return."
+    },
+    {
+     "key": "qbooks.32",
+     "kind": "Table cell",
+     "text": "A monthly package: P&L, balance sheet, cash flow, working capital, KPIs and budget against actual."
+    },
+    {
+     "key": "qbooks.33",
+     "kind": "Heading",
+     "text": "What the work may include"
+    },
+    {
+     "key": "qbooks.34",
+     "kind": "List item",
+     "text": "Rebuilding the chart of accounts and remapping past periods so each year can be compared with the next."
+    },
+    {
+     "key": "qbooks.35",
+     "kind": "List item",
+     "text": "Tying P&Ls and balance sheets to tax returns, bank and payroll records, card processing, billing and practice systems, ERP, inventory and CRM data."
+    },
+    {
+     "key": "qbooks.36",
+     "kind": "List item",
+     "text": "Restating material cash-basis or tax-basis activity on an accrual basis where a transaction needs it."
+    },
+    {
+     "key": "qbooks.37",
+     "kind": "List item",
+     "text": "Pulling non-operating, related-party, personal, one-time and deal-specific items apart from the operating results."
+    },
+    {
+     "key": "qbooks.38",
+     "kind": "List item",
+     "text": "Writing the month-end close steps, the reconciliation standard for each account, the approval flow and who owns each report."
+    },
+    {
+     "key": "qbooks.39",
+     "kind": "List item",
+     "text": "Reporting by segment, with KPI definitions anyone can rebuild from the same data."
+    },
+    {
+     "key": "qbooks.40",
+     "kind": "List item",
+     "text": "Budgets, forecasts, bridges and variance notes built on assumptions that are written down."
+    },
+    {
+     "key": "qbooks.41",
+     "kind": "Heading",
+     "text": "The standard we work toward"
+    },
+    {
+     "key": "qbooks.42",
+     "kind": "List item",
+     "text": "A buyer can follow any material figure from the statements back to its records."
+    },
+    {
+     "key": "qbooks.43",
+     "kind": "List item",
+     "text": "Monthly results compare, and significant swings can be explained."
+    },
+    {
+     "key": "qbooks.44",
+     "kind": "List item",
+     "text": "Adjustments are supported, categorized and calculated the same way each time."
+    },
+    {
+     "key": "qbooks.45",
+     "kind": "List item",
+     "text": "Working capital and debt-like items are known before the price is negotiated."
+    },
+    {
+     "key": "qbooks.46",
+     "kind": "List item",
+     "text": "Reporting keeps running after the owner steps back."
+    },
+    {
+     "key": "qbooks.47",
+     "kind": "Paragraph",
+     "text": "<a>Request a Confidential Preparation Review</a>"
+    }
+   ]
+  },
+  {
+   "id": "q-dataroom",
+   "name": "A data room is evidence, organized.",
+   "items": [
+    {
+     "key": "qdataroom.1",
+     "kind": "Paragraph",
+     "text": "Complete virtual data room"
+    },
+    {
+     "key": "qdataroom.2",
+     "kind": "Section headline",
+     "text": "A data room is evidence, organized."
+    },
+    {
+     "key": "qdataroom.3",
+     "kind": "Paragraph",
+     "text": "<strong>Every document has a place, a version and a reason to be there.</strong> The room is secure, easy to move through, named the same way throughout, controlled by version, and arranged around what the financial, legal, tax, people, operations, compliance, IT, insurance and lender reviewers will ask. Sensitive material is released in stages, to the right people, when the deal calls for it."
+    },
+    {
+     "key": "qdataroom.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qdataroom.5",
+     "kind": "Heading",
+     "text": "Corporate and ownership"
+    },
+    {
+     "key": "qdataroom.6",
+     "kind": "Text",
+     "text": "Formation papers, operating agreement or bylaws, ownership table, board minutes…"
+    },
+    {
+     "key": "qdataroom.7",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.8",
+     "kind": "Heading",
+     "text": "Corporate and ownership"
+    },
+    {
+     "key": "qdataroom.9",
+     "kind": "Paragraph",
+     "text": "Formation papers, operating agreement or bylaws, ownership table, board minutes, subsidiaries and changes in ownership."
+    },
+    {
+     "key": "qdataroom.10",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qdataroom.11",
+     "kind": "Heading",
+     "text": "Financial statements"
+    },
+    {
+     "key": "qdataroom.12",
+     "kind": "Text",
+     "text": "Annual and monthly statements, year-to-date and trailing-twelve-month results, trial…"
+    },
+    {
+     "key": "qdataroom.13",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.14",
+     "kind": "Heading",
+     "text": "Financial statements"
+    },
+    {
+     "key": "qdataroom.15",
+     "kind": "Paragraph",
+     "text": "Annual and monthly statements, year-to-date and trailing-twelve-month results, trial balances, ledgers, reconciliations and management reports."
+    },
+    {
+     "key": "qdataroom.16",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qdataroom.17",
+     "kind": "Heading",
+     "text": "Tax"
+    },
+    {
+     "key": "qdataroom.18",
+     "kind": "Text",
+     "text": "Federal, state, local, payroll, and sales and use filings, correspondence, audits…"
+    },
+    {
+     "key": "qdataroom.19",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.20",
+     "kind": "Heading",
+     "text": "Tax"
+    },
+    {
+     "key": "qdataroom.21",
+     "kind": "Paragraph",
+     "text": "Federal, state, local, payroll, and sales and use filings, correspondence, audits, elections and material exposures."
+    },
+    {
+     "key": "qdataroom.22",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qdataroom.23",
+     "kind": "Heading",
+     "text": "Revenue and customers"
+    },
+    {
+     "key": "qdataroom.24",
+     "kind": "Text",
+     "text": "Revenue by customer, payer, provider, product, site and contract, with pipeline…"
+    },
+    {
+     "key": "qdataroom.25",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.26",
+     "kind": "Heading",
+     "text": "Revenue and customers"
+    },
+    {
+     "key": "qdataroom.27",
+     "kind": "Paragraph",
+     "text": "Revenue by customer, payer, provider, product, site and contract, with pipeline, backlog and concentration."
+    },
+    {
+     "key": "qdataroom.28",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "qdataroom.29",
+     "kind": "Heading",
+     "text": "Material contracts"
+    },
+    {
+     "key": "qdataroom.30",
+     "kind": "Text",
+     "text": "Customer, supplier, referral, distribution, service and affiliation agreements, with…"
+    },
+    {
+     "key": "qdataroom.31",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.32",
+     "kind": "Heading",
+     "text": "Material contracts"
+    },
+    {
+     "key": "qdataroom.33",
+     "kind": "Paragraph",
+     "text": "Customer, supplier, referral, distribution, service and affiliation agreements, with change-of-control and exclusivity terms marked."
+    },
+    {
+     "key": "qdataroom.34",
+     "kind": "Text",
+     "text": "06"
+    },
+    {
+     "key": "qdataroom.35",
+     "kind": "Heading",
+     "text": "Legal and litigation"
+    },
+    {
+     "key": "qdataroom.36",
+     "kind": "Text",
+     "text": "Open and past claims, disputes, settlements, investigations, notices, letters from…"
+    },
+    {
+     "key": "qdataroom.37",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.38",
+     "kind": "Heading",
+     "text": "Legal and litigation"
+    },
+    {
+     "key": "qdataroom.39",
+     "kind": "Paragraph",
+     "text": "Open and past claims, disputes, settlements, investigations, notices, letters from counsel and possible liabilities."
+    },
+    {
+     "key": "qdataroom.40",
+     "kind": "Text",
+     "text": "07"
+    },
+    {
+     "key": "qdataroom.41",
+     "kind": "Heading",
+     "text": "Debt and financing"
+    },
+    {
+     "key": "qdataroom.42",
+     "kind": "Text",
+     "text": "Loans and credit lines, leases, guarantees, liens, covenants, equipment financing and…"
+    },
+    {
+     "key": "qdataroom.43",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.44",
+     "kind": "Heading",
+     "text": "Debt and financing"
+    },
+    {
+     "key": "qdataroom.45",
+     "kind": "Paragraph",
+     "text": "Loans and credit lines, leases, guarantees, liens, covenants, equipment financing and payoff letters."
+    },
+    {
+     "key": "qdataroom.46",
+     "kind": "Text",
+     "text": "08"
+    },
+    {
+     "key": "qdataroom.47",
+     "kind": "Heading",
+     "text": "Human resources"
+    },
+    {
+     "key": "qdataroom.48",
+     "kind": "Text",
+     "text": "Staff roster, pay and benefits, the handbook, contractors, retention and turnover, and…"
+    },
+    {
+     "key": "qdataroom.49",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.50",
+     "kind": "Heading",
+     "text": "Human resources"
+    },
+    {
+     "key": "qdataroom.51",
+     "kind": "Paragraph",
+     "text": "Staff roster, pay and benefits, the handbook, contractors, retention and turnover, and employment agreements."
+    },
+    {
+     "key": "qdataroom.52",
+     "kind": "Text",
+     "text": "09"
+    },
+    {
+     "key": "qdataroom.53",
+     "kind": "Heading",
+     "text": "Organization and management"
+    },
+    {
+     "key": "qdataroom.54",
+     "kind": "Text",
+     "text": "Organization chart, role descriptions, who decides what, succession, key-person…"
+    },
+    {
+     "key": "qdataroom.55",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.56",
+     "kind": "Heading",
+     "text": "Organization and management"
+    },
+    {
+     "key": "qdataroom.57",
+     "kind": "Paragraph",
+     "text": "Organization chart, role descriptions, who decides what, succession, key-person reliance and the transition plan."
+    },
+    {
+     "key": "qdataroom.58",
+     "kind": "Text",
+     "text": "10"
+    },
+    {
+     "key": "qdataroom.59",
+     "kind": "Heading",
+     "text": "Operations and SOPs"
+    },
+    {
+     "key": "qdataroom.60",
+     "kind": "Text",
+     "text": "How the work gets done: delivery, production, purchasing, scheduling, billing…"
+    },
+    {
+     "key": "qdataroom.61",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.62",
+     "kind": "Heading",
+     "text": "Operations and SOPs"
+    },
+    {
+     "key": "qdataroom.63",
+     "kind": "Paragraph",
+     "text": "How the work gets done: delivery, production, purchasing, scheduling, billing, collections, quality and KPIs."
+    },
+    {
+     "key": "qdataroom.64",
+     "kind": "Text",
+     "text": "11"
+    },
+    {
+     "key": "qdataroom.65",
+     "kind": "Heading",
+     "text": "Licenses and regulatory"
+    },
+    {
+     "key": "qdataroom.66",
+     "kind": "Text",
+     "text": "Permits, professional and facility licenses, accreditations, registrations, inspection…"
+    },
+    {
+     "key": "qdataroom.67",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.68",
+     "kind": "Heading",
+     "text": "Licenses and regulatory"
+    },
+    {
+     "key": "qdataroom.69",
+     "kind": "Paragraph",
+     "text": "Permits, professional and facility licenses, accreditations, registrations, inspection results and renewal dates."
+    },
+    {
+     "key": "qdataroom.70",
+     "kind": "Text",
+     "text": "12"
+    },
+    {
+     "key": "qdataroom.71",
+     "kind": "Heading",
+     "text": "Compliance and quality"
+    },
+    {
+     "key": "qdataroom.72",
+     "kind": "Text",
+     "text": "Compliance policies and training, internal reviews, incident records and corrective…"
+    },
+    {
+     "key": "qdataroom.73",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.74",
+     "kind": "Heading",
+     "text": "Compliance and quality"
+    },
+    {
+     "key": "qdataroom.75",
+     "kind": "Paragraph",
+     "text": "Compliance policies and training, internal reviews, incident records and corrective actions, privacy, billing, safety and quality programs."
+    },
+    {
+     "key": "qdataroom.76",
+     "kind": "Text",
+     "text": "13"
+    },
+    {
+     "key": "qdataroom.77",
+     "kind": "Heading",
+     "text": "Insurance"
+    },
+    {
+     "key": "qdataroom.78",
+     "kind": "Text",
+     "text": "Current policies and claims history, loss runs, professional liability, cyber…"
+    },
+    {
+     "key": "qdataroom.79",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.80",
+     "kind": "Heading",
+     "text": "Insurance"
+    },
+    {
+     "key": "qdataroom.81",
+     "kind": "Paragraph",
+     "text": "Current policies and claims history, loss runs, professional liability, cyber, property, workers' compensation and directors and officers cover."
+    },
+    {
+     "key": "qdataroom.82",
+     "kind": "Text",
+     "text": "14"
+    },
+    {
+     "key": "qdataroom.83",
+     "kind": "Heading",
+     "text": "Real estate"
+    },
+    {
+     "key": "qdataroom.84",
+     "kind": "Text",
+     "text": "Leases and deeds, rent schedules, renewal options, landlord consents, environmental…"
+    },
+    {
+     "key": "qdataroom.85",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.86",
+     "kind": "Heading",
+     "text": "Real estate"
+    },
+    {
+     "key": "qdataroom.87",
+     "kind": "Paragraph",
+     "text": "Leases and deeds, rent schedules, renewal options, landlord consents, environmental reports and any property owned by a related party."
+    },
+    {
+     "key": "qdataroom.88",
+     "kind": "Text",
+     "text": "15"
+    },
+    {
+     "key": "qdataroom.89",
+     "kind": "Heading",
+     "text": "IT and cybersecurity"
+    },
+    {
+     "key": "qdataroom.90",
+     "kind": "Text",
+     "text": "Systems map, software vendors and licenses, access controls, backups, security…"
+    },
+    {
+     "key": "qdataroom.91",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.92",
+     "kind": "Heading",
+     "text": "IT and cybersecurity"
+    },
+    {
+     "key": "qdataroom.93",
+     "kind": "Paragraph",
+     "text": "Systems map, software vendors and licenses, access controls, backups, security incidents, data privacy and recovery plans."
+    },
+    {
+     "key": "qdataroom.94",
+     "kind": "Text",
+     "text": "16"
+    },
+    {
+     "key": "qdataroom.95",
+     "kind": "Heading",
+     "text": "Intellectual property"
+    },
+    {
+     "key": "qdataroom.96",
+     "kind": "Text",
+     "text": "Patents, trademarks, copyrights, domain names, owned software, trade secrets, licenses…"
+    },
+    {
+     "key": "qdataroom.97",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.98",
+     "kind": "Heading",
+     "text": "Intellectual property"
+    },
+    {
+     "key": "qdataroom.99",
+     "kind": "Paragraph",
+     "text": "Patents, trademarks, copyrights, domain names, owned software, trade secrets, licenses in and out, and invention assignments."
+    },
+    {
+     "key": "qdataroom.100",
+     "kind": "Text",
+     "text": "17"
+    },
+    {
+     "key": "qdataroom.101",
+     "kind": "Heading",
+     "text": "Assets, CapEx and inventory"
+    },
+    {
+     "key": "qdataroom.102",
+     "kind": "Text",
+     "text": "Fixed-asset register, equipment and maintenance records, capital plans, inventory…"
+    },
+    {
+     "key": "qdataroom.103",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.104",
+     "kind": "Heading",
+     "text": "Assets, CapEx and inventory"
+    },
+    {
+     "key": "qdataroom.105",
+     "kind": "Paragraph",
+     "text": "Fixed-asset register, equipment and maintenance records, capital plans, inventory aging, slow-moving stock and support for values."
+    },
+    {
+     "key": "qdataroom.106",
+     "kind": "Text",
+     "text": "18"
+    },
+    {
+     "key": "qdataroom.107",
+     "kind": "Heading",
+     "text": "Industry-specific diligence"
+    },
+    {
+     "key": "qdataroom.108",
+     "kind": "Text",
+     "text": "Software revenue and retention schedules, healthcare payer and credentialing files, or…"
+    },
+    {
+     "key": "qdataroom.109",
+     "kind": "Text",
+     "text": "What goes in"
+    },
+    {
+     "key": "qdataroom.110",
+     "kind": "Heading",
+     "text": "Industry-specific diligence"
+    },
+    {
+     "key": "qdataroom.111",
+     "kind": "Paragraph",
+     "text": "Software revenue and retention schedules, healthcare payer and credentialing files, or other records specific to the sector."
+    },
+    {
+     "key": "qdataroom.112",
+     "kind": "Heading",
+     "text": "How the room is managed"
+    },
+    {
+     "key": "qdataroom.113",
+     "kind": "Paragraph",
+     "text": "Each folder follows one index and one naming rule, and each document shows its version date, its owner and how confidential it is. A request tracker shows what was asked for, what is in the room, what is still open, what needs an explanation and which version counts."
+    },
+    {
+     "key": "qdataroom.114",
+     "kind": "Paragraph",
+     "text": "The most sensitive records, such as patient or customer identifiers, employee personal data, pricing, trade secrets, source code and some contracts, may be redacted, shown only to a clean team, covered by a second confidentiality agreement or released in stages. Security is a matter of what is disclosed and when, not only of the software that holds it."
+    },
+    {
+     "key": "qdataroom.115",
+     "kind": "Paragraph",
+     "text": "<a>Request a Confidential Preparation Review</a>"
+    }
+   ]
+  },
+  {
+   "id": "q-file",
+   "name": "Have the answer ready before the request arrives.",
+   "items": [
+    {
+     "key": "qfile.1",
+     "kind": "Paragraph",
+     "text": "Buyer-ready due-diligence file"
+    },
+    {
+     "key": "qfile.2",
+     "kind": "Section headline",
+     "text": "Have the answer ready before the request arrives."
+    },
+    {
+     "key": "qfile.3",
+     "kind": "Paragraph",
+     "text": "The diligence file is how the data room gets used during a deal. Each buyer request is linked to its documents, its schedules, management's explanation, the person who owns the issue and what happens next. No one can predict every question. The point is a system that answers the material ones quickly, correctly and the same way each time."
+    },
+    {
+     "key": "qfile.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qfile.5",
+     "kind": "Heading",
+     "text": "Master request list"
+    },
+    {
+     "key": "qfile.6",
+     "kind": "Text",
+     "text": "A checklist built for this deal, linked to the data room, with an owner, a priority, a…"
+    },
+    {
+     "key": "qfile.7",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.8",
+     "kind": "Heading",
+     "text": "Master request list"
+    },
+    {
+     "key": "qfile.9",
+     "kind": "Paragraph",
+     "text": "A checklist built for this deal, linked to the data room, with an owner, a priority, a status and a due date for each item."
+    },
+    {
+     "key": "qfile.10",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qfile.11",
+     "kind": "Heading",
+     "text": "Financial evidence binder"
+    },
+    {
+     "key": "qfile.12",
+     "kind": "Text",
+     "text": "The detail behind normalized EBITDA and each add-back, revenue trends, concentration…"
+    },
+    {
+     "key": "qfile.13",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.14",
+     "kind": "Heading",
+     "text": "Financial evidence binder"
+    },
+    {
+     "key": "qfile.15",
+     "kind": "Paragraph",
+     "text": "The detail behind normalized EBITDA and each add-back, revenue trends, concentration, working capital, debt-like items, cash flow, CapEx and the larger balance-sheet accounts."
+    },
+    {
+     "key": "qfile.16",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qfile.17",
+     "kind": "Heading",
+     "text": "Risk and remediation log"
+    },
+    {
+     "key": "qfile.18",
+     "kind": "Text",
+     "text": "Known issues ranked by what they could cost, with an owner, a fix, a plan for…"
+    },
+    {
+     "key": "qfile.19",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.20",
+     "kind": "Heading",
+     "text": "Risk and remediation log"
+    },
+    {
+     "key": "qfile.21",
+     "kind": "Paragraph",
+     "text": "Known issues ranked by what they could cost, with an owner, a fix, a plan for disclosure and the documents behind the final answer."
+    },
+    {
+     "key": "qfile.22",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qfile.23",
+     "kind": "Heading",
+     "text": "Buyer Q&A library"
+    },
+    {
+     "key": "qfile.24",
+     "kind": "Text",
+     "text": "Written answers to the questions every buyer asks, tied to documents and schedules, so…"
+    },
+    {
+     "key": "qfile.25",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.26",
+     "kind": "Heading",
+     "text": "Buyer Q&A library"
+    },
+    {
+     "key": "qfile.27",
+     "kind": "Paragraph",
+     "text": "Written answers to the questions every buyer asks, tied to documents and schedules, so management explains each point once."
+    },
+    {
+     "key": "qfile.28",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "qfile.29",
+     "kind": "Heading",
+     "text": "Management-call preparation"
+    },
+    {
+     "key": "qfile.30",
+     "kind": "Text",
+     "text": "Key messages, the follow-up questions to expect, and who answers which kind of…"
+    },
+    {
+     "key": "qfile.31",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.32",
+     "kind": "Heading",
+     "text": "Management-call preparation"
+    },
+    {
+     "key": "qfile.33",
+     "kind": "Paragraph",
+     "text": "Key messages, the follow-up questions to expect, and who answers which kind of question: financial, legal, operational, regulatory or deal terms."
+    },
+    {
+     "key": "qfile.34",
+     "kind": "Text",
+     "text": "06"
+    },
+    {
+     "key": "qfile.35",
+     "kind": "Heading",
+     "text": "Refresh and closing support"
+    },
+    {
+     "key": "qfile.36",
+     "kind": "Text",
+     "text": "Each new month of results, the rolling twelve months, working capital, debt, buyer and…"
+    },
+    {
+     "key": "qfile.37",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "qfile.38",
+     "kind": "Heading",
+     "text": "Refresh and closing support"
+    },
+    {
+     "key": "qfile.39",
+     "kind": "Paragraph",
+     "text": "Each new month of results, the rolling twelve months, working capital, debt, buyer and lender requests and any material change, kept current through confirmatory diligence to closing."
+    },
+    {
+     "key": "qfile.40",
+     "kind": "Paragraph",
+     "text": "The best answer in diligence is not the quickest guess. It is a correct answer, given quickly, from the same evidence every time."
+    }
+   ]
+  },
+  {
+   "id": "q-sops",
+   "name": "Show the business runs without the owner in the room.",
+   "items": [
+    {
+     "key": "qsops.1",
+     "kind": "Paragraph",
+     "text": "Documentation, SOPs and transferability"
+    },
+    {
+     "key": "qsops.2",
+     "kind": "Section headline",
+     "text": "Show the business runs without the owner in the room."
+    },
+    {
+     "key": "qsops.3",
+     "kind": "Paragraph",
+     "text": "A buyer is paying for future earnings, and those depend on customers, staff, processes, compliance, quality, relationships and decisions moving to a new owner intact. Written procedures are how that shows."
+    },
+    {
+     "key": "qsops.4",
+     "kind": "Heading",
+     "text": "Core operating documentation"
+    },
+    {
+     "key": "qsops.5",
+     "kind": "List item",
+     "text": "Today's organization chart, role descriptions, reporting lines, and who decides and approves what."
+    },
+    {
+     "key": "qsops.6",
+     "kind": "List item",
+     "text": "How customers are won, priced, contracted, onboarded, served and renewed, and how complaints are resolved."
+    },
+    {
+     "key": "qsops.7",
+     "kind": "List item",
+     "text": "Delivery, clinical and production workflows, scheduling and capacity, quality control, safety and how exceptions are handled."
+    },
+    {
+     "key": "qsops.8",
+     "kind": "List item",
+     "text": "Billing and coding, collections, purchasing and inventory, vendor management, payroll, expense approval and cash handling."
+    },
+    {
+     "key": "qsops.9",
+     "kind": "List item",
+     "text": "Hiring and onboarding, reviews, pay and benefits, training, retention, exits and the rules for contractors."
+    },
+    {
+     "key": "qsops.10",
+     "kind": "List item",
+     "text": "Regulatory and privacy procedures, cybersecurity and incident response, continuity and recovery plans, and compliance monitoring."
+    },
+    {
+     "key": "qsops.11",
+     "kind": "List item",
+     "text": "How each monthly KPI is defined, who owns each report, the meeting rhythm, how variances are reviewed and how fixes are followed up."
+    },
+    {
+     "key": "qsops.12",
+     "kind": "Heading",
+     "text": "What buyers want to see"
+    },
+    {
+     "key": "qsops.13",
+     "kind": "List item",
+     "text": "Clear responsibility beyond the founder."
+    },
+    {
+     "key": "qsops.14",
+     "kind": "List item",
+     "text": "Repeatable delivery and quality standards."
+    },
+    {
+     "key": "qsops.15",
+     "kind": "List item",
+     "text": "Documented financial and operating controls."
+    },
+    {
+     "key": "qsops.16",
+     "kind": "List item",
+     "text": "Measurable KPIs with regular management review."
+    },
+    {
+     "key": "qsops.17",
+     "kind": "List item",
+     "text": "Who steps into each key role, and when."
+    },
+    {
+     "key": "qsops.18",
+     "kind": "List item",
+     "text": "Compliance and risk management built into operations."
+    },
+    {
+     "key": "qsops.19",
+     "kind": "Paragraph",
+     "text": "<a>Request a Confidential Preparation Review</a>"
+    }
+   ]
+  },
+  {
+   "id": "q-team",
+   "name": "Financial preparation shaped by the deal, not general cleanup.",
+   "items": [
+    {
+     "key": "qteam.1",
+     "kind": "Paragraph",
+     "text": "Our team"
+    },
+    {
+     "key": "qteam.2",
+     "kind": "Section headline",
+     "text": "Financial preparation shaped by the deal, not general cleanup."
+    },
+    {
+     "key": "qteam.3",
+     "kind": "Paragraph",
+     "text": "Good sell-side QoE work combines transaction accounting with experience running sale processes. Capital Row brings three groups together: deal advisors who know what buyers and lenders will ask, independent professionals who reconcile and analyze the numbers, and a project team that organizes the evidence and supports diligence through closing."
+    },
+    {
+     "key": "qteam.4",
+     "kind": "Paragraph",
+     "text": "Capital Row partners with qualified, institutionally backed firms to perform the sell-side Quality of Earnings."
+    },
+    {
+     "key": "qteam.5",
+     "kind": "Heading",
+     "text": "M&A deal leadership"
+    },
+    {
+     "key": "qteam.6",
+     "kind": "Text",
+     "text": "Capital Row frames the deal: the story for buyers, where value is sensitive, what the…"
+    },
+    {
+     "key": "qteam.7",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.8",
+     "kind": "Heading",
+     "text": "M&A deal leadership"
+    },
+    {
+     "key": "qteam.9",
+     "kind": "Paragraph",
+     "text": "Capital Row frames the deal: the story for buyers, where value is sensitive, what the structure means, the timing, and the financial questions most likely to move price or terms."
+    },
+    {
+     "key": "qteam.10",
+     "kind": "Heading",
+     "text": "Transaction accounting and QoE"
+    },
+    {
+     "key": "qteam.11",
+     "kind": "Text",
+     "text": "An independent partner firm does the accounting work: tying figures to source data…"
+    },
+    {
+     "key": "qteam.12",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.13",
+     "kind": "Heading",
+     "text": "Transaction accounting and QoE"
+    },
+    {
+     "key": "qteam.14",
+     "kind": "Paragraph",
+     "text": "An independent partner firm does the accounting work: tying figures to source data, normalized EBITDA, revenue and margin, working capital, the balance sheet, cash flow and the supporting schedules."
+    },
+    {
+     "key": "qteam.15",
+     "kind": "Heading",
+     "text": "Data room and diligence management"
+    },
+    {
+     "key": "qteam.16",
+     "kind": "Text",
+     "text": "Sets up the index, gathers documents, controls versions, tracks every request, releases…"
+    },
+    {
+     "key": "qteam.17",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.18",
+     "kind": "Heading",
+     "text": "Data room and diligence management"
+    },
+    {
+     "key": "qteam.19",
+     "kind": "Paragraph",
+     "text": "Sets up the index, gathers documents, controls versions, tracks every request, releases sensitive items in stages, links evidence across files and keeps the deal team working from one record."
+    },
+    {
+     "key": "qteam.20",
+     "kind": "Heading",
+     "text": "Industry-specific analysis"
+    },
+    {
+     "key": "qteam.21",
+     "kind": "Text",
+     "text": "Fits the work to the business: recurring software revenue, healthcare reimbursement and…"
+    },
+    {
+     "key": "qteam.22",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.23",
+     "kind": "Heading",
+     "text": "Industry-specific analysis"
+    },
+    {
+     "key": "qteam.24",
+     "kind": "Paragraph",
+     "text": "Fits the work to the business: recurring software revenue, healthcare reimbursement and provider pay, multi-site operations and what drives each sector."
+    },
+    {
+     "key": "qteam.25",
+     "kind": "Heading",
+     "text": "Financial institutionalization"
+    },
+    {
+     "key": "qteam.26",
+     "kind": "Text",
+     "text": "Works with management on the chart of accounts, the month-end close, accruals…"
+    },
+    {
+     "key": "qteam.27",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.28",
+     "kind": "Heading",
+     "text": "Financial institutionalization"
+    },
+    {
+     "key": "qteam.29",
+     "kind": "Paragraph",
+     "text": "Works with management on the chart of accounts, the month-end close, accruals, reconciliations, segment reports, KPIs, forecasts and the documents buyers expect behind the books."
+    },
+    {
+     "key": "qteam.30",
+     "kind": "Heading",
+     "text": "Independent specialists as needed"
+    },
+    {
+     "key": "qteam.31",
+     "kind": "Text",
+     "text": "Brings in independent CPAs and tax, legal, regulatory, compliance, insurance…"
+    },
+    {
+     "key": "qteam.32",
+     "kind": "Text",
+     "text": "The role"
+    },
+    {
+     "key": "qteam.33",
+     "kind": "Heading",
+     "text": "Independent specialists as needed"
+    },
+    {
+     "key": "qteam.34",
+     "kind": "Paragraph",
+     "text": "Brings in independent CPAs and tax, legal, regulatory, compliance, insurance, cybersecurity and valuation professionals when the work calls for their credentials or opinions."
+    },
+    {
+     "key": "qteam.35",
+     "kind": "Heading",
+     "text": "What qualifies a team for this work"
+    },
+    {
+     "key": "qteam.36",
+     "kind": "Paragraph",
+     "text": "Ask any team for specifics, not adjectives: multi-year and trailing-twelve-month analysis, detailed spreadsheet schedules, ledger and source-system reconciliation, cash-to-accrual conversion, multiple entities, add-back support, working capital and debt-like items, industry revenue models, buyer and lender diligence, and management Q&A."
+    },
+    {
+     "key": "qteam.37",
+     "kind": "Paragraph",
+     "text": "The same team has to explain its findings plainly to owners who are not accountants, and still hold its ground with private equity, strategic buyers, lenders, attorneys and the buyer's accounting firm."
+    },
+    {
+     "key": "qteam.38",
+     "kind": "Heading",
+     "text": "The integrated advantage"
+    },
+    {
+     "key": "qteam.39",
+     "kind": "List item",
+     "text": "The QoE follows the sale strategy you are actually running."
+    },
+    {
+     "key": "qteam.40",
+     "kind": "List item",
+     "text": "The data room tells the same financial story as the QoE."
+    },
+    {
+     "key": "qteam.41",
+     "kind": "List item",
+     "text": "Risks are ranked by their effect on the transaction."
+    },
+    {
+     "key": "qteam.42",
+     "kind": "List item",
+     "text": "Management is prepared for buyer questions."
+    },
+    {
+     "key": "qteam.43",
+     "kind": "List item",
+     "text": "Financial updates continue through diligence."
+    },
+    {
+     "key": "qteam.44",
+     "kind": "List item",
+     "text": "Preparation work stays connected to negotiation and closing."
+    }
+   ]
+  },
+  {
+   "id": "q-process",
+   "name": "A preparation project with a start, an end and a date to go to market.",
+   "items": [
+    {
+     "key": "qprocess.1",
+     "kind": "Paragraph",
+     "text": "How it works"
+    },
+    {
+     "key": "qprocess.2",
+     "kind": "Section headline",
+     "text": "A preparation project with a start, an end and a date to go to market."
+    },
+    {
+     "key": "qprocess.3",
+     "kind": "Paragraph",
+     "text": "Scope and timing depend on the size of the business, the state of the books, how many entities and sites there are, how complex the systems are, when the deal is planned and how complete the records are. Work runs in phases: what the deal needs now goes first, and longer-term fixes to finance and operations run alongside."
+    },
+    {
+     "key": "qprocess.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "qprocess.5",
+     "kind": "Heading",
+     "text": "Diagnose and scope"
+    },
+    {
+     "key": "qprocess.6",
+     "kind": "Text",
+     "text": "We look at ownership, past financials, accounting systems, how often reports are…"
+    },
+    {
+     "key": "qprocess.7",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.8",
+     "kind": "Heading",
+     "text": "Diagnose and scope"
+    },
+    {
+     "key": "qprocess.9",
+     "kind": "Paragraph",
+     "text": "We look at ownership, past financials, accounting systems, how often reports are produced, the deal you have in mind, its timing, known issues and the documents you have. Then we set the work plan, who does what, the data request and what you will receive."
+    },
+    {
+     "key": "qprocess.10",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "qprocess.11",
+     "kind": "Heading",
+     "text": "Secure intake and data integrity"
+    },
+    {
+     "key": "qprocess.12",
+     "kind": "Text",
+     "text": "Data comes in through a secure channel."
+    },
+    {
+     "key": "qprocess.13",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.14",
+     "kind": "Heading",
+     "text": "Secure intake and data integrity"
+    },
+    {
+     "key": "qprocess.15",
+     "kind": "Paragraph",
+     "text": "Data comes in through a secure channel. We check that it is complete, map where each figure comes from, reconcile the top-line totals, list what is missing and set up controlled working files."
+    },
+    {
+     "key": "qprocess.16",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "qprocess.17",
+     "kind": "Heading",
+     "text": "Reconcile and institutionalize"
+    },
+    {
+     "key": "qprocess.18",
+     "kind": "Text",
+     "text": "Material accounting issues are corrected or scheduled, accounts remapped, policies…"
+    },
+    {
+     "key": "qprocess.19",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.20",
+     "kind": "Heading",
+     "text": "Reconcile and institutionalize"
+    },
+    {
+     "key": "qprocess.21",
+     "kind": "Paragraph",
+     "text": "Material accounting issues are corrected or scheduled, accounts remapped, policies written down, reconciliations built, reporting made consistent, and the month-end close and management reports given a repeatable process."
+    },
+    {
+     "key": "qprocess.22",
+     "kind": "Text",
+     "text": "04"
+    },
+    {
+     "key": "qprocess.23",
+     "kind": "Heading",
+     "text": "Analyze and normalize earnings"
+    },
+    {
+     "key": "qprocess.24",
+     "kind": "Text",
+     "text": "The QoE schedules: the adjusted EBITDA bridge and the support for each add-back…"
+    },
+    {
+     "key": "qprocess.25",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.26",
+     "kind": "Heading",
+     "text": "Analyze and normalize earnings"
+    },
+    {
+     "key": "qprocess.27",
+     "kind": "Paragraph",
+     "text": "The QoE schedules: the adjusted EBITDA bridge and the support for each add-back, revenue and margin, working capital, the balance sheet, cash flow, CapEx, trends, the forecast and the risks found."
+    },
+    {
+     "key": "qprocess.28",
+     "kind": "Text",
+     "text": "05"
+    },
+    {
+     "key": "qprocess.29",
+     "kind": "Heading",
+     "text": "Build, organize and review"
+    },
+    {
+     "key": "qprocess.30",
+     "kind": "Text",
+     "text": "The data room and diligence file are assembled and cross-referenced, management's…"
+    },
+    {
+     "key": "qprocess.31",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.32",
+     "kind": "Heading",
+     "text": "Build, organize and review"
+    },
+    {
+     "key": "qprocess.33",
+     "kind": "Paragraph",
+     "text": "The data room and diligence file are assembled and cross-referenced, management's answers prepared, the financial story read as a buyer would read it, and each issue found either resolved or disclosed."
+    },
+    {
+     "key": "qprocess.34",
+     "kind": "Text",
+     "text": "06"
+    },
+    {
+     "key": "qprocess.35",
+     "kind": "Heading",
+     "text": "Market, refresh and defend"
+    },
+    {
+     "key": "qprocess.36",
+     "kind": "Text",
+     "text": "As each month closes, the analysis is updated."
+    },
+    {
+     "key": "qprocess.37",
+     "kind": "Text",
+     "text": "The step"
+    },
+    {
+     "key": "qprocess.38",
+     "kind": "Heading",
+     "text": "Market, refresh and defend"
+    },
+    {
+     "key": "qprocess.39",
+     "kind": "Paragraph",
+     "text": "As each month closes, the analysis is updated. Buyer and lender requests are answered, diligence calls attended where useful, and the financial positions kept the same from negotiation to closing."
+    }
+   ]
+  },
+  {
+   "id": "q-deliverables",
+   "name": "Working files you keep using, not a report that sits on a shelf.",
+   "items": [
+    {
+     "key": "qdeliverables.1",
+     "kind": "Paragraph",
+     "text": "Deliverables"
+    },
+    {
+     "key": "qdeliverables.2",
+     "kind": "Section headline",
+     "text": "Working files you keep using, not a report that sits on a shelf."
+    },
+    {
+     "key": "qdeliverables.3",
+     "kind": "Paragraph",
+     "text": "What you receive depends on scope, and all of it stays useful to management through the deal. Each engagement states which files you can edit, which report buyers see, who runs the data room, how updates work and who answers buyer and lender questions."
+    },
+    {
+     "key": "qdeliverables.4",
+     "kind": "Heading",
+     "text": "Data request and source-system map"
+    },
+    {
+     "key": "qdeliverables.5",
+     "kind": "Paragraph",
+     "text": "Every item needed, who holds it, where it lives, its format and its status."
+    },
+    {
+     "key": "qdeliverables.6",
+     "kind": "Heading",
+     "text": "QoE report and executive summary"
+    },
+    {
+     "key": "qdeliverables.7",
+     "kind": "Paragraph",
+     "text": "What was found, normalized earnings, trends, risks and what each means for the deal."
+    },
+    {
+     "key": "qdeliverables.8",
+     "kind": "Heading",
+     "text": "Historical reconciliation workbook"
+    },
+    {
+     "key": "qdeliverables.9",
+     "kind": "Paragraph",
+     "text": "Month-by-month and year-by-year ties between the statements, ledgers, tax returns, bank and payroll records and other source systems."
+    },
+    {
+     "key": "qdeliverables.10",
+     "kind": "Heading",
+     "text": "Adjusted EBITDA bridge"
+    },
+    {
+     "key": "qdeliverables.11",
+     "kind": "Paragraph",
+     "text": "From reported results to normalized EBITDA, with each category, calculation and supporting document referenced."
+    },
+    {
+     "key": "qdeliverables.12",
+     "kind": "Heading",
+     "text": "Add-back evidence schedule"
+    },
+    {
+     "key": "qdeliverables.13",
+     "kind": "Paragraph",
+     "text": "Invoices, payroll, contracts, ledger detail, bank support and the rationale for each material adjustment."
+    },
+    {
+     "key": "qdeliverables.14",
+     "kind": "Heading",
+     "text": "Revenue and gross-margin analysis"
+    },
+    {
+     "key": "qdeliverables.15",
+     "kind": "Paragraph",
+     "text": "Trends and mix, concentration, recurring revenue, price and volume, churn, backlog and profit by segment."
+    },
+    {
+     "key": "qdeliverables.16",
+     "kind": "Heading",
+     "text": "Working-capital analysis"
+    },
+    {
+     "key": "qdeliverables.17",
+     "kind": "Paragraph",
+     "text": "Monthly trends, normalization adjustments, seasonality, method and support for a possible peg."
+    },
+    {
+     "key": "qdeliverables.18",
+     "kind": "Heading",
+     "text": "Balance-sheet and debt-like review"
+    },
+    {
+     "key": "qdeliverables.19",
+     "kind": "Paragraph",
+     "text": "A schedule of debt, accruals, taxes, deposits, leases and the other items that reduce what the owner receives at closing."
+    },
+    {
+     "key": "qdeliverables.20",
+     "kind": "Heading",
+     "text": "Cash-flow and CapEx schedules"
+    },
+    {
+     "key": "qdeliverables.21",
+     "kind": "Paragraph",
+     "text": "How much of EBITDA becomes cash, maintenance and growth spending, and investment that has been put off."
+    },
+    {
+     "key": "qdeliverables.22",
+     "kind": "Heading",
+     "text": "Virtual data room and index"
+    },
+    {
+     "key": "qdeliverables.23",
+     "kind": "Paragraph",
+     "text": "Organized, access-controlled, named one way throughout and linked to each diligence request."
+    },
+    {
+     "key": "qdeliverables.24",
+     "kind": "Heading",
+     "text": "Management reporting package"
+    },
+    {
+     "key": "qdeliverables.25",
+     "kind": "Paragraph",
+     "text": "Monthly financials, KPIs, budget against actual, variance commentary and reporting ownership."
+    },
+    {
+     "key": "qdeliverables.26",
+     "kind": "Heading",
+     "text": "Risk log, written answers and updates"
+    },
+    {
+     "key": "qdeliverables.27",
+     "kind": "Paragraph",
+     "text": "Who owns each issue, how it is fixed, what buyers are told, and updates through confirmatory diligence."
+    }
+   ]
+  },
+  {
+   "id": "q-who",
+   "name": "For owners selling to buyers who will check every material number.",
+   "items": [
+    {
+     "key": "qwho.1",
+     "kind": "Paragraph",
+     "text": "Who this is for"
+    },
+    {
+     "key": "qwho.2",
+     "kind": "Section headline",
+     "text": "For owners selling to buyers who will check every material number."
+    },
+    {
+     "key": "qwho.3",
+     "kind": "Paragraph",
+     "text": "It matters most for founder-owned and lower-middle-market companies heading toward a full sale, a majority or minority investment, a partner buyout, a strategic deal or a refinancing with institutional lenders."
+    },
+    {
+     "key": "qwho.4",
+     "kind": "Heading",
+     "text": "Vertical software and SaaS companies"
+    },
+    {
+     "key": "qwho.5",
+     "kind": "Text",
+     "text": "Where recurring and one-time revenue, retention, deferred revenue, capitalized…"
+    },
+    {
+     "key": "qwho.6",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.7",
+     "kind": "Heading",
+     "text": "Vertical software and SaaS companies"
+    },
+    {
+     "key": "qwho.8",
+     "kind": "Paragraph",
+     "text": "Where recurring and one-time revenue, retention, deferred revenue, capitalized development costs and customer concentration must be clearly analyzed."
+    },
+    {
+     "key": "qwho.9",
+     "kind": "Heading",
+     "text": "Recurring service businesses"
+    },
+    {
+     "key": "qwho.10",
+     "kind": "Text",
+     "text": "Where contract terms, recurring and project revenue, customer retention, labor…"
+    },
+    {
+     "key": "qwho.11",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.12",
+     "kind": "Heading",
+     "text": "Recurring service businesses"
+    },
+    {
+     "key": "qwho.13",
+     "kind": "Paragraph",
+     "text": "Where contract terms, recurring and project revenue, customer retention, labor productivity, renewals and concentration drive the analysis."
+    },
+    {
+     "key": "qwho.14",
+     "kind": "Heading",
+     "text": "Healthcare and dental organizations"
+    },
+    {
+     "key": "qwho.15",
+     "kind": "Text",
+     "text": "Where payer mix, provider pay, reimbursement, billing and collections, credentialing…"
+    },
+    {
+     "key": "qwho.16",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.17",
+     "kind": "Heading",
+     "text": "Healthcare and dental organizations"
+    },
+    {
+     "key": "qwho.18",
+     "kind": "Paragraph",
+     "text": "Where payer mix, provider pay, reimbursement, billing and collections, credentialing, compliance, related-party management fees and the owner's own clinical work all change what normalized earnings are."
+    },
+    {
+     "key": "qwho.19",
+     "kind": "Heading",
+     "text": "Multi-entity or multi-location groups"
+    },
+    {
+     "key": "qwho.20",
+     "kind": "Text",
+     "text": "Where intercompany entries, shared costs, management fees, acquisitions, site-level…"
+    },
+    {
+     "key": "qwho.21",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.22",
+     "kind": "Heading",
+     "text": "Multi-entity or multi-location groups"
+    },
+    {
+     "key": "qwho.23",
+     "kind": "Paragraph",
+     "text": "Where intercompany entries, shared costs, management fees, acquisitions, site-level economics or uneven accounting make the combined results hard to explain."
+    },
+    {
+     "key": "qwho.24",
+     "kind": "Heading",
+     "text": "Owners with significant add-backs"
+    },
+    {
+     "key": "qwho.25",
+     "kind": "Text",
+     "text": "Where personal, related-party, discretionary and one-time costs, owner pay and pro…"
+    },
+    {
+     "key": "qwho.26",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.27",
+     "kind": "Heading",
+     "text": "Owners with significant add-backs"
+    },
+    {
+     "key": "qwho.28",
+     "kind": "Paragraph",
+     "text": "Where personal, related-party, discretionary and one-time costs, owner pay and pro forma changes need support and must be pulled apart from recurring results."
+    },
+    {
+     "key": "qwho.29",
+     "kind": "Heading",
+     "text": "Businesses that have outgrown their books"
+    },
+    {
+     "key": "qwho.30",
+     "kind": "Text",
+     "text": "Where revenue and operations have grown faster than the finance team, the month-end…"
+    },
+    {
+     "key": "qwho.31",
+     "kind": "Text",
+     "text": "Why it fits"
+    },
+    {
+     "key": "qwho.32",
+     "kind": "Heading",
+     "text": "Businesses that have outgrown their books"
+    },
+    {
+     "key": "qwho.33",
+     "kind": "Paragraph",
+     "text": "Where revenue and operations have grown faster than the finance team, the month-end close, the reporting systems, the controls and the documents an institutional buyer will ask for."
+    },
+    {
+     "key": "qwho.34",
+     "kind": "Paragraph",
+     "text": "For businesses with $3M or more in annual revenue."
+    }
+   ]
+  },
+  {
+   "id": "q-preqoe",
+   "name": "Where preparation fits.",
+   "items": [
+    {
+     "key": "qpreqoe.1",
+     "kind": "Paragraph",
+     "text": "Before the full report"
+    },
+    {
+     "key": "qpreqoe.2",
+     "kind": "Section headline",
+     "text": "Where preparation fits."
+    },
+    {
+     "key": "qpreqoe.3",
+     "kind": "Paragraph",
+     "text": "Preparation is Capital Row's own first pass, done before the full report. We trace reported earnings to source documents and mark each adjustment supported or unsupported. It is not a quality of earnings report, and it does not replace one."
+    },
+    {
+     "key": "qpreqoe.4",
+     "kind": "Paragraph",
+     "text": "<a>Request a Pre-Market Assessment</a>"
+    }
+   ]
+  },
+  {
+   "id": "q-faq",
+   "name": "Sell-side QoE and financial institutionalization.",
+   "items": [
+    {
+     "key": "qfaq.1",
+     "kind": "Paragraph",
+     "text": "What owners ask"
+    },
+    {
+     "key": "qfaq.2",
+     "kind": "Section headline",
+     "text": "Sell-side QoE and financial institutionalization."
+    },
+    {
+     "key": "qfaq.3",
+     "kind": "Heading",
+     "text": "The Quality of Earnings"
+    },
+    {
+     "key": "qfaq.4",
+     "kind": "Text",
+     "text": "What is a sell-side Quality of Earnings report?"
+    },
+    {
+     "key": "qfaq.5",
+     "kind": "Paragraph",
+     "text": "Transaction-focused financial diligence prepared for the seller before going to market. It reconciles reported results to normalized EBITDA and documents the evidence behind each material adjustment."
+    },
+    {
+     "key": "qfaq.6",
+     "kind": "Text",
+     "text": "Why should the seller commission a QoE before the buyer does?"
+    },
+    {
+     "key": "qfaq.7",
+     "kind": "Paragraph",
+     "text": "Issues found before the letter of intent can be fixed, explained or priced on your terms. Issues found after it are negotiated while the buyer holds exclusivity."
+    },
+    {
+     "key": "qfaq.8",
+     "kind": "Text",
+     "text": "How is sell-side QoE different from buy-side QoE?"
+    },
+    {
+     "key": "qfaq.9",
+     "kind": "Paragraph",
+     "text": "The seller's report sets a documented starting point. The buyer's report is paid for by the buyer, to support its own case and to look for what could go wrong. A buyer may still commission one."
+    },
+    {
+     "key": "qfaq.10",
+     "kind": "Text",
+     "text": "Is a Quality of Earnings report an audit?"
+    },
+    {
+     "key": "qfaq.11",
+     "kind": "Paragraph",
+     "text": "No. It is analysis prepared for a transaction. It is not an audit, a review, a compilation, a valuation or an assurance opinion."
+    },
+    {
+     "key": "qfaq.12",
+     "kind": "Text",
+     "text": "Does a sell-side QoE raise the price?"
+    },
+    {
+     "key": "qfaq.13",
+     "kind": "Paragraph",
+     "text": "It does not change what the business earned, and no outcome is guaranteed. It shows how much of the earnings can be supported, and it brings out early the issues that often lead to price changes late in a deal."
+    },
+    {
+     "key": "qfaq.14",
+     "kind": "Text",
+     "text": "What is normalized EBITDA?"
+    },
+    {
+     "key": "qfaq.15",
+     "kind": "Paragraph",
+     "text": "Reported EBITDA adjusted for items that do not reflect the ongoing business: one-time, nonoperating, owner-specific and misclassified items, each with support."
+    },
+    {
+     "key": "qfaq.16",
+     "kind": "Text",
+     "text": "What are legitimate EBITDA add-backs?"
+    },
+    {
+     "key": "qfaq.17",
+     "kind": "Paragraph",
+     "text": "Adjustments for costs or income that will not continue under a new owner and that can be documented, such as above-market owner compensation, personal expenses and one-time professional fees. An add-back without evidence is unlikely to hold up when a buyer reviews it."
+    },
+    {
+     "key": "qfaq.18",
+     "kind": "Text",
+     "text": "What is a net working-capital peg and why does it matter?"
+    },
+    {
+     "key": "qfaq.19",
+     "kind": "Paragraph",
+     "text": "It is the level of working capital the seller agrees to deliver at closing. If working capital at closing is below the peg, the price is usually adjusted down by the difference."
+    },
+    {
+     "key": "qfaq.20",
+     "kind": "Text",
+     "text": "What are debt-like items?"
+    },
+    {
+     "key": "qfaq.21",
+     "kind": "Paragraph",
+     "text": "Obligations a buyer treats like debt and deducts from the price, such as unpaid taxes, deferred compensation, accrued bonuses, customer deposits and some leases."
+    },
+    {
+     "key": "qfaq.22",
+     "kind": "Text",
+     "text": "What if my books are cash-basis, tax-basis or out of date?"
+    },
+    {
+     "key": "qfaq.23",
+     "kind": "Paragraph",
+     "text": "Yes. Part of the work is converting material activity to accrual schedules a transaction can use and reconciling the records to source."
+    },
+    {
+     "key": "qfaq.24",
+     "kind": "Text",
+     "text": "What documents are normally required?"
+    },
+    {
+     "key": "qfaq.25",
+     "kind": "Paragraph",
+     "text": "Usually three years of P&Ls and balance sheets, this year to date and the trailing twelve months, the general ledger, tax returns, bank statements, payroll records and the main contracts. The full data request is agreed when the work is scoped."
+    },
+    {
+     "key": "qfaq.26",
+     "kind": "Text",
+     "text": "How long does the process take?"
+    },
+    {
+     "key": "qfaq.27",
+     "kind": "Paragraph",
+     "text": "It depends on the size of the business, the number of entities and systems, and the condition of the records. The schedule is set with you after the first review."
+    },
+    {
+     "key": "qfaq.28",
+     "kind": "Text",
+     "text": "When should we begin?"
+    },
+    {
+     "key": "qfaq.29",
+     "kind": "Paragraph",
+     "text": "Before you go to market, and early enough to fix what the work finds."
+    },
+    {
+     "key": "qfaq.30",
+     "kind": "Text",
+     "text": "What if the QoE finds a problem?"
+    },
+    {
+     "key": "qfaq.31",
+     "kind": "Paragraph",
+     "text": "That is the reason to do it first. The finding is sized, and you decide whether to correct it, document it or disclose it before a buyer sees it."
+    },
+    {
+     "key": "qfaq.32",
+     "kind": "Text",
+     "text": "Do buyers rely on a QoE the seller paid for?"
+    },
+    {
+     "key": "qfaq.33",
+     "kind": "Paragraph",
+     "text": "Buyers and lenders may still do their own diligence. A QoE performed by an independent firm, with schedules tied to source records, gives them a documented starting point."
+    },
+    {
+     "key": "qfaq.34",
+     "kind": "Text",
+     "text": "How is confidentiality protected?"
+    },
+    {
+     "key": "qfaq.35",
+     "kind": "Paragraph",
+     "text": "Data is collected through a secure process, kept in a controlled working-file environment and released in stages. Sensitive records can be redacted or limited to a clean team."
+    },
+    {
+     "key": "qfaq.36",
+     "kind": "Text",
+     "text": "How is the project fee handled?"
+    },
+    {
+     "key": "qfaq.37",
+     "kind": "Paragraph",
+     "text": "The fee for the QoE is agreed in writing with the firm that performs it, before the work begins."
+    },
+    {
+     "key": "qfaq.38",
+     "kind": "Heading",
+     "text": "Technology and AI"
+    },
+    {
+     "key": "qfaq.39",
+     "kind": "Text",
+     "text": "Is AI used in Quality of Earnings work?"
+    },
+    {
+     "key": "qfaq.40",
+     "kind": "Paragraph",
+     "text": "Increasingly, yes, mostly to read and organize documents faster. Used well, it shortens extraction and reconciliation time. It does not replace source documents or professional judgment. Our own financial preparation starts with repeatable calculations and evidence that can be traced to its source, and advisors lead the last mile. Technology creates capacity. Human expertise turns that capacity into trusted advice."
+    },
+    {
+     "key": "qfaq.41",
+     "kind": "Text",
+     "text": "What is the difference between deterministic and probabilistic AI?"
+    },
+    {
+     "key": "qfaq.42",
+     "kind": "Paragraph",
+     "text": "A deterministic system gives the same answer every time from the same inputs, the way a formula does. A probabilistic system, including the large language models behind most AI tools, produces its most likely answer, and that answer can change from one run to the next. In diligence the difference matters. A number in an earnings bridge has to come out the same way every time and tie to a document."
+    },
+    {
+     "key": "qfaq.43",
+     "kind": "Text",
+     "text": "What is agentic AI, and does it belong in diligence?"
+    },
+    {
+     "key": "qfaq.44",
+     "kind": "Paragraph",
+     "text": "Agentic AI is software that plans and carries out a series of steps by itself, such as collecting files, matching records and drafting requests. It is useful for the routine work of gathering and organizing. It should not decide what counts as an adjustment or what a finding means. Those calls stay with accountable professionals."
+    },
+    {
+     "key": "qfaq.45",
+     "kind": "Text",
+     "text": "What makes an AI-assisted solution qualified for this work?"
+    },
+    {
+     "key": "qfaq.46",
+     "kind": "Paragraph",
+     "text": "Ask five questions of any provider. Does every figure trace to a source document? Are the calculations deterministic, so the same inputs give the same result? Are probabilistic tools limited to reading, sorting and flagging, with a person reviewing what they produce? Does your data stay in a secure environment, and is it kept out of the training of outside models? Is a named professional accountable for the conclusions?"
+    }
+   ]
+  },
+  {
+   "id": "q-next",
+   "name": "See your numbers the way a buyer will, first.",
+   "items": [
+    {
+     "key": "qnext.1",
+     "kind": "Paragraph",
+     "text": "Next step"
+    },
+    {
+     "key": "qnext.2",
+     "kind": "Section headline",
+     "text": "See your numbers the way a buyer will, first."
+    },
+    {
+     "key": "qnext.3",
+     "kind": "Paragraph",
+     "text": "Start with a confidential look at your reporting, your timing, how your company is organized and the records you have today. From there we set the right scope, from a focused sell-side QoE to a full rebuild of the books, the data room and the diligence file."
+    },
+    {
+     "key": "qnext.4",
+     "kind": "Heading",
+     "text": "Helpful information for the first review"
+    },
+    {
+     "key": "qnext.5",
+     "kind": "List item",
+     "text": "P&Ls and balance sheets for the last three years"
+    },
+    {
+     "key": "qnext.6",
+     "kind": "List item",
+     "text": "Year-to-date and trailing-twelve-month results"
+    },
+    {
+     "key": "qnext.7",
+     "kind": "List item",
+     "text": "How many legal entities, sites and accounting systems you have"
+    },
+    {
+     "key": "qnext.8",
+     "kind": "List item",
+     "text": "The kind of deal you are considering, and roughly when"
+    },
+    {
+     "key": "qnext.9",
+     "kind": "List item",
+     "text": "Any concerns you already have about the accounting, add-backs, working capital or documents"
+    },
+    {
+     "key": "qnext.10",
+     "kind": "Link",
+     "text": "Request a Confidential Preparation Review"
+    },
+    {
+     "key": "qnext.11",
+     "kind": "Link",
+     "text": "Request a QoE Quote"
+    },
+    {
+     "key": "qnext.12",
+     "kind": "Paragraph",
+     "text": "Come prepared."
+    }
+   ]
+  }
+ ]
+}
