@@ -962,102 +962,117 @@
   },
   {
    "id": "how",
-   "name": "Each engagement starts with your acquisition criteria and a clearly...",
+   "name": "Two ways to work with us. Criteria on file, or a retained search.",
    "items": [
     {
      "key": "how.1",
      "kind": "Small label",
-     "text": "For buyers · How an engagement works"
+     "text": "For buyers · How it works"
     },
     {
      "key": "how.2",
      "kind": "Section headline",
-     "text": "Each engagement starts with your acquisition criteria and <em>a clearly defined sector.</em>"
+     "text": "Two ways to work with us. <em>Criteria on file, or a retained search.</em>"
     },
     {
      "key": "how.3",
      "kind": "Paragraph",
-     "text": "One sector at a time. Relationships built before a process starts, and each opportunity assessed before a letter of intent."
+     "text": "Criteria on file is non-exclusive, at no fee: you hear when a note or an opportunity fits. A retained search is by exception, one buyer per sector, with scope and fee agreed in writing, each opportunity assessed before a letter of intent."
     },
     {
      "key": "how.4",
      "kind": "Text",
-     "text": "Your criteria"
+     "text": "No fee"
     },
     {
      "key": "how.5",
-     "kind": "Paragraph",
-     "text": "Your acquisition criteria and a clearly defined sector. Scope and fee are agreed in writing before any work begins."
+     "kind": "Text",
+     "text": "Criteria on file"
     },
     {
      "key": "how.6",
      "kind": "Text",
-     "text": "Businesses that fit"
+     "text": "By exception"
     },
     {
      "key": "how.7",
-     "kind": "Paragraph",
-     "text": "The software businesses in that sector, scored and ranked against criteria and weights you approved. You decide which to pursue."
+     "kind": "Text",
+     "text": "A retained search"
     },
     {
      "key": "how.8",
      "kind": "Text",
-     "text": "Owner relationships"
+     "text": "Register once"
     },
     {
      "key": "how.9",
      "kind": "Paragraph",
-     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+     "text": "Tell us what you buy: sector, size and structure."
     },
     {
      "key": "how.10",
      "kind": "Text",
-     "text": "The view before the letter"
+     "text": "Kept current"
     },
     {
      "key": "how.11",
      "kind": "Paragraph",
-     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
-    },
-    {
-     "key": "how.12",
-     "kind": "Small label",
-     "text": "Criteria on file"
-    },
-    {
-     "key": "how.13",
-     "kind": "Text",
-     "text": "Register once"
-    },
-    {
-     "key": "how.14",
-     "kind": "Paragraph",
-     "text": "Tell us what you buy: sector, size and structure."
-    },
-    {
-     "key": "how.15",
-     "kind": "Text",
-     "text": "Kept current"
-    },
-    {
-     "key": "how.16",
-     "kind": "Paragraph",
      "text": "We confirm your criteria with you each quarter."
     },
     {
-     "key": "how.17",
+     "key": "how.12",
      "kind": "Text",
      "text": "You hear from us"
     },
     {
-     "key": "how.18",
+     "key": "how.13",
      "kind": "Paragraph",
      "text": "When we publish a note on your sector, or when an opportunity fits your criteria."
     },
     {
-     "key": "how.19",
+     "key": "how.14",
      "kind": "Paragraph",
      "text": "Not ready to register criteria? <a>Follow a sector</a> and we send our notes on it as they are published."
+    },
+    {
+     "key": "how.15",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "how.16",
+     "kind": "Paragraph",
+     "text": "Your acquisition criteria and a clearly defined sector. Scope and fee are agreed in writing before any work begins."
+    },
+    {
+     "key": "how.17",
+     "kind": "Text",
+     "text": "Businesses that fit"
+    },
+    {
+     "key": "how.18",
+     "kind": "Paragraph",
+     "text": "The software businesses in that sector, scored and ranked against criteria and weights you approved. You decide which to pursue."
+    },
+    {
+     "key": "how.19",
+     "kind": "Text",
+     "text": "Owner relationships"
+    },
+    {
+     "key": "how.20",
+     "kind": "Paragraph",
+     "text": "Built ahead of a process. Nothing about a company reaches you without its owner’s permission."
+    },
+    {
+     "key": "how.21",
+     "kind": "Text",
+     "text": "The view before the letter"
+    },
+    {
+     "key": "how.22",
+     "kind": "Paragraph",
+     "text": "Each opportunity assessed before a letter of intent, so you are pricing against the findings instead of renegotiating after them."
     }
    ]
   },

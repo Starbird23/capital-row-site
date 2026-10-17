@@ -1714,28 +1714,28 @@
   },
   "how.4": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "how"
   },
   "how.5": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "how"
   },
   "how.6": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "how"
   },
   "how.7": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "how"
@@ -1769,15 +1769,15 @@
    "section": "how"
   },
   "how.12": {
-   "kind": "Small label",
-   "tag": "span",
-   "cls": "lab",
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
    "tags": [],
    "section": "how"
   },
   "how.13": {
-   "kind": "Text",
-   "tag": "u",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "how"
@@ -1785,8 +1785,10 @@
   "how.14": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "",
-   "tags": [],
+   "cls": "oflink",
+   "tags": [
+    "<a href=\"#follow\" data-follow=\"1\">"
+   ],
    "section": "how"
   },
   "how.15": {
@@ -1818,12 +1820,31 @@
    "section": "how"
   },
   "how.19": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "how"
+  },
+  "how.20": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "oflink",
-   "tags": [
-    "<a href=\"#follow\" data-follow=\"1\">"
-   ],
+   "cls": "",
+   "tags": [],
+   "section": "how"
+  },
+  "how.21": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "how"
+  },
+  "how.22": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
    "section": "how"
   },
   "next.1": {

@@ -2360,6 +2360,16 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .tchecks li{display:flex;gap:12px;align-items:baseline;padding:12px 14px;border:1px solid rgba(255,255,255,.18);border-radius:3px;background:rgba(255,255,255,.05);font-family:var(--sans);font-size:14.5px;font-weight:300;color:#F4F1EB;line-height:1.4}
 .tchecks li i{font-family:var(--mono);font-style:normal;font-size:11px;letter-spacing:.14em;color:#8FD4CB}
 @media(max-width:560px){.tchecks{grid-template-columns:minmax(0,1fr)}}
+.ways{display:flex;justify-content:center;gap:10px;margin:34px 0 0;flex-wrap:wrap}
+.way{-webkit-appearance:none;appearance:none;display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:12px 22px;border:1px solid var(--line);border-radius:999px;background:var(--card);font:inherit;color:var(--ink3);cursor:pointer;transition:background .3s,color .3s,border-color .3s}
+.way b{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);font-weight:400}
+.way span{font-family:var(--sans);font-size:15px;font-weight:300}
+.way[aria-selected="true"]{background:var(--deep);border-color:var(--deep);color:#fff}
+.way[aria-selected="true"] b{color:#8FD4CB}
+.way:hover{color:var(--ink)}.way[aria-selected="true"]:hover{color:#fff}
+.way:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.ways+.onfile{margin-top:26px;padding-top:0;border-top:0}
+.waynote{font-size:14px;line-height:1.7;color:var(--ink3);max-width:60ch;margin:22px auto 0}
 </style></head><body>
 <a id="top"></a>
 <div class="osbar"><div class="wrap"><span class="ost"><b>{{sh.osbar.1}}</b><span class="osm"> {{sh.osbar.2}}</span><span class="osp"> {{sh.osbar.3}}</span></span><a class="osgo" href="../reserve/index.html">{{sh.osbar.4}}</a></div></div>
@@ -2558,20 +2568,20 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <span class="lab big">{{how.1}}</span>
 <h2 class="cen">{{how.2}}</h2>
 <p class="sd cen">{{how.3}}</p>
-<div class="cost howsteps" id="howsteps">
- <div class="cc"><b>1</b><u>{{how.4}}</u><p>{{how.5}}</p></div>
- <div class="cc"><b>2</b><u>{{how.6}}</u><p>{{how.7}}</p></div>
- <div class="cc"><b>3</b><u>{{how.8}}</u><p>{{how.9}}</p></div>
- <div class="cc lead"><b>4</b><u>{{how.10}}</u><p>{{how.11}}</p></div>
-</div>
-<div class="onfile" id="onfile">
- <span class="lab">{{how.12}}</span>
+<div class="ways" role="tablist" aria-label="Two ways to work with us"><button class="way" role="tab" type="button" id="way-file" aria-selected="true" aria-controls="onfile"><b>{{how.4}}</b><span>{{how.5}}</span></button><button class="way" role="tab" type="button" id="way-search" aria-selected="false" aria-controls="howsteps"><b>{{how.6}}</b><span>{{how.7}}</span></button></div>
+<div class="onfile" id="onfile" role="tabpanel" aria-labelledby="way-file">
  <ol class="steps of3" id="ofsteps">
-  <li><b>1</b><div><u>{{how.13}}</u><p>{{how.14}}</p></div></li>
-  <li><b>2</b><div><u>{{how.15}}</u><p>{{how.16}}</p></div></li>
-  <li><b>3</b><div><u>{{how.17}}</u><p>{{how.18}}</p></div></li>
+  <li><b>1</b><div><u>{{how.8}}</u><p>{{how.9}}</p></div></li>
+  <li><b>2</b><div><u>{{how.10}}</u><p>{{how.11}}</p></div></li>
+  <li><b>3</b><div><u>{{how.12}}</u><p>{{how.13}}</p></div></li>
  </ol>
- <p class="oflink" id="follow">{{how.19}}</p>
+ <p class="oflink" id="follow">{{how.14}}</p>
+</div>
+<div class="cost howsteps" id="howsteps" role="tabpanel" aria-labelledby="way-search" hidden>
+ <div class="cc"><b>1</b><u>{{how.15}}</u><p>{{how.16}}</p></div>
+ <div class="cc"><b>2</b><u>{{how.17}}</u><p>{{how.18}}</p></div>
+ <div class="cc"><b>3</b><u>{{how.19}}</u><p>{{how.20}}</p></div>
+ <div class="cc lead"><b>4</b><u>{{how.21}}</u><p>{{how.22}}</p></div>
 </div>
 </div></section>
 
@@ -4755,6 +4765,30 @@ function hsSubmit(kind, d, ok, fail) {
    behavior: "smooth"
   });
  }));
+})();
+</script>
+<script>
+(function() {
+ var ws = document.querySelectorAll(".ways .way");
+ if (!ws.length) return;
+ function show(b) {
+  Array.prototype.forEach.call(ws, (function(x) {
+   var on = x === b;
+   x.setAttribute("aria-selected", on ? "true" : "false");
+   x.tabIndex = on ? 0 : -1;
+   var p = document.getElementById(x.getAttribute("aria-controls"));
+   if (p) p.hidden = !on;
+  }));
+ }
+ Array.prototype.forEach.call(ws, (function(b) {
+  b.addEventListener("click", (function() {
+   show(b);
+  }));
+ }));
+ if (location.hash === "#howsteps") {
+  var r = document.getElementById("way-search");
+  if (r) show(r);
+ }
 })();
 </script>
 </body></html>
