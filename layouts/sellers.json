@@ -1657,9 +1657,9 @@
    "section": "talk"
   },
   "talk.10": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "secnote",
    "tags": [],
    "section": "talk"
   },
@@ -1692,20 +1692,27 @@
    "section": "talk"
   },
   "talk.15": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.16": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.17": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "talk"
   },
-  "talk.17": {
+  "talk.18": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -1713,13 +1720,6 @@
     "<a href=\"../privacy/index.html\">",
     "<a href=\"../terms/index.html\">"
    ],
-   "section": "talk"
-  },
-  "talk.18": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
    "section": "talk"
   },
   "talk.19": {
@@ -1730,6 +1730,20 @@
    "section": "talk"
   },
   "talk.20": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.21": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.22": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -1738,28 +1752,28 @@
    ],
    "section": "talk"
   },
-  "talk.21": {
+  "talk.23": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn",
    "tags": [],
    "section": "talk"
   },
-  "talk.22": {
+  "talk.24": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote",
    "tags": [],
    "section": "talk"
   },
-  "talk.23": {
+  "talk.25": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "talk"
   },
-  "talk.24": {
+  "talk.26": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -1768,7 +1782,7 @@
    ],
    "section": "talk"
   },
-  "talk.25": {
+  "talk.27": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",

@@ -695,9 +695,9 @@
    "section": "request"
   },
   "request.28": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "secnote",
    "tags": [],
    "section": "request"
   },
@@ -744,20 +744,27 @@
    "section": "request"
   },
   "request.35": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "request"
   },
   "request.36": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "request"
+  },
+  "request.37": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "request"
   },
-  "request.37": {
+  "request.38": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -767,14 +774,16 @@
    ],
    "section": "request"
   },
-  "request.38": {
+  "request.39": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
-   "tags": [],
+   "tags": [
+    "<a href=\"https://thecapitalrow.com/reserve/\">"
+   ],
    "section": "request"
   },
-  "request.39": {
+  "request.40": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -783,35 +792,35 @@
    ],
    "section": "request"
   },
-  "request.40": {
+  "request.41": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "request"
   },
-  "request.41": {
+  "request.42": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote wide",
    "tags": [],
    "section": "request"
   },
-  "request.42": {
+  "request.43": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "request"
   },
-  "request.43": {
+  "request.44": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",
    "tags": [],
    "section": "request"
   },
-  "request.44": {
+  "request.45": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",

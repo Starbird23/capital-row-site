@@ -543,9 +543,9 @@
    "section": "report"
   },
   "report.21": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "secnote",
    "tags": [],
    "section": "report"
   },
@@ -593,14 +593,14 @@
   },
   "report.28": {
    "kind": "Form label",
-   "tag": "legend",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.29": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "legend",
    "cls": "",
    "tags": [],
    "section": "report"
@@ -676,8 +676,8 @@
    "section": "report"
   },
   "report.40": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "report"
@@ -774,20 +774,27 @@
    "section": "report"
   },
   "report.54": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.55": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "report"
+  },
+  "report.56": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "report"
   },
-  "report.56": {
+  "report.57": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -795,13 +802,6 @@
     "<a href=\"../privacy/index.html\">",
     "<a href=\"../terms/index.html\">"
    ],
-   "section": "report"
-  },
-  "report.57": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
    "section": "report"
   },
   "report.58": {
@@ -812,6 +812,13 @@
    "section": "report"
   },
   "report.59": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "report"
+  },
+  "report.60": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -820,35 +827,35 @@
    ],
    "section": "report"
   },
-  "report.60": {
+  "report.61": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "report"
   },
-  "report.61": {
+  "report.62": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote wide",
    "tags": [],
    "section": "report"
   },
-  "report.62": {
+  "report.63": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "sd cen",
    "tags": [],
    "section": "report"
   },
-  "report.63": {
+  "report.64": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "report"
   },
-  "report.64": {
+  "report.65": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",

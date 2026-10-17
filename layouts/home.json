@@ -3054,9 +3054,9 @@
    "section": "talk"
   },
   "talk.9": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "secnote",
    "tags": [],
    "section": "talk"
   },
@@ -3089,20 +3089,27 @@
    "section": "talk"
   },
   "talk.14": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.15": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.16": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "talk"
   },
-  "talk.16": {
+  "talk.17": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -3110,13 +3117,6 @@
     "<a href=\"privacy/index.html\">",
     "<a href=\"terms/index.html\">"
    ],
-   "section": "talk"
-  },
-  "talk.17": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
    "section": "talk"
   },
   "talk.18": {
@@ -3127,10 +3127,12 @@
    "section": "talk"
   },
   "talk.19": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
-   "tags": [],
+   "tags": [
+    "<a href=\"https://thecapitalrow.com/reserve/\">"
+   ],
    "section": "talk"
   },
   "talk.20": {
@@ -3141,6 +3143,20 @@
    "section": "talk"
   },
   "talk.21": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.22": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talk.23": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -3149,21 +3165,21 @@
    ],
    "section": "talk"
   },
-  "talk.22": {
+  "talk.24": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn",
    "tags": [],
    "section": "talk"
   },
-  "talk.23": {
+  "talk.25": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "talk"
   },
-  "talk.24": {
+  "talk.26": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -3172,7 +3188,7 @@
    ],
    "section": "talk"
   },
-  "talk.25": {
+  "talk.27": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",

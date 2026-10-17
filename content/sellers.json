@@ -979,85 +979,95 @@
     {
      "key": "talk.9",
      "kind": "Form label",
-     "text": "What vertical do you serve"
+     "text": "Which verticals do you serve"
     },
     {
      "key": "talk.10",
-     "kind": "Form label",
-     "text": "Recurring revenue"
+     "kind": "Paragraph",
+     "text": "Select the industry first"
     },
     {
      "key": "talk.11",
      "kind": "Form label",
-     "text": "Name"
+     "text": "Annual recurring revenue"
     },
     {
      "key": "talk.12",
      "kind": "Form label",
-     "text": "Company"
+     "text": "Name"
     },
     {
      "key": "talk.13",
      "kind": "Form label",
-     "text": "Work email"
+     "text": "Company"
     },
     {
      "key": "talk.14",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Work email"
     },
     {
      "key": "talk.15",
-     "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "talk.16",
      "kind": "Text",
-     "text": "Optional."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "talk.17",
      "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "Optional."
     },
     {
      "key": "talk.18",
-     "kind": "Form label",
-     "text": "How did you hear about us"
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
      "key": "talk.19",
      "kind": "Form label",
-     "text": "What are you trying to work out"
+     "text": "How did you hear about us"
     },
     {
      "key": "talk.20",
+     "kind": "Form label",
+     "text": "Who, or which one"
+    },
+    {
+     "key": "talk.21",
+     "kind": "Form label",
+     "text": "What are you trying to work out"
+    },
+    {
+     "key": "talk.22",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "talk.21",
+     "key": "talk.23",
      "kind": "Button",
      "text": "Continue by email"
     },
     {
-     "key": "talk.22",
+     "key": "talk.24",
      "kind": "Paragraph",
      "text": "This opens a draft in your email application. Review it and press send."
     },
     {
-     "key": "talk.23",
+     "key": "talk.25",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.24",
+     "key": "talk.26",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.25",
+     "key": "talk.27",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

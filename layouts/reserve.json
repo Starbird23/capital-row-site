@@ -543,9 +543,9 @@
    "section": "reserve"
   },
   "reserve.21": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "secnote",
    "tags": [],
    "section": "reserve"
   },
@@ -557,20 +557,27 @@
    "section": "reserve"
   },
   "reserve.23": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "reserve"
   },
   "reserve.24": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "reserve"
+  },
+  "reserve.25": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "reserve"
   },
-  "reserve.25": {
+  "reserve.26": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -580,7 +587,7 @@
    ],
    "section": "reserve"
   },
-  "reserve.26": {
+  "reserve.27": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -589,21 +596,21 @@
    ],
    "section": "reserve"
   },
-  "reserve.27": {
+  "reserve.28": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "reserve"
   },
-  "reserve.28": {
+  "reserve.29": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "reserve"
   },
-  "reserve.29": {
+  "reserve.30": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",

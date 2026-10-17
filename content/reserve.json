@@ -55,7 +55,7 @@
     {
      "key": "reserve.10",
      "kind": "Text",
-     "text": "Which adjustments a buyer questions first"
+     "text": "Which add-backs and adjustments to earnings a buyer questions first"
     },
     {
      "key": "reserve.11",
@@ -65,7 +65,7 @@
     {
      "key": "reserve.12",
      "kind": "Text",
-     "text": "What supported and unsupported look like"
+     "text": "Which numbers are supported by bank statements, contracts and invoices, and which are not"
     },
     {
      "key": "reserve.13",
@@ -75,7 +75,7 @@
     {
      "key": "reserve.14",
      "kind": "Text",
-     "text": "What is worth fixing before you go to market"
+     "text": "What is worth addressing before you go to market"
     },
     {
      "key": "reserve.15",
@@ -105,50 +105,55 @@
     {
      "key": "reserve.20",
      "kind": "Form label",
-     "text": "Sector"
+     "text": "Sectors"
     },
     {
      "key": "reserve.21",
-     "kind": "Form label",
-     "text": "Mobile number, optional"
+     "kind": "Paragraph",
+     "text": "Select the industry first"
     },
     {
      "key": "reserve.22",
      "kind": "Form label",
-     "text": "One question you want answered, optional"
+     "text": "Mobile number, optional"
     },
     {
      "key": "reserve.23",
-     "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "kind": "Form label",
+     "text": "One question you want answered, optional"
     },
     {
      "key": "reserve.24",
      "kind": "Text",
-     "text": "Optional."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "reserve.25",
      "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "Optional."
     },
     {
      "key": "reserve.26",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "reserve.27",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "reserve.27",
+     "key": "reserve.28",
      "kind": "Button",
      "text": "Reserve your seat"
     },
     {
-     "key": "reserve.28",
+     "key": "reserve.29",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "reserve.29",
+     "key": "reserve.30",
      "kind": "Note",
      "text": "Your numbers traced to source documents, before a buyer looks."
     }

@@ -105,225 +105,230 @@
     {
      "key": "report.20",
      "kind": "Form label",
-     "text": "Sector"
+     "text": "Sectors"
     },
     {
      "key": "report.21",
-     "kind": "Form label",
-     "text": "Annual revenue at the time"
+     "kind": "Paragraph",
+     "text": "Select the industry first"
     },
     {
      "key": "report.22",
      "kind": "Form label",
-     "text": "Adjusted earnings at the time"
+     "text": "Annual revenue at the time"
     },
     {
      "key": "report.23",
      "kind": "Form label",
-     "text": "Who the buyer was"
+     "text": "Adjusted earnings at the time"
     },
     {
      "key": "report.24",
      "kind": "Form label",
-     "text": "Who advised you on the sale"
+     "text": "Who the buyer was"
     },
     {
      "key": "report.25",
      "kind": "Form label",
-     "text": "When it happened"
+     "text": "Who advised you on the sale"
     },
     {
      "key": "report.26",
      "kind": "Form label",
-     "text": "How far it got"
+     "text": "When it happened"
     },
     {
      "key": "report.27",
      "kind": "Form label",
-     "text": "Days under exclusivity, if any"
+     "text": "How far it got"
     },
     {
      "key": "report.28",
      "kind": "Form label",
-     "text": "What went wrong. Choose all that apply."
+     "text": "Days under exclusivity, if any"
     },
     {
      "key": "report.29",
-     "kind": "Text",
-     "text": "The earnings were not what was presented"
+     "kind": "Form label",
+     "text": "What went wrong. Choose all that apply."
     },
     {
      "key": "report.30",
      "kind": "Text",
-     "text": "Customer or payer concentration"
+     "text": "The earnings were not what was presented"
     },
     {
      "key": "report.31",
      "kind": "Text",
-     "text": "A license, contract or compliance finding"
+     "text": "Customer or payer concentration"
     },
     {
      "key": "report.32",
      "kind": "Text",
-     "text": "Dependence on the owner or a key person"
+     "text": "A license, contract or compliance finding"
     },
     {
      "key": "report.33",
      "kind": "Text",
-     "text": "Records or systems could not support the numbers"
+     "text": "Dependence on the owner or a key person"
     },
     {
      "key": "report.34",
      "kind": "Text",
-     "text": "Financing"
+     "text": "Records or systems could not support the numbers"
     },
     {
      "key": "report.35",
      "kind": "Text",
-     "text": "Price expectations"
+     "text": "Financing"
     },
     {
      "key": "report.36",
      "kind": "Text",
-     "text": "Cultural mismatch or fit"
+     "text": "Price expectations"
     },
     {
      "key": "report.37",
      "kind": "Text",
-     "text": "The buyer’s own reasons"
+     "text": "Cultural mismatch or fit"
     },
     {
      "key": "report.38",
      "kind": "Text",
-     "text": "I walked away; the business was not ready"
+     "text": "The buyer’s own reasons"
     },
     {
      "key": "report.39",
      "kind": "Text",
-     "text": "Other"
+     "text": "I walked away; the business was not ready"
     },
     {
      "key": "report.40",
-     "kind": "Form label",
-     "text": "What was not ready?"
+     "kind": "Text",
+     "text": "Other"
     },
     {
      "key": "report.41",
      "kind": "Form label",
-     "text": "Tell us what happened. Please leave out names."
+     "text": "What was not ready?"
     },
     {
      "key": "report.42",
      "kind": "Form label",
-     "text": "Was the price or structure changed before it ended"
+     "text": "Tell us what happened. Please leave out names."
     },
     {
      "key": "report.43",
      "kind": "Form label",
-     "text": "Where it stands today"
+     "text": "Was the price or structure changed before it ended"
     },
     {
      "key": "report.44",
      "kind": "Form label",
-     "text": "What had been prepared before going to market"
+     "text": "Where it stands today"
     },
     {
      "key": "report.45",
      "kind": "Form label",
-     "text": "Was there a quality of earnings report before the deal?"
+     "text": "What had been prepared before going to market"
     },
     {
      "key": "report.46",
      "kind": "Form label",
-     "text": "When, and who prepared it, optional"
+     "text": "Was there a quality of earnings report before the deal?"
     },
     {
      "key": "report.47",
      "kind": "Form label",
-     "text": "Entity type"
+     "text": "When, and who prepared it, optional"
     },
     {
      "key": "report.48",
      "kind": "Form label",
-     "text": "Real estate"
+     "text": "Entity type"
     },
     {
      "key": "report.49",
      "kind": "Form label",
-     "text": "Contracts needing consent when ownership changes"
+     "text": "Real estate"
     },
     {
      "key": "report.50",
      "kind": "Form label",
-     "text": "What you would do differently. Please leave out names."
+     "text": "Contracts needing consent when ownership changes"
     },
     {
      "key": "report.51",
      "kind": "Form label",
-     "text": "Name, optional"
+     "text": "What you would do differently. Please leave out names."
     },
     {
      "key": "report.52",
      "kind": "Form label",
-     "text": "Email. A personal address is fine."
+     "text": "Name, optional"
     },
     {
      "key": "report.53",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Email. A personal address is fine."
     },
     {
      "key": "report.54",
-     "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "report.55",
      "kind": "Text",
-     "text": "Optional."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "report.56",
      "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "Optional."
     },
     {
      "key": "report.57",
      "kind": "Text",
-     "text": "You may contact me about this report, and to set up my debrief."
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
      "key": "report.58",
      "kind": "Text",
-     "text": "You may share what I describe here anonymously in Capital Row’s published work, with every identifying detail removed."
+     "text": "You may contact me about this report, and to set up my debrief."
     },
     {
      "key": "report.59",
+     "kind": "Text",
+     "text": "You may share what I describe here anonymously in Capital Row’s published work, with every identifying detail removed."
+    },
+    {
+     "key": "report.60",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "report.60",
+     "key": "report.61",
      "kind": "Button",
      "text": "Send the report"
     },
     {
-     "key": "report.61",
+     "key": "report.62",
      "kind": "Paragraph",
      "text": "Your report goes directly to Capital Row and is kept confidential. A name is optional, and a personal email address is fine."
     },
     {
-     "key": "report.62",
+     "key": "report.63",
      "kind": "Paragraph",
      "text": "Thank you. If you ticked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
     },
     {
-     "key": "report.63",
+     "key": "report.64",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "report.64",
+     "key": "report.65",
      "kind": "Note",
      "text": "Wednesday January 20. What a buyer will find in your 2026 numbers, and how to find it first."
     }
