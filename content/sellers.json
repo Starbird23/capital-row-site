@@ -45,7 +45,7 @@
     {
      "key": "pgnav.8",
      "kind": "Link",
-     "text": "Advisers"
+     "text": "Advisors"
     },
     {
      "key": "pgnav.9",
@@ -325,7 +325,7 @@
     {
      "key": "covers.10",
      "kind": "Paragraph",
-     "text": "Each add-back you or your adviser proposes is marked supported or unsupported, with the document that decides it."
+     "text": "Each add-back you or your advisor proposes is marked supported or unsupported, with the document that decides it."
     },
     {
      "key": "covers.11",
@@ -416,7 +416,7 @@
     {
      "key": "how.8",
      "kind": "Paragraph",
-     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own adviser."
+     "text": "A report and workbook you keep. Act on it, wait, or hand it to your own advisor."
     },
     {
      "key": "how.9",
@@ -725,51 +725,51 @@
    ]
   },
   {
-   "id": "advisers",
+   "id": "advisors",
    "name": "Bring your client in before the buyer’s quality of earnings does.",
    "items": [
     {
-     "key": "advisers.1",
+     "key": "advisors.1",
      "kind": "Small label",
-     "text": "For advisers and certified public accountants"
+     "text": "For advisors and certified public accountants"
     },
     {
-     "key": "advisers.2",
+     "key": "advisors.2",
      "kind": "Section headline",
      "text": "Bring your client in <em>before the buyer’s quality of earnings does.</em>"
     },
     {
-     "key": "advisers.3",
+     "key": "advisors.3",
      "kind": "Text",
-     "text": "M&A advisers"
+     "text": "M&A advisors"
     },
     {
-     "key": "advisers.4",
+     "key": "advisors.4",
      "kind": "Text",
      "text": "Answer the earnings questions before they disrupt the deal."
     },
     {
-     "key": "advisers.5",
+     "key": "advisors.5",
      "kind": "Paragraph",
-     "text": "Your seller arrives at the letter of intent with the add-backs already marked and the gaps already known. The engagement is with your client, and you stay the adviser."
+     "text": "Your seller arrives at the letter of intent with the add-backs already marked and the gaps already known. The engagement is with your client, and you stay the advisor."
     },
     {
-     "key": "advisers.6",
+     "key": "advisors.6",
      "kind": "Text",
      "text": "Certified public accountants"
     },
     {
-     "key": "advisers.7",
+     "key": "advisors.7",
      "kind": "Text",
      "text": "Your client, your engagement, our record."
     },
     {
-     "key": "advisers.8",
+     "key": "advisors.8",
      "kind": "Paragraph",
      "text": "Non-attest work only. We take no fee of any kind on attested work, in any direction. If your client needs an audit, review, compilation or attestation, that goes to an independent firm."
     },
     {
-     "key": "advisers.9",
+     "key": "advisors.9",
      "kind": "Button",
      "text": "Refer a client"
     }
@@ -847,7 +847,7 @@
     {
      "key": "faq.14",
      "kind": "Paragraph",
-     "text": "Deals the seller starts, or takes unsolicited, price lower: target-initiated deals carry lower premiums and lower multiples of earnings, and the gap widens the less the buyer can confirm. Private sellers who hire an adviser receive higher valuations after correcting for who hires one. And buyers say so themselves: in their own words, the attraction of an off-market deal is that there is less competition and the price is attractive. The party who sees the whole market sets the price."
+     "text": "Deals the seller starts, or takes unsolicited, price lower: target-initiated deals carry lower premiums and lower multiples of earnings, and the gap widens the less the buyer can confirm. Private sellers who hire an advisor receive higher valuations after correcting for who hires one. And buyers say so themselves: in their own words, the attraction of an off-market deal is that there is less competition and the price is attractive. The party who sees the whole market sets the price."
     },
     {
      "key": "faq.15",
@@ -877,7 +877,7 @@
     {
      "key": "faq.20",
      "kind": "Paragraph",
-     "text": "You. Nothing reaches a buyer, an adviser or anyone else without your written permission."
+     "text": "You. Nothing reaches a buyer, an advisor or anyone else without your written permission."
     },
     {
      "key": "faq.21",

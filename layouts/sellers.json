@@ -1319,68 +1319,68 @@
    "tags": [],
    "section": "sell"
   },
-  "advisers.1": {
+  "advisors.1": {
    "kind": "Small label",
    "tag": "span",
    "cls": "lab big",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.2": {
+  "advisors.2": {
    "kind": "Section headline",
    "tag": "h2",
    "cls": "cen",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.3": {
+  "advisors.3": {
    "kind": "Text",
    "tag": "u",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.4": {
+  "advisors.4": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.5": {
+  "advisors.5": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.6": {
+  "advisors.6": {
    "kind": "Text",
    "tag": "u",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.7": {
+  "advisors.7": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.8": {
+  "advisors.8": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
-  "advisers.9": {
+  "advisors.9": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
-   "section": "advisers"
+   "section": "advisors"
   },
   "faq.1": {
    "kind": "Small label",
