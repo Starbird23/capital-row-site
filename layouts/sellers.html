@@ -11,7 +11,7 @@
 <meta property="og:description" content="{{seoDescription}}">
 <meta property="og:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, five desks open.">
+<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, six desks open.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
@@ -1916,6 +1916,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .klist.dark li:before{content:"";width:3px;height:26px;background:#C79A5C;border-radius:1px;margin-left:18px}
 .dndeck.open .dnc{animation:dnin .5s ease both}
 @keyframes dnin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fine{font-size:11.5px;line-height:1.6;color:var(--ink3);margin:14px 0 0;text-align:center}.fine a{color:var(--ink3)}
 </style></head><body>
 
 
@@ -1987,7 +1988,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <a class="cta" href="#talk">{{sh.mast.53}}</a>
 </nav>
 </div></div>
-<nav class="pgnav" aria-label="On this page"><div class="wrap"><a href="#dead-deal">{{pgnav.1}}</a><a href="#breaks">{{pgnav.2}}</a><a href="#covers">{{pgnav.3}}</a><a href="#how">{{pgnav.4}}</a><a href="#types">{{pgnav.5}}</a><a href="#first">{{pgnav.6}}</a><a href="#advisers">{{pgnav.7}}</a><a href="#faq">{{pgnav.8}}</a></div></nav>
+<nav class="pgnav" aria-label="On this page"><div class="wrap"><a href="#dead-deal">{{pgnav.1}}</a><a href="#breaks">{{pgnav.2}}</a><a href="#covers">{{pgnav.3}}</a><a href="#how">{{pgnav.4}}</a><a href="#types">{{pgnav.5}}</a><a href="#first">{{pgnav.6}}</a><a href="#buyer-map">{{pgnav.7}}</a><a href="#advisers">{{pgnav.8}}</a><a href="#faq">{{pgnav.9}}</a></div></nav>
 <header class="hasph">
 <div class="hph" aria-hidden="true" style="background-image:url(../photos/hero-field.jpg)"></div>
 <canvas id="hbg" aria-hidden="true"></canvas>
@@ -2110,6 +2111,14 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <p class="ctamicro"><b>{{first.17}}</b> <a href="../capital-connections/index.html">{{first.18}}</a></p>
 </div></section>
 
+<section class="rule" id="buyer-map"><div class="wrap ctr">
+<span class="lab big">{{buyermap.1}}</span>
+<h2 class="cen">{{buyermap.2}}</h2>
+<p class="sd cen">{{buyermap.3}}</p>
+<div class="kcards"><div><u>{{buyermap.4}}</u><b>{{buyermap.5}}</b><p>{{buyermap.6}}</p></div><div><u>{{buyermap.7}}</u><b>{{buyermap.8}}</b><p>{{buyermap.9}}</p></div><div><u>{{buyermap.10}}</u><b>{{buyermap.11}}</b><p>{{buyermap.12}}</p></div></div>
+<div class="ctr" style="margin-top:34px"><a class="bigcta" href="../index.html?seat=Seller&amp;topic=buyer-map#talk">{{buyermap.13}}</a><br><a class="ghostcta" href="../buyer-maps/field-service-management-software-sample.pdf" target="_blank" rel="noopener">{{buyermap.14}}</a><p class="ctamicro">{{buyermap.15}}</p></div>
+</div></section>
+
 <section class="rule" id="sell"><div class="wrap ctr">
 <span class="lab big">{{sell.1}}</span>
 <h2 class="cen">{{sell.2}}</h2>
@@ -2192,14 +2201,15 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <label class="smsok" for="sms"><input type="checkbox" id="sms" name="sms_consent" value="yes"><span id="smstext">{{talk.15}} <b class="opt">{{talk.16}}</b> {{talk.17}}</span></label>
 <div class="fld"><label for="how">{{talk.18}}</label><input id="how" placeholder="A conference, a name, a search"></div>
 <div class="fld"><label for="msg" id="ml">{{talk.19}}</label><textarea id="msg"></textarea></div>
-<button class="btn" type="submit">{{talk.20}}</button>
-<p class="formnote">{{talk.21}}</p>
+<p class="fine">{{talk.20}}</p>
+<button class="btn" type="submit">{{talk.21}}</button>
+<p class="formnote">{{talk.22}}</p>
 <p class="formmsg" id="formmsg" hidden></p>
 
 </form>
-<p class="fine">{{talk.22}}</p>
-<p class="fine dir" id="bookw" hidden>{{talk.23}}</p>
-<p class="fine dir">{{talk.24}}</p>
+<p class="fine">{{talk.23}}</p>
+<p class="fine dir" id="bookw" hidden>{{talk.24}}</p>
+<p class="fine dir">{{talk.25}}</p>
 </div></section>
 
 <footer><div class="wrap">
@@ -3061,6 +3071,12 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
  } catch (e) {
   return;
  }
+ var tp = q.get("topic"), msg = document.getElementById("msg");
+ if (tp === "buyer-map" && msg && !msg.value) {
+  msg.value = "I would like a buyer map for my sector.";
+  var mf = msg.closest(".fld");
+  if (mf) mf.classList.add("answered");
+ }
  var s = q.get("seat"), k = q.get("kind"), sel = document.getElementById("seat"), kind = document.getElementById("kind");
  if (!s || !sel || !kind) return;
  sel.value = s;
@@ -3103,7 +3119,9 @@ var HS = {
  follow: "",
  assess: "",
  deal: "",
- valuation: ""
+ valuation: "",
+ cc: "",
+ sms_sub: ""
 };
 
 function hsId(x) {
@@ -3213,6 +3231,36 @@ function hsFields(kind, d) {
  return f;
 }
 
+function hsBody(fields, d) {
+ var c = {
+  pageUri: location.href.split("#")[0],
+  pageName: document.title
+ }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
+ if (k) c.hutk = k;
+ var b = {
+  fields: fields,
+  context: c
+ };
+ var smsc = d.sms || (d.sms_consent === "yes" ? {
+  time: d.sms_consent_time,
+  wording: d.sms_consent_wording
+ } : null);
+ if (smsc && HS.sms_sub) {
+  b.legalConsentOptions = {
+   consent: {
+    consentToProcess: true,
+    text: "By sending, you agree to the Privacy Policy.",
+    communications: [ {
+     value: true,
+     subscriptionTypeId: Number(HS.sms_sub),
+     text: smsc.wording || ""
+    } ]
+   }
+  };
+ }
+ return b;
+}
+
 function hsSubmit(kind, d, ok, fail) {
  if (window.CR_PREVIEW) {
   setTimeout((function() {
@@ -3225,7 +3273,8 @@ function hsSubmit(kind, d, ok, fail) {
   "Follow a sector": HS.follow,
   "Pre-Market Assessment request": HS.assess,
   "Bad or broken deal report": HS.deal,
-  "Valuation calculator": HS.valuation
+  "Valuation calculator": HS.valuation,
+  "Capital Connections": HS.cc
  }[kind];
  var fid = hsId(own) ? own : HS.form;
  if (!hsId(fid)) {
@@ -3239,17 +3288,7 @@ function hsSubmit(kind, d, ok, fail) {
    headers: {
     "Content-Type": "application/json"
    },
-   body: JSON.stringify({
-    fields: fields,
-    context: function() {
-     var c = {
-      pageUri: location.href.split("#")[0],
-      pageName: document.title
-     }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
-     if (k) c.hutk = k;
-     return c;
-    }()
-   })
+   body: JSON.stringify(hsBody(fields, d))
   }).then((function(r) {
    if (r.ok) {
     if (kind !== "Owner session seat" && d.owner_session === "yes" && d.email && hsId(HS.seat)) {

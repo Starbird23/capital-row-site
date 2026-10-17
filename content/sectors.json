@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "Sector coverage: ten industries, 63 sectors, five desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with five desks open in healthcare. Choose an industry to see its sectors and which are active.",
+ "seoTitle": "Sector coverage: ten industries, 63 sectors, six desks open | Capital Row",
+ "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with six desks open: five in healthcare and one in field service software. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Ten industries. Sixty-three sectors. Five desks open.",
+   "name": "Ten industries. Sixty-three sectors. Six desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -20,12 +20,12 @@
     {
      "key": "inner.3",
      "kind": "Text",
-     "text": "5 desks open"
+     "text": "6 desks open"
     },
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Ten industries. Sixty-three sectors. <em>Five desks open.</em>"
+     "text": "Ten industries. Sixty-three sectors. <em>Six desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -76,7 +76,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>5 desks open"
+     "text": "14 sectors<br>6 desks open"
     },
     {
      "key": "band.5",
@@ -451,7 +451,7 @@
     {
      "key": "band.79",
      "kind": "Text",
-     "text": "5 sectors<br>Planned"
+     "text": "5 sectors<br>1 desk open"
     },
     {
      "key": "band.80",
@@ -486,7 +486,7 @@
     {
      "key": "band.86",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.87",
@@ -1362,6 +1362,87 @@
      "key": "band.261",
      "kind": "Note",
      "text": "Our notes on your sectors, as they are published."
+    }
+   ]
+  },
+  {
+   "id": "buyer-map",
+   "name": "Who has bought in your sector. Named, dated, sourced.",
+   "items": [
+    {
+     "key": "buyermap.1",
+     "kind": "Small label",
+     "text": "Buyer map"
+    },
+    {
+     "key": "buyermap.2",
+     "kind": "Section headline",
+     "text": "Who has bought in your sector. <em>Named, dated, sourced.</em>"
+    },
+    {
+     "key": "buyermap.3",
+     "kind": "Paragraph",
+     "text": "Every acquirer active in one sector over the last 36 months, each tied to a dated deal with a source that opens. What they paid, where it was disclosed. What each says it wants next, in its own words. And who did not buy."
+    },
+    {
+     "key": "buyermap.4",
+     "kind": "Text",
+     "text": "The record"
+    },
+    {
+     "key": "buyermap.5",
+     "kind": "Text",
+     "text": "Public announcements only."
+    },
+    {
+     "key": "buyermap.6",
+     "kind": "Paragraph",
+     "text": "Press releases, the acquirer’s own newsroom, filings and trade press, each opened on the day it is read. Nothing is estimated, and no price or multiple appears unless the source states it."
+    },
+    {
+     "key": "buyermap.7",
+     "kind": "Text",
+     "text": "Your reading"
+    },
+    {
+     "key": "buyermap.8",
+     "kind": "Text",
+     "text": "Your company against the map."
+    },
+    {
+     "key": "buyermap.9",
+     "kind": "Paragraph",
+     "text": "Which of these buyers would look at a company like yours, why, and what they would find when they did. That reading is the engagement. The map is its evidence."
+    },
+    {
+     "key": "buyermap.10",
+     "kind": "Text",
+     "text": "The terms"
+    },
+    {
+     "key": "buyermap.11",
+     "kind": "Text",
+     "text": "One sector, fixed fee."
+    },
+    {
+     "key": "buyermap.12",
+     "kind": "Paragraph",
+     "text": "Scope and fee agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
+    },
+    {
+     "key": "buyermap.13",
+     "kind": "Button",
+     "text": "Request a buyer map"
+    },
+    {
+     "key": "buyermap.14",
+     "kind": "Link",
+     "text": "See the sample: field service software (PDF)"
+    },
+    {
+     "key": "buyermap.15",
+     "kind": "Note",
+     "text": "The sample reads the public record as of October 16, 2026: eleven acquirers, fourteen deals, every line with its source."
     }
    ]
   },

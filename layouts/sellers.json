@@ -456,6 +456,13 @@
    "tags": [],
    "section": "pgnav"
   },
+  "pgnav.9": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
   "hasph.1": {
    "kind": "Text",
    "tag": "span",
@@ -1186,6 +1193,111 @@
    "tags": [],
    "section": "first"
   },
+  "buyermap.1": {
+   "kind": "Small label",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.4": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.5": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.6": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.7": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.8": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.9": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.10": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.11": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.12": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.13": {
+   "kind": "Button",
+   "tag": "a",
+   "cls": "bigcta",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.14": {
+   "kind": "Link",
+   "tag": "a",
+   "cls": "ghostcta",
+   "tags": [],
+   "section": "buyer-map"
+  },
+  "buyermap.15": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "ctamicro",
+   "tags": [],
+   "section": "buyer-map"
+  },
   "sell.1": {
    "kind": "Small label",
    "tag": "span",
@@ -1618,27 +1730,36 @@
    "section": "talk"
   },
   "talk.20": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "fine",
+   "tags": [
+    "<a href=\"../privacy/index.html\">"
+   ],
+   "section": "talk"
+  },
+  "talk.21": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn",
    "tags": [],
    "section": "talk"
   },
-  "talk.21": {
+  "talk.22": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote",
    "tags": [],
    "section": "talk"
   },
-  "talk.22": {
+  "talk.23": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "talk"
   },
-  "talk.23": {
+  "talk.24": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -1647,7 +1768,7 @@
    ],
    "section": "talk"
   },
-  "talk.24": {
+  "talk.25": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",

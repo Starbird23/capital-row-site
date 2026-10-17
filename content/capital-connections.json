@@ -814,26 +814,31 @@
     },
     {
      "key": "inquiry.23",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "inquiry.24",
      "kind": "Button",
      "text": "Request a Capital Connections conversation"
     },
     {
-     "key": "inquiry.24",
+     "key": "inquiry.25",
      "kind": "Paragraph",
      "text": "<a>Book a call</a>"
     },
     {
-     "key": "inquiry.25",
+     "key": "inquiry.26",
      "kind": "Note",
      "text": "Capital Row introduces businesses to financing providers. We do not lend money or make credit decisions. Each provider sets its own eligibility, terms and approval. If a provider pays Capital Row a referral fee, we tell you before the introduction. Our financial preparation does not replace a lender’s underwriting, or a quality of earnings report where a lender requires one."
     },
     {
-     "key": "inquiry.26",
+     "key": "inquiry.27",
      "kind": "Note",
      "text": "Please do not send financial documents or confidential information here."
     },
     {
-     "key": "inquiry.27",
+     "key": "inquiry.28",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

@@ -581,20 +581,29 @@
    "section": "reserve"
   },
   "reserve.26": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "fine",
+   "tags": [
+    "<a href=\"../privacy/index.html\">"
+   ],
+   "section": "reserve"
+  },
+  "reserve.27": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "reserve"
   },
-  "reserve.27": {
+  "reserve.28": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "reserve"
   },
-  "reserve.28": {
+  "reserve.29": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",

@@ -1451,13 +1451,22 @@
    "section": "inquiry"
   },
   "inquiry.23": {
+   "kind": "Note",
+   "tag": "p",
+   "cls": "fine",
+   "tags": [
+    "<a href=\"../privacy/index.html\">"
+   ],
+   "section": "inquiry"
+  },
+  "inquiry.24": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.24": {
+  "inquiry.25": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "ccbook wide",
@@ -1466,21 +1475,21 @@
    ],
    "section": "inquiry"
   },
-  "inquiry.25": {
+  "inquiry.26": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine ccdisc",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.26": {
+  "inquiry.27": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "inquiry"
   },
-  "inquiry.27": {
+  "inquiry.28": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",

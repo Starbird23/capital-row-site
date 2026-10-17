@@ -11,7 +11,7 @@
 <meta property="og:description" content="{{seoDescription}}">
 <meta property="og:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, five desks open.">
+<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, six desks open.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
@@ -3323,7 +3323,9 @@ var HS = {
  follow: "",
  assess: "",
  deal: "",
- valuation: ""
+ valuation: "",
+ cc: "",
+ sms_sub: ""
 };
 
 function hsId(x) {
@@ -3433,6 +3435,36 @@ function hsFields(kind, d) {
  return f;
 }
 
+function hsBody(fields, d) {
+ var c = {
+  pageUri: location.href.split("#")[0],
+  pageName: document.title
+ }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
+ if (k) c.hutk = k;
+ var b = {
+  fields: fields,
+  context: c
+ };
+ var smsc = d.sms || (d.sms_consent === "yes" ? {
+  time: d.sms_consent_time,
+  wording: d.sms_consent_wording
+ } : null);
+ if (smsc && HS.sms_sub) {
+  b.legalConsentOptions = {
+   consent: {
+    consentToProcess: true,
+    text: "By sending, you agree to the Privacy Policy.",
+    communications: [ {
+     value: true,
+     subscriptionTypeId: Number(HS.sms_sub),
+     text: smsc.wording || ""
+    } ]
+   }
+  };
+ }
+ return b;
+}
+
 function hsSubmit(kind, d, ok, fail) {
  if (window.CR_PREVIEW) {
   setTimeout((function() {
@@ -3445,7 +3477,8 @@ function hsSubmit(kind, d, ok, fail) {
   "Follow a sector": HS.follow,
   "Pre-Market Assessment request": HS.assess,
   "Bad or broken deal report": HS.deal,
-  "Valuation calculator": HS.valuation
+  "Valuation calculator": HS.valuation,
+  "Capital Connections": HS.cc
  }[kind];
  var fid = hsId(own) ? own : HS.form;
  if (!hsId(fid)) {
@@ -3459,17 +3492,7 @@ function hsSubmit(kind, d, ok, fail) {
    headers: {
     "Content-Type": "application/json"
    },
-   body: JSON.stringify({
-    fields: fields,
-    context: function() {
-     var c = {
-      pageUri: location.href.split("#")[0],
-      pageName: document.title
-     }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
-     if (k) c.hutk = k;
-     return c;
-    }()
-   })
+   body: JSON.stringify(hsBody(fields, d))
   }).then((function(r) {
    if (r.ok) {
     if (kind !== "Owner session seat" && d.owner_session === "yes" && d.email && hsId(HS.seat)) {

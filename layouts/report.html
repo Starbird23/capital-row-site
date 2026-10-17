@@ -11,7 +11,7 @@
 <meta property="og:description" content="{{seoDescription}}">
 <meta property="og:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, five desks open.">
+<meta property="og:image:alt" content="Capital Row: the M&amp;A firm for software the working economy cannot switch off. Vertical software, 63 sectors, six desks open.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
@@ -1910,6 +1910,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .klist.dark li:before{content:"";width:3px;height:26px;background:#C79A5C;border-radius:1px;margin-left:18px}
 .dndeck.open .dnc{animation:dnin .5s ease both}
 @keyframes dnin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fine{font-size:11.5px;line-height:1.6;color:var(--ink3);margin:14px 0 0;text-align:center}.fine a{color:var(--ink3)}
 </style></head><body>
 <a id="top"></a>
 <div class="osbar"><div class="wrap"><span class="ost"><b>{{sh.osbar.1}}</b><span class="osm"> {{sh.osbar.2}}</span><span class="osp"> {{sh.osbar.3}}</span></span><a class="osgo" href="../reserve/index.html">{{sh.osbar.4}}</a></div></div>
@@ -1997,14 +1998,15 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <label class="smsok wide" for="bdsms"><input type="checkbox" id="bdsms" value="yes"><span id="bdsmstext">{{report.54}} <b class="opt">{{report.55}}</b> {{report.56}}</span></label>
 <label class="smsok wide" for="bdok"><input type="checkbox" id="bdok" value="yes"><span>{{report.57}}</span></label>
 <label class="smsok wide" for="bdanon"><input type="checkbox" id="bdanon" value="yes"><span>{{report.58}}</span></label>
-<button class="btn wide" type="submit">{{report.59}}</button>
-<p class="formnote wide" id="bdnote">{{report.60}}</p>
+<p class="fine">{{report.59}}</p>
+<button class="btn wide" type="submit">{{report.60}}</button>
+<p class="formnote wide" id="bdnote">{{report.61}}</p>
 <p class="formmsg wide" id="bdmsg" hidden></p>
 </form>
 <div class="rptdone" id="rptdone" hidden>
-<p class="sd cen">{{report.61}}</p>
-<a class="bigcta" href="../reserve/index.html">{{report.62}}</a>
-<p class="ctamicro">{{report.63}}</p>
+<p class="sd cen">{{report.62}}</p>
+<a class="bigcta" href="../reserve/index.html">{{report.63}}</a>
+<p class="ctamicro">{{report.64}}</p>
 </div>
 </div></div>
 </div></section>
@@ -2804,7 +2806,9 @@ var HS = {
  follow: "",
  assess: "",
  deal: "",
- valuation: ""
+ valuation: "",
+ cc: "",
+ sms_sub: ""
 };
 
 function hsId(x) {
@@ -2914,6 +2918,36 @@ function hsFields(kind, d) {
  return f;
 }
 
+function hsBody(fields, d) {
+ var c = {
+  pageUri: location.href.split("#")[0],
+  pageName: document.title
+ }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
+ if (k) c.hutk = k;
+ var b = {
+  fields: fields,
+  context: c
+ };
+ var smsc = d.sms || (d.sms_consent === "yes" ? {
+  time: d.sms_consent_time,
+  wording: d.sms_consent_wording
+ } : null);
+ if (smsc && HS.sms_sub) {
+  b.legalConsentOptions = {
+   consent: {
+    consentToProcess: true,
+    text: "By sending, you agree to the Privacy Policy.",
+    communications: [ {
+     value: true,
+     subscriptionTypeId: Number(HS.sms_sub),
+     text: smsc.wording || ""
+    } ]
+   }
+  };
+ }
+ return b;
+}
+
 function hsSubmit(kind, d, ok, fail) {
  if (window.CR_PREVIEW) {
   setTimeout((function() {
@@ -2926,7 +2960,8 @@ function hsSubmit(kind, d, ok, fail) {
   "Follow a sector": HS.follow,
   "Pre-Market Assessment request": HS.assess,
   "Bad or broken deal report": HS.deal,
-  "Valuation calculator": HS.valuation
+  "Valuation calculator": HS.valuation,
+  "Capital Connections": HS.cc
  }[kind];
  var fid = hsId(own) ? own : HS.form;
  if (!hsId(fid)) {
@@ -2940,17 +2975,7 @@ function hsSubmit(kind, d, ok, fail) {
    headers: {
     "Content-Type": "application/json"
    },
-   body: JSON.stringify({
-    fields: fields,
-    context: function() {
-     var c = {
-      pageUri: location.href.split("#")[0],
-      pageName: document.title
-     }, k = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1];
-     if (k) c.hutk = k;
-     return c;
-    }()
-   })
+   body: JSON.stringify(hsBody(fields, d))
   }).then((function(r) {
    if (r.ok) {
     if (kind !== "Owner session seat" && d.owner_session === "yes" && d.email && hsId(HS.seat)) {

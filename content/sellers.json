@@ -40,10 +40,15 @@
     {
      "key": "pgnav.7",
      "kind": "Link",
-     "text": "Advisers"
+     "text": "Buyer map"
     },
     {
      "key": "pgnav.8",
+     "kind": "Link",
+     "text": "Advisers"
+    },
+    {
+     "key": "pgnav.9",
      "kind": "Link",
      "text": "Questions"
     }
@@ -219,7 +224,7 @@
     {
      "key": "breaks.14",
      "kind": "Text",
-     "text": "37–159"
+     "text": "37 to 159"
     },
     {
      "key": "breaks.15",
@@ -618,6 +623,87 @@
    ]
   },
   {
+   "id": "buyer-map",
+   "name": "Know who buys companies like yours before anyone calls.",
+   "items": [
+    {
+     "key": "buyermap.1",
+     "kind": "Small label",
+     "text": "Buyer map"
+    },
+    {
+     "key": "buyermap.2",
+     "kind": "Section headline",
+     "text": "Know who buys companies like yours <em>before anyone calls.</em>"
+    },
+    {
+     "key": "buyermap.3",
+     "kind": "Paragraph",
+     "text": "The buyer who approaches you alone is one of many. A buyer map names every acquirer active in your sector over the last 36 months, each tied to a dated deal and its source, with what they paid where it was disclosed and what they say they want next. Then it reads your company against them."
+    },
+    {
+     "key": "buyermap.4",
+     "kind": "Text",
+     "text": "The record"
+    },
+    {
+     "key": "buyermap.5",
+     "kind": "Text",
+     "text": "Public announcements only."
+    },
+    {
+     "key": "buyermap.6",
+     "kind": "Paragraph",
+     "text": "Press releases, the acquirer’s own newsroom, filings and trade press, each opened on the day it is read. Nothing is estimated, and no price or multiple appears unless the source states it."
+    },
+    {
+     "key": "buyermap.7",
+     "kind": "Text",
+     "text": "Your reading"
+    },
+    {
+     "key": "buyermap.8",
+     "kind": "Text",
+     "text": "Your company against the map."
+    },
+    {
+     "key": "buyermap.9",
+     "kind": "Paragraph",
+     "text": "Which of these buyers would look at a company like yours, why, and what they would find when they did. That reading is the engagement. The map is its evidence."
+    },
+    {
+     "key": "buyermap.10",
+     "kind": "Text",
+     "text": "The terms"
+    },
+    {
+     "key": "buyermap.11",
+     "kind": "Text",
+     "text": "One sector, fixed fee."
+    },
+    {
+     "key": "buyermap.12",
+     "kind": "Paragraph",
+     "text": "Scope and fee agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
+    },
+    {
+     "key": "buyermap.13",
+     "kind": "Button",
+     "text": "Request a buyer map"
+    },
+    {
+     "key": "buyermap.14",
+     "kind": "Link",
+     "text": "See the sample: field service software (PDF)"
+    },
+    {
+     "key": "buyermap.15",
+     "kind": "Note",
+     "text": "The sample reads the public record as of October 16, 2026: eleven acquirers, fourteen deals, every line with its source."
+    }
+   ]
+  },
+  {
    "id": "sell",
    "name": "Your findings stay yours. So does the decision to sell.",
    "items": [
@@ -947,26 +1033,31 @@
     },
     {
      "key": "talk.20",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "talk.21",
      "kind": "Button",
      "text": "Continue by email"
     },
     {
-     "key": "talk.21",
+     "key": "talk.22",
      "kind": "Paragraph",
      "text": "This opens a draft in your email application. Review it and press send."
     },
     {
-     "key": "talk.22",
+     "key": "talk.23",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.23",
+     "key": "talk.24",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.24",
+     "key": "talk.25",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

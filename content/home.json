@@ -20,7 +20,7 @@
     {
      "key": "header.3",
      "kind": "Text",
-     "text": "5 desks open"
+     "text": "6 desks open"
     },
     {
      "key": "header.4",
@@ -86,7 +86,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>5 desks open"
+     "text": "14 sectors<br>6 desks open"
     },
     {
      "key": "band.5",
@@ -461,7 +461,7 @@
     {
      "key": "band.79",
      "kind": "Text",
-     "text": "5 sectors<br>Planned"
+     "text": "5 sectors<br>1 desk open"
     },
     {
      "key": "band.80",
@@ -496,7 +496,7 @@
     {
      "key": "band.86",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.87",
@@ -2001,21 +2001,26 @@
     },
     {
      "key": "talk.21",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "talk.22",
      "kind": "Button",
      "text": "Send"
     },
     {
-     "key": "talk.22",
+     "key": "talk.23",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.23",
+     "key": "talk.24",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.24",
+     "key": "talk.25",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

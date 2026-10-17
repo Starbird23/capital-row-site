@@ -299,26 +299,31 @@
     },
     {
      "key": "report.59",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "report.60",
      "kind": "Button",
      "text": "Send the report"
     },
     {
-     "key": "report.60",
+     "key": "report.61",
      "kind": "Paragraph",
      "text": "Your report goes directly to Capital Row and is kept confidential. A name is optional, and a personal email address is fine."
     },
     {
-     "key": "report.61",
+     "key": "report.62",
      "kind": "Paragraph",
      "text": "Thank you. If you ticked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
     },
     {
-     "key": "report.62",
+     "key": "report.63",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "report.63",
+     "key": "report.64",
      "kind": "Note",
      "text": "Wednesday January 20. What a buyer will find in your 2026 numbers, and how to find it first."
     }

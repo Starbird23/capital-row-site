@@ -134,16 +134,21 @@
     },
     {
      "key": "reserve.26",
-     "kind": "Button",
-     "text": "Reserve your seat"
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
      "key": "reserve.27",
      "kind": "Button",
-     "text": "Request a Pre-Market Assessment"
+     "text": "Reserve your seat"
     },
     {
      "key": "reserve.28",
+     "kind": "Button",
+     "text": "Request a Pre-Market Assessment"
+    },
+    {
+     "key": "reserve.29",
      "kind": "Note",
      "text": "Your numbers traced to source documents, before a buyer looks."
     }

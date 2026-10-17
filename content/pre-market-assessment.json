@@ -286,26 +286,31 @@
     },
     {
      "key": "request.39",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "request.40",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "request.40",
+     "key": "request.41",
      "kind": "Paragraph",
      "text": "Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
-     "key": "request.41",
+     "key": "request.42",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "request.42",
+     "key": "request.43",
      "kind": "Note",
      "text": "Wednesday January 20, live online. Everyone who reserves a seat receives the playbook."
     },
     {
-     "key": "request.43",
+     "key": "request.44",
      "kind": "Note",
      "text": "This is non-attest preparation. For a quality of earnings report, see <a>Sell-Side QoE</a>."
     }
@@ -333,7 +338,7 @@
     {
      "key": "why.4",
      "kind": "Text",
-     "text": "60–90%"
+     "text": "60 to 90%"
     },
     {
      "key": "why.5",
@@ -378,7 +383,7 @@
     {
      "key": "why.13",
      "kind": "Text",
-     "text": "11–12"
+     "text": "11 to 12"
     },
     {
      "key": "why.14",
