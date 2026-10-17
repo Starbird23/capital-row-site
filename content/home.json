@@ -316,32 +316,32 @@
     {
      "key": "band.50",
      "kind": "Text",
-     "text": "Financial services"
+     "text": "Construction, real estate & field services"
     },
     {
      "key": "band.51",
      "kind": "Text",
-     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+     "text": "Estimating, field service and property systems that run the job and the bill."
     },
     {
      "key": "band.52",
      "kind": "Text",
-     "text": "7 sectors<br>Planned"
+     "text": "5 sectors<br>1 desk open"
     },
     {
      "key": "band.53",
      "kind": "Heading",
-     "text": "Financial services"
+     "text": "Construction, real estate & field services"
     },
     {
      "key": "band.54",
      "kind": "Paragraph",
-     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+     "text": "Estimating, field service and property systems that run the job and the bill."
     },
     {
      "key": "band.55",
      "kind": "Text",
-     "text": "Bank & credit union software"
+     "text": "Construction & contractor software"
     },
     {
      "key": "band.56",
@@ -351,27 +351,27 @@
     {
      "key": "band.57",
      "kind": "Paragraph",
-     "text": "Lending, account opening, compliance and collections systems for community banks and credit unions"
+     "text": "Estimating, job cost, project management and payments for builders and specialty contractors"
     },
     {
      "key": "band.58",
      "kind": "Text",
-     "text": "Insurance software"
+     "text": "Field service management software"
     },
     {
      "key": "band.59",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.60",
      "kind": "Paragraph",
-     "text": "Policy, underwriting, claims and agency management systems for carriers, program administrators and agencies"
+     "text": "Scheduling, dispatch, work orders, invoicing and payments for essential service businesses"
     },
     {
      "key": "band.61",
      "kind": "Text",
-     "text": "Wealth & advisory software"
+     "text": "Property management software"
     },
     {
      "key": "band.62",
@@ -381,12 +381,12 @@
     {
      "key": "band.63",
      "kind": "Paragraph",
-     "text": "Portfolio reporting, client records and back-office workflow for advisory firms"
+     "text": "Leasing, rent, maintenance and association management for owners and managers"
     },
     {
      "key": "band.64",
      "kind": "Text",
-     "text": "Lending & mortgage software"
+     "text": "HOA & community association software"
     },
     {
      "key": "band.65",
@@ -396,12 +396,12 @@
     {
      "key": "band.66",
      "kind": "Paragraph",
-     "text": "Loan origination from application to funding for lenders, banks and credit unions"
+     "text": "Accounting, assessments, violations and resident portals for association managers"
     },
     {
      "key": "band.67",
      "kind": "Text",
-     "text": "Accounting & tax firm software"
+     "text": "Equipment rental software"
     },
     {
      "key": "band.68",
@@ -411,72 +411,72 @@
     {
      "key": "band.69",
      "kind": "Paragraph",
-     "text": "Workflow, client documents, e-signature and tax delivery for CPA and tax firms"
+     "text": "Rental contracts, fleet, inspections and billing for rental yards and dealers"
     },
     {
      "key": "band.70",
-     "kind": "Text",
-     "text": "Collections & receivables software"
-    },
-    {
-     "key": "band.71",
-     "kind": "Text",
-     "text": "Planned"
-    },
-    {
-     "key": "band.72",
-     "kind": "Paragraph",
-     "text": "Tracks, contacts and settles overdue accounts for agencies and in-house recovery teams"
-    },
-    {
-     "key": "band.73",
-     "kind": "Text",
-     "text": "Compliance software for advisers & broker-dealers"
-    },
-    {
-     "key": "band.74",
-     "kind": "Text",
-     "text": "Planned"
-    },
-    {
-     "key": "band.75",
-     "kind": "Paragraph",
-     "text": "Message archiving, employee trading and regulator filings for RIAs and broker-dealers"
-    },
-    {
-     "key": "band.76",
      "kind": "Button",
      "text": "All ten industries"
     },
     {
+     "key": "band.71",
+     "kind": "Text",
+     "text": "Financial services"
+    },
+    {
+     "key": "band.72",
+     "kind": "Text",
+     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+    },
+    {
+     "key": "band.73",
+     "kind": "Text",
+     "text": "7 sectors<br>Planned"
+    },
+    {
+     "key": "band.74",
+     "kind": "Heading",
+     "text": "Financial services"
+    },
+    {
+     "key": "band.75",
+     "kind": "Paragraph",
+     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+    },
+    {
+     "key": "band.76",
+     "kind": "Text",
+     "text": "Bank & credit union software"
+    },
+    {
      "key": "band.77",
      "kind": "Text",
-     "text": "Construction, real estate & field services"
+     "text": "Planned"
     },
     {
      "key": "band.78",
-     "kind": "Text",
-     "text": "Estimating, field service and property systems that run the job and the bill."
+     "kind": "Paragraph",
+     "text": "Lending, account opening, compliance and collections systems for community banks and credit unions"
     },
     {
      "key": "band.79",
      "kind": "Text",
-     "text": "5 sectors<br>1 desk open"
+     "text": "Insurance software"
     },
     {
      "key": "band.80",
-     "kind": "Heading",
-     "text": "Construction, real estate & field services"
+     "kind": "Text",
+     "text": "Planned"
     },
     {
      "key": "band.81",
      "kind": "Paragraph",
-     "text": "Estimating, field service and property systems that run the job and the bill."
+     "text": "Policy, underwriting, claims and agency management systems for carriers, program administrators and agencies"
     },
     {
      "key": "band.82",
      "kind": "Text",
-     "text": "Construction & contractor software"
+     "text": "Wealth & advisory software"
     },
     {
      "key": "band.83",
@@ -486,27 +486,27 @@
     {
      "key": "band.84",
      "kind": "Paragraph",
-     "text": "Estimating, job cost, project management and payments for builders and specialty contractors"
+     "text": "Portfolio reporting, client records and back-office workflow for advisory firms"
     },
     {
      "key": "band.85",
      "kind": "Text",
-     "text": "Field service management software"
+     "text": "Lending & mortgage software"
     },
     {
      "key": "band.86",
      "kind": "Text",
-     "text": "Active"
+     "text": "Planned"
     },
     {
      "key": "band.87",
      "kind": "Paragraph",
-     "text": "Scheduling, dispatch, work orders, invoicing and payments for essential service businesses"
+     "text": "Loan origination from application to funding for lenders, banks and credit unions"
     },
     {
      "key": "band.88",
      "kind": "Text",
-     "text": "Property management software"
+     "text": "Accounting & tax firm software"
     },
     {
      "key": "band.89",
@@ -516,12 +516,12 @@
     {
      "key": "band.90",
      "kind": "Paragraph",
-     "text": "Leasing, rent, maintenance and association management for owners and managers"
+     "text": "Workflow, client documents, e-signature and tax delivery for CPA and tax firms"
     },
     {
      "key": "band.91",
      "kind": "Text",
-     "text": "HOA & community association software"
+     "text": "Collections & receivables software"
     },
     {
      "key": "band.92",
@@ -531,12 +531,12 @@
     {
      "key": "band.93",
      "kind": "Paragraph",
-     "text": "Accounting, assessments, violations and resident portals for association managers"
+     "text": "Tracks, contacts and settles overdue accounts for agencies and in-house recovery teams"
     },
     {
      "key": "band.94",
      "kind": "Text",
-     "text": "Equipment rental software"
+     "text": "Compliance software for advisers & broker-dealers"
     },
     {
      "key": "band.95",
@@ -546,7 +546,7 @@
     {
      "key": "band.96",
      "kind": "Paragraph",
-     "text": "Rental contracts, fleet, inspections and billing for rental yards and dealers"
+     "text": "Message archiving, employee trading and regulator filings for RIAs and broker-dealers"
     },
     {
      "key": "band.97",

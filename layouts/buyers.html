@@ -2353,6 +2353,13 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .klist.dark li:before{content:"";width:3px;height:26px;background:#C79A5C;border-radius:1px;margin-left:18px}
 .dndeck.open .dnc{animation:dnin .5s ease both}
 @keyframes dnin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.ctamicro{font-size:15px;line-height:1.7}.ctamicro a{font-weight:500}
+.figpage .src.cen{margin-top:26px}
+.tabs.intel{margin:34px auto 0;max-width:1100px}
+.tchecks{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;max-width:520px}
+.tchecks li{display:flex;gap:12px;align-items:baseline;padding:12px 14px;border:1px solid rgba(255,255,255,.18);border-radius:3px;background:rgba(255,255,255,.05);font-family:var(--sans);font-size:14.5px;font-weight:300;color:#F4F1EB;line-height:1.4}
+.tchecks li i{font-family:var(--mono);font-style:normal;font-size:11px;letter-spacing:.14em;color:#8FD4CB}
+@media(max-width:560px){.tchecks{grid-template-columns:minmax(0,1fr)}}
 </style></head><body>
 <a id="top"></a>
 <div class="osbar"><div class="wrap"><span class="ost"><b>{{sh.osbar.1}}</b><span class="osm"> {{sh.osbar.2}}</span><span class="osp"> {{sh.osbar.3}}</span></span><a class="osgo" href="../reserve/index.html">{{sh.osbar.4}}</a></div></div>
@@ -2483,8 +2490,18 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
  <div class="scaleaxis"><span>{{market.11}}</span><span>{{market.12}}</span><span>{{market.13}}</span></div>
 </div>
 <p class="benchask" id="calculator">{{market.14}}</p>
-<a class="bigcta" href="deal-calculator/index.html">{{market.15}}</a>
-<p class="src cen" style="max-width:800px;margin-left:auto;margin-right:auto">{{market.16}}</p>
+<form class="bcalc" id="bcalc" novalidate>
+ <div class="bcf bcmkt"><label for="bcind">{{market.15}}</label><select id="bcind"><option value="">Select an industry</option><option value="hc">Healthcare</option><option value="fin">Financial services</option><option value="built">Construction, real estate &amp; field services</option><option value="gov">Government</option><option value="fleet">Transportation &amp; logistics</option><option value="mfg">Manufacturing</option><option value="hosp">Hospitality</option><option value="retail">Retail &amp; automotive</option><option value="prof">Legal &amp; professional services</option><option value="tech">Technology services</option></select></div>
+ <fieldset class="bcsecs" id="bcsecs" hidden><legend>{{market.16}}</legend><div class="bcg" data-ind="hc" hidden><label><input type="checkbox" value="Billing, coding &amp; claims"><span>{{market.17}}</span></label><label><input type="checkbox" value="Denials &amp; clearinghouse workflow"><span>{{market.18}}</span></label><label><input type="checkbox" value="Credentialing &amp; provider data"><span>{{market.19}}</span></label><label><input type="checkbox" value="Specialty practice management"><span>{{market.20}}</span></label><label><input type="checkbox" value="Dental practice software"><span>{{market.21}}</span></label><label><input type="checkbox" value="Home health &amp; hospice software"><span>{{market.22}}</span></label><label><input type="checkbox" value="Behavioral &amp; specialty health"><span>{{market.23}}</span></label><label><input type="checkbox" value="Pharmacy, DME &amp; infusion"><span>{{market.24}}</span></label><label><input type="checkbox" value="Aesthetics &amp; med spa"><span>{{market.25}}</span></label><label><input type="checkbox" value="Physical therapy &amp; rehab software"><span>{{market.26}}</span></label><label><input type="checkbox" value="Long-term care &amp; senior living software"><span>{{market.27}}</span></label><label><input type="checkbox" value="Payment integrity software"><span>{{market.28}}</span></label><label><input type="checkbox" value="Healthcare staffing &amp; scheduling software"><span>{{market.29}}</span></label><label><input type="checkbox" value="Veterinary practice software"><span>{{market.30}}</span></label></div><div class="bcg" data-ind="fin" hidden><label><input type="checkbox" value="Bank &amp; credit union software"><span>{{market.31}}</span></label><label><input type="checkbox" value="Insurance software"><span>{{market.32}}</span></label><label><input type="checkbox" value="Wealth &amp; advisory software"><span>{{market.33}}</span></label><label><input type="checkbox" value="Lending &amp; mortgage software"><span>{{market.34}}</span></label><label><input type="checkbox" value="Accounting &amp; tax firm software"><span>{{market.35}}</span></label><label><input type="checkbox" value="Collections &amp; receivables software"><span>{{market.36}}</span></label><label><input type="checkbox" value="Compliance software for advisers &amp; broker-dealers"><span>{{market.37}}</span></label></div><div class="bcg" data-ind="built" hidden><label><input type="checkbox" value="Construction &amp; contractor software"><span>{{market.38}}</span></label><label><input type="checkbox" value="Field service management software"><span>{{market.39}}</span></label><label><input type="checkbox" value="Property management software"><span>{{market.40}}</span></label><label><input type="checkbox" value="HOA &amp; community association software"><span>{{market.41}}</span></label><label><input type="checkbox" value="Equipment rental software"><span>{{market.42}}</span></label></div><div class="bcg" data-ind="fleet" hidden><label><input type="checkbox" value="Dispatch, TMS &amp; freight audit"><span>{{market.43}}</span></label><label><input type="checkbox" value="Fleet compliance &amp; telematics"><span>{{market.44}}</span></label><label><input type="checkbox" value="Warehouse management for 3PLs"><span>{{market.45}}</span></label><label><input type="checkbox" value="Customs &amp; trade compliance software"><span>{{market.46}}</span></label><label><input type="checkbox" value="Freight brokerage &amp; visibility software"><span>{{market.47}}</span></label><label><input type="checkbox" value="Fleet maintenance software"><span>{{market.48}}</span></label><label><input type="checkbox" value="School bus &amp; transit routing"><span>{{market.49}}</span></label></div><div class="bcg" data-ind="tech" hidden><label><input type="checkbox" value="MSP &amp; IT service software"><span>{{market.50}}</span></label><label><input type="checkbox" value="Security tools for MSPs"><span>{{market.51}}</span></label><label><input type="checkbox" value="Backup &amp; disaster recovery software"><span>{{market.52}}</span></label></div><div class="bcg" data-ind="mfg" hidden><label><input type="checkbox" value="Manufacturing ERP &amp; shop floor"><span>{{market.53}}</span></label><label><input type="checkbox" value="Quality management software"><span>{{market.54}}</span></label><label><input type="checkbox" value="Maintenance &amp; asset management"><span>{{market.55}}</span></label><label><input type="checkbox" value="Distribution &amp; wholesale ERP"><span>{{market.56}}</span></label><label><input type="checkbox" value="Machine monitoring &amp; industrial IoT"><span>{{market.57}}</span></label><label><input type="checkbox" value="Environment, health &amp; safety software"><span>{{market.58}}</span></label></div><div class="bcg" data-ind="hosp" hidden><label><input type="checkbox" value="Restaurant POS &amp; back office"><span>{{market.59}}</span></label><label><input type="checkbox" value="Hotel property management &amp; revenue tools"><span>{{market.60}}</span></label><label><input type="checkbox" value="Event &amp; venue management software"><span>{{market.61}}</span></label><label><input type="checkbox" value="Fitness &amp; gym management software"><span>{{market.62}}</span></label><label><input type="checkbox" value="Salon, spa &amp; wellness software"><span>{{market.63}}</span></label><label><input type="checkbox" value="Ticketing &amp; attractions software"><span>{{market.64}}</span></label></div><div class="bcg" data-ind="retail" hidden><label><input type="checkbox" value="Auto dealer &amp; repair software"><span>{{market.65}}</span></label><label><input type="checkbox" value="Convenience store &amp; fuel retail software"><span>{{market.66}}</span></label><label><input type="checkbox" value="Car wash software"><span>{{market.67}}</span></label></div><div class="bcg" data-ind="prof" hidden><label><input type="checkbox" value="Legal practice software"><span>{{market.68}}</span></label><label><input type="checkbox" value="Litigation support &amp; e-discovery software"><span>{{market.69}}</span></label><label><input type="checkbox" value="Association &amp; membership software"><span>{{market.70}}</span></label><label><input type="checkbox" value="Nonprofit &amp; church software"><span>{{market.71}}</span></label><label><input type="checkbox" value="Staffing &amp; recruiting software"><span>{{market.72}}</span></label></div><div class="bcg" data-ind="gov" hidden><label><input type="checkbox" value="Municipal finance &amp; administration software"><span>{{market.73}}</span></label><label><input type="checkbox" value="Public safety &amp; emergency communications"><span>{{market.74}}</span></label><label><input type="checkbox" value="Utility billing &amp; customer systems"><span>{{market.75}}</span></label><label><input type="checkbox" value="K-12 district administration software"><span>{{market.76}}</span></label><label><input type="checkbox" value="Parks &amp; recreation software"><span>{{market.77}}</span></label><label><input type="checkbox" value="Courts &amp; justice software"><span>{{market.78}}</span></label><label><input type="checkbox" value="Permitting &amp; licensing software"><span>{{market.79}}</span></label></div></fieldset>
+ <div class="bcf"><label for="bcs">{{market.80}}</label><input id="bcs" type="number" inputmode="numeric" min="0" step="1" autocomplete="off"></div>
+ <div class="bcf"><label for="bcm">{{market.81}}</label><input id="bcm" type="number" inputmode="numeric" min="1" step="1" autocomplete="off" placeholder="Leave blank to estimate"></div>
+ <button class="bcgo" type="submit">{{market.82}}</button>
+</form>
+<p class="bcout" id="bcout" role="status" aria-live="polite" hidden></p>
+<p class="bcnext" id="bcnext" hidden>{{market.83}}</p>
+<p class="bcfine">{{market.84}}</p>
+<p class="bcfine">{{market.85}}</p>
+<p class="src cen" style="max-width:800px;margin-left:auto;margin-right:auto">{{market.86}}</p>
 </div></div>
 
 
@@ -2531,13 +2548,10 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 <span class="lab big">{{intelligence.1}}</span>
 <h2 class="cen">{{intelligence.2}}</h2>
 <p class="sd cen">{{intelligence.3}}</p>
-<div class="aud">
- <div class="ac"><u>{{intelligence.4}}</u><b>{{intelligence.5}}</b><ol class="acl"><li>{{intelligence.6}}</li><li>{{intelligence.7}}</li><li>{{intelligence.8}}</li><li>{{intelligence.9}}</li></ol></div>
- <div class="ac"><u>{{intelligence.10}}</u><b>{{intelligence.11}}</b><ol class="acl"><li>{{intelligence.12}}</li><li>{{intelligence.13}}</li><li>{{intelligence.14}}</li><li>{{intelligence.15}}</li></ol></div>
-</div>
-<a class="bigcta" href="#follow" data-follow="1">{{intelligence.16}}</a>
-<p class="ctamicro">{{intelligence.17}}</p>
-<p class="ccline">{{intelligence.18}}</p>
+<div class="tabs intel" data-auto="5200"><div class="tabs-l" role="tablist" aria-label="Two revenue lines"><button class="tab" role="tab" type="button" id="intel-t0" aria-controls="intel-p0" aria-selected="true"><b>{{intelligence.4}}</b><span>{{intelligence.5}}</span></button><button class="tab" role="tab" type="button" id="intel-t1" aria-controls="intel-p1" aria-selected="false"><b>{{intelligence.6}}</b><span>{{intelligence.7}}</span></button></div><div class="tabs-r"><div class="tpanel on" role="tabpanel" id="intel-p0" aria-labelledby="intel-t0"><u>{{intelligence.8}}</u><p>{{intelligence.9}}</p><ol class="tchecks"><li>{{intelligence.10}}</li><li>{{intelligence.11}}</li><li>{{intelligence.12}}</li><li>{{intelligence.13}}</li></ol></div><div class="tpanel" role="tabpanel" id="intel-p1" aria-labelledby="intel-t1"><u>{{intelligence.14}}</u><p>{{intelligence.15}}</p><ol class="tchecks"><li>{{intelligence.16}}</li><li>{{intelligence.17}}</li><li>{{intelligence.18}}</li><li>{{intelligence.19}}</li></ol></div></div></div>
+<a class="bigcta" href="#follow" data-follow="1">{{intelligence.20}}</a>
+<p class="ctamicro">{{intelligence.21}}</p>
+<p class="ccline">{{intelligence.22}}</p>
 </div></section>
 
 <section class="rule" id="how"><div class="wrap ctr">
@@ -4591,6 +4605,156 @@ function hsSubmit(kind, d, ok, fail) {
   }));
  }));
  window.addEventListener("resize", size);
+})();
+</script>
+<script>
+(function() {
+ function $(i) {
+  return document.getElementById(i);
+ }
+ (function() {
+  var f = $("bcalc"), out = $("bcout"), you = $("bcyou"), lab = $("bcyoul"), next = $("bcnext"), scale = document.querySelector("#market .scale");
+  if (!f || !out || !you || !scale) return;
+  var MED = 18.4, Q1 = 27.9, TOP = 55.4;
+  function say(cls, html) {
+   out.className = "bcout" + (cls ? " " + cls : "");
+   out.innerHTML = html;
+   out.hidden = false;
+  }
+  function clear() {
+   you.hidden = true;
+   scale.classList.remove("hasyou");
+   if (next) next.hidden = true;
+  }
+  f.addEventListener("submit", (function(e) {
+   e.preventDefault();
+   var mr = ($("bcm").value || "").trim(), m = parseFloat(mr), s = parseFloat($("bcs").value);
+   if (!(s >= 0) || Math.floor(s) !== s) {
+    clear();
+    say("err", "Enter how many deals your firm saw in the last twelve months.");
+    $("bcs").focus();
+    return;
+   }
+   if (mr === "") {
+    if (s < 1) {
+     clear();
+     say("err", "Enter at least one deal, or add the completed count for your market.");
+     $("bcs").focus();
+     return;
+    }
+    var nf = function(x) {
+     return Math.round(x).toLocaleString("en-US");
+    }, nm = s / (MED / 100), nq = s / (Q1 / 100), mk = window.bcMarket ? window.bcMarket() : "";
+    clear();
+    say("est", "<b>An estimate, from the benchmark.</b> If your firm sees the median share, 18.4%, the " + nf(s) + " deals it saw were fewer than one in five of roughly <b>" + nf(nm) + "</b> completed in " + (mk ? mk : "its stated market") + ". About <b>" + nf(nm - s) + "</b> were completed without reaching your firm. At the top-quarter share, 27.9%, the market would be about " + nf(nq) + ". Add the completed count, if you know it, to place your firm on the scale.");
+    if (next) next.hidden = false;
+    return;
+   }
+   if (!(m >= 1) || Math.floor(m) !== m) {
+    clear();
+    say("err", "Enter the number of completed deals in your stated market, or leave it blank.");
+    $("bcm").focus();
+    return;
+   }
+   if (s > m) {
+    clear();
+    say("err", "The number your firm saw cannot be larger than the number completed.");
+    $("bcs").focus();
+    return;
+   }
+   var p = s / m * 100, t = p.toFixed(1) + "%", where;
+   if (p < MED) where = "That is below the median firm in the benchmark, at 18.4%."; else if (p < Q1) where = "That is above the median firm in the benchmark, at 18.4%, and below the top-quarter mark of 27.9%."; else if (p <= TOP) where = "That is above the top-quarter mark in the benchmark, 27.9%."; else where = "That is above the strongest firm in the benchmark, at 55.4%.";
+   var mn = window.bcMarket ? window.bcMarket() : "";
+   say("", "Your firm saw <b>" + t + "</b> of the completed deals in " + (mn ? mn : "its stated market") + ". " + where);
+   var x = Math.min(p, TOP) / TOP * 100;
+   you.style.left = x + "%";
+   you.className = "tick you" + (x < 9 ? " l" : x > 91 ? " r" : "");
+   if (lab) lab.textContent = "Your firm " + t;
+   you.hidden = false;
+   scale.classList.add("hasyou");
+   if (next) next.hidden = false;
+  }));
+ })();
+})();
+
+(function() {
+ var ind = document.getElementById("bcind"), box = document.getElementById("bcsecs");
+ if (!ind || !box) return;
+ var gs = [].slice.call(box.querySelectorAll(".bcg"));
+ ind.addEventListener("change", (function() {
+  var k = ind.value;
+  box.hidden = !k;
+  gs.forEach((function(g) {
+   var on = g.getAttribute("data-ind") === k;
+   g.hidden = !on;
+   if (!on) [].forEach.call(g.querySelectorAll("input"), (function(c) {
+    c.checked = false;
+   }));
+  }));
+ }));
+ window.bcSectors = function() {
+  return [].map.call(box.querySelectorAll(".bcg:not([hidden]) input:checked"), (function(c) {
+   return c.value;
+  }));
+ };
+ window.bcMarket = function() {
+  var s = window.bcSectors(), t = "";
+  if (s.length === 1) t = s[0]; else if (s.length > 1) t = s.slice(0, -1).join(", ") + " and " + s[s.length - 1]; else if (ind.value) t = ind.options[ind.selectedIndex].text;
+  return t.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+ };
+ var nx = document.querySelector("#bcnext a"), vert = document.getElementById("vert");
+ if (nx && vert) nx.addEventListener("click", (function() {
+  var s = window.bcSectors();
+  if (!s.length) return;
+  for (var i = 0; i < vert.options.length; i++) {
+   if (vert.options[i].text === s[0]) {
+    vert.selectedIndex = i;
+    var f = vert.closest(".fld");
+    if (f) f.classList.add("answered");
+    break;
+   }
+  }
+ }));
+})();
+
+(function() {
+ var f = document.getElementById("ocalc"), out = document.getElementById("ocout");
+ if (!f || !out) return;
+ function $(i) {
+  return document.getElementById(i);
+ }
+ function money(x) {
+  return "$" + Math.round(x).toLocaleString("en-US");
+ }
+ f.addEventListener("submit", (function(e) {
+  e.preventDefault();
+  var c = parseFloat($("occomp").value), mo = parseFloat($("ocmo").value), d = parseFloat($("ocdays").value), n = parseFloat($("ocdead").value);
+  if (!(c > 0)) {
+   $("occomp").focus();
+   return;
+  }
+  if (!(mo > 0)) {
+   $("ocmo").focus();
+   return;
+  }
+  if (!(d > 0)) {
+   $("ocdays").focus();
+   return;
+  }
+  if (!(n >= 0)) {
+   n = 0;
+  }
+  var one = c * mo / 12, dead = one + c * d / 365, yr = dead * n;
+  $("oc1").textContent = money(one);
+  $("oc2").textContent = money(dead);
+  $("oc3").textContent = money(yr);
+  $("oc3p").textContent = (n === 1 ? "One dead letter" : Math.round(n).toLocaleString("en-US") + " dead letters") + ", at " + money(dead) + " each.";
+  out.hidden = false;
+  out.scrollIntoView({
+   block: "nearest",
+   behavior: "smooth"
+  });
+ }));
 })();
 </script>
 </body></html>

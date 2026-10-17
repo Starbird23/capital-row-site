@@ -429,9 +429,9 @@
    "section": "inner"
   },
   "inner.5": {
-   "kind": "Button",
-   "tag": "a",
-   "cls": "bigcta teal",
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
    "tags": [],
    "section": "inner"
   },
@@ -443,13 +443,6 @@
    "section": "inner"
   },
   "inner.7": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "inner"
-  },
-  "inner.8": {
    "kind": "Text",
    "tag": "span",
    "cls": "",

@@ -772,13 +772,507 @@
    "section": "market"
   },
   "market.15": {
-   "kind": "Button",
-   "tag": "a",
-   "cls": "bigcta",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "market"
   },
   "market.16": {
+   "kind": "Form label",
+   "tag": "legend",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.17": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.18": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.19": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.20": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.21": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.22": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.23": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.24": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.25": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.26": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.27": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.28": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.29": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.30": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.31": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.32": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.33": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.34": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.35": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.36": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.37": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.38": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.39": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.40": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.41": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.42": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.43": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.44": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.45": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.46": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.47": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.48": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.49": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.50": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.51": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.52": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.53": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.54": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.55": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.56": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.57": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.58": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.59": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.60": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.61": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.62": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.63": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.64": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.65": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.66": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.67": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.68": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.69": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.70": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.71": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.72": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.73": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.74": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.75": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.76": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.77": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.78": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.79": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.80": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.81": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "market"
+  },
+  "market.82": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "bcgo",
+   "tags": [],
+   "section": "market"
+  },
+  "market.83": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bcnext",
+   "tags": [
+    "<a href=\"../index.html?seat=Buyer#talk\" data-seat=\"Buyer\">"
+   ],
+   "section": "market"
+  },
+  "market.84": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bcfine",
+   "tags": [],
+   "section": "market"
+  },
+  "market.85": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bcfine",
+   "tags": [
+    "<a href=\"deal-calculator/index.html#cost\">"
+   ],
+   "section": "market"
+  },
+  "market.86": {
    "kind": "Note",
    "tag": "p",
    "cls": "src cen",
@@ -1064,56 +1558,56 @@
   },
   "intelligence.4": {
    "kind": "Text",
-   "tag": "u",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
   "intelligence.5": {
    "kind": "Text",
-   "tag": "b",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
   "intelligence.6": {
-   "kind": "List item",
-   "tag": "li",
+   "kind": "Text",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
   "intelligence.7": {
-   "kind": "List item",
-   "tag": "li",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
   "intelligence.8": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
-   "tags": [],
-   "section": "intelligence"
-  },
-  "intelligence.9": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
-   "tags": [],
-   "section": "intelligence"
-  },
-  "intelligence.10": {
    "kind": "Text",
    "tag": "u",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
+  "intelligence.9": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
+  "intelligence.10": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
   "intelligence.11": {
-   "kind": "Text",
-   "tag": "b",
+   "kind": "List item",
+   "tag": "li",
    "cls": "",
    "tags": [],
    "section": "intelligence"
@@ -1133,34 +1627,62 @@
    "section": "intelligence"
   },
   "intelligence.14": {
-   "kind": "List item",
-   "tag": "li",
+   "kind": "Text",
+   "tag": "u",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
   "intelligence.15": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
+  "intelligence.16": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
    "tags": [],
    "section": "intelligence"
   },
-  "intelligence.16": {
+  "intelligence.17": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
+  "intelligence.18": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
+  "intelligence.19": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [],
+   "section": "intelligence"
+  },
+  "intelligence.20": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "intelligence"
   },
-  "intelligence.17": {
+  "intelligence.21": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",
    "tags": [],
    "section": "intelligence"
   },
-  "intelligence.18": {
+  "intelligence.22": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "ccline",

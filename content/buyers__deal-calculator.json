@@ -29,21 +29,16 @@
     },
     {
      "key": "inner.5",
-     "kind": "Button",
-     "text": "Start with coverage"
-    },
-    {
-     "key": "inner.6",
      "kind": "Text",
      "text": "Published benchmarks"
     },
     {
-     "key": "inner.7",
+     "key": "inner.6",
      "kind": "Text",
      "text": "Your own figures"
     },
     {
-     "key": "inner.8",
+     "key": "inner.7",
      "kind": "Text",
      "text": "Nothing sent anywhere"
     }
