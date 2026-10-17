@@ -69,7 +69,7 @@ async function loadContent() {
     const o = path.join(OUT, rel); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.writeFileSync(o, html); n++;
   }
   if (ASSETS && ASSETS !== '-') {
-    (function copy(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) copy(p); else if (!e.name.endsWith('.html')) { const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.copyFileSync(p, o); } } })(ASSETS);
+    (function copy(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) copy(p); else if (!e.name.endsWith('.html') || e.name === '404.html') { const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.copyFileSync(p, o); } } })(ASSETS);
   }
   console.log(JSON.stringify({ pages: n, missing }));
   if (missing.length) process.exit(1);

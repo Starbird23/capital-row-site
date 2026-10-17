@@ -20,4 +20,4 @@ Plain text. Allowed inside: `<em>…</em>`, `<b>…</b>`, `<a>…</a>` for a lin
 - `tools/extract.js <builtSite> <out>` — splits a built site into layouts and text (how this repository was made).
 - `tools/build.js` — the build.
 - `tools/verify.js <a> <b>` — compares two built sites as documents.
-- `content/` — the text as it was imported on October 16, 2026 (Rev 12.7); `npm run build:local` builds from it without Sanity.
+- `content/` — the text as it was imported on October 16, 2026 (Rev 13.0); `assets/404.html` is the not-found page Cloudflare Pages serves, copied as is; `npm run build:local` builds from it without Sanity.
