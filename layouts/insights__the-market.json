@@ -817,15 +817,6 @@
    ],
    "section": "read"
   },
-  "read.15": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
-   "tags": [
-    "<a href=\"https://suttonplacestrategies.com/?p=7837\" target=\"_blank\" rel=\"noopener noreferrer\">"
-   ],
-   "section": "read"
-  },
   "next.1": {
    "kind": "Small label",
    "tag": "div",

@@ -646,29 +646,29 @@
    "section": "read"
   },
   "read.8": {
-   "kind": "Text",
-   "tag": "div",
-   "cls": "pull",
-   "tags": [],
-   "section": "read"
-  },
-  "read.9": {
-   "kind": "Text",
-   "tag": "small",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.10": {
    "kind": "Heading",
    "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "read"
   },
-  "read.11": {
+  "read.9": {
    "kind": "Paragraph",
    "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.10": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.11": {
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "read"
@@ -681,15 +681,15 @@
    "section": "read"
   },
   "read.13": {
-   "kind": "Heading",
-   "tag": "h3",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "read"
   },
   "read.14": {
-   "kind": "Paragraph",
-   "tag": "p",
+   "kind": "Heading",
+   "tag": "h3",
    "cls": "",
    "tags": [],
    "section": "read"
@@ -716,27 +716,13 @@
    "section": "read"
   },
   "read.18": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.19": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.20": {
    "kind": "Small label",
    "tag": "span",
    "cls": "lab big",
    "tags": [],
    "section": "read"
   },
-  "read.21": {
+  "read.19": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -745,7 +731,7 @@
    ],
    "section": "read"
   },
-  "read.22": {
+  "read.20": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -754,7 +740,7 @@
    ],
    "section": "read"
   },
-  "read.23": {
+  "read.21": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -763,7 +749,7 @@
    ],
    "section": "read"
   },
-  "read.24": {
+  "read.22": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -772,7 +758,7 @@
    ],
    "section": "read"
   },
-  "read.25": {
+  "read.23": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -781,25 +767,16 @@
    ],
    "section": "read"
   },
-  "read.26": {
+  "read.24": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://www.unquote.com/unquote/analysis/70518/origination-sourcing-deals-behind-closed-doors\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
-  "read.27": {
-   "kind": "List item",
-   "tag": "li",
-   "cls": "",
-   "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/cgi/viewcontent.cgi?article=1016&amp;context=gsbm_pcm_pcmr\" target=\"_blank\" rel=\"noopener noreferrer\">"
-   ],
-   "section": "read"
-  },
-  "read.28": {
+  "read.25": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -808,7 +785,7 @@
    ],
    "section": "read"
   },
-  "read.29": {
+  "read.26": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -817,7 +794,7 @@
    ],
    "section": "read"
   },
-  "read.30": {
+  "read.27": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -826,7 +803,7 @@
    ],
    "section": "read"
   },
-  "read.31": {
+  "read.28": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -835,7 +812,7 @@
    ],
    "section": "read"
   },
-  "read.32": {
+  "read.29": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
@@ -844,7 +821,7 @@
    ],
    "section": "read"
   },
-  "read.33": {
+  "read.30": {
    "kind": "List item",
    "tag": "li",
    "cls": "",
