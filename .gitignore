@@ -1,2 +1,9 @@
 dist/
 node_modules/
+
+# Apple Wallet signing material never goes in the repository
+*.p12
+*.pem
+*.cer
+*.key
+__pycache__/

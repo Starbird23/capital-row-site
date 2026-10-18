@@ -7,6 +7,8 @@ export async function onRequestPost({ request, env, waitUntil }) {
   if (raw.length > 65536) return json({ saved: false, error: 'too large' }, 413);
   let b; try { b = JSON.parse(raw); } catch (e) { return json({ saved: false, error: 'json' }, 400); }
   if (!b || typeof b.key !== 'string' || !/^[a-z0-9]{8,64}$/.test(b.key) || !KINDS.includes(b.kind)) return json({ saved: false, error: 'shape' }, 400);
+  // spam: a filled hidden field, or a form sent within 1.5 seconds of the page opening. Answer as if saved; store and send nothing.
+  if ((typeof b.hp === 'string' && b.hp.trim()) || (typeof b.t === 'number' && b.t >= 0 && b.t < 1500)) return json({ saved: true, id: b.key, ignored: true });
   const cfg = await loadConfig(env, request);
   const items = [{ id: b.key, kind: b.kind, fields: b.fields }];
   for (const [i, a] of (Array.isArray(b.also) ? b.also.slice(0, 2) : []).entries()) if (a && KINDS.includes(a.kind)) items.push({ id: b.key + '-' + (i + 1), kind: a.kind, fields: a.fields, parent: b.key });

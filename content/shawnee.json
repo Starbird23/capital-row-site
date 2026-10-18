@@ -1,0 +1,309 @@
+{
+ "path": "/shawnee/",
+ "seoTitle": "Shawnee Mercier, Founder & Principal, Capital Row",
+ "seoDescription": "Save Shawnee Mercier's contact, book a call or exchange details. Capital Row: M&A advisory for vertical software powering the working economy.",
+ "ogTitle": "Shawnee Mercier, Founder & Principal, Capital Row",
+ "ogDescription": "Save my contact, book a call or exchange details. M&A advisory for vertical software powering the working economy.",
+ "sections": [
+  {
+   "id": "card",
+   "name": "Card",
+   "items": [
+    {
+     "key": "card.1",
+     "kind": "Name",
+     "text": "Shawnee Mercier"
+    },
+    {
+     "key": "card.2",
+     "kind": "Title",
+     "text": "Founder & Principal"
+    },
+    {
+     "key": "card.3",
+     "kind": "Company",
+     "text": "Capital Row"
+    },
+    {
+     "key": "card.4",
+     "kind": "Positioning line",
+     "text": "M&A advisory for vertical software powering the working economy."
+    },
+    {
+     "key": "card.5",
+     "kind": "Button",
+     "text": "Save my contact"
+    },
+    {
+     "key": "card.6",
+     "kind": "Button",
+     "text": "Book a call"
+    },
+    {
+     "key": "card.7",
+     "kind": "Icon label",
+     "text": "Call"
+    },
+    {
+     "key": "card.8",
+     "kind": "Icon label",
+     "text": "Text"
+    },
+    {
+     "key": "card.9",
+     "kind": "Icon label",
+     "text": "Email"
+    },
+    {
+     "key": "card.10",
+     "kind": "Icon label",
+     "text": "LinkedIn"
+    },
+    {
+     "key": "card.11",
+     "kind": "Icon label",
+     "text": "Website"
+    },
+    {
+     "key": "card.12",
+     "kind": "Button",
+     "text": "Add to Apple Wallet"
+    }
+   ]
+  },
+  {
+   "id": "ex",
+   "name": "Exchange details",
+   "items": [
+    {
+     "key": "ex.1",
+     "kind": "Section headline",
+     "text": "Exchange details"
+    },
+    {
+     "key": "ex.2",
+     "kind": "Text",
+     "text": "Leave your details and Shawnee will follow up personally."
+    },
+    {
+     "key": "ex.3",
+     "kind": "Form label",
+     "text": "First name"
+    },
+    {
+     "key": "ex.4",
+     "kind": "Form label",
+     "text": "Last name"
+    },
+    {
+     "key": "ex.5",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "ex.6",
+     "kind": "Form label",
+     "text": "Company"
+    },
+    {
+     "key": "ex.7",
+     "kind": "Form label",
+     "text": "I am"
+    },
+    {
+     "key": "ex.8",
+     "kind": "Choice",
+     "text": "A business owner"
+    },
+    {
+     "key": "ex.9",
+     "kind": "Choice",
+     "text": "A buyer or investor"
+    },
+    {
+     "key": "ex.10",
+     "kind": "Choice",
+     "text": "A lender"
+    },
+    {
+     "key": "ex.11",
+     "kind": "Choice",
+     "text": "An advisor"
+    },
+    {
+     "key": "ex.12",
+     "kind": "Choice",
+     "text": "Other"
+    },
+    {
+     "key": "ex.13",
+     "kind": "Choice",
+     "text": "Select one"
+    },
+    {
+     "key": "ex.15",
+     "kind": "Form label",
+     "text": "Where we met, optional"
+    },
+    {
+     "key": "ex.16",
+     "kind": "Form label",
+     "text": "Anything to add? Optional"
+    },
+    {
+     "key": "ex.18",
+     "kind": "Link",
+     "text": "Privacy Policy"
+    },
+    {
+     "key": "ex.19",
+     "kind": "Link",
+     "text": "SMS Terms"
+    },
+    {
+     "key": "ex.20",
+     "kind": "Text",
+     "text": "By sending, you agree to the"
+    },
+    {
+     "key": "ex.21",
+     "kind": "Button",
+     "text": "Send"
+    },
+    {
+     "key": "ex.22",
+     "kind": "Button",
+     "text": "Sending"
+    },
+    {
+     "key": "ex.23",
+     "kind": "Confirmation",
+     "text": "Thank you. Your details are with Shawnee, and she will follow up personally."
+    },
+    {
+     "key": "ex.24",
+     "kind": "Error message",
+     "text": "That did not send. Please try again, or email smercier@thecapitalrow.com."
+    },
+    {
+     "key": "ex.25",
+     "kind": "Error message",
+     "text": "Add your first name."
+    },
+    {
+     "key": "ex.26",
+     "kind": "Error message",
+     "text": "Add your last name."
+    },
+    {
+     "key": "ex.27",
+     "kind": "Error message",
+     "text": "Add a valid email address."
+    },
+    {
+     "key": "ex.28",
+     "kind": "Error message",
+     "text": "Add your company."
+    },
+    {
+     "key": "ex.29",
+     "kind": "Error message",
+     "text": "Choose which describes you."
+    },
+    {
+     "key": "ex.30",
+     "kind": "Checkbox",
+     "text": "Send me Capital Row updates."
+    }
+   ]
+  },
+  {
+   "id": "more",
+   "name": "Explore Capital Row",
+   "items": [
+    {
+     "key": "more.1",
+     "kind": "Section headline",
+     "text": "Explore Capital Row"
+    },
+    {
+     "key": "more.2",
+     "kind": "Link",
+     "text": "Owners: pressure-test your earnings"
+    },
+    {
+     "key": "more.3",
+     "kind": "Link",
+     "text": "Valuation calculator"
+    },
+    {
+     "key": "more.4",
+     "kind": "Link",
+     "text": "Buyers: how an engagement works"
+    },
+    {
+     "key": "more.5",
+     "kind": "Link",
+     "text": "Selling in 2027? Owner session, January 20"
+    }
+   ]
+  },
+  {
+   "id": "share",
+   "name": "Share this card",
+   "items": [
+    {
+     "key": "share.1",
+     "kind": "Section headline",
+     "text": "Share this card"
+    },
+    {
+     "key": "share.2",
+     "kind": "Button",
+     "text": "Show QR code"
+    },
+    {
+     "key": "share.3",
+     "kind": "Button",
+     "text": "Copy link"
+    },
+    {
+     "key": "share.4",
+     "kind": "Message",
+     "text": "Link copied"
+    },
+    {
+     "key": "share.5",
+     "kind": "Button",
+     "text": "Download QR code"
+    },
+    {
+     "key": "share.6",
+     "kind": "Text",
+     "text": "Scan to open my card and save my contact."
+    },
+    {
+     "key": "share.7",
+     "kind": "Button label",
+     "text": "Close"
+    },
+    {
+     "key": "share.8",
+     "kind": "Button",
+     "text": "Share"
+    }
+   ]
+  },
+  {
+   "id": "foot",
+   "name": "Footer",
+   "items": [
+    {
+     "key": "foot.1",
+     "kind": "Text",
+     "text": "Capital Row LLC"
+    }
+   ]
+  }
+ ]
+}

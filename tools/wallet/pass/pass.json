@@ -1,0 +1,29 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "PASS_TYPE_ID",
+  "teamIdentifier": "TEAM_ID",
+  "serialNumber": "shawnee-mercier-card-1",
+  "organizationName": "Capital Row",
+  "description": "Shawnee Mercier, Founder & Principal, Capital Row",
+  "backgroundColor": "rgb(12, 50, 52)",
+  "foregroundColor": "rgb(244, 241, 235)",
+  "labelColor": "rgb(143, 212, 203)",
+  "sharingProhibited": false,
+  "generic": {
+    "primaryFields": [{ "key": "name", "label": "FOUNDER & PRINCIPAL", "value": "Shawnee Mercier" }],
+    "secondaryFields": [{ "key": "email", "label": "EMAIL", "value": "smercier@thecapitalrow.com" }],
+    "auxiliaryFields": [
+      { "key": "phone", "label": "PHONE", "value": "(949) 682-1223" },
+      { "key": "web", "label": "WEB", "value": "thecapitalrow.com" }
+    ],
+    "backFields": [
+      { "key": "about", "label": "Capital Row", "value": "M&A advisory for vertical software powering the working economy." },
+      { "key": "card", "label": "My card", "value": "https://thecapitalrow.com/shawnee?src=wallet" },
+      { "key": "book", "label": "Book a call", "value": "https://calendly.com/caprow/confidential-business-value-consultation" },
+      { "key": "linkedin", "label": "LinkedIn", "value": "https://www.linkedin.com/in/smmercier" }
+    ]
+  },
+  "barcodes": [
+    { "format": "PKBarcodeFormatQR", "message": "https://thecapitalrow.com/shawnee?src=wallet", "messageEncoding": "iso-8859-1", "altText": "thecapitalrow.com/shawnee" }
+  ]
+}
