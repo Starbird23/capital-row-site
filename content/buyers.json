@@ -302,351 +302,36 @@
     },
     {
      "key": "market.17",
-     "kind": "Text",
-     "text": "Billing, coding & claims"
-    },
-    {
-     "key": "market.18",
-     "kind": "Text",
-     "text": "Denials & clearinghouse workflow"
-    },
-    {
-     "key": "market.19",
-     "kind": "Text",
-     "text": "Credentialing & provider data"
-    },
-    {
-     "key": "market.20",
-     "kind": "Text",
-     "text": "Specialty practice management"
-    },
-    {
-     "key": "market.21",
-     "kind": "Text",
-     "text": "Dental practice software"
-    },
-    {
-     "key": "market.22",
-     "kind": "Text",
-     "text": "Home health & hospice software"
-    },
-    {
-     "key": "market.23",
-     "kind": "Text",
-     "text": "Behavioral & specialty health"
-    },
-    {
-     "key": "market.24",
-     "kind": "Text",
-     "text": "Pharmacy, DME & infusion"
-    },
-    {
-     "key": "market.25",
-     "kind": "Text",
-     "text": "Aesthetics & med spa"
-    },
-    {
-     "key": "market.26",
-     "kind": "Text",
-     "text": "Physical therapy & rehab software"
-    },
-    {
-     "key": "market.27",
-     "kind": "Text",
-     "text": "Long-term care & senior living software"
-    },
-    {
-     "key": "market.28",
-     "kind": "Text",
-     "text": "Payment integrity software"
-    },
-    {
-     "key": "market.29",
-     "kind": "Text",
-     "text": "Healthcare staffing & scheduling software"
-    },
-    {
-     "key": "market.30",
-     "kind": "Text",
-     "text": "Veterinary practice software"
-    },
-    {
-     "key": "market.31",
-     "kind": "Text",
-     "text": "Bank & credit union software"
-    },
-    {
-     "key": "market.32",
-     "kind": "Text",
-     "text": "Insurance software"
-    },
-    {
-     "key": "market.33",
-     "kind": "Text",
-     "text": "Wealth & advisory software"
-    },
-    {
-     "key": "market.34",
-     "kind": "Text",
-     "text": "Lending & mortgage software"
-    },
-    {
-     "key": "market.35",
-     "kind": "Text",
-     "text": "Accounting & tax firm software"
-    },
-    {
-     "key": "market.36",
-     "kind": "Text",
-     "text": "Collections & receivables software"
-    },
-    {
-     "key": "market.37",
-     "kind": "Text",
-     "text": "Compliance software for advisors & broker-dealers"
-    },
-    {
-     "key": "market.38",
-     "kind": "Text",
-     "text": "Construction & contractor software"
-    },
-    {
-     "key": "market.39",
-     "kind": "Text",
-     "text": "Field service management software"
-    },
-    {
-     "key": "market.40",
-     "kind": "Text",
-     "text": "Property management software"
-    },
-    {
-     "key": "market.41",
-     "kind": "Text",
-     "text": "HOA & community association software"
-    },
-    {
-     "key": "market.42",
-     "kind": "Text",
-     "text": "Equipment rental software"
-    },
-    {
-     "key": "market.43",
-     "kind": "Text",
-     "text": "Dispatch, TMS & freight audit"
-    },
-    {
-     "key": "market.44",
-     "kind": "Text",
-     "text": "Fleet compliance & telematics"
-    },
-    {
-     "key": "market.45",
-     "kind": "Text",
-     "text": "Warehouse management for 3PLs"
-    },
-    {
-     "key": "market.46",
-     "kind": "Text",
-     "text": "Customs & trade compliance software"
-    },
-    {
-     "key": "market.47",
-     "kind": "Text",
-     "text": "Freight brokerage & visibility software"
-    },
-    {
-     "key": "market.48",
-     "kind": "Text",
-     "text": "Fleet maintenance software"
-    },
-    {
-     "key": "market.49",
-     "kind": "Text",
-     "text": "School bus & transit routing"
-    },
-    {
-     "key": "market.50",
-     "kind": "Text",
-     "text": "MSP & IT service software"
-    },
-    {
-     "key": "market.51",
-     "kind": "Text",
-     "text": "Security tools for MSPs"
-    },
-    {
-     "key": "market.52",
-     "kind": "Text",
-     "text": "Backup & disaster recovery software"
-    },
-    {
-     "key": "market.53",
-     "kind": "Text",
-     "text": "Manufacturing ERP & shop floor"
-    },
-    {
-     "key": "market.54",
-     "kind": "Text",
-     "text": "Quality management software"
-    },
-    {
-     "key": "market.55",
-     "kind": "Text",
-     "text": "Maintenance & asset management"
-    },
-    {
-     "key": "market.56",
-     "kind": "Text",
-     "text": "Distribution & wholesale ERP"
-    },
-    {
-     "key": "market.57",
-     "kind": "Text",
-     "text": "Machine monitoring & industrial IoT"
-    },
-    {
-     "key": "market.58",
-     "kind": "Text",
-     "text": "Environment, health & safety software"
-    },
-    {
-     "key": "market.59",
-     "kind": "Text",
-     "text": "Restaurant POS & back office"
-    },
-    {
-     "key": "market.60",
-     "kind": "Text",
-     "text": "Hotel property management & revenue tools"
-    },
-    {
-     "key": "market.61",
-     "kind": "Text",
-     "text": "Event & venue management software"
-    },
-    {
-     "key": "market.62",
-     "kind": "Text",
-     "text": "Fitness & gym management software"
-    },
-    {
-     "key": "market.63",
-     "kind": "Text",
-     "text": "Salon, spa & wellness software"
-    },
-    {
-     "key": "market.64",
-     "kind": "Text",
-     "text": "Ticketing & attractions software"
-    },
-    {
-     "key": "market.65",
-     "kind": "Text",
-     "text": "Auto dealer & repair software"
-    },
-    {
-     "key": "market.66",
-     "kind": "Text",
-     "text": "Convenience store & fuel retail software"
-    },
-    {
-     "key": "market.67",
-     "kind": "Text",
-     "text": "Car wash software"
-    },
-    {
-     "key": "market.68",
-     "kind": "Text",
-     "text": "Legal practice software"
-    },
-    {
-     "key": "market.69",
-     "kind": "Text",
-     "text": "Litigation support & e-discovery software"
-    },
-    {
-     "key": "market.70",
-     "kind": "Text",
-     "text": "Association & membership software"
-    },
-    {
-     "key": "market.71",
-     "kind": "Text",
-     "text": "Nonprofit & church software"
-    },
-    {
-     "key": "market.72",
-     "kind": "Text",
-     "text": "Staffing & recruiting software"
-    },
-    {
-     "key": "market.73",
-     "kind": "Text",
-     "text": "Municipal finance & administration software"
-    },
-    {
-     "key": "market.74",
-     "kind": "Text",
-     "text": "Public safety & emergency communications"
-    },
-    {
-     "key": "market.75",
-     "kind": "Text",
-     "text": "Utility billing & customer systems"
-    },
-    {
-     "key": "market.76",
-     "kind": "Text",
-     "text": "K-12 district administration software"
-    },
-    {
-     "key": "market.77",
-     "kind": "Text",
-     "text": "Parks & recreation software"
-    },
-    {
-     "key": "market.78",
-     "kind": "Text",
-     "text": "Courts & justice software"
-    },
-    {
-     "key": "market.79",
-     "kind": "Text",
-     "text": "Permitting & licensing software"
-    },
-    {
-     "key": "market.80",
      "kind": "Form label",
      "text": "Deals your firm saw, last twelve months"
     },
     {
-     "key": "market.81",
+     "key": "market.18",
      "kind": "Form label",
      "text": "Completed deals in your stated market <i>(optional)</i>"
     },
     {
-     "key": "market.82",
+     "key": "market.19",
      "kind": "Button",
      "text": "See where your firm lands"
     },
     {
-     "key": "market.83",
+     "key": "market.20",
      "kind": "Paragraph",
      "text": "<a>Discuss acquisition criteria</a>"
     },
     {
-     "key": "market.84",
+     "key": "market.21",
      "kind": "Paragraph",
-     "text": "Do not know the market count? Leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
+     "text": "If you do not know the market count, leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
     },
     {
-     "key": "market.85",
+     "key": "market.22",
      "kind": "Paragraph",
      "text": "What one signed letter costs, and what a dead one wastes: <a>the full deal coverage calculator</a>."
     },
     {
-     "key": "market.86",
+     "key": "market.23",
      "kind": "Note",
      "text": "How this was measured: the study took 177 private equity firms. For each one, it listed the deals completed in the industries and sizes that firm says it targets, each with a private equity buyer and a sell-side advisor, and counted how many of those the firm saw. SPS / With Intelligence, Deal Origination Benchmark Report, twelve months to June 30, 2025."
     }
@@ -679,7 +364,7 @@
     {
      "key": "cost.5",
      "kind": "Paragraph",
-     "text": "Mapping, outreach, qualifying. The person is $135,000 to $253,000 in total compensation, and cannot run a process at the same time."
+     "text": "Mapping, outreach, qualifying. The role costs $135,000 to $253,000 a year in total compensation, and cannot run a process at the same time."
     },
     {
      "key": "cost.6",
@@ -709,17 +394,17 @@
     {
      "key": "cost.11",
      "kind": "Paragraph",
-     "text": "The average by buyer type, from a family office to a senior lender, plus the diligence invoices already committed."
+     "text": "The average by buyer type, from a family office to a senior lender."
     },
     {
      "key": "cost.12",
      "kind": "Text",
-     "text": "Retained search, one sector"
+     "text": "A dedicated search, one sector"
     },
     {
      "key": "cost.13",
      "kind": "Paragraph",
-     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+     "text": "The vertical already mapped, and the diligence view attached before the name reaches you. Scope agreed in writing."
     },
     {
      "key": "cost.14",
@@ -951,7 +636,7 @@
     {
      "key": "intelligence.21",
      "kind": "Note",
-     "text": "Our notes on your sectors, as they are published."
+     "text": "Our updates on your sectors, as they are published."
     },
     {
      "key": "intelligence.22",
@@ -962,7 +647,7 @@
   },
   {
    "id": "how",
-   "name": "Two ways to work with us. Criteria on file, or a retained search.",
+   "name": "Two ways to work with us. Criteria on file, or a dedicated search.",
    "items": [
     {
      "key": "how.1",
@@ -972,17 +657,17 @@
     {
      "key": "how.2",
      "kind": "Section headline",
-     "text": "Two ways to work with us. <em>Criteria on file, or a retained search.</em>"
+     "text": "Two ways to work with us. <em>Criteria on file, or a dedicated search.</em>"
     },
     {
      "key": "how.3",
      "kind": "Paragraph",
-     "text": "Criteria on file is non-exclusive, at no fee: you hear when a note or an opportunity fits. A retained search is by exception, one buyer per sector, with scope and fee agreed in writing, each opportunity assessed before a letter of intent."
+     "text": "Criteria on file: you hear when an update or an opportunity fits your thesis. A dedicated search is by exception, with scope agreed in writing, each opportunity assessed before a letter of intent."
     },
     {
      "key": "how.4",
      "kind": "Text",
-     "text": "No fee"
+     "text": "Standing"
     },
     {
      "key": "how.5",
@@ -997,7 +682,7 @@
     {
      "key": "how.7",
      "kind": "Text",
-     "text": "A retained search"
+     "text": "A dedicated search"
     },
     {
      "key": "how.8",
@@ -1027,7 +712,7 @@
     {
      "key": "how.13",
      "kind": "Paragraph",
-     "text": "When we publish a note on your sector, or when an opportunity fits your criteria."
+     "text": "When we publish an update on your sector, or when an opportunity fits your criteria."
     },
     {
      "key": "how.14",
@@ -1042,7 +727,7 @@
     {
      "key": "how.16",
      "kind": "Paragraph",
-     "text": "Your acquisition criteria and a clearly defined sector. Scope and fee are agreed in writing before any work begins."
+     "text": "Your acquisition criteria and a clearly defined sector. Scope is agreed in writing before any work begins."
     },
     {
      "key": "how.17",

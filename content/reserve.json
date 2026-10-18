@@ -55,7 +55,7 @@
     {
      "key": "reserve.10",
      "kind": "Text",
-     "text": "Which adjustments a buyer questions first"
+     "text": "Which add-backs and adjustments to earnings a buyer questions first"
     },
     {
      "key": "reserve.11",
@@ -65,7 +65,7 @@
     {
      "key": "reserve.12",
      "kind": "Text",
-     "text": "What supported and unsupported look like"
+     "text": "Which adjustments need better documentation"
     },
     {
      "key": "reserve.13",
@@ -75,37 +75,37 @@
     {
      "key": "reserve.14",
      "kind": "Text",
-     "text": "What is worth fixing before you go to market"
+     "text": "What is worth addressing before you go to market"
     },
     {
      "key": "reserve.15",
-     "kind": "Form label",
-     "text": "Name"
+     "kind": "Paragraph",
+     "text": "Supported means an adjustment has the records and the calculation a reviewer can trace. Unsupported means the documents or the explanation are incomplete. Documentation does not mean a buyer has accepted the adjustment."
     },
     {
      "key": "reserve.16",
      "kind": "Form label",
-     "text": "Work email"
+     "text": "Name"
     },
     {
      "key": "reserve.17",
      "kind": "Form label",
-     "text": "Company"
+     "text": "Work email"
     },
     {
      "key": "reserve.18",
      "kind": "Form label",
-     "text": "I am"
+     "text": "Company"
     },
     {
      "key": "reserve.19",
      "kind": "Form label",
-     "text": "Industry"
+     "text": "Role"
     },
     {
      "key": "reserve.20",
      "kind": "Form label",
-     "text": "Sector"
+     "text": "Sectors"
     },
     {
      "key": "reserve.21",
@@ -150,7 +150,7 @@
     {
      "key": "reserve.29",
      "kind": "Note",
-     "text": "Your numbers traced to source documents, before a buyer looks."
+     "text": "Your numbers read the way a buyer will read them, before a buyer looks."
     }
    ]
   }

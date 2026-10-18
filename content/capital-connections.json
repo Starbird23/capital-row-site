@@ -659,40 +659,30 @@
     {
      "key": "faq.5",
      "kind": "Text",
-     "text": "What does the introduction cost me?"
+     "text": "Will you send my financial information to a lender?"
     },
     {
      "key": "faq.6",
      "kind": "Paragraph",
-     "text": "Scope and fee for any preparation work are agreed in writing. If a provider pays Capital Row a referral fee, we tell you before the introduction."
+     "text": "Not through this website, and not without your permission. Sensitive information moves through a controlled workspace under a signed engagement."
     },
     {
      "key": "faq.7",
      "kind": "Text",
-     "text": "Will you send my financial information to a lender?"
+     "text": "Does an SBA loan apply to my deal?"
     },
     {
      "key": "faq.8",
      "kind": "Paragraph",
-     "text": "Not through this website, and not without your permission. Sensitive information moves through a controlled workspace under a signed engagement."
+     "text": "The rules are on this page and in full on the Insights note: the loan limit, the equity injection, the seller note, the valuation, the quality of earnings at $3 million. A lender, an attorney and a CPA confirm each item for your deal."
     },
     {
      "key": "faq.9",
      "kind": "Text",
-     "text": "Does an SBA loan apply to my deal?"
-    },
-    {
-     "key": "faq.10",
-     "kind": "Paragraph",
-     "text": "The rules are on this page and in full on the Insights note: the loan limit, the equity injection, the seller note, the valuation, the quality of earnings at $3 million. A lender, an attorney and a CPA confirm each item for your deal."
-    },
-    {
-     "key": "faq.11",
-     "kind": "Text",
      "text": "What if the statements are behind?"
     },
     {
-     "key": "faq.12",
+     "key": "faq.10",
      "kind": "Paragraph",
      "text": "Then the preparation comes first. A provider cannot underwrite what is not reconciled, and the introduction waits until the story holds."
     }
@@ -700,12 +690,12 @@
   },
   {
    "id": "inquiry",
-   "name": "Let’s discuss what comes next.",
+   "name": "Discuss what comes next.",
    "items": [
     {
      "key": "inquiry.1",
      "kind": "Section headline",
-     "text": "Let’s discuss <em>what comes next.</em>"
+     "text": "Discuss <em>what comes next.</em>"
     },
     {
      "key": "inquiry.2",
@@ -755,90 +745,115 @@
     {
      "key": "inquiry.11",
      "kind": "Form label",
-     "text": "Business type"
+     "text": "Company type"
     },
     {
      "key": "inquiry.12",
      "kind": "Form label",
-     "text": "Annual revenue"
+     "text": "Which brings in more revenue?"
     },
     {
      "key": "inquiry.13",
-     "kind": "Paragraph",
-     "text": "The five questions a financing provider asks first"
+     "kind": "Form label",
+     "text": "Sectors"
     },
     {
      "key": "inquiry.14",
      "kind": "Form label",
-     "text": "1. What is the capital for?"
+     "text": "Headquarters"
     },
     {
      "key": "inquiry.15",
      "kind": "Form label",
-     "text": "Approximate amount"
+     "text": "Stage"
     },
     {
      "key": "inquiry.16",
      "kind": "Form label",
-     "text": "2. What cash flow supports repayment?"
+     "text": "Annual revenue"
     },
     {
      "key": "inquiry.17",
      "kind": "Form label",
-     "text": "3. What existing debt, receivables or assets affect the financing need? Optional"
+     "text": "Annual recurring revenue"
     },
     {
      "key": "inquiry.18",
-     "kind": "Form label",
-     "text": "4. What financial information needs preparation or clarification?"
+     "kind": "Paragraph",
+     "text": "The five questions a financing provider asks first"
     },
     {
      "key": "inquiry.19",
      "kind": "Form label",
-     "text": "5. What does the transaction timeline require?"
+     "text": "1. What is the capital for?"
     },
     {
      "key": "inquiry.20",
+     "kind": "Form label",
+     "text": "Approximate amount"
+    },
+    {
+     "key": "inquiry.21",
+     "kind": "Form label",
+     "text": "2. What cash flow supports repayment?"
+    },
+    {
+     "key": "inquiry.22",
+     "kind": "Form label",
+     "text": "3. What existing debt, receivables or assets affect the financing need? Optional"
+    },
+    {
+     "key": "inquiry.23",
+     "kind": "Form label",
+     "text": "4. What financial information needs preparation or clarification?"
+    },
+    {
+     "key": "inquiry.24",
+     "kind": "Form label",
+     "text": "5. What does the transaction timeline require?"
+    },
+    {
+     "key": "inquiry.25",
      "kind": "Text",
      "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
-     "key": "inquiry.21",
+     "key": "inquiry.26",
      "kind": "Text",
      "text": "Optional."
     },
     {
-     "key": "inquiry.22",
+     "key": "inquiry.27",
      "kind": "Text",
      "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
-     "key": "inquiry.23",
+     "key": "inquiry.28",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "inquiry.24",
+     "key": "inquiry.29",
      "kind": "Button",
      "text": "Request a Capital Connections conversation"
     },
     {
-     "key": "inquiry.25",
+     "key": "inquiry.30",
      "kind": "Paragraph",
      "text": "<a>Book a call</a>"
     },
     {
-     "key": "inquiry.26",
+     "key": "inquiry.31",
      "kind": "Note",
-     "text": "Capital Row introduces businesses to financing providers. We do not lend money or make credit decisions. Each provider sets its own eligibility, terms and approval. If a provider pays Capital Row a referral fee, we tell you before the introduction. Our financial preparation does not replace a lender’s underwriting, or a quality of earnings report where a lender requires one."
+     "text": "Capital Row introduces businesses to financing providers. We do not lend money or make credit decisions. Each provider sets its own eligibility, terms and approval. Our financial preparation does not replace a lender’s underwriting, or a quality of earnings report where a lender requires one."
     },
     {
-     "key": "inquiry.27",
+     "key": "inquiry.32",
      "kind": "Note",
      "text": "Please do not send financial documents or confidential information here."
     },
     {
-     "key": "inquiry.28",
+     "key": "inquiry.33",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

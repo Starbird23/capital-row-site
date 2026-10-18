@@ -1,0 +1,21 @@
+name: Form delivery retries
+# Every ten minutes: deliver any website submission HubSpot has not accepted yet, and fail loudly if one is stuck or failed.
+# Needs the repository secret RETRY_KEY (the same value as the RETRY_KEY variable in Cloudflare Pages). Without it, it does nothing.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch: {}
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Retry pending deliveries
+        env:
+          RETRY_KEY: ${{ secrets.RETRY_KEY }}
+          SITE: ${{ vars.SITE_URL || 'https://thecapitalrow.com' }}
+        run: |
+          if [ -z "$RETRY_KEY" ]; then echo "RETRY_KEY is not set; nothing to do."; exit 0; fi
+          out=$(curl -fsS -X POST "$SITE/api/retry" -H "X-Retry-Key: $RETRY_KEY")
+          echo "$out"
+          echo "$out" | python3 -c "import json,sys; d=json.load(sys.stdin); bad=d.get('failed_recent',0) or d.get('stale',0); print('failed in the last day:', d.get('failed_recent'), ' stuck over 30 minutes:', d.get('stale')); sys.exit(1 if bad else 0)"

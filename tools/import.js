@@ -1,5 +1,5 @@
 // Imports the extracted text into Sanity: one sitePage document per page, one siteShared document. Published directly (createOrReplace).
-// Usage: SANITY_TOKEN=... node import.js <contentDir> <projectId> <dataset>
+// Usage: SANITY_TOKEN=... node import.js <contentDir> <projectId> <dataset> [formsDocument.json]
 const fs = require('fs'), path = require('path');
 const [CONTENT, PID, DS] = process.argv.slice(2); const TOK = process.env.SANITY_TOKEN;
 const TITLES = { home: 'Home' };
@@ -11,7 +11,7 @@ async function mutate(mutations) {
   const t = await r.text(); if (!r.ok) throw new Error(r.status + ' ' + t.slice(0, 300)); return JSON.parse(t);
 }
 (async () => {
-  const files = fs.readdirSync(CONTENT).filter((f) => f.endsWith('.json') && f !== 'shared.json').sort();
+  const files = fs.readdirSync(CONTENT).filter((f) => f.endsWith('.json') && f !== 'shared.json' && f !== 'forms.json').sort();
   let n = 0;
   for (const f of files) {
     const stem = f.replace(/\.json$/, ''); const c = JSON.parse(fs.readFileSync(path.join(CONTENT, f), 'utf8'));
@@ -23,5 +23,8 @@ async function mutate(mutations) {
   const sh = JSON.parse(fs.readFileSync(path.join(CONTENT, 'shared.json'), 'utf8'));
   const doc = { _id: 'shared', _type: 'siteShared', title: 'Every page', blocks: Object.entries(sh).map(([id, b]) => ({ _type: 'pageSection', _key: id, id, name: b.name, items: items(b.items) })) };
   const r = await mutate([{ createOrReplace: doc }]); console.log('shared', r.results.map((x) => x.id).join(','));
+  // the forms document (sector taxonomy, choices, labels and messages), when its file is given
+  const FORMS = process.argv[5];
+  if (FORMS) { const fd = JSON.parse(fs.readFileSync(FORMS, 'utf8')); const rf = await mutate([{ createOrReplace: fd }]); console.log('forms', rf.results.map((x) => x.id).join(',')); n++; }
   console.log('documents', n + 1);
 })().catch((e) => { console.error(e.message); process.exit(1); });

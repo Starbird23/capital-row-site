@@ -1,0 +1,2104 @@
+{
+ "v": 1,
+ "tax": [
+  {
+   "id": "hc",
+   "label": "Healthcare",
+   "sectors": [
+    {
+     "id": "hc_billing_coding_and_claims",
+     "label": "Billing, coding & claims"
+    },
+    {
+     "id": "hc_denials_and_clearinghouse_workflow",
+     "label": "Denials & clearinghouse workflow"
+    },
+    {
+     "id": "hc_credentialing_and_provider_data",
+     "label": "Credentialing & provider data"
+    },
+    {
+     "id": "hc_specialty_practice_management",
+     "label": "Specialty practice management"
+    },
+    {
+     "id": "hc_dental_practice_software",
+     "label": "Dental practice software"
+    },
+    {
+     "id": "hc_home_health_and_hospice_software",
+     "label": "Home health & hospice software"
+    },
+    {
+     "id": "hc_behavioral_and_specialty_health",
+     "label": "Behavioral & specialty health"
+    },
+    {
+     "id": "hc_pharmacy_dme_and_infusion",
+     "label": "Pharmacy, DME & infusion"
+    },
+    {
+     "id": "hc_aesthetics_and_med_spa",
+     "label": "Aesthetics & med spa"
+    },
+    {
+     "id": "hc_physical_therapy_and_rehab_software",
+     "label": "Physical therapy & rehab software"
+    },
+    {
+     "id": "hc_long_term_care_and_senior_living_software",
+     "label": "Long-term care & senior living software"
+    },
+    {
+     "id": "hc_payment_integrity_software",
+     "label": "Payment integrity software"
+    },
+    {
+     "id": "hc_healthcare_staffing_and_scheduling_software",
+     "label": "Healthcare staffing & scheduling software"
+    },
+    {
+     "id": "hc_veterinary_practice_software",
+     "label": "Veterinary practice software"
+    }
+   ]
+  },
+  {
+   "id": "fin",
+   "label": "Financial services",
+   "sectors": [
+    {
+     "id": "fin_bank_and_credit_union_software",
+     "label": "Bank & credit union software"
+    },
+    {
+     "id": "fin_insurance_software",
+     "label": "Insurance software"
+    },
+    {
+     "id": "fin_wealth_and_advisory_software",
+     "label": "Wealth & advisory software"
+    },
+    {
+     "id": "fin_lending_and_mortgage_software",
+     "label": "Lending & mortgage software"
+    },
+    {
+     "id": "fin_accounting_and_tax_firm_software",
+     "label": "Accounting & tax firm software"
+    },
+    {
+     "id": "fin_collections_and_receivables_software",
+     "label": "Collections & receivables software"
+    },
+    {
+     "id": "fin_compliance_software_for_advisors_and_broker_dealers",
+     "label": "Compliance software for advisors & broker-dealers"
+    }
+   ]
+  },
+  {
+   "id": "built",
+   "label": "Construction, real estate & field services",
+   "sectors": [
+    {
+     "id": "built_construction_and_contractor_software",
+     "label": "Construction & contractor software"
+    },
+    {
+     "id": "built_field_service_management_software",
+     "label": "Field service management software"
+    },
+    {
+     "id": "built_property_management_software",
+     "label": "Property management software"
+    },
+    {
+     "id": "built_hoa_and_community_association_software",
+     "label": "HOA & community association software"
+    },
+    {
+     "id": "built_equipment_rental_software",
+     "label": "Equipment rental software"
+    }
+   ]
+  },
+  {
+   "id": "fleet",
+   "label": "Transportation & logistics",
+   "sectors": [
+    {
+     "id": "fleet_dispatch_tms_and_freight_audit",
+     "label": "Dispatch, TMS & freight audit"
+    },
+    {
+     "id": "fleet_fleet_compliance_and_telematics",
+     "label": "Fleet compliance & telematics"
+    },
+    {
+     "id": "fleet_warehouse_management_for_3pls",
+     "label": "Warehouse management for 3PLs"
+    },
+    {
+     "id": "fleet_customs_and_trade_compliance_software",
+     "label": "Customs & trade compliance software"
+    },
+    {
+     "id": "fleet_freight_brokerage_and_visibility_software",
+     "label": "Freight brokerage & visibility software"
+    },
+    {
+     "id": "fleet_fleet_maintenance_software",
+     "label": "Fleet maintenance software"
+    },
+    {
+     "id": "fleet_school_bus_and_transit_routing",
+     "label": "School bus & transit routing"
+    }
+   ]
+  },
+  {
+   "id": "tech",
+   "label": "Technology services",
+   "sectors": [
+    {
+     "id": "tech_msp_and_it_service_software",
+     "label": "MSP & IT service software"
+    },
+    {
+     "id": "tech_security_tools_for_msps",
+     "label": "Security tools for MSPs"
+    },
+    {
+     "id": "tech_backup_and_disaster_recovery_software",
+     "label": "Backup & disaster recovery software"
+    }
+   ]
+  },
+  {
+   "id": "mfg",
+   "label": "Manufacturing",
+   "sectors": [
+    {
+     "id": "mfg_manufacturing_erp_and_shop_floor",
+     "label": "Manufacturing ERP & shop floor"
+    },
+    {
+     "id": "mfg_quality_management_software",
+     "label": "Quality management software"
+    },
+    {
+     "id": "mfg_maintenance_and_asset_management",
+     "label": "Maintenance & asset management"
+    },
+    {
+     "id": "mfg_distribution_and_wholesale_erp",
+     "label": "Distribution & wholesale ERP"
+    },
+    {
+     "id": "mfg_machine_monitoring_and_industrial_iot",
+     "label": "Machine monitoring & industrial IoT"
+    },
+    {
+     "id": "mfg_environment_health_and_safety_software",
+     "label": "Environment, health & safety software"
+    }
+   ]
+  },
+  {
+   "id": "hosp",
+   "label": "Hospitality",
+   "sectors": [
+    {
+     "id": "hosp_restaurant_pos_and_back_office",
+     "label": "Restaurant POS & back office"
+    },
+    {
+     "id": "hosp_hotel_property_management_and_revenue_tools",
+     "label": "Hotel property management & revenue tools"
+    },
+    {
+     "id": "hosp_event_and_venue_management_software",
+     "label": "Event & venue management software"
+    },
+    {
+     "id": "hosp_fitness_and_gym_management_software",
+     "label": "Fitness & gym management software"
+    },
+    {
+     "id": "hosp_salon_spa_and_wellness_software",
+     "label": "Salon, spa & wellness software"
+    },
+    {
+     "id": "hosp_ticketing_and_attractions_software",
+     "label": "Ticketing & attractions software"
+    }
+   ]
+  },
+  {
+   "id": "retail",
+   "label": "Retail & automotive",
+   "sectors": [
+    {
+     "id": "retail_auto_dealer_and_repair_software",
+     "label": "Auto dealer & repair software"
+    },
+    {
+     "id": "retail_convenience_store_and_fuel_retail_software",
+     "label": "Convenience store & fuel retail software"
+    },
+    {
+     "id": "retail_car_wash_software",
+     "label": "Car wash software"
+    }
+   ]
+  },
+  {
+   "id": "prof",
+   "label": "Legal & professional services",
+   "sectors": [
+    {
+     "id": "prof_legal_practice_software",
+     "label": "Legal practice software"
+    },
+    {
+     "id": "prof_litigation_support_and_e_discovery_software",
+     "label": "Litigation support & e-discovery software"
+    },
+    {
+     "id": "prof_association_and_membership_software",
+     "label": "Association & membership software"
+    },
+    {
+     "id": "prof_nonprofit_and_church_software",
+     "label": "Nonprofit & church software"
+    },
+    {
+     "id": "prof_staffing_and_recruiting_software",
+     "label": "Staffing & recruiting software"
+    }
+   ]
+  },
+  {
+   "id": "gov",
+   "label": "Government",
+   "sectors": [
+    {
+     "id": "gov_municipal_finance_and_administration_software",
+     "label": "Municipal finance & administration software"
+    },
+    {
+     "id": "gov_public_safety_and_emergency_communications",
+     "label": "Public safety & emergency communications"
+    },
+    {
+     "id": "gov_utility_billing_and_customer_systems",
+     "label": "Utility billing & customer systems"
+    },
+    {
+     "id": "gov_k_12_district_administration_software",
+     "label": "K-12 district administration software"
+    },
+    {
+     "id": "gov_parks_and_recreation_software",
+     "label": "Parks & recreation software"
+    },
+    {
+     "id": "gov_courts_and_justice_software",
+     "label": "Courts & justice software"
+    },
+    {
+     "id": "gov_permitting_and_licensing_software",
+     "label": "Permitting & licensing software"
+    }
+   ]
+  }
+ ],
+ "lists": {
+  "vckind": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Vertical software, SaaS",
+    "Vertical software"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Hybrid models",
+    "Software + services"
+   ]
+  ],
+  "vcgrow": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Declined",
+    "Declined"
+   ],
+   [
+    "0% to 5%",
+    "0% to 5%"
+   ],
+   [
+    "5% to 15%",
+    "5% to 15%"
+   ],
+   [
+    "15% to 30%",
+    "15% to 30%"
+   ],
+   [
+    "More than 30%",
+    "More than 30%"
+   ]
+  ],
+  "vcrec": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under 25%",
+    "Under 25%"
+   ],
+   [
+    "25% to 50%",
+    "25% to 50%"
+   ],
+   [
+    "50% to 75%",
+    "50% to 75%"
+   ],
+   [
+    "More than 75%",
+    "More than 75%"
+   ]
+  ],
+  "vctop": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under 10%",
+    "Under 10%"
+   ],
+   [
+    "10% to 25%",
+    "10% to 25%"
+   ],
+   [
+    "25% to 50%",
+    "25% to 50%"
+   ],
+   [
+    "More than 50%",
+    "More than 50%"
+   ]
+  ],
+  "vcreg": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Yes",
+    "Yes"
+   ],
+   [
+    "No",
+    "No"
+   ]
+  ],
+  "vcinv": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Leave at closing",
+    "Leave at closing"
+   ],
+   [
+    "Stay for a transition period",
+    "Stay for a transition period"
+   ],
+   [
+    "Stay on and keep running the business",
+    "Stay on and keep running the business"
+   ],
+   [
+    "Not sure yet",
+    "Not sure yet"
+   ]
+  ],
+  "vcrole": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Owner or founder",
+    "Owner or founder"
+   ],
+   [
+    "Chief executive",
+    "Chief executive"
+   ],
+   [
+    "Finance lead",
+    "Finance lead"
+   ],
+   [
+    "Advisor to the owner",
+    "Advisor to the owner"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "vcwhen": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Within 6 months",
+    "Within 6 months"
+   ],
+   [
+    "6 to 12 months",
+    "6 to 12 months"
+   ],
+   [
+    "12 to 24 months",
+    "12 to 24 months"
+   ],
+   [
+    "More than 2 years",
+    "More than 2 years"
+   ],
+   [
+    "Not planning to sell",
+    "Not planning to sell"
+   ]
+  ],
+  "vchow": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "LinkedIn",
+    "LinkedIn"
+   ],
+   [
+    "A referral",
+    "A referral"
+   ],
+   [
+    "A conference or event",
+    "A conference or event"
+   ],
+   [
+    "Google or another search",
+    "Google or another search"
+   ],
+   [
+    "An email from Capital Row",
+    "An email from Capital Row"
+   ],
+   [
+    "A podcast, article or newsletter",
+    "A podcast, article or newsletter"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "bb_kind": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Strategic",
+    "Strategic"
+   ],
+   [
+    "PE platform",
+    "PE platform"
+   ],
+   [
+    "PE portfolio company (add-on)",
+    "PE portfolio company (add-on)"
+   ],
+   [
+    "Private equity fund (no platform identified)",
+    "Private equity fund (no platform identified)"
+   ],
+   [
+    "Independent sponsor or search fund",
+    "Independent sponsor or search fund"
+   ],
+   [
+    "Family office",
+    "Family office"
+   ],
+   [
+    "Permanent capital / holding company",
+    "Permanent capital / holding company"
+   ]
+  ],
+  "bb_profit": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Profitable required",
+    "Profitable required"
+   ],
+   [
+    "Break-even acceptable",
+    "Break-even acceptable"
+   ],
+   [
+    "Pre-profit acceptable",
+    "Pre-profit acceptable"
+   ]
+  ],
+  "bb_recur": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Mostly recurring required",
+    "Mostly recurring required"
+   ],
+   [
+    "Some recurring",
+    "Some recurring"
+   ],
+   [
+    "No preference",
+    "No preference"
+   ]
+  ],
+  "bb_reg": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Comfortable",
+    "Comfortable"
+   ],
+   [
+    "Case by case",
+    "Case by case"
+   ],
+   [
+    "Avoid",
+    "Avoid"
+   ]
+  ],
+  "bb_owner": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Stays and rolls equity",
+    "Stays and rolls equity"
+   ],
+   [
+    "Transitions out over time",
+    "Transitions out over time"
+   ],
+   [
+    "Either",
+    "Either"
+   ]
+  ],
+  "bb_timing": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Acquiring now",
+    "Acquiring now"
+   ],
+   [
+    "Within 6 months",
+    "Within 6 months"
+   ],
+   [
+    "Within 12 months",
+    "Within 12 months"
+   ],
+   [
+    "Opportunistic",
+    "Opportunistic"
+   ]
+  ],
+  "bb_funding": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Committed capital",
+    "Committed capital"
+   ],
+   [
+    "Raising",
+    "Raising"
+   ],
+   [
+    "Deal by deal",
+    "Deal by deal"
+   ],
+   [
+    "Corporate funds",
+    "Corporate funds"
+   ]
+  ],
+  "bb_context": [
+   [
+    "A new platform",
+    "A new platform"
+   ],
+   [
+    "An add-on to an existing platform",
+    "An add-on to an existing platform"
+   ]
+  ],
+  "bb_own": [
+   [
+    "Full acquisition",
+    "Full acquisition"
+   ],
+   [
+    "Majority",
+    "Majority"
+   ],
+   [
+    "Minority",
+    "Minority"
+   ]
+  ],
+  "bb_model": [
+   [
+    "Vertical software",
+    "Vertical software"
+   ],
+   [
+    "Software + services",
+    "Software + services"
+   ],
+   [
+    "Services",
+    "Services"
+   ]
+  ],
+  "bb_geo": [
+   [
+    "United States",
+    "United States"
+   ],
+   [
+    "Canada",
+    "Canada"
+   ],
+   [
+    "United Kingdom and Ireland",
+    "United Kingdom and Ireland"
+   ],
+   [
+    "Europe",
+    "Europe"
+   ],
+   [
+    "Latin America",
+    "Latin America"
+   ],
+   [
+    "Other",
+    "Other"
+   ],
+   [
+    "No preference",
+    "No preference"
+   ]
+  ],
+  "bb_cust": [
+   [
+    "United States",
+    "United States"
+   ],
+   [
+    "Canada",
+    "Canada"
+   ],
+   [
+    "United Kingdom and Ireland",
+    "United Kingdom and Ireland"
+   ],
+   [
+    "Europe",
+    "Europe"
+   ],
+   [
+    "Latin America",
+    "Latin America"
+   ],
+   [
+    "Other",
+    "Other"
+   ],
+   [
+    "No preference",
+    "No preference"
+   ]
+  ],
+  "bb_revmodel": [
+   [
+    "Subscription",
+    "Subscription"
+   ],
+   [
+    "Transactional or usage",
+    "Transactional or usage"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Mixed",
+    "Mixed"
+   ]
+  ],
+  "cctype": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Vertical software, SaaS",
+    "Vertical software"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Hybrid models",
+    "Software + services"
+   ],
+   [
+    "Another company type",
+    "Another company type"
+   ]
+  ],
+  "ccgeo": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "United States",
+    "United States"
+   ],
+   [
+    "Canada",
+    "Canada"
+   ],
+   [
+    "United Kingdom and Ireland",
+    "United Kingdom and Ireland"
+   ],
+   [
+    "Europe",
+    "Europe"
+   ],
+   [
+    "Latin America",
+    "Latin America"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "ccstage": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Acquiring a business",
+    "Acquiring a business"
+   ],
+   [
+    "Ownership transition",
+    "Ownership transition"
+   ],
+   [
+    "Operating and growing",
+    "Operating and growing"
+   ],
+   [
+    "Refinancing",
+    "Refinancing"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "ccpurpose": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Acquisition or ownership transition",
+    "Acquisition or ownership transition"
+   ],
+   [
+    "Growth and working capital",
+    "Growth and working capital"
+   ],
+   [
+    "Receivables and business assets",
+    "Receivables and business assets"
+   ],
+   [
+    "Not sure yet",
+    "Not sure yet"
+   ]
+  ],
+  "ccamt": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $1M",
+    "Under $1M"
+   ],
+   [
+    "$1M to $2M",
+    "$1M to $2M"
+   ],
+   [
+    "$2M to $3M",
+    "$2M to $3M"
+   ],
+   [
+    "$3M to $5M",
+    "$3M to $5M"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M"
+   ],
+   [
+    "Over $10M",
+    "Over $10M"
+   ],
+   [
+    "Not sure yet",
+    "Not sure yet"
+   ]
+  ],
+  "cccash": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Profitable, with steady cash flow",
+    "Profitable, with steady cash flow"
+   ],
+   [
+    "Profitable, cash flow varies by month or season",
+    "Profitable, cash flow varies by month or season"
+   ],
+   [
+    "About break-even",
+    "About break-even"
+   ],
+   [
+    "Not yet profitable",
+    "Not yet profitable"
+   ],
+   [
+    "Not sure yet",
+    "Not sure yet"
+   ]
+  ],
+  "ccfin": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Nothing: the statements are current",
+    "Nothing: the statements are current"
+   ],
+   [
+    "Some clean-up is needed",
+    "Some clean-up is needed"
+   ],
+   [
+    "The statements are behind",
+    "The statements are behind"
+   ],
+   [
+    "Not sure yet",
+    "Not sure yet"
+   ]
+  ],
+  "cctime": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Within 3 months",
+    "Within 3 months"
+   ],
+   [
+    "3 to 6 months",
+    "3 to 6 months"
+   ],
+   [
+    "6 to 12 months",
+    "6 to 12 months"
+   ],
+   [
+    "More than 12 months",
+    "More than 12 months"
+   ],
+   [
+    "No set timing",
+    "No set timing"
+   ]
+  ],
+  "kind.Seller": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Vertical software, SaaS",
+    "Vertical software"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Hybrid models",
+    "Software + services"
+   ]
+  ],
+  "kind.Buyer": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Strategic",
+    "Strategic"
+   ],
+   [
+    "PE platform",
+    "PE platform"
+   ],
+   [
+    "PE portfolio company (add-on)",
+    "PE portfolio company (add-on)"
+   ],
+   [
+    "Private equity fund (no platform identified)",
+    "Private equity fund (no platform identified)"
+   ],
+   [
+    "Independent sponsor or search fund",
+    "Independent sponsor or search fund"
+   ],
+   [
+    "Family office",
+    "Family office"
+   ],
+   [
+    "Permanent capital / holding company",
+    "Permanent capital / holding company"
+   ]
+  ],
+  "kind.Advisor": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "CPA or accountant",
+    "CPA or accountant"
+   ],
+   [
+    "Attorney",
+    "Attorney"
+   ],
+   [
+    "Investment banker or M&A advisor",
+    "Investment banker or M&A advisor"
+   ],
+   [
+    "Wealth or family office advisor",
+    "Wealth or family office advisor"
+   ],
+   [
+    "Operating or management consultant",
+    "Operating or management consultant"
+   ]
+  ],
+  "kind.Lender": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "SBA 7(a) lender",
+    "SBA 7(a) lender"
+   ],
+   [
+    "Bank or commercial lender",
+    "Bank or commercial lender"
+   ],
+   [
+    "Private credit or non-bank lender",
+    "Private credit or non-bank lender"
+   ],
+   [
+    "Mezzanine or subordinated lender",
+    "Mezzanine or subordinated lender"
+   ],
+   [
+    "Receivables, equipment or asset-based lender",
+    "Receivables, equipment or asset-based lender"
+   ]
+  ],
+  "seat": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Seller",
+    "I am a business owner"
+   ],
+   [
+    "Buyer",
+    "I buy software companies"
+   ],
+   [
+    "Advisor",
+    "I advise founders or acquirers"
+   ],
+   [
+    "Lender",
+    "I lend or finance acquisitions"
+   ]
+  ],
+  "sl_reason": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Preparing for a sale",
+    "Preparing for a sale"
+   ],
+   [
+    "Weighing an offer or an approach",
+    "Weighing an offer or an approach"
+   ],
+   [
+    "Planning two to three years out",
+    "Planning two to three years out"
+   ],
+   [
+    "Want a view of value",
+    "Want a view of value"
+   ],
+   [
+    "Something else",
+    "Something else"
+   ]
+  ],
+  "ln_purpose": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Refer a borrower",
+    "Refer a borrower"
+   ],
+   [
+    "Discuss a lending partnership",
+    "Discuss a lending partnership"
+   ],
+   [
+    "Learn about Capital Connections",
+    "Learn about Capital Connections"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "ln_cash": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Cash-flow positive required",
+    "Cash-flow positive required"
+   ],
+   [
+    "Break-even acceptable",
+    "Break-even acceptable"
+   ],
+   [
+    "Asset-backed, cash flow not required",
+    "Asset-backed, cash flow not required"
+   ]
+  ],
+  "ad_purpose": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Refer a client",
+    "Refer a client"
+   ],
+   [
+    "Discuss a joint engagement",
+    "Discuss a joint engagement"
+   ],
+   [
+    "Learn about the process",
+    "Learn about the process"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "ad_client": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Owner preparing for a sale",
+    "Owner preparing for a sale"
+   ],
+   [
+    "Buyer",
+    "Buyer"
+   ],
+   [
+    "Lender",
+    "Lender"
+   ],
+   [
+    "Not applicable",
+    "Not applicable"
+   ]
+  ],
+  "how": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "LinkedIn",
+    "LinkedIn"
+   ],
+   [
+    "A referral",
+    "A referral"
+   ],
+   [
+    "A conference or event",
+    "A conference or event"
+   ],
+   [
+    "Google or another search",
+    "Google or another search"
+   ],
+   [
+    "An email from Capital Row",
+    "An email from Capital Row"
+   ],
+   [
+    "A podcast, article or newsletter",
+    "A podcast, article or newsletter"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "ln_geo": [
+   [
+    "United States",
+    "United States"
+   ],
+   [
+    "Canada",
+    "Canada"
+   ],
+   [
+    "United Kingdom and Ireland",
+    "United Kingdom and Ireland"
+   ],
+   [
+    "Europe",
+    "Europe"
+   ],
+   [
+    "Latin America",
+    "Latin America"
+   ],
+   [
+    "Other",
+    "Other"
+   ],
+   [
+    "No preference",
+    "No preference"
+   ]
+  ],
+  "pqabout": [
+   [
+    "Pre-Market Assessment",
+    "Pre-Market Assessment"
+   ],
+   [
+    "Sell-Side QoE",
+    "Sell-Side QoE"
+   ],
+   [
+    "Growth and Exit Plan",
+    "Growth and Exit Plan"
+   ]
+  ],
+  "pqkind": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Vertical software, SaaS",
+    "Vertical software"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Hybrid models",
+    "Software + services"
+   ]
+  ],
+  "pqwhen": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Within 6 months",
+    "Within 6 months"
+   ],
+   [
+    "6 to 12 months",
+    "6 to 12 months"
+   ],
+   [
+    "12 to 24 months",
+    "12 to 24 months"
+   ],
+   [
+    "No date yet",
+    "No date yet"
+   ]
+  ],
+  "pqfin": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "In-house",
+    "In-house"
+   ],
+   [
+    "Outside bookkeeper",
+    "Outside bookkeeper"
+   ],
+   [
+    "CPA firm",
+    "CPA firm"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "pqqoe": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "No",
+    "No"
+   ],
+   [
+    "Yes, commissioned by a buyer",
+    "Yes, commissioned by a buyer"
+   ],
+   [
+    "Yes, commissioned by us",
+    "Yes, commissioned by us"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "pqqoeyr": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "2026",
+    "2026"
+   ],
+   [
+    "2025",
+    "2025"
+   ],
+   [
+    "2024",
+    "2024"
+   ],
+   [
+    "2023",
+    "2023"
+   ],
+   [
+    "2022 or earlier",
+    "2022 or earlier"
+   ]
+  ],
+  "bdkind": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Vertical software, SaaS",
+    "Vertical software"
+   ],
+   [
+    "Services",
+    "Services"
+   ],
+   [
+    "Hybrid models",
+    "Software + services"
+   ]
+  ],
+  "bdrev": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $5M",
+    "Under $5M"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M"
+   ],
+   [
+    "$10M to $25M",
+    "$10M to $25M"
+   ],
+   [
+    "$25M to $50M",
+    "$25M to $50M"
+   ],
+   [
+    "Over $50M",
+    "Over $50M"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "bdbuyer": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Private equity or platform",
+    "Private equity or platform"
+   ],
+   [
+    "Strategic acquirer",
+    "Strategic acquirer"
+   ],
+   [
+    "Permanent capital or family office",
+    "Permanent capital or family office"
+   ],
+   [
+    "Independent sponsor",
+    "Independent sponsor"
+   ],
+   [
+    "Individual buyer",
+    "Individual buyer"
+   ],
+   [
+    "Other",
+    "Other"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "bdstage": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Early conversations",
+    "Early conversations"
+   ],
+   [
+    "Indication of interest",
+    "Indication of interest"
+   ],
+   [
+    "Signed letter of intent",
+    "Signed letter of intent"
+   ],
+   [
+    "In diligence after the letter of intent",
+    "In diligence after the letter of intent"
+   ],
+   [
+    "Close to signing the purchase agreement",
+    "Close to signing the purchase agreement"
+   ],
+   [
+    "It closed, on worse terms than the letter of intent",
+    "It closed, on worse terms than the letter of intent"
+   ]
+  ],
+  "bdwhy1": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "The earnings were not what was presented",
+    "The earnings were not what was presented"
+   ],
+   [
+    "Customer or payer concentration",
+    "Customer or payer concentration"
+   ],
+   [
+    "A license, contract or compliance finding",
+    "A license, contract or compliance finding"
+   ],
+   [
+    "Dependence on the owner or a key person",
+    "Dependence on the owner or a key person"
+   ],
+   [
+    "Records or systems could not support the numbers",
+    "Records or systems could not support the numbers"
+   ],
+   [
+    "Financing",
+    "Financing"
+   ],
+   [
+    "Price expectations",
+    "Price expectations"
+   ],
+   [
+    "Cultural mismatch or fit",
+    "Cultural mismatch or fit"
+   ],
+   [
+    "The buyer’s own reasons",
+    "The buyer’s own reasons"
+   ],
+   [
+    "I walked away; the business was not ready",
+    "I walked away; the business was not ready"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "bdearn": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $1M",
+    "Under $1M"
+   ],
+   [
+    "$1M to $3M",
+    "$1M to $3M"
+   ],
+   [
+    "$3M to $5M",
+    "$3M to $5M"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M"
+   ],
+   [
+    "Over $10M",
+    "Over $10M"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "bdadv": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "M&A advisor or investment bank",
+    "M&A advisor or investment bank"
+   ],
+   [
+    "Business broker",
+    "Business broker"
+   ],
+   [
+    "CPA firm only",
+    "CPA firm only"
+   ],
+   [
+    "Attorney only",
+    "Attorney only"
+   ],
+   [
+    "No advisor",
+    "No advisor"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "bdyear": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "2026",
+    "2026"
+   ],
+   [
+    "2025",
+    "2025"
+   ],
+   [
+    "2024",
+    "2024"
+   ],
+   [
+    "2023",
+    "2023"
+   ],
+   [
+    "2022 or earlier",
+    "2022 or earlier"
+   ]
+  ],
+  "bdprice": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "No",
+    "No"
+   ],
+   [
+    "The price was reduced",
+    "The price was reduced"
+   ],
+   [
+    "The structure changed",
+    "The structure changed"
+   ],
+   [
+    "Both",
+    "Both"
+   ]
+  ],
+  "bdout": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "It did not close",
+    "It did not close"
+   ],
+   [
+    "Delayed and still open",
+    "Delayed and still open"
+   ],
+   [
+    "It closed at a changed price or structure",
+    "It closed at a changed price or structure"
+   ],
+   [
+    "It restarted with the same buyer",
+    "It restarted with the same buyer"
+   ],
+   [
+    "It closed later with a different buyer",
+    "It closed later with a different buyer"
+   ]
+  ],
+  "bdprep": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Nothing formal",
+    "Nothing formal"
+   ],
+   [
+    "CPA-prepared financial statements",
+    "CPA-prepared financial statements"
+   ],
+   [
+    "A quality of earnings report",
+    "A quality of earnings report"
+   ],
+   [
+    "A data room",
+    "A data room"
+   ],
+   [
+    "More than one of these",
+    "More than one of these"
+   ]
+  ],
+  "bdqoe": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "No",
+    "No"
+   ],
+   [
+    "Yes, ours",
+    "Yes, ours"
+   ],
+   [
+    "Yes, the buyer’s",
+    "Yes, the buyer’s"
+   ],
+   [
+    "Both",
+    "Both"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "bdent": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "LLC",
+    "LLC"
+   ],
+   [
+    "S corporation",
+    "S corporation"
+   ],
+   [
+    "C corporation",
+    "C corporation"
+   ],
+   [
+    "Partnership",
+    "Partnership"
+   ],
+   [
+    "Professional corporation",
+    "Professional corporation"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "bdre": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Leased from a third party",
+    "Leased from a third party"
+   ],
+   [
+    "Owned by the business",
+    "Owned by the business"
+   ],
+   [
+    "Owned by the owner personally",
+    "Owned by the owner personally"
+   ],
+   [
+    "Not applicable",
+    "Not applicable"
+   ]
+  ],
+  "bdcon": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "None that mattered",
+    "None that mattered"
+   ],
+   [
+    "Some",
+    "Some"
+   ],
+   [
+    "Many",
+    "Many"
+   ],
+   [
+    "Not sure",
+    "Not sure"
+   ]
+  ],
+  "strole": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Business owner",
+    "Business owner"
+   ],
+   [
+    "CPA or accountant",
+    "CPA or accountant"
+   ],
+   [
+    "Advisor to owners",
+    "Advisor to owners"
+   ],
+   [
+    "Buyer",
+    "Buyer"
+   ],
+   [
+    "Lender",
+    "Lender"
+   ],
+   [
+    "Other",
+    "Other"
+   ]
+  ],
+  "arrband": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $1M",
+    "Under $1M ARR"
+   ],
+   [
+    "$1M to $3M",
+    "$1M to $3M ARR"
+   ],
+   [
+    "$3M to $5M",
+    "$3M to $5M ARR"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M ARR"
+   ],
+   [
+    "$10M to $25M",
+    "$10M to $25M ARR"
+   ],
+   [
+    "Over $25M",
+    "Over $25M ARR"
+   ],
+   [
+    "Not applicable",
+    "Not applicable"
+   ]
+  ],
+  "revband": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $5M",
+    "Under $5M"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M"
+   ],
+   [
+    "$10M to $25M",
+    "$10M to $25M"
+   ],
+   [
+    "$25M to $50M",
+    "$25M to $50M"
+   ],
+   [
+    "Over $50M",
+    "Over $50M"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "lead": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Software",
+    "Software"
+   ],
+   [
+    "Services",
+    "Services"
+   ]
+  ]
+ },
+ "text": {
+  "form.sending": "Sending…",
+  "form.err_name": "Add your name.",
+  "form.err_email": "Add a work email address.",
+  "form.err_email_personal": "Add an email address. A personal address is fine.",
+  "form.err_mobile": "Add a mobile number, or clear the text message box.",
+  "form.err_sector": "Select a sector.",
+  "form.err_send": "That did not send. Please write to team@thecapitalrow.com.",
+  "conv.err_sector_buyer": "Choose at least one sector you target.",
+  "conv.ok_buyer": "Your acquisition criteria have been received. Capital Row will review your thesis and contact you at {email} about opportunities that fit.",
+  "conv.ok_other": "Your request has been received. Capital Row will review the details and contact you at {email}.",
+  "bb.err_kind": "Choose your buyer type.",
+  "bb.err_range": "A minimum is larger than its maximum. Check the ranges.",
+  "bb.err_profit": "Choose a profitability requirement.",
+  "bb.err_timing": "Choose an acquisition timeline.",
+  "bb.err_funding": "Choose a funding status.",
+  "bb.ok": "Your acquisition criteria have been received. Capital Row will review your thesis and contact you about opportunities that fit.",
+  "pma.ok": "Received. We will reply from team@thecapitalrow.com within one business day.",
+  "seat.ok": "Your seat is reserved for the owner session on Wednesday, January 20, 2027, at 10:00 am Pacific (1:00 pm Eastern), 45 minutes, live online. The session link and the playbook will come from team@thecapitalrow.com.",
+  "report.err_reason": "Choose the main reason it ended.",
+  "report.ok": "Received. Thank you. We publish nothing that identifies you, the buyer or the business.",
+  "cc.ok_call": "Your financing request has been received for review. The next step is a call with our team: pick a time below.",
+  "cc.ok_email": "Your financing request has been received for review. We will reply by email within one business day.",
+  "cc.err_revenue": "Select your annual revenue.",
+  "cc.err_purpose": "Select what the capital is for.",
+  "follow.err_sector": "Choose at least one sector to continue.",
+  "follow.ok": "You are following {sectors}. You will receive relevant market and transaction updates for these sectors.",
+  "vc.err_revenue": "Enter your revenue for the last twelve months.",
+  "vc.err_earnings": "Enter your adjusted earnings for the last twelve months, above zero.",
+  "vc.err_earnings_revenue": "Adjusted earnings are larger than revenue. Check both numbers.",
+  "vc.err_missing": "Answer every question. Missing: ",
+  "vc.err_company": "Add your company name.",
+  "vc.err_role": "Select your role.",
+  "vc.err_first": "Add your first name.",
+  "vc.err_last": "Add your last name.",
+  "vc.err_when": "Select when you plan to sell.",
+  "vc.ok": "Your answers are with us. We will follow up from team@thecapitalrow.com.",
+  "vc.err_send": "We could not save your details. Please write to team@thecapitalrow.com if you would like us to follow up.",
+  "vc.paused_title": "A services estimate is not shown at the moment",
+  "vc.paused_body": "We have paused the services estimate while we review the published figures behind it. Your answers are below, and a Pre-Market Assessment gives you a view built from your own numbers.",
+  "ui.select_one": "Select one",
+  "conv.kind_first": "Select the side of the table first",
+  "bc.select_industry": "Select an industry",
+  "picker.search": "Search sectors",
+  "picker.other": "Another sector, not listed",
+  "picker.other_which": "Which sector",
+  "picker.chosen": "{n} chosen",
+  "bb.no_min": "no minimum",
+  "bb.no_max": "no maximum",
+  "bb.to": "to",
+  "bb.sum.buyer_type": "Buyer type",
+  "bb.sum.approach": "Acquisition approach",
+  "bb.sum.ownership": "Ownership",
+  "bb.sum.sectors_personal": "Sectors, personal",
+  "bb.sum.sectors_firm": "Sectors, firm",
+  "bb.sum.company_types": "Target company types",
+  "bb.sum.headquarters": "Headquarters",
+  "bb.sum.customer_markets": "Customer markets",
+  "bb.sum.revenue": "Annual revenue, trailing twelve months",
+  "bb.sum.arr": "ARR, current run rate",
+  "bb.sum.ebitda": "Adjusted EBITDA, trailing twelve months",
+  "bb.sum.ev": "Enterprise value",
+  "bb.sum.equity": "Equity investment",
+  "bb.sum.profitability": "Profitability",
+  "bb.sum.revenue_model": "Revenue model",
+  "bb.sum.recurring": "Recurring",
+  "bb.sum.regulated": "Regulated",
+  "bb.sum.founder": "Founder",
+  "bb.sum.timeline": "Timeline",
+  "bb.sum.funding": "Funding",
+  "bb.sum.exclusions": "Exclusions",
+  "help.vchowd": "A name, an event, a publication",
+  "help.bb_web": "example.com",
+  "help.bb_geod": "For example: Texas, the Southeast, Ontario",
+  "help.bb_excl": "Sectors, geographies, models or deal conditions you avoid",
+  "help.bb_rev_min": "Minimum",
+  "help.bb_rev_max": "Maximum",
+  "help.bb_arr_min": "Minimum",
+  "help.bb_arr_max": "Maximum",
+  "help.bb_ebitda_min": "Minimum",
+  "help.bb_ebitda_max": "Maximum",
+  "help.bb_ev_min": "Minimum",
+  "help.bb_ev_max": "Maximum",
+  "help.bb_eq_min": "Minimum",
+  "help.bb_eq_max": "Maximum",
+  "help.bcm": "Leave blank to estimate",
+  "help.snem": "Work email",
+  "help.ccdebt": "For example: a bank line, an SBA loan, large receivables, equipment",
+  "conv.label.none.kind": "What kind",
+  "conv.label.none.sectors": "Sectors you serve",
+  "conv.label.none.band": "Annual recurring revenue",
+  "conv.label.Seller.kind": "Company type",
+  "conv.label.Seller.sectors": "Sectors you serve",
+  "conv.label.Seller.band": "Annual recurring revenue",
+  "conv.label.Buyer.kind": "Buyer type",
+  "conv.label.Buyer.sectors": "Sectors you personally target",
+  "conv.label.Buyer.band": "Annual recurring revenue you buy at",
+  "conv.label.Advisor.kind": "What kind of advisor",
+  "conv.label.Advisor.sectors": "Your client’s sectors",
+  "conv.label.Advisor.band": "Your client’s annual recurring revenue",
+  "conv.label.Lender.kind": "What kind of lender",
+  "conv.label.Lender.sectors": "Sectors you lend into",
+  "conv.label.Lender.band": "Annual recurring revenue of the borrowers you lend to",
+  "conv.copy.none.headline": "Tell us what you are working on.",
+  "conv.copy.none.intro": "Name the vertical and where you need clarity. A person reads it, usually the same day, and will say plainly if there is no fit.",
+  "conv.copy.none.message": "What are you trying to work out?",
+  "conv.copy.Seller.headline": "Find out what a buyer will find, while you can still <em>change</em> it.",
+  "conv.copy.Seller.intro": "Tell us about the business and your timing. Read by a person, usually the same day.",
+  "conv.copy.Seller.message": "Are you heading for an exit, or building toward one?",
+  "conv.copy.Buyer.headline": "Tell us your acquisition thesis.",
+  "conv.copy.Buyer.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.Buyer.message": "Your thesis in a few lines, optional",
+  "conv.copy.Advisor.headline": "Your client, your engagement, our record.",
+  "conv.copy.Advisor.intro": "Non-attest work only. If your client needs an audit, review, compilation or attestation, that goes to an independent firm.",
+  "conv.copy.Advisor.message": "What does your client need, and what is the timing?",
+  "conv.copy.Services.headline": "Different engagement, same evidence.",
+  "conv.copy.Services.intro": "A one-time engagement on your own business, scoped on its own, using the same evidence standard a buyer will apply. Tell us what you are working out.",
+  "conv.copy.Services.message": "What are you working out, and on what timeline?",
+  "conv.copy.Hybrid models.headline": "The services line is where the multiple is won or lost.",
+  "conv.copy.Hybrid models.intro": "A services arm is not a problem, but it is the first thing a buyer separates out, and the split decides whether you are priced as software or as a services business with a product. That is a conversation worth having early.",
+  "conv.copy.Hybrid models.message": "How much of revenue is services, and is it recurring?",
+  "conv.copy.Strategic.headline": "You are buying into an industry you do not run. We do.",
+  "conv.copy.Strategic.intro": "A dedicated search in one sector, with the end-market read a corporate development team cannot staff for. The first conversation is about your criteria and the sectors that match them.",
+  "conv.copy.Strategic.message": "Which market are you entering, and what is the timeline?",
+  "conv.copy.PE platform.headline": "Tell us your acquisition thesis.",
+  "conv.copy.PE platform.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.PE platform.message": "Your thesis and fund timeline, optional",
+  "conv.copy.PE portfolio company (add-on).headline": "Tell us your acquisition thesis.",
+  "conv.copy.PE portfolio company (add-on).intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.PE portfolio company (add-on).message": "Your thesis and fund timeline, optional",
+  "conv.copy.Private equity fund (no platform identified).headline": "Tell us your acquisition thesis.",
+  "conv.copy.Private equity fund (no platform identified).intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.Private equity fund (no platform identified).message": "Your thesis and fund timeline, optional",
+  "conv.copy.Independent sponsor or search fund.headline": "One transaction, and one chance to get the evidence right.",
+  "conv.copy.Independent sponsor or search fund.intro": "For a single transaction, we run the evidence on a target before a letter is priced.",
+  "conv.copy.Independent sponsor or search fund.message": "What are you looking at, and where are you in the process?",
+  "conv.copy.Lender.headline": "Discuss your lending criteria.",
+  "conv.copy.Lender.intro": "Tell us what you lend against, the loan sizes you prefer and the sectors you lend into. We can also discuss the evidence a borrower has assembled and the questions it helps answer.",
+  "conv.copy.Lender.message": "Your lending criteria, or the file you have in mind",
+  "help.howd": "A name, an event, a publication",
+  "help.ln_loan_min": "Minimum",
+  "help.ln_loan_max": "Maximum",
+  "help.pqqoeby": "The firm, or the kind of firm",
+  "help.bdqoeby": "Year, and the firm or the kind of firm",
+  "form.err_lead": "Choose which brings in more revenue.",
+  "cc.err_arr": "Select your annual recurring revenue."
+ }
+}

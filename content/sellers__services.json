@@ -107,12 +107,12 @@
     {
      "key": "market.3",
      "kind": "Paragraph",
-     "text": "earnings is the median for business services companies in the $1M to $5M band. <em>In the $10M to $25M band it is 7.5 times.</em>"
+     "text": "earnings is the median for business services companies with $1M to $4.99M of earnings. <em>With $10M to $24.99M of earnings it is 7.5 times.</em>"
     },
     {
      "key": "market.4",
      "kind": "Note",
-     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report, published July 2, 2026: investment banker survey, 43 respondents, deployed January 2026. Median multiples of recast EBITDA by size band."
+     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report (Spring 2026), Table 31, page 66: investment banker survey, 43 respondents, deployed January 2026, transactions closed in the prior twelve months. Median multiples of earnings before interest, tax, depreciation and amortization, by the company’s own earnings, not deal size."
     }
    ]
   },
@@ -143,7 +143,7 @@
     {
      "key": "evidence.5",
      "kind": "Text",
-     "text": "Information technology, same $1M to $5M band, same survey"
+     "text": "Information technology, same $1M to $4.99M earnings band, same survey"
     },
     {
      "key": "evidence.6",
@@ -182,23 +182,8 @@
     },
     {
      "key": "evidence.13",
-     "kind": "Text",
-     "text": "5.8x"
-    },
-    {
-     "key": "evidence.14",
-     "kind": "Text",
-     "text": "Median multiple at $5M to $50M of enterprise value, Q2 2026"
-    },
-    {
-     "key": "evidence.15",
-     "kind": "Text",
-     "text": "From 255 advisors reporting 181 closed deals."
-    },
-    {
-     "key": "evidence.16",
      "kind": "Note",
-     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report, July 2, 2026. An M&A advisory firm’s analysis of a transaction database, July to August 2026. GF Data, January 27, 2026, nine months of 2025. IBBA and M&A Source, Market Pulse, Q2 2026. The survey and the database measure different things and are not reconciled here."
+     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report (Spring 2026), Table 31. An M&A advisory firm’s analysis of a transaction database, July to August 2026. GF Data, January 27, 2026, nine months of 2025. The survey and the database measure different things and are not reconciled here."
     }
    ]
   },
@@ -537,7 +522,7 @@
     {
      "key": "how.6",
      "kind": "Paragraph",
-     "text": "Starts with an agreed information request under a signed NDA. Scope and fee are set in writing before any work begins."
+     "text": "Starts with an agreed information request under a signed NDA. Scope is agreed in writing before any work begins."
     },
     {
      "key": "how.7",
@@ -740,7 +725,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure is traced to a source document, every adjustment is marked supported or unsupported, and the findings are yours to keep."
     },
     {
      "key": "next.3",
@@ -750,7 +735,7 @@
     {
      "key": "next.4",
      "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+     "text": "Scope is agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
      "key": "next.5",

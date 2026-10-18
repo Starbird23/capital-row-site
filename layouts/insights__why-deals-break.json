@@ -1316,544 +1316,12 @@
   },
   "sh.sn.4": {
    "kind": "Form label",
-   "tag": "legend",
+   "tag": "label",
    "cls": "vh",
    "tags": [],
    "section": "sn"
   },
   "sh.sn.5": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.6": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.7": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.8": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.10": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.12": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.13": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.14": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.15": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.16": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.17": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.18": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.19": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.20": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.21": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.22": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.23": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.24": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.25": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.26": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.27": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.28": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.29": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.30": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.31": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.32": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.33": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.34": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.35": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.36": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.37": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.38": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.39": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.40": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.41": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.42": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.43": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.44": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.45": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.46": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.47": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.48": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.49": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.50": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.51": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.52": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.53": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.54": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.55": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.56": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.57": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.58": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.59": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.60": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.61": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.62": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.63": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.64": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.65": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.66": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.67": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.68": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.69": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.70": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.71": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.72": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.73": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.74": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.75": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.76": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.77": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.78": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.79": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "vh",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.80": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "vh",
-   "tags": [],
-   "section": "sn"
-  },
-  "sh.sn.81": {
    "kind": "Button",
    "tag": "button",
    "cls": "snb",
@@ -1917,9 +1385,9 @@
    "section": "valuation"
   },
   "sh.valuation.7": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "vcnote",
    "tags": [],
    "section": "valuation"
   },
@@ -1931,16 +1399,16 @@
    "section": "valuation"
   },
   "sh.valuation.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "vctip",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.10": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Text",
+   "tag": "span",
+   "cls": "vctip",
    "tags": [],
    "section": "valuation"
   },
@@ -1994,16 +1462,16 @@
    "section": "valuation"
   },
   "sh.valuation.18": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "vcbtn",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.19": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcbtn",
    "tags": [],
    "section": "valuation"
   },
@@ -2057,20 +1525,34 @@
    "section": "valuation"
   },
   "sh.valuation.27": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.28": {
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.29": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.28": {
+  "sh.valuation.30": {
    "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.29": {
+  "sh.valuation.31": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -2080,7 +1562,7 @@
    ],
    "section": "valuation"
   },
-  "sh.valuation.30": {
+  "sh.valuation.32": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "vcnote2",
@@ -2089,69 +1571,55 @@
    ],
    "section": "valuation"
   },
-  "sh.valuation.31": {
+  "sh.valuation.33": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcback",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.32": {
+  "sh.valuation.34": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcbtn",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.33": {
-   "kind": "Small label",
-   "tag": "p",
-   "cls": "vclab",
-   "tags": [],
-   "section": "valuation"
-  },
-  "sh.valuation.34": {
-   "kind": "Small label",
-   "tag": "p",
-   "cls": "vclab",
-   "tags": [],
-   "section": "valuation"
-  },
   "sh.valuation.35": {
-   "kind": "Paragraph",
+   "kind": "Small label",
    "tag": "p",
-   "cls": "",
+   "cls": "vclab",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.36": {
-   "kind": "Button",
-   "tag": "a",
-   "cls": "vcbtn",
+   "kind": "Small label",
+   "tag": "p",
+   "cls": "vclab",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.37": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "vcmicro",
-   "tags": [
-    "<a href=\"../../pre-market-assessment/index.html#request\" id=\"vcpma\">"
-   ],
+   "cls": "",
+   "tags": [],
    "section": "valuation"
   },
   "sh.valuation.38": {
-   "kind": "Text",
-   "tag": "u",
-   "cls": "",
+   "kind": "Button",
+   "tag": "a",
+   "cls": "vcbtn",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.39": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "",
-   "tags": [],
+   "cls": "vcmicro",
+   "tags": [
+    "<a href=\"../../pre-market-assessment/index.html#request\" id=\"vcpma\">"
+   ],
    "section": "valuation"
   },
   "sh.valuation.40": {
@@ -2183,24 +1651,63 @@
    "section": "valuation"
   },
   "sh.valuation.44": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.45": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.46": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcback",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.45": {
+  "sh.valuation.47": {
    "kind": "Note",
    "tag": "p",
    "cls": "vcfine",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.46": {
-   "kind": "Note",
-   "tag": "p",
-   "cls": "vcsrc",
+  "sh.valuation.48": {
+   "kind": "Text",
+   "tag": "summary",
+   "cls": "",
    "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.49": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.51": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
+   ],
    "section": "valuation"
   },
   "sh.ck.1": {

@@ -1890,7 +1890,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .klist.dark li:before{content:"";width:3px;height:26px;background:#C79A5C;border-radius:1px;margin-left:18px}
 .dndeck.open .dnc{animation:dnin .5s ease both}
 @keyframes dnin{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.fine{font-size:11.5px;line-height:1.6;color:var(--ink3);margin:14px 0 0;text-align:center}.fine a{color:var(--ink3)}
+.fine{font-size:11.5px;line-height:1.6;color:var(--ink3);margin:14px auto 0;text-align:center}.fine a{color:var(--ink3)}
 .ctamicro{font-size:15px;line-height:1.7}.ctamicro a{font-weight:500}
 .figpage .src.cen{margin-top:26px}
 .tabs.intel{margin:34px auto 0;max-width:1100px}
@@ -1903,7 +1903,97 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .tgo{min-height:0}
 .ghostcta{margin-top:16px}
 @media(max-width:560px){.bigcta+.bigcta,.bigcta+br+.bigcta{margin-top:16px}}
+.bdfrm .fine{margin-left:0;margin-right:0;max-width:none;text-align:left}
+.secs{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;padding:4px 0 0}
+.fld .secs label.ckl{display:flex;align-items:flex-start;gap:12px;min-height:40px;padding:6px 0;margin:0;font-family:var(--sans);font-size:14px;letter-spacing:0;text-transform:none;line-height:1.45;color:var(--ink2);cursor:pointer}
+.fld.answered .secs label.ckl:after{content:none}
+.secs .secnote{grid-column:1/-1;font-family:var(--sans);font-size:15px;color:var(--ink3);padding:12px 0 10px;margin:0}
+@media(max-width:560px){.secs{grid-template-columns:1fr}}
+.vcfld input,.vcfld select{display:block;width:100%;min-height:48px;padding:9px 2px;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;font-family:var(--sans);font-size:16px;font-weight:300;color:var(--ink);transition:border-color .25s}
+.vcfld input:focus,.vcfld select:focus{outline:0;border-bottom-color:var(--teal)}
+.vcmoney input{padding-left:22px}.vcmoney i{left:2px}
+.vcnote{max-width:70ch;margin:10px auto 0;text-align:center;font-size:13px;line-height:1.6;color:var(--ink3)}
+.vcfine{font-size:14px;line-height:1.6;color:var(--ink2)}
+.vcsrcd{max-width:78ch;margin:12px auto 0;text-align:left;font-size:12.5px;line-height:1.65;color:var(--ink3)}
+.vcsrcd summary{cursor:pointer;color:var(--teal);text-align:center;min-height:44px;display:flex;align-items:center;justify-content:center}
+.vcsrcd p{margin:8px 0 0}.vcsrcd a{color:var(--teal)}
+.spq{width:100%;min-height:44px;padding:9px 2px;border:0;border-bottom:1px solid var(--line);background:transparent;font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink);border-radius:0;margin-bottom:6px}
+.spq:focus{outline:0;border-bottom-color:var(--teal)}
+.spchips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}.spchips:empty{display:none}
+.spchip{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:4px 10px 4px 12px;border:1px solid var(--line);border-radius:16px;font-family:var(--sans);font-size:13px;color:var(--ink2);background:var(--card)}
+.spchip button{-webkit-appearance:none;appearance:none;border:0;background:none;font:inherit;font-size:16px;line-height:1;color:var(--ink3);cursor:pointer;width:28px;height:28px;margin:-4px -8px -4px 0;border-radius:50%}
+.spchip button:hover{color:var(--ink)}
+.spg{border-top:1px solid var(--hair)}.spg:last-child{border-bottom:1px solid var(--hair)}.spg[hidden]{display:none}
+.spgt{-webkit-appearance:none;appearance:none;display:flex;align-items:center;width:100%;min-height:44px;padding:8px 2px;border:0;background:none;font-family:var(--sans);font-size:14.5px;font-weight:400;color:var(--ink);cursor:pointer;text-align:left}
+.spgt i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--teal);margin-left:auto;margin-right:12px}
+.spgt:after{content:"";width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);transition:transform .2s;margin-right:6px;flex:0 0 auto;color:var(--ink3)}
+.spg.open .spgt:after{transform:rotate(-135deg)}
+.spl{display:grid;grid-template-columns:1fr 1fr;gap:0 18px;padding:0 0 8px}.spl[hidden]{display:none}
+.spg.other{padding:4px 0}.spoth{width:100%;min-height:44px;padding:8px 2px;border:0;border-bottom:1px solid var(--line);background:transparent;font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink);border-radius:0}
+.fld .secpick label.ckl,.vcfld .secpick label.ckl,.fld .cks label.ckl{display:flex;align-items:flex-start;gap:12px;min-height:40px;padding:6px 0;margin:0;font-family:var(--sans);font-size:14px;letter-spacing:0;text-transform:none;line-height:1.45;color:var(--ink2);cursor:pointer}
+.fld .secpick label.ckl[hidden]{display:none}
+.fld.answered .secpick label.ckl:after,.fld.answered .cks label.ckl:after,.fld.answered .rngck label.ckl:after{content:none}
+.ckl input{width:18px;height:18px;min-height:0;margin:2px 0 0;padding:0;flex:0 0 auto;accent-color:var(--teal);border:0;background:none}
+@media(max-width:560px){.spl{grid-template-columns:1fr}}
+.sng b{display:flex;align-items:center;cursor:pointer;min-height:44px;margin:0;padding:4px 0}
+.sng b i{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--teal);margin-left:auto;margin-right:12px;opacity:.85}
+.sng b:after{content:"";width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);transition:transform .2s;margin-right:6px;flex:0 0 auto}
+.sng.open b:after{transform:rotate(-135deg)}
+.sng:not(.open) label{display:none}
+.snq{width:100%;min-height:44px;padding:8px 10px;border:1px solid var(--line);border-radius:2px;background:var(--card);font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink);margin:0 0 8px}
+.bbh{grid-column:1/-1;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin:18px 0 2px;padding-top:14px;border-top:1px solid var(--hair)}
+.rng{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.rng .vcmoney{position:relative}.rng .vcmoney i{position:absolute;left:2px;top:14px;font-family:var(--sans);font-weight:300;color:var(--ink3)}
+.rng input{width:100%;background:transparent;border:0;border-bottom:1px solid var(--line);padding:9px 2px 9px 18px;min-height:48px;font-family:var(--sans);font-size:16px;font-weight:300;color:var(--ink);border-radius:0}
+.rng input:focus{outline:0;border-bottom-color:var(--teal)}.rng input:disabled{opacity:.45}
+.rngck{display:flex;gap:18px;flex-wrap:wrap}.fld .rngck label.ckl{display:flex;align-items:center;gap:10px;min-height:36px;padding:4px 0;margin:0;font-family:var(--sans);font-size:13px;letter-spacing:0;text-transform:none;color:var(--ink3);cursor:pointer}
+.cks{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}@media(max-width:560px){.cks,.rng{grid-template-columns:1fr}}
+.bbsum{border:1px solid var(--line);padding:16px 18px;margin:18px 0 4px;background:var(--card)}.bbsum b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:8px}
+.bbsum ul{margin:0;padding:0;list-style:none;font-family:var(--sans);font-size:14px;line-height:1.6;color:var(--ink2)}.bbsum li span{color:var(--ink3)}
+.fine{margin:14px auto 0}.bdfrm .fine,#f .fine{margin-left:0;margin-right:0;max-width:none;text-align:left}
+.ocnote{max-width:70ch;margin:0 auto 14px;text-align:center;font-size:13px;line-height:1.6;color:var(--ink3)}
+#lendbox,#advbox,#sellbox{display:contents}
+.vcref p{font-style:italic}.vcref .vccard{opacity:.78}
+.vcgrid{align-items:start}.vcgrid .vcwide{grid-column:1/-1}.vcpickw{margin-top:6px}
+.sn{max-height:calc(100vh - var(--ckh,0px) - 200px);overflow:auto;overscroll-behavior:contain}@media(max-width:700px){.sn{max-height:calc(100vh - var(--ckh,0px) - 175px)}}
+.vcnote{margin-bottom:16px}
+.sn .secpick{margin:0 0 10px}.sn .spl{grid-template-columns:1fr}.sn .spgt{font-size:14px}.sn .spq{font-size:14px}
+.bdfrm details.more{grid-column:1/-1;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);margin:6px 0 4px}
+.bdfrm details.more>summary{display:flex;align-items:center;min-height:48px;cursor:pointer;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);list-style:none}
+.bdfrm details.more>summary::-webkit-details-marker{display:none}
+.bdfrm details.more>summary:after{content:"";width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-left:auto;margin-right:6px;transition:transform .2s}
+.bdfrm details.more[open]>summary:after{transform:rotate(-135deg)}
+.bdfrm .moregrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 28px;padding:4px 0 14px}.bdfrm .moregrid .wide{grid-column:1/-1}
+@media(max-width:700px){.bdfrm .moregrid{grid-template-columns:minmax(0,1fr)}}
+.vcgrid .vcfld[hidden],.frm .fld[hidden],.bdfrm .fld[hidden]{display:none}
 </style></head><body>
+<script type="application/json" id="crforms">{{forms:json}}</script>
+<script>
+(function() {
+ var e = document.getElementById("crforms");
+ try {
+  window.CRF = JSON.parse(e.textContent);
+ } catch (x) {
+  window.CRF = {
+   tax: [],
+   lists: {},
+   text: {}
+  };
+ }
+})();
+
+window.CRM = function(k, v) {
+ var t = (CRF.text || {})[k];
+ if (t == null) t = "";
+ return v ? String(t).replace(/\{(\w+)\}/g, (function(m, n) {
+  return v[n] != null ? v[n] : m;
+ })) : t;
+};
+
+window.crSafe = function(s) {
+ return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/&lt;(\/?)(em|b)&gt;/g, "<$1$2>").replace(/&lt;br\s*\/?&gt;/g, "<br>");
+};
+</script>
+
 <a id="top"></a>
 <div class="osbar"><div class="wrap"><span class="ost"><b>{{sh.osbar.1}}</b><span class="osm"> {{sh.osbar.2}}</span><span class="osp"> {{sh.osbar.3}}</span></span><a class="osgo" href="#stf">{{sh.osbar.4}}</a></div></div>
 <div class="mast"><div class="wrap">
@@ -1981,12 +2071,13 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
  <div class="ac"><u>{{reserve.11}}</u><b>{{reserve.12}}</b></div>
  <div class="ac"><u>{{reserve.13}}</u><b>{{reserve.14}}</b></div>
 </div>
+<p class="sd cen" style="margin-top:14px;font-size:14.5px">{{reserve.15}}</p>
 <form class="bdfrm" id="stf" novalidate>
-<div class="fld"><label for="stnm">{{reserve.15}}</label><input id="stnm" name="name" required autocomplete="name"></div>
-<div class="fld"><label for="stem">{{reserve.16}}</label><input id="stem" name="email" type="email" required autocomplete="email"></div>
-<div class="fld"><label for="stco">{{reserve.17}}</label><input id="stco" name="organization" autocomplete="organization"></div>
-<div class="fld"><label for="strole">{{reserve.18}}</label><select id="strole"><option value="">Select one</option><option>An owner</option><option>A CPA or accountant</option><option>An advisor to owners</option><option>A buyer or lender</option><option>Other</option></select></div>
-<div class="fld"><label for="stsec_ind">{{reserve.19}}</label><select id="stsec_ind" name="industry" data-ind-for="stsec"><option value="">Select one</option><option value="hc">Healthcare</option><option value="fin">Financial services</option><option value="built">Construction, real estate &amp; field services</option><option value="fleet">Transportation &amp; logistics</option><option value="tech">Technology services</option><option value="mfg">Manufacturing</option><option value="hosp">Hospitality</option><option value="retail">Retail &amp; automotive</option><option value="prof">Legal &amp; professional services</option><option value="gov">Government</option><option value="other">Another industry</option></select></div><div class="fld"><label for="stsec">{{reserve.20}}</label><select id="stsec" name="sector" disabled><option value="">Select the industry first</option></select></div>
+<div class="fld"><label for="stnm">{{reserve.16}}</label><input id="stnm" name="name" required autocomplete="name"></div>
+<div class="fld"><label for="stem">{{reserve.17}}</label><input id="stem" name="email" type="email" required autocomplete="email"></div>
+<div class="fld"><label for="stco">{{reserve.18}}</label><input id="stco" name="organization" autocomplete="organization"></div>
+<div class="fld"><label for="strole">{{reserve.19}}</label><select id="strole" data-list="strole"></select></div>
+<div class="fld wide"><label>{{reserve.20}}</label><div class="secpick" id="stsec" data-secpick="1"></div></div>
 <div class="fld"><label for="stph">{{reserve.21}}</label><input id="stph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
 <div class="fld wide"><label for="stq">{{reserve.22}}</label><textarea id="stq"></textarea></div>
 <label class="smsok wide" for="stsms"><input type="checkbox" id="stsms" value="yes"><span id="stsmstext">{{reserve.23}} <b class="opt">{{reserve.24}}</b> {{reserve.25}}</span></label>
@@ -2073,29 +2164,48 @@ function bookLink() {
 (function() {
  var sel = document.getElementById("seat"), kind = document.getElementById("kind"), h = document.getElementById("ch"), d = document.getElementById("cd"), ml = document.getElementById("ml"), vl = document.getElementById("vl"), bl = document.getElementById("bl"), kl = document.getElementById("kl");
  if (!sel || !kind || !h || !d) return;
+ var KLABEL = {
+  "Vertical software, SaaS": "Vertical software",
+  "Hybrid models": "Software + services"
+ };
  var KINDS = {
   Seller: [ "Vertical software, SaaS", "Services", "Hybrid models" ],
   Buyer: [ "Permanent capital or family office", "Private equity or platform", "Strategic acquirer", "Independent sponsor", "Lender or financing partner" ],
   Advisor: [ "CPA or accountant", "Attorney", "Investment banker or M&A advisor", "Wealth or family office advisor", "Operating or management consultant" ]
  };
  var L = {
-  "": [ "What kind", "What vertical do you serve", "Recurring revenue" ],
-  Seller: [ "What do you sell", "What vertical do you serve", "Your recurring revenue" ],
-  Buyer: [ "What kind of buyer", "What vertical are you targeting", "Recurring revenue you buy at" ],
-  Advisor: [ "What kind of advisor", "Your client&rsquo;s vertical", "Your client&rsquo;s recurring revenue" ]
+  "": [ "What kind", "Sectors you serve", "Annual recurring revenue" ],
+  Seller: [ "Type of business", "Sectors you serve", "Annual recurring revenue" ],
+  Buyer: [ "Organization type", "Sectors you personally target", "Annual recurring revenue you buy at" ],
+  Advisor: [ "What kind of advisor", "Your client&rsquo;s sectors", "Your client&rsquo;s annual recurring revenue" ]
  };
  var M = {
   "": [ "Tell us what you are working on.", "Name the vertical and where you need clarity. A person reads it, usually the same day, and will say plainly if there is no fit.", "What are you trying to work out" ],
-  Seller: [ "Find out what a buyer will find, while you can still change it.", "Tell us about the business and your timing. Scope and fee are agreed in writing before any work begins. Read by a person, usually the same day.", "Are you heading for an exit, or building toward one" ],
-  Buyer: [ "Tell us your acquisition criteria.", "Criteria on file is non-exclusive, at no fee. A retained search is by exception, one buyer per sector, with scope and fee agreed in writing. The first conversation is about your criteria and the sectors that match them.", "Tell us what you buy: sector, size and structure" ],
-  Advisor: [ "Your client, your engagement, our record.", "Non-attest work only. We take no fee of any kind on attested work, in any direction. If your client needs an audit, review, compilation or attestation, that goes to an independent firm and we take nothing on it.", "What does your client need, and what is the timing" ],
-  Services: [ "Different engagement, same evidence.", "A one-time engagement on your own business, scoped and priced on its own, using the same evidence standard a buyer will apply. Tell us what you are working out.", "What are you working out, and on what timeline" ],
+  Seller: [ "Find out what a buyer will find, while you can still change it.", "Tell us about the business and your timing. Read by a person, usually the same day.", "Are you heading for an exit, or building toward one" ],
+  Buyer: [ "Tell us your acquisition thesis.", "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.", "Your thesis in a few lines, optional" ],
+  Advisor: [ "Your client, your engagement, our record.", "Non-attest work only. If your client needs an audit, review, compilation or attestation, that goes to an independent firm.", "What does your client need, and what is the timing" ],
+  Services: [ "Different engagement, same evidence.", "A one-time engagement on your own business, scoped on its own, using the same evidence standard a buyer will apply. Tell us what you are working out.", "What are you working out, and on what timeline" ],
   "Hybrid models": [ "The services line is where the multiple is won or lost.", "A services arm is not a problem, but it is the first thing a buyer separates out, and the split decides whether you are priced as software or as a services business with a product. That is a conversation worth having early.", "How much of revenue is services, and is it recurring" ],
-  "Private equity or platform": [ "Tell us your acquisition criteria.", "Criteria on file is non-exclusive, at no fee. A retained search is by exception, one buyer per sector, with scope and fee agreed in writing. The first conversation is about your thesis and the sectors that match it.", "Which thesis are you filling, and what is the fund clock" ],
-  "Strategic acquirer": [ "You are buying into an industry you do not run. We do.", "A retained search in one sector, exclusive to you in that sector, with the end-market read a corporate development team cannot staff for. The first conversation is about your criteria and the sectors that match them.", "Which market are you entering, and what is the timeline" ],
+  "Private equity fund": [ "Tell us your acquisition thesis.", "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.", "Which thesis are you filling, and the fund clock, optional" ],
+  "Search fund": [ "Tell us your search criteria.", "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.", "What you are searching for, and your timeline, optional" ],
+  "Strategic acquirer": [ "You are buying into an industry you do not run. We do.", "A dedicated search in one sector, with the end-market read a corporate development team cannot staff for. The first conversation is about your criteria and the sectors that match them.", "Which market are you entering, and what is the timeline" ],
   "Independent sponsor": [ "One transaction, and one chance to get the evidence right.", "For a single transaction, we run the evidence on a target before a letter is priced.", "What are you looking at, and where are you in the process" ],
   "Lender or financing partner": [ "Happy to talk. One thing stated up front.", "We can discuss the evidence a borrower has assembled and the questions it helps answer. Any lender-required valuation or assurance work is separately scoped and commissioned.", "What are you trying to establish, and on which file" ]
  };
+ function bands() {
+  var s = sel.value, k = kind.value, bw = document.getElementById("bandw"), rw = document.getElementById("rbandw"), lw = document.getElementById("leadw");
+  if (!bw || !rw || !lw) return;
+  var own = s === "Seller", sw = k === "Vertical software, SaaS" || k === "Hybrid models";
+  var show = [ [ bw, own ? sw : s !== "Buyer" ], [ rw, own && k !== "Vertical software, SaaS" ], [ lw, own && k === "Hybrid models" ] ];
+  show.forEach((function(p) {
+   p[0].hidden = !p[1];
+   if (!p[1]) {
+    var x = p[0].querySelector("select");
+    if (x) x.value = "";
+   }
+  }));
+ }
+ window.crBands = bands;
  function fillKinds() {
   var k = sel.value, list = KINDS[k] || [];
   kind.innerHTML = "";
@@ -2105,7 +2215,8 @@ function bookLink() {
   kind.appendChild(o);
   for (var i = 0; i < list.length; i++) {
    var x = document.createElement("option");
-   x.textContent = list[i];
+   x.value = list[i];
+   x.textContent = KLABEL[list[i]] || list[i];
    kind.appendChild(x);
   }
  }
@@ -2135,11 +2246,21 @@ function bookLink() {
   labels();
   copy();
   bookLink();
+  bands();
  }
  sel.addEventListener("change", seatChanged);
  kind.addEventListener("change", (function() {
   copy();
   bookLink();
+  bands();
+ }));
+ var fm = sel.form;
+ if (fm) fm.addEventListener("reset", (function() {
+  setTimeout((function() {
+   fillKinds();
+   labels();
+   bands();
+  }), 0);
  }));
  Array.prototype.forEach.call(document.querySelectorAll("[data-seat]"), (function(a) {
   a.addEventListener("click", (function() {
@@ -2172,6 +2293,7 @@ function bookLink() {
   if (f) f.classList.remove("answered");
  }));
  fillKinds();
+ bands();
 })();
 
 (function() {
@@ -2268,13 +2390,28 @@ function fieldValues() {
   email: v("em"),
   side: v("seat"),
   kind: v("kind"),
-  vertical: v("vert"),
-  industry: function() {
-   var e = document.getElementById("vert_ind");
-   return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
-  }(),
+  vertical: crSecs("vert"),
+  industry: crInds("vert"),
   recurring_revenue: v("band"),
+  revenue_band: v("rband"),
+  lead: v("lead"),
+  website: v("web"),
   heard_via: v("how"),
+  heard_via_detail: v("howd"),
+  sector_ids: crSecIds("vert"),
+  industry_ids: crIndIds("vert"),
+  updates: function() {
+   var c = document.getElementById("updates");
+   return c && c.checked ? "yes" : "no";
+  }(),
+  ln_purpose: v("ln_purpose"),
+  ln_geo: crSecs("ln_geo"),
+  ln_min: rngv("ln_loan", "min"),
+  ln_max: rngv("ln_loan", "max"),
+  ln_cash: v("ln_cash"),
+  ad_purpose: v("ad_purpose"),
+  ad_client: v("ad_client"),
+  sl_reason: v("sl_reason"),
   message: v("msg"),
   mobile: v("ph"),
   sms_consent: function() {
@@ -2311,7 +2448,7 @@ function go(e) {
  e.preventDefault();
  var d = fieldValues();
  if (d.sms_consent === "yes" && !d.mobile.replace(/\D/g, "")) {
-  formStatus("err", "Add a mobile number, or clear the text message box.");
+  formStatus("err", CRM("form.err_mobile"));
   var p = document.getElementById("ph");
   if (p) p.focus();
   return false;
@@ -2789,14 +2926,6 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
 </script>
 <script>
 var HS = {
- portal: "247329185",
- form: "8e02c346-11f0-4b2d-a17c-a596397264ee",
- seat: "2252081f-64ac-4259-925b-0bd99f4fb517",
- follow: "",
- assess: "",
- deal: "",
- valuation: "",
- cc: "",
  sms_sub: ""
 };
 
@@ -2805,19 +2934,63 @@ function hsId(x) {
 }
 
 function hsFields(kind, d) {
- var f = [], L = [ [ "Form", kind, "cr_form" ] ], free = "";
+ var f = [], L = [ [ "Form", kind, "cr_form" ] ], note = "";
  function has(v) {
   return v !== undefined && v !== null && String(v).trim() !== "";
  }
+ var MULTI_P = {
+  cr_target_geography: 1,
+  cr_lending_geography: 1,
+  cr_customer_markets: 1,
+  cr_ownership: 1,
+  cr_acquisition_approach: 1,
+  cr_target_company_types: 1,
+  cr_revenue_model: 1
+ };
  function add(n, v, ot) {
-  if (has(v)) f.push({
+  if (!has(v)) return;
+  v = String(v).trim();
+  if (MULTI_P[n]) v = v.split(/;\s*/).join(";");
+  f.push({
    objectTypeId: ot || "0-1",
    name: n,
-   value: String(v).trim()
+   value: v
   });
+ }
+ function co(n, v) {
+  add(n, v, "0-2");
  }
  function yn(v) {
   return v === "yes" ? "Yes" : "No";
+ }
+ function tf(v) {
+  return v === "yes" ? "true" : "false";
+ }
+ var CT = {
+  Seller: "seller",
+  Buyer: "buyer",
+  Advisor: "intermediary",
+  Lender: "lender",
+  "Business owner": "seller",
+  "CPA or accountant": "intermediary",
+  "Advisor to owners": "intermediary"
+ };
+ function offering(k, lead) {
+  if (k === "Vertical software, SaaS") return "Pure software / SaaS";
+  if (k === "Services") return "Pure services";
+  if (k === "Hybrid models") return lead === "Software" ? "Software-led hybrid" : lead === "Services" ? "Services-led hybrid" : "";
+  if (k === "Another company type") return "Unknown";
+  return "";
+ }
+ function host(u) {
+  u = String(u || "").trim().toLowerCase();
+  if (!u) return "";
+  u = u.replace(/^[a-z][a-z0-9+.-]*:\/\//, "").replace(/^www\./, "").split(/[\/?#\s]/)[0];
+  return /^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(u) ? u : "";
+ }
+ function lab(k, fb) {
+  var t = CRM(k);
+  return t || fb;
  }
  var nm = (d.name || "").trim(), sp = nm.indexOf(" ");
  add("email", d.email);
@@ -2829,44 +3002,127 @@ function hsFields(kind, d) {
   wording: d.sms_consent_wording
  } : null);
  add("company", d.company);
- add("name", d.company, "0-2");
+ co("name", d.company);
  add("phone", mob);
  add("mobilephone", mob);
  add("cr_sms_consent", sms ? "true" : "false");
  if (kind === "Conversation") {
-  L.push([ "Side", d.side, "cr_side" ], [ "Kind", d.kind, "cr_kind" ], [ "Industry", d.industry, "cr_industry" ], [ "Sector", d.vertical, "cr_sector" ], [ "Recurring revenue", d.recurring_revenue, "cr_revenue_band" ], [ "Heard via", d.heard_via, "cr_heard_via" ]);
-  if (d.side === "Buyer") {
+  var s = d.side || "", own = s === "Seller";
+  L.push([ "Side", s ], [ lab("conv.label." + (s || "none") + ".kind", "Kind"), d.kind ]);
+  add("cr_contact_type", CT[s]);
+  L.push([ "Company website", d.website ]);
+  add("website", d.website);
+  co("domain", host(d.website));
+  if (own) {
+   L.push([ "Which brings in more revenue", d.lead ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.recurring_revenue ]);
+   co("offering_type", offering(d.kind, d.lead));
+   co("revenue_band", d.revenue_band);
+   co("arr_band", d.recurring_revenue);
+  } else L.push([ lab("conv.label." + (s || "none") + ".band", "Annual recurring revenue"), d.recurring_revenue ]);
+  if (s === "Buyer") co("buyer_type", d.kind);
+  if (s === "Advisor" || s === "Lender") add("cr_kind", d.kind);
+  L.push([ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Sector updates", yn(d.updates) ]);
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
+  add("cr_marketing_consent", tf(d.updates));
+  if (own) {
+   L.push([ "Reason for contact", d.sl_reason, "cr_reason" ]);
+  }
+  if (s === "Advisor") {
+   L.push([ "Reason for contact", d.ad_purpose, "cr_reason" ], [ "Client type", d.ad_client, "cr_client_type" ]);
+  }
+  if (s === "Lender") {
+   L.push([ "Reason for contact", d.ln_purpose, "cr_reason" ], [ "Geography", d.ln_geo, "cr_lending_geography" ], [ "Loan size minimum (USD)", d.ln_min ], [ "Loan size maximum (USD)", d.ln_max ], [ "Cash flow appetite", d.ln_cash, "cr_cash_flow_appetite" ]);
+   if (/^\d+$/.test(d.ln_min || "")) add("cr_loan_min", d.ln_min);
+   if (/^\d+$/.test(d.ln_max || "")) add("cr_loan_max", d.ln_max);
+   add("cr_range_flags", [ d.ln_min === "No minimum" ? "Loan size: no minimum" : "", d.ln_max === "No maximum" ? "Loan size: no maximum" : "" ].filter(Boolean).join("; "));
+  }
+  if (s === "Buyer") {
    L.push([ "Criteria on file", yn(d.criteria_on_file) ]);
-   add("cr_criteria_on_file", d.criteria_on_file === "yes" ? "true" : "false");
+   add("cr_criteria_retention_consent", tf(d.criteria_on_file));
   }
-  if (d.side === "Seller" || d.side === "Advisor") {
+  if (own || s === "Advisor") {
    L.push([ "Owner session seat, January 20", yn(d.owner_session) ]);
-   add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
+   add("cr_owner_session", tf(d.owner_session));
   }
-  free = d.message;
+  note = d.message;
+ }
+ if (kind === "Buy box") {
+  add("cr_contact_type", "buyer");
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
+  co("buyer_type", d.kind);
+  co("domain", host(d.website));
+  co("cr_acquisition_approach", d.acquisition_context);
+  co("cr_platform_name", d.platform_name);
+  co("cr_ownership", d.ownership);
+  co("target_verticals", d.firm_sector_ids);
+  co("target_end_markets", d.firm_industry_ids);
+  co("cr_target_company_types", d.business_model);
+  co("cr_target_geography", d.geography);
+  co("cr_target_geography_detail", d.geography_detail);
+  co("cr_customer_markets", d.customer_markets);
+  co("cr_profitability", d.profitability);
+  co("cr_revenue_model", d.revenue_model);
+  co("cr_recurring_pref", d.recurring_pref);
+  co("cr_regulated_appetite", d.regulated);
+  co("cr_owner_after_close", d.owner_after_close);
+  co("cr_timing", d.timing);
+  co("cr_funding_status", d.funding);
+  co("cr_exclusions", d.exclusions);
+  var RN = [ [ "Annual revenue", "cr_rev", d.rev_min, d.rev_max ], [ "ARR", "cr_arr", d.arr_min, d.arr_max ], [ "EBITDA", "cr_ebitda", d.ebitda_min, d.ebitda_max ], [ "Enterprise value", "cr_ev", d.ev_min, d.ev_max ], [ "Equity investment", "cr_equity", d.eq_min, d.eq_max ] ], FL = [];
+  RN.forEach((function(r) {
+   var isn = function(x) {
+    return /^-?\d+$/.test(String(x || ""));
+   };
+   if (isn(r[2])) co(r[1] + "_min", r[2]);
+   if (isn(r[3])) co(r[1] + "_max", r[3]);
+   if (r[2] === "No minimum") FL.push(r[0] + ": no minimum");
+   if (r[3] === "No maximum") FL.push(r[0] + ": no maximum");
+  }));
+  co("cr_target_range_flags", FL.join("; "));
+  add("cr_criteria_retention_consent", "true");
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
+  add("cr_marketing_consent", tf(d.updates));
+  note = d.message;
  }
  if (kind === "Follow a sector") {
-  L.push([ "Sector followed", d.sector, "cr_sector_followed" ]);
+  L.push([ "Sectors followed", d.sector ]);
+  add("cr_sector_followed", crSecIds("snsec"));
+  add("cr_marketing_consent", "true");
  }
  if (kind === "Pre-Market Assessment request") {
-  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Industry", d.industry, "cr_industry" ], [ "Sector", d.sector, "cr_sector" ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
-  add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
+  add("cr_contact_type", "seller");
+  L.push([ "Asking about", d.about ], [ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
+  co("offering_type", offering(d.kind, d.lead));
+  co("revenue_band", d.revenue_band);
+  co("arr_band", d.arr_band);
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
+  add("cr_owner_session", tf(d.owner_session));
   add("cr_details", [ [ "Asking about", d.about ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ] ].filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
    return r[0] + ": " + r[1];
   })).join(" | "));
-  free = d.message;
+  note = d.message;
  }
  if (kind === "Owner session seat") {
-  L.push([ "Side", d.role === "An owner" ? "Seller" : d.role === "A buyer or lender" ? "Buyer" : d.role ? "Advisor" : "", "cr_side" ], [ "I am", d.role, "cr_kind" ], [ "Industry", d.industry, "cr_industry" ], [ "Sector", d.sector, "cr_sector" ], [ "Question", d.message ]);
+  L.push([ "Role", d.role, "cr_kind" ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Question", d.message ]);
+  add("cr_contact_type", CT[d.role] || (d.role === "Buyer" ? "buyer" : d.role === "Lender" ? "lender" : ""));
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
   add("cr_owner_session", "true");
  }
  if (kind === "Bad or broken deal report") {
-  var R = [ [ "Kind of business", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Advisor on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "What went wrong", d.main_reason ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
-  L.push([ "Industry", d.industry, "cr_industry" ], [ "Sector", d.sector, "cr_sector" ]);
+  var R = [ [ "Company type", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Advisor on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "Contributing factors", d.factors ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
+  L.push([ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Main reason", d.main_reason, "cr_main_reason" ]);
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
   L = L.concat(R);
   L.push([ "What I would do differently", d.differently ]);
+  add("cr_recontact_consent", tf(d.contact_ok));
+  add("cr_research_use_consent", tf(d.anonymous_use_ok));
   add("cr_details", R.filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
@@ -2874,8 +3130,12 @@ function hsFields(kind, d) {
   })).join(" | "));
  }
  if (kind === "Valuation calculator") {
-  var V = [ [ "Your role", d.role ], [ "Plans to sell", d.timing ], [ "Industry", d.industry, "cr_industry" ], [ "Annual revenue", d.revenue ], [ "Adjusted earnings", d.earnings ], [ "Earnings growth, last three years", d.growth ], [ "Recurring revenue", d.recurring ], [ "Five largest customers", d.top5 ], [ "Regulated industry", d.regulated ], [ "Role after a sale", d.involvement ], [ "Range shown", d.estimate ] ];
-  L.push([ "Side", "Seller", "cr_side" ], [ "Kind of business", d.kind, "cr_kind" ], [ "Sector", d.sector, "cr_sector" ], [ "Heard via", d.heard_via, "cr_heard_via" ]);
+  var V = [ [ "Your role", d.role ], [ "Plans to sell", d.timing ], [ "Industries", d.industry ], [ "Annual revenue", d.revenue ], [ "Adjusted earnings", d.earnings ], [ "Earnings growth, last three years", d.growth ], [ "Recurring revenue", d.recurring ], [ "Five largest customers", d.top5 ], [ "Regulated industry", d.regulated ], [ "Role after a sale", d.involvement ], [ "Range shown", d.estimate ] ];
+  add("cr_contact_type", d.role === "Advisor to the owner" ? "intermediary" : "seller");
+  co("offering_type", offering(d.kind, d.lead));
+  L.push([ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Sectors", d.sector ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Revenue, trailing twelve months (USD)", d.revenue_raw, "cr_revenue_ltm" ], [ "Adjusted earnings, trailing twelve months (USD)", d.earnings_raw, "cr_adjusted_earnings_ltm" ]);
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
   L = L.concat(V);
   add("cr_details", V.filter((function(r) {
    return has(r[1]);
@@ -2884,9 +3144,15 @@ function hsFields(kind, d) {
   })).join(" | "));
  }
  if (kind === "Capital Connections") {
-  var K = [ [ "Business type", d.business_type ], [ "Annual revenue", d.revenue_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
+  var K = [ [ "Company type", d.business_type ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Headquarters", d.headquarters ], [ "Stage", d.stage ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
   L = L.concat(K);
-  add("cr_revenue_band", d.revenue_band);
+  co("offering_type", offering(d.business_type, d.lead));
+  co("revenue_band", d.revenue_band);
+  co("arr_band", d.arr_band);
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
+  add("cr_headquarters_region", d.headquarters);
+  add("cr_stage", d.stage);
   add("cr_details", K.filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
@@ -2904,7 +3170,7 @@ function hsFields(kind, d) {
  if (has(d.company)) lines.push("Company: " + String(d.company).trim());
  if (has(mob)) lines.push("Mobile: " + String(mob).trim());
  if (kind === "Conversation" || kind === "Pre-Market Assessment request" || kind === "Owner session seat" || kind === "Valuation calculator" || kind === "Capital Connections") lines.push("Text message consent: " + (sms ? "Yes, " + sms.time + ". Wording shown: " + sms.wording : "No"));
- add("message", (has(free) ? String(free).trim() + "\n\n" : "") + lines.join("\n"));
+ add("message", (has(note) ? String(note).trim() + "\n\n" : "") + lines.join("\n"));
  return f;
 }
 
@@ -2938,6 +3204,16 @@ function hsBody(fields, d) {
  return b;
 }
 
+function crHash(s) {
+ var a = 2166136261, b = 2654435761;
+ for (var i = 0; i < s.length; i++) {
+  var c = s.charCodeAt(i);
+  a = Math.imul(a ^ c, 16777619) >>> 0;
+  b = Math.imul(b ^ c, 2246822519) >>> 0;
+ }
+ return ("0000000" + a.toString(16)).slice(-8) + ("0000000" + b.toString(16)).slice(-8) + s.length.toString(16);
+}
+
 function hsSubmit(kind, d, ok, fail) {
  if (window.CR_PREVIEW) {
   setTimeout((function() {
@@ -2945,83 +3221,85 @@ function hsSubmit(kind, d, ok, fail) {
   }), 350);
   return;
  }
- var own = {
-  "Owner session seat": HS.seat,
-  "Follow a sector": HS.follow,
-  "Pre-Market Assessment request": HS.assess,
-  "Bad or broken deal report": HS.deal,
-  "Valuation calculator": HS.valuation,
-  "Capital Connections": HS.cc
- }[kind];
- var fid = hsId(own) ? own : HS.form;
- if (!hsId(fid)) {
-  fail();
-  return;
+ var fields = hsFields(kind, d), b = hsBody(fields, d), also = [];
+ if (kind !== "Owner session seat" && d.owner_session === "yes" && d.email) {
+  also.push({
+   kind: "Owner session seat",
+   fields: hsFields("Owner session seat", {
+    name: d.name,
+    email: d.email,
+    company: d.company,
+    phone: d.phone || d.mobile,
+    role: d.side === "Advisor" ? "Advisor to owners" : "Business owner",
+    sector: d.sector || d.vertical,
+    sector_ids: d.sector_ids,
+    industry: d.industry,
+    industry_ids: d.industry_ids,
+    message: ""
+   })
+  });
  }
- var url = "https://api.hsforms.com/submissions/v3/integration/submit/" + HS.portal + "/" + fid, fields = hsFields(kind, d), tries = 0;
- function send() {
-  fetch(url, {
-   method: "POST",
-   headers: {
-    "Content-Type": "application/json"
-   },
-   body: JSON.stringify(hsBody(fields, d))
-  }).then((function(r) {
-   if (r.ok) {
-    if (kind !== "Owner session seat" && d.owner_session === "yes" && d.email && hsId(HS.seat)) {
-     hsSubmit("Owner session seat", {
-      name: d.name,
-      email: d.email,
-      company: d.company,
-      role: d.side === "Advisor" ? "An advisor to owners" : "An owner",
-      sector: d.sector || d.vertical,
-      message: ""
-     }, (function() {}), (function() {}));
-    }
-    ok(false);
-    return;
-   }
-   return r.json().then((function(j) {
-    var bad = [], miss = false, names = fields.map((function(x) {
-     return x.name;
-    }));
-    (j && j.errors || []).forEach((function(e) {
-     if (e.errorType !== "FIELD_NOT_IN_FORM_DEFINITION") return;
-     miss = true;
-     var t = e.message || "", hit = false;
-     names.forEach((function(n) {
-      if (new RegExp("(^|[^A-Za-z0-9_])" + n + "([^A-Za-z0-9_]|$)").test(t)) {
-       hit = true;
-       if (bad.indexOf(n) < 0) bad.push(n);
-      }
-     }));
-     if (!hit) bad.push("?");
-    }));
-    if (bad.indexOf("?") >= 0) {
-     bad = names.filter((function(n) {
-      return n.indexOf("cr_") === 0;
-     }));
-     if (!bad.length) bad = names.filter((function(n) {
-      return n !== "email" && n !== "message";
-     }));
-    }
-    if (!miss || !bad.length || bad.indexOf("message") >= 0 || tries >= 4) {
-     fail();
-     return;
-    }
-    tries++;
-    fields = fields.filter((function(x) {
-     return bad.indexOf(x.name) < 0;
-    }));
-    send();
+ var day = (new Date).toISOString().slice(0, 10);
+ var key = crHash(kind + "|" + day + "|" + JSON.stringify(fields.map((function(x) {
+  return [ x.name, x.value ];
+ }))));
+ var body = {
+  key: key,
+  kind: kind,
+  fields: fields,
+  context: b.context,
+  consent: b.legalConsentOptions || null,
+  also: also
+ };
+ function direct() {
+  var guid = kind === "Owner session seat" ? "2252081f-64ac-4259-925b-0bd99f4fb517" : "8e02c346-11f0-4b2d-a17c-a596397264ee";
+  var url = "https://api.hsforms.com/submissions/v3/integration/submit/247329185/" + guid;
+  var std = fields.filter((function(x) {
+   return (x.objectTypeId || "0-1") === "0-1" && [ "email", "firstname", "lastname", "company", "phone", "message" ].indexOf(x.name) >= 0;
+  }));
+  var min = std.filter((function(x) {
+   return [ "email", "firstname", "lastname", "message" ].indexOf(x.name) >= 0;
+  }));
+  function post(fs) {
+   return fetch(url, {
+    method: "POST",
+    headers: {
+     "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+     fields: fs,
+     context: b.context
+    })
+   }).then((function(r) {
+    return r.ok;
    }), (function() {
-    fail();
+    return false;
    }));
-  })).catch((function() {
-   fail();
+  }
+  post(std).then((function(a) {
+   return a || post(min);
+  })).then((function(a) {
+   if (a) ok(false); else fail();
   }));
  }
- send();
+ fetch("/api/submit", {
+  method: "POST",
+  headers: {
+   "Content-Type": "application/json"
+  },
+  body: JSON.stringify(body),
+  credentials: "same-origin"
+ }).then((function(r) {
+  return r.json().then((function(j) {
+   return r.ok && j && j.saved === true;
+  }), (function() {
+   return false;
+  }));
+ })).then((function(saved) {
+  if (saved) ok(false); else direct();
+ }), (function() {
+  direct();
+ }));
 }
 
 (function() {
@@ -3052,30 +3330,36 @@ function hsSubmit(kind, d, ok, fail) {
    e.preventDefault();
    var d = read();
    if (!d.name) {
-    say("err", "Add your name.");
+    say("err", CRM("form.err_name"));
     f.querySelector("input").focus();
     return;
    }
+   if (d.kind === "Hybrid models" && d.lead === "") {
+    say("err", CRM("form.err_lead"));
+    var le = f.querySelector("[id$=lead]");
+    if (le) le.focus();
+    return;
+   }
    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(d.email)) {
-    say("err", "Add a work email address.");
+    say("err", CRM("form.err_email"));
     f.querySelector("input[type=email]").focus();
     return;
    }
    if (d.sms && !String(d.phone || "").replace(/\D/g, "")) {
-    say("err", "Add a mobile number, or clear the text message box.");
+    say("err", CRM("form.err_mobile"));
     f.querySelector("input[type=tel]").focus();
     return;
    }
    var btn = f.querySelector("button[type=submit]");
    if (btn) btn.disabled = true;
-   say("busy", "Sending…");
+   say("busy", CRM("form.sending"));
    hsSubmit(kind, d, (function(pv) {
     say("ok", okText + (pv ? " (Preview: nothing was sent.)" : ""));
     f.reset();
     if (btn) btn.disabled = false;
     if (done) done.hidden = false;
    }), (function() {
-    say("err", "That did not send. Please write to team@thecapitalrow.com.");
+    say("err", CRM("form.err_send"));
     if (btn) btn.disabled = false;
    }));
   }));
@@ -3088,13 +3372,14 @@ function hsSubmit(kind, d, ok, fail) {
    company: v("pqco"),
    phone: v("pqph"),
    sms: sms("pqsms"),
-   sector: v("pqsec"),
-   industry: function() {
-    var e = document.getElementById("pqsec_ind");
-    return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
-   }(),
+   sector: crSecs("pqsec"),
+   industry: crInds("pqsec"),
+   industry_ids: crIndIds("pqsec"),
+   sector_ids: crSecIds("pqsec"),
    kind: v("pqkind"),
+   lead: v("pqlead"),
    revenue_band: v("pqrev"),
+   arr_band: v("pqarr"),
    qoe_had: v("pqqoe"),
    qoe_year: v("pqqoeyr"),
    qoe_by: v("pqqoeby"),
@@ -3103,7 +3388,7 @@ function hsSubmit(kind, d, ok, fail) {
    message: v("pqmsg"),
    owner_session: $("pqos") && $("pqos").checked ? "yes" : "no"
   };
- }), "Received. We will reply from team@thecapitalrow.com within one business day.");
+ }), CRM("pma.ok"));
  wire("stf", "stmsg", "stdone", "Owner session seat", (function() {
   return {
    name: v("stnm"),
@@ -3112,14 +3397,13 @@ function hsSubmit(kind, d, ok, fail) {
    phone: v("stph"),
    sms: sms("stsms"),
    role: v("strole"),
-   sector: v("stsec"),
-   industry: function() {
-    var e = document.getElementById("stsec_ind");
-    return e && e.selectedIndex > 0 ? e.options[e.selectedIndex].text : "";
-   }(),
+   sector: crSecs("stsec"),
+   industry: crInds("stsec"),
+   industry_ids: crIndIds("stsec"),
+   sector_ids: crSecIds("stsec"),
    message: v("stq")
   };
- }), "Your seat is reserved. The session link and the playbook will come from team@thecapitalrow.com.");
+ }), CRM("seat.ok"));
  (function() {
   var f = $("bdf"), msg = $("bdmsg"), done = $("rptdone");
   if (!f || !msg) return;
@@ -3138,19 +3422,19 @@ function hsSubmit(kind, d, ok, fail) {
    }
    var em = v("bdem");
    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) {
-    say("err", "Add an email address. A personal address is fine.");
+    say("err", CRM("form.err_email_personal"));
     $("bdem").focus();
     return;
    }
    var s = sms("bdsms");
    if (s && !v("bdph").replace(/\D/g, "")) {
-    say("err", "Add a mobile number, or clear the text message box.");
+    say("err", CRM("form.err_mobile"));
     $("bdph").focus();
     return;
    }
    var d = {
     form: "Dead deal report",
-    sector: v("bdsec"),
+    sector: crSecs("bdsec"),
     business_kind: v("bdkind"),
     revenue_band: v("bdrev"),
     earnings_band: v("bdearn"),
@@ -3175,13 +3459,13 @@ function hsSubmit(kind, d, ok, fail) {
     anonymous_use_ok: $("bdanon") && $("bdanon").checked ? "yes" : "no",
     page: location.href
    };
-   say("busy", "Sending…");
+   say("busy", CRM("form.sending"));
    hsSubmit("Bad or broken deal report", d, (function(pv) {
-    say("ok", "Received. Thank you. We publish nothing that identifies you, the buyer or the business." + (pv ? " (Preview: nothing was sent.)" : ""));
+    say("ok", CRM("report.ok") + (pv ? " (Preview: nothing was sent.)" : ""));
     f.reset();
     if (done) done.hidden = false;
    }), (function() {
-    say("err", "That did not send. Please write to team@thecapitalrow.com.");
+    say("err", CRM("form.err_send"));
    }));
   }));
  })();
@@ -3224,37 +3508,37 @@ function hsSubmit(kind, d, ok, fail) {
 <h2 class="vch" id="vch">{{sh.valuation.2}}</h2>
 <p class="vcd">{{sh.valuation.3}}</p>
 <ol class="vcsteps" aria-label="Steps"><li class="on" id="vcs1">{{sh.valuation.4}}</li><li id="vcs2">{{sh.valuation.5}}</li><li id="vcs3">{{sh.valuation.6}}</li></ol>
+<p class="vcnote">{{sh.valuation.7}}</p>
 <form class="vcform" id="vcf1" novalidate>
 <div class="vcgrid">
-<div class="vcfld"><label for="vcrev">{{sh.valuation.7}}</label><div class="vcmoney"><i>$</i><input id="vcrev" inputmode="decimal" autocomplete="off" required></div></div>
-<div class="vcfld"><label for="vcearn">{{sh.valuation.8}}<button class="vcinfo" type="button" aria-label="What adjusted earnings means" aria-describedby="vcearntip">i</button><span class="vctip" id="vcearntip" role="tooltip">{{sh.valuation.9}}</span></label><div class="vcmoney"><i>$</i><input id="vcearn" inputmode="decimal" autocomplete="off" required></div></div>
-<div class="vcfld"><label for="vckind">{{sh.valuation.10}}</label><select id="vckind" required><option value="">Select one</option><option>Vertical software, SaaS</option><option>Services</option><option>Hybrid models</option></select></div>
-<div class="vcfld"><label for="vcgrow">{{sh.valuation.11}}</label><select id="vcgrow" required><option value="">Select one</option><option>They declined</option><option>0% to 5%</option><option>5% to 15%</option><option>15% to 30%</option><option>More than 30%</option></select></div>
-<div class="vcfld"><label for="vcind">{{sh.valuation.12}}</label><select id="vcind"><option value="">Select one</option><option value="hc">Healthcare</option><option value="fin">Financial services</option><option value="built">Construction, real estate &amp; field services</option><option value="fleet">Transportation &amp; logistics</option><option value="tech">Technology services</option><option value="mfg">Manufacturing</option><option value="hosp">Hospitality</option><option value="retail">Retail &amp; automotive</option><option value="prof">Legal &amp; professional services</option><option value="gov">Government</option><option value="other">Another industry</option></select></div>
-<div class="vcfld"><label for="vcsec">{{sh.valuation.13}}</label><select id="vcsec" disabled data-map="{&quot;hc&quot;: [&quot;Billing, coding &amp; claims&quot;, &quot;Denials &amp; clearinghouse workflow&quot;, &quot;Credentialing &amp; provider data&quot;, &quot;Specialty practice management&quot;, &quot;Dental practice software&quot;, &quot;Home health &amp; hospice software&quot;, &quot;Behavioral &amp; specialty health&quot;, &quot;Pharmacy, DME &amp; infusion&quot;, &quot;Aesthetics &amp; med spa&quot;, &quot;Physical therapy &amp; rehab software&quot;, &quot;Long-term care &amp; senior living software&quot;, &quot;Payment integrity software&quot;, &quot;Healthcare staffing &amp; scheduling software&quot;, &quot;Veterinary practice software&quot;], &quot;fin&quot;: [&quot;Bank &amp; credit union software&quot;, &quot;Insurance software&quot;, &quot;Wealth &amp; advisory software&quot;, &quot;Lending &amp; mortgage software&quot;, &quot;Accounting &amp; tax firm software&quot;, &quot;Collections &amp; receivables software&quot;, &quot;Compliance software for advisors &amp; broker-dealers&quot;], &quot;built&quot;: [&quot;Construction &amp; contractor software&quot;, &quot;Field service management software&quot;, &quot;Property management software&quot;, &quot;HOA &amp; community association software&quot;, &quot;Equipment rental software&quot;], &quot;fleet&quot;: [&quot;Dispatch, TMS &amp; freight audit&quot;, &quot;Fleet compliance &amp; telematics&quot;, &quot;Warehouse management for 3PLs&quot;, &quot;Customs &amp; trade compliance software&quot;, &quot;Freight brokerage &amp; visibility software&quot;, &quot;Fleet maintenance software&quot;, &quot;School bus &amp; transit routing&quot;], &quot;tech&quot;: [&quot;MSP &amp; IT service software&quot;, &quot;Security tools for MSPs&quot;, &quot;Backup &amp; disaster recovery software&quot;], &quot;mfg&quot;: [&quot;Manufacturing ERP &amp; shop floor&quot;, &quot;Quality management software&quot;, &quot;Maintenance &amp; asset management&quot;, &quot;Distribution &amp; wholesale ERP&quot;, &quot;Machine monitoring &amp; industrial IoT&quot;, &quot;Environment, health &amp; safety software&quot;], &quot;hosp&quot;: [&quot;Restaurant POS &amp; back office&quot;, &quot;Hotel property management &amp; revenue tools&quot;, &quot;Event &amp; venue management software&quot;, &quot;Fitness &amp; gym management software&quot;, &quot;Salon, spa &amp; wellness software&quot;, &quot;Ticketing &amp; attractions software&quot;], &quot;retail&quot;: [&quot;Auto dealer &amp; repair software&quot;, &quot;Convenience store &amp; fuel retail software&quot;, &quot;Car wash software&quot;], &quot;prof&quot;: [&quot;Legal practice software&quot;, &quot;Litigation support &amp; e-discovery software&quot;, &quot;Association &amp; membership software&quot;, &quot;Nonprofit &amp; church software&quot;, &quot;Staffing &amp; recruiting software&quot;], &quot;gov&quot;: [&quot;Municipal finance &amp; administration software&quot;, &quot;Public safety &amp; emergency communications&quot;, &quot;Utility billing &amp; customer systems&quot;, &quot;K-12 district administration software&quot;, &quot;Parks &amp; recreation software&quot;, &quot;Courts &amp; justice software&quot;, &quot;Permitting &amp; licensing software&quot;]}"><option value="">Select the industry first</option></select></div>
-<div class="vcfld"><label for="vcrec">{{sh.valuation.14}}</label><select id="vcrec" required><option value="">Select one</option><option>Under 25%</option><option>25% to 50%</option><option>50% to 75%</option><option>More than 75%</option></select></div>
-<div class="vcfld"><label for="vctop">{{sh.valuation.15}}</label><select id="vctop" required><option value="">Select one</option><option>Under 10%</option><option>10% to 25%</option><option>25% to 50%</option><option>More than 50%</option></select></div>
-<div class="vcfld"><label for="vcreg">{{sh.valuation.16}}</label><select id="vcreg" required><option value="">Select one</option><option>Yes</option><option>No</option></select></div>
-<div class="vcfld"><label for="vcinv">{{sh.valuation.17}}</label><select id="vcinv" required><option value="">Select one</option><option>Leave at closing</option><option>Stay for a transition period</option><option>Stay on and keep running the business</option><option>Not sure yet</option></select></div>
+<div class="vcfld"><label for="vcrev">{{sh.valuation.8}}</label><div class="vcmoney"><i>$</i><input id="vcrev" inputmode="decimal" autocomplete="off" required></div></div>
+<div class="vcfld"><label for="vcearn">{{sh.valuation.9}}<button class="vcinfo" type="button" aria-label="What adjusted earnings means" aria-describedby="vcearntip">i</button><span class="vctip" id="vcearntip" role="tooltip">{{sh.valuation.10}}</span></label><div class="vcmoney"><i>$</i><input id="vcearn" inputmode="decimal" autocomplete="off" required></div></div>
+<div class="vcfld"><label for="vckind">{{sh.valuation.11}}</label><select id="vckind" required data-list="vckind"></select></div><div class="vcfld" id="vcleadw" hidden><label for="vclead">{{sh.valuation.12}}</label><select id="vclead" data-list="lead"></select></div>
+<div class="vcfld"><label for="vcgrow">{{sh.valuation.13}}</label><select id="vcgrow" required data-list="vcgrow"></select></div>
+<div class="vcfld"><label for="vcrec">{{sh.valuation.14}}</label><select id="vcrec" required data-list="vcrec"></select></div>
+<div class="vcfld"><label for="vctop">{{sh.valuation.15}}</label><select id="vctop" required data-list="vctop"></select></div>
+<div class="vcfld"><label for="vcreg">{{sh.valuation.16}}</label><select id="vcreg" required data-list="vcreg"></select></div>
+<div class="vcfld"><label for="vcinv">{{sh.valuation.17}}</label><select id="vcinv" required data-list="vcinv"></select></div>
+<div class="vcfld vcwide vcpickw"><label>{{sh.valuation.18}}</label><div class="secpick" id="vcsec" data-secpick="1"></div></div>
 </div>
 <p class="vcerr" id="vcerr1" role="alert" hidden></p>
-<div class="vcnav"><button class="vcbtn" type="submit">{{sh.valuation.18}}</button></div>
+<div class="vcnav"><button class="vcbtn" type="submit">{{sh.valuation.19}}</button></div>
 </form>
 <form class="vcform" id="vcf2" novalidate hidden>
 <div class="vcgrid">
-<div class="vcfld"><label for="vcco">{{sh.valuation.19}}</label><input id="vcco" type="text" autocomplete="organization" required></div>
-<div class="vcfld"><label for="vcrole">{{sh.valuation.20}}</label><select id="vcrole" required><option value="">Select one</option><option>Owner or founder</option><option>Chief executive</option><option>Finance lead</option><option>Advisor to the owner</option><option>Other</option></select></div>
-<div class="vcfld"><label for="vcfn">{{sh.valuation.21}}</label><input id="vcfn" type="text" autocomplete="given-name" required></div>
-<div class="vcfld"><label for="vcln">{{sh.valuation.22}}</label><input id="vcln" type="text" autocomplete="family-name" required></div>
-<div class="vcfld"><label for="vcem">{{sh.valuation.23}}</label><input id="vcem" type="email" autocomplete="email" required></div>
-<div class="vcfld"><label for="vcph">{{sh.valuation.24}}</label><input id="vcph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
-<div class="vcfld"><label for="vcwhen">{{sh.valuation.25}}</label><select id="vcwhen" required><option value="">Select one</option><option>Within 6 months</option><option>6 to 12 months</option><option>12 to 24 months</option><option>More than 2 years</option><option>Not planning to sell</option></select></div>
-<div class="vcfld"><label for="vchow">{{sh.valuation.26}}</label><input id="vchow" type="text"></div>
-<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.27}} <b class="opt">{{sh.valuation.28}}</b> {{sh.valuation.29}}</span></label>
+<div class="vcfld"><label for="vcco">{{sh.valuation.20}}</label><input id="vcco" type="text" autocomplete="organization" required></div>
+<div class="vcfld"><label for="vcrole">{{sh.valuation.21}}</label><select id="vcrole" required data-list="vcrole"></select></div>
+<div class="vcfld"><label for="vcfn">{{sh.valuation.22}}</label><input id="vcfn" type="text" autocomplete="given-name" required></div>
+<div class="vcfld"><label for="vcln">{{sh.valuation.23}}</label><input id="vcln" type="text" autocomplete="family-name" required></div>
+<div class="vcfld"><label for="vcem">{{sh.valuation.24}}</label><input id="vcem" type="email" autocomplete="email" required></div>
+<div class="vcfld"><label for="vcph">{{sh.valuation.25}}</label><input id="vcph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
+<div class="vcfld"><label for="vcwhen">{{sh.valuation.26}}</label><select id="vcwhen" required data-list="vcwhen"></select></div>
+<div class="vcfld"><label for="vchow">{{sh.valuation.27}}</label><select id="vchow" data-list="vchow"></select></div><div class="vcfld" id="vchowdw" hidden><label for="vchowd">{{sh.valuation.28}}</label><input id="vchowd"></div>
+<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.29}} <b class="opt">{{sh.valuation.30}}</b> {{sh.valuation.31}}</span></label>
 </div>
 <p class="vcerr" id="vcerr2" role="alert" hidden></p>
-<p class="vcnote2">{{sh.valuation.30}}</p>
-<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.31}}</button><button class="vcbtn" type="submit">{{sh.valuation.32}}</button></div>
+<p class="vcnote2">{{sh.valuation.32}}</p>
+<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.33}}</button><button class="vcbtn" type="submit">{{sh.valuation.34}}</button></div>
 </form>
 <div class="vcres" id="vcres" hidden>
 <p class="vchi" id="vchi"></p>
@@ -3262,16 +3546,88 @@ function hsSubmit(kind, d, ok, fail) {
 <p class="vcbasis" id="vcbasis"></p>
 <div class="vcgroups" id="vcgroups"></div>
 <p class="vcsent" id="vcsent"></p>
-<div class="vclook"><p class="vclab">{{sh.valuation.33}}</p><ul id="vcnotes"></ul></div>
-<div class="vcmove"><p class="vclab">{{sh.valuation.34}}</p><p>{{sh.valuation.35}}</p></div>
-<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.36}}</a>
-<p class="vcmicro">{{sh.valuation.37}}</p></div>
-<ol class="vchow"><li><b>1</b><u>{{sh.valuation.38}}</u><p>{{sh.valuation.39}}</p></li><li><b>2</b><u>{{sh.valuation.40}}</u><p>{{sh.valuation.41}}</p></li><li><b>3</b><u>{{sh.valuation.42}}</u><p>{{sh.valuation.43}}</p></li></ol>
-<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.44}}</button></div>
+<div class="vclook"><p class="vclab">{{sh.valuation.35}}</p><ul id="vcnotes"></ul></div>
+<div class="vcmove"><p class="vclab">{{sh.valuation.36}}</p><p>{{sh.valuation.37}}</p></div>
+<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.38}}</a>
+<p class="vcmicro">{{sh.valuation.39}}</p></div>
+<ol class="vchow"><li><b>1</b><u>{{sh.valuation.40}}</u><p>{{sh.valuation.41}}</p></li><li><b>2</b><u>{{sh.valuation.42}}</u><p>{{sh.valuation.43}}</p></li><li><b>3</b><u>{{sh.valuation.44}}</u><p>{{sh.valuation.45}}</p></li></ol>
+<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.46}}</button></div>
 </div>
-<p class="vcfine">{{sh.valuation.45}}</p>
-<p class="vcsrc">{{sh.valuation.46}}</p>
+<p class="vcfine">{{sh.valuation.47}}</p>
+<details class="vcsrcd"><summary>{{sh.valuation.48}}</summary><p>{{sh.valuation.49}}</p><p>{{sh.valuation.50}}</p><p>{{sh.valuation.51}}</p></details>
 </div></div>
+<script>
+(function() {
+ var L = CRF.lists || {}, T = CRF.text || {};
+ function opt(sel, v, t) {
+  var o = document.createElement("option");
+  o.value = v;
+  o.textContent = t;
+  sel.appendChild(o);
+ }
+ [].forEach.call(document.querySelectorAll("select[data-list]"), (function(s) {
+  var id = s.getAttribute("data-list");
+  s.innerHTML = "";
+  if (id === "@industries") {
+   opt(s, "", CRM("bc.select_industry"));
+   (CRF.tax || []).forEach((function(i) {
+    opt(s, i.id, i.label);
+   }));
+   return;
+  }
+  (L[id] || []).forEach((function(o) {
+   opt(s, o[0], o[1]);
+  }));
+ }));
+ [].forEach.call(document.querySelectorAll("[data-cklist]"), (function(box) {
+  var id = box.getAttribute("data-cklist"), nm = box.getAttribute("data-ckname");
+  box.innerHTML = "";
+  (L[id] || []).forEach((function(o) {
+   if (!o[0]) return;
+   var l = document.createElement("label");
+   l.className = "ckl";
+   var c = document.createElement("input");
+   c.type = "checkbox";
+   c.value = o[0];
+   if (nm) c.name = nm;
+   var s = document.createElement("span");
+   s.textContent = o[1];
+   l.appendChild(c);
+   l.appendChild(s);
+   box.appendChild(l);
+  }));
+ }));
+ [].forEach.call(document.querySelectorAll("[data-taxgroups]"), (function(box) {
+  var cls = box.getAttribute("data-taxgroups");
+  (CRF.tax || []).forEach((function(i) {
+   var g = document.createElement("div");
+   g.className = cls;
+   g.setAttribute("data-ind", i.id);
+   g.hidden = true;
+   i.sectors.forEach((function(s) {
+    var l = document.createElement("label"), c = document.createElement("input"), sp = document.createElement("span");
+    c.type = "checkbox";
+    c.value = s.label;
+    c.setAttribute("data-sid", s.id);
+    sp.textContent = s.label;
+    l.appendChild(c);
+    l.appendChild(sp);
+    g.appendChild(l);
+   }));
+   box.appendChild(g);
+  }));
+ }));
+ Object.keys(T).forEach((function(k) {
+  if (k.indexOf("help.") !== 0) return;
+  var el = document.getElementById(k.slice(5));
+  if (el) el.setAttribute("placeholder", T[k]);
+ }));
+ [].forEach.call(document.querySelectorAll("[data-text]"), (function(el) {
+  var t = T[el.getAttribute("data-text")];
+  if (t != null) el.textContent = t;
+ }));
+})();
+</script>
 <script>
 (function() {
  function $(i) {
@@ -3405,7 +3761,7 @@ function hsSubmit(kind, d, ok, fail) {
  }
  (function() {
   var ind = $("vcind"), sec = $("vcsec");
-  if (!ind || !sec) return;
+  if (!ind || !sec || sec.tagName === "DIV") return;
   var map = {};
   try {
    map = JSON.parse(sec.getAttribute("data-map"));
@@ -3443,8 +3799,11 @@ function hsSubmit(kind, d, ok, fail) {
    if (n >= 0) $(id).value = Math.round(n).toLocaleString("en-US");
   }));
  }));
- var SV = [ [ "Conservative", 5.8, "Median at $5M to $50M of enterprise value, IBBA and M&A Source, Q2 2026" ], [ "Realistic", 6.2, "Business services, $1M to $5M band, Pepperdine 2026" ], [ "Optimistic", 7.5, "Business services, $10M to $25M band, Pepperdine 2026" ] ];
- var SW = [ [ "Conservative", 3.2, "Listed SaaS index median, Software Equity Group, Q2 2026" ], [ "Realistic", 4, "Median SaaS transaction, Software Equity Group, Q2 2026" ], [ "Optimistic", 6.2, "Average SaaS transaction, Software Equity Group, Q2 2026" ] ];
+ var SW = [ [ "Median private transaction", 4, "Median SaaS transaction, Software Equity Group, Q2 2026" ], [ "Average private transaction", 6.2, "Average SaaS transaction, Software Equity Group, Q2 2026" ] ];
+ var SWREF = [ "Listed SaaS companies", 3.2, "Listed SaaS index median, Software Equity Group, Q2 2026. Public companies, a different population: shown for reference, not part of the range." ];
+ function swref(base, unit) {
+  return '<div class="vcgroup vcref"><p>For reference, not part of the range</p><div class="vccards">' + card(SWREF, base, unit) + "</div></div>";
+ }
  var REC = {
   "Under 25%": 0,
   "25% to 50%": .25,
@@ -3454,11 +3813,12 @@ function hsSubmit(kind, d, ok, fail) {
  f1.addEventListener("submit", (function(e) {
   e.preventDefault();
   var R = num("vcrev"), A = num("vcearn"), L = [];
-  if (!(R > 0)) L.push([ "vcrev", "Enter your revenue for the last twelve months." ]);
-  if (!(A > 0)) L.push([ "vcearn", "Enter your adjusted earnings for the last twelve months, above zero." ]); else if (R > 0 && A > R) L.push([ "vcearn", "Adjusted earnings are larger than revenue. Check both numbers." ]);
-  [ [ "vcgrow", "How your earnings have grown" ], [ "vckind", "What you sell" ], [ "vcrec", "How much of your revenue recurs" ], [ "vctop", "Your five largest customers" ], [ "vcreg", "Whether your industry is regulated" ], [ "vcinv", "Your plans for your role" ] ].forEach((function(q) {
-   if (!v(q[0])) L.push([ q[0], "Answer every question. Missing: " + q[1].toLowerCase() + "." ]);
+  if (!(R > 0)) L.push([ "vcrev", CRM("vc.err_revenue") ]);
+  if (!(A > 0)) L.push([ "vcearn", CRM("vc.err_earnings") ]); else if (R > 0 && A > R) L.push([ "vcearn", CRM("vc.err_earnings_revenue") ]);
+  [ [ "vcgrow", "How your earnings have grown" ], [ "vckind", "Company type" ], [ "vcrec", "How much of your revenue recurs" ], [ "vctop", "Your five largest customers" ], [ "vcreg", "Whether your industry is regulated" ], [ "vcinv", "Your plans for your role" ] ].forEach((function(q) {
+   if (!v(q[0])) L.push([ q[0], CRM("vc.err_missing") + q[1].toLowerCase() + "." ]);
   }));
+  if (v("vckind") === "Hybrid models" && !v("vclead")) L.push([ "vclead", CRM("form.err_lead") ]);
   if (bad(f1, "vcerr1", L)) return;
   steps(2);
   setTimeout((function() {
@@ -3479,7 +3839,7 @@ function hsSubmit(kind, d, ok, fail) {
   return '<div class="vccard"><u>' + s[0] + "</u><b>" + money(base * s[1]) + "</b><i>" + s[1].toFixed(1) + "x " + unit + "</i><span>" + s[2] + "</span></div>";
  }
  function result() {
-  var R = num("vcrev"), A = num("vcearn"), k = v("vckind"), co = v("vcco"), lo = Infinity, hi = 0, g = "", basis;
+  var R = num("vcrev"), A = num("vcearn"), k = v("vckind"), co = v("vcco"), lo = Infinity, hi = 0, g = "", basis = "";
   function grp(title, list, base, unit) {
    list.forEach((function(s) {
     var y = base * s[1];
@@ -3491,27 +3851,38 @@ function hsSubmit(kind, d, ok, fail) {
    })).join("") + "</div></div>";
   }
   var rp = REC[v("vcrec")] || 0;
-  if (k === "Services") {
-   grp("", SV, A, "adjusted earnings");
+  if (k === "Services" || k === "Hybrid models") {
+   $("vchi").textContent = (co ? co + ": " : "") + CRM("vc.paused_title");
+   $("vcrange").textContent = "";
+   $("vcbasis").textContent = CRM("vc.paused_body");
+   $("vcgroups").innerHTML = "";
+   lo = 0;
+   hi = 0;
+   basis = null;
+  }
+  if (false) {
    basis = "Your adjusted earnings of " + money(A) + ", at three published medians for services businesses.";
-  } else if (k === "Hybrid models") {
-   grp("Priced as services, on adjusted earnings of " + money(A), SV, A, "adjusted earnings");
+  } else if (false) {
    if (rp > 0) {
     grp("Priced as software, on at least " + money(R * rp) + " of recurring revenue", SW, R * rp, "recurring revenue");
+    g += swref(R * rp, "recurring revenue");
    }
    basis = "A hybrid business is read two ways. A buyer separates the services line first, and the split between software and services decides which reading wins.";
-  } else {
+  } else if (basis !== null) {
    grp("", SW, R, "revenue");
-   basis = "Your revenue of " + money(R) + ", at three published figures for software transactions. Software is usually priced on revenue.";
+   g += swref(R, "revenue");
+   basis = "Your revenue of " + money(R) + ", at the median and the average of private software transactions. Software is usually priced on revenue.";
   }
-  $("vchi").textContent = (co ? co + ": " : "") + "the range a buyer would start from";
-  $("vcrange").textContent = money(lo) + " to " + money(hi);
-  $("vcbasis").textContent = basis;
-  $("vcgroups").innerHTML = g;
+  if (basis !== null) {
+   $("vchi").textContent = (co ? co + ": " : "") + "the range a buyer would start from";
+   $("vcrange").textContent = money(lo) + " to " + money(hi);
+   $("vcbasis").textContent = basis;
+   $("vcgroups").innerHTML = g;
+  }
   var N = [], rec = v("vcrec"), top = v("vctop"), gr = v("vcgrow"), inv = v("vcinv");
   if (rec === "Under 25%" || rec === "25% to 50%") N.push("Most of your revenue does not recur. Revenue that renews is what buyers pay the most for, and one-time revenue is priced lower."); else N.push("Most of your revenue recurs. That is what buyers pay the most for, and they will recompute it from your billing records.");
   if (top === "More than 50%" || top === "25% to 50%") N.push("Your five largest customers are " + top.toLowerCase() + " of revenue. Expect a buyer to read each of those contracts, and to tie part of the price to those customers staying."); else N.push("No small group of customers dominates your revenue. Concentration is one of the first things a buyer checks.");
-  if (gr === "They declined") N.push("Your earnings declined. A buyer will want to know why before anything else."); else if (gr === "0% to 5%") N.push("Flat earnings put the weight on retention and margin."); else N.push(k === "Services" ? "Rising earnings help: a buyer pays for earnings that are still growing." : "Keeping customers gets you the meeting. Growing them sets the price.");
+  if (gr === "Declined") N.push("Your earnings declined. A buyer will want to know why before anything else."); else if (gr === "0% to 5%") N.push("Flat earnings put the weight on retention and margin."); else N.push(k === "Services" ? "Rising earnings help: a buyer pays for earnings that are still growing." : "Keeping customers gets you the meeting. Growing them sets the price.");
   if (v("vcreg") === "Yes") N.push("You sell into a regulated industry. A buyer will read your licenses, contracts and compliance record, and what it finds can change the terms.");
   if (inv === "Leave at closing") N.push("You plan to leave at closing. A buyer will ask who runs the business on the first day, and may ask you to stay for a transition."); else if (inv === "Stay on and keep running the business") N.push("You plan to stay on. A buyer will want to know how long, and on what terms."); else N.push("A buyer will ask who runs the business after the sale, and how long you stay.");
   var ul = $("vcnotes");
@@ -3522,18 +3893,18 @@ function hsSubmit(kind, d, ok, fail) {
    ul.appendChild(li);
   }));
   $("vcbook").hidden = R < 3e6;
-  return money(lo) + " to " + money(hi);
+  return hi ? money(lo) + " to " + money(hi) : "Not shown: the services estimate is paused";
  }
  f2.addEventListener("submit", (function(e) {
   e.preventDefault();
   var L = [];
-  if (!v("vcco")) L.push([ "vcco", "Add your company name." ]);
-  if (!v("vcrole")) L.push([ "vcrole", "Select your role." ]);
-  if (!v("vcfn")) L.push([ "vcfn", "Add your first name." ]);
-  if (!v("vcln")) L.push([ "vcln", "Add your last name." ]);
-  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v("vcem"))) L.push([ "vcem", "Add a work email address." ]);
-  if ($("vcsms").checked && !v("vcph").replace(/\D/g, "")) L.push([ "vcph", "Add a mobile number, or clear the text message box." ]);
-  if (!v("vcwhen")) L.push([ "vcwhen", "Select when you plan to sell." ]);
+  if (!v("vcco")) L.push([ "vcco", CRM("vc.err_company") ]);
+  if (!v("vcrole")) L.push([ "vcrole", CRM("vc.err_role") ]);
+  if (!v("vcfn")) L.push([ "vcfn", CRM("vc.err_first") ]);
+  if (!v("vcln")) L.push([ "vcln", CRM("vc.err_last") ]);
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v("vcem"))) L.push([ "vcem", CRM("form.err_email") ]);
+  if ($("vcsms").checked && !v("vcph").replace(/\D/g, "")) L.push([ "vcph", CRM("form.err_mobile") ]);
+  if (!v("vcwhen")) L.push([ "vcwhen", CRM("vc.err_when") ]);
   if (bad(f2, "vcerr2", L)) return;
   var range = result();
   var sel = function(id) {
@@ -3549,13 +3920,19 @@ function hsSubmit(kind, d, ok, fail) {
     wording: $("vcsmstext").textContent.trim()
    } : null,
    role: sel("vcrole"),
+   lead: v("vclead"),
    timing: sel("vcwhen"),
    heard_via: v("vchow"),
-   kind: sel("vckind"),
-   sector: sel("vcsec"),
-   industry: $("vcind").value ? $("vcind").options[$("vcind").selectedIndex].text : "",
+   heard_via_detail: v("vchowd"),
+   kind: v("vckind"),
+   sector: crSecs("vcsec"),
+   sector_ids: crSecIds("vcsec"),
+   industry: crInds("vcsec"),
+   industry_ids: crIndIds("vcsec"),
    revenue: money(num("vcrev")),
    earnings: money(num("vcearn")),
+   revenue_raw: Math.round(num("vcrev")),
+   earnings_raw: Math.round(num("vcearn")),
    growth: sel("vcgrow"),
    recurring: sel("vcrec"),
    top5: sel("vctop"),
@@ -3576,9 +3953,9 @@ function hsSubmit(kind, d, ok, fail) {
    return;
   }
   hsSubmit("Valuation calculator", d, (function(pv) {
-   show("Your answers are with us. We will follow up from team@thecapitalrow.com." + (pv ? " (Preview: nothing was sent.)" : ""));
+   show(CRM("vc.ok") + (pv ? " (Preview: nothing was sent.)" : ""));
   }), (function() {
-   show("We could not save your details. Please write to team@thecapitalrow.com if you would like us to follow up.");
+   show(CRM("vc.err_send"));
   }));
  }));
  if (location.hash === "#valuation") open();
@@ -3841,6 +4218,15 @@ function hsSubmit(kind, d, ok, fail) {
  window.addEventListener("load", qt);
 })();
 
+window.crSecs = function(id) {
+ var e = document.getElementById(id);
+ if (!e) return "";
+ if (e.tagName !== "DIV") return (e.value || "").trim();
+ return [].map.call(e.querySelectorAll("input[type=checkbox]:checked"), (function(c) {
+  return c.value;
+ })).join("; ");
+};
+
 (function() {
  var src = document.getElementById("vcsec");
  if (!src) return;
@@ -3853,6 +4239,40 @@ function hsSubmit(kind, d, ok, fail) {
   if (!sec) return;
   function fill() {
    var v = ind.value, list = map[v] || [];
+   var f = sec.closest(".fld");
+   if (f) f.classList.remove("answered");
+   if (sec.tagName === "DIV") {
+    sec.innerHTML = "";
+    if (!v) {
+     var p = document.createElement("p");
+     p.className = "secnote";
+     p.textContent = "Select the industry first";
+     sec.appendChild(p);
+     return;
+    }
+    var items = (v === "other" ? [] : list).concat([ "Another sector, not listed" ]);
+    items.forEach((function(t, i) {
+     var l = document.createElement("label");
+     l.className = "ckl";
+     var c = document.createElement("input");
+     c.type = "checkbox";
+     c.value = t;
+     c.id = sec.id + "_" + i;
+     var s = document.createElement("span");
+     s.textContent = t;
+     l.appendChild(c);
+     l.appendChild(s);
+     sec.appendChild(l);
+     c.addEventListener("change", (function() {
+      if (f) f.classList.toggle("answered", !!sec.querySelector("input:checked"));
+     }));
+    }));
+    if (v === "other") {
+     sec.querySelector("input").checked = true;
+     if (f) f.classList.add("answered");
+    }
+    return;
+   }
    sec.innerHTML = "";
    var o = document.createElement("option");
    o.value = "";
@@ -3864,8 +4284,6 @@ function hsSubmit(kind, d, ok, fail) {
     sec.appendChild(x);
    }));
    sec.disabled = !v || v === "other";
-   var f = sec.closest(".fld");
-   if (f) f.classList.remove("answered");
   }
   ind.addEventListener("change", fill);
   fill();
@@ -3968,6 +4386,497 @@ function hsSubmit(kind, d, ok, fail) {
   }));
  }));
  window.addEventListener("resize", size);
+})();
+</script>
+<script>
+(function() {
+ [].forEach.call(document.querySelectorAll("form a[href]"), (function(a) {
+  var h = a.getAttribute("href") || "";
+  if (h.charAt(0) === "#") return;
+  a.target = "_blank";
+  a.rel = "noopener";
+ }));
+ var how = document.getElementById("how"), w = document.getElementById("howdw");
+ if (!how || !w) return;
+ function on() {
+  var v = how.value;
+  w.hidden = !(v === "A referral" || v === "A conference or event" || v === "A podcast, article or newsletter" || v === "Other");
+ }
+ how.addEventListener("change", on);
+ on();
+ var f = how.closest("form");
+ if (f) f.addEventListener("reset", (function() {
+  setTimeout(on, 0);
+ }));
+})();
+</script>
+<script>
+(function() {
+ var INDS = (CRF.tax || []).map((function(i) {
+  return [ i.id, i.label ];
+ })), TAX = {}, SID = {};
+ (CRF.tax || []).forEach((function(i) {
+  TAX[i.id] = i.sectors.map((function(s) {
+   SID[i.id + "|" + s.label] = s.id;
+   return s.label;
+  }));
+ }));
+ function slug(s) {
+  return String(s).toLowerCase().replace(/&amp;/g, "and").replace(/&/g, "and").replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, "");
+ }
+ function ck(val, id, ind) {
+  var l = document.createElement("label");
+  l.className = "ckl";
+  var c = document.createElement("input");
+  c.type = "checkbox";
+  c.value = val;
+  c.id = id;
+  if (ind) c.setAttribute("data-ind", ind);
+  c.setAttribute("data-sid", ind ? SID[ind + "|" + val] || ind + "_" + slug(val) : "other");
+  var s = document.createElement("span");
+  s.textContent = val;
+  l.appendChild(c);
+  l.appendChild(s);
+  return l;
+ }
+ function build(el) {
+  var id = el.id;
+  el.innerHTML = "";
+  var q = document.createElement("input");
+  q.type = "search";
+  q.className = "spq";
+  q.placeholder = CRM("picker.search");
+  q.setAttribute("aria-label", CRM("picker.search"));
+  el.appendChild(q);
+  var chips = document.createElement("div");
+  chips.className = "spchips";
+  el.appendChild(chips);
+  var gs = document.createElement("div");
+  gs.className = "spgroups";
+  el.appendChild(gs);
+  INDS.forEach((function(ind) {
+   var g = document.createElement("div");
+   g.className = "spg";
+   g.setAttribute("data-ind", ind[0]);
+   var t = document.createElement("button");
+   t.type = "button";
+   t.className = "spgt";
+   t.setAttribute("aria-expanded", "false");
+   t.innerHTML = "<span></span><i></i>";
+   t.firstChild.textContent = ind[1];
+   g.appendChild(t);
+   var l = document.createElement("div");
+   l.className = "spl";
+   l.hidden = true;
+   (TAX[ind[0]] || []).forEach((function(s, i) {
+    l.appendChild(ck(s, id + "_" + ind[0] + "_" + i, ind[0]));
+   }));
+   g.appendChild(l);
+   t.addEventListener("click", (function() {
+    var o = l.hidden;
+    l.hidden = !o;
+    t.setAttribute("aria-expanded", o ? "true" : "false");
+    g.classList.toggle("open", o);
+   }));
+   gs.appendChild(g);
+  }));
+  var og = document.createElement("div");
+  og.className = "spg other";
+  og.appendChild(ck(CRM("picker.other"), id + "_other", ""));
+  var ot = document.createElement("input");
+  ot.className = "spoth";
+  ot.placeholder = CRM("picker.other_which");
+  ot.setAttribute("aria-label", CRM("picker.other_which"));
+  ot.hidden = true;
+  og.appendChild(ot);
+  gs.appendChild(og);
+  el.addEventListener("change", (function() {
+   sync(el);
+  }));
+  ot.addEventListener("input", (function() {
+   sync(el);
+  }));
+  q.addEventListener("input", (function() {
+   search(el, q.value);
+  }));
+  var f = el.closest("form");
+  if (f) f.addEventListener("reset", (function() {
+   setTimeout((function() {
+    [].forEach.call(el.querySelectorAll("input[type=checkbox]"), (function(c) {
+     c.checked = false;
+    }));
+    ot.value = "";
+    q.value = "";
+    search(el, "");
+    sync(el);
+   }), 0);
+  }));
+  sync(el);
+ }
+ function checked(el) {
+  return [].slice.call(el.querySelectorAll("input[type=checkbox]:checked"));
+ }
+ function sync(el) {
+  var chips = el.querySelector(".spchips"), ot = el.querySelector(".spoth");
+  chips.innerHTML = "";
+  [].forEach.call(el.querySelectorAll(".spg[data-ind]"), (function(g) {
+   var n = g.querySelectorAll("input:checked").length, i = g.querySelector(".spgt i");
+   if (i) i.textContent = n ? CRM("picker.chosen", {
+    n: n
+   }) : "";
+  }));
+  checked(el).forEach((function(c) {
+   var ch = document.createElement("span");
+   ch.className = "spchip";
+   var tx = c.getAttribute("data-sid") === "other" && ot && ot.value.trim() ? ot.value.trim() : c.value;
+   ch.appendChild(document.createTextNode(tx));
+   var x = document.createElement("button");
+   x.type = "button";
+   x.setAttribute("aria-label", "Remove " + tx);
+   x.textContent = "×";
+   x.addEventListener("click", (function() {
+    c.checked = false;
+    sync(el);
+   }));
+   ch.appendChild(x);
+   chips.appendChild(ch);
+  }));
+  var oc = el.querySelector('input[data-sid="other"]');
+  if (ot && oc) ot.hidden = !oc.checked;
+  var f = el.closest(".fld,.vcfld");
+  if (f) f.classList.toggle("answered", checked(el).length > 0);
+ }
+ function search(el, q) {
+  q = (q || "").trim().toLowerCase();
+  [].forEach.call(el.querySelectorAll(".spg[data-ind]"), (function(g) {
+   var any = false;
+   [].forEach.call(g.querySelectorAll("label.ckl"), (function(l) {
+    var hit = !q || l.textContent.toLowerCase().indexOf(q) >= 0;
+    l.hidden = !hit;
+    if (hit) any = true;
+   }));
+   var l = g.querySelector(".spl"), t = g.querySelector(".spgt");
+   var open = q ? any : g.querySelectorAll("input:checked").length > 0;
+   l.hidden = !open;
+   t.setAttribute("aria-expanded", open ? "true" : "false");
+   g.classList.toggle("open", open);
+   g.hidden = !!q && !any;
+  }));
+ }
+ window.crSecs = function(id) {
+  var e = document.getElementById(id);
+  if (!e) return "";
+  if (e.tagName !== "DIV") return (e.value || "").trim();
+  var ot = e.querySelector(".spoth");
+  return checked(e).map((function(c) {
+   return c.getAttribute("data-sid") === "other" ? ot && ot.value.trim() ? "Another sector: " + ot.value.trim() : "Another sector" : c.value;
+  })).join("; ");
+ };
+ window.crSecIds = function(id) {
+  var e = document.getElementById(id);
+  if (!e || e.tagName !== "DIV") return "";
+  return checked(e).map((function(c) {
+   return c.getAttribute("data-sid") || slug(c.value);
+  })).join(";");
+ };
+ window.crInds = function(id) {
+  var e = document.getElementById(id);
+  if (!e || e.tagName !== "DIV") return "";
+  var seen = {}, out = [];
+  checked(e).forEach((function(c) {
+   var k = c.getAttribute("data-ind");
+   if (!k || seen[k]) return;
+   seen[k] = 1;
+   INDS.forEach((function(i) {
+    if (i[0] === k) out.push(i[1]);
+   }));
+  }));
+  return out.join("; ");
+ };
+ window.crIndIds = function(id) {
+  var e = document.getElementById(id);
+  if (!e || e.tagName !== "DIV") return "";
+  var seen = {}, out = [];
+  checked(e).forEach((function(c) {
+   var k = c.getAttribute("data-ind");
+   if (!k || seen[k]) return;
+   seen[k] = 1;
+   out.push(k);
+  }));
+  return out.join(";");
+ };
+ window.crPick = function(id, names) {
+  var e = document.getElementById(id);
+  if (!e) return;
+  [].forEach.call(e.querySelectorAll("input[type=checkbox]"), (function(c) {
+   if (names.indexOf(c.value) >= 0) {
+    c.checked = true;
+    var g = c.closest(".spg");
+    if (g) {
+     g.classList.add("open");
+     var l = g.querySelector(".spl"), t = g.querySelector(".spgt");
+     if (l) l.hidden = false;
+     if (t) t.setAttribute("aria-expanded", "true");
+    }
+   }
+  }));
+  sync(e);
+ };
+ [].forEach.call(document.querySelectorAll("[data-secpick]"), build);
+ function fmt(i) {
+  var raw = i.value, neg = /^\s*-/.test(raw), suf = (raw.match(/[kKmM]\s*$/) || [ "" ])[0].trim().toLowerCase(), dot = raw.indexOf("."), dec = dot >= 0 ? "." + raw.slice(dot + 1).replace(/[^0-9]/g, "").slice(0, 2) : "", d = (dot >= 0 ? raw.slice(0, dot) : raw).replace(/[^0-9]/g, "");
+  i.value = (neg ? "-" : "") + (d ? Number(d).toLocaleString("en-US") : "") + dec + suf;
+ }
+ [].forEach.call(document.querySelectorAll(".vcmoney input,[data-money]"), (function(i) {
+  i.addEventListener("input", (function() {
+   fmt(i);
+  }));
+ }));
+ window.rngv = function(r, side) {
+  var i = document.getElementById(r + "_" + side), n = document.getElementById(r + "_no" + side);
+  if (n && n.checked) return side === "min" ? "No minimum" : "No maximum";
+  if (!i) return "";
+  var s = i.value.toLowerCase().replace(/[\s,$]/g, "");
+  if (!s) return "";
+  var k = 1;
+  if (/k$/.test(s)) {
+   k = 1e3;
+   s = s.slice(0, -1);
+  } else if (/m$/.test(s)) {
+   k = 1e6;
+   s = s.slice(0, -1);
+  }
+  var x = parseFloat(s);
+  return isNaN(x) ? "" : String(Math.round(x * k));
+ };
+ [].forEach.call(document.querySelectorAll(".rngck input"), (function(c) {
+  c.addEventListener("change", (function() {
+   var i = document.getElementById(c.id.replace("_nomin", "_min").replace("_nomax", "_max"));
+   if (i) {
+    i.disabled = c.checked;
+    if (c.checked) i.value = "";
+   }
+  }));
+ }));
+})();
+
+(function() {
+ var seat = document.getElementById("seat");
+ if (!seat) return;
+ var boxes = {
+  Lender: "lendbox",
+  Advisor: "advbox",
+  Seller: "sellbox"
+ };
+ var band = document.getElementById("band");
+ function sync() {
+  var v = seat.value;
+  Object.keys(boxes).forEach((function(k) {
+   var b = document.getElementById(boxes[k]);
+   if (!b) return;
+   var on = v === k;
+   b.hidden = !on;
+   [].forEach.call(b.querySelectorAll("select[data-req]"), (function(s) {
+    s.required = on;
+   }));
+   if (!on) {
+    [].forEach.call(b.querySelectorAll("select"), (function(s) {
+     s.selectedIndex = 0;
+    }));
+    [].forEach.call(b.querySelectorAll("input,textarea"), (function(i) {
+     if (i.type === "checkbox") i.checked = false; else i.value = "";
+     i.disabled = false;
+    }));
+    [].forEach.call(b.querySelectorAll("[data-secpick]"), (function(p) {
+     p.dispatchEvent(new Event("change", {
+      bubbles: true
+     }));
+    }));
+   }
+  }));
+  if (window.crBands) window.crBands();
+ }
+ seat.addEventListener("change", (function() {
+  var bn = document.getElementById("bbnextw");
+  if (bn) bn.hidden = true;
+  sync();
+ }));
+ var f = seat.closest("form");
+ if (f) {
+  f.addEventListener("reset", (function() {
+   setTimeout(sync, 0);
+  }));
+ }
+ document.addEventListener("click", (function(e) {
+  if (e.target && e.target.closest && e.target.closest("[data-seat]")) setTimeout(sync, 0);
+ }), true);
+ sync();
+})();
+
+(function() {
+ var f = document.getElementById("bbf");
+ if (!f) return;
+ function plat() {
+  var pw = document.getElementById("bb_platw");
+  if (pw) {
+   var add = document.querySelector('#bb_context input[value="An add-on to an existing platform"]');
+   pw.hidden = !(add && add.checked);
+  }
+ }
+ function money(x) {
+  return /^-?\d+$/.test(x) ? "$" + Number(x).toLocaleString("en-US") : x;
+ }
+ function rg(a, b) {
+  if (!a && !b) return "";
+  return (a ? money(a) : CRM("bb.no_min")) + " " + CRM("bb.to") + " " + (b ? money(b) : CRM("bb.no_max"));
+ }
+ function summary() {
+  var box = document.getElementById("bbsum"), ul = document.getElementById("bbsuml");
+  if (!box || !ul || typeof window.bbRead !== "function") return;
+  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ] ].map((function(r) {
+   return [ CRM(r[0]), r[1] ];
+  })).filter((function(r) {
+   return r[1];
+  }));
+  ul.innerHTML = "";
+  rows.forEach((function(r) {
+   var li = document.createElement("li");
+   var s = document.createElement("span");
+   s.textContent = r[0] + ": ";
+   li.appendChild(s);
+   li.appendChild(document.createTextNode(r[1]));
+   ul.appendChild(li);
+  }));
+  box.hidden = !rows.length;
+ }
+ f.addEventListener("change", (function() {
+  plat();
+  summary();
+ }));
+ f.addEventListener("input", summary);
+ f.addEventListener("reset", (function() {
+  setTimeout((function() {
+   plat();
+   summary();
+  }), 0);
+ }));
+ plat();
+ summary();
+})();
+
+(function() {
+ var gs = document.querySelectorAll(".sng");
+ if (!gs.length) return;
+ var fs = document.getElementById("snsec");
+ if (fs && !document.getElementById("snq")) {
+  var q = document.createElement("input");
+  q.type = "search";
+  q.id = "snq";
+  q.className = "snq";
+  q.placeholder = "Search sectors";
+  q.setAttribute("aria-label", "Search sectors");
+  fs.parentNode.insertBefore(q, fs);
+  q.addEventListener("input", (function() {
+   var t = q.value.trim().toLowerCase();
+   [].forEach.call(gs, (function(g) {
+    var any = false;
+    [].forEach.call(g.querySelectorAll("label"), (function(l) {
+     var hit = !t || l.textContent.toLowerCase().indexOf(t) >= 0;
+     l.style.display = hit ? "" : "none";
+     if (hit) any = true;
+    }));
+    g.style.display = t && !any ? "none" : "";
+    g.classList.toggle("open", t ? any : g.querySelectorAll("input:checked").length > 0);
+   }));
+  }));
+ }
+ [].forEach.call(gs, (function(g) {
+  var b = g.querySelector("b");
+  if (!b) return;
+  var i = document.createElement("i");
+  b.appendChild(i);
+  function count() {
+   var n = g.querySelectorAll("input:checked").length;
+   i.textContent = n ? n + " chosen" : "";
+   if (n) g.classList.add("open");
+  }
+  b.addEventListener("click", (function() {
+   g.classList.toggle("open");
+  }));
+  g.addEventListener("change", count);
+  count();
+  var f = g.closest("form");
+  if (f) f.addEventListener("reset", (function() {
+   setTimeout((function() {
+    g.classList.remove("open");
+    count();
+   }), 0);
+  }));
+ }));
+})();
+
+(function() {
+ var how = document.getElementById("vchow"), w = document.getElementById("vchowdw");
+ if (!how || !w) return;
+ function on() {
+  var v = how.value;
+  w.hidden = !(v === "A referral" || v === "A conference or event" || v === "A podcast, article or newsletter" || v === "Other");
+ }
+ how.addEventListener("change", on);
+ on();
+})();
+
+(function() {
+ var a = document.getElementById("pqabout"), h = document.getElementById("pqpoph"), f = document.getElementById("pqf");
+ if (!a || !h || !f) return;
+ var b = f.querySelector("button[type=submit]");
+ function sync() {
+  var s = a.value || "Pre-Market Assessment";
+  h.textContent = "Request a " + s;
+  if (b) b.textContent = "Request a " + s;
+ }
+ a.addEventListener("change", sync);
+ var q = new URLSearchParams(location.search).get("about");
+ if (q) {
+  for (var i = 0; i < a.options.length; i++) {
+   if (a.options[i].text === q) {
+    a.selectedIndex = i;
+    break;
+   }
+  }
+ }
+ sync();
+})();
+</script>
+<script>
+(function() {
+ function $(i) {
+  return document.getElementById(i);
+ }
+ function wire(k, l, r, a) {
+  var s = $(k);
+  if (!s) return;
+  function on() {
+   var v = s.value, sw = v === "Vertical software, SaaS" || v === "Hybrid models";
+   [ [ l, v === "Hybrid models" ], [ r, v !== "Vertical software, SaaS" ], [ a, sw ] ].forEach((function(p) {
+    var w = p[0] && $(p[0]);
+    if (!w) return;
+    w.hidden = !p[1];
+    if (!p[1]) {
+     var x = w.querySelector("select");
+     if (x) x.value = "";
+    }
+   }));
+  }
+  s.addEventListener("change", on);
+  if (s.form) s.form.addEventListener("reset", (function() {
+   setTimeout(on, 0);
+  }));
+  on();
+ }
+ wire("pqkind", "pqleadw", "pqrevw", "pqarrw");
+ wire("cctype", "ccleadw", "ccrevw", "ccarrw");
+ wire("vckind", "vcleadw", null, null);
 })();
 </script>
 </body></html>

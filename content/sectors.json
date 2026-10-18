@@ -76,7 +76,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>6 desks open"
+     "text": "14 sectors<br>5 desks open"
     },
     {
      "key": "band.5",
@@ -1351,7 +1351,7 @@
     {
      "key": "band.259",
      "kind": "Note",
-     "text": "Source: <a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a>. The trailing-year count and the quarterly growth rate are different measures, labeled as such; SEG publishes no year-to-date 2026 figure. The industry, sector and desk counts are Capital Row’s own coverage list, not published figures. Share figures are for Q2 2026; healthcare uses vertical SaaS deals as its denominator."
+     "text": "Source: <a>Software Equity Group, 2Q26 SaaS M&A and Public Market Report</a>. The trailing-year count and the quarterly growth rate are different measures, labeled as such; SEG publishes no year-to-date 2026 figure. The industry, sector and desk counts are Capital Row’s own coverage list, not published figures. Share figures are for Q2 2026; healthcare uses vertical SaaS deals as its denominator."
     },
     {
      "key": "band.260",
@@ -1361,7 +1361,7 @@
     {
      "key": "band.261",
      "kind": "Note",
-     "text": "Our notes on your sectors, as they are published."
+     "text": "Our updates on your sectors, as they are published."
     }
    ]
   },
@@ -1417,17 +1417,17 @@
     {
      "key": "buyermap.10",
      "kind": "Text",
-     "text": "The terms"
+     "text": "The scope"
     },
     {
      "key": "buyermap.11",
      "kind": "Text",
-     "text": "One sector, fixed fee."
+     "text": "One sector, one document."
     },
     {
      "key": "buyermap.12",
      "kind": "Paragraph",
-     "text": "Scope and fee agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
+     "text": "Scope agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
     },
     {
      "key": "buyermap.13",
