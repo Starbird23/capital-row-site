@@ -76,7 +76,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>6 desks open"
+     "text": "14 sectors<br>5 desks open"
     },
     {
      "key": "band.5",
@@ -1361,7 +1361,7 @@
     {
      "key": "band.261",
      "kind": "Note",
-     "text": "Our notes on your sectors, as they are published."
+     "text": "Our updates on your sectors, as they are published."
     }
    ]
   },

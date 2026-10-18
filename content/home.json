@@ -86,7 +86,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>6 desks open"
+     "text": "14 sectors<br>5 desks open"
     },
     {
      "key": "band.5",
@@ -1371,7 +1371,7 @@
     {
      "key": "band.261",
      "kind": "Note",
-     "text": "Our notes on your sector, as they are published."
+     "text": "Our updates on your sector, as they are published."
     }
    ]
   },
@@ -1932,105 +1932,185 @@
     {
      "key": "talk.7",
      "kind": "Form label",
-     "text": "Industry"
+     "text": "Sectors you serve"
     },
     {
      "key": "talk.8",
      "kind": "Form label",
-     "text": "Which verticals do you serve"
+     "text": "Reason for contact"
     },
     {
      "key": "talk.9",
-     "kind": "Paragraph",
-     "text": "Select the industry first"
+     "kind": "Form label",
+     "text": "Reason for contact"
     },
     {
      "key": "talk.10",
      "kind": "Form label",
-     "text": "Annual recurring revenue"
+     "text": "Geography you lend in. Choose all that apply."
     },
     {
      "key": "talk.11",
-     "kind": "Form label",
-     "text": "Name"
+     "kind": "Text",
+     "text": "United States"
     },
     {
      "key": "talk.12",
-     "kind": "Form label",
-     "text": "Company"
+     "kind": "Text",
+     "text": "Canada"
     },
     {
      "key": "talk.13",
-     "kind": "Form label",
-     "text": "Work email"
+     "kind": "Text",
+     "text": "United Kingdom and Ireland"
     },
     {
      "key": "talk.14",
-     "kind": "Form label",
-     "text": "Mobile number, optional"
+     "kind": "Text",
+     "text": "Europe"
     },
     {
      "key": "talk.15",
      "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "text": "Latin America"
     },
     {
      "key": "talk.16",
      "kind": "Text",
-     "text": "Optional."
+     "text": "Other"
     },
     {
      "key": "talk.17",
      "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "No preference"
     },
     {
      "key": "talk.18",
-     "kind": "Text",
-     "text": "Keep my criteria on file and send me notes on my sector."
+     "kind": "Form label",
+     "text": "Loan size, USD"
     },
     {
      "key": "talk.19",
      "kind": "Text",
-     "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
+     "text": "No minimum"
     },
     {
      "key": "talk.20",
-     "kind": "Form label",
-     "text": "How did you hear about us"
+     "kind": "Text",
+     "text": "No maximum"
     },
     {
      "key": "talk.21",
      "kind": "Form label",
-     "text": "Who, or which one"
+     "text": "Cash flow appetite"
     },
     {
      "key": "talk.22",
      "kind": "Form label",
-     "text": "What are you trying to work out"
+     "text": "Reason for contact"
     },
     {
      "key": "talk.23",
+     "kind": "Form label",
+     "text": "Client type, optional"
+    },
+    {
+     "key": "talk.24",
+     "kind": "Form label",
+     "text": "Annual recurring revenue"
+    },
+    {
+     "key": "talk.25",
+     "kind": "Form label",
+     "text": "Name"
+    },
+    {
+     "key": "talk.26",
+     "kind": "Form label",
+     "text": "Company"
+    },
+    {
+     "key": "talk.27",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "talk.28",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "talk.29",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "talk.30",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "talk.31",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "talk.32",
+     "kind": "Text",
+     "text": "Keep my criteria on file for matching."
+    },
+    {
+     "key": "talk.33",
+     "kind": "Text",
+     "text": "Send me sector updates."
+    },
+    {
+     "key": "talk.34",
+     "kind": "Text",
+     "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
+    },
+    {
+     "key": "talk.35",
+     "kind": "Form label",
+     "text": "How did you hear about us"
+    },
+    {
+     "key": "talk.36",
+     "kind": "Form label",
+     "text": "Who, or which one"
+    },
+    {
+     "key": "talk.37",
+     "kind": "Form label",
+     "text": "What are you trying to work out"
+    },
+    {
+     "key": "talk.38",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "talk.24",
+     "key": "talk.39",
      "kind": "Button",
      "text": "Send"
     },
     {
-     "key": "talk.25",
+     "key": "talk.40",
+     "kind": "Note",
+     "text": "<a>Complete your buy box</a><br>The full criteria, structured, with minimum and maximum figures. About five minutes."
+    },
+    {
+     "key": "talk.41",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.26",
+     "key": "talk.42",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.27",
+     "key": "talk.43",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

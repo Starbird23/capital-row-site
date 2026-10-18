@@ -537,115 +537,120 @@
     {
      "key": "cost.12",
      "kind": "Text",
-     "text": "Retained search, one sector"
+     "text": "A dedicated search, one sector"
     },
     {
      "key": "cost.13",
      "kind": "Paragraph",
-     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+     "text": "The vertical already mapped, and the diligence view attached before the name reaches you. Scope agreed in writing."
     },
     {
      "key": "cost.14",
+     "kind": "Paragraph",
+     "text": "Illustrative defaults. Edit any figure. The result is the estimated staff cost of origination under these assumptions: compensation is total annual cost, months are the share of that person’s year, and the dead-deal figure adds the days under exclusivity at the same daily rate. It is not lost profit."
+    },
+    {
+     "key": "cost.15",
      "kind": "Form label",
      "text": "Associate total compensation, a year <i>($)</i>"
     },
     {
-     "key": "cost.15",
+     "key": "cost.16",
      "kind": "Text",
      "text": "Midpoint of the published $135,000 to $253,000."
     },
     {
-     "key": "cost.16",
+     "key": "cost.17",
      "kind": "Form label",
      "text": "Months of that person’s time per signed letter"
     },
     {
-     "key": "cost.17",
+     "key": "cost.18",
      "kind": "Text",
      "text": "Your own figure. Twelve is a placeholder, not a measurement."
     },
     {
-     "key": "cost.18",
+     "key": "cost.19",
      "kind": "Form label",
      "text": "Days under exclusivity before a letter dies"
     },
     {
-     "key": "cost.19",
+     "key": "cost.20",
      "kind": "Text",
      "text": "Midpoint of the published 37 to 159, by buyer type."
     },
     {
-     "key": "cost.20",
+     "key": "cost.21",
      "kind": "Form label",
      "text": "Signed letters that died, last twelve months"
     },
     {
-     "key": "cost.21",
+     "key": "cost.22",
      "kind": "Text",
      "text": "Your own count."
     },
     {
-     "key": "cost.22",
+     "key": "cost.23",
      "kind": "Button",
      "text": "Show the cost"
     },
     {
-     "key": "cost.23",
+     "key": "cost.24",
      "kind": "Text",
      "text": "To originate one signed letter"
     },
     {
-     "key": "cost.24",
+     "key": "cost.25",
      "kind": "Text",
      "text": "$0"
     },
     {
-     "key": "cost.25",
+     "key": "cost.26",
      "kind": "Paragraph",
      "text": "The associate’s time, at the compensation above, from a filtered list to a signed letter."
     },
     {
-     "key": "cost.26",
+     "key": "cost.27",
      "kind": "Text",
      "text": "Lost on one letter that dies in exclusivity"
     },
     {
-     "key": "cost.27",
+     "key": "cost.28",
      "kind": "Text",
      "text": "$0"
     },
     {
-     "key": "cost.28",
+     "key": "cost.29",
      "kind": "Paragraph",
      "text": "The origination cost above, plus the days under exclusivity, before any diligence invoice."
     },
     {
-     "key": "cost.29",
+     "key": "cost.30",
      "kind": "Text",
      "text": "Lost on the letters that died last year"
     },
     {
-     "key": "cost.30",
+     "key": "cost.31",
      "kind": "Text",
      "text": "$0"
     },
     {
-     "key": "cost.31",
+     "key": "cost.32",
      "kind": "Paragraph",
      "text": "Your count of dead letters, at the cost of one."
     },
     {
-     "key": "cost.32",
+     "key": "cost.33",
      "kind": "Note",
      "text": "Compensation range compiled by a sell-side advisory firm from Glassdoor data, August 2024, for a US M&A associate, total compensation. Days under exclusivity from a lower-middle-market deal platform’s study of broken letters of intent, January 2026, averages by buyer type: 37 days where a family office was the buyer, 159 where a senior lender was. The months per letter and the count of dead letters are yours; the calculator does not supply them. Diligence invoices, legal fees and the time of anyone other than the associate are not included."
     },
     {
-     "key": "cost.33",
+     "key": "cost.34",
      "kind": "Button",
      "text": "Discuss a sector"
     },
     {
-     "key": "cost.34",
+     "key": "cost.35",
      "kind": "Note",
      "text": "One vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
     }

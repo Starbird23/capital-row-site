@@ -222,100 +222,90 @@
     {
      "key": "request.26",
      "kind": "Form label",
-     "text": "Industry"
+     "text": "Sectors"
     },
     {
      "key": "request.27",
      "kind": "Form label",
-     "text": "Sectors"
-    },
-    {
-     "key": "request.28",
-     "kind": "Paragraph",
-     "text": "Select the industry first"
-    },
-    {
-     "key": "request.29",
-     "kind": "Form label",
      "text": "Annual revenue"
     },
     {
-     "key": "request.30",
+     "key": "request.28",
      "kind": "Form label",
      "text": "When you plan to go to market"
     },
     {
-     "key": "request.31",
+     "key": "request.29",
      "kind": "Form label",
      "text": "Who prepares your financial statements"
     },
     {
-     "key": "request.32",
+     "key": "request.30",
      "kind": "Form label",
      "text": "Has the business had a quality of earnings report?"
     },
     {
-     "key": "request.33",
+     "key": "request.31",
      "kind": "Form label",
      "text": "When"
     },
     {
-     "key": "request.34",
+     "key": "request.32",
      "kind": "Form label",
      "text": "Who prepared it, optional"
     },
     {
-     "key": "request.35",
+     "key": "request.33",
      "kind": "Form label",
      "text": "What you want to work out before a buyer looks"
     },
     {
-     "key": "request.36",
+     "key": "request.34",
      "kind": "Text",
      "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
-     "key": "request.37",
+     "key": "request.35",
      "kind": "Text",
      "text": "Optional."
     },
     {
-     "key": "request.38",
+     "key": "request.36",
      "kind": "Text",
      "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
-     "key": "request.39",
+     "key": "request.37",
      "kind": "Text",
      "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
     },
     {
-     "key": "request.40",
+     "key": "request.38",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "request.41",
+     "key": "request.39",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "request.42",
+     "key": "request.40",
      "kind": "Paragraph",
      "text": "Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
-     "key": "request.43",
+     "key": "request.41",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "request.44",
+     "key": "request.42",
      "kind": "Note",
      "text": "Wednesday January 20, live online. Everyone who reserves a seat receives the playbook."
     },
     {
-     "key": "request.45",
+     "key": "request.43",
      "kind": "Note",
      "text": "This is non-attest preparation. For a quality of earnings report, see <a>Sell-Side QoE</a>."
     }

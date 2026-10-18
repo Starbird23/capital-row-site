@@ -1,0 +1,448 @@
+{
+ "path": "/buy-box/",
+ "seoTitle": "Capital Row: Your buy box",
+ "seoDescription": "The full buy box for buyers of vertical software companies: sectors, geography, size, structure and timing, kept on file for matching.",
+ "sections": [
+  {
+   "id": "criteria",
+   "name": "Your acquisition criteria,in full.",
+   "items": [
+    {
+     "key": "criteria.1",
+     "kind": "Paragraph",
+     "text": "<a>← Back to Capital Row</a>"
+    },
+    {
+     "key": "criteria.2",
+     "kind": "Small label",
+     "text": "For buyers · The buy box"
+    },
+    {
+     "key": "criteria.3",
+     "kind": "Page headline",
+     "text": "Your acquisition criteria,<br><em>in full.</em>"
+    },
+    {
+     "key": "criteria.4",
+     "kind": "Paragraph",
+     "text": "The conversation form asks for your thesis in a few lines. This page takes the full buy box: every answer structured, more than one choice where the question allows it, and figures as a minimum and a maximum. It takes about five minutes."
+    },
+    {
+     "key": "criteria.5",
+     "kind": "Paragraph",
+     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. Anything the form cannot hold goes in the last box, or into the first conversation."
+    },
+    {
+     "key": "criteria.6",
+     "kind": "Form label",
+     "text": "Name"
+    },
+    {
+     "key": "criteria.7",
+     "kind": "Form label",
+     "text": "Work email"
+    },
+    {
+     "key": "criteria.8",
+     "kind": "Form label",
+     "text": "Firm"
+    },
+    {
+     "key": "criteria.9",
+     "kind": "Form label",
+     "text": "Your title"
+    },
+    {
+     "key": "criteria.10",
+     "kind": "Form label",
+     "text": "Firm website, optional"
+    },
+    {
+     "key": "criteria.11",
+     "kind": "Form label",
+     "text": "Mobile number, optional"
+    },
+    {
+     "key": "criteria.12",
+     "kind": "Paragraph",
+     "text": "Your firm"
+    },
+    {
+     "key": "criteria.13",
+     "kind": "Form label",
+     "text": "Organization type"
+    },
+    {
+     "key": "criteria.14",
+     "kind": "Form label",
+     "text": "Capital model"
+    },
+    {
+     "key": "criteria.15",
+     "kind": "Paragraph",
+     "text": "What you acquire"
+    },
+    {
+     "key": "criteria.16",
+     "kind": "Form label",
+     "text": "Acquisition context. Choose all that apply."
+    },
+    {
+     "key": "criteria.17",
+     "kind": "Text",
+     "text": "A new platform"
+    },
+    {
+     "key": "criteria.18",
+     "kind": "Text",
+     "text": "An add-on to an existing platform"
+    },
+    {
+     "key": "criteria.19",
+     "kind": "Form label",
+     "text": "Platform name, optional"
+    },
+    {
+     "key": "criteria.20",
+     "kind": "Form label",
+     "text": "Ownership sought. Choose all that apply."
+    },
+    {
+     "key": "criteria.21",
+     "kind": "Text",
+     "text": "Full acquisition"
+    },
+    {
+     "key": "criteria.22",
+     "kind": "Text",
+     "text": "Majority"
+    },
+    {
+     "key": "criteria.23",
+     "kind": "Text",
+     "text": "Minority"
+    },
+    {
+     "key": "criteria.24",
+     "kind": "Form label",
+     "text": "Sectors you personally target"
+    },
+    {
+     "key": "criteria.25",
+     "kind": "Form label",
+     "text": "Sectors your company targets"
+    },
+    {
+     "key": "criteria.26",
+     "kind": "Form label",
+     "text": "Target company types. Choose all that apply."
+    },
+    {
+     "key": "criteria.27",
+     "kind": "Text",
+     "text": "Vertical software"
+    },
+    {
+     "key": "criteria.28",
+     "kind": "Text",
+     "text": "Software + services"
+    },
+    {
+     "key": "criteria.29",
+     "kind": "Text",
+     "text": "Services"
+    },
+    {
+     "key": "criteria.30",
+     "kind": "Form label",
+     "text": "Target headquarters. Choose all that apply."
+    },
+    {
+     "key": "criteria.31",
+     "kind": "Text",
+     "text": "United States"
+    },
+    {
+     "key": "criteria.32",
+     "kind": "Text",
+     "text": "Canada"
+    },
+    {
+     "key": "criteria.33",
+     "kind": "Text",
+     "text": "United Kingdom and Ireland"
+    },
+    {
+     "key": "criteria.34",
+     "kind": "Text",
+     "text": "Europe"
+    },
+    {
+     "key": "criteria.35",
+     "kind": "Text",
+     "text": "Latin America"
+    },
+    {
+     "key": "criteria.36",
+     "kind": "Text",
+     "text": "Other"
+    },
+    {
+     "key": "criteria.37",
+     "kind": "Text",
+     "text": "No preference"
+    },
+    {
+     "key": "criteria.38",
+     "kind": "Form label",
+     "text": "States or regions, optional"
+    },
+    {
+     "key": "criteria.39",
+     "kind": "Form label",
+     "text": "Customer markets of the target. Choose all that apply."
+    },
+    {
+     "key": "criteria.40",
+     "kind": "Text",
+     "text": "United States"
+    },
+    {
+     "key": "criteria.41",
+     "kind": "Text",
+     "text": "Canada"
+    },
+    {
+     "key": "criteria.42",
+     "kind": "Text",
+     "text": "United Kingdom and Ireland"
+    },
+    {
+     "key": "criteria.43",
+     "kind": "Text",
+     "text": "Europe"
+    },
+    {
+     "key": "criteria.44",
+     "kind": "Text",
+     "text": "Latin America"
+    },
+    {
+     "key": "criteria.45",
+     "kind": "Text",
+     "text": "Other"
+    },
+    {
+     "key": "criteria.46",
+     "kind": "Text",
+     "text": "No preference"
+    },
+    {
+     "key": "criteria.47",
+     "kind": "Paragraph",
+     "text": "Financial criteria, trailing twelve months, USD"
+    },
+    {
+     "key": "criteria.48",
+     "kind": "Form label",
+     "text": "Revenue"
+    },
+    {
+     "key": "criteria.49",
+     "kind": "Text",
+     "text": "No minimum"
+    },
+    {
+     "key": "criteria.50",
+     "kind": "Text",
+     "text": "No maximum"
+    },
+    {
+     "key": "criteria.51",
+     "kind": "Form label",
+     "text": "Annual recurring revenue, where relevant"
+    },
+    {
+     "key": "criteria.52",
+     "kind": "Text",
+     "text": "No minimum"
+    },
+    {
+     "key": "criteria.53",
+     "kind": "Text",
+     "text": "No maximum"
+    },
+    {
+     "key": "criteria.54",
+     "kind": "Form label",
+     "text": "Adjusted EBITDA of the target. A negative figure only if you accept loss-making targets"
+    },
+    {
+     "key": "criteria.55",
+     "kind": "Text",
+     "text": "No minimum"
+    },
+    {
+     "key": "criteria.56",
+     "kind": "Text",
+     "text": "No maximum"
+    },
+    {
+     "key": "criteria.57",
+     "kind": "Form label",
+     "text": "Enterprise value"
+    },
+    {
+     "key": "criteria.58",
+     "kind": "Text",
+     "text": "No minimum"
+    },
+    {
+     "key": "criteria.59",
+     "kind": "Text",
+     "text": "No maximum"
+    },
+    {
+     "key": "criteria.60",
+     "kind": "Form label",
+     "text": "Equity check per deal"
+    },
+    {
+     "key": "criteria.61",
+     "kind": "Text",
+     "text": "No minimum"
+    },
+    {
+     "key": "criteria.62",
+     "kind": "Text",
+     "text": "No maximum"
+    },
+    {
+     "key": "criteria.63",
+     "kind": "Paragraph",
+     "text": "Operating profile"
+    },
+    {
+     "key": "criteria.64",
+     "kind": "Form label",
+     "text": "Profitability requirement"
+    },
+    {
+     "key": "criteria.65",
+     "kind": "Form label",
+     "text": "Revenue model. Choose all that apply."
+    },
+    {
+     "key": "criteria.66",
+     "kind": "Text",
+     "text": "Subscription"
+    },
+    {
+     "key": "criteria.67",
+     "kind": "Text",
+     "text": "Transactional or usage"
+    },
+    {
+     "key": "criteria.68",
+     "kind": "Text",
+     "text": "Services"
+    },
+    {
+     "key": "criteria.69",
+     "kind": "Text",
+     "text": "Mixed"
+    },
+    {
+     "key": "criteria.70",
+     "kind": "Form label",
+     "text": "Recurring revenue preference"
+    },
+    {
+     "key": "criteria.71",
+     "kind": "Form label",
+     "text": "Regulated sectors"
+    },
+    {
+     "key": "criteria.72",
+     "kind": "Form label",
+     "text": "Founder after close"
+    },
+    {
+     "key": "criteria.73",
+     "kind": "Paragraph",
+     "text": "Execution"
+    },
+    {
+     "key": "criteria.74",
+     "kind": "Form label",
+     "text": "Acquisition timeline"
+    },
+    {
+     "key": "criteria.75",
+     "kind": "Form label",
+     "text": "Funding status"
+    },
+    {
+     "key": "criteria.76",
+     "kind": "Form label",
+     "text": "Exclusions, optional"
+    },
+    {
+     "key": "criteria.77",
+     "kind": "Form label",
+     "text": "Additional criteria or exceptions, optional"
+    },
+    {
+     "key": "criteria.78",
+     "kind": "Text",
+     "text": "Your criteria"
+    },
+    {
+     "key": "criteria.79",
+     "kind": "Note",
+     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. Nothing you write here goes to an owner or anyone else."
+    },
+    {
+     "key": "criteria.80",
+     "kind": "Text",
+     "text": "Send me sector updates."
+    },
+    {
+     "key": "criteria.81",
+     "kind": "Text",
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+    },
+    {
+     "key": "criteria.82",
+     "kind": "Text",
+     "text": "Optional."
+    },
+    {
+     "key": "criteria.83",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "criteria.84",
+     "kind": "Note",
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
+    },
+    {
+     "key": "criteria.85",
+     "kind": "Button",
+     "text": "Send my buy box"
+    },
+    {
+     "key": "criteria.86",
+     "kind": "Button",
+     "text": "How an engagement works"
+    },
+    {
+     "key": "criteria.87",
+     "kind": "Note",
+     "text": "Criteria on file is confirmed with you each quarter. You hear when an opportunity fits."
+    }
+   ]
+  }
+ ]
+}

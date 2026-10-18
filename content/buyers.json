@@ -714,12 +714,12 @@
     {
      "key": "cost.12",
      "kind": "Text",
-     "text": "Retained search, one sector"
+     "text": "A dedicated search, one sector"
     },
     {
      "key": "cost.13",
      "kind": "Paragraph",
-     "text": "Exclusive to you in that sector. The vertical already mapped, and the diligence view attached before the name reaches you. Scope and fee are agreed in writing."
+     "text": "The vertical already mapped, and the diligence view attached before the name reaches you. Scope agreed in writing."
     },
     {
      "key": "cost.14",
@@ -951,7 +951,7 @@
     {
      "key": "intelligence.21",
      "kind": "Note",
-     "text": "Our notes on your sectors, as they are published."
+     "text": "Our updates on your sectors, as they are published."
     },
     {
      "key": "intelligence.22",
@@ -962,7 +962,7 @@
   },
   {
    "id": "how",
-   "name": "Two ways to work with us. Criteria on file, or a retained search.",
+   "name": "Two ways to work with us. Criteria on file, or a dedicated search.",
    "items": [
     {
      "key": "how.1",
@@ -972,17 +972,17 @@
     {
      "key": "how.2",
      "kind": "Section headline",
-     "text": "Two ways to work with us. <em>Criteria on file, or a retained search.</em>"
+     "text": "Two ways to work with us. <em>Criteria on file, or a dedicated search.</em>"
     },
     {
      "key": "how.3",
      "kind": "Paragraph",
-     "text": "Criteria on file is non-exclusive, at no fee: you hear when a note or an opportunity fits. A retained search is by exception, one buyer per sector, with scope and fee agreed in writing, each opportunity assessed before a letter of intent."
+     "text": "Criteria on file: you hear when an update or an opportunity fits your thesis. A dedicated search is by exception, with scope agreed in writing, each opportunity assessed before a letter of intent."
     },
     {
      "key": "how.4",
      "kind": "Text",
-     "text": "No fee"
+     "text": "Standing"
     },
     {
      "key": "how.5",
@@ -997,7 +997,7 @@
     {
      "key": "how.7",
      "kind": "Text",
-     "text": "A retained search"
+     "text": "A dedicated search"
     },
     {
      "key": "how.8",
@@ -1027,7 +1027,7 @@
     {
      "key": "how.13",
      "kind": "Paragraph",
-     "text": "When we publish a note on your sector, or when an opportunity fits your criteria."
+     "text": "When we publish an update on your sector, or when an opportunity fits your criteria."
     },
     {
      "key": "how.14",
