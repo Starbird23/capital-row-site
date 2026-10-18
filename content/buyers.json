@@ -323,7 +323,7 @@
     {
      "key": "market.21",
      "kind": "Paragraph",
-     "text": "Do not know the market count? Leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
+     "text": "If you do not know the market count, leave it blank and the benchmark estimates it. Your numbers are not sent anywhere."
     },
     {
      "key": "market.22",
@@ -364,7 +364,7 @@
     {
      "key": "cost.5",
      "kind": "Paragraph",
-     "text": "Mapping, outreach, qualifying. The person is $135,000 to $253,000 in total compensation, and cannot run a process at the same time."
+     "text": "Mapping, outreach, qualifying. The role costs $135,000 to $253,000 a year in total compensation, and cannot run a process at the same time."
     },
     {
      "key": "cost.6",
@@ -394,7 +394,7 @@
     {
      "key": "cost.11",
      "kind": "Paragraph",
-     "text": "The average by buyer type, from a family office to a senior lender, plus the diligence invoices already committed."
+     "text": "The average by buyer type, from a family office to a senior lender."
     },
     {
      "key": "cost.12",

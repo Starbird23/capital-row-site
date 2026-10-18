@@ -18,46 +18,69 @@ const isGuid = (x) => /^[0-9a-fA-F-]{30,40}$/.test(x || '');
 export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
 
 // ---------------------------------------------------------------- validation
-const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'message'];
+// Every property the site sends, by record. A value that does not check out is dropped from that property (the answer is
+// still in "message"); only a submission without a usable email address is refused. A lead is never lost to a check.
+const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'domain', 'message'];
 const NUM = ['cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
-const BOOL = ['cr_criteria_on_file', 'cr_owner_session', 'cr_sms_consent', 'cr_sector_updates'];
-const TEXTP = ['cr_form', 'cr_details', 'cr_heard_via_detail', 'cr_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_revenue_band'];
+const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent'];
+const TEXTP = ['cr_form', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
+// HubSpot's own values for the fields that already exist in the portal
+export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'intermediary', 'referral_partner'],
+  offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'] };
 // property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"
-const ONE = { cr_side: ['seat'], cr_kind: ['kind.Seller', 'kind.Buyer', 'kind.Advisor', 'kind.Lender', 'strole', 'vckind', 'bb_kind', 'pqkind', 'bdkind', 'cctype'],
-  cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'], cr_capital_model: ['bb_capital'],
+const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
+  cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],
   cr_profitability: ['bb_profit'], cr_recurring_pref: ['bb_recur'], cr_regulated_appetite: ['bb_reg'], cr_owner_after_close: ['bb_owner'], cr_timing: ['bb_timing'], cr_funding_status: ['bb_funding'],
-  cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'] };
-const MULTI = { cr_geography: ['bb_geo', 'ln_geo', 'ccgeo'], cr_customer_markets: ['bb_cust'], cr_ownership: ['bb_own'], cr_acquisition_context: ['bb_context'], cr_business_model: ['bb_model'], cr_revenue_model: ['bb_revmodel'] };
-const SECTORS = ['cr_sector', 'cr_sector_firm', 'cr_sector_followed'], INDUSTRIES = ['cr_industry', 'cr_industry_firm'];
-const REQUIRED = { 'Conversation': ['firstname'], 'Buy box': ['firstname', 'cr_kind', 'cr_sector', 'cr_profitability', 'cr_timing', 'cr_funding_status'], 'Pre-Market Assessment request': ['firstname'],
-  'Bad or broken deal report': ['cr_main_reason'], 'Capital Connections': ['firstname'], 'Owner session seat': ['firstname'], 'Follow a sector': ['cr_sector_followed'], 'Valuation calculator': ['firstname'] };
-export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
+  cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'], cr_headquarters_region: ['ccgeo'] };
+const MULTI = { cr_target_geography: ['bb_geo'], cr_lending_geography: ['ln_geo'], cr_customer_markets: ['bb_cust'], cr_ownership: ['bb_own'], cr_acquisition_approach: ['bb_context'],
+  cr_target_company_types: ['bb_model'], cr_revenue_model: ['bb_revmodel'] };
+const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals'], INDUSTRIES = ['cr_industry', 'target_end_markets'];
+// which record each property lives on: 0-1 contact, 0-2 company
+const COMPANY = new Set(['name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name',
+  'cr_ownership', 'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref',
+  'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
+  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags']);
+export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+const objOf = (n) => (COMPANY.has(n) ? '0-2' : '0-1');
 
-export function checkFields(kind, fields, cfg) {
-  const errs = [];
-  if (!Array.isArray(fields) || !fields.length || fields.length > 120) return ['fields'];
-  const by = {};
-  for (const f of fields) {
-    if (!f || typeof f.name !== 'string' || typeof f.value !== 'string' || !ALLOWED.has(f.name) || !['0-1', '0-2'].includes(f.objectTypeId || '0-1')) { errs.push('field:' + (f && f.name)); continue; }
-    if (f.value.length > (f.name === 'message' ? 20000 : 4000)) errs.push('long:' + f.name);
-    if (f.objectTypeId !== '0-2') by[f.name] = f.value;
-  }
-  if (!EMAIL.test(by.email || '')) errs.push('email');
-  for (const r of REQUIRED[kind] || []) if (!String(by[r] || '').trim()) errs.push('required:' + r);
-  for (const n of NUM) if (by[n] != null && !/^-?\d{1,15}$/.test(by[n])) errs.push('number:' + n);
-  for (const n of BOOL) if (by[n] != null && !['true', 'false'].includes(by[n])) errs.push('bool:' + n);
+// returns { fatal: [...], fields: [the fields that checked out], dropped: [names] }
+export function cleanFields(kind, fields, cfg) {
+  if (!Array.isArray(fields) || !fields.length || fields.length > 160) return { fatal: ['fields'], fields: [], dropped: [] };
+  const out = [], dropped = [];
+  let vals = null, sids = null, iids = null;
   if (cfg && cfg.lists) {
-    const vals = (ids) => new Set(ids.flatMap((id) => (cfg.lists[id] || []).map((o) => o[0])).filter(Boolean));
-    for (const [n, ids] of Object.entries(ONE)) if (by[n] != null && !vals(ids).has(by[n])) errs.push('choice:' + n);
-    for (const [n, ids] of Object.entries(MULTI)) if (by[n] != null) { const ok = vals(ids); if (by[n].split(';').map((x) => x.trim()).some((x) => !ok.has(x))) errs.push('choice:' + n); }
-    const sids = new Set(['other']), iids = new Set();
+    vals = (ids) => new Set(ids.flatMap((id) => (cfg.lists[id] || []).map((o) => o[0])).filter(Boolean));
+    sids = new Set(['other']); iids = new Set();
     for (const i of cfg.tax || []) { iids.add(i.id); for (const s of i.sectors || []) sids.add(s.id); }
-    for (const n of SECTORS) if (by[n] != null && by[n].split(';').some((x) => !sids.has(x))) errs.push('sector:' + n);
-    for (const n of INDUSTRIES) if (by[n] != null && by[n].split(';').some((x) => !iids.has(x))) errs.push('industry:' + n);
   }
-  return errs;
+  const ok = (n, v) => {
+    if (v.length > (n === 'message' ? 20000 : 4000)) return false;
+    if (NUM.includes(n)) return /^-?\d{1,15}$/.test(v);
+    if (BOOL.includes(n)) return v === 'true' || v === 'false';
+    if (FIXED[n]) return FIXED[n].includes(v);
+    if (!vals) return true;
+    if (ONE[n]) return vals(ONE[n]).has(v);
+    if (MULTI[n]) { const s = vals(MULTI[n]); return v.split(';').map((x) => x.trim()).every((x) => s.has(x)); }
+    if (SECTORS.includes(n)) return v.split(';').every((x) => sids.has(x));
+    if (INDUSTRIES.includes(n)) return v.split(';').every((x) => iids.has(x));
+    if (n === 'domain') return /^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(v);
+    return true;
+  };
+  const seen = new Set();
+  for (const f of fields) {
+    if (!f || typeof f.name !== 'string' || typeof f.value !== 'string') { dropped.push('?'); continue; }
+    const n = f.name, o = f.objectTypeId || '0-1';
+    if (!ALLOWED.has(n) || o !== objOf(n) || seen.has(o + n) || !ok(n, f.value)) { dropped.push(n); continue; }
+    seen.add(o + n); out.push({ objectTypeId: o, name: n, value: f.value });
+  }
+  const email = (out.find((f) => f.name === 'email') || {}).value || '';
+  const fatal = EMAIL.test(email) ? [] : ['email'];
+  if (!out.some((f) => f.name === 'message')) fatal.push('message');
+  return { fatal, fields: out, dropped };
 }
+// kept for the tests and older callers: the list of problems, as before
+export function checkFields(kind, fields, cfg) { const r = cleanFields(kind, fields, cfg); return [...r.fatal, ...r.dropped.map((n) => 'dropped:' + n)]; }
 
 // ---------------------------------------------------------------- storage
 export async function ensureTable(db) {
@@ -75,7 +98,7 @@ export async function sendToHubSpot(env, guid, payload) {
   const base = env.HS_BASE || 'https://api.hsforms.com';
   const url = `${base}/submissions/v3/integration/submit/${env.HS_PORTAL || HS_PORTAL}/${guid}`;
   let fields = payload.fields.slice(); const dropped = [];
-  for (let round = 0; round < 6; round++) {
+  for (let round = 0; round < 8; round++) {
     const body = { fields, context: payload.context || {} };
     if (payload.consent) body.legalConsentOptions = payload.consent;
     let r, j = null, text = '';
@@ -83,14 +106,15 @@ export async function sendToHubSpot(env, guid, payload) {
     catch (e) { return { ok: false, transient: true, error: 'network: ' + String(e && e.message || e).slice(0, 200), dropped }; }
     if (r.ok) return { ok: true, status: r.status, dropped };
     const errs = (j && j.errors) || [];
-    const missing = errs.filter((e) => e.errorType === 'FIELD_NOT_IN_FORM_DEFINITION');
-    if (r.status === 400 && missing.length && missing.length === errs.length) {
+    if (r.status === 400 && errs.length) {
       const names = fields.map((f) => f.name);
-      let bad = [];
-      for (const e of missing) { const hit = names.filter((n) => new RegExp('(^|[^A-Za-z0-9_])' + n + '([^A-Za-z0-9_]|$)').test(e.message || '')); bad.push(...(hit.length ? hit : ['?'])); }
-      if (bad.includes('?')) bad = names.filter((n) => n.startsWith('cr_'));
-      bad = [...new Set(bad)].filter((n) => n !== 'email' && n !== 'message');
-      if (!bad.length) return { ok: false, transient: false, error: 'hubspot 400: ' + text.slice(0, 300), dropped };
+      const named = (e) => names.filter((n) => new RegExp('(^|[^A-Za-z0-9_])' + n + '([^A-Za-z0-9_]|$)').test(e.message || ''));
+      let bad = [], unnamed = false;
+      for (const e of errs) { const hit = named(e).filter((n) => n !== 'email' && n !== 'message'); if (hit.length) bad.push(...hit); else unnamed = true; }
+      // a field HubSpot does not have on the form, without a recognisable name: drop the site's own properties
+      if (unnamed && errs.every((e) => e.errorType === 'FIELD_NOT_IN_FORM_DEFINITION')) { bad.push(...names.filter((n) => n.startsWith('cr_') || n.startsWith('target_') || ['offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'domain'].includes(n))); unnamed = false; }
+      bad = [...new Set(bad)];
+      if (unnamed || !bad.length) return { ok: false, transient: false, error: 'hubspot 400: ' + text.slice(0, 300), dropped };
       dropped.push(...bad); fields = fields.filter((f) => !bad.includes(f.name)); continue;
     }
     const transient = r.status === 429 || r.status >= 500;

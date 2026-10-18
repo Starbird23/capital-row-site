@@ -1,5 +1,5 @@
-"""Rev 13.6 delivery tests: the real pages, the real Pages Functions and a local D1 database (wrangler pages dev), with a
-stand-in for HubSpot that refuses cr_ properties the way the live portal does today. Nothing is sent outside this machine."""
+"""Rev 13.7 delivery tests: the real pages, the real Pages Functions and a local D1 database (wrangler pages dev), with a
+stand-in for HubSpot whose main form has only the standard fields, like the live portal today. Nothing is sent outside this machine."""
 import asyncio, json, re, urllib.request
 from playwright.async_api import async_playwright
 from pw import new_page
@@ -22,11 +22,14 @@ def reset(**mode):
 def status(): return get(SITE + 'api/status', {'X-Retry-Key': KEY})
 def row(i): return next((r for r in status()['recent'] if r['id'] == i), None)
 def retry(): return post(SITE + 'api/retry', {}, {'X-Retry-Key': KEY})[1]
-ALL_CR = ','.join(['cr_form', 'cr_side', 'cr_kind', 'cr_sector', 'cr_industry', 'cr_revenue_band', 'cr_heard_via', 'cr_heard_via_detail', 'cr_sector_updates', 'cr_sms_consent', 'cr_criteria_on_file',
-                   'cr_reason', 'cr_owner_session', 'cr_capital_model', 'cr_acquisition_context', 'cr_platform_name', 'cr_ownership', 'cr_sector_firm', 'cr_industry_firm', 'cr_business_model', 'cr_geography',
-                   'cr_geography_detail', 'cr_customer_markets', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max',
-                   'cr_range_flags', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref', 'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_details',
-                   'cr_main_reason', 'cr_stage', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm', 'cr_sector_followed', 'cr_client_type', 'cr_loan_min', 'cr_loan_max', 'cr_cash_flow_appetite'])
+ALL_CR = ','.join(['cr_form', 'cr_contact_type', 'cr_kind', 'cr_sector', 'cr_industry', 'cr_heard_via', 'cr_heard_via_detail', 'cr_marketing_consent', 'cr_sms_consent', 'cr_criteria_retention_consent',
+                   'cr_reason', 'cr_owner_session', 'cr_details', 'cr_main_reason', 'cr_stage', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm', 'cr_sector_followed', 'cr_client_type', 'cr_loan_min', 'cr_loan_max',
+                   'cr_cash_flow_appetite', 'cr_lending_geography', 'cr_headquarters_region', 'cr_range_flags', 'cr_research_use_consent', 'cr_recontact_consent',
+                   # company record
+                   'name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name', 'cr_ownership',
+                   'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
+                   'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref', 'cr_regulated_appetite', 'cr_owner_after_close',
+                   'cr_timing', 'cr_funding_status', 'cr_exclusions'])
 async def main():
     bad = []
     def ck(n, c, g=''):
@@ -50,7 +53,7 @@ async def main():
         reset()
         ctx, pg = await page('index.html')
         await pg.evaluate("document.querySelector('#nv a.cta').click()"); await pg.wait_for_timeout(400)
-        await pg.select_option('#seat', 'Buyer'); await pg.wait_for_timeout(300); await pg.select_option('#kind', 'Private equity fund')
+        await pg.select_option('#seat', 'Buyer'); await pg.wait_for_timeout(300); await pg.select_option('#kind', 'PE platform')
         await pick(pg, 'vert', 'hc', 2)
         await pg.fill('#nm', 'Test Buyer'); await pg.fill('#em', 'test.buyer+'+RUN+'@example.com'); await pg.fill('#co', 'Test Capital'); await pg.select_option('#how', 'LinkedIn'); await pg.fill('#msg', 'Test thesis')
         await pg.evaluate("document.getElementById('onfile').click()")
@@ -60,11 +63,11 @@ async def main():
         rows = status()['recent']; r0 = rows[0] if rows else {}
         ck('one row, delivered', r0.get('kind') == 'Conversation' and r0.get('status') == 'delivered' and r0.get('attempts') == 1, r0)
         hs = log()['hubspot']
-        ck('HubSpot refused the missing cr_ properties, the rest was delivered', len(hs) == 2 and hs[0]['answer'] == 400 and hs[1]['answer'] == 200 and hs[1]['form'] == MAIN and hs[1]['portal'] == '247329185', [(e['answer'], e['form']) for e in hs])
+        ck('HubSpot refused the fields not on its form, the rest was delivered', len(hs) == 2 and hs[0]['answer'] == 400 and hs[1]['answer'] == 200 and hs[1]['form'] == MAIN and hs[1]['portal'] == '247329185', [(e['answer'], e['form']) for e in hs])
         f = {x['name']: x['value'] for x in hs[-1]['body']['fields']} if hs else {}
         ck('delivered fields: email, names, company, message with every answer', f.get('email') == 'test.buyer+'+RUN+'@example.com' and f.get('firstname') == 'Test' and f.get('lastname') == 'Buyer' and f.get('company') == 'Test Capital'
-           and 'Kind: Private equity fund' in f.get('message', '') and 'Sectors: ' in f.get('message', '') and 'Test thesis' in f.get('message', '') and not any(k.startswith('cr_') for k in f), f)
-        ck('dropped properties recorded for Gonzalo', 'cr_side' in (r0.get('dropped') or '') and 'cr_sector' in (r0.get('dropped') or ''), r0.get('dropped'))
+           and 'Buyer type: PE platform' in f.get('message', '') and 'Sectors: ' in f.get('message', '') and 'Test thesis' in f.get('message', '') and not any(k.startswith('cr_') for k in f) and 'buyer_type' not in f, f)
+        ck('dropped properties recorded for Gonzalo', 'cr_contact_type' in (r0.get('dropped') or '') and 'cr_sector' in (r0.get('dropped') or '') and 'buyer_type' in (r0.get('dropped') or ''), r0.get('dropped'))
         ck('hutk-free context carries the page', hs and hs[-1]['body']['context'].get('pageUri', '').startswith(SITE), hs[-1]['body']['context'] if hs else '')
         # ---------- 2. the same answers again: a duplicate, not a second lead
         await pg.evaluate("document.querySelector('#nv a.cta').click()"); await pg.wait_for_timeout(300)
@@ -77,7 +80,7 @@ async def main():
         ctx, pg = await page('index.html'); reqs = []
         pg.on('request', lambda rq: reqs.append(rq.post_data) if rq.url.endswith('/api/submit') else None)
         await pg.evaluate("document.querySelector('#nv a.cta').click()"); await pg.wait_for_timeout(400)
-        await pg.select_option('#seat', 'Seller'); await pg.wait_for_timeout(300); await pg.select_option('#kind', 'Hybrid models'); await pg.select_option('#sl_reason', 'Preparing for a sale'); await pg.select_option('#band', 'Under $5M ARR')
+        await pg.select_option('#seat', 'Seller'); await pg.wait_for_timeout(300); await pg.select_option('#kind', 'Hybrid models'); await pg.select_option('#sl_reason', 'Preparing for a sale'); await pg.select_option('#lead', 'Services'); await pg.select_option('#band', 'Under $1M'); await pg.select_option('#rband', 'Under $5M')
         await pick(pg, 'vert', 'fin', 1)
         await pg.fill('#nm', 'Test Owner'); await pg.fill('#em', 'test.owner+'+RUN+'@example.com'); await pg.evaluate("document.getElementById('osbox')&&document.getElementById('osbox').click()")
         await pg.click('#f button[type=submit]'); await pg.wait_for_timeout(2500)
@@ -89,7 +92,7 @@ async def main():
         main = sent_bodies(form=MAIN); seat = sent_bodies(form=SEAT)
         ck('delivered once to HubSpot, not twice', len(main) == 1 and main[0][0]['answer'] == 200, len(main))
         mf = main[0][1] if main else {}
-        ck('with properties in place, typed values arrive', mf.get('cr_side') == 'Seller' and mf.get('cr_kind') == 'Hybrid models' and mf.get('cr_reason') == 'Preparing for a sale' and mf.get('cr_industry') == 'fin'
+        ck('with properties in place, typed values arrive', mf.get('cr_contact_type') == 'seller' and mf.get('offering_type') == 'Services-led hybrid' and mf.get('arr_band') == 'Under $1M' and mf.get('revenue_band') == 'Under $5M' and mf.get('cr_reason') == 'Preparing for a sale' and mf.get('cr_industry') == 'fin'
            and mf.get('cr_sector', '').startswith('fin_') and mf.get('cr_sms_consent') == 'false' and mf.get('cr_owner_session') == 'true', {k: v for k, v in mf.items() if k.startswith('cr_')})
         ck('the owner session seat goes to the seat form as its own submission', len(seat) == 1 and seat[0][1].get('email') == 'test.owner+'+RUN+'@example.com' and seat[0][1].get('cr_owner_session') == 'true', [s[1] for s in seat])
         await ctx.close()
@@ -107,7 +110,7 @@ async def main():
         r1 = retry(); r2 = retry(); rr = row(rr['id'])
         ck('retries deliver it', rr['status'] == 'delivered' and rr['attempts'] == 3, (r1, r2, rr))
         hs = sent_bodies(form=SEAT)
-        ck('three attempts reached HubSpot, the last accepted', [e[0]['answer'] for e in hs] == [503, 503, 200] and hs[-1][1].get('cr_kind') == 'CPA or accountant' and hs[-1][1].get('cr_side') == 'Advisor', [(e[0]['answer']) for e in hs])
+        ck('three attempts reached HubSpot, the last accepted', [e[0]['answer'] for e in hs] == [503, 503, 200] and hs[-1][1].get('cr_kind') == 'CPA or accountant' and hs[-1][1].get('cr_contact_type') == 'intermediary', [(e[0]['answer']) for e in hs])
         await ctx.close()
 
         # ---------- 4. a refusal a retry cannot fix: failed at once, alert by email and webhook
@@ -161,25 +164,30 @@ async def main():
         await pg.route('**/api/submit', lambda r: asyncio.ensure_future(tamper(r)))
         await pg.evaluate("document.querySelector('#inquiry .fpopen').click()"); await pg.wait_for_timeout(400)
         await pg.evaluate("""(()=>{const f=document.querySelector('#ccf');f.querySelectorAll('select').forEach(s=>{if(!s.value&&s.options.length>1){s.selectedIndex=1;s.dispatchEvent(new Event('change',{bubbles:true}));}});
-          f.querySelectorAll('input').forEach(i=>{if(i.type==='checkbox'||i.type==='tel'||i.type==='search'||i.value)return;i.value=i.type==='email'?'test.cc2@example.com':'Test';});})()""")
-        await pick(pg, 'ccsec', 'hc', 1); n0 = len(status()['recent'])
+          f.querySelectorAll('input').forEach(i=>{if(i.type==='checkbox'||i.type==='tel'||i.type==='search'||i.value)return;i.value=i.type==='email'?'test.cc2+RUNID@example.com':'Test';});})()""".replace('RUNID', RUN))
+        await pick(pg, 'ccsec', 'hc', 1); n0 = len(status()['recent']); ids0 = {r['id'] for r in status()['recent']}
         await pg.click('#ccf button[type=submit]'); await pg.wait_for_timeout(2500)
         t2 = await pg.inner_text('#ccmsg')
-        ck('a choice that is not on the list is refused by the server, and the page says it did not send', 'did not send' in t2 and len(status()['recent']) == n0, t2)
+        rr = status()['recent'][0] if status()['recent'] else {}
+        new = [r for r in status()['recent'] if r['id'] not in ids0]
+        cc = [e for e in log()['hubspot'] if ('test.cc2+' + RUN + '@example.com') in json.dumps(e['body'])]
+        ck('a choice that is not on the list: the lead is still saved, that one value is dropped', 'received for review' in t2 and len(new) == 1 and new[0]['kind'] == 'Capital Connections' and cc and not any(x['name'] == 'cr_stage' for x in cc[-1]['body']['fields']), (t2, new, cc[-1]['body']['fields'] if cc else None))
         await ctx.close()
 
         # ---------- 7. every other form: buy box, follow, valuation calculator
         reset(known=ALL_CR)
         ctx, pg = await page('buy-box/index.html')
-        await pg.fill('#bbnm', 'Test Box'); await pg.fill('#bbem', 'test.box+'+RUN+'@example.com'); await pg.select_option('#bb_kind', 'Family office'); await pick(pg, 'bb_vert', 'fleet', 2)
-        await pg.evaluate("document.querySelectorAll('#bb_model input')[0].click();document.querySelectorAll('#bb_geo input')[0].click();document.querySelectorAll('#bb_geo input')[1].click()")
+        await pg.fill('#bbnm', 'Test Box'); await pg.fill('#bbem', 'test.box+'+RUN+'@example.com'); await pg.select_option('#bb_kind', 'Family office'); await pg.fill('#bbco', 'Test Box Holdings'); await pg.fill('#bb_web', 'testbox.com'); await pick(pg, 'bb_vert', 'fleet', 2); await pick(pg, 'firmsec', 'hc', 2)
+        await pg.evaluate("document.querySelectorAll('#bb_model input')[1].click();document.querySelectorAll('#bb_geo input')[0].click();document.querySelectorAll('#bb_geo input')[1].click()")
         await pg.type('#bb_rev_min', '5000000'); await pg.evaluate("document.getElementById('bb_rev_nomax').click()"); await pg.type('#bb_arr_min', '3m')
         await pg.select_option('#bb_profit', 'Profitable required'); await pg.select_option('#bb_timing', 'Acquiring now'); await pg.select_option('#bb_funding', 'Committed capital')
         await pg.click('#bbf button[type=submit]'); await pg.wait_for_timeout(2500)
         ck('buy box received', 'have been received' in await pg.inner_text('#bbmsg'))
         bx = sent_bodies('Buy box'); bf = bx[-1][1] if bx else {}
-        ck('buy box typed values', bf.get('cr_rev_min') == '5000000' and 'cr_rev_max' not in bf and bf.get('cr_arr_min') == '3000000' and bf.get('cr_range_flags') == 'Annual revenue: no maximum'
-           and bf.get('cr_geography') == 'United States;Canada' and bf.get('cr_business_model') == 'Vertical software' and bf.get('cr_sector', '').count(';') == 1 and bf.get('cr_criteria_on_file') == 'true', {k: v for k, v in bf.items() if k.startswith('cr_')})
+        ck('buy box typed values', bf.get('cr_rev_min') == '5000000' and 'cr_rev_max' not in bf and bf.get('cr_arr_min') == '3000000' and bf.get('cr_target_range_flags') == 'Annual revenue: no maximum'
+           and bf.get('cr_target_geography') == 'United States;Canada' and bf.get('cr_target_company_types') == 'Software + services' and bf.get('cr_sector', '').count(';') == 1 and bf.get('cr_criteria_retention_consent') == 'true'
+           and bf.get('buyer_type') == 'Family office' and bf.get('name') == 'Test Box Holdings' and bf.get('domain') == 'testbox.com' and bf.get('target_verticals', '').count(';') == 1 and bf.get('target_end_markets') == 'hc', bf)
+        ck('company-record fields travel as company fields', all(x.get('objectTypeId') == '0-2' for x in bx[-1][0]['body']['fields'] if x['name'] in ('name', 'domain', 'buyer_type', 'target_verticals', 'cr_rev_min')) if bx else False)
         await ctx.close()
         ctx, pg = await page('index.html')
         await pg.evaluate("location.hash='#follow'"); await pg.wait_for_timeout(600)
@@ -204,14 +212,22 @@ async def main():
         ck('another site cannot post', st == 403, (st, j))
         st, j = post(SITE + 'api/submit', {'key': 'abcdef1234', 'kind': 'Conversation', 'fields': [{'name': 'firstname', 'value': 'X'}]})
         ck('no email: refused, nothing saved', st == 400 and 'email' in j.get('fields', []), (st, j))
-        st, j = post(SITE + 'api/submit', {'key': 'abcdef1235', 'kind': 'Conversation', 'fields': [{'name': 'email', 'value': 'x@example.com'}, {'name': 'firstname', 'value': 'X'}, {'name': 'cr_sector', 'value': 'hc_not_a_sector'}]})
-        ck('a sector id that is not in the taxonomy: refused', st == 400 and 'sector:cr_sector' in j.get('fields', []), (st, j))
-        st, j = post(SITE + 'api/submit', {'key': 'abcdef1236', 'kind': 'Conversation', 'fields': [{'name': 'email', 'value': 'x@example.com'}, {'name': 'firstname', 'value': 'X'}, {'name': 'hs_lead_status', 'value': 'NEW'}]})
-        ck('a property the site never sends: refused', st == 400, (st, j))
+        st, j = post(SITE + 'api/submit', {'key': 'abcdef1235'+RUN, 'kind': 'Conversation', 'fields': [{'name': 'email', 'value': 'x@example.com'}, {'name': 'firstname', 'value': 'X'}, {'name': 'message', 'value': 'Form: Conversation'}, {'name': 'cr_sector', 'value': 'hc_not_a_sector'}]})
+        ck('a sector id that is not in the taxonomy: saved, that field dropped', st == 200 and j.get('saved') is True, (st, j))
+        st, j = post(SITE + 'api/submit', {'key': 'abcdef1236'+RUN, 'kind': 'Conversation', 'fields': [{'name': 'email', 'value': 'x@example.com'}, {'name': 'firstname', 'value': 'X'}, {'name': 'message', 'value': 'Form: Conversation'}, {'name': 'hs_lead_status', 'value': 'NEW'}]})
+        ck('a property the site never sends: saved, that field dropped', st == 200 and j.get('saved') is True, (st, j))
         st, j = post(SITE + 'api/retry', {})
         ck('retry needs the key', st == 401, st)
         s = status()
-        ck('status lists the HubSpot properties that were missing', 'cr_side' in s.get('hubspot_properties_missing_last_7_days', {}), s.get('hubspot_properties_missing_last_7_days'))
+        ck('status lists the HubSpot properties that were missing', 'cr_contact_type' in s.get('hubspot_properties_missing_last_7_days', {}), s.get('hubspot_properties_missing_last_7_days'))
+
+        # ---------- 9. HubSpot refuses one value (an option it does not have): that field is dropped, the rest delivered
+        reset(known=ALL_CR, badopt='cr_contact_type')
+        st, j = post(SITE + 'api/submit', {'key': 'badopt' + RUN + 'aa', 'kind': 'Conversation', 'fields': [{'name': 'email', 'value': 'opt+' + RUN + '@example.com'}, {'name': 'firstname', 'value': 'Opt'},
+              {'name': 'cr_contact_type', 'value': 'intermediary'}, {'name': 'message', 'value': 'Form: Conversation'}]}, {'Origin': SITE.rstrip('/')})
+        await asyncio.sleep(1.5)
+        hs = log()['hubspot']; last = {x['name']: x['value'] for x in hs[-1]['body']['fields']} if hs else {}
+        ck('an option HubSpot does not have yet: dropped and delivered', st == 200 and [e['answer'] for e in hs] == [400, 200] and 'cr_contact_type' not in last and last.get('email', '').startswith('opt+'), ([e['answer'] for e in hs], last))
         await b.close()
     print('FAILED', len(bad))
 asyncio.run(main())

@@ -531,58 +531,32 @@
     "Select one"
    ],
    [
+    "Strategic",
+    "Strategic"
+   ],
+   [
+    "PE platform",
+    "PE platform"
+   ],
+   [
+    "PE portfolio company (add-on)",
+    "PE portfolio company (add-on)"
+   ],
+   [
+    "Private equity fund (no platform identified)",
+    "Private equity fund (no platform identified)"
+   ],
+   [
+    "Independent sponsor or search fund",
+    "Independent sponsor or search fund"
+   ],
+   [
     "Family office",
     "Family office"
    ],
    [
-    "Private equity fund",
-    "Private equity fund"
-   ],
-   [
-    "Holding company",
-    "Holding company"
-   ],
-   [
-    "Strategic acquirer",
-    "Strategic acquirer"
-   ],
-   [
-    "Independent sponsor",
-    "Independent sponsor"
-   ],
-   [
-    "Search fund",
-    "Search fund"
-   ],
-   [
-    "Other",
-    "Other"
-   ]
-  ],
-  "bb_capital": [
-   [
-    "",
-    "Select one"
-   ],
-   [
-    "Permanent capital",
-    "Permanent capital"
-   ],
-   [
-    "Fund with a defined life",
-    "Fund with a defined life"
-   ],
-   [
-    "Deal by deal",
-    "Deal by deal"
-   ],
-   [
-    "Corporate balance sheet",
-    "Corporate balance sheet"
-   ],
-   [
-    "Other",
-    "Other"
+    "Permanent capital / holding company",
+    "Permanent capital / holding company"
    ]
   ],
   "bb_profit": [
@@ -595,8 +569,8 @@
     "Profitable required"
    ],
    [
-    "Breakeven acceptable",
-    "Breakeven acceptable"
+    "Break-even acceptable",
+    "Break-even acceptable"
    ],
    [
     "Pre-profit acceptable",
@@ -667,12 +641,12 @@
     "Acquiring now"
    ],
    [
-    "Within six months",
-    "Within six months"
+    "Within 6 months",
+    "Within 6 months"
    ],
    [
-    "Within twelve months",
-    "Within twelve months"
+    "Within 12 months",
+    "Within 12 months"
    ],
    [
     "Opportunistic",
@@ -895,32 +869,6 @@
     "Other"
    ]
   ],
-  "ccrev": [
-   [
-    "",
-    "Select one"
-   ],
-   [
-    "Under $5M",
-    "Under $5M"
-   ],
-   [
-    "$5M to $10M",
-    "$5M to $10M"
-   ],
-   [
-    "$10M to $25M",
-    "$10M to $25M"
-   ],
-   [
-    "Over $25M",
-    "Over $25M"
-   ],
-   [
-    "Prefer not to say",
-    "Prefer not to say"
-   ]
-  ],
   "ccpurpose": [
    [
     "",
@@ -1075,32 +1023,32 @@
     "Select one"
    ],
    [
+    "Strategic",
+    "Strategic"
+   ],
+   [
+    "PE platform",
+    "PE platform"
+   ],
+   [
+    "PE portfolio company (add-on)",
+    "PE portfolio company (add-on)"
+   ],
+   [
+    "Private equity fund (no platform identified)",
+    "Private equity fund (no platform identified)"
+   ],
+   [
+    "Independent sponsor or search fund",
+    "Independent sponsor or search fund"
+   ],
+   [
     "Family office",
     "Family office"
    ],
    [
-    "Private equity fund",
-    "Private equity fund"
-   ],
-   [
-    "Holding company",
-    "Holding company"
-   ],
-   [
-    "Strategic acquirer",
-    "Strategic acquirer"
-   ],
-   [
-    "Independent sponsor",
-    "Independent sponsor"
-   ],
-   [
-    "Search fund",
-    "Search fund"
-   ],
-   [
-    "Other",
-    "Other"
+    "Permanent capital / holding company",
+    "Permanent capital / holding company"
    ]
   ],
   "kind.Advisor": [
@@ -1235,8 +1183,8 @@
     "Cash-flow positive required"
    ],
    [
-    "Breakeven acceptable",
-    "Breakeven acceptable"
+    "Break-even acceptable",
+    "Break-even acceptable"
    ],
    [
     "Asset-backed, cash flow not required",
@@ -1281,36 +1229,6 @@
    [
     "Lender",
     "Lender"
-   ],
-   [
-    "Not applicable",
-    "Not applicable"
-   ]
-  ],
-  "band": [
-   [
-    "",
-    "Select one"
-   ],
-   [
-    "Under $5M ARR",
-    "Under $5M ARR"
-   ],
-   [
-    "$5M to $10M ARR",
-    "$5M to $10M ARR"
-   ],
-   [
-    "$10M to $25M ARR",
-    "$10M to $25M ARR"
-   ],
-   [
-    "$25M to $50M ARR",
-    "$25M to $50M ARR"
-   ],
-   [
-    "Over $50M ARR",
-    "Over $50M ARR"
    ],
    [
     "Not applicable",
@@ -1411,36 +1329,6 @@
    [
     "Hybrid models",
     "Software + services"
-   ]
-  ],
-  "pqrev": [
-   [
-    "",
-    "Select one"
-   ],
-   [
-    "Under $5M",
-    "Under $5M"
-   ],
-   [
-    "$5M to $10M",
-    "$5M to $10M"
-   ],
-   [
-    "$10M to $25M",
-    "$10M to $25M"
-   ],
-   [
-    "$25M to $50M",
-    "$25M to $50M"
-   ],
-   [
-    "Over $50M",
-    "Over $50M"
-   ],
-   [
-    "Prefer not to say",
-    "Prefer not to say"
    ]
   ],
   "pqwhen": [
@@ -1975,12 +1863,94 @@
     "Advisor to owners"
    ],
    [
-    "Buyer or lender",
-    "Buyer or lender"
+    "Buyer",
+    "Buyer"
+   ],
+   [
+    "Lender",
+    "Lender"
    ],
    [
     "Other",
     "Other"
+   ]
+  ],
+  "arrband": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $1M",
+    "Under $1M ARR"
+   ],
+   [
+    "$1M to $3M",
+    "$1M to $3M ARR"
+   ],
+   [
+    "$3M to $5M",
+    "$3M to $5M ARR"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M ARR"
+   ],
+   [
+    "$10M to $25M",
+    "$10M to $25M ARR"
+   ],
+   [
+    "Over $25M",
+    "Over $25M ARR"
+   ],
+   [
+    "Not applicable",
+    "Not applicable"
+   ]
+  ],
+  "revband": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Under $5M",
+    "Under $5M"
+   ],
+   [
+    "$5M to $10M",
+    "$5M to $10M"
+   ],
+   [
+    "$10M to $25M",
+    "$10M to $25M"
+   ],
+   [
+    "$25M to $50M",
+    "$25M to $50M"
+   ],
+   [
+    "Over $50M",
+    "Over $50M"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "lead": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Software",
+    "Software"
+   ],
+   [
+    "Services",
+    "Services"
    ]
   ]
  },
@@ -1995,7 +1965,7 @@
   "conv.err_sector_buyer": "Choose at least one sector you target.",
   "conv.ok_buyer": "Your acquisition criteria have been received. Capital Row will review your thesis and contact you at {email} about opportunities that fit.",
   "conv.ok_other": "Your request has been received. Capital Row will review the details and contact you at {email}.",
-  "bb.err_kind": "Choose your organization type.",
+  "bb.err_kind": "Choose your buyer type.",
   "bb.err_range": "A minimum is larger than its maximum. Check the ranges.",
   "bb.err_profit": "Choose a profitability requirement.",
   "bb.err_timing": "Choose an acquisition timeline.",
@@ -2034,13 +2004,12 @@
   "bb.no_min": "no minimum",
   "bb.no_max": "no maximum",
   "bb.to": "to",
-  "bb.sum.organization": "Organization",
-  "bb.sum.capital": "Capital model",
-  "bb.sum.context": "Context",
+  "bb.sum.buyer_type": "Buyer type",
+  "bb.sum.approach": "Acquisition approach",
   "bb.sum.ownership": "Ownership",
   "bb.sum.sectors_personal": "Sectors, personal",
   "bb.sum.sectors_firm": "Sectors, firm",
-  "bb.sum.company_types": "Company types",
+  "bb.sum.company_types": "Target company types",
   "bb.sum.headquarters": "Headquarters",
   "bb.sum.customer_markets": "Customer markets",
   "bb.sum.revenue": "Annual revenue, trailing twelve months",
@@ -2079,7 +2048,7 @@
   "conv.label.Seller.kind": "Company type",
   "conv.label.Seller.sectors": "Sectors you serve",
   "conv.label.Seller.band": "Annual recurring revenue",
-  "conv.label.Buyer.kind": "Organization type",
+  "conv.label.Buyer.kind": "Buyer type",
   "conv.label.Buyer.sectors": "Sectors you personally target",
   "conv.label.Buyer.band": "Annual recurring revenue you buy at",
   "conv.label.Advisor.kind": "What kind of advisor",
@@ -2090,34 +2059,37 @@
   "conv.label.Lender.band": "Annual recurring revenue of the borrowers you lend to",
   "conv.copy.none.headline": "Tell us what you are working on.",
   "conv.copy.none.intro": "Name the vertical and where you need clarity. A person reads it, usually the same day, and will say plainly if there is no fit.",
-  "conv.copy.none.message": "What are you trying to work out",
+  "conv.copy.none.message": "What are you trying to work out?",
   "conv.copy.Seller.headline": "Find out what a buyer will find, while you can still <em>change</em> it.",
   "conv.copy.Seller.intro": "Tell us about the business and your timing. Read by a person, usually the same day.",
-  "conv.copy.Seller.message": "Are you heading for an exit, or building toward one",
+  "conv.copy.Seller.message": "Are you heading for an exit, or building toward one?",
   "conv.copy.Buyer.headline": "Tell us your acquisition thesis.",
   "conv.copy.Buyer.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
   "conv.copy.Buyer.message": "Your thesis in a few lines, optional",
   "conv.copy.Advisor.headline": "Your client, your engagement, our record.",
   "conv.copy.Advisor.intro": "Non-attest work only. If your client needs an audit, review, compilation or attestation, that goes to an independent firm.",
-  "conv.copy.Advisor.message": "What does your client need, and what is the timing",
+  "conv.copy.Advisor.message": "What does your client need, and what is the timing?",
   "conv.copy.Services.headline": "Different engagement, same evidence.",
   "conv.copy.Services.intro": "A one-time engagement on your own business, scoped on its own, using the same evidence standard a buyer will apply. Tell us what you are working out.",
-  "conv.copy.Services.message": "What are you working out, and on what timeline",
+  "conv.copy.Services.message": "What are you working out, and on what timeline?",
   "conv.copy.Hybrid models.headline": "The services line is where the multiple is won or lost.",
   "conv.copy.Hybrid models.intro": "A services arm is not a problem, but it is the first thing a buyer separates out, and the split decides whether you are priced as software or as a services business with a product. That is a conversation worth having early.",
-  "conv.copy.Hybrid models.message": "How much of revenue is services, and is it recurring",
-  "conv.copy.Private equity fund.headline": "Tell us your acquisition thesis.",
-  "conv.copy.Private equity fund.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
-  "conv.copy.Private equity fund.message": "Which thesis are you filling, and the fund clock, optional",
-  "conv.copy.Search fund.headline": "Tell us your search criteria.",
-  "conv.copy.Search fund.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
-  "conv.copy.Search fund.message": "What you are searching for, and your timeline, optional",
-  "conv.copy.Strategic acquirer.headline": "You are buying into an industry you do not run. We do.",
-  "conv.copy.Strategic acquirer.intro": "A dedicated search in one sector, with the end-market read a corporate development team cannot staff for. The first conversation is about your criteria and the sectors that match them.",
-  "conv.copy.Strategic acquirer.message": "Which market are you entering, and what is the timeline",
-  "conv.copy.Independent sponsor.headline": "One transaction, and one chance to get the evidence right.",
-  "conv.copy.Independent sponsor.intro": "For a single transaction, we run the evidence on a target before a letter is priced.",
-  "conv.copy.Independent sponsor.message": "What are you looking at, and where are you in the process",
+  "conv.copy.Hybrid models.message": "How much of revenue is services, and is it recurring?",
+  "conv.copy.Strategic.headline": "You are buying into an industry you do not run. We do.",
+  "conv.copy.Strategic.intro": "A dedicated search in one sector, with the end-market read a corporate development team cannot staff for. The first conversation is about your criteria and the sectors that match them.",
+  "conv.copy.Strategic.message": "Which market are you entering, and what is the timeline?",
+  "conv.copy.PE platform.headline": "Tell us your acquisition thesis.",
+  "conv.copy.PE platform.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.PE platform.message": "Your thesis and fund timeline, optional",
+  "conv.copy.PE portfolio company (add-on).headline": "Tell us your acquisition thesis.",
+  "conv.copy.PE portfolio company (add-on).intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.PE portfolio company (add-on).message": "Your thesis and fund timeline, optional",
+  "conv.copy.Private equity fund (no platform identified).headline": "Tell us your acquisition thesis.",
+  "conv.copy.Private equity fund (no platform identified).intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
+  "conv.copy.Private equity fund (no platform identified).message": "Your thesis and fund timeline, optional",
+  "conv.copy.Independent sponsor or search fund.headline": "One transaction, and one chance to get the evidence right.",
+  "conv.copy.Independent sponsor or search fund.intro": "For a single transaction, we run the evidence on a target before a letter is priced.",
+  "conv.copy.Independent sponsor or search fund.message": "What are you looking at, and where are you in the process?",
   "conv.copy.Lender.headline": "Discuss your lending criteria.",
   "conv.copy.Lender.intro": "Tell us what you lend against, the loan sizes you prefer and the sectors you lend into. We can also discuss the evidence a borrower has assembled and the questions it helps answer.",
   "conv.copy.Lender.message": "Your lending criteria, or the file you have in mind",
@@ -2125,6 +2097,8 @@
   "help.ln_loan_min": "Minimum",
   "help.ln_loan_max": "Maximum",
   "help.pqqoeby": "The firm, or the kind of firm",
-  "help.bdqoeby": "Year, and the firm or the kind of firm"
+  "help.bdqoeby": "Year, and the firm or the kind of firm",
+  "form.err_lead": "Choose which brings in more revenue.",
+  "cc.err_arr": "Select your annual recurring revenue."
  }
 }

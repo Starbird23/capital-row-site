@@ -494,16 +494,16 @@
    "section": "criteria"
   },
   "criteria.14": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
   "criteria.15": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "bbh",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "criteria"
   },
@@ -564,22 +564,22 @@
    "section": "criteria"
   },
   "criteria.24": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.25": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.26": {
+  "criteria.25": {
    "kind": "Form label",
    "tag": "label",
+   "cls": "",
+   "tags": [],
+   "section": "criteria"
+  },
+  "criteria.26": {
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -592,15 +592,15 @@
    "section": "criteria"
   },
   "criteria.28": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.29": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -613,15 +613,15 @@
    "section": "criteria"
   },
   "criteria.31": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.32": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -634,15 +634,15 @@
    "section": "criteria"
   },
   "criteria.34": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.35": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -655,15 +655,15 @@
    "section": "criteria"
   },
   "criteria.37": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.38": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -676,16 +676,16 @@
    "section": "criteria"
   },
   "criteria.40": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
   "criteria.41": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "bbh",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "criteria"
   },
@@ -718,16 +718,16 @@
    "section": "criteria"
   },
   "criteria.46": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
   "criteria.47": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "bbh",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "criteria"
   },
@@ -753,23 +753,23 @@
    "section": "criteria"
   },
   "criteria.51": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.52": {
    "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.53": {
+  "criteria.52": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine wide",
+   "tags": [],
+   "section": "criteria"
+  },
+  "criteria.53": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
    "tags": [],
    "section": "criteria"
   },
@@ -782,19 +782,12 @@
   },
   "criteria.55": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.56": {
-   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.57": {
+  "criteria.56": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -804,7 +797,7 @@
    ],
    "section": "criteria"
   },
-  "criteria.58": {
+  "criteria.57": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -813,21 +806,21 @@
    ],
    "section": "criteria"
   },
-  "criteria.59": {
+  "criteria.58": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.60": {
+  "criteria.59": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.61": {
+  "criteria.60": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",
@@ -1087,16 +1080,16 @@
    "section": "valuation"
   },
   "sh.valuation.18": {
-   "kind": "Button",
-   "tag": "button",
-   "cls": "vcbtn",
+   "kind": "Form label",
+   "tag": "label",
+   "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.19": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Button",
+   "tag": "button",
+   "cls": "vcbtn",
    "tags": [],
    "section": "valuation"
   },
@@ -1157,20 +1150,27 @@
    "section": "valuation"
   },
   "sh.valuation.28": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.29": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.30": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.30": {
+  "sh.valuation.31": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -1180,7 +1180,7 @@
    ],
    "section": "valuation"
   },
-  "sh.valuation.31": {
+  "sh.valuation.32": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "vcnote2",
@@ -1189,24 +1189,17 @@
    ],
    "section": "valuation"
   },
-  "sh.valuation.32": {
+  "sh.valuation.33": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcback",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.33": {
+  "sh.valuation.34": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcbtn",
-   "tags": [],
-   "section": "valuation"
-  },
-  "sh.valuation.34": {
-   "kind": "Small label",
-   "tag": "p",
-   "cls": "vclab",
    "tags": [],
    "section": "valuation"
   },
@@ -1218,20 +1211,27 @@
    "section": "valuation"
   },
   "sh.valuation.36": {
+   "kind": "Small label",
+   "tag": "p",
+   "cls": "vclab",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.37": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.37": {
+  "sh.valuation.38": {
    "kind": "Button",
    "tag": "a",
    "cls": "vcbtn",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.38": {
+  "sh.valuation.39": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "vcmicro",
@@ -1240,72 +1240,65 @@
    ],
    "section": "valuation"
   },
-  "sh.valuation.39": {
+  "sh.valuation.40": {
    "kind": "Text",
    "tag": "u",
-   "cls": "",
-   "tags": [],
-   "section": "valuation"
-  },
-  "sh.valuation.40": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.41": {
-   "kind": "Text",
-   "tag": "u",
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
   "sh.valuation.42": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "valuation"
-  },
-  "sh.valuation.43": {
    "kind": "Text",
    "tag": "u",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.44": {
+  "sh.valuation.43": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
    "tags": [],
    "section": "valuation"
   },
+  "sh.valuation.44": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
   "sh.valuation.45": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.46": {
    "kind": "Button",
    "tag": "button",
    "cls": "vcback",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.46": {
+  "sh.valuation.47": {
    "kind": "Note",
    "tag": "p",
    "cls": "vcfine",
    "tags": [],
    "section": "valuation"
   },
-  "sh.valuation.47": {
+  "sh.valuation.48": {
    "kind": "Text",
    "tag": "summary",
-   "cls": "",
-   "tags": [],
-   "section": "valuation"
-  },
-  "sh.valuation.48": {
-   "kind": "Paragraph",
-   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "valuation"
@@ -1314,12 +1307,19 @@
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
+   "tags": [],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
    "tags": [
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },
-  "sh.valuation.50": {
+  "sh.valuation.51": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",

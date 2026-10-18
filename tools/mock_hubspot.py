@@ -1,12 +1,14 @@
 """A stand-in for HubSpot's Forms API, an alert webhook and Resend, for the local server tests. Nothing leaves this machine.
-- Like the real portal today (checked October 17, 2026): no cr_ property exists, so any cr_ field is refused with
-  FIELD_NOT_IN_FORM_DEFINITION, the way HubSpot answers.
+- Like the real main form today: only the standard contact fields are on it (email, names, company, phone, mobile, job
+  title, website, message). Any other field (cr_ properties, company-record fields) is refused with FIELD_NOT_IN_FORM_DEFINITION,
+  the way HubSpot answers, unless /_mode?known=a,b names it. /_mode?badopt=name refuses that field's value (INVALID_OPTION).
 - /_mode?fail=N&status=503 makes the next N submissions fail with that status; /_mode?invalid=1 answers 400 INVALID_EMAIL.
 - /_log returns everything received; /_reset clears it."""
 import json, re, sys, threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlparse, parse_qs
-LOG = {'hubspot': [], 'alerts': [], 'emails': []}; MODE = {'fail': 0, 'status': 503, 'invalid': 0, 'known': []}
+LOG = {'hubspot': [], 'alerts': [], 'emails': []}; MODE = {'fail': 0, 'status': 503, 'invalid': 0, 'known': [], 'badopt': ''}
+STDF = {'email', 'firstname', 'lastname', 'company', 'phone', 'mobilephone', 'jobtitle', 'website', 'message'}
 LOCK = threading.Lock()
 class H(BaseHTTPRequestHandler):
     def log_message(self, *a): pass
@@ -16,7 +18,7 @@ class H(BaseHTTPRequestHandler):
         u = urlparse(self.path); q = parse_qs(u.query)
         if u.path == '/_log': return self.send(200, LOG)
         if u.path == '/_reset':
-            with LOCK: LOG['hubspot'].clear(); LOG['alerts'].clear(); LOG['emails'].clear(); MODE.update({'fail': 0, 'status': 503, 'invalid': 0, 'known': []})
+            with LOCK: LOG['hubspot'].clear(); LOG['alerts'].clear(); LOG['emails'].clear(); MODE.update({'fail': 0, 'status': 503, 'invalid': 0, 'known': [], 'badopt': ''})
             return self.send(200, {'ok': True})
         if u.path == '/_mode':
             with LOCK:
@@ -24,6 +26,7 @@ class H(BaseHTTPRequestHandler):
                 if 'status' in q: MODE['status'] = int(q['status'][0])
                 if 'invalid' in q: MODE['invalid'] = int(q['invalid'][0])
                 if 'known' in q: MODE['known'] = q['known'][0].split(',')
+                if 'badopt' in q: MODE['badopt'] = q['badopt'][0]
             return self.send(200, MODE)
         self.send(404, {})
     def do_POST(self):
@@ -47,7 +50,10 @@ class H(BaseHTTPRequestHandler):
             if MODE['invalid']:
                 entry['answer'] = 400; LOG['hubspot'].append(entry)
                 return self.send(400, {'status': 'error', 'errors': [{'errorType': 'INVALID_EMAIL', 'message': 'Email address is invalid'}]})
-            missing = [f['name'] for f in (j or {}).get('fields', []) if f['name'].startswith('cr_') and f['name'] not in MODE['known']]
+            missing = [f['name'] for f in (j or {}).get('fields', []) if f['name'] not in STDF and f['name'] not in MODE['known']]
+            if not missing and MODE['badopt'] and any(f['name'] == MODE['badopt'] for f in (j or {}).get('fields', [])):
+                entry['answer'] = 400; LOG['hubspot'].append(entry)
+                return self.send(400, {'status': 'error', 'errors': [{'errorType': 'INVALID_OPTION', 'message': "Error in 'fields." + MODE['badopt'] + "'. 'Bogus' is not one of the allowed options"}]})
             if missing:
                 entry['answer'] = 400; LOG['hubspot'].append(entry)
                 return self.send(400, {'status': 'error', 'message': 'The request is not valid', 'errors': [{'errorType': 'FIELD_NOT_IN_FORM_DEFINITION', 'message': "Error in 'fields." + x + "'. Field '" + x + "' does not exist in the form definition."} for x in missing]})

@@ -143,7 +143,7 @@
     {
      "key": "market.3",
      "kind": "Paragraph",
-     "text": "of dealmakers surveyed attributed failed deals in the first half of 2026 to <em>valuation expectations</em>. A year earlier it was 28 percent."
+     "text": "of dealmakers surveyed attributed failed deals in the first half of 2026 to <em>valuation expectations</em>. For 2025 it was 28 percent."
     },
     {
      "key": "market.4",
@@ -639,7 +639,7 @@
     {
      "key": "buyermap.3",
      "kind": "Paragraph",
-     "text": "The buyer who approaches you alone is one of many. A buyer map names every acquirer active in your sector over the last 36 months, each tied to a dated deal and its source, with what they paid where it was disclosed and what they say they want next. Then it reads your company against them."
+     "text": "The buyer who approaches you alone is one of many. A buyer map names the acquirers active in your sector over the last 36 months, each tied to a dated deal and its source, with what they paid where it was disclosed and what they say they want next. Then it reads your company against them."
     },
     {
      "key": "buyermap.4",
@@ -674,7 +674,7 @@
     {
      "key": "buyermap.10",
      "kind": "Text",
-     "text": "The terms"
+     "text": "The scope"
     },
     {
      "key": "buyermap.11",
@@ -797,7 +797,7 @@
     {
      "key": "faq.4",
      "kind": "Paragraph",
-     "text": "An independent analysis of what a business actually earns, as distinct from what it reports. A CPA firm traces revenue and expenses to bank records and tax filings, identifies the non-recurring, non-operating and personal items, and produces a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation, and it carries no opinion on the financial statements. <a>The full note</a>."
+     "text": "An independent analysis of what a business actually earns, as distinct from what it reports. A CPA firm traces revenue and expenses to bank records and tax filings, identifies the non-recurring, nonoperating and personal items, and produces a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation, and it carries no opinion on the financial statements. <a>The full note</a>."
     },
     {
      "key": "faq.5",
@@ -817,7 +817,7 @@
     {
      "key": "faq.8",
      "kind": "Paragraph",
-     "text": "Because the buyer will commission one either way, and the price moves on what it finds. In a 2025 study of seventy-five signed letters of intent that collapsed, 21.3 percent ended because the earnings were not what was presented, double the share of two years earlier, and 25.3 percent on a finding outside the earnings work. GF Data’s record of 360 private equity transactions since the third quarter of 2024 shows sellers with a sell-side report averaging 7.4 times adjusted earnings against 7.0 without; that is a correlation, concentrated in larger deals, and we do not read it as a promise. The surer effect is time: diligence proceeds on your record instead of the buyer’s reconstruction of it."
+     "text": "Because the buyer will commission one either way, and the price moves on what it finds. In a study published January 27, 2026, of seventy-five signed letters of intent that collapsed in 2025, 21.3 percent ended because the earnings were not what was presented, double the share of two years earlier, and 25.3 percent on a finding outside the earnings work. GF Data’s record of 360 private equity transactions since the third quarter of 2024 shows sellers with a sell-side report averaging 7.4 times adjusted earnings against 7.0 without; that is a correlation, concentrated in larger deals, and we do not read it as a promise. The surer effect is time: diligence proceeds on your record instead of the buyer’s reconstruction of it."
     },
     {
      "key": "faq.9",
@@ -949,7 +949,7 @@
     {
      "key": "talk.3",
      "kind": "Paragraph",
-     "text": "<b>Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market.</b> Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+     "text": "<b>Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market.</b> Every figure is traced to a source document, every adjustment is marked supported or unsupported, and the findings are yours to keep."
     },
     {
      "key": "talk.4",
@@ -974,12 +974,12 @@
     {
      "key": "talk.8",
      "kind": "Form label",
-     "text": "Sectors you serve"
+     "text": "Which brings in more revenue?"
     },
     {
      "key": "talk.9",
      "kind": "Form label",
-     "text": "Reason for contact"
+     "text": "Sectors you serve"
     },
     {
      "key": "talk.10",
@@ -989,130 +989,145 @@
     {
      "key": "talk.11",
      "kind": "Form label",
-     "text": "Geography you lend in. Choose all that apply."
+     "text": "Reason for contact"
     },
     {
      "key": "talk.12",
      "kind": "Form label",
-     "text": "Loan size, USD"
+     "text": "Geography you lend in. Choose all that apply."
     },
     {
      "key": "talk.13",
-     "kind": "Text",
-     "text": "No minimum"
+     "kind": "Form label",
+     "text": "Loan size, USD"
     },
     {
      "key": "talk.14",
      "kind": "Text",
-     "text": "No maximum"
+     "text": "No minimum"
     },
     {
      "key": "talk.15",
-     "kind": "Form label",
-     "text": "Cash flow appetite"
+     "kind": "Text",
+     "text": "No maximum"
     },
     {
      "key": "talk.16",
      "kind": "Form label",
-     "text": "Reason for contact"
+     "text": "Cash flow appetite"
     },
     {
      "key": "talk.17",
      "kind": "Form label",
-     "text": "Client type, optional"
+     "text": "Reason for contact"
     },
     {
      "key": "talk.18",
      "kind": "Form label",
-     "text": "Annual recurring revenue"
+     "text": "Client type, optional"
     },
     {
      "key": "talk.19",
      "kind": "Form label",
-     "text": "Name"
+     "text": "Annual revenue"
     },
     {
      "key": "talk.20",
      "kind": "Form label",
-     "text": "Company"
+     "text": "Annual recurring revenue"
     },
     {
      "key": "talk.21",
      "kind": "Form label",
-     "text": "Work email"
+     "text": "Name"
     },
     {
      "key": "talk.22",
      "kind": "Form label",
-     "text": "Mobile number, optional"
+     "text": "Company"
     },
     {
      "key": "talk.23",
-     "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "kind": "Form label",
+     "text": "Company website, optional"
     },
     {
      "key": "talk.24",
-     "kind": "Text",
-     "text": "Optional."
+     "kind": "Form label",
+     "text": "Work email"
     },
     {
      "key": "talk.25",
-     "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "kind": "Form label",
+     "text": "Mobile number, optional"
     },
     {
      "key": "talk.26",
      "kind": "Text",
-     "text": "Send me sector updates."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "talk.27",
-     "kind": "Form label",
-     "text": "How did you hear about us"
+     "kind": "Text",
+     "text": "Optional."
     },
     {
      "key": "talk.28",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "talk.29",
+     "kind": "Text",
+     "text": "Send me sector updates."
+    },
+    {
+     "key": "talk.30",
+     "kind": "Form label",
+     "text": "How did you hear about us?"
+    },
+    {
+     "key": "talk.31",
      "kind": "Form label",
      "text": "Who, or which one"
     },
     {
-     "key": "talk.29",
-     "kind": "Form label",
-     "text": "What are you trying to work out"
-    },
-    {
-     "key": "talk.30",
-     "kind": "Note",
-     "text": "By sending, you agree to the <a>Privacy Policy</a>."
-    },
-    {
-     "key": "talk.31",
-     "kind": "Button",
-     "text": "Continue by email"
-    },
-    {
      "key": "talk.32",
-     "kind": "Paragraph",
-     "text": "This opens a draft in your email application. Review it and press send."
+     "kind": "Form label",
+     "text": "What are you trying to work out?"
     },
     {
      "key": "talk.33",
      "kind": "Note",
-     "text": "<a>Complete your buy box</a><br>The full criteria, structured, with minimum and maximum figures. About five minutes."
+     "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
      "key": "talk.34",
+     "kind": "Button",
+     "text": "Continue by email"
+    },
+    {
+     "key": "talk.35",
+     "kind": "Paragraph",
+     "text": "This opens a draft in your email application. Review it and press send."
+    },
+    {
+     "key": "talk.36",
+     "kind": "Note",
+     "text": "<a>Complete your buy box</a><br>The full criteria, structured, with minimum and maximum figures. About five minutes."
+    },
+    {
+     "key": "talk.37",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.35",
+     "key": "talk.38",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.36",
+     "key": "talk.39",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

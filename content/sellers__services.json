@@ -107,12 +107,12 @@
     {
      "key": "market.3",
      "kind": "Paragraph",
-     "text": "EBITDA is the median for business services companies with $1M to $4.99M of EBITDA. <em>With $10M to $24.99M of EBITDA it is 7.5 times.</em>"
+     "text": "earnings is the median for business services companies with $1M to $4.99M of earnings. <em>With $10M to $24.99M of earnings it is 7.5 times.</em>"
     },
     {
      "key": "market.4",
      "kind": "Note",
-     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report (Spring 2026), Table 31, page 66: investment banker survey, 43 respondents, deployed January 2026, transactions closed in the prior twelve months. Median multiples of EBITDA by the company’s EBITDA, not deal size."
+     "text": "Pepperdine Graziadio Business School, 2026 Private Capital Markets Report (Spring 2026), Table 31, page 66: investment banker survey, 43 respondents, deployed January 2026, transactions closed in the prior twelve months. Median multiples of earnings before interest, tax, depreciation and amortization, by the company’s own earnings, not deal size."
     }
    ]
   },
@@ -143,7 +143,7 @@
     {
      "key": "evidence.5",
      "kind": "Text",
-     "text": "Information technology, same $1M to $4.99M EBITDA band, same survey"
+     "text": "Information technology, same $1M to $4.99M earnings band, same survey"
     },
     {
      "key": "evidence.6",
@@ -725,7 +725,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure is traced to a source document, every adjustment is marked supported or unsupported, and the findings are yours to keep."
     },
     {
      "key": "next.3",

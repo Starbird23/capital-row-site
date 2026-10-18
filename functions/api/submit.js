@@ -1,5 +1,5 @@
 // POST /api/submit: save first, answer "saved", then deliver to HubSpot (see server/core.js).
-import { KINDS, checkFields, ensureTable, deliver, processDue, sendToHubSpot, alert, formFor, json, originOk, loadConfig } from '../../server/core.js';
+import { KINDS, cleanFields, ensureTable, deliver, processDue, sendToHubSpot, alert, formFor, json, originOk, loadConfig } from '../../server/core.js';
 
 export async function onRequestPost({ request, env, waitUntil }) {
   if (!originOk(request, env)) return json({ saved: false, error: 'origin' }, 403);
@@ -10,7 +10,12 @@ export async function onRequestPost({ request, env, waitUntil }) {
   const cfg = await loadConfig(env, request);
   const items = [{ id: b.key, kind: b.kind, fields: b.fields }];
   for (const [i, a] of (Array.isArray(b.also) ? b.also.slice(0, 2) : []).entries()) if (a && KINDS.includes(a.kind)) items.push({ id: b.key + '-' + (i + 1), kind: a.kind, fields: a.fields, parent: b.key });
-  for (const it of items) { const errs = checkFields(it.kind, it.fields, cfg); if (errs.length) return json({ saved: false, error: 'invalid', fields: errs }, 400); }
+  for (const it of items) {
+    const r = cleanFields(it.kind, it.fields, cfg);
+    if (r.fatal.length) { if (it.parent) { it.skip = true; continue; } return json({ saved: false, error: 'invalid', fields: r.fatal }, 400); }
+    it.fields = r.fields; it.checkDropped = r.dropped;
+  }
+  for (let i = items.length - 1; i >= 0; i--) if (items[i].skip) items.splice(i, 1);
   const context = Object.assign({}, typeof b.context === 'object' && b.context ? b.context : {});
   const ip = request.headers.get('CF-Connecting-IP'); if (ip) context.ipAddress = ip;
   for (const k of Object.keys(context)) if (!['hutk', 'pageUri', 'pageName', 'ipAddress'].includes(k)) delete context[k];
@@ -28,7 +33,7 @@ export async function onRequestPost({ request, env, waitUntil }) {
     await ensureTable(env.DB);
     const t = Date.now();
     const res = await env.DB.batch(items.map((it) => env.DB.prepare('INSERT OR IGNORE INTO submissions (id, kind, form_guid, created_at, payload, status, attempts, next_at, parent) VALUES (?, ?, ?, ?, ?, ?, 0, ?, ?)')
-      .bind(it.id, it.kind, formFor(it.kind, env), t, JSON.stringify({ fields: it.fields, context, consent: it.parent ? null : consent }), 'pending', t, it.parent || null)));
+      .bind(it.id, it.kind, formFor(it.kind, env), t, JSON.stringify({ fields: it.fields, context, consent: it.parent ? null : consent, failed_checks: it.checkDropped || [] }), 'pending', t, it.parent || null)));
     const duplicate = !(res[0].meta && res[0].meta.changes === 1);
     waitUntil((async () => { for (const it of items) await deliver(env, it.id); await processDue(env, 3); })());
     return json({ saved: true, id: b.key, duplicate });

@@ -81,7 +81,7 @@
     {
      "key": "qhero.3",
      "kind": "Paragraph",
-     "text": "Every number in your business will be read by a buyer's diligence team. Read them first, on your side of the table. We help owners reconcile the books to source, document the support behind normalized EBITDA, and build the data room and the diligence file before a letter of intent gives the buyer exclusivity."
+     "text": "Every number in your business will be read by a buyer's diligence team. Read them first, on your side of the table. We help owners reconcile the books to source, document the support behind adjusted earnings, and build the data room and the diligence file before a letter of intent gives the buyer exclusivity."
     },
     {
      "key": "qhero.4",
@@ -91,7 +91,7 @@
     {
      "key": "qhero.5",
      "kind": "Link",
-     "text": "Request a QoE Quote"
+     "text": "Request a Sell-Side QoE"
     },
     {
      "key": "qhero.6",
@@ -151,12 +151,12 @@
     {
      "key": "qhero.17",
      "kind": "Text",
-     "text": "Defensible, buyer-ready normalized EBITDA"
+     "text": "Defensible, buyer-ready adjusted earnings"
     },
     {
      "key": "qhero.18",
      "kind": "Text",
-     "text": "Normalized EBITDA"
+     "text": "Adjusted earnings"
     },
     {
      "key": "qhero.19",
@@ -202,7 +202,7 @@
     {
      "key": "qwhy.3",
      "kind": "Paragraph",
-     "text": "Your numbers will be read with or without preparation. The question is who finds the issues first, and where: sized and explained <strong>on your side of the table</strong>, or surfaced after the letter of intent, when the buyer holds exclusivity and each open item can reopen the price, the structure, the working capital target, the escrow, the earn-out or the closing date."
+     "text": "Your numbers will be read with or without preparation. The question is who finds the issues first, and where: sized and explained <strong>on your side of the table</strong>, or surfaced after the letter of intent, when the buyer holds exclusivity and each open item can reopen the price, the structure, the working capital target, the escrow, the earnout or the closing date."
     },
     {
      "key": "qwhy.4",
@@ -242,7 +242,7 @@
     {
      "key": "qwhy.11",
      "kind": "Heading",
-     "text": "Defend normalized EBITDA"
+     "text": "Defend your adjusted earnings"
     },
     {
      "key": "qwhy.12",
@@ -257,12 +257,12 @@
     {
      "key": "qwhy.14",
      "kind": "Heading",
-     "text": "Defend normalized EBITDA"
+     "text": "Defend your adjusted earnings"
     },
     {
      "key": "qwhy.15",
      "kind": "Paragraph",
-     "text": "Buyers pay for earnings they can trace. The bridge runs from reported results to normalized EBITDA, and every material adjustment is tied to a document."
+     "text": "Buyers pay for earnings they can trace. The bridge runs from reported results to adjusted earnings, and every material adjustment is tied to a document."
     },
     {
      "key": "qwhy.16",
@@ -353,7 +353,7 @@
     {
      "key": "qbuild.5",
      "kind": "Paragraph",
-     "text": "Reported results reconciled to normalized EBITDA, with accounting applied the same way each period, figures tied to source data and schedules that hold up under a buyer's review."
+     "text": "Reported results reconciled to adjusted earnings, with accounting applied the same way each period, figures tied to source data and schedules that hold up under a buyer's review."
     },
     {
      "key": "qbuild.6",
@@ -424,7 +424,7 @@
   },
   {
    "id": "q-qoe",
-   "name": "Know the EBITDA a buyer can underwrite.",
+   "name": "Know the earnings a buyer can underwrite.",
    "items": [
     {
      "key": "qqoe.1",
@@ -434,12 +434,12 @@
     {
      "key": "qqoe.2",
      "kind": "Section headline",
-     "text": "Know the EBITDA a buyer can underwrite."
+     "text": "Know the earnings a buyer can underwrite."
     },
     {
      "key": "qqoe.3",
      "kind": "Paragraph",
-     "text": "A sell-side Quality of Earnings report is financial diligence done for the seller, before a buyer does its own. It asks whether reported earnings are accurate, what they are made of, whether they will recur and how much of them turns into cash, and it reconciles reported results to normalized EBITDA. It is analysis with support behind every adjustment, not a list of add-backs the owner hopes a buyer will accept."
+     "text": "A sell-side Quality of Earnings report is financial diligence done for the seller, before a buyer does its own. It asks whether reported earnings are accurate, what they are made of, whether they will recur and how much of them turns into cash, and it reconciles reported results to adjusted earnings. It is analysis with support behind every adjustment, not a list of add-backs the owner hopes a buyer will accept."
     },
     {
      "key": "qqoe.4",
@@ -524,12 +524,12 @@
     {
      "key": "qqoe.20",
      "kind": "Heading",
-     "text": "Normalized EBITDA bridge"
+     "text": "Adjusted earnings bridge"
     },
     {
      "key": "qqoe.21",
      "kind": "Text",
-     "text": "Reported net income or EBITDA bridged to normalized EBITDA, item by item: accounting…"
+     "text": "Reported net income or EBITDA bridged to adjusted earnings, item by item: accounting…"
     },
     {
      "key": "qqoe.22",
@@ -539,12 +539,12 @@
     {
      "key": "qqoe.23",
      "kind": "Heading",
-     "text": "Normalized EBITDA bridge"
+     "text": "Adjusted earnings bridge"
     },
     {
      "key": "qqoe.24",
      "kind": "Paragraph",
-     "text": "Reported net income or EBITDA bridged to normalized EBITDA, item by item: accounting corrections, timing, classification, one-time and non-operating items, and pro forma changes."
+     "text": "Reported net income or EBITDA bridged to adjusted earnings, item by item: accounting corrections, timing, classification, one-time and nonoperating items, and pro forma changes."
     },
     {
      "key": "qqoe.25",
@@ -1086,7 +1086,7 @@
     {
      "key": "qbooks.37",
      "kind": "List item",
-     "text": "Pulling non-operating, related-party, personal, one-time and deal-specific items apart from the operating results."
+     "text": "Pulling nonoperating, related-party, personal, one-time and deal-specific items apart from the operating results."
     },
     {
      "key": "qbooks.38",
@@ -1547,7 +1547,7 @@
     {
      "key": "qdataroom.81",
      "kind": "Paragraph",
-     "text": "Current policies and claims history, loss runs, professional liability, cyber, property, workers' compensation and directors and officers cover."
+     "text": "Current policies and claims history, loss runs, professional liability, cyber, property, workers' compensation and directors and officers coverage."
     },
     {
      "key": "qdataroom.82",
@@ -1783,7 +1783,7 @@
     {
      "key": "qfile.12",
      "kind": "Text",
-     "text": "The detail behind normalized EBITDA and each add-back, revenue trends, concentration…"
+     "text": "The detail behind adjusted earnings and each add-back, revenue trends, concentration…"
     },
     {
      "key": "qfile.13",
@@ -1798,7 +1798,7 @@
     {
      "key": "qfile.15",
      "kind": "Paragraph",
-     "text": "The detail behind normalized EBITDA and each add-back, revenue trends, concentration, working capital, debt-like items, cash flow, CapEx and the larger balance-sheet accounts."
+     "text": "The detail behind adjusted earnings and each add-back, revenue trends, concentration, working capital, debt-like items, cash flow, CapEx and the larger balance-sheet accounts."
     },
     {
      "key": "qfile.16",
@@ -2100,7 +2100,7 @@
     {
      "key": "qteam.14",
      "kind": "Paragraph",
-     "text": "An independent partner firm does the accounting work: tying figures to source data, normalized EBITDA, revenue and margin, working capital, the balance sheet, cash flow and the supporting schedules."
+     "text": "An independent partner firm does the accounting work: tying figures to source data, adjusted earnings, revenue and margin, working capital, the balance sheet, cash flow and the supporting schedules."
     },
     {
      "key": "qteam.15",
@@ -2507,12 +2507,12 @@
     {
      "key": "qdeliverables.10",
      "kind": "Heading",
-     "text": "Adjusted EBITDA bridge"
+     "text": "Adjusted earnings bridge"
     },
     {
      "key": "qdeliverables.11",
      "kind": "Paragraph",
-     "text": "From reported results to normalized EBITDA, with each category, calculation and supporting document referenced."
+     "text": "From reported results to adjusted earnings, with each category, calculation and supporting document referenced."
     },
     {
      "key": "qdeliverables.12",
@@ -2825,7 +2825,7 @@
     {
      "key": "qfaq.5",
      "kind": "Paragraph",
-     "text": "Transaction-focused financial diligence prepared for the seller before going to market. It reconciles reported results to normalized EBITDA and documents the evidence behind each material adjustment."
+     "text": "Transaction-focused financial diligence prepared for the seller before going to market. It reconciles reported results to adjusted earnings and documents the evidence behind each material adjustment."
     },
     {
      "key": "qfaq.6",
@@ -2915,7 +2915,7 @@
     {
      "key": "qfaq.23",
      "kind": "Paragraph",
-     "text": "Yes. Part of the work is converting material activity to accrual schedules a transaction can use and reconciling the records to source."
+     "text": "That is common. Part of the work is converting material activity to accrual schedules a transaction can use and reconciling the records to source."
     },
     {
      "key": "qfaq.24",
@@ -2990,7 +2990,7 @@
     {
      "key": "qfaq.38",
      "kind": "Paragraph",
-     "text": "Increasingly, yes, mostly to read and organize documents faster. Used well, it shortens extraction and reconciliation time. It does not replace source documents or professional judgment. Our own financial preparation starts with repeatable calculations and evidence that can be traced to its source, and advisors lead the last mile. Technology creates capacity. Human expertise turns that capacity into trusted advice."
+     "text": "Increasingly, yes, mostly to read and organize documents faster. Used well, it shortens extraction and reconciliation time. It does not replace source documents or professional judgment. Our own financial preparation starts with repeatable calculations and evidence that can be traced to its source, and advisors review every step. Technology creates capacity. Human expertise turns that capacity into trusted advice."
     },
     {
      "key": "qfaq.39",
@@ -3081,7 +3081,7 @@
     {
      "key": "qnext.11",
      "kind": "Link",
-     "text": "Request a QoE Quote"
+     "text": "Request a Sell-Side QoE"
     },
     {
      "key": "qnext.12",

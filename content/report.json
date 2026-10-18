@@ -35,7 +35,7 @@
     {
      "key": "report.6",
      "kind": "Text",
-     "text": "Never shared"
+     "text": "Never passed on"
     },
     {
      "key": "report.7",
@@ -220,7 +220,7 @@
     {
      "key": "report.43",
      "kind": "Form label",
-     "text": "Was the price or structure changed before it ended"
+     "text": "Was the price or structure changed before it ended?"
     },
     {
      "key": "report.44",
@@ -320,7 +320,7 @@
     {
      "key": "report.63",
      "kind": "Paragraph",
-     "text": "Thank you. If you ticked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
+     "text": "Thank you. If you checked the box to be contacted, we will write from team@thecapitalrow.com within one business day to set up your debrief."
     },
     {
      "key": "report.64",
@@ -330,7 +330,7 @@
     {
      "key": "report.65",
      "kind": "Note",
-     "text": "Wednesday January 20. What a buyer will find in your 2026 numbers, and how to find it first."
+     "text": "Wednesday, January 20. What a buyer will find in your 2026 numbers, and how to find it first."
     }
    ]
   }

@@ -1974,6 +1974,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .bdfrm details.more[open]>summary:after{transform:rotate(-135deg)}
 .bdfrm .moregrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 28px;padding:4px 0 14px}.bdfrm .moregrid .wide{grid-column:1/-1}
 @media(max-width:700px){.bdfrm .moregrid{grid-template-columns:minmax(0,1fr)}}
+.vcgrid .vcfld[hidden],.frm .fld[hidden],.bdfrm .fld[hidden]{display:none}
 </style></head><body>
 <script type="application/json" id="crforms">{{forms:json}}</script>
 <script>
@@ -2205,32 +2206,32 @@ window.crSafe = function(s) {
 <div class="vcgrid">
 <div class="vcfld"><label for="vcrev">{{sh.valuation.8}}</label><div class="vcmoney"><i>$</i><input id="vcrev" inputmode="decimal" autocomplete="off" required></div></div>
 <div class="vcfld"><label for="vcearn">{{sh.valuation.9}}<button class="vcinfo" type="button" aria-label="What adjusted earnings means" aria-describedby="vcearntip">i</button><span class="vctip" id="vcearntip" role="tooltip">{{sh.valuation.10}}</span></label><div class="vcmoney"><i>$</i><input id="vcearn" inputmode="decimal" autocomplete="off" required></div></div>
-<div class="vcfld"><label for="vckind">{{sh.valuation.11}}</label><select id="vckind" required data-list="vckind"></select></div>
-<div class="vcfld"><label for="vcgrow">{{sh.valuation.12}}</label><select id="vcgrow" required data-list="vcgrow"></select></div>
-<div class="vcfld"><label for="vcrec">{{sh.valuation.13}}</label><select id="vcrec" required data-list="vcrec"></select></div>
-<div class="vcfld"><label for="vctop">{{sh.valuation.14}}</label><select id="vctop" required data-list="vctop"></select></div>
-<div class="vcfld"><label for="vcreg">{{sh.valuation.15}}</label><select id="vcreg" required data-list="vcreg"></select></div>
-<div class="vcfld"><label for="vcinv">{{sh.valuation.16}}</label><select id="vcinv" required data-list="vcinv"></select></div>
-<div class="vcfld vcwide vcpickw"><label>{{sh.valuation.17}}</label><div class="secpick" id="vcsec" data-secpick="1"></div></div>
+<div class="vcfld"><label for="vckind">{{sh.valuation.11}}</label><select id="vckind" required data-list="vckind"></select></div><div class="vcfld" id="vcleadw" hidden><label for="vclead">{{sh.valuation.12}}</label><select id="vclead" data-list="lead"></select></div>
+<div class="vcfld"><label for="vcgrow">{{sh.valuation.13}}</label><select id="vcgrow" required data-list="vcgrow"></select></div>
+<div class="vcfld"><label for="vcrec">{{sh.valuation.14}}</label><select id="vcrec" required data-list="vcrec"></select></div>
+<div class="vcfld"><label for="vctop">{{sh.valuation.15}}</label><select id="vctop" required data-list="vctop"></select></div>
+<div class="vcfld"><label for="vcreg">{{sh.valuation.16}}</label><select id="vcreg" required data-list="vcreg"></select></div>
+<div class="vcfld"><label for="vcinv">{{sh.valuation.17}}</label><select id="vcinv" required data-list="vcinv"></select></div>
+<div class="vcfld vcwide vcpickw"><label>{{sh.valuation.18}}</label><div class="secpick" id="vcsec" data-secpick="1"></div></div>
 </div>
 <p class="vcerr" id="vcerr1" role="alert" hidden></p>
-<div class="vcnav"><button class="vcbtn" type="submit">{{sh.valuation.18}}</button></div>
+<div class="vcnav"><button class="vcbtn" type="submit">{{sh.valuation.19}}</button></div>
 </form>
 <form class="vcform" id="vcf2" novalidate hidden>
 <div class="vcgrid">
-<div class="vcfld"><label for="vcco">{{sh.valuation.19}}</label><input id="vcco" type="text" autocomplete="organization" required></div>
-<div class="vcfld"><label for="vcrole">{{sh.valuation.20}}</label><select id="vcrole" required data-list="vcrole"></select></div>
-<div class="vcfld"><label for="vcfn">{{sh.valuation.21}}</label><input id="vcfn" type="text" autocomplete="given-name" required></div>
-<div class="vcfld"><label for="vcln">{{sh.valuation.22}}</label><input id="vcln" type="text" autocomplete="family-name" required></div>
-<div class="vcfld"><label for="vcem">{{sh.valuation.23}}</label><input id="vcem" type="email" autocomplete="email" required></div>
-<div class="vcfld"><label for="vcph">{{sh.valuation.24}}</label><input id="vcph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
-<div class="vcfld"><label for="vcwhen">{{sh.valuation.25}}</label><select id="vcwhen" required data-list="vcwhen"></select></div>
-<div class="vcfld"><label for="vchow">{{sh.valuation.26}}</label><select id="vchow" data-list="vchow"></select></div><div class="vcfld" id="vchowdw" hidden><label for="vchowd">{{sh.valuation.27}}</label><input id="vchowd"></div>
-<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.28}} <b class="opt">{{sh.valuation.29}}</b> {{sh.valuation.30}}</span></label>
+<div class="vcfld"><label for="vcco">{{sh.valuation.20}}</label><input id="vcco" type="text" autocomplete="organization" required></div>
+<div class="vcfld"><label for="vcrole">{{sh.valuation.21}}</label><select id="vcrole" required data-list="vcrole"></select></div>
+<div class="vcfld"><label for="vcfn">{{sh.valuation.22}}</label><input id="vcfn" type="text" autocomplete="given-name" required></div>
+<div class="vcfld"><label for="vcln">{{sh.valuation.23}}</label><input id="vcln" type="text" autocomplete="family-name" required></div>
+<div class="vcfld"><label for="vcem">{{sh.valuation.24}}</label><input id="vcem" type="email" autocomplete="email" required></div>
+<div class="vcfld"><label for="vcph">{{sh.valuation.25}}</label><input id="vcph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
+<div class="vcfld"><label for="vcwhen">{{sh.valuation.26}}</label><select id="vcwhen" required data-list="vcwhen"></select></div>
+<div class="vcfld"><label for="vchow">{{sh.valuation.27}}</label><select id="vchow" data-list="vchow"></select></div><div class="vcfld" id="vchowdw" hidden><label for="vchowd">{{sh.valuation.28}}</label><input id="vchowd"></div>
+<label class="vcsms wide" for="vcsms"><input type="checkbox" id="vcsms" value="yes"><span id="vcsmstext">{{sh.valuation.29}} <b class="opt">{{sh.valuation.30}}</b> {{sh.valuation.31}}</span></label>
 </div>
 <p class="vcerr" id="vcerr2" role="alert" hidden></p>
-<p class="vcnote2">{{sh.valuation.31}}</p>
-<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.32}}</button><button class="vcbtn" type="submit">{{sh.valuation.33}}</button></div>
+<p class="vcnote2">{{sh.valuation.32}}</p>
+<div class="vcnav"><button class="vcback" type="button" id="vcprev">{{sh.valuation.33}}</button><button class="vcbtn" type="submit">{{sh.valuation.34}}</button></div>
 </form>
 <div class="vcres" id="vcres" hidden>
 <p class="vchi" id="vchi"></p>
@@ -2238,15 +2239,15 @@ window.crSafe = function(s) {
 <p class="vcbasis" id="vcbasis"></p>
 <div class="vcgroups" id="vcgroups"></div>
 <p class="vcsent" id="vcsent"></p>
-<div class="vclook"><p class="vclab">{{sh.valuation.34}}</p><ul id="vcnotes"></ul></div>
-<div class="vcmove"><p class="vclab">{{sh.valuation.35}}</p><p>{{sh.valuation.36}}</p></div>
-<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.37}}</a>
-<p class="vcmicro">{{sh.valuation.38}}</p></div>
-<ol class="vchow"><li><b>1</b><u>{{sh.valuation.39}}</u><p>{{sh.valuation.40}}</p></li><li><b>2</b><u>{{sh.valuation.41}}</u><p>{{sh.valuation.42}}</p></li><li><b>3</b><u>{{sh.valuation.43}}</u><p>{{sh.valuation.44}}</p></li></ol>
-<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.45}}</button></div>
+<div class="vclook"><p class="vclab">{{sh.valuation.35}}</p><ul id="vcnotes"></ul></div>
+<div class="vcmove"><p class="vclab">{{sh.valuation.36}}</p><p>{{sh.valuation.37}}</p></div>
+<div class="vcnext"><a class="vcbtn" id="vcbook" href="https://calendly.com/caprow/confidential-business-value-consultation" target="_blank" rel="noopener">{{sh.valuation.38}}</a>
+<p class="vcmicro">{{sh.valuation.39}}</p></div>
+<ol class="vchow"><li><b>1</b><u>{{sh.valuation.40}}</u><p>{{sh.valuation.41}}</p></li><li><b>2</b><u>{{sh.valuation.42}}</u><p>{{sh.valuation.43}}</p></li><li><b>3</b><u>{{sh.valuation.44}}</u><p>{{sh.valuation.45}}</p></li></ol>
+<div class="vcnav"><button class="vcback" type="button" id="vcedit">{{sh.valuation.46}}</button></div>
 </div>
-<p class="vcfine">{{sh.valuation.46}}</p>
-<details class="vcsrcd"><summary>{{sh.valuation.47}}</summary><p>{{sh.valuation.48}}</p><p>{{sh.valuation.49}}</p><p>{{sh.valuation.50}}</p></details>
+<p class="vcfine">{{sh.valuation.47}}</p>
+<details class="vcsrcd"><summary>{{sh.valuation.48}}</summary><p>{{sh.valuation.49}}</p><p>{{sh.valuation.50}}</p><p>{{sh.valuation.51}}</p></details>
 </div></div>
 
 <script>
@@ -2413,9 +2414,20 @@ function bookLink() {
   "Independent sponsor": [ "One transaction, and one chance to get the evidence right.", "For a single transaction, we run the evidence on a target before a letter is priced.", "What are you looking at, and where are you in the process" ],
   "Lender or financing partner": [ "Happy to talk. One thing stated up front.", "We can discuss the evidence a borrower has assembled and the questions it helps answer. Any lender-required valuation or assurance work is separately scoped and commissioned.", "What are you trying to establish, and on which file" ]
  };
- M["Family office"] = M["Buyer"];
- M["Holding company"] = M["Buyer"];
- M["Other"] = M["Buyer"];
+ function bands() {
+  var s = sel.value, k = kind.value, bw = document.getElementById("bandw"), rw = document.getElementById("rbandw"), lw = document.getElementById("leadw");
+  if (!bw || !rw || !lw) return;
+  var own = s === "Seller", sw = k === "Vertical software, SaaS" || k === "Hybrid models";
+  var show = [ [ bw, own ? sw : s !== "Buyer" ], [ rw, own && k !== "Vertical software, SaaS" ], [ lw, own && k === "Hybrid models" ] ];
+  show.forEach((function(p) {
+   p[0].hidden = !p[1];
+   if (!p[1]) {
+    var x = p[0].querySelector("select");
+    if (x) x.value = "";
+   }
+  }));
+ }
+ window.crBands = bands;
  function fillKinds() {
   var k = sel.value, list = KINDS[k] || [];
   kind.innerHTML = "";
@@ -2456,11 +2468,21 @@ function bookLink() {
   labels();
   copy();
   bookLink();
+  bands();
  }
  sel.addEventListener("change", seatChanged);
  kind.addEventListener("change", (function() {
   copy();
   bookLink();
+  bands();
+ }));
+ var fm = sel.form;
+ if (fm) fm.addEventListener("reset", (function() {
+  setTimeout((function() {
+   fillKinds();
+   labels();
+   bands();
+  }), 0);
  }));
  Array.prototype.forEach.call(document.querySelectorAll("[data-seat]"), (function(a) {
   a.addEventListener("click", (function() {
@@ -2493,6 +2515,7 @@ function bookLink() {
   if (f) f.classList.remove("answered");
  }));
  fillKinds();
+ bands();
 })();
 
 (function() {
@@ -2592,6 +2615,9 @@ function fieldValues() {
   vertical: crSecs("vert"),
   industry: crInds("vert"),
   recurring_revenue: v("band"),
+  revenue_band: v("rband"),
+  lead: v("lead"),
+  website: v("web"),
   heard_via: v("how"),
   heard_via_detail: v("howd"),
   sector_ids: crSecIds("vert"),
@@ -3130,16 +3156,17 @@ function hsId(x) {
 }
 
 function hsFields(kind, d) {
- var f = [], L = [ [ "Form", kind, "cr_form" ] ], free = "";
+ var f = [], L = [ [ "Form", kind, "cr_form" ] ], note = "";
  function has(v) {
   return v !== undefined && v !== null && String(v).trim() !== "";
  }
  var MULTI_P = {
-  cr_geography: 1,
+  cr_target_geography: 1,
+  cr_lending_geography: 1,
   cr_customer_markets: 1,
   cr_ownership: 1,
-  cr_acquisition_context: 1,
-  cr_business_model: 1,
+  cr_acquisition_approach: 1,
+  cr_target_company_types: 1,
   cr_revenue_model: 1
  };
  function add(n, v, ot) {
@@ -3152,8 +3179,40 @@ function hsFields(kind, d) {
    value: v
   });
  }
+ function co(n, v) {
+  add(n, v, "0-2");
+ }
  function yn(v) {
   return v === "yes" ? "Yes" : "No";
+ }
+ function tf(v) {
+  return v === "yes" ? "true" : "false";
+ }
+ var CT = {
+  Seller: "seller",
+  Buyer: "buyer",
+  Advisor: "intermediary",
+  Lender: "lender",
+  "Business owner": "seller",
+  "CPA or accountant": "intermediary",
+  "Advisor to owners": "intermediary"
+ };
+ function offering(k, lead) {
+  if (k === "Vertical software, SaaS") return "Pure software / SaaS";
+  if (k === "Services") return "Pure services";
+  if (k === "Hybrid models") return lead === "Software" ? "Software-led hybrid" : lead === "Services" ? "Services-led hybrid" : "";
+  if (k === "Another company type") return "Unknown";
+  return "";
+ }
+ function host(u) {
+  u = String(u || "").trim().toLowerCase();
+  if (!u) return "";
+  u = u.replace(/^[a-z][a-z0-9+.-]*:\/\//, "").replace(/^www\./, "").split(/[\/?#\s]/)[0];
+  return /^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(u) ? u : "";
+ }
+ function lab(k, fb) {
+  var t = CRM(k);
+  return t || fb;
  }
  var nm = (d.name || "").trim(), sp = nm.indexOf(" ");
  add("email", d.email);
@@ -3165,66 +3224,127 @@ function hsFields(kind, d) {
   wording: d.sms_consent_wording
  } : null);
  add("company", d.company);
- add("name", d.company, "0-2");
+ co("name", d.company);
  add("phone", mob);
  add("mobilephone", mob);
  add("cr_sms_consent", sms ? "true" : "false");
  if (kind === "Conversation") {
-  L.push([ "Side", d.side, "cr_side" ], [ "Kind", d.kind, "cr_kind" ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Recurring revenue", d.recurring_revenue, "cr_revenue_band" ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Sector updates", yn(d.updates) ]);
+  var s = d.side || "", own = s === "Seller";
+  L.push([ "Side", s ], [ lab("conv.label." + (s || "none") + ".kind", "Kind"), d.kind ]);
+  add("cr_contact_type", CT[s]);
+  L.push([ "Company website", d.website ]);
+  add("website", d.website);
+  co("domain", host(d.website));
+  if (own) {
+   L.push([ "Which brings in more revenue", d.lead ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.recurring_revenue ]);
+   co("offering_type", offering(d.kind, d.lead));
+   co("revenue_band", d.revenue_band);
+   co("arr_band", d.recurring_revenue);
+  } else L.push([ lab("conv.label." + (s || "none") + ".band", "Annual recurring revenue"), d.recurring_revenue ]);
+  if (s === "Buyer") co("buyer_type", d.kind);
+  if (s === "Advisor" || s === "Lender") add("cr_kind", d.kind);
+  L.push([ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Sector updates", yn(d.updates) ]);
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
-  add("cr_sector_updates", d.updates === "yes" ? "true" : "false");
-  if (d.side === "Seller") {
+  add("cr_marketing_consent", tf(d.updates));
+  if (own) {
    L.push([ "Reason for contact", d.sl_reason, "cr_reason" ]);
   }
-  if (d.side === "Advisor") {
+  if (s === "Advisor") {
    L.push([ "Reason for contact", d.ad_purpose, "cr_reason" ], [ "Client type", d.ad_client, "cr_client_type" ]);
   }
-  if (d.side === "Lender") {
-   L.push([ "Reason for contact", d.ln_purpose, "cr_reason" ], [ "Geography", d.ln_geo, "cr_geography" ], [ "Loan size minimum (USD)", d.ln_min ], [ "Loan size maximum (USD)", d.ln_max ], [ "Cash flow appetite", d.ln_cash, "cr_cash_flow_appetite" ]);
+  if (s === "Lender") {
+   L.push([ "Reason for contact", d.ln_purpose, "cr_reason" ], [ "Geography", d.ln_geo, "cr_lending_geography" ], [ "Loan size minimum (USD)", d.ln_min ], [ "Loan size maximum (USD)", d.ln_max ], [ "Cash flow appetite", d.ln_cash, "cr_cash_flow_appetite" ]);
    if (/^\d+$/.test(d.ln_min || "")) add("cr_loan_min", d.ln_min);
    if (/^\d+$/.test(d.ln_max || "")) add("cr_loan_max", d.ln_max);
    add("cr_range_flags", [ d.ln_min === "No minimum" ? "Loan size: no minimum" : "", d.ln_max === "No maximum" ? "Loan size: no maximum" : "" ].filter(Boolean).join("; "));
   }
-  if (d.side === "Buyer") {
+  if (s === "Buyer") {
    L.push([ "Criteria on file", yn(d.criteria_on_file) ]);
-   add("cr_criteria_on_file", d.criteria_on_file === "yes" ? "true" : "false");
+   add("cr_criteria_retention_consent", tf(d.criteria_on_file));
   }
-  if (d.side === "Seller" || d.side === "Advisor") {
+  if (own || s === "Advisor") {
    L.push([ "Owner session seat, January 20", yn(d.owner_session) ]);
-   add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
+   add("cr_owner_session", tf(d.owner_session));
   }
-  free = d.message;
+  note = d.message;
+ }
+ if (kind === "Buy box") {
+  add("cr_contact_type", "buyer");
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
+  co("buyer_type", d.kind);
+  co("domain", host(d.website));
+  co("cr_acquisition_approach", d.acquisition_context);
+  co("cr_platform_name", d.platform_name);
+  co("cr_ownership", d.ownership);
+  co("target_verticals", d.firm_sector_ids);
+  co("target_end_markets", d.firm_industry_ids);
+  co("cr_target_company_types", d.business_model);
+  co("cr_target_geography", d.geography);
+  co("cr_target_geography_detail", d.geography_detail);
+  co("cr_customer_markets", d.customer_markets);
+  co("cr_profitability", d.profitability);
+  co("cr_revenue_model", d.revenue_model);
+  co("cr_recurring_pref", d.recurring_pref);
+  co("cr_regulated_appetite", d.regulated);
+  co("cr_owner_after_close", d.owner_after_close);
+  co("cr_timing", d.timing);
+  co("cr_funding_status", d.funding);
+  co("cr_exclusions", d.exclusions);
+  var RN = [ [ "Annual revenue", "cr_rev", d.rev_min, d.rev_max ], [ "ARR", "cr_arr", d.arr_min, d.arr_max ], [ "EBITDA", "cr_ebitda", d.ebitda_min, d.ebitda_max ], [ "Enterprise value", "cr_ev", d.ev_min, d.ev_max ], [ "Equity investment", "cr_equity", d.eq_min, d.eq_max ] ], FL = [];
+  RN.forEach((function(r) {
+   var isn = function(x) {
+    return /^-?\d+$/.test(String(x || ""));
+   };
+   if (isn(r[2])) co(r[1] + "_min", r[2]);
+   if (isn(r[3])) co(r[1] + "_max", r[3]);
+   if (r[2] === "No minimum") FL.push(r[0] + ": no minimum");
+   if (r[3] === "No maximum") FL.push(r[0] + ": no maximum");
+  }));
+  co("cr_target_range_flags", FL.join("; "));
+  add("cr_criteria_retention_consent", "true");
+  add("cr_sector", d.sector_ids);
+  add("cr_industry", d.industry_ids);
+  add("cr_marketing_consent", tf(d.updates));
+  note = d.message;
  }
  if (kind === "Follow a sector") {
   L.push([ "Sectors followed", d.sector ]);
   add("cr_sector_followed", crSecIds("snsec"));
+  add("cr_marketing_consent", "true");
  }
  if (kind === "Pre-Market Assessment request") {
-  L.push([ "Asking about", d.about ], [ "Side", "Seller", "cr_side" ], [ "Company type", d.kind, "cr_kind" ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Annual revenue", d.revenue_band, "cr_revenue_band" ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
+  add("cr_contact_type", "seller");
+  L.push([ "Asking about", d.about ], [ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
+  co("offering_type", offering(d.kind, d.lead));
+  co("revenue_band", d.revenue_band);
+  co("arr_band", d.arr_band);
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
-  add("cr_owner_session", d.owner_session === "yes" ? "true" : "false");
+  add("cr_owner_session", tf(d.owner_session));
   add("cr_details", [ [ "Asking about", d.about ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ] ].filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
    return r[0] + ": " + r[1];
   })).join(" | "));
-  free = d.message;
+  note = d.message;
  }
  if (kind === "Owner session seat") {
-  L.push([ "Side", d.role === "Business owner" ? "Seller" : d.role === "Buyer or lender" ? "Buyer" : d.role ? "Advisor" : "", "cr_side" ], [ "Role", d.role, "cr_kind" ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Question", d.message ]);
+  L.push([ "Role", d.role, "cr_kind" ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Question", d.message ]);
+  add("cr_contact_type", CT[d.role] || (d.role === "Buyer" ? "buyer" : d.role === "Lender" ? "lender" : ""));
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
   add("cr_owner_session", "true");
  }
  if (kind === "Bad or broken deal report") {
-  var R = [ [ "Company type", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Advisor on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "What went wrong", d.main_reason ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
+  var R = [ [ "Company type", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Advisor on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "Contributing factors", d.factors ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
   L.push([ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Main reason", d.main_reason, "cr_main_reason" ]);
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
   L = L.concat(R);
   L.push([ "What I would do differently", d.differently ]);
+  add("cr_recontact_consent", tf(d.contact_ok));
+  add("cr_research_use_consent", tf(d.anonymous_use_ok));
   add("cr_details", R.filter((function(r) {
    return has(r[1]);
   })).map((function(r) {
@@ -3233,7 +3353,9 @@ function hsFields(kind, d) {
  }
  if (kind === "Valuation calculator") {
   var V = [ [ "Your role", d.role ], [ "Plans to sell", d.timing ], [ "Industries", d.industry ], [ "Annual revenue", d.revenue ], [ "Adjusted earnings", d.earnings ], [ "Earnings growth, last three years", d.growth ], [ "Recurring revenue", d.recurring ], [ "Five largest customers", d.top5 ], [ "Regulated industry", d.regulated ], [ "Role after a sale", d.involvement ], [ "Range shown", d.estimate ] ];
-  L.push([ "Side", "Seller", "cr_side" ], [ "Company type", d.kind, "cr_kind" ], [ "Sectors", d.sector ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Revenue, trailing twelve months (USD)", d.revenue_raw, "cr_revenue_ltm" ], [ "Adjusted earnings, trailing twelve months (USD)", d.earnings_raw, "cr_adjusted_earnings_ltm" ]);
+  add("cr_contact_type", d.role === "Advisor to the owner" ? "intermediary" : "seller");
+  co("offering_type", offering(d.kind, d.lead));
+  L.push([ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Sectors", d.sector ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Revenue, trailing twelve months (USD)", d.revenue_raw, "cr_revenue_ltm" ], [ "Adjusted earnings, trailing twelve months (USD)", d.earnings_raw, "cr_adjusted_earnings_ltm" ]);
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
   L = L.concat(V);
@@ -3244,12 +3366,14 @@ function hsFields(kind, d) {
   })).join(" | "));
  }
  if (kind === "Capital Connections") {
-  var K = [ [ "Company type", d.business_type ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Headquarters", d.headquarters ], [ "Stage", d.stage ], [ "Annual revenue", d.revenue_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
+  var K = [ [ "Company type", d.business_type ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Headquarters", d.headquarters ], [ "Stage", d.stage ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
   L = L.concat(K);
-  add("cr_revenue_band", d.revenue_band);
+  co("offering_type", offering(d.business_type, d.lead));
+  co("revenue_band", d.revenue_band);
+  co("arr_band", d.arr_band);
   add("cr_sector", d.sector_ids);
   add("cr_industry", d.industry_ids);
-  add("cr_geography", d.headquarters);
+  add("cr_headquarters_region", d.headquarters);
   add("cr_stage", d.stage);
   add("cr_details", K.filter((function(r) {
    return has(r[1]);
@@ -3268,7 +3392,7 @@ function hsFields(kind, d) {
  if (has(d.company)) lines.push("Company: " + String(d.company).trim());
  if (has(mob)) lines.push("Mobile: " + String(mob).trim());
  if (kind === "Conversation" || kind === "Pre-Market Assessment request" || kind === "Owner session seat" || kind === "Valuation calculator" || kind === "Capital Connections") lines.push("Text message consent: " + (sms ? "Yes, " + sms.time + ". Wording shown: " + sms.wording : "No"));
- add("message", (has(free) ? String(free).trim() + "\n\n" : "") + lines.join("\n"));
+ add("message", (has(note) ? String(note).trim() + "\n\n" : "") + lines.join("\n"));
  return f;
 }
 
@@ -3349,6 +3473,37 @@ function hsSubmit(kind, d, ok, fail) {
   consent: b.legalConsentOptions || null,
   also: also
  };
+ function direct() {
+  var guid = kind === "Owner session seat" ? "2252081f-64ac-4259-925b-0bd99f4fb517" : "8e02c346-11f0-4b2d-a17c-a596397264ee";
+  var url = "https://api.hsforms.com/submissions/v3/integration/submit/247329185/" + guid;
+  var std = fields.filter((function(x) {
+   return (x.objectTypeId || "0-1") === "0-1" && [ "email", "firstname", "lastname", "company", "phone", "message" ].indexOf(x.name) >= 0;
+  }));
+  var min = std.filter((function(x) {
+   return [ "email", "firstname", "lastname", "message" ].indexOf(x.name) >= 0;
+  }));
+  function post(fs) {
+   return fetch(url, {
+    method: "POST",
+    headers: {
+     "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+     fields: fs,
+     context: b.context
+    })
+   }).then((function(r) {
+    return r.ok;
+   }), (function() {
+    return false;
+   }));
+  }
+  post(std).then((function(a) {
+   return a || post(min);
+  })).then((function(a) {
+   if (a) ok(false); else fail();
+  }));
+ }
  fetch("/api/submit", {
   method: "POST",
   headers: {
@@ -3363,9 +3518,9 @@ function hsSubmit(kind, d, ok, fail) {
    return false;
   }));
  })).then((function(saved) {
-  if (saved) ok(false); else fail();
+  if (saved) ok(false); else direct();
  }), (function() {
-  fail();
+  direct();
  }));
 }
 
@@ -3727,6 +3882,7 @@ function hsSubmit(kind, d, ok, fail) {
   [ [ "vcgrow", "How your earnings have grown" ], [ "vckind", "Company type" ], [ "vcrec", "How much of your revenue recurs" ], [ "vctop", "Your five largest customers" ], [ "vcreg", "Whether your industry is regulated" ], [ "vcinv", "Your plans for your role" ] ].forEach((function(q) {
    if (!v(q[0])) L.push([ q[0], CRM("vc.err_missing") + q[1].toLowerCase() + "." ]);
   }));
+  if (v("vckind") === "Hybrid models" && !v("vclead")) L.push([ "vclead", CRM("form.err_lead") ]);
   if (bad(f1, "vcerr1", L)) return;
   steps(2);
   setTimeout((function() {
@@ -3828,6 +3984,7 @@ function hsSubmit(kind, d, ok, fail) {
     wording: $("vcsmstext").textContent.trim()
    } : null,
    role: sel("vcrole"),
+   lead: v("vclead"),
    timing: sel("vcwhen"),
    heard_via: v("vchow"),
    heard_via_detail: v("vchowd"),
@@ -4601,11 +4758,7 @@ window.crSecs = function(id) {
     }));
    }
   }));
-  var bf = band ? band.closest(".fld") : null;
-  if (bf) {
-   bf.hidden = v === "Buyer";
-   if (v === "Buyer") band.selectedIndex = 0;
-  }
+  if (window.crBands) window.crBands();
  }
  seat.addEventListener("change", (function() {
   var bn = document.getElementById("bbnextw");
@@ -4644,7 +4797,7 @@ window.crSecs = function(id) {
  function summary() {
   var box = document.getElementById("bbsum"), ul = document.getElementById("bbsuml");
   if (!box || !ul || typeof window.bbRead !== "function") return;
-  var d = window.bbRead(), rows = [ [ "bb.sum.organization", d.kind ], [ "bb.sum.capital", d.capital_model ], [ "bb.sum.context", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ] ].map((function(r) {
+  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ] ].map((function(r) {
    return [ CRM(r[0]), r[1] ];
   })).filter((function(r) {
    return r[1];
@@ -4757,6 +4910,37 @@ window.crSecs = function(id) {
   }
  }
  sync();
+})();
+</script>
+<script>
+(function() {
+ function $(i) {
+  return document.getElementById(i);
+ }
+ function wire(k, l, r, a) {
+  var s = $(k);
+  if (!s) return;
+  function on() {
+   var v = s.value, sw = v === "Vertical software, SaaS" || v === "Hybrid models";
+   [ [ l, v === "Hybrid models" ], [ r, v !== "Vertical software, SaaS" ], [ a, sw ] ].forEach((function(p) {
+    var w = p[0] && $(p[0]);
+    if (!w) return;
+    w.hidden = !p[1];
+    if (!p[1]) {
+     var x = w.querySelector("select");
+     if (x) x.value = "";
+    }
+   }));
+  }
+  s.addEventListener("change", on);
+  if (s.form) s.form.addEventListener("reset", (function() {
+   setTimeout(on, 0);
+  }));
+  on();
+ }
+ wire("pqkind", "pqleadw", "pqrevw", "pqarrw");
+ wire("cctype", "ccleadw", "ccrevw", "ccarrw");
+ wire("vckind", "vcleadw", null, null);
 })();
 </script>
 </body></html>

@@ -222,90 +222,100 @@
     {
      "key": "request.26",
      "kind": "Form label",
-     "text": "Sectors"
+     "text": "Which brings in more revenue?"
     },
     {
      "key": "request.27",
      "kind": "Form label",
-     "text": "Annual revenue"
+     "text": "Sectors"
     },
     {
      "key": "request.28",
      "kind": "Form label",
-     "text": "When you plan to go to market"
+     "text": "Annual revenue"
     },
     {
      "key": "request.29",
      "kind": "Form label",
-     "text": "Who prepares your financial statements"
+     "text": "Annual recurring revenue"
     },
     {
      "key": "request.30",
      "kind": "Form label",
-     "text": "Has the business had a quality of earnings report?"
+     "text": "When you plan to go to market"
     },
     {
      "key": "request.31",
      "kind": "Form label",
-     "text": "When"
+     "text": "Who prepares your financial statements"
     },
     {
      "key": "request.32",
      "kind": "Form label",
-     "text": "Who prepared it, optional"
+     "text": "Has the business had a quality of earnings report?"
     },
     {
      "key": "request.33",
      "kind": "Form label",
-     "text": "What you want to work out before a buyer looks"
+     "text": "When"
     },
     {
      "key": "request.34",
-     "kind": "Text",
-     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
+     "kind": "Form label",
+     "text": "Who prepared it, optional"
     },
     {
      "key": "request.35",
-     "kind": "Text",
-     "text": "Optional."
+     "kind": "Form label",
+     "text": "What you want to work out before a buyer looks"
     },
     {
      "key": "request.36",
      "kind": "Text",
-     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+     "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
      "key": "request.37",
      "kind": "Text",
-     "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
+     "text": "Optional."
     },
     {
      "key": "request.38",
+     "kind": "Text",
+     "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
+    },
+    {
+     "key": "request.39",
+     "kind": "Text",
+     "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
+    },
+    {
+     "key": "request.40",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "request.39",
+     "key": "request.41",
      "kind": "Button",
      "text": "Request a Pre-Market Assessment"
     },
     {
-     "key": "request.40",
+     "key": "request.42",
      "kind": "Paragraph",
      "text": "Please do not send financial documents here. Scope is agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
-     "key": "request.41",
+     "key": "request.43",
      "kind": "Button",
      "text": "Reserve your seat at the owner session"
     },
     {
-     "key": "request.42",
+     "key": "request.44",
      "kind": "Note",
-     "text": "Wednesday January 20, live online. Everyone who reserves a seat receives the playbook."
+     "text": "Wednesday, January 20, live online. Everyone who reserves a seat receives the playbook."
     },
     {
-     "key": "request.43",
+     "key": "request.45",
      "kind": "Note",
      "text": "This is non-attest preparation. For a quality of earnings report, see <a>Sell-Side QoE</a>."
     }
@@ -820,7 +830,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure traced to a source document, every adjustment marked supported or unsupported, and the findings are yours to keep."
+     "text": "Capital Row is the M&A firm that reads your numbers the way a buyer will, before you go to market. Every figure is traced to a source document, every adjustment is marked supported or unsupported, and the findings are yours to keep."
     },
     {
      "key": "next.3",
