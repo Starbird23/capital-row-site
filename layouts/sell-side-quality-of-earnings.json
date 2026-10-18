@@ -4436,23 +4436,23 @@
    "section": "q-faq"
   },
   "qfaq.36": {
+   "kind": "Heading",
+   "tag": "h3",
+   "cls": "q-faqh",
+   "tags": [],
+   "section": "q-faq"
+  },
+  "qfaq.37": {
    "kind": "Text",
    "tag": "summary",
    "cls": "",
    "tags": [],
    "section": "q-faq"
   },
-  "qfaq.37": {
+  "qfaq.38": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
-   "tags": [],
-   "section": "q-faq"
-  },
-  "qfaq.38": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "q-faqh",
    "tags": [],
    "section": "q-faq"
   },
@@ -4492,20 +4492,6 @@
    "section": "q-faq"
   },
   "qfaq.44": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "q-faq"
-  },
-  "qfaq.45": {
-   "kind": "Text",
-   "tag": "summary",
-   "cls": "",
-   "tags": [],
-   "section": "q-faq"
-  },
-  "qfaq.46": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "",
@@ -5091,9 +5077,16 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17/\" target=\"_blank\" rel=\"noopener\">",
-    "<a href=\"https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf\" target=\"_blank\" rel=\"noopener\">",
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },

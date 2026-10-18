@@ -1422,12 +1422,12 @@
     {
      "key": "buyermap.11",
      "kind": "Text",
-     "text": "One sector, fixed fee."
+     "text": "One sector, one document."
     },
     {
      "key": "buyermap.12",
      "kind": "Paragraph",
-     "text": "Scope and fee agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
+     "text": "Scope agreed in writing before work begins. Delivered as a document you keep, with its sources, and refreshed on request."
     },
     {
      "key": "buyermap.13",

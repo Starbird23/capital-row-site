@@ -1279,20 +1279,6 @@
    "tags": [],
    "section": "faq"
   },
-  "faq.11": {
-   "kind": "Text",
-   "tag": "summary",
-   "cls": "",
-   "tags": [],
-   "section": "faq"
-  },
-  "faq.12": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "faq"
-  },
   "inquiry.1": {
    "kind": "Section headline",
    "tag": "h2",
@@ -2007,9 +1993,16 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17/\" target=\"_blank\" rel=\"noopener\">",
-    "<a href=\"https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf\" target=\"_blank\" rel=\"noopener\">",
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },

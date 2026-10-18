@@ -1671,8 +1671,8 @@
    "section": "talk"
   },
   "talk.12": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
@@ -1692,29 +1692,29 @@
    "section": "talk"
   },
   "talk.15": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.16": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.17": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.18": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
@@ -1727,15 +1727,15 @@
    "section": "talk"
   },
   "talk.20": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.21": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "talk"
@@ -1748,29 +1748,32 @@
    "section": "talk"
   },
   "talk.23": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "talk"
   },
   "talk.24": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Text",
+   "tag": "b",
+   "cls": "opt",
    "tags": [],
    "section": "talk"
   },
   "talk.25": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
-   "tags": [],
+   "tags": [
+    "<a href=\"../privacy/index.html\">",
+    "<a href=\"../terms/index.html\">"
+   ],
    "section": "talk"
   },
   "talk.26": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "talk"
@@ -1797,58 +1800,6 @@
    "section": "talk"
   },
   "talk.30": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.31": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "opt",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.32": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [
-    "<a href=\"../privacy/index.html\">",
-    "<a href=\"../terms/index.html\">"
-   ],
-   "section": "talk"
-  },
-  "talk.33": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.34": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.35": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.36": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "talk"
-  },
-  "talk.37": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -1857,21 +1808,21 @@
    ],
    "section": "talk"
   },
-  "talk.38": {
+  "talk.31": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn",
    "tags": [],
    "section": "talk"
   },
-  "talk.39": {
+  "talk.32": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote",
    "tags": [],
    "section": "talk"
   },
-  "talk.40": {
+  "talk.33": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir bbnext",
@@ -1880,14 +1831,14 @@
    ],
    "section": "talk"
   },
-  "talk.41": {
+  "talk.34": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
    "tags": [],
    "section": "talk"
   },
-  "talk.42": {
+  "talk.35": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -1896,7 +1847,7 @@
    ],
    "section": "talk"
   },
-  "talk.43": {
+  "talk.36": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine dir",
@@ -2393,9 +2344,16 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17/\" target=\"_blank\" rel=\"noopener\">",
-    "<a href=\"https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf\" target=\"_blank\" rel=\"noopener\">",
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },

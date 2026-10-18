@@ -1820,7 +1820,7 @@
     {
      "key": "fill.5",
      "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+     "text": "Scope is agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
      "key": "fill.6",
@@ -1951,166 +1951,131 @@
     },
     {
      "key": "talk.11",
-     "kind": "Text",
-     "text": "United States"
-    },
-    {
-     "key": "talk.12",
-     "kind": "Text",
-     "text": "Canada"
-    },
-    {
-     "key": "talk.13",
-     "kind": "Text",
-     "text": "United Kingdom and Ireland"
-    },
-    {
-     "key": "talk.14",
-     "kind": "Text",
-     "text": "Europe"
-    },
-    {
-     "key": "talk.15",
-     "kind": "Text",
-     "text": "Latin America"
-    },
-    {
-     "key": "talk.16",
-     "kind": "Text",
-     "text": "Other"
-    },
-    {
-     "key": "talk.17",
-     "kind": "Text",
-     "text": "No preference"
-    },
-    {
-     "key": "talk.18",
      "kind": "Form label",
      "text": "Loan size, USD"
     },
     {
-     "key": "talk.19",
+     "key": "talk.12",
      "kind": "Text",
      "text": "No minimum"
     },
     {
-     "key": "talk.20",
+     "key": "talk.13",
      "kind": "Text",
      "text": "No maximum"
     },
     {
-     "key": "talk.21",
+     "key": "talk.14",
      "kind": "Form label",
      "text": "Cash flow appetite"
     },
     {
-     "key": "talk.22",
+     "key": "talk.15",
      "kind": "Form label",
      "text": "Reason for contact"
     },
     {
-     "key": "talk.23",
+     "key": "talk.16",
      "kind": "Form label",
      "text": "Client type, optional"
     },
     {
-     "key": "talk.24",
+     "key": "talk.17",
      "kind": "Form label",
      "text": "Annual recurring revenue"
     },
     {
-     "key": "talk.25",
+     "key": "talk.18",
      "kind": "Form label",
      "text": "Name"
     },
     {
-     "key": "talk.26",
+     "key": "talk.19",
      "kind": "Form label",
      "text": "Company"
     },
     {
-     "key": "talk.27",
+     "key": "talk.20",
      "kind": "Form label",
      "text": "Work email"
     },
     {
-     "key": "talk.28",
+     "key": "talk.21",
      "kind": "Form label",
      "text": "Mobile number, optional"
     },
     {
-     "key": "talk.29",
+     "key": "talk.22",
      "kind": "Text",
      "text": "I agree to receive text messages from Capital Row LLC at the mobile number above, such as market updates and event invitations. Consent is not a condition of any engagement."
     },
     {
-     "key": "talk.30",
+     "key": "talk.23",
      "kind": "Text",
      "text": "Optional."
     },
     {
-     "key": "talk.31",
+     "key": "talk.24",
      "kind": "Text",
      "text": "Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help. <a>Privacy Policy</a> and <a>SMS Terms</a>."
     },
     {
-     "key": "talk.32",
+     "key": "talk.25",
      "kind": "Text",
      "text": "Keep my criteria on file for matching."
     },
     {
-     "key": "talk.33",
+     "key": "talk.26",
      "kind": "Text",
      "text": "Send me sector updates."
     },
     {
-     "key": "talk.34",
+     "key": "talk.27",
      "kind": "Text",
      "text": "Reserve my seat at the owner session and send me the playbook. The session is a 45-minute live online briefing on Wednesday, January 20, 2027, at 10:00 am Pacific, on what a buyer will find in your 2026 numbers and how to find it first. Everyone who reserves receives the playbook. <a>About the session</a>."
     },
     {
-     "key": "talk.35",
+     "key": "talk.28",
      "kind": "Form label",
      "text": "How did you hear about us"
     },
     {
-     "key": "talk.36",
+     "key": "talk.29",
      "kind": "Form label",
      "text": "Who, or which one"
     },
     {
-     "key": "talk.37",
+     "key": "talk.30",
      "kind": "Form label",
      "text": "What are you trying to work out"
     },
     {
-     "key": "talk.38",
+     "key": "talk.31",
      "kind": "Note",
      "text": "By sending, you agree to the <a>Privacy Policy</a>."
     },
     {
-     "key": "talk.39",
+     "key": "talk.32",
      "kind": "Button",
      "text": "Send"
     },
     {
-     "key": "talk.40",
+     "key": "talk.33",
      "kind": "Note",
      "text": "<a>Complete your buy box</a><br>The full criteria, structured, with minimum and maximum figures. About five minutes."
     },
     {
-     "key": "talk.41",
+     "key": "talk.34",
      "kind": "Note",
      "text": "Please do not send financial documents, PHI or confidential information here. Sensitive information moves through a controlled workspace, under a signed engagement letter."
     },
     {
-     "key": "talk.42",
+     "key": "talk.35",
      "kind": "Note",
      "text": "<a>Or pick a time directly →</a>"
     },
     {
-     "key": "talk.43",
+     "key": "talk.36",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
     }

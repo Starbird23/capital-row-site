@@ -515,15 +515,15 @@
    "section": "criteria"
   },
   "criteria.17": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.18": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -543,22 +543,22 @@
    "section": "criteria"
   },
   "criteria.21": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.22": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.23": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -571,9 +571,9 @@
    "section": "criteria"
   },
   "criteria.25": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
@@ -599,15 +599,15 @@
    "section": "criteria"
   },
   "criteria.29": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.30": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -620,8 +620,8 @@
    "section": "criteria"
   },
   "criteria.32": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -641,8 +641,8 @@
    "section": "criteria"
   },
   "criteria.35": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -669,8 +669,8 @@
    "section": "criteria"
   },
   "criteria.39": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -683,43 +683,43 @@
    "section": "criteria"
   },
   "criteria.41": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "bbh",
    "tags": [],
    "section": "criteria"
   },
   "criteria.42": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.43": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.44": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.45": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.46": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -739,15 +739,15 @@
    "section": "criteria"
   },
   "criteria.49": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.50": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -761,21 +761,21 @@
   },
   "criteria.52": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "criteria"
   },
   "criteria.53": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
+   "kind": "Note",
+   "tag": "p",
+   "cls": "fine wide",
    "tags": [],
    "section": "criteria"
   },
   "criteria.54": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "criteria"
@@ -789,194 +789,12 @@
   },
   "criteria.56": {
    "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.57": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.58": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.59": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.60": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.61": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.62": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.63": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "bbh",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.64": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.65": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.66": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.67": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.68": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.69": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.70": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.71": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.72": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.73": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "bbh",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.74": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.75": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.76": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.77": {
-   "kind": "Form label",
-   "tag": "label",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.78": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.79": {
-   "kind": "Note",
-   "tag": "p",
-   "cls": "fine wide",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.80": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.81": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "criteria"
-  },
-  "criteria.82": {
-   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.83": {
+  "criteria.57": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -986,7 +804,7 @@
    ],
    "section": "criteria"
   },
-  "criteria.84": {
+  "criteria.58": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -995,21 +813,21 @@
    ],
    "section": "criteria"
   },
-  "criteria.85": {
+  "criteria.59": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.86": {
+  "criteria.60": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "criteria"
   },
-  "criteria.87": {
+  "criteria.61": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",
@@ -1497,9 +1315,16 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17/\" target=\"_blank\" rel=\"noopener\">",
-    "<a href=\"https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf\" target=\"_blank\" rel=\"noopener\">",
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },

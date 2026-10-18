@@ -2979,56 +2979,46 @@
     },
     {
      "key": "qfaq.36",
-     "kind": "Text",
-     "text": "How is the project fee handled?"
-    },
-    {
-     "key": "qfaq.37",
-     "kind": "Paragraph",
-     "text": "The fee for the QoE is agreed in writing with the firm that performs it, before the work begins."
-    },
-    {
-     "key": "qfaq.38",
      "kind": "Heading",
      "text": "Technology and AI"
     },
     {
-     "key": "qfaq.39",
+     "key": "qfaq.37",
      "kind": "Text",
      "text": "Is AI used in Quality of Earnings work?"
     },
     {
-     "key": "qfaq.40",
+     "key": "qfaq.38",
      "kind": "Paragraph",
      "text": "Increasingly, yes, mostly to read and organize documents faster. Used well, it shortens extraction and reconciliation time. It does not replace source documents or professional judgment. Our own financial preparation starts with repeatable calculations and evidence that can be traced to its source, and advisors lead the last mile. Technology creates capacity. Human expertise turns that capacity into trusted advice."
     },
     {
-     "key": "qfaq.41",
+     "key": "qfaq.39",
      "kind": "Text",
      "text": "What is the difference between deterministic and probabilistic AI?"
     },
     {
-     "key": "qfaq.42",
+     "key": "qfaq.40",
      "kind": "Paragraph",
      "text": "A deterministic system gives the same answer every time from the same inputs, the way a formula does. A probabilistic system, including the large language models behind most AI tools, produces its most likely answer, and that answer can change from one run to the next. In diligence the difference matters. A number in an earnings bridge has to come out the same way every time and tie to a document."
     },
     {
-     "key": "qfaq.43",
+     "key": "qfaq.41",
      "kind": "Text",
      "text": "What is agentic AI, and does it belong in diligence?"
     },
     {
-     "key": "qfaq.44",
+     "key": "qfaq.42",
      "kind": "Paragraph",
      "text": "Agentic AI is software that plans and carries out a series of steps by itself, such as collecting files, matching records and drafting requests. It is useful for the routine work of gathering and organizing. It should not decide what counts as an adjustment or what a finding means. Those calls stay with accountable professionals."
     },
     {
-     "key": "qfaq.45",
+     "key": "qfaq.43",
      "kind": "Text",
      "text": "What makes an AI-assisted solution qualified for this work?"
     },
     {
-     "key": "qfaq.46",
+     "key": "qfaq.44",
      "kind": "Paragraph",
      "text": "Ask five questions of any provider. Does every figure trace to a source document? Are the calculations deterministic, so the same inputs give the same result? Are probabilistic tools limited to reading, sorting and flagging, with a person reviewing what they produce? Does your data stay in a secure environment, and is it kept out of the training of outside models? Is a named professional accountable for the conclusions?"
     }

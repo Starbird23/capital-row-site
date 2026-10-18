@@ -565,35 +565,35 @@
   },
   "report.24": {
    "kind": "Form label",
-   "tag": "label",
+   "tag": "legend",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.25": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.26": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.27": {
-   "kind": "Form label",
-   "tag": "label",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.28": {
-   "kind": "Form label",
-   "tag": "legend",
+   "kind": "Text",
+   "tag": "span",
    "cls": "",
    "tags": [],
    "section": "report"
@@ -648,29 +648,29 @@
    "section": "report"
   },
   "report.36": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.37": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.38": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "summary",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.39": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
@@ -774,20 +774,27 @@
    "section": "report"
   },
   "report.54": {
-   "kind": "Text",
-   "tag": "span",
+   "kind": "Form label",
+   "tag": "label",
    "cls": "",
    "tags": [],
    "section": "report"
   },
   "report.55": {
    "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "report"
+  },
+  "report.56": {
+   "kind": "Text",
    "tag": "b",
    "cls": "opt",
    "tags": [],
    "section": "report"
   },
-  "report.56": {
+  "report.57": {
    "kind": "Text",
    "tag": "span",
    "cls": "",
@@ -795,13 +802,6 @@
     "<a href=\"../privacy/index.html\">",
     "<a href=\"../terms/index.html\">"
    ],
-   "section": "report"
-  },
-  "report.57": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
    "section": "report"
   },
   "report.58": {
@@ -812,6 +812,13 @@
    "section": "report"
   },
   "report.59": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "report"
+  },
+  "report.60": {
    "kind": "Note",
    "tag": "p",
    "cls": "fine",
@@ -820,35 +827,35 @@
    ],
    "section": "report"
   },
-  "report.60": {
+  "report.61": {
    "kind": "Button",
    "tag": "button",
    "cls": "btn wide",
    "tags": [],
    "section": "report"
   },
-  "report.61": {
+  "report.62": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "formnote wide",
    "tags": [],
    "section": "report"
   },
-  "report.62": {
+  "report.63": {
    "kind": "Paragraph",
    "tag": "p",
    "cls": "sd cen",
    "tags": [],
    "section": "report"
   },
-  "report.63": {
+  "report.64": {
    "kind": "Button",
    "tag": "a",
    "cls": "bigcta",
    "tags": [],
    "section": "report"
   },
-  "report.64": {
+  "report.65": {
    "kind": "Note",
    "tag": "p",
    "cls": "ctamicro",
@@ -1336,9 +1343,16 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/17/\" target=\"_blank\" rel=\"noopener\">",
-    "<a href=\"https://www.ibba.org/wp-content/uploads/2026/08/mp-highlights-q2-2026.pdf\" target=\"_blank\" rel=\"noopener\">",
     "<a href=\"https://softwareequity.com/research/quarterly-saas-report\" target=\"_blank\" rel=\"noopener\">"
+   ],
+   "section": "valuation"
+  },
+  "sh.valuation.50": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://digitalcommons.pepperdine.edu/gsbm_pcm_pcmr/19/\" target=\"_blank\" rel=\"noopener\">"
    ],
    "section": "valuation"
   },

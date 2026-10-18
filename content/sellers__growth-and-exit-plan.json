@@ -61,7 +61,7 @@
     {
      "key": "inner.3",
      "kind": "Paragraph",
-     "text": "For owners who have not decided to sell. You leave with the earnings a buyer would accept, who would buy the company, and the moves that raise the price: buy, build, partner or sell. Four to six weeks, one fixed fee agreed in writing."
+     "text": "For owners who have not decided to sell. You leave with the earnings a buyer would accept, who would buy the company, and the moves that raise the price: buy, build, partner or sell. Four to six weeks."
     },
     {
      "key": "inner.4",
@@ -314,7 +314,7 @@
     {
      "key": "how.6",
      "kind": "Paragraph",
-     "text": "Scope and fee are set in writing before any work begins."
+     "text": "Scope is agreed in writing before any work begins."
     },
     {
      "key": "how.7",
@@ -698,7 +698,7 @@
     {
      "key": "faq.4",
      "kind": "Paragraph",
-     "text": "The assessment gives you a valuation range and the earnings behind it. The plan starts from that read and works out all four paths against your numbers: who would buy, what raises the price, and what each path needs first. Four to six weeks, one fixed fee agreed in writing."
+     "text": "The assessment gives you a valuation range and the earnings behind it. The plan starts from that read and works out all four paths against your numbers: who would buy, what raises the price, and what each path needs first. Four to six weeks."
     },
     {
      "key": "faq.5",
@@ -729,16 +729,6 @@
      "key": "faq.10",
      "kind": "Paragraph",
      "text": "Then the plan says so, with the path that returns more. We will not promise a price and we will not recommend a sale the numbers do not support."
-    },
-    {
-     "key": "faq.11",
-     "kind": "Text",
-     "text": "What does it cost?"
-    },
-    {
-     "key": "faq.12",
-     "kind": "Paragraph",
-     "text": "One fixed fee, agreed in writing before any work begins."
     }
    ]
   },
@@ -764,7 +754,7 @@
     {
      "key": "next.4",
      "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your plan reaches a buyer, or anyone else, without your written permission."
+     "text": "Scope is agreed in writing before any work begins. Nothing from your plan reaches a buyer, or anyone else, without your written permission."
     }
    ]
   }

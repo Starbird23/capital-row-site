@@ -182,7 +182,7 @@
     {
      "key": "request.18",
      "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins."
+     "text": "Scope is agreed in writing before any work begins."
     },
     {
      "key": "request.19",
@@ -217,7 +217,7 @@
     {
      "key": "request.25",
      "kind": "Form label",
-     "text": "Kind of business"
+     "text": "Company type"
     },
     {
      "key": "request.26",
@@ -292,7 +292,7 @@
     {
      "key": "request.40",
      "kind": "Paragraph",
-     "text": "Please do not send financial documents here. Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+     "text": "Please do not send financial documents here. Scope is agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     },
     {
      "key": "request.41",
@@ -525,7 +525,7 @@
     {
      "key": "how.6",
      "kind": "Paragraph",
-     "text": "The assessment starts with an agreed information request. Scope and fee are set in writing before any work begins."
+     "text": "The assessment starts with an agreed information request. Scope is agreed in writing before any work begins."
     },
     {
      "key": "how.7",
@@ -651,7 +651,7 @@
     {
      "key": "who.20",
      "kind": "Paragraph",
-     "text": "Non-attest, with the engagement held by you. We take no fee of any kind on attested work."
+     "text": "Non-attest, with the engagement held by you."
     }
    ]
   },
@@ -805,16 +805,6 @@
      "key": "faq.12",
      "kind": "Paragraph",
      "text": "You. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
-    },
-    {
-     "key": "faq.13",
-     "kind": "Text",
-     "text": "What does it cost?"
-    },
-    {
-     "key": "faq.14",
-     "kind": "Paragraph",
-     "text": "Scope and fee are agreed in writing before any work begins, once we know what the business needs."
     }
    ]
   },
@@ -840,7 +830,7 @@
     {
      "key": "next.4",
      "kind": "Note",
-     "text": "Scope and fee are agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
+     "text": "Scope is agreed in writing before any work begins. Nothing from your review reaches a buyer, or anyone else, without your written permission."
     }
    ]
   }

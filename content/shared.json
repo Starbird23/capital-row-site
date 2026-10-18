@@ -460,7 +460,7 @@
    {
     "key": "sh.valuation.11",
     "kind": "Form label",
-    "text": "Type of business"
+    "text": "Company type"
    },
    {
     "key": "sh.valuation.12",
@@ -470,27 +470,27 @@
    {
     "key": "sh.valuation.13",
     "kind": "Form label",
-    "text": "Sectors, optional"
+    "text": "Revenue that is repeat or recurring"
    },
    {
     "key": "sh.valuation.14",
     "kind": "Form label",
-    "text": "Revenue that is repeat or recurring"
+    "text": "Revenue from your five largest customers"
    },
    {
     "key": "sh.valuation.15",
     "kind": "Form label",
-    "text": "Revenue from your five largest customers"
+    "text": "Do you sell to a highly regulated industry"
    },
    {
     "key": "sh.valuation.16",
     "kind": "Form label",
-    "text": "Do you sell to a highly regulated industry"
+    "text": "Your plans for your own role after a sale"
    },
    {
     "key": "sh.valuation.17",
     "kind": "Form label",
-    "text": "Your plans for your own role after a sale"
+    "text": "Sectors, optional"
    },
    {
     "key": "sh.valuation.18",
@@ -610,12 +610,12 @@
    {
     "key": "sh.valuation.41",
     "kind": "Text",
-    "text": "Published medians"
+    "text": "Published figures"
    },
    {
     "key": "sh.valuation.42",
     "kind": "Paragraph",
-    "text": "Three named, dated figures for your kind of business, from Pepperdine, IBBA and M&A Source, and Software Equity Group."
+    "text": "For software, the median and the average of private SaaS transactions from Software Equity Group. The listed SaaS index is shown apart, for reference. The services estimate is paused while its method is reviewed."
    },
    {
     "key": "sh.valuation.43",
@@ -625,7 +625,7 @@
    {
     "key": "sh.valuation.44",
     "kind": "Paragraph",
-    "text": "From the lowest reading to the highest. A buyer sets the price after diligence of your records."
+    "text": "From the median to the average. A buyer sets the price after diligence of your records."
    },
    {
     "key": "sh.valuation.45",
@@ -645,12 +645,17 @@
    {
     "key": "sh.valuation.48",
     "kind": "Paragraph",
-    "text": "The range is an educational estimate from your own answers and published medians. It is not a valuation, an appraisal or an offer, and it is not financial, tax or legal advice. It does not account for the specific factors that can change what a buyer pays. For an accurate view, speak with a qualified advisor."
+    "text": "The range is an educational estimate from your own answers and published figures. It is not a valuation, an appraisal or an offer, and it is not financial, tax or legal advice. It does not account for the specific factors that can change what a buyer pays. For an accurate view, speak with a qualified advisor."
    },
    {
     "key": "sh.valuation.49",
     "kind": "Paragraph",
-    "text": "Sources: <a>Pepperdine Graziadio Business School, 2026 Private Capital Markets Report</a>: investment banker survey, median multiples of recast EBITDA by size band, business services. <a>IBBA and M&A Source, Market Pulse, Q2 2026</a>: median multiple at $5M to $50M of enterprise value. <a>Software Equity Group, Q2 2026 SaaS M&A and Public Market Report</a>: enterprise value to trailing revenue; the private transaction median and mean and the listed SaaS index median are different populations and are shown as separate reference points, not as the low and high of one range. Each figure is for its own size band and period, not a figure for your business."
+    "text": "Software: <a>Software Equity Group, 2Q26 SaaS M&A and Public Market Report</a>. The range runs from the median, 4.0 times, to the average, 6.2 times, enterprise value to trailing twelve months revenue across disclosed private SaaS transactions in the quarter (page 8). The SEG SaaS Index median, 3.2 times (page 22), is listed companies, a different population: it is shown for reference and is not part of the range. For software + services, the software reading applies to the recurring revenue you report."
+   },
+   {
+    "key": "sh.valuation.50",
+    "kind": "Paragraph",
+    "text": "Services: the estimate is paused while its method is reviewed. The published table it drew on is <a>Pepperdine Graziadio Business School, 2026 Private Capital Markets Report</a> (Spring 2026), Table 31, page 66: median multiples of EBITDA by the company’s EBITDA, from 43 investment bankers on transactions closed in the twelve months before January 2026."
    }
   ]
  },
@@ -695,390 +700,10 @@
    {
     "key": "sh.sn.4",
     "kind": "Form label",
-    "text": "Sectors"
-   },
-   {
-    "key": "sh.sn.5",
-    "kind": "Text",
-    "text": "Healthcare"
-   },
-   {
-    "key": "sh.sn.6",
-    "kind": "Text",
-    "text": "Billing, coding & claims"
-   },
-   {
-    "key": "sh.sn.7",
-    "kind": "Text",
-    "text": "Denials & clearinghouse workflow"
-   },
-   {
-    "key": "sh.sn.8",
-    "kind": "Text",
-    "text": "Credentialing & provider data"
-   },
-   {
-    "key": "sh.sn.9",
-    "kind": "Text",
-    "text": "Specialty practice management"
-   },
-   {
-    "key": "sh.sn.10",
-    "kind": "Text",
-    "text": "Dental practice software"
-   },
-   {
-    "key": "sh.sn.11",
-    "kind": "Text",
-    "text": "Home health & hospice software"
-   },
-   {
-    "key": "sh.sn.12",
-    "kind": "Text",
-    "text": "Behavioral & specialty health"
-   },
-   {
-    "key": "sh.sn.13",
-    "kind": "Text",
-    "text": "Pharmacy, DME & infusion"
-   },
-   {
-    "key": "sh.sn.14",
-    "kind": "Text",
-    "text": "Aesthetics & med spa"
-   },
-   {
-    "key": "sh.sn.15",
-    "kind": "Text",
-    "text": "Physical therapy & rehab software"
-   },
-   {
-    "key": "sh.sn.16",
-    "kind": "Text",
-    "text": "Long-term care & senior living software"
-   },
-   {
-    "key": "sh.sn.17",
-    "kind": "Text",
-    "text": "Payment integrity software"
-   },
-   {
-    "key": "sh.sn.18",
-    "kind": "Text",
-    "text": "Healthcare staffing & scheduling software"
-   },
-   {
-    "key": "sh.sn.19",
-    "kind": "Text",
-    "text": "Veterinary practice software"
-   },
-   {
-    "key": "sh.sn.20",
-    "kind": "Text",
-    "text": "Financial services"
-   },
-   {
-    "key": "sh.sn.21",
-    "kind": "Text",
-    "text": "Bank & credit union software"
-   },
-   {
-    "key": "sh.sn.22",
-    "kind": "Text",
-    "text": "Insurance software"
-   },
-   {
-    "key": "sh.sn.23",
-    "kind": "Text",
-    "text": "Wealth & advisory software"
-   },
-   {
-    "key": "sh.sn.24",
-    "kind": "Text",
-    "text": "Lending & mortgage software"
-   },
-   {
-    "key": "sh.sn.25",
-    "kind": "Text",
-    "text": "Accounting & tax firm software"
-   },
-   {
-    "key": "sh.sn.26",
-    "kind": "Text",
-    "text": "Collections & receivables software"
-   },
-   {
-    "key": "sh.sn.27",
-    "kind": "Text",
-    "text": "Compliance software for advisors & broker-dealers"
-   },
-   {
-    "key": "sh.sn.28",
-    "kind": "Text",
-    "text": "Construction, real estate & field services"
-   },
-   {
-    "key": "sh.sn.29",
-    "kind": "Text",
-    "text": "Construction & contractor software"
-   },
-   {
-    "key": "sh.sn.30",
-    "kind": "Text",
-    "text": "Field service management software"
-   },
-   {
-    "key": "sh.sn.31",
-    "kind": "Text",
-    "text": "Property management software"
-   },
-   {
-    "key": "sh.sn.32",
-    "kind": "Text",
-    "text": "HOA & community association software"
-   },
-   {
-    "key": "sh.sn.33",
-    "kind": "Text",
-    "text": "Equipment rental software"
-   },
-   {
-    "key": "sh.sn.34",
-    "kind": "Text",
-    "text": "Transportation & logistics"
-   },
-   {
-    "key": "sh.sn.35",
-    "kind": "Text",
-    "text": "Dispatch, TMS & freight audit"
-   },
-   {
-    "key": "sh.sn.36",
-    "kind": "Text",
-    "text": "Fleet compliance & telematics"
-   },
-   {
-    "key": "sh.sn.37",
-    "kind": "Text",
-    "text": "Warehouse management for 3PLs"
-   },
-   {
-    "key": "sh.sn.38",
-    "kind": "Text",
-    "text": "Customs & trade compliance software"
-   },
-   {
-    "key": "sh.sn.39",
-    "kind": "Text",
-    "text": "Freight brokerage & visibility software"
-   },
-   {
-    "key": "sh.sn.40",
-    "kind": "Text",
-    "text": "Fleet maintenance software"
-   },
-   {
-    "key": "sh.sn.41",
-    "kind": "Text",
-    "text": "School bus & transit routing"
-   },
-   {
-    "key": "sh.sn.42",
-    "kind": "Text",
-    "text": "Technology services"
-   },
-   {
-    "key": "sh.sn.43",
-    "kind": "Text",
-    "text": "MSP & IT service software"
-   },
-   {
-    "key": "sh.sn.44",
-    "kind": "Text",
-    "text": "Security tools for MSPs"
-   },
-   {
-    "key": "sh.sn.45",
-    "kind": "Text",
-    "text": "Backup & disaster recovery software"
-   },
-   {
-    "key": "sh.sn.46",
-    "kind": "Text",
-    "text": "Manufacturing"
-   },
-   {
-    "key": "sh.sn.47",
-    "kind": "Text",
-    "text": "Manufacturing ERP & shop floor"
-   },
-   {
-    "key": "sh.sn.48",
-    "kind": "Text",
-    "text": "Quality management software"
-   },
-   {
-    "key": "sh.sn.49",
-    "kind": "Text",
-    "text": "Maintenance & asset management"
-   },
-   {
-    "key": "sh.sn.50",
-    "kind": "Text",
-    "text": "Distribution & wholesale ERP"
-   },
-   {
-    "key": "sh.sn.51",
-    "kind": "Text",
-    "text": "Machine monitoring & industrial IoT"
-   },
-   {
-    "key": "sh.sn.52",
-    "kind": "Text",
-    "text": "Environment, health & safety software"
-   },
-   {
-    "key": "sh.sn.53",
-    "kind": "Text",
-    "text": "Hospitality"
-   },
-   {
-    "key": "sh.sn.54",
-    "kind": "Text",
-    "text": "Restaurant POS & back office"
-   },
-   {
-    "key": "sh.sn.55",
-    "kind": "Text",
-    "text": "Hotel property management & revenue tools"
-   },
-   {
-    "key": "sh.sn.56",
-    "kind": "Text",
-    "text": "Event & venue management software"
-   },
-   {
-    "key": "sh.sn.57",
-    "kind": "Text",
-    "text": "Fitness & gym management software"
-   },
-   {
-    "key": "sh.sn.58",
-    "kind": "Text",
-    "text": "Salon, spa & wellness software"
-   },
-   {
-    "key": "sh.sn.59",
-    "kind": "Text",
-    "text": "Ticketing & attractions software"
-   },
-   {
-    "key": "sh.sn.60",
-    "kind": "Text",
-    "text": "Retail & automotive"
-   },
-   {
-    "key": "sh.sn.61",
-    "kind": "Text",
-    "text": "Auto dealer & repair software"
-   },
-   {
-    "key": "sh.sn.62",
-    "kind": "Text",
-    "text": "Convenience store & fuel retail software"
-   },
-   {
-    "key": "sh.sn.63",
-    "kind": "Text",
-    "text": "Car wash software"
-   },
-   {
-    "key": "sh.sn.64",
-    "kind": "Text",
-    "text": "Legal & professional services"
-   },
-   {
-    "key": "sh.sn.65",
-    "kind": "Text",
-    "text": "Legal practice software"
-   },
-   {
-    "key": "sh.sn.66",
-    "kind": "Text",
-    "text": "Litigation support & e-discovery software"
-   },
-   {
-    "key": "sh.sn.67",
-    "kind": "Text",
-    "text": "Association & membership software"
-   },
-   {
-    "key": "sh.sn.68",
-    "kind": "Text",
-    "text": "Nonprofit & church software"
-   },
-   {
-    "key": "sh.sn.69",
-    "kind": "Text",
-    "text": "Staffing & recruiting software"
-   },
-   {
-    "key": "sh.sn.70",
-    "kind": "Text",
-    "text": "Government"
-   },
-   {
-    "key": "sh.sn.71",
-    "kind": "Text",
-    "text": "Municipal finance & administration software"
-   },
-   {
-    "key": "sh.sn.72",
-    "kind": "Text",
-    "text": "Public safety & emergency communications"
-   },
-   {
-    "key": "sh.sn.73",
-    "kind": "Text",
-    "text": "Utility billing & customer systems"
-   },
-   {
-    "key": "sh.sn.74",
-    "kind": "Text",
-    "text": "K-12 district administration software"
-   },
-   {
-    "key": "sh.sn.75",
-    "kind": "Text",
-    "text": "Parks & recreation software"
-   },
-   {
-    "key": "sh.sn.76",
-    "kind": "Text",
-    "text": "Courts & justice software"
-   },
-   {
-    "key": "sh.sn.77",
-    "kind": "Text",
-    "text": "Permitting & licensing software"
-   },
-   {
-    "key": "sh.sn.78",
-    "kind": "Text",
-    "text": "Another sector"
-   },
-   {
-    "key": "sh.sn.79",
-    "kind": "Form label",
-    "text": "Which sector"
-   },
-   {
-    "key": "sh.sn.80",
-    "kind": "Form label",
     "text": "Work email"
    },
    {
-    "key": "sh.sn.81",
+    "key": "sh.sn.5",
     "kind": "Button",
     "text": "Follow"
    }
