@@ -1,7 +1,7 @@
 {
  "path": "/advisors/",
  "seoTitle": "Capital Row, for CPAs, attorneys and advisors: a second opinion on your client’s sale",
- "seoDescription": "Send a client situation, no names needed. Get a written buyer’s read you can share as your own advice. Your client stays your client.",
+ "seoDescription": "Send an anonymized client situation. Get a written buyer’s perspective to inform your advice. Your client stays your client.",
  "sections": [
   {
    "id": "pgnav",
@@ -46,12 +46,12 @@
     {
      "key": "inner.2",
      "kind": "Page headline",
-     "text": "When your client asks what the business is worth, <em>you should be the one with the answer.</em>"
+     "text": "Give your client a clearer starting point <em>for the ownership conversation.</em>"
     },
     {
      "key": "inner.3",
      "kind": "Paragraph",
-     "text": "Send us a client situation. We send back a written read, addressed to you, that you can share with your client as your own advice."
+     "text": "Send us a client situation. We send back a written read, addressed to you. Use it to inform your advice, or share it with your client alongside your own assessment."
     },
     {
      "key": "inner.4",
@@ -92,7 +92,7 @@
     {
      "key": "second.3",
      "kind": "Paragraph",
-     "text": "No names needed. Tell us what the business does, roughly how large it is and what the owner is weighing."
+     "text": "Start with an anonymized summary. Tell us what the business does, roughly how large it is and what the owner is weighing."
     },
     {
      "key": "second.4",
@@ -112,7 +112,7 @@
     {
      "key": "second.7",
      "kind": "Paragraph",
-     "text": "What a buyer looks at first, which add-backs they will accept, and what is likely to move the price."
+     "text": "What a buyer looks at first, which proposed adjustments may be supportable, what evidence a buyer is likely to request, and what is likely to move the price."
     },
     {
      "key": "second.8",
@@ -122,7 +122,7 @@
     {
      "key": "second.9",
      "kind": "Paragraph",
-     "text": "Addressed to you. Share it with your client as you see fit, or keep it for your own planning."
+     "text": "Addressed to you. Use it to inform your advice, or share it with your client alongside your own assessment."
     },
     {
      "key": "second.10",
@@ -168,7 +168,7 @@
     {
      "key": "promise.5",
      "kind": "Text",
-     "text": "We work with you through preparation and diligence, never around you. The quality of earnings work runs through your client’s own books, with their certified public accountant in the room."
+     "text": "We work with you through preparation and diligence, never around you. Where appropriate and authorized, we coordinate with your client’s certified public accountant. That coordination does not make our work an audit, attestation or quality of earnings report."
     },
     {
      "key": "promise.6",
@@ -183,7 +183,7 @@
     {
      "key": "promise.8",
      "kind": "Text",
-     "text": "With your client’s permission, we update you at each stage: first conversation, preparation, going to market, letter of intent, close."
+     "text": "With your client’s authorization, we update you at each stage: first conversation, preparation, going to market, letter of intent, close. We share only what that authorization covers."
     },
     {
      "key": "promise.9",
@@ -198,7 +198,7 @@
     {
      "key": "promise.11",
      "kind": "Text",
-     "text": "If the business would sell for more after a year of preparation, your client hears that from us in writing, with what would change the answer."
+     "text": "If preparation could strengthen the business’s position before a sale, we explain the priorities and what would change our assessment."
     }
    ]
   },
@@ -234,12 +234,12 @@
     {
      "key": "read.6",
      "kind": "Text",
-     "text": "Adjusted earnings a buyer will accept"
+     "text": "Earnings questions and proposed adjustments"
     },
     {
      "key": "read.7",
      "kind": "Text",
-     "text": "Which add-backs hold up, which will be questioned, and what documents support them."
+     "text": "Which proposed adjustments may be supportable and warrant further review, and what evidence a buyer is likely to request."
     },
     {
      "key": "read.8",
@@ -264,12 +264,12 @@
     {
      "key": "read.12",
      "kind": "Text",
-     "text": "Whether now is the time"
+     "text": "Timing considerations, information gaps and potential next steps"
     },
     {
      "key": "read.13",
      "kind": "Text",
-     "text": "Our honest view, including when the answer is to wait."
+     "text": "Including when preparation should come before a sale."
     }
    ]
   },
@@ -361,7 +361,7 @@
     {
      "key": "faq.4",
      "kind": "Paragraph",
-     "text": "No. Sector, size, location and what the owner is weighing are enough for a first read. Names come later, and only if your client wants to talk."
+     "text": "No. Sector, size, location and what the owner is weighing are enough for an initial perspective. They are not enough to support adjusted earnings or a reliable sale price; that takes the records. Names come later, and only if your client wants to talk."
     },
     {
      "key": "faq.5",
@@ -371,7 +371,7 @@
     {
      "key": "faq.6",
      "kind": "Paragraph",
-     "text": "No. Your client’s certified public accountant and attorney stay in the work. We work with you through preparation and diligence and keep you informed at each stage, with your client’s permission."
+     "text": "No. Your client’s certified public accountant and attorney stay in the work. Where appropriate and authorized, we coordinate with them through preparation and diligence, and we keep you informed within what your client authorizes."
     },
     {
      "key": "faq.7",
@@ -391,17 +391,17 @@
     {
      "key": "faq.10",
      "kind": "Paragraph",
-     "text": "Nothing, unless your client wants to talk. If they do, you choose whether to make the introduction yourself or have us reach out."
+     "text": "Nothing, unless your client wants to talk. If they do, you choose how the introduction is made. We contact your client directly only with their permission."
     },
     {
      "key": "faq.11",
      "kind": "Text",
-     "text": "Is what I send kept confidential?"
+     "text": "How is what I send handled?"
     },
     {
      "key": "faq.12",
      "kind": "Paragraph",
-     "text": "Yes. What you send is used only to prepare the read and is not shared outside Capital Row."
+     "text": "Please start with an anonymized summary. We use submissions to prepare and deliver the assessment, with access limited to authorized personnel and service providers subject to appropriate confidentiality obligations, except where disclosure is legally required. Please obtain your client’s permission before sharing identifying or confidential information."
     }
    ]
   },
@@ -417,7 +417,7 @@
     {
      "key": "next.2",
      "kind": "Paragraph",
-     "text": "Send us the situation. You will get a written read you can share as your own advice."
+     "text": "Send us an anonymized summary. You will get a written read to inform your advice."
     },
     {
      "key": "next.3",
@@ -427,7 +427,12 @@
     {
      "key": "next.4",
      "kind": "Paragraph",
-     "text": "No names needed for a first read."
+     "text": "No names needed for an initial perspective."
+    },
+    {
+     "key": "next.5",
+     "kind": "Paragraph",
+     "text": "The second opinion is a preliminary business assessment based on information provided. It is not a formal business valuation, appraisal, fairness opinion, quality of earnings report or assurance engagement, and it does not guarantee a sale price or buyer acceptance of adjustments. This page and the assessment do not constitute an offer to sell or a solicitation to buy securities. Any further engagement is subject to a separate written agreement and applicable legal requirements. Capital Row is not a registered broker-dealer."
     }
    ]
   }
