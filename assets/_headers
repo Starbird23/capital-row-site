@@ -1,3 +1,24 @@
+/*
+  Strict-Transport-Security: max-age=31536000
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Cross-Origin-Opener-Policy: same-origin-allow-popups
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+/photos/*
+  Cache-Control: public, max-age=2592000
+/about/team/*
+  Cache-Control: public, max-age=2592000
+/poster.webp
+  Cache-Control: public, max-age=2592000
+/hero-loop.webm
+  Cache-Control: public, max-age=2592000
+/hero-loop.mp4
+  Cache-Control: public, max-age=2592000
+/capital-row-social-card.jpg
+  Cache-Control: public, max-age=2592000
 /shawnee/shawnee-mercier.vcf
   Content-Type: text/vcard; charset=utf-8
   Cache-Control: public, max-age=300

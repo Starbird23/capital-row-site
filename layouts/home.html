@@ -15,10 +15,26 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://thecapitalrow.com/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230C3234'/%3E%3Crect x='5' y='20' width='3' height='7' fill='%2314706E'/%3E%3Crect x='10' y='16' width='3' height='11' fill='%2314706E'/%3E%3Crect x='15' y='12' width='3' height='15' fill='%23A67C3D'/%3E%3Crect x='20' y='8' width='3' height='19' fill='%2314706E'/%3E%3Crect x='25' y='5' width='3' height='22' fill='%2314706E'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@200;300;400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
-<style>:root{
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230C3234'/%3E%3Crect x='2' y='18.4' width='4' height='9.6' fill='%23FBF9F5'/%3E%3Crect x='8' y='11.92' width='4' height='16.08' fill='%23FBF9F5'/%3E%3Crect x='14' y='4.0' width='4' height='24.0' fill='%2314706E'/%3E%3Crect x='20' y='13.6' width='4' height='14.4' fill='%23FBF9F5'/%3E%3Crect x='26' y='19.84' width='4' height='8.16' fill='%23FBF9F5'/%3E%3C/svg%3E">
+<link rel="preload" href="poster.webp" as="image" fetchpriority="high">
+<link rel="preload" href="fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/cormorant-garamond-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/outfit-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/cormorant-garamond-latin-300-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:600;font-display:swap;src:url(fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:300;font-display:swap;src:url(fonts/cormorant-garamond-latin-300-italic.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:400;font-display:swap;src:url(fonts/cormorant-garamond-latin-400-italic.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:italic;font-weight:500;font-display:swap;src:url(fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:200;font-display:swap;src:url(fonts/outfit-latin-200-normal.woff2) format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:300;font-display:swap;src:url(fonts/outfit-latin-300-normal.woff2) format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/outfit-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Outfit';font-style:normal;font-weight:500;font-display:swap;src:url(fonts/outfit-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/ibm-plex-mono-latin-400-normal.woff2) format('woff2')}
+:root{
 --paper:#FBF9F5;--paper2:#F4F0E9;--card:#FFFFFF;
 --deep:#0C3234;--teal:#14706E;--bronze:#A67C3D;
 --ink:#141E1F;--ink2:#2A3A3B;--ink3:#5C6B6B;--faint:#9AA6A6;
@@ -1405,7 +1421,7 @@ header.inner .ownerlink{margin-left:0}
 .rptback a{color:var(--teal);text-decoration:none;display:inline-block;padding:10px 0}
 .rptback a:hover{text-decoration:underline;text-underline-offset:4px}
 .rptdone[hidden],.scrpage[hidden]{display:none}
-body.scr>header,body.scr>.figpage,body.scr>section:not(.scrpage),body.scr>.sn,body.scr>.snt,body.scr>.rt{display:none!important}
+body.scr>header,body.scr>main>header,body.scr>.figpage,body.scr>main>.figpage,body.scr>section:not(.scrpage),body.scr>main>section:not(.scrpage),body.scr>.sn,body.scr>.snt,body.scr>.rt{display:none!important}
 .nc{text-transform:none}
 #pre-market-assessment h2,#reserve h2{max-width:none}
 .scrpage .bdfrm+.ctamicro{margin-top:22px}
@@ -1586,7 +1602,7 @@ header.inner .cta2{justify-content:center}
 section.tkpop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:290;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
  background:rgba(6,26,28,.66);padding:28px 16px;margin:0;border:0}
 section.tkpop[hidden]{display:none}
-body.scr>section.tkpop:not([hidden]){display:block!important}
+body.scr>section.tkpop:not([hidden]),body.scr>main>section.tkpop:not([hidden]){display:block!important}
 .tkpop>.tkbox{position:relative;max-width:760px;margin:0 auto;background:var(--paper2);border-top:3px solid var(--teal);border-radius:3px;
  padding:54px 40px 36px;box-shadow:0 30px 80px -30px rgba(0,0,0,.6)}
 .tkx{position:absolute;top:8px;right:8px;width:44px;height:44px;background:none;border:0;font-size:28px;line-height:1;color:var(--ink3);cursor:pointer}
@@ -1774,7 +1790,7 @@ h2{max-width:30ch}
 .snl label:hover span{color:var(--ink)}
 .sn input#snothx[hidden]{display:none}
 @media(min-width:641px){.doors .dr h3{min-height:2.12em}}
-.ras{font-size:11px;line-height:1.3;color:rgba(244,241,235,.52);letter-spacing:.02em}
+.ras{font-size:11px;line-height:1.3;color:rgba(244,241,235,.62);letter-spacing:.02em}
 .racqh{font-weight:500;font-size:clamp(20px,2.4vw,26px);line-height:1.34}
 h2{font-size:clamp(28px,3.6vw,42px);font-weight:400;line-height:1.12}
 .ssq h2{font-size:clamp(28px,3.6vw,42px);font-weight:400}
@@ -2148,6 +2164,8 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 @media(max-width:560px){.snt{left:12px}.snt.snr{left:auto;right:12px}.sn.snr{left:12px;right:12px}}
 @media(max-width:400px){.rtb,.snt{padding:0 11px;letter-spacing:.03em}.snt{left:10px}.snt.snr{left:auto;right:10px}}
 @media(max-width:340px){.snt.snr{display:block}.snt.snr[hidden]{display:none}}
+
+.figpage .mdlede a,.figpage .bcfine a,.bcfine a{color:#8FD4CB;text-decoration:underline;text-underline-offset:3px}
 </style>
 </head>
 <body>
@@ -2247,11 +2265,12 @@ window.crSafe = function(s) {
 <a class="cta" href="#talk">{{sh.mast.53}}</a>
 </nav>
 </div></div>
+<main id="main">
 <header>
 <canvas id="hbg" aria-hidden="true"></canvas>
-<div class="hvid" aria-hidden="true"><video id="hv" autoplay muted loop playsinline preload="metadata" poster="poster.webp">
-<source src="hero-loop.webm" type="video/webm">
-<source src="hero-loop.mp4" type="video/mp4" onerror="document.querySelector('header').classList.add('novid')">
+<div class="hvid" aria-hidden="true"><video id="hv" muted loop playsinline preload="none" poster="poster.webp">
+<source data-src="hero-loop.webm" type="video/webm">
+<source data-src="hero-loop.mp4" type="video/mp4">
 </video></div>
 <div class="wrap hin">
 <div class="kick"><span><i>{{header.1}}</i><i>{{header.2}}</i><i>{{header.3}}</i></span></div>
@@ -2270,7 +2289,7 @@ window.crSafe = function(s) {
 <div class="cvmap" id="desks" style="--n:10">
 <button class="cvi on act" type="button" id="cvi-hc" aria-controls="cvp-hc" aria-expanded="true"><i></i><b>{{band.2}}</b><span class="cvs">{{band.3}}</span><u>{{band.4}}</u></button>
 <div class="cvp on" id="cvp-hc" role="region" aria-labelledby="cvi-hc">
-<h3>{{band.5}}</h3>
+<h3 aria-level="2">{{band.5}}</h3>
 <p class="cvlead">{{band.6}}</p>
 <div class="cvr" id="desk-billing-coding-claims"><b>{{band.7}}</b><u>{{band.8}}</u><p>{{band.9}}</p></div>
 <div class="cvr" id="desk-denials-clearinghouse"><b>{{band.10}}</b><u>{{band.11}}</u><p>{{band.12}}</p></div>
@@ -2290,7 +2309,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi act" type="button" id="cvi-built" aria-controls="cvp-built" aria-expanded="false"><i></i><b>{{band.50}}</b><span class="cvs">{{band.51}}</span><u>{{band.52}}</u></button>
 <div class="cvp" id="cvp-built" role="region" aria-labelledby="cvi-built">
-<h3>{{band.53}}</h3>
+<h3 aria-level="2">{{band.53}}</h3>
 <p class="cvlead">{{band.54}}</p>
 <div class="cvr soon" id="desk-construction-contractor-software"><b>{{band.55}}</b><u>{{band.56}}</u><p>{{band.57}}</p></div>
 <div class="cvr" id="desk-field-service-management"><b>{{band.58}}</b><u>{{band.59}}</u><p>{{band.60}}</p></div>
@@ -2301,7 +2320,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-fin" aria-controls="cvp-fin" aria-expanded="false"><i></i><b>{{band.71}}</b><span class="cvs">{{band.72}}</span><u>{{band.73}}</u></button>
 <div class="cvp" id="cvp-fin" role="region" aria-labelledby="cvi-fin">
-<h3>{{band.74}}</h3>
+<h3 aria-level="2">{{band.74}}</h3>
 <p class="cvlead">{{band.75}}</p>
 <div class="cvr soon" id="desk-bank-credit-union-software"><b>{{band.76}}</b><u>{{band.77}}</u><p>{{band.78}}</p></div>
 <div class="cvr soon" id="desk-insurance-software"><b>{{band.79}}</b><u>{{band.80}}</u><p>{{band.81}}</p></div>
@@ -2314,7 +2333,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-fleet" aria-controls="cvp-fleet" aria-expanded="false"><i></i><b>{{band.98}}</b><span class="cvs">{{band.99}}</span><u>{{band.100}}</u></button>
 <div class="cvp" id="cvp-fleet" role="region" aria-labelledby="cvi-fleet">
-<h3>{{band.101}}</h3>
+<h3 aria-level="2">{{band.101}}</h3>
 <p class="cvlead">{{band.102}}</p>
 <div class="cvr soon" id="desk-dispatch-tms-freight-audit"><b>{{band.103}}</b><u>{{band.104}}</u><p>{{band.105}}</p></div>
 <div class="cvr soon" id="desk-fleet-compliance-telematics"><b>{{band.106}}</b><u>{{band.107}}</u><p>{{band.108}}</p></div>
@@ -2327,7 +2346,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-tech" aria-controls="cvp-tech" aria-expanded="false"><i></i><b>{{band.125}}</b><span class="cvs">{{band.126}}</span><u>{{band.127}}</u></button>
 <div class="cvp" id="cvp-tech" role="region" aria-labelledby="cvi-tech">
-<h3>{{band.128}}</h3>
+<h3 aria-level="2">{{band.128}}</h3>
 <p class="cvlead">{{band.129}}</p>
 <div class="cvr soon" id="desk-msp-it-service-software"><b>{{band.130}}</b><u>{{band.131}}</u><p>{{band.132}}</p></div>
 <div class="cvr soon" id="desk-security-tools-msps"><b>{{band.133}}</b><u>{{band.134}}</u><p>{{band.135}}</p></div>
@@ -2336,7 +2355,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-mfg" aria-controls="cvp-mfg" aria-expanded="false"><i></i><b>{{band.140}}</b><span class="cvs">{{band.141}}</span><u>{{band.142}}</u></button>
 <div class="cvp" id="cvp-mfg" role="region" aria-labelledby="cvi-mfg">
-<h3>{{band.143}}</h3>
+<h3 aria-level="2">{{band.143}}</h3>
 <p class="cvlead">{{band.144}}</p>
 <div class="cvr soon" id="desk-manufacturing-erp-shop-floor"><b>{{band.145}}</b><u>{{band.146}}</u><p>{{band.147}}</p></div>
 <div class="cvr soon" id="desk-quality-management-software"><b>{{band.148}}</b><u>{{band.149}}</u><p>{{band.150}}</p></div>
@@ -2348,7 +2367,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-hosp" aria-controls="cvp-hosp" aria-expanded="false"><i></i><b>{{band.164}}</b><span class="cvs">{{band.165}}</span><u>{{band.166}}</u></button>
 <div class="cvp" id="cvp-hosp" role="region" aria-labelledby="cvi-hosp">
-<h3>{{band.167}}</h3>
+<h3 aria-level="2">{{band.167}}</h3>
 <p class="cvlead">{{band.168}}</p>
 <div class="cvr soon" id="desk-restaurant-pos-back-office"><b>{{band.169}}</b><u>{{band.170}}</u><p>{{band.171}}</p></div>
 <div class="cvr soon" id="desk-hotel-property-management-revenue"><b>{{band.172}}</b><u>{{band.173}}</u><p>{{band.174}}</p></div>
@@ -2360,7 +2379,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-retail" aria-controls="cvp-retail" aria-expanded="false"><i></i><b>{{band.188}}</b><span class="cvs">{{band.189}}</span><u>{{band.190}}</u></button>
 <div class="cvp" id="cvp-retail" role="region" aria-labelledby="cvi-retail">
-<h3>{{band.191}}</h3>
+<h3 aria-level="2">{{band.191}}</h3>
 <p class="cvlead">{{band.192}}</p>
 <div class="cvr soon" id="desk-auto-dealer-repair-software"><b>{{band.193}}</b><u>{{band.194}}</u><p>{{band.195}}</p></div>
 <div class="cvr soon" id="desk-convenience-store-fuel-retail"><b>{{band.196}}</b><u>{{band.197}}</u><p>{{band.198}}</p></div>
@@ -2369,7 +2388,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-prof" aria-controls="cvp-prof" aria-expanded="false"><i></i><b>{{band.203}}</b><span class="cvs">{{band.204}}</span><u>{{band.205}}</u></button>
 <div class="cvp" id="cvp-prof" role="region" aria-labelledby="cvi-prof">
-<h3>{{band.206}}</h3>
+<h3 aria-level="2">{{band.206}}</h3>
 <p class="cvlead">{{band.207}}</p>
 <div class="cvr soon" id="desk-legal-practice-software"><b>{{band.208}}</b><u>{{band.209}}</u><p>{{band.210}}</p></div>
 <div class="cvr soon" id="desk-litigation-support-ediscovery"><b>{{band.211}}</b><u>{{band.212}}</u><p>{{band.213}}</p></div>
@@ -2380,7 +2399,7 @@ window.crSafe = function(s) {
 </div>
 <button class="cvi" type="button" id="cvi-gov" aria-controls="cvp-gov" aria-expanded="false"><i></i><b>{{band.224}}</b><span class="cvs">{{band.225}}</span><u>{{band.226}}</u></button>
 <div class="cvp" id="cvp-gov" role="region" aria-labelledby="cvi-gov">
-<h3>{{band.227}}</h3>
+<h3 aria-level="2">{{band.227}}</h3>
 <p class="cvlead">{{band.228}}</p>
 <div class="cvr soon" id="desk-state-local-government-software"><b>{{band.229}}</b><u>{{band.230}}</u><p>{{band.231}}</p></div>
 <div class="cvr soon" id="desk-public-safety-emergency-communications"><b>{{band.232}}</b><u>{{band.233}}</u><p>{{band.234}}</p></div>
@@ -2712,6 +2731,7 @@ window.crSafe = function(s) {
 <p class="fine dir">{{talk.39}}</p>
 </div></section>
 
+</main>
 <footer><div class="wrap">
 <div class="lg"><span class="mark"><i></i><i></i><i></i><i></i><i></i></span>{{sh.footer.1}} <span>{{sh.footer.2}}</span></div>
 <div class="src" style="margin-top:5px">{{sh.footer.3}}</div>
@@ -3659,20 +3679,25 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
  function off() {
   hd.classList.add("novid");
  }
- if (window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
-  v.removeAttribute("autoplay");
-  try {
-   v.pause();
-  } catch (e) {}
- } else {
+ // the poster paints first; the video is fetched only after the page has loaded, and not at all with reduced motion or data saver
+ var saver = navigator.connection && navigator.connection.saveData;
+ if (window.matchMedia("(prefers-reduced-motion:reduce)").matches || saver) return;
+ v.addEventListener("error", off);
+ function start() {
+  var ss = v.querySelectorAll("source[data-src]");
+  [].forEach.call(ss, (function(s) {
+   s.src = s.getAttribute("data-src");
+  }));
+  if (ss.length) ss[ss.length - 1].addEventListener("error", off);
+  v.load();
   var p = v.play && v.play();
   if (p && p.catch) p.catch((function() {}));
- }
- v.addEventListener("error", off);
- window.addEventListener("load", (function() {
   setTimeout((function() {
    if (v.networkState === 3) off();
-  }), 300);
+  }), 4000);
+ }
+ if (document.readyState === "complete") setTimeout(start, 200); else window.addEventListener("load", (function() {
+  setTimeout(start, 200);
  }));
 })();
 </script>
