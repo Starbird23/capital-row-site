@@ -24,11 +24,11 @@ export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGui
 const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'domain', 'message'];
 const NUM = ['cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
 const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent'];
-const TEXTP = ['cr_form', 'cr_card_owner', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
+const TEXTP = ['cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
 // HubSpot's own values for the fields that already exist in the portal
 export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'intermediary', 'referral_partner'],
   offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'],
-  cr_card_channel: ['qr', 'nfc', 'wallet', 'screen', 'link', 'email', 'direct'] };
+  cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'] };
 // property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"
 const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
   cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],

@@ -74,11 +74,14 @@
     var F = [], add = function (n, val, o) { if (val !== '' && val != null) F.push({ objectTypeId: o || '0-1', name: n, value: String(val) }); };
     add('email', d.em); add('firstname', d.fn); add('lastname', d.ln); add('company', d.co); add('name', d.co, '0-2');
     if (d.role !== 'other') add('cr_contact_type', d.role);
-    add('cr_form', 'Contact exchange'); add('cr_card_owner', 'Shawnee Mercier'); add('cr_card_channel', SRC);
+    // HubSpot's Card channel values (read 18 October 2026): wallet, nfc, qr-print, qr-screen, share, vcard, direct, other
+    var HSCH = { qr: 'qr-print', screen: 'qr-screen', link: 'share', email: 'other', nfc: 'nfc', wallet: 'wallet', direct: 'direct' };
+    add('cr_form', 'Contact exchange'); add('cr_card_owner', 'shawnee-mercier'); add('cr_card_channel', HSCH[SRC]); add('cr_card_event', EVENT);
     add('cr_marketing_consent', d.upd ? 'true' : 'false');
     if (d.met) { add('cr_heard_via', 'A conference or event'); add('cr_heard_via_detail', d.met); }
     var lines = ['Card exchange on thecapitalrow.com/shawnee', 'Card owner: Shawnee Mercier', 'Channel: ' + CHANNELS[SRC], 'I am: ' + roleText, 'Company: ' + d.co];
     if (d.met) lines.push('Where we met: ' + d.met);
+    if (EVENT) lines.push('Event from the link: ' + EVENT);   // kept even if the person edits or clears "Where we met"
     lines.push('Capital Row updates: ' + (d.upd ? 'Yes, opted in ' + when : 'No'));
     add('message', (d.note ? d.note + '\n\n' : '') + lines.join('\n'));
     var ctx = { pageUri: location.href.split('#')[0], pageName: document.title };
