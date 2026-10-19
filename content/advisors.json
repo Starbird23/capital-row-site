@@ -1,6 +1,6 @@
 {
  "path": "/advisors/",
- "seoTitle": "Capital Row, for CPAs, attorneys and advisors to owners: a second opinion on your client’s sale",
+ "seoTitle": "Capital Row, for CPAs, attorneys and advisors: a second opinion on your client’s sale",
  "seoDescription": "Send a client situation, no names needed. Get a written buyer’s read you can share as your own advice. Your client stays your client.",
  "sections": [
   {
@@ -41,7 +41,7 @@
     {
      "key": "inner.1",
      "kind": "Text",
-     "text": "For certified public accountants, attorneys and advisors to owners"
+     "text": "For certified public accountants, attorneys and advisors"
     },
     {
      "key": "inner.2",
@@ -132,7 +132,7 @@
     {
      "key": "second.11",
      "kind": "Text",
-     "text": "[Set the turnaround]"
+     "text": "Five business days"
     },
     {
      "key": "second.12",
