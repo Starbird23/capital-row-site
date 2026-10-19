@@ -1966,6 +1966,19 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .bdfrm .moregrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 28px;padding:4px 0 14px}.bdfrm .moregrid .wide{grid-column:1/-1}
 @media(max-width:700px){.bdfrm .moregrid{grid-template-columns:minmax(0,1fr)}}
 .vcgrid .vcfld[hidden],.frm .fld[hidden],.bdfrm .fld[hidden]{display:none}
+
+/* floating buttons (Rev 13.8): a third smaller on phones with a 44px tap area; on the buyers pages Follow a sector stands alone on the right */
+.snt.snr,.sn.snr{left:auto;right:22px}
+@media(max-width:560px),(hover:none) and (pointer:coarse){
+ .rtb,.snt{min-height:34px;height:34px;padding:0 14px;border-radius:17px;letter-spacing:.06em;line-height:1}
+ .rtb{position:relative;box-shadow:0 6px 16px -8px rgba(12,50,52,.5),0 0 0 1px rgba(143,212,203,.6)}
+ .snt{box-shadow:0 6px 16px -8px rgba(12,50,52,.35)}
+ .rtb::after,.snt::after{content:"";position:absolute;left:-2px;right:-2px;top:-5px;bottom:-5px}
+ .snt::after{left:-3px;right:-3px;top:-6px;bottom:-6px}
+}
+@media(max-width:560px){.snt{left:12px}.snt.snr{left:auto;right:12px}.sn.snr{left:12px;right:12px}}
+@media(max-width:400px){.rtb,.snt{padding:0 11px;letter-spacing:.03em}.snt{left:10px}.snt.snr{left:auto;right:10px}}
+@media(max-width:340px){.snt.snr{display:block}.snt.snr[hidden]{display:none}}
 </style></head><body>
 <script type="application/json" id="crforms">{{forms:json}}</script>
 <script>
