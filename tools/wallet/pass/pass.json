@@ -4,13 +4,13 @@
   "teamIdentifier": "TEAM_ID",
   "serialNumber": "shawnee-mercier-card-1",
   "organizationName": "Capital Row",
-  "description": "Shawnee Mercier, Founder & Principal, Capital Row",
+  "description": "Shawnee Mercier, Founder & Managing Director, Capital Row",
   "backgroundColor": "rgb(12, 50, 52)",
   "foregroundColor": "rgb(244, 241, 235)",
   "labelColor": "rgb(143, 212, 203)",
   "sharingProhibited": false,
   "generic": {
-    "primaryFields": [{ "key": "name", "label": "FOUNDER & PRINCIPAL", "value": "Shawnee Mercier" }],
+    "primaryFields": [{ "key": "name", "label": "FOUNDER & MANAGING DIRECTOR", "value": "Shawnee Mercier" }],
     "secondaryFields": [{ "key": "email", "label": "EMAIL", "value": "smercier@thecapitalrow.com" }],
     "auxiliaryFields": [
       { "key": "phone", "label": "PHONE", "value": "(949) 682-1223" },
