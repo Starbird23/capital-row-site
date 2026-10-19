@@ -7,8 +7,8 @@ The card lives at **https://thecapitalrow.com/shawnee**. It is a normal page of 
 | Card page, photo, contact links, share, on-screen QR | `layouts/shawnee.html`, `assets/shawnee-card/` | Yes |
 | Save contact (.vcf) | `functions/shawnee/vcard.js`, built from the published page | Yes |
 | Booking | Calendly link in the layout, tagged with the channel | Yes |
-| Exchange form | posts to `/api/submit` (kind "Contact exchange"), stored in D1, delivered to HubSpot | Needs `HS_FORM_EXCHANGE` (step 2). Until then submissions are stored and retried, never sent to the main form |
-| Internal notification | HubSpot form notification to Shawnee | Set by the form script (step 2) |
+| Exchange form | posts to `/api/submit` (kind "Contact exchange"), stored in D1, delivered to the HubSpot form "Business card: Shawnee" | Yes, once that form is published with the fields in step 2 |
+| Internal notification | HubSpot form notification to Shawnee | Set on the form (step 2) |
 | Follow-up task | created by the server after HubSpot accepts the submission | Needs `HS_PRIVATE_APP_TOKEN` (step 3) |
 | Apple Wallet pass | `functions/shawnee/wallet.js`, signed on the server | Needs the Apple certificate (step 5). The button stays hidden until then |
 | Spam protection | hidden field, time check, 30 per hour per connection | Yes. Cloudflare Turnstile is optional (step 6) |
@@ -17,7 +17,7 @@ The card lives at **https://thecapitalrow.com/shawnee**. It is a normal page of 
 
 The first version (commit d10d032) served `/shawnee/`, sent its exchange as "Contact exchange" with a fall-back to the main website form (which creates marketing contacts), and expected a pre-signed `.pkpass` file. This version keeps the kind name "Contact exchange" but sends it only to its own form, serves `/shawnee` without the slash, and signs the pass on the server. Old addresses keep working: `/shawnee/` and `/Shawnee` redirect with their query string, `?src=` / `?at=` tags map to the new channels (qr to qr-print, screen to qr-screen, link to share, email to other) and events, and `/shawnee/shawnee-mercier.vcf` / `.pkpass` redirect to `/shawnee/vcard` / `/shawnee/wallet`.
 
-Open: the first version showed a phone number, +1 949-682-1223, and its title was "Founder & Principal". This version shows no phone and the title "Founder & Managing Director"; the About page says "CEO and Principal". To add a phone, put `<a href="tel:+1..." data-card="tel" data-card-href>` in the links list of `layouts/shawnee.html`; the vCard and pass pick it up.
+Phone: +1 949-682-1223 (the HubSpot calling number, confirmed by Shawnee October 18, 2026), on the page, vCard and pass. Title: "Founder & Managing Director"; the About page still says "CEO and Principal". Booking: Calendly "Confidential Business Value Consultation" (description rewritten October 18, 2026; its internal note and its healthcare-only intake questions are edited in Calendly itself).
 
 ## 1. Tagged links
 
@@ -34,19 +34,24 @@ Each way in has its own link, so HubSpot records where an exchange came from (`c
 
 A visit with no tag is recorded as `direct`. `python3 tools/card/make_assets.py shawnee shawnee-mercier` rebuilds the QR files and pass images.
 
-## 2. HubSpot form (one time, about ten minutes)
+## 2. HubSpot form
 
-1. The contact properties exist (created October 18, 2026): `cr_card_owner`, `cr_card_channel`, `cr_card_event`, `cr_marketing_consent`. Relationship uses the existing **Contact type** (`cr_contact_type`). Add an **Intermediary** option (value `intermediary`) to Contact type so "Advisor or intermediary" lands; until then HubSpot refuses that one value, the server drops it and delivers the rest, and the answer stays in the message.
-2. In HubSpot, Settings, Integrations, Private Apps, create an app with the scopes **forms**, **crm.objects.contacts.read** and **crm.objects.contacts.write**. Copy its token.
-3. On your own computer, in this repository: `HS_TOKEN=<token> node tools/card/hubspot_card_form.mjs`. It creates the form "Capital Row card exchange" (or updates it if it exists), sets the submission notification to Shawnee, and prints `HS_FORM_EXCHANGE=<id>`.
-4. In HubSpot, Marketing, Forms, open "Capital Row card exchange", Settings, and switch off **Set new contacts as marketing contacts**. The API cannot set this; it is what keeps card contacts non-marketing.
-5. In Cloudflare Pages, capital-row, Settings, Variables and secrets (Production), add `HS_FORM_EXCHANGE` with the printed id. Redeploy.
+The form is **"Business card: Shawnee"** (id `70a287f8-1d99-4332-86d7-37cc4ccbe751`), built in HubSpot on October 18, 2026. Its id is the default in `server/core.js`, so no Cloudflare setting is needed; `HS_FORM_EXCHANGE` overrides it if the form is ever replaced. The form must carry every property the card sends, or HubSpot refuses that value:
+
+| Field on the form | Property | Shown? |
+|---|---|---|
+| First name, Last name, Email, Company name, Message | firstname, lastname, email, company, message | shown |
+| Contact type | cr_contact_type | shown |
+| Updates opt-in | cr_marketing_consent | shown |
+| Card owner, Card channel, Card event | cr_card_owner, cr_card_channel, cr_card_event | hidden |
+
+Settings on the form: **Set new contacts as marketing contacts: off**; notifications to Shawnee; CAPTCHA off (the site's server does the spam checks). Then Review and update to publish. `tools/card/hubspot_card_form.mjs` can build the same form from a token if it ever has to be rebuilt.
 
 Opting in to updates: the checkbox records `cr_marketing_consent = true` and nothing else. To make those contacts marketing contacts, add a contact workflow: enrolled when the form "Capital Row card exchange" is submitted **and** `cr_marketing_consent` is true; action **Set marketing contact status: marketing**. Each marketing contact counts toward the HubSpot marketing contact tier.
 
 ## 3. Follow-up task
 
-Add the same private app token in Cloudflare as an **encrypted secret** named `HS_PRIVATE_APP_TOKEN`. After HubSpot accepts a card submission, the server finds the contact by email and creates a task "Follow up: card exchange with <name>, <company>", due the next business morning, owned by HubSpot owner `98756507` (Shawnee; change with the variable `HS_TASK_OWNER`), associated with the contact. If HubSpot has not created the contact yet, it retries with the same schedule as the form deliveries. Without the token no task rows are created and the form notification is the only alert.
+Create a HubSpot private app (scopes crm.objects.contacts.read and crm.objects.contacts.write) and add its token in Cloudflare as an **encrypted secret** named `HS_PRIVATE_APP_TOKEN`. After HubSpot accepts a card submission, the server finds the contact by email and creates a task "Follow up: card exchange with <name>, <company>", due the next business morning, owned by HubSpot owner `98756507` (Shawnee; change with the variable `HS_TASK_OWNER`), associated with the contact. If HubSpot has not created the contact yet, it retries with the same schedule as the form deliveries. Without the token no task rows are created and the form notification is the only alert.
 
 Do not also build a HubSpot workflow that creates a task for the same form, or every exchange gets two tasks.
 

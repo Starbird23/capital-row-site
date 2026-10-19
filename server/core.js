@@ -8,7 +8,8 @@
 // Without a DB binding the server sends to HubSpot straight away and answers "saved" only when HubSpot has accepted it.
 
 export const HS_PORTAL = '247329185';
-export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517' };
+export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517',
+  'Contact exchange': '70a287f8-1d99-4332-86d7-37cc4ccbe751' };   // "Business card: Shawnee", built in HubSpot October 18, 2026
 const ENV_FORM = { 'Conversation': 'HS_FORM_MAIN', 'Buy box': 'HS_FORM_BUYBOX', 'Pre-Market Assessment request': 'HS_FORM_ASSESS', 'Bad or broken deal report': 'HS_FORM_DEAL',
   'Capital Connections': 'HS_FORM_CC', 'Owner session seat': 'HS_FORM_SEAT', 'Follow a sector': 'HS_FORM_FOLLOW', 'Valuation calculator': 'HS_FORM_VALUATION',
   'Contact exchange': 'HS_FORM_EXCHANGE' };
@@ -21,7 +22,7 @@ export const TASK_KIND = 'Card task';
 const BACKOFF_MIN = [1, 5, 15, 60, 180, 360, 720, 1440];          // minutes before attempt 2, 3, ...
 export const MAX_ATTEMPTS = BACKOFF_MIN.length + 1;
 const isGuid = (x) => /^[0-9a-fA-F-]{30,40}$/.test(x || '');
-export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : OWN_FORM_ONLY.has(kind) ? 'unset' : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
+export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : OWN_FORM_ONLY.has(kind) ? (HS_FORMS[kind] || 'unset') : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
 
 // ---------------------------------------------------------------- validation
 // Every property the site sends, by record. A value that does not check out is dropped from that property (the answer is

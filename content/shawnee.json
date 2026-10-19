@@ -71,6 +71,11 @@
      "text": "Add to Apple Wallet"
     },
     {
+     "key": "act.phone_label",
+     "kind": "Label",
+     "text": "Phone"
+    },
+    {
      "key": "act.email_label",
      "kind": "Label",
      "text": "Email"
