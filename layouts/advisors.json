@@ -755,8 +755,8 @@
    "tag": "span",
    "cls": "",
    "tags": [
-    "<a href=\"../../privacy/index.html\">",
-    "<a href=\"../../terms/index.html\">"
+    "<a href=\"../privacy/index.html\">",
+    "<a href=\"../terms/index.html\">"
    ],
    "section": "valuation"
   },
@@ -765,7 +765,7 @@
    "tag": "p",
    "cls": "vcnote2",
    "tags": [
-    "<a href=\"../../privacy/index.html\">"
+    "<a href=\"../privacy/index.html\">"
    ],
    "section": "valuation"
   },
@@ -816,7 +816,7 @@
    "tag": "p",
    "cls": "vcmicro",
    "tags": [
-    "<a href=\"../../pre-market-assessment/index.html#request\" id=\"vcpma\">"
+    "<a href=\"../pre-market-assessment/index.html#request\" id=\"vcpma\">"
    ],
    "section": "valuation"
   },
@@ -913,7 +913,7 @@
    "tag": "p",
    "cls": "",
    "tags": [
-    "<a href=\"../../privacy/index.html#cookies\">"
+    "<a href=\"../privacy/index.html#cookies\">"
    ],
    "section": "ck"
   },
