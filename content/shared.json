@@ -291,6 +291,16 @@
     "key": "sh.mast.53",
     "kind": "Button",
     "text": "Start the conversation"
+   },
+   {
+    "key": "sh.mast.54",
+    "kind": "Text",
+    "text": "For advisors"
+   },
+   {
+    "key": "sh.mast.55",
+    "kind": "Link",
+    "text": "CPAs, attorneys and advisors"
    }
   ]
  },
