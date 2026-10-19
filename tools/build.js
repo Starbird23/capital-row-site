@@ -79,7 +79,8 @@ async function loadContent() {
       for (const mm of html.matchAll(/CRM\('([^']+)'/g)) if (!(mm[1] in forms.text)) missing.push(stem + ':text:' + mm[1]);
       for (const mm of html.matchAll(/data-(?:ck)?list="([^"@]+)"/g)) if (!(mm[1] in forms.lists)) missing.push(stem + ':list:' + mm[1]);
     }
-    const rel = stem === 'home' ? 'index.html' : stem.replace(/__/g, '/') + '/index.html';
+    // a "flat" page (a digital card) is served at /<stem> exactly, with no trailing slash, from <stem>.html
+    const rel = stem === 'home' ? 'index.html' : meta.flat ? stem.replace(/__/g, '/') + '.html' : stem.replace(/__/g, '/') + '/index.html';
     const o = path.join(OUT, rel); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.writeFileSync(o, html); n++;
   }
   if (ASSETS && ASSETS !== '-') {

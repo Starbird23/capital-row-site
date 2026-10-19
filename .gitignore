@@ -7,3 +7,5 @@ node_modules/
 *.cer
 *.key
 __pycache__/
+.dev.vars
+.wrangler/

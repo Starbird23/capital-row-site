@@ -31,6 +31,9 @@ Every form posts to `/api/submit` (a Cloudflare Pages Function, deployed with th
 - Without the D1 binding the server sends straight to HubSpot and answers "saved" only when HubSpot accepted.
 - Tests: `tools/server_test.py` runs the real pages and functions locally (`wrangler pages dev dist --d1 DB ...`) against `tools/mock_hubspot.py`.
 
+## Digital cards (`/shawnee`)
+A card is an ordinary page built "flat" (served at `/shawnee`, no trailing slash; `"flat": true` in its layout `.json`). Its words are in Sanity like every page; `functions/shawnee/vcard.js` and `functions/shawnee/wallet.js` read the published page (elements marked `data-card`) to build the .vcf and the Apple Wallet pass (`server/card.js`). The exchange form posts to `/api/submit` as kind `Contact exchange`, which goes only to its own HubSpot form (`HS_FORM_EXCHANGE`) and is held and retried until that exists. Setup, credentials, tagged links, NFC and tests: `tools/card/SETUP.md`.
+
 ## Tools
 - `tools/extract.js <builtSite> <out>` — splits a built site into layouts and text (how this repository was made).
 - `tools/build.js` — the build.

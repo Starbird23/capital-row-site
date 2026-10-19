@@ -1,296 +1,301 @@
 {
- "path": "/shawnee/",
- "seoTitle": "Shawnee Mercier, Founder & Principal, Capital Row",
- "seoDescription": "Save Shawnee Mercier's contact, book a call or exchange details. Capital Row: M&A advisory for vertical software powering the working economy.",
- "ogTitle": "Shawnee Mercier, Founder & Principal, Capital Row",
- "ogDescription": "Save my contact, book a call or exchange details. M&A advisory for vertical software powering the working economy.",
+ "path": "/shawnee",
+ "seoTitle": "Shawnee Mercier, Capital Row",
+ "seoDescription": "Shawnee Mercier, Founder and Managing Director of Capital Row. Save her contact, book a meeting or share your details.",
+ "ogTitle": "Shawnee Mercier, Capital Row",
+ "ogDescription": "Founder and Managing Director, Capital Row. Save the contact or book a meeting.",
  "sections": [
   {
    "id": "card",
    "name": "Card",
    "items": [
     {
-     "key": "card.1",
+     "key": "card.name",
      "kind": "Name",
      "text": "Shawnee Mercier"
     },
     {
-     "key": "card.2",
+     "key": "card.title",
      "kind": "Title",
-     "text": "Founder & Principal"
+     "text": "Founder & Managing Director"
     },
     {
-     "key": "card.3",
-     "kind": "Company",
+     "key": "card.org",
+     "kind": "Firm",
      "text": "Capital Row"
     },
     {
-     "key": "card.4",
-     "kind": "Positioning line",
-     "text": "M&A advisory for vertical software powering the working economy."
+     "key": "card.focus",
+     "kind": "Focus",
+     "text": "Vertical software and healthcare technology"
     },
     {
-     "key": "card.5",
-     "kind": "Button",
-     "text": "Save my contact"
+     "key": "card.tagline",
+     "kind": "Tagline",
+     "text": "The M&A firm for software the working economy cannot switch off."
     },
     {
-     "key": "card.6",
-     "kind": "Button",
-     "text": "Book a call"
+     "key": "card.photo_alt",
+     "kind": "Photo description",
+     "text": "Shawnee Mercier"
     },
     {
-     "key": "card.7",
-     "kind": "Icon label",
-     "text": "Call"
-    },
-    {
-     "key": "card.8",
-     "kind": "Icon label",
-     "text": "Text"
-    },
-    {
-     "key": "card.9",
-     "kind": "Icon label",
-     "text": "Email"
-    },
-    {
-     "key": "card.10",
-     "kind": "Icon label",
-     "text": "LinkedIn"
-    },
-    {
-     "key": "card.11",
-     "kind": "Icon label",
-     "text": "Website"
-    },
-    {
-     "key": "card.12",
-     "kind": "Button",
-     "text": "Add to Apple Wallet"
+     "key": "nav.skip",
+     "kind": "Skip link",
+     "text": "Skip to share your details"
     }
    ]
   },
   {
-   "id": "ex",
-   "name": "Exchange details",
+   "id": "act",
+   "name": "Buttons and links",
    "items": [
     {
-     "key": "ex.1",
+     "key": "act.save",
+     "kind": "Button",
+     "text": "Save contact"
+    },
+    {
+     "key": "act.book",
+     "kind": "Button",
+     "text": "Book a meeting"
+    },
+    {
+     "key": "act.new_tab",
+     "kind": "Screen reader note",
+     "text": "(opens in a new tab)"
+    },
+    {
+     "key": "act.wallet",
+     "kind": "Button",
+     "text": "Add to Apple Wallet"
+    },
+    {
+     "key": "act.email_label",
+     "kind": "Label",
+     "text": "Email"
+    },
+    {
+     "key": "act.linkedin_label",
+     "kind": "Label",
+     "text": "LinkedIn"
+    },
+    {
+     "key": "act.linkedin_text",
+     "kind": "Link text",
+     "text": "linkedin.com/in/smmercier"
+    },
+    {
+     "key": "act.web_label",
+     "kind": "Label",
+     "text": "Website"
+    },
+    {
+     "key": "act.web_text",
+     "kind": "Link text",
+     "text": "thecapitalrow.com"
+    },
+    {
+     "key": "act.share",
+     "kind": "Button",
+     "text": "Share card"
+    },
+    {
+     "key": "act.share_title",
+     "kind": "Share sheet title",
+     "text": "Shawnee Mercier, Capital Row"
+    },
+    {
+     "key": "act.qr",
+     "kind": "Button",
+     "text": "Show QR"
+    },
+    {
+     "key": "act.qr_hide",
+     "kind": "Button",
+     "text": "Hide QR"
+    },
+    {
+     "key": "act.qr_alt",
+     "kind": "Image description",
+     "text": "QR code that opens this card"
+    },
+    {
+     "key": "act.qr_help",
+     "kind": "Paragraph",
+     "text": "Point a phone camera at the code to open this card."
+    }
+   ]
+  },
+  {
+   "id": "form",
+   "name": "Share your details",
+   "items": [
+    {
+     "key": "form.h",
      "kind": "Section headline",
-     "text": "Exchange details"
+     "text": "Share your details"
     },
     {
-     "key": "ex.2",
-     "kind": "Text",
-     "text": "Leave your details and Shawnee will follow up personally."
+     "key": "form.p",
+     "kind": "Paragraph",
+     "text": "Leave your details and Shawnee will follow up by email."
     },
     {
-     "key": "ex.3",
-     "kind": "Form label",
-     "text": "First name"
+     "key": "form.noscript",
+     "kind": "Paragraph",
+     "text": "This form needs JavaScript. You can also email"
     },
     {
-     "key": "ex.4",
-     "kind": "Form label",
-     "text": "Last name"
+     "key": "form.name",
+     "kind": "Label",
+     "text": "Name"
     },
     {
-     "key": "ex.5",
-     "kind": "Form label",
+     "key": "form.email",
+     "kind": "Label",
      "text": "Work email"
     },
     {
-     "key": "ex.6",
-     "kind": "Form label",
+     "key": "form.company",
+     "kind": "Label",
      "text": "Company"
     },
     {
-     "key": "ex.7",
-     "kind": "Form label",
-     "text": "I am"
+     "key": "form.rel",
+     "kind": "Label",
+     "text": "Relationship"
     },
     {
-     "key": "ex.8",
+     "key": "form.rel_pick",
      "kind": "Choice",
-     "text": "A business owner"
+     "text": "Choose one"
     },
     {
-     "key": "ex.9",
+     "key": "rel.buyer",
      "kind": "Choice",
-     "text": "A buyer or investor"
+     "text": "Buyer or investor"
     },
     {
-     "key": "ex.10",
+     "key": "rel.owner",
      "kind": "Choice",
-     "text": "A lender"
+     "text": "Business owner"
     },
     {
-     "key": "ex.11",
+     "key": "rel.advisor",
      "kind": "Choice",
-     "text": "An advisor"
+     "text": "Advisor or intermediary"
     },
     {
-     "key": "ex.12",
+     "key": "rel.lender",
+     "kind": "Choice",
+     "text": "Lender"
+    },
+    {
+     "key": "rel.referral_partner",
+     "kind": "Choice",
+     "text": "Referral partner"
+    },
+    {
+     "key": "rel.other",
      "kind": "Choice",
      "text": "Other"
     },
     {
-     "key": "ex.13",
-     "kind": "Choice",
-     "text": "Select one"
+     "key": "form.msg",
+     "kind": "Label",
+     "text": "Message"
     },
     {
-     "key": "ex.15",
-     "kind": "Form label",
-     "text": "Where we met, optional"
+     "key": "form.optional",
+     "kind": "Label note",
+     "text": "Optional"
     },
     {
-     "key": "ex.16",
-     "kind": "Form label",
-     "text": "Anything to add? Optional"
-    },
-    {
-     "key": "ex.18",
-     "kind": "Link",
-     "text": "Privacy Policy"
-    },
-    {
-     "key": "ex.19",
-     "kind": "Link",
-     "text": "SMS Terms"
-    },
-    {
-     "key": "ex.20",
-     "kind": "Text",
-     "text": "By sending, you agree to the"
-    },
-    {
-     "key": "ex.21",
-     "kind": "Button",
-     "text": "Send"
-    },
-    {
-     "key": "ex.22",
-     "kind": "Button",
-     "text": "Sending"
-    },
-    {
-     "key": "ex.23",
-     "kind": "Confirmation",
-     "text": "Thank you. Your details are with Shawnee, and she will follow up personally."
-    },
-    {
-     "key": "ex.24",
-     "kind": "Error message",
-     "text": "That did not send. Please try again, or email smercier@thecapitalrow.com."
-    },
-    {
-     "key": "ex.25",
-     "kind": "Error message",
-     "text": "Add your first name."
-    },
-    {
-     "key": "ex.26",
-     "kind": "Error message",
-     "text": "Add your last name."
-    },
-    {
-     "key": "ex.27",
-     "kind": "Error message",
-     "text": "Add a valid email address."
-    },
-    {
-     "key": "ex.28",
-     "kind": "Error message",
-     "text": "Add your company."
-    },
-    {
-     "key": "ex.29",
-     "kind": "Error message",
-     "text": "Choose which describes you."
-    },
-    {
-     "key": "ex.30",
+     "key": "form.updates",
      "kind": "Checkbox",
-     "text": "Send me Capital Row updates."
+     "text": "Send me Capital Row updates by email."
+    },
+    {
+     "key": "form.updates_opt",
+     "kind": "Checkbox note",
+     "text": "Optional."
+    },
+    {
+     "key": "form.send",
+     "kind": "Button",
+     "text": "Send my details"
+    },
+    {
+     "key": "form.privacy",
+     "kind": "Paragraph",
+     "text": "We use these details to follow up on this introduction. Checking the box above is the only way you receive updates. <a>Privacy Policy</a>"
     }
    ]
   },
   {
-   "id": "more",
-   "name": "Explore Capital Row",
+   "id": "msg",
+   "name": "Messages",
    "items": [
     {
-     "key": "more.1",
+     "key": "msg.ok_h",
      "kind": "Section headline",
-     "text": "Explore Capital Row"
+     "text": "Thank you."
     },
     {
-     "key": "more.2",
-     "kind": "Link",
-     "text": "Owners: pressure-test your earnings"
+     "key": "msg.ok",
+     "kind": "Paragraph",
+     "text": "{first}, your details reached Shawnee. She will follow up by email. Save her contact or choose a time below."
     },
     {
-     "key": "more.3",
-     "kind": "Link",
-     "text": "Valuation calculator"
+     "key": "msg.sending",
+     "kind": "Status",
+     "text": "Sending…"
     },
     {
-     "key": "more.4",
-     "kind": "Link",
-     "text": "Buyers: how an engagement works"
+     "key": "msg.err_required",
+     "kind": "Error",
+     "text": "Please complete the fields marked below."
     },
     {
-     "key": "more.5",
-     "kind": "Link",
-     "text": "Selling in 2027? Owner session, January 20"
-    }
-   ]
-  },
-  {
-   "id": "share",
-   "name": "Share this card",
-   "items": [
-    {
-     "key": "share.1",
-     "kind": "Section headline",
-     "text": "Share this card"
+     "key": "msg.err_name",
+     "kind": "Error",
+     "text": "Please enter your name."
     },
     {
-     "key": "share.2",
-     "kind": "Button",
-     "text": "Show QR code"
+     "key": "msg.err_email",
+     "kind": "Error",
+     "text": "Please enter a valid work email."
     },
     {
-     "key": "share.3",
-     "kind": "Button",
-     "text": "Copy link"
+     "key": "msg.err_company",
+     "kind": "Error",
+     "text": "Please enter your company."
     },
     {
-     "key": "share.4",
-     "kind": "Message",
-     "text": "Link copied"
+     "key": "msg.err_rel",
+     "kind": "Error",
+     "text": "Please choose a relationship."
     },
     {
-     "key": "share.5",
-     "kind": "Button",
-     "text": "Download QR code"
+     "key": "msg.err_send",
+     "kind": "Error",
+     "text": "Your details could not be sent. Please try again, or email smercier@thecapitalrow.com."
     },
     {
-     "key": "share.6",
-     "kind": "Text",
-     "text": "Scan to open my card and save my contact."
+     "key": "msg.err_rate",
+     "kind": "Error",
+     "text": "Too many attempts from this connection. Please try again later, or email smercier@thecapitalrow.com."
     },
     {
-     "key": "share.7",
-     "kind": "Button label",
-     "text": "Close"
+     "key": "msg.err_verify",
+     "kind": "Error",
+     "text": "Please complete the verification check, then send again."
     },
     {
-     "key": "share.8",
-     "kind": "Button",
-     "text": "Share"
+     "key": "msg.copied",
+     "kind": "Status",
+     "text": "Link copied."
     }
    ]
   },
@@ -299,9 +304,19 @@
    "name": "Footer",
    "items": [
     {
-     "key": "foot.1",
-     "kind": "Text",
-     "text": "Capital Row LLC"
+     "key": "foot.tag",
+     "kind": "Tagline",
+     "text": "The vertical, already known."
+    },
+    {
+     "key": "foot.legal",
+     "kind": "Paragraph",
+     "text": "Capital Row is an independent advisory firm. It is not a registered broker-dealer."
+    },
+    {
+     "key": "foot.privacy",
+     "kind": "Link",
+     "text": "Privacy Policy"
     }
    ]
   }

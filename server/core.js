@@ -13,10 +13,15 @@ const ENV_FORM = { 'Conversation': 'HS_FORM_MAIN', 'Buy box': 'HS_FORM_BUYBOX', 
   'Capital Connections': 'HS_FORM_CC', 'Owner session seat': 'HS_FORM_SEAT', 'Follow a sector': 'HS_FORM_FOLLOW', 'Valuation calculator': 'HS_FORM_VALUATION',
   'Contact exchange': 'HS_FORM_EXCHANGE' };
 export const KINDS = Object.keys(ENV_FORM);
+// Kinds that never fall back to the main form: the digital card's exchange keeps its contacts non-marketing, so it waits
+// (and retries) until HS_FORM_EXCHANGE names its own HubSpot form rather than landing on a form with other settings.
+const OWN_FORM_ONLY = new Set(['Contact exchange']);
+// Internal rows in the same table that are not form submissions: the follow-up task created after a card exchange is delivered.
+export const TASK_KIND = 'Card task';
 const BACKOFF_MIN = [1, 5, 15, 60, 180, 360, 720, 1440];          // minutes before attempt 2, 3, ...
 export const MAX_ATTEMPTS = BACKOFF_MIN.length + 1;
 const isGuid = (x) => /^[0-9a-fA-F-]{30,40}$/.test(x || '');
-export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
+export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : OWN_FORM_ONLY.has(kind) ? 'unset' : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
 
 // ---------------------------------------------------------------- validation
 // Every property the site sends, by record. A value that does not check out is dropped from that property (the answer is
@@ -24,11 +29,12 @@ export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGui
 const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'domain', 'message'];
 const NUM = ['cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
 const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent'];
-const TEXTP = ['cr_form', 'cr_card_owner', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
+const TEXTP = ['cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
 // HubSpot's own values for the fields that already exist in the portal
 export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'intermediary', 'referral_partner'],
   offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'],
-  cr_card_channel: ['qr', 'nfc', 'wallet', 'screen', 'link', 'email', 'direct'] };
+  // the card's channels, as the HubSpot property "Card channel" has them (created October 18, 2026)
+  cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'] };
 // property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"
 const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
   cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],
@@ -61,6 +67,8 @@ export function cleanFields(kind, fields, cfg) {
     if (NUM.includes(n)) return /^-?\d{1,15}$/.test(v);
     if (BOOL.includes(n)) return v === 'true' || v === 'false';
     if (FIXED[n]) return FIXED[n].includes(v);
+    if (n === 'cr_card_owner') return /^[A-Za-z0-9][A-Za-z0-9 .'-]{1,59}$/.test(v);
+    if (n === 'cr_card_event') return /^[a-z0-9-]{1,60}$/.test(v);
     if (!vals) return true;
     if (ONE[n]) return vals(ONE[n]).has(v);
     if (MULTI[n]) { const s = vals(MULTI[n]); return v.split(';').map((x) => x.trim()).every((x) => s.has(x)); }
@@ -125,6 +133,24 @@ export async function sendToHubSpot(env, guid, payload) {
   return { ok: false, transient: false, error: 'too many dropped properties', dropped };
 }
 
+// the form a row goes to, read again at send time for kinds that wait for their own form
+export async function sendTo(env, kind, guid, payload) {
+  const g = OWN_FORM_ONLY.has(kind) ? formFor(kind, env) : guid;
+  if (!isGuid(g)) return { ok: false, transient: true, error: 'no HubSpot form set for ' + kind + ' (Cloudflare variable ' + ENV_FORM[kind] + ')', dropped: [] };
+  return sendToHubSpot(env, g, payload);
+}
+// a follow-up task row: waits until its card submission has been delivered, then creates the task (server/card.js)
+async function runTask(env, row, payload) {
+  if (!env.HS_PRIVATE_APP_TOKEN) return { ok: false, transient: false, error: 'HS_PRIVATE_APP_TOKEN is not set', dropped: [] };
+  if (row.parent) {
+    const p = await env.DB.prepare('SELECT status FROM submissions WHERE id=?').bind(row.parent).first();
+    if (p && p.status !== 'delivered') return { ok: false, transient: p.status !== 'failed', error: 'card submission not delivered yet (' + p.status + ')', dropped: [] };
+  }
+  const { createFollowUpTask } = await import('./card.js');
+  const r = await createFollowUpTask(env, payload.task);
+  return Object.assign({ dropped: [] }, r);
+}
+
 // ---------------------------------------------------------------- alerts
 export async function alert(env, subject, lines) {
   const text = lines.join('\n'); const sent = [];
@@ -151,7 +177,7 @@ export async function deliver(env, id) {
   if (!claim.meta || claim.meta.changes !== 1) return null;
   const row = await db.prepare('SELECT * FROM submissions WHERE id=?').bind(id).first();
   const payload = JSON.parse(row.payload);
-  const res = await sendToHubSpot(env, row.form_guid, payload);
+  const res = row.kind === TASK_KIND ? await runTask(env, row, payload) : await sendTo(env, row.kind, row.form_guid, payload);
   const attempts = row.attempts + 1, dropped = res.dropped && res.dropped.length ? JSON.stringify([...new Set(res.dropped)]) : null;
   if (res.ok) {
     await db.prepare("UPDATE submissions SET status='delivered', attempts=?, delivered_at=?, dropped=?, last_error=NULL, lease_until=0 WHERE id=?").bind(attempts, now(), dropped, id).run();
@@ -170,8 +196,11 @@ export async function deliver(env, id) {
 export async function alertFailed(env, id) {
   const row = await env.DB.prepare('SELECT id, kind, created_at, attempts, last_error, payload, alerted_at FROM submissions WHERE id=?').bind(id).first();
   if (!row || row.alerted_at) return;
-  let email = ''; try { email = (JSON.parse(row.payload).fields.find((f) => f.name === 'email') || {}).value || ''; } catch (e) {}
-  const sent = await alert(env, `Website form not delivered to HubSpot: ${row.kind}`, [
+  let email = ''; try { const pl = JSON.parse(row.payload); email = pl.task ? pl.task.email : (pl.fields.find((f) => f.name === 'email') || {}).value || ''; } catch (e) {}
+  const sent = row.kind === TASK_KIND ? await alert(env, 'Card follow-up task not created in HubSpot', [
+    `The card exchange from ${email || 'an unknown address'} (submission ${String(row.id).replace(/-task$/, '')}) was handled, but the follow-up task was not created after ${row.attempts} attempt(s).`,
+    `Last error: ${row.last_error || 'none recorded'}`, 'Create the task in HubSpot by hand, or fix the cause and call /api/retry.'])
+    : await alert(env, `Website form not delivered to HubSpot: ${row.kind}`, [
     `A ${row.kind} submission from ${email || 'an unknown address'} was saved on ${new Date(row.created_at).toISOString()} but HubSpot did not accept it after ${row.attempts} attempt(s).`,
     `Last error: ${row.last_error || 'none recorded'}`, `Submission id: ${row.id}`,
     'The answers are kept in the website database. Retry from /api/retry once the cause is fixed, or enter them in HubSpot by hand.']);
