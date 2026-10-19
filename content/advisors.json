@@ -1,0 +1,435 @@
+{
+ "path": "/advisors/",
+ "seoTitle": "Capital Row, for CPAs, attorneys and advisors to owners: a second opinion on your client’s sale",
+ "seoDescription": "Send a client situation, no names needed. Get a written buyer’s read you can share as your own advice. Your client stays your client.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "Page links",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The second opinion"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "Three promises"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "What you get back"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "The briefing"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Top",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "For certified public accountants, attorneys and advisors to owners"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "When your client asks what the business is worth, <em>you should be the one with the answer.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "Send us a client situation. We send back a written read, addressed to you, that you can share with your client as your own advice."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Button",
+     "text": "Ask for a second opinion"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Text",
+     "text": "Your client stays your client"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "You always know where things stand"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "We say when not to sell yet"
+    }
+   ]
+  },
+  {
+   "id": "second",
+   "name": "The second opinion",
+   "items": [
+    {
+     "key": "second.1",
+     "kind": "Text",
+     "text": "The second opinion"
+    },
+    {
+     "key": "second.2",
+     "kind": "Section headline",
+     "text": "A buyer’s view of your client’s business, <em>before any buyer sees it.</em>"
+    },
+    {
+     "key": "second.3",
+     "kind": "Paragraph",
+     "text": "No names needed. Tell us what the business does, roughly how large it is and what the owner is weighing."
+    },
+    {
+     "key": "second.4",
+     "kind": "Text",
+     "text": "Send the situation"
+    },
+    {
+     "key": "second.5",
+     "kind": "Paragraph",
+     "text": "Sector, size, location and the question on the table: selling, taking on a partner, or a buyer who called."
+    },
+    {
+     "key": "second.6",
+     "kind": "Text",
+     "text": "We read it as a buyer would"
+    },
+    {
+     "key": "second.7",
+     "kind": "Paragraph",
+     "text": "What a buyer looks at first, which add-backs they will accept, and what is likely to move the price."
+    },
+    {
+     "key": "second.8",
+     "kind": "Text",
+     "text": "You get a written read"
+    },
+    {
+     "key": "second.9",
+     "kind": "Paragraph",
+     "text": "Addressed to you. Share it with your client as you see fit, or keep it for your own planning."
+    },
+    {
+     "key": "second.10",
+     "kind": "Text",
+     "text": "Turnaround"
+    },
+    {
+     "key": "second.11",
+     "kind": "Text",
+     "text": "[Set the turnaround]"
+    },
+    {
+     "key": "second.12",
+     "kind": "Paragraph",
+     "text": "Written, not a sales call. Nothing happens next unless your client wants to talk."
+    }
+   ]
+  },
+  {
+   "id": "promise",
+   "name": "Three promises",
+   "items": [
+    {
+     "key": "promise.1",
+     "kind": "Text",
+     "text": "Three promises"
+    },
+    {
+     "key": "promise.2",
+     "kind": "Section headline",
+     "text": "What you can count on <em>every time.</em>"
+    },
+    {
+     "key": "promise.3",
+     "kind": "Text",
+     "text": "1"
+    },
+    {
+     "key": "promise.4",
+     "kind": "Text",
+     "text": "Your client stays your client."
+    },
+    {
+     "key": "promise.5",
+     "kind": "Text",
+     "text": "We bring you into preparation and diligence, never around you. The quality of earnings work runs through your client’s own books, with their certified public accountant in the room."
+    },
+    {
+     "key": "promise.6",
+     "kind": "Text",
+     "text": "2"
+    },
+    {
+     "key": "promise.7",
+     "kind": "Text",
+     "text": "You always know where things stand."
+    },
+    {
+     "key": "promise.8",
+     "kind": "Text",
+     "text": "With your client’s permission, we tell you at each stage: first conversation, preparation, going to market, letter of intent, close."
+    },
+    {
+     "key": "promise.9",
+     "kind": "Text",
+     "text": "3"
+    },
+    {
+     "key": "promise.10",
+     "kind": "Text",
+     "text": "We say when not to sell yet."
+    },
+    {
+     "key": "promise.11",
+     "kind": "Text",
+     "text": "If the business would sell for more after a year of preparation, your client hears that from us in writing, with what would change the answer."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "What you get back",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Text",
+     "text": "What you get back"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "A short written read, <em>in plain language.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Paragraph",
+     "text": "Each one covers the same five questions, so you can compare one client with another."
+    },
+    {
+     "key": "read.4",
+     "kind": "Text",
+     "text": "What a buyer looks at first"
+    },
+    {
+     "key": "read.5",
+     "kind": "Text",
+     "text": "The two or three things a diligence team will open before anything else."
+    },
+    {
+     "key": "read.6",
+     "kind": "Text",
+     "text": "Adjusted earnings a buyer will accept"
+    },
+    {
+     "key": "read.7",
+     "kind": "Text",
+     "text": "Which add-backs hold up, which will be questioned, and what documents support them."
+    },
+    {
+     "key": "read.8",
+     "kind": "Text",
+     "text": "What moves the price"
+    },
+    {
+     "key": "read.9",
+     "kind": "Text",
+     "text": "Customer concentration, recurring revenue, dependence on the owner, and the records behind each."
+    },
+    {
+     "key": "read.10",
+     "kind": "Text",
+     "text": "What to fix before going to market"
+    },
+    {
+     "key": "read.11",
+     "kind": "Text",
+     "text": "The changes that pay for themselves, in order, with a rough time for each."
+    },
+    {
+     "key": "read.12",
+     "kind": "Text",
+     "text": "Whether now is the time"
+    },
+    {
+     "key": "read.13",
+     "kind": "Text",
+     "text": "Our honest view, including when the answer is to wait."
+    }
+   ]
+  },
+  {
+   "id": "briefing",
+   "name": "The advisor briefing",
+   "items": [
+    {
+     "key": "briefing.1",
+     "kind": "Text",
+     "text": "The advisor briefing"
+    },
+    {
+     "key": "briefing.2",
+     "kind": "Section headline",
+     "text": "Something worth forwarding, <em>every quarter.</em>"
+    },
+    {
+     "key": "briefing.3",
+     "kind": "Paragraph",
+     "text": "A short note for the advisors we work with, drawn from the deals we see, including the ones that broke."
+    },
+    {
+     "key": "briefing.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "briefing.5",
+     "kind": "Text",
+     "text": "Why deals broke this quarter"
+    },
+    {
+     "key": "briefing.6",
+     "kind": "Paragraph",
+     "text": "From our dead deal notes: the findings that ended deals, and how early they could have been caught."
+    },
+    {
+     "key": "briefing.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "briefing.8",
+     "kind": "Text",
+     "text": "What buyers are asking now"
+    },
+    {
+     "key": "briefing.9",
+     "kind": "Paragraph",
+     "text": "The questions diligence teams are leading with in the sectors we cover."
+    },
+    {
+     "key": "briefing.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "briefing.11",
+     "kind": "Text",
+     "text": "One page for your clients"
+    },
+    {
+     "key": "briefing.12",
+     "kind": "Paragraph",
+     "text": "A plain-language page you can send to a client who is starting to think about a sale."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Questions",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Text",
+     "text": "Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "What advisors ask us <em>first.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Do I need to name my client?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "No. Sector, size, location and what the owner is weighing are enough for a first read. Names come later, and only if your client wants to talk."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Will you replace me in the deal?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "No. Your client’s certified public accountant and attorney stay in the work. We bring you into preparation and diligence and keep you informed at each stage, with your client’s permission."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "What if a sale is not the right move?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "We say so in writing and explain what would change the answer. Some of our most useful reads end with “not yet.”"
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "What happens after the second opinion?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "Nothing, unless your client wants to talk. If they do, you choose whether to make the introduction yourself or have us reach out."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Is what I send kept confidential?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "Yes. What you send is used only to prepare the read and is not shared outside Capital Row."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "Closing band",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Paragraph",
+     "text": "Have a client weighing a sale?"
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Send us the situation. You will get a written read you can share as your own advice."
+    },
+    {
+     "key": "next.3",
+     "kind": "Button",
+     "text": "Ask for a second opinion"
+    },
+    {
+     "key": "next.4",
+     "kind": "Paragraph",
+     "text": "No names needed for a first read."
+    }
+   ]
+  }
+ ]
+}
