@@ -8,7 +8,7 @@
 // Without a DB binding the server sends to HubSpot straight away and answers "saved" only when HubSpot has accepted it.
 
 export const HS_PORTAL = '247329185';
-export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517', 'Contact exchange': '4a530007-7185-4d54-b653-2cb0373bd2b6' };
+export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517', 'Contact exchange': '065ddb74-fd13-4f6a-9442-baf9b73406fc' };
 const ENV_FORM = { 'Conversation': 'HS_FORM_MAIN', 'Buy box': 'HS_FORM_BUYBOX', 'Pre-Market Assessment request': 'HS_FORM_ASSESS', 'Bad or broken deal report': 'HS_FORM_DEAL',
   'Capital Connections': 'HS_FORM_CC', 'Owner session seat': 'HS_FORM_SEAT', 'Follow a sector': 'HS_FORM_FOLLOW', 'Valuation calculator': 'HS_FORM_VALUATION',
   'Contact exchange': 'HS_FORM_EXCHANGE' };
