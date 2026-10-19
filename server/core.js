@@ -8,7 +8,7 @@
 // Without a DB binding the server sends to HubSpot straight away and answers "saved" only when HubSpot has accepted it.
 
 export const HS_PORTAL = '247329185';
-export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517' };
+export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517', 'Contact exchange': '4a530007-7185-4d54-b653-2cb0373bd2b6' };
 const ENV_FORM = { 'Conversation': 'HS_FORM_MAIN', 'Buy box': 'HS_FORM_BUYBOX', 'Pre-Market Assessment request': 'HS_FORM_ASSESS', 'Bad or broken deal report': 'HS_FORM_DEAL',
   'Capital Connections': 'HS_FORM_CC', 'Owner session seat': 'HS_FORM_SEAT', 'Follow a sector': 'HS_FORM_FOLLOW', 'Valuation calculator': 'HS_FORM_VALUATION',
   'Contact exchange': 'HS_FORM_EXCHANGE' };
@@ -26,7 +26,7 @@ const NUM = ['cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_
 const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent'];
 const TEXTP = ['cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags'];
 // HubSpot's own values for the fields that already exist in the portal
-export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'intermediary', 'referral_partner'],
+export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'inter', 'referral_partner', 'vendor', 'team'],
   offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'],
   cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'] };
 // property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"

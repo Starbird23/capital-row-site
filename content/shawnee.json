@@ -83,7 +83,7 @@
     {
      "key": "ex.2",
      "kind": "Text",
-     "text": "Leave your details and Shawnee will follow up personally."
+     "text": "Leave your details and tell us which side of the table you sit on. Read by a person, usually the same day."
     },
     {
      "key": "ex.3",
@@ -108,32 +108,32 @@
     {
      "key": "ex.7",
      "kind": "Form label",
-     "text": "I am"
+     "text": "Which side of the table do you sit on?"
     },
     {
      "key": "ex.8",
      "kind": "Choice",
-     "text": "A business owner"
+     "text": "I own a business"
     },
     {
      "key": "ex.9",
      "kind": "Choice",
-     "text": "A buyer or investor"
+     "text": "I buy companies"
     },
     {
      "key": "ex.10",
      "kind": "Choice",
-     "text": "A lender"
+     "text": "I finance deals"
     },
     {
      "key": "ex.11",
      "kind": "Choice",
-     "text": "An advisor"
+     "text": "I’m a CPA, attorney or advisor to owners"
     },
     {
      "key": "ex.12",
      "kind": "Choice",
-     "text": "Other"
+     "text": "Something else"
     },
     {
      "key": "ex.13",
@@ -208,7 +208,7 @@
     {
      "key": "ex.29",
      "kind": "Error message",
-     "text": "Choose which describes you."
+     "text": "Choose which side of the table you sit on."
     },
     {
      "key": "ex.30",

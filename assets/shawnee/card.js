@@ -1,4 +1,5 @@
 // Shawnee Mercier's card page (thecapitalrow.com/shawnee): contact links, sharing, QR screen and the exchange-details form.
+// The form posts straight to HubSpot form 4a530007 (Business Card: Shawnee), dropping any field HubSpot says is not on the form.
 // Attribution: ?src= is the channel (qr = printed card, nfc = NFC card, wallet = Apple Wallet pass, screen = QR on her phone,
 // link = shared link, email = email signature); ?at= is the event. Both travel with the form to HubSpot.
 (function () {
@@ -57,7 +58,6 @@
   if (EVENT) $('met').value = EVENT;
   var t0 = Date.now();
   var MSG = { fn: T('ex.25'), ln: T('ex.26'), em: T('ex.27'), co: T('ex.28'), role: T('ex.29'), fail: T('ex.24') };
-  function hash(s) { var a = 2166136261, b = 2654435761; for (var i = 0; i < s.length; i++) { var c = s.charCodeAt(i); a = Math.imul(a ^ c, 16777619) >>> 0; b = Math.imul(b ^ c, 2246822519) >>> 0; } return ('0000000' + a.toString(16)).slice(-8) + ('0000000' + b.toString(16)).slice(-8) + s.length.toString(16); }
   var form = $('exf');
   form.addEventListener('submit', function (e) {
     e.preventDefault();
@@ -71,33 +71,46 @@
     var elapsed = Date.now() - t0, trap = v('hpf');
     if (trap || elapsed < 2000) { ok(); return; }   // spam: looks sent, nothing is sent
     var when = new Date().toISOString(), roleText = $('role').options[$('role').selectedIndex].text;
-    var F = [], add = function (n, val, o) { if (val !== '' && val != null) F.push({ objectTypeId: o || '0-1', name: n, value: String(val) }); };
-    add('email', d.em); add('firstname', d.fn); add('lastname', d.ln); add('company', d.co); add('name', d.co, '0-2');
-    if (d.role !== 'other') add('cr_contact_type', d.role);
-    // HubSpot's Card channel values (read 18 October 2026): wallet, nfc, qr-print, qr-screen, share, vcard, direct, other
+    // Sent straight to HubSpot's "Business Card: Shawnee" form (no embed code). Field names as HubSpot has them.
+    // HubSpot's Card channel values (read October 18, 2026): wallet, nfc, qr-print, qr-screen, share, vcard, direct, other
     var HSCH = { qr: 'qr-print', screen: 'qr-screen', link: 'share', email: 'other', nfc: 'nfc', wallet: 'wallet', direct: 'direct' };
-    add('cr_form', 'Contact exchange'); add('cr_card_owner', 'shawnee-mercier'); add('cr_card_channel', HSCH[SRC]); add('cr_card_event', EVENT);
+    var F = [], add = function (n, val, o) { if (val !== '' && val != null) F.push({ objectTypeId: o || '0-1', name: n, value: String(val) }); };
+    add('firstname', d.fn); add('lastname', d.ln); add('email', d.em); add('company', d.co); add('name', d.co, '0-2');
+    if (d.role !== 'other') add('cr_contact_type', d.role);              // "Something else" sends nothing
+    add('cr_card_owner', 'shawnee_mercier'); add('cr_card_channel', HSCH[SRC]); add('cr_card_event', EVENT);
     add('cr_marketing_consent', d.upd ? 'true' : 'false');
-    if (d.met) { add('cr_heard_via', 'A conference or event'); add('cr_heard_via_detail', d.met); }
-    var lines = ['Card exchange on thecapitalrow.com/shawnee', 'Card owner: Shawnee Mercier', 'Channel: ' + CHANNELS[SRC], 'I am: ' + roleText, 'Company: ' + d.co];
+    // every answer is also written into the message, so nothing is lost when HubSpot drops a field
+    var lines = ['Card exchange on thecapitalrow.com/shawnee', 'Card owner: Shawnee Mercier', 'Channel: ' + CHANNELS[SRC] + ' (' + HSCH[SRC] + ')',
+      'Event from the link: ' + (EVENT || 'none'), 'Which side of the table: ' + roleText, 'Company: ' + d.co];
     if (d.met) lines.push('Where we met: ' + d.met);
-    if (EVENT) lines.push('Event from the link: ' + EVENT);   // kept even if the person edits or clears "Where we met"
     lines.push('Capital Row updates: ' + (d.upd ? 'Yes, opted in ' + when : 'No'));
     add('message', (d.note ? d.note + '\n\n' : '') + lines.join('\n'));
     var ctx = { pageUri: location.href.split('#')[0], pageName: document.title };
-    var key = hash('Contact exchange|' + when.slice(0, 10) + '|' + JSON.stringify(F.filter(function (x) { return x.name !== 'message'; }).map(function (x) { return [x.name, x.value]; })));
+    var hutk = (document.cookie.match(/(?:^|;\s*)hubspotutk=([^;]+)/) || [])[1]; if (hutk) ctx.hutk = hutk;
     var btn = $('exsend'), label = btn.textContent; btn.disabled = true; btn.textContent = btn.getAttribute('data-busy');
-    function fail() { btn.disabled = false; btn.textContent = label; $('exerr').textContent = MSG.fail; }
-    function direct() {   // the site's server could not be reached: send the standard fields straight to HubSpot
-      var url = 'https://api.hsforms.com/submissions/v3/integration/submit/247329185/8e02c346-11f0-4b2d-a17c-a596397264ee';
-      var std = F.filter(function (x) { return x.objectTypeId === '0-1' && ['email', 'firstname', 'lastname', 'company', 'message'].indexOf(x.name) >= 0; });
-      var min = std.filter(function (x) { return ['email', 'firstname', 'lastname', 'message'].indexOf(x.name) >= 0; });
-      var post = function (fs) { return fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ fields: fs, context: ctx }) }).then(function (r) { return r.ok; }, function () { return false; }); };
-      post(std).then(function (a) { return a || post(min); }).then(function (a) { if (a) ok(); else fail(); });
+    function fail(detail) { btn.disabled = false; btn.textContent = label; $('exerr').textContent = MSG.fail + (detail ? ' (HubSpot: ' + detail + ')' : ''); }
+    var URL = 'https://api.hsforms.com/submissions/v3/integration/submit/247329185/4a530007-7185-4d54-b653-2cb0373bd2b6';
+    // Same rule as the website forms: a field HubSpot answers FIELD_NOT_IN_FORM_DEFINITION for is dropped and the rest is sent again;
+    // any other error is shown. Email and message are never dropped.
+    function send(fields, round) {
+      fetch(URL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ fields: fields, context: ctx }) })
+        .then(function (r) {
+          if (r.ok) { ok(); return; }
+          return r.text().then(function (t) {
+            var j = null; try { j = JSON.parse(t); } catch (x) {}
+            var errs = (j && j.errors) || [];
+            var notInForm = errs.length && errs.every(function (e) { return e.errorType === 'FIELD_NOT_IN_FORM_DEFINITION'; });
+            if (r.status !== 400 || !notInForm || round >= 8) { fail((errs[0] && errs[0].message) || (j && j.message) || ('status ' + r.status)); return; }
+            var bad = [];
+            errs.forEach(function (e) { var m = /fields\.([A-Za-z0-9_]+)/.exec(e.message || '') || /Field '([^']+)'/.exec(e.message || ''); if (m) bad.push(m[1]); });
+            if (!bad.length) bad = fields.filter(function (f) { return f.name.indexOf('cr_') === 0 || f.objectTypeId === '0-2'; }).map(function (f) { return f.name; });
+            bad = bad.filter(function (n) { return n !== 'email' && n !== 'message'; });
+            var next = fields.filter(function (f) { return bad.indexOf(f.name) < 0; });
+            if (!bad.length || next.length === fields.length) { fail(errs[0].message); return; }
+            send(next, round + 1);
+          });
+        }, function () { fail(''); });
     }
-    fetch('/api/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin',
-      body: JSON.stringify({ key: key, kind: 'Contact exchange', fields: F, context: ctx, consent: null, also: [], hp: trap, t: elapsed }) })
-      .then(function (r) { return r.json().then(function (j) { return r.ok && j && j.saved === true; }, function () { return false; }); })
-      .then(function (saved) { if (saved) ok(); else direct(); }, function () { direct(); });
+    send(F, 1);
   });
 })();

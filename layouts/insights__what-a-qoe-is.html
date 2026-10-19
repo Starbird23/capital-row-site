@@ -3605,11 +3605,11 @@ function hsFields(kind, d) {
  var CT = {
   Seller: "seller",
   Buyer: "buyer",
-  Advisor: "intermediary",
+  Advisor: "inter",
   Lender: "lender",
   "Business owner": "seller",
-  "CPA or accountant": "intermediary",
-  "Advisor to owners": "intermediary"
+  "CPA or accountant": "inter",
+  "Advisor to owners": "inter"
  };
  function offering(k, lead) {
   if (k === "Vertical software, SaaS") return "Pure software / SaaS";
@@ -3767,7 +3767,7 @@ function hsFields(kind, d) {
  }
  if (kind === "Valuation calculator") {
   var V = [ [ "Your role", d.role ], [ "Plans to sell", d.timing ], [ "Industries", d.industry ], [ "Annual revenue", d.revenue ], [ "Adjusted earnings", d.earnings ], [ "Earnings growth, last three years", d.growth ], [ "Recurring revenue", d.recurring ], [ "Five largest customers", d.top5 ], [ "Regulated industry", d.regulated ], [ "Role after a sale", d.involvement ], [ "Range shown", d.estimate ] ];
-  add("cr_contact_type", d.role === "Advisor to the owner" ? "intermediary" : "seller");
+  add("cr_contact_type", d.role === "Advisor to the owner" ? "inter" : "seller");
   co("offering_type", offering(d.kind, d.lead));
   L.push([ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Sectors", d.sector ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Revenue, trailing twelve months (USD)", d.revenue_raw, "cr_revenue_ltm" ], [ "Adjusted earnings, trailing twelve months (USD)", d.earnings_raw, "cr_adjusted_earnings_ltm" ]);
   add("cr_sector", d.sector_ids);
