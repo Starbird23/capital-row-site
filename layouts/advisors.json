@@ -1045,8 +1045,8 @@
   },
   "second.5": {
    "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "tag": "span",
+   "cls": "ft",
    "tags": [],
    "section": "second"
   },
@@ -1059,8 +1059,8 @@
   },
   "second.7": {
    "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "tag": "span",
+   "cls": "ft",
    "tags": [],
    "section": "second"
   },
@@ -1073,29 +1073,29 @@
   },
   "second.9": {
    "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
+   "tag": "span",
+   "cls": "ft",
    "tags": [],
    "section": "second"
   },
   "second.10": {
    "kind": "Text",
-   "tag": "b",
-   "cls": "you",
+   "tag": "p",
+   "cls": "src cen fineprint",
    "tags": [],
    "section": "second"
   },
   "second.11": {
    "kind": "Text",
-   "tag": "u",
-   "cls": "",
+   "tag": "p",
+   "cls": "src cen fineprint",
    "tags": [],
    "section": "second"
   },
   "second.12": {
-   "kind": "Paragraph",
+   "kind": "Text",
    "tag": "p",
-   "cls": "",
+   "cls": "src cen fineprint",
    "tags": [],
    "section": "second"
   },
@@ -1115,63 +1115,63 @@
   },
   "promise.3": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
-   "tags": [],
-   "section": "promise"
-  },
-  "promise.4": {
-   "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "promise"
   },
-  "promise.5": {
+  "promise.4": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "promise"
+  },
+  "promise.5": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "promise"
   },
   "promise.6": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
-   "tags": [],
-   "section": "promise"
-  },
-  "promise.7": {
-   "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "promise"
   },
-  "promise.8": {
+  "promise.7": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "promise"
+  },
+  "promise.8": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "promise"
   },
   "promise.9": {
    "kind": "Text",
-   "tag": "div",
-   "cls": "wn",
-   "tags": [],
-   "section": "promise"
-  },
-  "promise.10": {
-   "kind": "Text",
    "tag": "b",
    "cls": "",
    "tags": [],
    "section": "promise"
   },
-  "promise.11": {
+  "promise.10": {
    "kind": "Text",
-   "tag": "span",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "promise"
+  },
+  "promise.11": {
+   "kind": "Paragraph",
+   "tag": "p",
    "cls": "",
    "tags": [],
    "section": "promise"
@@ -1483,6 +1483,41 @@
    "cls": "src cen",
    "tags": [],
    "section": "next"
+  },
+  "second.13": {
+   "kind": "Text",
+   "tag": "i",
+   "cls": "fh",
+   "tags": [],
+   "section": "second"
+  },
+  "second.14": {
+   "kind": "Text",
+   "tag": "u",
+   "cls": "",
+   "tags": [],
+   "section": "second"
+  },
+  "second.15": {
+   "kind": "Paragraph",
+   "tag": "span",
+   "cls": "ft",
+   "tags": [],
+   "section": "second"
+  },
+  "second.16": {
+   "kind": "Paragraph",
+   "tag": "span",
+   "cls": "ft",
+   "tags": [],
+   "section": "second"
+  },
+  "second.17": {
+   "kind": "Paragraph",
+   "tag": "span",
+   "cls": "ft",
+   "tags": [],
+   "section": "second"
   }
  }
 }

@@ -1988,6 +1988,33 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 @media(max-width:560px){.snt{left:12px}.snt.snr{left:auto;right:12px}.sn.snr{left:12px;right:12px}}
 @media(max-width:400px){.rtb,.snt{padding:0 11px;letter-spacing:.03em}.snt{left:10px}.snt.snr{left:auto;right:10px}}
 @media(max-width:340px){.snt.snr{display:block}.snt.snr[hidden]{display:none}}
+
+/* advisors page: flip cards and the why-refer band */
+.flips{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1000px;margin:34px auto 0;perspective:1400px}
+.flip{position:relative;display:block;width:100%;min-height:270px;padding:0;margin:0;border:0;background:none;cursor:pointer;font:inherit;color:inherit;text-align:center;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.flip .ff,.flip .fb{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:30px 24px;border-radius:3px;-webkit-backface-visibility:hidden;backface-visibility:hidden;transition:transform .7s cubic-bezier(.22,1,.36,1)}
+.flip .ff{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--teal);box-shadow:0 16px 36px -24px rgba(12,50,52,.4)}
+.flip .fb{background:var(--deep);color:#F4F1EB;border-top:3px solid #C9A86A;transform:rotateY(180deg)}
+.flip.on .ff{transform:rotateY(-180deg)}.flip.on .fb{transform:rotateY(0)}
+@media(hover:hover) and (pointer:fine){.flip:hover .ff{transform:rotateY(-180deg)}.flip:hover .fb{transform:rotateY(0)}}
+.flip b{font-family:var(--ser);font-weight:400;font-size:44px;line-height:1;color:var(--teal)}
+.flip u{text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--deep)}
+.flip .fb u{color:#C9A86A}
+.flip .ft{font-size:15px;line-height:1.65;color:var(--ink2,#3a4a4b)}
+.flip .fb .ft{font-family:var(--ser);font-size:21px;line-height:1.4;color:#F4F1EB}
+.flip .fh{font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-top:4px}
+.flip .fh:after{content:" \21BB"}
+.flip:focus-visible{outline:2px solid var(--teal);outline-offset:4px;border-radius:3px}
+.fineprint{max-width:720px;margin:22px auto 0}
+#promise h2 em{color:#8FD4CB}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:1080px;margin:40px auto 0;text-align:left;border-top:1px solid rgba(143,212,203,.25)}
+.pillars .pl{padding:34px 30px 8px;border-left:1px solid rgba(143,212,203,.18)}
+.pillars .pl:first-child{border-left:0}
+.pillars b{display:block;font-family:var(--ser);font-weight:400;font-size:56px;line-height:1;color:#C9A86A;margin-bottom:18px}
+.pillars strong{display:block;font-family:var(--ser);font-weight:400;font-size:26px;line-height:1.25;color:#F4F1EB;margin-bottom:12px}
+.pillars p{font-size:14px;line-height:1.75;color:rgba(244,241,235,.78);margin:0}
+@media(max-width:760px){.flips{grid-template-columns:1fr;gap:14px}.flip{min-height:256px}.pillars{grid-template-columns:1fr}.pillars .pl{border-left:0;border-top:1px solid rgba(143,212,203,.18);padding:28px 4px 6px}.pillars .pl:first-child{border-top:0}.pillars b{font-size:44px;margin-bottom:12px}.pillars strong{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.flip .ff,.flip .fb{transition:none}}
 </style></head><body>
 <script type="application/json" id="crforms">{{forms:json}}</script>
 <script>
@@ -2106,25 +2133,17 @@ window.crSafe = function(s) {
 <span class="lab big">{{second.1}}</span>
 <h2 class="cen">{{second.2}}</h2>
 <p class="sd cen">{{second.3}}</p>
-<div class="cost howsteps"><div class="cc"><b>1</b><u>{{second.4}}</u><p>{{second.5}}</p></div><div class="cc"><b>2</b><u>{{second.6}}</u><p>{{second.7}}</p></div><div class="cc"><b>3</b><u>{{second.8}}</u><p>{{second.9}}</p></div><div class="cc lead"><b class="you">{{second.10}}</b><u>{{second.11}}</u><p>{{second.12}}</p></div></div>
+<div class="flips"><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>1</b><u>{{second.4}}</u><span class="ft">{{second.5}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.15}}</span></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>2</b><u>{{second.6}}</u><span class="ft">{{second.7}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.16}}</span></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>3</b><u>{{second.8}}</u><span class="ft">{{second.9}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.17}}</span></span></button></div>
+<p class="src cen fineprint">{{second.10}}: {{second.11}}. {{second.12}}</p>
 </div></section>
 
-<section class="rule" id="promise"><div class="wrap ctr">
+<section class="figpage" id="promise"><div class="wrap ctr">
 <span class="lab big">{{promise.1}}</span>
 <h2 class="cen">{{promise.2}}</h2>
-<div class="why">
- <div class="wr lead">
-  <div class="wn">{{promise.3}}</div>
-  <div class="wt"><b>{{promise.4}}</b><span>{{promise.5}}</span></div>
- </div>
- <div class="wr">
-  <div class="wn">{{promise.6}}</div>
-  <div class="wt"><b>{{promise.7}}</b><span>{{promise.8}}</span></div>
- </div>
- <div class="wr">
-  <div class="wn">{{promise.9}}</div>
-  <div class="wt"><b>{{promise.10}}</b><span>{{promise.11}}</span></div>
- </div>
+<div class="pillars">
+ <div class="pl"><b>{{promise.3}}</b><strong>{{promise.4}}</strong><p>{{promise.5}}</p></div>
+ <div class="pl"><b>{{promise.6}}</b><strong>{{promise.7}}</strong><p>{{promise.8}}</p></div>
+ <div class="pl"><b>{{promise.9}}</b><strong>{{promise.10}}</strong><p>{{promise.11}}</p></div>
 </div>
 </div></section>
 
@@ -4923,4 +4942,5 @@ window.crSecs = function(id) {
  wire("vckind", "vcleadw", null, null);
 })();
 </script>
+<script>(function(){document.querySelectorAll(".flip").forEach(function(b){b.addEventListener("click",function(){var on=!b.classList.contains("on");b.classList.toggle("on",on);b.setAttribute("aria-pressed",on?"true":"false");});});})();</script>
 </body></html>

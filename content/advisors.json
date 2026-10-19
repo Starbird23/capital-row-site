@@ -15,7 +15,7 @@
     {
      "key": "pgnav.2",
      "kind": "Link",
-     "text": "Three promises"
+     "text": "Why refer"
     },
     {
      "key": "pgnav.3",
@@ -132,12 +132,37 @@
     {
      "key": "second.11",
      "kind": "Text",
-     "text": "Five business days"
+     "text": "five business days"
     },
     {
      "key": "second.12",
      "kind": "Paragraph",
      "text": "Written, not a sales call. Nothing happens next unless your client wants to talk."
+    },
+    {
+     "key": "second.13",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "second.14",
+     "kind": "Text",
+     "text": "What it gives you"
+    },
+    {
+     "key": "second.15",
+     "kind": "Paragraph",
+     "text": "A concrete reason to raise the sale question with your client, before a buyer does."
+    },
+    {
+     "key": "second.16",
+     "kind": "Paragraph",
+     "text": "A buyer’s lens on the business, without opening the books to a buyer."
+    },
+    {
+     "key": "second.17",
+     "kind": "Paragraph",
+     "text": "A written read to inform your advice, or to share with your client alongside your own assessment."
     }
    ]
   },
@@ -148,17 +173,17 @@
     {
      "key": "promise.1",
      "kind": "Text",
-     "text": "Three promises"
+     "text": "Why advisors refer to us"
     },
     {
      "key": "promise.2",
      "kind": "Section headline",
-     "text": "What you can count on <em>every time.</em>"
+     "text": "Built to work alongside you, <em>not around you.</em>"
     },
     {
      "key": "promise.3",
      "kind": "Text",
-     "text": "1"
+     "text": "01"
     },
     {
      "key": "promise.4",
@@ -173,12 +198,12 @@
     {
      "key": "promise.6",
      "kind": "Text",
-     "text": "2"
+     "text": "02"
     },
     {
      "key": "promise.7",
      "kind": "Text",
-     "text": "You always know where things stand."
+     "text": "You stay informed."
     },
     {
      "key": "promise.8",
@@ -188,7 +213,7 @@
     {
      "key": "promise.9",
      "kind": "Text",
-     "text": "3"
+     "text": "03"
     },
     {
      "key": "promise.10",
