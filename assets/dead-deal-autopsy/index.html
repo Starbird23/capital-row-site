@@ -171,6 +171,16 @@ footer{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}.footm
 @media(max-width:620px){.casestack{padding-right:12px}.sheet.s1{transform:translate(5px,7px) rotate(1.2deg)}.sheet.s2{transform:translate(10px,13px) rotate(2deg)}}
 .deal .step h1:focus,.deal .step h1:focus-visible,.deal h1[tabindex="-1"]:focus{outline:none}
 .footprivacy{font-weight:600;color:var(--ink)!important}
+.capture.sentdone{grid-template-columns:1fr;justify-items:center;text-align:center;padding:56px 32px}
+.capture.sentdone .capleft{display:none}
+.capture.sentdone .success{border:0;padding:0;max-width:620px;display:flex;flex-direction:column;align-items:center}
+.capture.sentdone .success h3{font-size:clamp(30px,3.4vw,44px);line-height:1.1}
+.capture.sentdone .success .btn{width:auto;min-width:280px;justify-content:center;gap:14px}
+.deal .method,.deal .resultsback{max-width:none}
+.deal .method{text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
+.deal .method summary{display:inline-flex;gap:8px;justify-content:center;cursor:pointer}
+.deal .method[open]{text-align:left}.deal .method[open] summary{display:flex;justify-content:center}
+.deal .capture~.textbtn,.deal .method~.textbtn{display:block;margin:24px auto 0;text-align:center}
 </style>
 <script defer src="/dead-deal-autopsy/autopsy.js"></script>
 </head><body>
