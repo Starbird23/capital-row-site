@@ -1,0 +1,465 @@
+{
+ "path": "/join-capital-row/",
+ "seoTitle": "Join Capital Row: a founding group of M&A advisors",
+ "seoDescription": "For experienced M&A advisors: spend more time dealmaking and less time originating, with the intelligence, marketing and operating support behind your practice.",
+ "sections": [
+  {
+   "id": "pgnav",
+   "name": "Page links",
+   "items": [
+    {
+     "key": "pgnav.1",
+     "kind": "Link",
+     "text": "The pipeline"
+    },
+    {
+     "key": "pgnav.2",
+     "kind": "Link",
+     "text": "The infrastructure"
+    },
+    {
+     "key": "pgnav.3",
+     "kind": "Link",
+     "text": "Who should apply"
+    },
+    {
+     "key": "pgnav.4",
+     "kind": "Link",
+     "text": "Your practice"
+    },
+    {
+     "key": "pgnav.5",
+     "kind": "Link",
+     "text": "Questions"
+    }
+   ]
+  },
+  {
+   "id": "inner",
+   "name": "Top",
+   "items": [
+    {
+     "key": "inner.1",
+     "kind": "Text",
+     "text": "For experienced M&A advisors"
+    },
+    {
+     "key": "inner.2",
+     "kind": "Page headline",
+     "text": "Spend more time dealmaking. <em>Less time originating.</em>"
+    },
+    {
+     "key": "inner.3",
+     "kind": "Paragraph",
+     "text": "You bring transaction experience, sector knowledge and the judgment clients rely on. Capital Row brings the intelligence, marketing and operating support behind your practice. We are inviting a founding group of experienced advisors to help build a firm focused on vertical software and software-enabled businesses."
+    },
+    {
+     "key": "inner.4",
+     "kind": "Button",
+     "text": "Start a confidential conversation"
+    },
+    {
+     "key": "inner.5",
+     "kind": "Text",
+     "text": "Vertical software and software-enabled businesses"
+    },
+    {
+     "key": "inner.6",
+     "kind": "Text",
+     "text": "A founding group of advisors"
+    },
+    {
+     "key": "inner.7",
+     "kind": "Text",
+     "text": "Your judgment, our infrastructure"
+    }
+   ]
+  },
+  {
+   "id": "second",
+   "name": "The second opinion",
+   "items": [
+    {
+     "key": "second.1",
+     "kind": "Text",
+     "text": "The pipeline"
+    },
+    {
+     "key": "second.2",
+     "kind": "Section headline",
+     "text": "A stronger pipeline. <em>Support through the process.</em>"
+    },
+    {
+     "key": "second.3",
+     "kind": "Paragraph",
+     "text": "Finding the right opportunities takes research, consistent outreach and follow-through. Capital Row supports that work, so more of your time goes to client conversations, negotiations and execution."
+    },
+    {
+     "key": "second.4",
+     "kind": "Text",
+     "text": "Sector targeting"
+    },
+    {
+     "key": "second.5",
+     "kind": "Paragraph",
+     "text": "Buyer research, acquisition criteria and company profiles in the sectors you know."
+    },
+    {
+     "key": "second.6",
+     "kind": "Text",
+     "text": "Coordinated campaigns"
+    },
+    {
+     "key": "second.7",
+     "kind": "Paragraph",
+     "text": "Outreach to owners and buyers, planned with you and run consistently."
+    },
+    {
+     "key": "second.8",
+     "kind": "Text",
+     "text": "Qualification and follow-through"
+    },
+    {
+     "key": "second.9",
+     "kind": "Paragraph",
+     "text": "Conversations screened before they reach you, and tracked until they close or stop."
+    },
+    {
+     "key": "second.10",
+     "kind": "Text",
+     "text": "Origination"
+    },
+    {
+     "key": "second.11",
+     "kind": "Text",
+     "text": "a shared responsibility"
+    },
+    {
+     "key": "second.12",
+     "kind": "Paragraph",
+     "text": "Our role is to make it more focused and consistent."
+    },
+    {
+     "key": "second.13",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "second.14",
+     "kind": "Text",
+     "text": "What it gives you"
+    },
+    {
+     "key": "second.15",
+     "kind": "Paragraph",
+     "text": "Fewer cold starts. You begin with the sector, the buyers and the companies already mapped."
+    },
+    {
+     "key": "second.16",
+     "kind": "Paragraph",
+     "text": "A steady flow of outreach in your name, without writing every message yourself."
+    },
+    {
+     "key": "second.17",
+     "kind": "Paragraph",
+     "text": "Your time goes to the conversations most likely to become engagements."
+    }
+   ]
+  },
+  {
+   "id": "promise",
+   "name": "Three promises",
+   "items": [
+    {
+     "key": "promise.1",
+     "kind": "Text",
+     "text": "The infrastructure"
+    },
+    {
+     "key": "promise.2",
+     "kind": "Section headline",
+     "text": "The systems behind your practice, <em>ready on day one.</em>"
+    },
+    {
+     "key": "promise.3",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "promise.4",
+     "kind": "Text",
+     "text": "Systems and workflows."
+    },
+    {
+     "key": "promise.5",
+     "kind": "Text",
+     "text": "A shared CRM, follow-up processes, engagement tracking and templates that keep work moving."
+    },
+    {
+     "key": "promise.6",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "promise.7",
+     "kind": "Text",
+     "text": "Financial preparation and analysis."
+    },
+    {
+     "key": "promise.8",
+     "kind": "Text",
+     "text": "Configured analysis tools and documented calculations, with professional review where an engagement includes it."
+    },
+    {
+     "key": "promise.9",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "promise.10",
+     "kind": "Text",
+     "text": "Marketing that reflects your expertise."
+    },
+    {
+     "key": "promise.11",
+     "kind": "Text",
+     "text": "A professional advisor profile, sector content, social post drafts and campaign support. You approve what goes out under your name."
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "name": "What you get back",
+   "items": [
+    {
+     "key": "read.1",
+     "kind": "Text",
+     "text": "Who should apply"
+    },
+    {
+     "key": "read.2",
+     "kind": "Section headline",
+     "text": "Experienced dealmakers <em>who want a stronger platform.</em>"
+    },
+    {
+     "key": "read.3",
+     "kind": "Paragraph",
+     "text": "We are looking for advisors with a record of managing transactions and a commitment to working deals as a team."
+    },
+    {
+     "key": "read.4",
+     "kind": "Text",
+     "text": "A transaction record"
+    },
+    {
+     "key": "read.5",
+     "kind": "Text",
+     "text": "Experience taking engagements from first conversation to close."
+    },
+    {
+     "key": "read.6",
+     "kind": "Text",
+     "text": "Sector relationships"
+    },
+    {
+     "key": "read.7",
+     "kind": "Text",
+     "text": "Credible relationships with owners, buyers or investors in software or software-enabled industries."
+    },
+    {
+     "key": "read.8",
+     "kind": "Text",
+     "text": "Collaborative execution"
+    },
+    {
+     "key": "read.9",
+     "kind": "Text",
+     "text": "You work deals as part of a team, with shared research, materials and coordination."
+    },
+    {
+     "key": "read.10",
+     "kind": "Text",
+     "text": "Operating experience counts"
+    },
+    {
+     "key": "read.11",
+     "kind": "Text",
+     "text": "Software operating or corporate development experience is also relevant."
+    },
+    {
+     "key": "read.12",
+     "kind": "Text",
+     "text": "Matched responsibility"
+    },
+    {
+     "key": "read.13",
+     "kind": "Text",
+     "text": "Responsibilities are matched to demonstrated transaction capability."
+    }
+   ]
+  },
+  {
+   "id": "briefing",
+   "name": "The advisor briefing",
+   "items": [
+    {
+     "key": "briefing.1",
+     "kind": "Text",
+     "text": "Your practice"
+    },
+    {
+     "key": "briefing.2",
+     "kind": "Section headline",
+     "text": "Your name. <em>Clear terms.</em>"
+    },
+    {
+     "key": "briefing.3",
+     "kind": "Paragraph",
+     "text": "Have an established practice name? We welcome conversations about keeping your identity while affiliating with Capital Row."
+    },
+    {
+     "key": "briefing.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "briefing.5",
+     "kind": "Text",
+     "text": "Keep your name"
+    },
+    {
+     "key": "briefing.6",
+     "kind": "Paragraph",
+     "text": "Affiliate with Capital Row under your own practice name, with branding rules agreed in writing."
+    },
+    {
+     "key": "briefing.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "briefing.8",
+     "kind": "Text",
+     "text": "Build a practice brand"
+    },
+    {
+     "key": "briefing.9",
+     "kind": "Paragraph",
+     "text": "Selected advisors can develop a distinct practice brand, with ownership, licensing and any future purchase rights agreed in writing."
+    },
+    {
+     "key": "briefing.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "briefing.11",
+     "kind": "Text",
+     "text": "Shared economics"
+    },
+    {
+     "key": "briefing.12",
+     "kind": "Paragraph",
+     "text": "A defined split of collected advisory fees and a monthly platform fee for included services. We walk through the terms in a confidential conversation, and they are set out in writing before you join."
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "name": "Questions",
+   "items": [
+    {
+     "key": "faq.1",
+     "kind": "Text",
+     "text": "Questions"
+    },
+    {
+     "key": "faq.2",
+     "kind": "Section headline",
+     "text": "What advisors ask us <em>first.</em>"
+    },
+    {
+     "key": "faq.3",
+     "kind": "Text",
+     "text": "Do I have to leave my current firm to talk?"
+    },
+    {
+     "key": "faq.4",
+     "kind": "Paragraph",
+     "text": "No. Tell us about any commitments you have today, and we will respect them in every conversation."
+    },
+    {
+     "key": "faq.5",
+     "kind": "Text",
+     "text": "Who keeps my clients and contacts if I leave?"
+    },
+    {
+     "key": "faq.6",
+     "kind": "Paragraph",
+     "text": "Client attribution and departure terms are agreed in writing before you join, so both sides know the answer from the start."
+    },
+    {
+     "key": "faq.7",
+     "kind": "Text",
+     "text": "What does the platform include?"
+    },
+    {
+     "key": "faq.8",
+     "kind": "Paragraph",
+     "text": "Origination support, research, a shared CRM and workflows, financial preparation tools, marketing support and execution help matched to each engagement. A written support schedule sets out who does what, how often and at whose expense."
+    },
+    {
+     "key": "faq.9",
+     "kind": "Text",
+     "text": "Is every service running today?"
+    },
+    {
+     "key": "faq.10",
+     "kind": "Paragraph",
+     "text": "We are building with a founding group. Each service is in place before a founding advisor pays for it."
+    },
+    {
+     "key": "faq.11",
+     "kind": "Text",
+     "text": "Is this employment?"
+    },
+    {
+     "key": "faq.12",
+     "kind": "Paragraph",
+     "text": "No. Founding advisors affiliate with Capital Row under a written agreement covering services, compensation, brand and departure."
+    }
+   ]
+  },
+  {
+   "id": "next",
+   "name": "Closing band",
+   "items": [
+    {
+     "key": "next.1",
+     "kind": "Paragraph",
+     "text": "Help shape the founding team."
+    },
+    {
+     "key": "next.2",
+     "kind": "Paragraph",
+     "text": "Tell us about your sector, your transaction experience and the support that would make the greatest difference to your practice."
+    },
+    {
+     "key": "next.3",
+     "kind": "Button",
+     "text": "Start a confidential conversation"
+    },
+    {
+     "key": "next.4",
+     "kind": "Paragraph",
+     "text": "A confidential 30-minute conversation. Nothing to prepare."
+    },
+    {
+     "key": "next.5",
+     "kind": "Paragraph",
+     "text": "Capital Row is an independent advisory firm. Affiliation, compensation and brand terms are agreed in writing before any advisor joins."
+    }
+   ]
+  }
+ ]
+}
