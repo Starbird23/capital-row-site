@@ -87,57 +87,42 @@
     {
      "key": "second.2",
      "kind": "Section headline",
-     "text": "A stronger pipeline. <em>Support through the process.</em>"
+     "text": "We originate. <em>You advise.</em>"
     },
     {
      "key": "second.3",
      "kind": "Paragraph",
-     "text": "Finding the right opportunities takes research, consistent outreach and follow-through. Capital Row supports that work, so more of your time goes to client conversations, negotiations and execution."
+     "text": "Capital Row is the M&A firm for vertical software and software-enabled businesses. We run the origination: sector research, outreach and qualification, so your time goes to clients, negotiations and execution."
     },
     {
      "key": "second.4",
      "kind": "Text",
-     "text": "Sector targeting"
+     "text": "Sector intelligence"
     },
     {
      "key": "second.5",
      "kind": "Paragraph",
-     "text": "Buyer research, acquisition criteria and company profiles in the sectors you know."
+     "text": "Buyer research, acquisition criteria and company profiles, mapped in the sectors you know."
     },
     {
      "key": "second.6",
      "kind": "Text",
-     "text": "Coordinated campaigns"
+     "text": "Outreach under the Capital Row name"
     },
     {
      "key": "second.7",
      "kind": "Paragraph",
-     "text": "Outreach to owners and buyers, planned with you and run consistently."
+     "text": "Campaigns to owners and buyers, planned with you and run every week."
     },
     {
      "key": "second.8",
      "kind": "Text",
-     "text": "Qualification and follow-through"
+     "text": "Qualified introductions"
     },
     {
      "key": "second.9",
      "kind": "Paragraph",
-     "text": "Conversations screened before they reach you, and tracked until they close or stop."
-    },
-    {
-     "key": "second.10",
-     "kind": "Text",
-     "text": "Origination"
-    },
-    {
-     "key": "second.11",
-     "kind": "Text",
-     "text": "a shared responsibility"
-    },
-    {
-     "key": "second.12",
-     "kind": "Paragraph",
-     "text": "Our role is to make it more focused and consistent."
+     "text": "Conversations screened before they reach you, then tracked until they close or stop."
     },
     {
      "key": "second.13",
@@ -152,12 +137,12 @@
     {
      "key": "second.15",
      "kind": "Paragraph",
-     "text": "Fewer cold starts. You begin with the sector, the buyers and the companies already mapped."
+     "text": "You start with the sector, the buyers and the companies already mapped."
     },
     {
      "key": "second.16",
      "kind": "Paragraph",
-     "text": "A steady flow of outreach in your name, without writing every message yourself."
+     "text": "A steady flow of owner and buyer conversations, without running the campaigns yourself."
     },
     {
      "key": "second.17",
@@ -181,11 +166,6 @@
      "text": "The systems behind your practice, <em>ready on day one.</em>"
     },
     {
-     "key": "promise.3",
-     "kind": "Text",
-     "text": "01"
-    },
-    {
      "key": "promise.4",
      "kind": "Text",
      "text": "Systems and workflows."
@@ -194,11 +174,6 @@
      "key": "promise.5",
      "kind": "Text",
      "text": "A shared CRM, follow-up processes, engagement tracking and templates that keep work moving."
-    },
-    {
-     "key": "promise.6",
-     "kind": "Text",
-     "text": "02"
     },
     {
      "key": "promise.7",
@@ -211,19 +186,14 @@
      "text": "Configured analysis tools and documented calculations, with professional review where an engagement includes it."
     },
     {
-     "key": "promise.9",
-     "kind": "Text",
-     "text": "03"
-    },
-    {
      "key": "promise.10",
      "kind": "Text",
-     "text": "Marketing that reflects your expertise."
+     "text": "A brand that expands your presence."
     },
     {
      "key": "promise.11",
      "kind": "Text",
-     "text": "A professional advisor profile, sector content, social post drafts and campaign support. You approve what goes out under your name."
+     "text": "A professional advisor profile, sector content, social post drafts and campaign support that honor your expertise and extend your reach. You approve what goes out under your name."
     }
    ]
   },
@@ -239,62 +209,87 @@
     {
      "key": "read.2",
      "kind": "Section headline",
-     "text": "Experienced dealmakers <em>who want a stronger platform.</em>"
+     "text": "You bring the judgment. <em>We bring the flywheel.</em>"
     },
     {
      "key": "read.3",
      "kind": "Paragraph",
-     "text": "We are looking for advisors with a record of managing transactions and a commitment to working deals as a team."
+     "text": "Founding advisors bring transaction judgment and relationships. Capital Row brings the origination, intelligence and experience that keep a pipeline moving."
     },
     {
      "key": "read.4",
      "kind": "Text",
-     "text": "A transaction record"
+     "text": "What you bring"
     },
     {
      "key": "read.5",
      "kind": "Text",
-     "text": "Experience taking engagements from first conversation to close."
+     "text": "Transaction judgment"
     },
     {
      "key": "read.6",
      "kind": "Text",
-     "text": "Sector relationships"
+     "text": "You have taken engagements from first conversation to close."
     },
     {
      "key": "read.7",
      "kind": "Text",
-     "text": "Credible relationships with owners, buyers or investors in software or software-enabled industries."
+     "text": "Relationships"
     },
     {
      "key": "read.8",
      "kind": "Text",
-     "text": "Collaborative execution"
+     "text": "Owners, buyers or investors in software or software-enabled industries who take your call."
     },
     {
      "key": "read.9",
      "kind": "Text",
-     "text": "You work deals as part of a team, with shared research, materials and coordination."
+     "text": "A team approach"
     },
     {
      "key": "read.10",
      "kind": "Text",
-     "text": "Operating experience counts"
+     "text": "You work deals with shared research, materials and coordination."
     },
     {
      "key": "read.11",
      "kind": "Text",
-     "text": "Software operating or corporate development experience is also relevant."
+     "text": "What Capital Row brings"
     },
     {
      "key": "read.12",
      "kind": "Text",
-     "text": "Matched responsibility"
+     "text": "The origination flywheel"
     },
     {
      "key": "read.13",
      "kind": "Text",
-     "text": "Responsibilities are matched to demonstrated transaction capability."
+     "text": "Sector research, outreach and qualification running every week, so introductions keep coming."
+    },
+    {
+     "key": "read.14",
+     "kind": "Text",
+     "text": "Intelligence and materials"
+    },
+    {
+     "key": "read.15",
+     "kind": "Text",
+     "text": "Buyer maps, company profiles and deal materials prepared for each engagement."
+    },
+    {
+     "key": "read.16",
+     "kind": "Text",
+     "text": "Experience behind every deal"
+    },
+    {
+     "key": "read.17",
+     "kind": "Text",
+     "text": "Transaction and operating experience on each engagement, with professional review where the work calls for it."
+    },
+    {
+     "key": "read.18",
+     "kind": "Paragraph",
+     "text": "Software operating or corporate development experience counts too."
     }
    ]
   },
@@ -417,16 +412,6 @@
      "key": "faq.10",
      "kind": "Paragraph",
      "text": "We are building with a founding group. Each service is in place before a founding advisor pays for it."
-    },
-    {
-     "key": "faq.11",
-     "kind": "Text",
-     "text": "Is this employment?"
-    },
-    {
-     "key": "faq.12",
-     "kind": "Paragraph",
-     "text": "No. Founding advisors affiliate with Capital Row under a written agreement covering services, compensation, brand and departure."
     }
    ]
   },

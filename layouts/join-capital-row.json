@@ -1078,27 +1078,6 @@
    "tags": [],
    "section": "second"
   },
-  "second.10": {
-   "kind": "Text",
-   "tag": "p",
-   "cls": "src cen fineprint",
-   "tags": [],
-   "section": "second"
-  },
-  "second.11": {
-   "kind": "Text",
-   "tag": "p",
-   "cls": "src cen fineprint",
-   "tags": [],
-   "section": "second"
-  },
-  "second.12": {
-   "kind": "Text",
-   "tag": "p",
-   "cls": "src cen fineprint",
-   "tags": [],
-   "section": "second"
-  },
   "promise.1": {
    "kind": "Text",
    "tag": "span",
@@ -1113,13 +1092,6 @@
    "tags": [],
    "section": "promise"
   },
-  "promise.3": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "promise"
-  },
   "promise.4": {
    "kind": "Text",
    "tag": "strong",
@@ -1130,13 +1102,6 @@
   "promise.5": {
    "kind": "Paragraph",
    "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "promise"
-  },
-  "promise.6": {
-   "kind": "Text",
-   "tag": "b",
    "cls": "",
    "tags": [],
    "section": "promise"
@@ -1155,13 +1120,6 @@
    "tags": [],
    "section": "promise"
   },
-  "promise.9": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "promise"
-  },
   "promise.10": {
    "kind": "Text",
    "tag": "strong",
@@ -1175,97 +1133,6 @@
    "cls": "",
    "tags": [],
    "section": "promise"
-  },
-  "read.1": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "lab big",
-   "tags": [],
-   "section": "read"
-  },
-  "read.2": {
-   "kind": "Section headline",
-   "tag": "h2",
-   "cls": "cen",
-   "tags": [],
-   "section": "read"
-  },
-  "read.3": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "sd cen",
-   "tags": [],
-   "section": "read"
-  },
-  "read.4": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.5": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.6": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.7": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.8": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.9": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.10": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.11": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.12": {
-   "kind": "Text",
-   "tag": "b",
-   "cls": "",
-   "tags": [],
-   "section": "read"
-  },
-  "read.13": {
-   "kind": "Text",
-   "tag": "span",
-   "cls": "",
-   "tags": [],
-   "section": "read"
   },
   "briefing.1": {
    "kind": "Text",
@@ -1421,20 +1288,6 @@
    "tags": [],
    "section": "faq"
   },
-  "faq.11": {
-   "kind": "Text",
-   "tag": "summary",
-   "cls": "",
-   "tags": [],
-   "section": "faq"
-  },
-  "faq.12": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "faq"
-  },
   "next.1": {
    "kind": "Paragraph",
    "tag": "p",
@@ -1518,6 +1371,132 @@
    "cls": "ft",
    "tags": [],
    "section": "second"
+  },
+  "read.1": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "read"
+  },
+  "read.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "read"
+  },
+  "read.4": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.5": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.6": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.7": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.8": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.9": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.10": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.11": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.12": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.13": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.14": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.15": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.16": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.17": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "",
+   "tags": [],
+   "section": "read"
+  },
+  "read.18": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "read"
   }
  }
 }

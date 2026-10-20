@@ -2032,6 +2032,41 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 @media(max-width:760px){.flips{grid-template-columns:1fr;gap:14px}.flip{min-height:256px}.pillars{grid-template-columns:1fr}.pillars .pl{border-left:0;border-top:1px solid rgba(143,212,203,.18);padding:28px 4px 6px}.pillars .pl:first-child{border-top:0}.pillars b{font-size:44px;margin-bottom:12px}.pillars strong{font-size:23px}}
 @media(prefers-reduced-motion:reduce){.flip .ff,.flip .fb{transition:none}}
 
+/* join page: pipeline cards, infrastructure, what you bring */
+#second .flips{max-width:1080px;gap:22px}
+#second .flip{min-height:300px;text-align:left}
+#second .flip .ff,#second .flip .fb{align-items:flex-start;justify-content:flex-start;gap:14px;padding:30px 28px 24px;border-radius:6px}
+#second .flip .ff{border:1px solid var(--line);border-top:1px solid var(--line);box-shadow:0 1px 0 rgba(12,50,52,.04),0 18px 40px -28px rgba(12,50,52,.45)}
+#second .flip .ico{flex:none;width:46px;height:46px;border-radius:50%;background:rgba(20,112,110,.09);display:grid;place-items:center;color:var(--teal)}
+#second .flip .ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+#second .flip .ico .f{fill:currentColor}
+#second .flip u{font-family:var(--ser);font-size:25px;line-height:1.2;letter-spacing:0;text-transform:none;color:var(--ink)}
+#second .flip .ft{font-size:15.5px;line-height:1.65}
+#second .flip .fh{margin-top:auto;width:100%;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px}
+#second .flip .fb u{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:#C9A86A}
+#second .flip .fb .ft{font-size:22px}
+#second .flip .fb .fh{color:#8FD4CB;border-top-color:rgba(143,212,203,.25)}
+#second .flip .fb .fh:after{content:""}
+#second .flip:hover .ff{border-color:rgba(20,112,110,.45)}
+#promise .pillars{gap:20px;border-top:0;margin-top:44px}
+#promise .pillars .pl{border:1px solid rgba(143,212,203,.2);border-radius:6px;background:rgba(255,255,255,.035);padding:30px 28px}
+#promise .pico{display:grid;place-items:center;width:48px;height:48px;border-radius:50%;border:1px solid rgba(201,168,106,.55);color:#C9A86A;margin-bottom:22px}
+#promise .pico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.bring{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:22px;align-items:stretch;max-width:1040px;margin:40px auto 0;text-align:left}
+.bcol{border-radius:6px;padding:30px 30px 14px;display:flex;flex-direction:column}
+.bcol.you{background:var(--card);border:1px solid var(--line)}
+.bcol.cr{background:var(--deep);color:#F4F1EB}
+.bh{font-family:var(--mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal);margin-bottom:10px}
+.bcol.cr .bh{color:#C9A86A}
+.bi{padding:16px 0;border-top:1px solid var(--line)}
+.bcol.cr .bi{border-top-color:rgba(143,212,203,.2)}
+.bi strong{display:block;font-family:var(--ser);font-weight:500;font-size:22px;line-height:1.25;margin-bottom:6px;color:var(--ink)}
+.bcol.cr .bi strong{color:#F4F1EB}
+.bi span{display:block;font-size:15px;line-height:1.65;color:var(--ink2)}
+.bcol.cr .bi span{color:#CBD8D6}
+.bplus{align-self:center;font-family:var(--ser);font-size:40px;color:#C79A5C;line-height:1}
+@media(max-width:760px){#promise .pillars .pl{border-top:1px solid rgba(143,212,203,.2)}.bring{grid-template-columns:1fr;gap:12px}.bplus{justify-self:center}#second .flip{min-height:280px}}
+
 .figpage .mdlede a,.figpage .bcfine a,.bcfine a{color:#8FD4CB;text-decoration:underline;text-underline-offset:3px}
 </style></head><body>
 <script type="application/json" id="crforms">{{forms:json}}</script>
@@ -2152,17 +2187,16 @@ window.crSafe = function(s) {
 <span class="lab big">{{second.1}}</span>
 <h2 class="cen">{{second.2}}</h2>
 <p class="sd cen">{{second.3}}</p>
-<div class="flips"><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>1</b><u>{{second.4}}</u><span class="ft">{{second.5}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.15}}</span></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>2</b><u>{{second.6}}</u><span class="ft">{{second.7}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.16}}</span></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><b>3</b><u>{{second.8}}</u><span class="ft">{{second.9}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.17}}</span></span></button></div>
-<p class="src cen fineprint">{{second.10}}: {{second.11}}. {{second.12}}</p>
+<div class="flips"><button class="flip" type="button" aria-pressed="false"><span class="ff"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" class="f"/></svg></span><u>{{second.4}}</u><span class="ft">{{second.5}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.15}}</span><i class="fh">01</i></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 11.5 20.5 4l-6.5 16.5-3-6.5z"/><path d="m11 14 9.5-10"/></svg></span><u>{{second.6}}</u><span class="ft">{{second.7}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.16}}</span><i class="fh">02</i></span></button><button class="flip" type="button" aria-pressed="false"><span class="ff"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h9M4 18h7"/><path d="m15 17 2.2 2.2L21 15"/></svg></span><u>{{second.8}}</u><span class="ft">{{second.9}}</span><i class="fh">{{second.13}}</i></span><span class="fb"><u>{{second.14}}</u><span class="ft">{{second.17}}</span><i class="fh">03</i></span></button></div>
 </div></section>
 
 <section class="figpage" id="promise"><div class="wrap ctr">
 <span class="lab big">{{promise.1}}</span>
 <h2 class="cen">{{promise.2}}</h2>
 <div class="pillars">
- <div class="pl"><b>{{promise.3}}</b><strong>{{promise.4}}</strong><p>{{promise.5}}</p></div>
- <div class="pl"><b>{{promise.6}}</b><strong>{{promise.7}}</strong><p>{{promise.8}}</p></div>
- <div class="pl"><b>{{promise.9}}</b><strong>{{promise.10}}</strong><p>{{promise.11}}</p></div>
+ <div class="pl"><span class="pico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4" width="7" height="6" rx="1"/><rect x="13.5" y="14" width="7" height="6" rx="1"/><path d="M7 10v4.5a2.5 2.5 0 0 0 2.5 2.5h4M17 14V9.5A2.5 2.5 0 0 0 14.5 7h-4"/></svg></span><strong>{{promise.4}}</strong><p>{{promise.5}}</p></div>
+ <div class="pl"><span class="pico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V4M4 20h16"/><path d="M8 16v-4M12 16V8M16 16v-6"/></svg></span><strong>{{promise.7}}</strong><p>{{promise.8}}</p></div>
+ <div class="pl"><span class="pico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5 14.6 9l6 .7-4.5 4.1 1.2 5.9L12 16.8l-5.3 2.9 1.2-5.9L3.4 9.7l6-.7z"/></svg></span><strong>{{promise.10}}</strong><p>{{promise.11}}</p></div>
 </div>
 </div></section>
 
@@ -2170,7 +2204,20 @@ window.crSafe = function(s) {
 <span class="lab big">{{read.1}}</span>
 <h2 class="cen">{{read.2}}</h2>
 <p class="sd cen">{{read.3}}</p>
-<ol class="klist"><li><b>{{read.4}}</b><span>{{read.5}}</span></li><li><b>{{read.6}}</b><span>{{read.7}}</span></li><li><b>{{read.8}}</b><span>{{read.9}}</span></li><li><b>{{read.10}}</b><span>{{read.11}}</span></li><li><b>{{read.12}}</b><span>{{read.13}}</span></li></ol>
+<div class="bring">
+ <div class="bcol you"><span class="bh">{{read.4}}</span>
+  <div class="bi"><strong>{{read.5}}</strong><span>{{read.6}}</span></div>
+  <div class="bi"><strong>{{read.7}}</strong><span>{{read.8}}</span></div>
+  <div class="bi"><strong>{{read.9}}</strong><span>{{read.10}}</span></div>
+ </div>
+ <div class="bplus" aria-hidden="true">+</div>
+ <div class="bcol cr"><span class="bh">{{read.11}}</span>
+  <div class="bi"><strong>{{read.12}}</strong><span>{{read.13}}</span></div>
+  <div class="bi"><strong>{{read.14}}</strong><span>{{read.15}}</span></div>
+  <div class="bi"><strong>{{read.16}}</strong><span>{{read.17}}</span></div>
+ </div>
+</div>
+<p class="src cen" style="margin-top:22px">{{read.18}}</p>
 </div></section>
 
 <section class="figpage" id="briefing"><div class="wrap">
@@ -2190,7 +2237,7 @@ window.crSafe = function(s) {
 <section class="rule" id="faq"><div class="wrap ctr">
 <span class="lab big">{{faq.1}}</span>
 <h2 class="cen">{{faq.2}}</h2>
-<div class="faq"><details><summary>{{faq.3}}</summary><p>{{faq.4}}</p></details><details><summary>{{faq.5}}</summary><p>{{faq.6}}</p></details><details><summary>{{faq.7}}</summary><p>{{faq.8}}</p></details><details><summary>{{faq.9}}</summary><p>{{faq.10}}</p></details><details><summary>{{faq.11}}</summary><p>{{faq.12}}</p></details></div>
+<div class="faq"><details><summary>{{faq.3}}</summary><p>{{faq.4}}</p></details><details><summary>{{faq.5}}</summary><p>{{faq.6}}</p></details><details><summary>{{faq.7}}</summary><p>{{faq.8}}</p></details><details><summary>{{faq.9}}</summary><p>{{faq.10}}</p></details></div>
 </div></section>
 
 <section class="alt" id="next"><div class="wrap">
