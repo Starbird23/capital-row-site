@@ -378,6 +378,29 @@
    "cls": "btn b3",
    "tags": [],
    "section": "card"
+  },
+  "sh.ck.1": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"/privacy/#cookies\">"
+   ],
+   "section": "ck"
+  },
+  "sh.ck.2": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckno",
+   "tags": [],
+   "section": "ck"
+  },
+  "sh.ck.3": {
+   "kind": "Button",
+   "tag": "button",
+   "cls": "ckyes",
+   "tags": [],
+   "section": "ck"
   }
  }
 }
