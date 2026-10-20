@@ -77,7 +77,7 @@
   },
   {
    "id": "second",
-   "name": "The second opinion",
+   "name": "The pipeline",
    "items": [
     {
      "key": "second.1",
@@ -168,7 +168,7 @@
   },
   {
    "id": "promise",
-   "name": "Three promises",
+   "name": "The infrastructure",
    "items": [
     {
      "key": "promise.1",
@@ -229,7 +229,7 @@
   },
   {
    "id": "read",
-   "name": "What you get back",
+   "name": "Who should apply",
    "items": [
     {
      "key": "read.1",
@@ -300,7 +300,7 @@
   },
   {
    "id": "briefing",
-   "name": "The advisor briefing",
+   "name": "Your practice",
    "items": [
     {
      "key": "briefing.1",
