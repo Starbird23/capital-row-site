@@ -104,6 +104,84 @@ footer{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap}.footm
 .fitsection .micro{margin-top:14px}
 .actions{justify-content:center;align-items:center}
 @media (max-width:760px){.questiondetail summary{grid-template-columns:minmax(0,1fr) 18px;row-gap:10px}.questiondetail summary .meter{grid-column:1;grid-row:2}.questiondetail summary .status{grid-column:1;grid-row:3}.questiondetail summary>svg{grid-column:2;grid-row:1}.fitqs{grid-template-columns:1fr}.fitsection{padding:30px 20px}.plansteps h3{min-height:0}}
+
+/* Dead Deal Autopsy */
+.verdicts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:10px 0 40px}
+.verdicts>div{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:26px;display:flex;flex-direction:column;gap:10px;text-align:center;align-items:center}
+.verdicts strong{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:28px;line-height:1.15;color:var(--ink)}
+.verdicts p{margin:0;font-size:15px;line-height:1.6;color:var(--muted)}
+.verdicts .meter{width:100%;max-width:240px}
+.autopsyqs{max-width:1100px;margin:10px auto 50px}.autopsyqs small{font-size:15px;line-height:1.55;color:var(--muted)}
+.deal .reqno{font-family:'Outfit',sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#C79A5C;width:90px}
+.deal .request{grid-template-columns:110px 1fr auto}
+.cen{text-align:center}
+@media (max-width:760px){.verdicts{grid-template-columns:1fr}.deal .request{grid-template-columns:1fr}.deal .reqstatus{justify-self:start}}
+.deal .field>span{display:inline;font-size:inherit;opacity:.7}
+.deal .plansteps{display:flex;flex-wrap:wrap;justify-content:center}
+.deal .plansteps article{flex:0 1 calc((100% - 40px)/3);min-width:260px}
+@media (max-width:760px){.deal .plansteps article{flex-basis:100%}}
+.deal .plansteps h3{min-height:0}
+/* Case file stack */
+.deal .autopsyqs{max-width:none;margin:10px 0 50px}
+.casestack{position:relative;width:100%;max-width:520px;justify-self:end}
+.stackcards{position:relative;display:grid}
+.stackcards>*{grid-area:1/1}
+.sheet{background:#0C3234;border-radius:6px;box-shadow:0 10px 24px #163d3418}
+.sheet.s1{transform:translate(10px,10px) rotate(2.4deg);background:#14504F}
+.sheet.s2{transform:translate(20px,18px) rotate(4.6deg);background:#1E6664;opacity:.8}
+.casecard{position:relative;background:var(--dark);border-radius:6px;padding:22px;box-shadow:0 18px 35px #163d3420;transform:rotate(-1deg);display:flex;flex-direction:column;z-index:2}
+.casecard.top{animation:caseIn .5s ease both}
+.casecard.leaving{z-index:3;animation:caseOut .5s ease both;pointer-events:none}
+@keyframes caseIn{from{transform:translate(14px,12px) rotate(2deg);opacity:.6}to{transform:rotate(-1deg);opacity:1}}
+@keyframes caseOut{from{transform:rotate(-1deg);opacity:1}to{transform:translate(-120px,-30px) rotate(-14deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.casecard.top,.casecard.leaving{animation:none}.casecard.leaving{display:none}}
+.casehead{display:flex;justify-content:space-between;color:#BFDCDC;font-size:12px;letter-spacing:.14em;padding:0 1px 16px}
+.casebody{background:var(--paper);border:1px solid #cdbb8e;padding:24px;display:flex;flex-direction:column;flex:1}
+.casevert{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#C79A5C;margin:0 0 6px;font-weight:600}
+.casebody h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:32px;line-height:1.08;margin:0 0 4px;color:var(--ink)}
+.casebuyer{font-size:14px;color:var(--muted);margin:0 0 14px}
+.casebody dl{margin:0 0 12px;border-top:1px solid var(--line)}
+.casebody dl>div{display:grid;grid-template-columns:70px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.casebody dt{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#C79A5C;padding-top:2px}
+.casebody dd{margin:0;font-size:15px;line-height:1.45;color:var(--ink);font-weight:500}
+.casewhat{font-size:14.5px;line-height:1.6;color:var(--ink);margin:0 0 12px}
+.caselesson{font-size:14px;line-height:1.55;color:var(--muted);margin:0 0 16px;padding-left:12px;border-left:3px solid #14706E}
+.caselesson b{display:block;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:#14706E;margin-bottom:3px}
+.casefoot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.casefoot a{font-size:12.5px;color:var(--muted);text-decoration:underline;text-underline-offset:3px;max-width:60%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.casestamp{display:inline-block;padding:6px 10px;border:1.5px solid #a84532;color:#a84532;font-size:12px;font-weight:700;letter-spacing:.1em;transform:rotate(-3deg);background:#fff8ed}
+.casestamp.o-repriced{border-color:#92652f;color:#92652f}
+.stacknav{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:30px;font-size:13px;color:var(--muted)}
+.stacknav button{all:unset;cursor:pointer;width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;color:var(--ink);background:var(--paper)}
+.stacknav button:hover{border-color:#14706E;color:#14706E}
+.stacknav button:focus-visible{outline:3px solid #a48537;outline-offset:2px}
+@media(max-width:620px){.casestack{justify-self:stretch}.casecard{transform:none;padding:16px}.casebody{padding:18px}.casebody h3{font-size:28px}.sheet.s1{transform:translate(6px,8px) rotate(1.6deg)}.sheet.s2{transform:translate(12px,14px) rotate(3deg)}@keyframes caseIn{from{opacity:.4}to{opacity:1}}}
+.deal .autopsyqs{margin-top:30px}
+.verdicts{align-items:stretch}
+.verdicts>div{justify-content:flex-start}
+.verdicts strong{min-height:2.3em;display:flex;align-items:center;justify-content:center}
+.verdicts .meter.vspace{visibility:hidden}
+@media (max-width:760px){.verdicts strong{min-height:0}.verdicts .meter.vspace{display:none}}
+.casecard.idle{visibility:hidden}
+.stacknote{font-size:12.5px;color:var(--muted);text-align:center;margin:26px 0 0}
+.stacknav{margin-top:12px}
+.casestack{min-width:0}.stackcards{grid-template-columns:minmax(0,1fr)}.casecard,.casebody{min-width:0}
+.founderhero>*{min-width:0}
+.sheet.s2{transform:translate(12px,16px) rotate(3.2deg)}.sheet.s1{transform:translate(6px,8px) rotate(1.8deg)}
+@media(max-width:620px){.casestack{padding-right:12px}.sheet.s1{transform:translate(5px,7px) rotate(1.2deg)}.sheet.s2{transform:translate(10px,13px) rotate(2deg)}}
+.deal .step h1:focus,.deal .step h1:focus-visible,.deal h1[tabindex="-1"]:focus{outline:none}
+.footprivacy{font-weight:600;color:var(--ink)!important}
+.capture.sentdone{grid-template-columns:1fr;justify-items:center;text-align:center;padding:56px 32px}
+.capture.sentdone .capleft{display:none}
+.capture.sentdone .success{border:0;padding:0;max-width:620px;display:flex;flex-direction:column;align-items:center}
+.capture.sentdone .success h3{font-size:clamp(30px,3.4vw,44px);line-height:1.1}
+.capture.sentdone .success .btn{width:auto;min-width:280px;justify-content:center;gap:14px}
+.deal .method,.deal .resultsback{max-width:none}
+.deal .method{text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
+.deal .method summary{display:inline-flex;gap:8px;justify-content:center;cursor:pointer}
+.deal .method[open]{text-align:left}.deal .method[open] summary{display:flex;justify-content:center}
+.deal .capture~.textbtn,.deal .method~.textbtn{display:block;margin:24px auto 0;text-align:center}
+.casecite{font-size:12px;font-style:italic;color:var(--muted);margin:-8px 0 14px}
 </style>
 <script defer src="/dealbreaker-scan/scan.js"></script>
 </head><body>
