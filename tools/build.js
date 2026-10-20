@@ -83,7 +83,8 @@ async function loadContent() {
     const o = path.join(OUT, rel); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.writeFileSync(o, html); n++;
   }
   if (ASSETS && ASSETS !== '-') {
-    (function copy(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) copy(p); else if (!e.name.endsWith('.html') || e.name === '404.html') { const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.copyFileSync(p, o); } } })(ASSETS);
+    (function copy(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) copy(p); else if (!e.name.endsWith('.html') || e.name === '404.html' || path.relative(ASSETS, p).includes(path.sep)) {  // standalone pages live in their own folder (e.g. dealbreaker-scan/index.html)
+ const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.copyFileSync(p, o); } } })(ASSETS);
   }
   if (forms) fs.writeFileSync(path.join(OUT, 'forms-config.json'), JSON.stringify(forms));   // read by the form server (functions/) to check choices
   missing = [...new Set(missing)];
