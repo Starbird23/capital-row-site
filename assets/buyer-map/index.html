@@ -417,6 +417,33 @@ ul.weak li::marker{color:#a84532}
 @media (max-width:1000px){.scgrid,.analysis{grid-template-columns:1fr}.scstage{min-height:0}}
 @media (max-width:640px){.bm2 .bmfacts{grid-template-columns:1fr;gap:22px}.sctrow{grid-template-columns:70px 1fr}.sctrow span:last-child{grid-column:2;text-align:left}.scspec>div{grid-template-columns:1fr 110px}.analysis{padding-top:30px}.analysis li:first-child{font-size:22px}}
 .analysis li,.scstage{font-variant-numeric:lining-nums}.radar .coretitle.two{font-size:16.5px}.radar .core{r:60}
+/* Buyer Map v4: hero form, finish */
+.heroform{margin-top:6px;max-width:560px}
+.hfgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin-bottom:12px}
+.heroform .field{font-size:13px;color:#3c4f4f;display:flex;flex-direction:column;gap:6px}
+.heroform .field>span{display:inline;opacity:.7}
+.heroform input:not([type=checkbox]){border:1px solid #C9D6D6;background:#fff;padding:12px 13px;font:inherit;font-size:15px;border-radius:3px;color:var(--bmink)}
+.heroform input:focus{outline:2px solid #14706E;outline-offset:1px}
+.heroform .check{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:#3c4f4f;margin:4px 0 18px}
+.heroform .check input{margin-top:3px;flex:none}
+.heroform .check a{color:#14706E}
+.bmgift{display:flex;gap:10px;align-items:flex-start;margin:18px 0 0;padding:14px 16px;border-left:3px solid #C79A5C;background:#fbf8f1;font-size:14px;line-height:1.55;color:#3c4f4f}
+.bmgift svg{flex:none;color:#C79A5C;margin-top:2px}
+.finish{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:44px;background:var(--bmink);color:#E6F1F0;border-radius:4px;padding:44px;margin:20px 0 40px}
+.finish h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(34px,3.4vw,46px);color:#fff;margin:0 0 12px;text-align:left}
+.fintext p{color:#BFDCDC;font-size:15.5px;line-height:1.6;margin:0 0 18px}
+.fintext .textbtn{color:#BDEFEF;display:inline-flex;gap:6px;align-items:center}
+.finactions{display:flex;flex-direction:column;gap:12px}
+.finact{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;padding:18px 20px;border:1px solid #2C5456;border-radius:4px;text-decoration:none;color:#E6F1F0;transition:background .15s,border-color .15s}
+.finact:hover{background:#0f3a3c;border-color:#8FD4CB}
+.finact:focus-visible{outline:2px solid #C79A5C;outline-offset:2px}
+.finact b{display:block;font-size:16px;color:#fff;margin-bottom:3px}
+.finact small{display:block;font-size:13.5px;line-height:1.5;color:#9FBFBF}
+.finact svg:first-child{color:#8FD4CB}
+.finact.gift{border-color:#C79A5C;background:#C79A5C14}.finact.gift svg:first-child{color:#C79A5C}
+@media (max-width:1000px){.finish{grid-template-columns:1fr;padding:30px 24px}}
+@media (max-width:640px){.hfgrid{grid-template-columns:1fr}}
+.heroform .field .lab{opacity:1}.heroform .field .lab i{font-style:normal;opacity:.7}
 </style>
 <script defer src="/buyer-map/map.js"></script>
 </head><body>
