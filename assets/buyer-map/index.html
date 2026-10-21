@@ -365,6 +365,58 @@ ul.weak li::marker{color:#a84532}
 .bm2 .followups fieldset{border:0;border-top:1px solid var(--line);border-radius:0;background:none;padding:16px 0 0}
 .bm2 .followups legend{padding:0 0 10px;font-size:15px;float:left;width:100%}
 .bm2 .followups .chips{clear:both}
+/* Buyer Map v3 additions */
+.bm2 .bmfacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin:10px 0 0}
+.bm2 .bmfacts>div{display:flex;flex-direction:column;gap:8px}
+.bm2 .bmfacts b{margin:0}
+.bm2 .bmfacts p{margin:0}
+.bmsrc{font-size:13.5px;color:#5C6B6B;margin:14px 0 64px}
+.showcase{margin:0 0 64px}
+.showcase h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(32px,3.4vw,46px);line-height:1.08;margin:0 0 26px;text-align:left}
+.scgrid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:36px;align-items:stretch}
+.sclist{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.sclist li{position:relative;border-bottom:1px solid var(--line)}
+.sclist button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:40px 1fr;gap:14px;padding:20px 8px 20px 0;width:100%}
+.sclist .scno{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1;color:#C9BFA8;font-variant-numeric:lining-nums}
+.sclist b{display:block;font-size:17px;color:var(--bmink);margin-bottom:4px}
+.sclist small{display:block;font-size:14.5px;line-height:1.55;color:#5C6B6B}
+.sclist li.on .scno{color:#C79A5C}
+.sclist li:not(.on) b{color:#5C6B6B}
+.sclist button:focus-visible{outline:2px solid #a48537;outline-offset:2px}
+.sctimer{position:absolute;left:0;bottom:-1px;height:2px;background:#14706E;animation:scbar 5.2s linear both}
+@keyframes scbar{from{width:0}to{width:100%}}
+.scstage{background:var(--bmdeep);border-radius:4px;padding:26px;min-height:440px;display:flex;flex-direction:column;justify-content:center;color:#DCEAE9;box-shadow:0 30px 60px -24px #07232566;min-width:0}
+.scstage .radar{max-width:440px;margin:0 auto}
+.sctape{display:flex;flex-direction:column;gap:0}
+.sctrow{display:grid;grid-template-columns:86px 1fr auto;gap:14px;padding:14px 0;border-bottom:1px solid var(--bmrule);align-items:baseline;animation:scin .5s ease both}
+.sctrow span:first-child{color:#9FBFBF;font-size:13px}.sctrow b{font-weight:600;color:#fff}.sctrow span:last-child{font-size:13px;color:#9FBFBF;text-align:right}
+.sccap{font-size:12.5px;color:#7FA3A3;margin:16px 0 0}
+.scfile h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;color:#fff;margin:0 0 12px}
+.scfile ul{margin:0 0 14px;padding-left:18px;font-size:14.5px;line-height:1.6}
+.scfile dl{margin:0}.scfile dl>div{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:7px 0;border-top:1px solid var(--bmrule);font-size:14px}
+.scfile dt{color:#9FBFBF}.scfile dd{margin:0}.scfile dd.nc{color:var(--bmbrass);font-style:italic}
+.scfile,.scspec{animation:scin .5s ease both}
+.scspec>div{display:grid;grid-template-columns:1fr 150px;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--bmrule);animation:scin .5s ease both;font-size:15px}
+.scspec .specbar i{background:#1d4446}.scspec .specbar.l3 i{background:#8FD4CB}.scspec .specbar.l2 i:nth-child(-n+2){background:#C79A5C}.scspec .specbar.l1 i:first-child{background:#C2603F}.scspec .specbar.l0 i{background:repeating-linear-gradient(135deg,#3b5f60 0 4px,transparent 4px 8px)}
+@keyframes scin{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.sctrow,.scfile,.scspec,.scspec>div{animation:none}.sctimer{display:none}}
+.youstep .formgrid{margin-bottom:8px}
+.youform .check{color:#3c4f4f}
+.youform .check a{color:#14706E}
+.youform .stepnav{margin-top:26px}
+.analysis{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;padding:56px 0 70px}
+.ankick{font-size:15px;font-weight:600;color:#14706E;margin:0 0 18px}
+.analysis ol{list-style:none;margin:0 0 28px;padding:0;border-top:1px solid var(--line)}
+.analysis li{padding:14px 0;border-bottom:1px solid var(--line);font-size:17px;line-height:1.5;color:var(--bmink);animation:scin .45s ease both}
+.analysis li:first-child{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;line-height:1.25}
+.anwait{display:flex;gap:6px}.anwait i{width:7px;height:7px;border-radius:50%;background:#C79A5C;animation:blink 1s infinite}.anwait i:nth-child(2){animation-delay:.2s}.anwait i:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+.anfig{background:var(--bmdeep);border-radius:4px;padding:22px;box-shadow:0 30px 60px -24px #07232566}
+.capsum{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.2;color:#fff;margin:0 0 22px}
+.capsum span{font-family:'Outfit',sans-serif;font-size:14px;color:#C3D9D9}
+@media (max-width:1000px){.scgrid,.analysis{grid-template-columns:1fr}.scstage{min-height:0}}
+@media (max-width:640px){.bm2 .bmfacts{grid-template-columns:1fr;gap:22px}.sctrow{grid-template-columns:70px 1fr}.sctrow span:last-child{grid-column:2;text-align:left}.scspec>div{grid-template-columns:1fr 110px}.analysis{padding-top:30px}.analysis li:first-child{font-size:22px}}
+.analysis li,.scstage{font-variant-numeric:lining-nums}.radar .coretitle.two{font-size:16.5px}.radar .core{r:60}
 </style>
 <script defer src="/buyer-map/map.js"></script>
 </head><body>
