@@ -12,13 +12,14 @@ export const HC = { bh: 'Behavioral health', aba: 'ABA and autism services', hhh
 export const NONHC = { freight: 'Freight and logistics', field: 'Field service', construction: 'Construction', other: 'Other vertical software' };
 export const CATS = Object.assign({}, HC, NONHC);
 
+export const apiKey = (env) => env.ANTHROPIC_API_KEY || env.CR_ANTHROPIC_KEY || '';
 const API = (env) => (env.ANTHROPIC_BASE || 'https://api.anthropic.com') + '/v1/messages';
 
 export async function claude(env, body, timeoutMs) {
   const ctl = new AbortController(); const t = setTimeout(() => ctl.abort(), timeoutMs || 60000);
   try {
     const r = await fetch(API(env), { method: 'POST', signal: ctl.signal,
-      headers: { 'content-type': 'application/json', 'x-api-key': env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01' }, body: JSON.stringify(body) });
+      headers: { 'content-type': 'application/json', 'x-api-key': apiKey(env), 'anthropic-version': '2023-06-01' }, body: JSON.stringify(body) });
     const text = await r.text();
     if (!r.ok) throw new Error('anthropic ' + r.status + ': ' + text.slice(0, 200));
     return JSON.parse(text);

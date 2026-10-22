@@ -1,7 +1,7 @@
 // POST /api/buyer-research: for a company outside healthcare, the AI looks up acquisitions in its industry; every deal is checked
 // against its page (server/ai.js); the result goes to HubSpot on the owner's contact, for Capital Row to review. The owner sees nothing from it.
 import { json, originOk, cleanFields, sendToHubSpot, formFor, alert, loadConfig } from '../../server/core.js';
-import { research, researchReport, underLimit, NONHC } from '../../server/ai.js';
+import { research, researchReport, underLimit, NONHC, apiKey } from '../../server/ai.js';
 export async function onRequestPost({ request, env }) {
   if (!request.headers.get('Origin') || !originOk(request, env)) return json({ ok: false, reason: 'origin' }, 403);
   let b; try { b = JSON.parse((await request.text()).slice(0, 8000)); } catch (e) { return json({ ok: false, reason: 'json' }, 400); }
@@ -10,7 +10,7 @@ export async function onRequestPost({ request, env }) {
   if (typeof b.hp === 'string' && b.hp.trim()) return json({ ok: false, reason: 'ignored' });
   const who = { company: String(b.company).slice(0, 120), website: String(b.website || '').slice(0, 200), label: String(b.label || NONHC[cat]).slice(0, 80), what: String(b.what || '').slice(0, 200) };
   let report;
-  if (!env.ANTHROPIC_API_KEY) report = `Research map requested: ${who.company} (${who.label}). The AI research step is off (no ANTHROPIC_API_KEY), so nothing was researched. Build this map by hand.`;
+  if (!apiKey(env)) report = `Research map requested: ${who.company} (${who.label}). The AI research step is off (no ANTHROPIC_API_KEY), so nothing was researched. Build this map by hand.`;
   else {
     try {
       if (!(await underLimit(env, 'research', Number(env.AI_RESEARCH_PER_DAY || 15)))) report = `Research map requested: ${who.company} (${who.label}). Today's research limit was reached, so nothing was researched yet. Run it tomorrow or by hand.`;
