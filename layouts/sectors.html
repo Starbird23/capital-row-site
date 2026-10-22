@@ -6239,4 +6239,12 @@ window.crSecs = function(id) {
  wire("vckind", "vcleadw", null, null);
 })();
 </script>
+<script>
+// Opening any PDF on this page is logged in HubSpot as a view of /pdf/<file name> (only for visitors who accepted cookies).
+document.addEventListener('click', function (e) {
+  var a = e.target.closest && e.target.closest('a[href$=".pdf"]'); if (!a) return;
+  var q = window._hsq = window._hsq || [], f = a.getAttribute('href').split('/').pop().replace(/\.pdf$/, '');
+  q.push(['setPath', '/pdf/' + f]); q.push(['trackPageView']); q.push(['setPath', location.pathname]);
+});
+</script>
 </body></html>
