@@ -12,7 +12,7 @@ export const HC = { bh: 'Behavioral health', aba: 'ABA and autism services', hhh
 export const NONHC = { freight: 'Freight and logistics', field: 'Field service', construction: 'Construction', other: 'Other vertical software' };
 export const CATS = Object.assign({}, HC, NONHC);
 
-export const apiKey = (env) => String(env.ANTHROPIC_API_KEY || env.CR_ANTHROPIC_KEY || '').replace(/^[\s"']+|[\s"']+$/g, '');
+export const apiKey = (env) => { const v = String(env.ANTHROPIC_API_KEY || env.CR_ANTHROPIC_KEY || ''); const m = v.match(/sk-ant-[A-Za-z0-9_-]+/); return m ? m[0] : v.trim(); };   // takes the key out of whatever was pasted around it (spaces, line breaks, a whole sample command)
 const API = (env) => (env.ANTHROPIC_BASE || 'https://api.anthropic.com') + '/v1/messages';
 
 export async function claude(env, body, timeoutMs) {
