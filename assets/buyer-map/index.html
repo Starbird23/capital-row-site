@@ -444,6 +444,23 @@ ul.weak li::marker{color:#a84532}
 @media (max-width:1000px){.finish{grid-template-columns:1fr;padding:30px 24px}}
 @media (max-width:640px){.hfgrid{grid-template-columns:1fr}}
 .heroform .field .lab{opacity:1}.heroform .field .lab i{font-style:normal;opacity:.7}
+/* Buyer Map v5: company lookup, industry choice, outside-healthcare request */
+.bm2 .lookupstep{text-align:center}
+.bm2 .lkpulse{display:flex;gap:8px;justify-content:center;margin:10px 0 22px}
+.bm2 .lkpulse i{width:10px;height:10px;border-radius:50%;background:#14706E;animation:lkp 1.2s infinite ease-in-out}
+.bm2 .lkpulse i:nth-child(2){animation-delay:.15s}.bm2 .lkpulse i:nth-child(3){animation-delay:.3s}
+@keyframes lkp{0%,80%,100%{transform:scale(.6);opacity:.4}40%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){.bm2 .lkpulse i{animation:none;opacity:.8}}
+.bm2 .lkcard{background:#0C3234;color:#E6F1F0;padding:22px 24px;border-radius:4px;margin:8px 0 18px}
+.bm2 .lklab{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#8FD4CB;margin:0 0 4px}
+.bm2 .lkwhat{font-size:18px;line-height:1.5;margin:0 0 16px;color:#fff}
+.bm2 .lkind{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;line-height:1.1;margin:0;color:#fff}
+.bm2 .nothc{margin:14px 0 0}
+.bm2 .othertext{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap;margin:16px 0 0}.bm2 .othertext .field{flex:1 1 260px}
+.bm2 .queued .qlist{margin:6px 0 24px;padding-left:20px;line-height:1.8}
+.bm2 .queued .finactions{max-width:560px}
+.bm2 .queued .finact{color:#0C3234;border-color:#C9D6D5;background:#fff}.bm2 .queued .finact:hover{border-color:#14706E}.bm2 .queued .finact small{color:#4b5b5b}
+.bm2 .queued{text-align:center}.bm2 .queued .qlist{display:inline-block;text-align:left}.bm2 .queued .finactions{margin:0 auto 18px;text-align:left}.bm2 .queued .finact b{color:#0C3234;display:block}.bm2 .queued .footprivacy{font-weight:400;font-size:14px;color:#4b5b5b}
 </style>
 <script defer src="/buyer-map/map.js"></script>
 </head><body>
