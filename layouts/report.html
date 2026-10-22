@@ -1988,6 +1988,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .ocnote{max-width:70ch;margin:0 auto 14px;text-align:center;font-size:13px;line-height:1.6;color:var(--ink3)}
 #lendbox,#advbox,#sellbox{display:contents}
 .vcref p{font-style:italic}.vcref .vccard{opacity:.78}
+.vcref p.vcladder{font-style:normal;font-size:14px;line-height:1.75;opacity:.9;text-transform:none;letter-spacing:0;font-family:inherit;color:inherit;text-align:center}.vcref p.vcladder b{font-weight:600;opacity:1}
 .vcgrid{align-items:start}.vcgrid .vcwide{grid-column:1/-1}.vcpickw{margin-top:6px}
 .sn{max-height:calc(100vh - var(--ckh,0px) - 200px);overflow:auto;overscroll-behavior:contain}@media(max-width:700px){.sn{max-height:calc(100vh - var(--ckh,0px) - 175px)}}
 .vcnote{margin-bottom:16px}
@@ -3867,6 +3868,7 @@ function hsSubmit(kind, d, ok, fail) {
   }));
  }));
  var SW = [ [ "Median private transaction", 4, "Median SaaS transaction, Software Equity Group, Q2 2026" ], [ "Average private transaction", 6.2, "Average SaaS transaction, Software Equity Group, Q2 2026" ] ];
+ var PB = [ [ 1e6, 4.8, "Under $1M" ], [ 5e6, 6.2, "$1M to $4.99M" ], [ 1e7, 6.5, "$5M to $9.99M" ], [ 2.5e7, 7.5, "$10M to $24.99M" ], [ Infinity, 7, "$25M and over" ] ];
  var SWREF = [ "Listed SaaS companies", 3.2, "Listed SaaS index median, Software Equity Group, Q2 2026. Public companies, a different population: shown for reference, not part of the range." ];
  function swref(base, unit) {
   return '<div class="vcgroup vcref"><p>For reference, not part of the range</p><div class="vccards">' + card(SWREF, base, unit) + "</div></div>";
@@ -3918,18 +3920,20 @@ function hsSubmit(kind, d, ok, fail) {
    })).join("") + "</div></div>";
   }
   var rp = REC[v("vcrec")] || 0;
-  if (k === "Services" || k === "Hybrid models") {
-   $("vchi").textContent = (co ? co + ": " : "") + CRM("vc.paused_title");
-   $("vcrange").textContent = "";
-   $("vcbasis").textContent = CRM("vc.paused_body");
-   $("vcgroups").innerHTML = "";
-   lo = 0;
-   hi = 0;
-   basis = null;
+  var bi = 0;
+  while (bi < PB.length - 1 && A >= PB[bi][0]) bi++;
+  var SV = [ [ "Published multiple, " + PB[bi][2] + " in earnings", PB[bi][1], "Business services by earnings size, Pepperdine Private Capital Markets Report 2026, Table 31" ] ];
+  function ladder() {
+   return '<div class="vcgroup vcref"><p>Published multiples by earnings size, for reference</p><p class="vcladder">' + PB.map((function(b, i) {
+    return (i === bi ? "<b>" : "") + b[2] + ": " + b[1].toFixed(1) + "x" + (i === bi ? " (yours)</b>" : "");
+   })).join(" &middot; ") + "</p></div>";
   }
-  if (false) {
-   basis = "Your adjusted earnings of " + money(A) + ", at three published medians for services businesses.";
-  } else if (false) {
+  if (k === "Services") {
+   grp("", SV, A, "adjusted earnings");
+   g += ladder();
+   basis = "Your adjusted earnings of " + money(A) + ", at the published multiple for services companies of your earnings size.";
+  } else if (k === "Hybrid models") {
+   grp("Priced as services, on your adjusted earnings", SV, A, "adjusted earnings");
    if (rp > 0) {
     grp("Priced as software, on at least " + money(R * rp) + " of recurring revenue", SW, R * rp, "recurring revenue");
     g += swref(R * rp, "recurring revenue");
@@ -3941,8 +3945,8 @@ function hsSubmit(kind, d, ok, fail) {
    basis = "Your revenue of " + money(R) + ", at the median and the average of private software transactions. Software is usually priced on revenue.";
   }
   if (basis !== null) {
-   $("vchi").textContent = (co ? co + ": " : "") + "the range a buyer would start from";
-   $("vcrange").textContent = money(lo) + " to " + money(hi);
+   $("vchi").textContent = (co ? co + ": " : "") + (lo === hi ? "the figure a buyer would start from" : "the range a buyer would start from");
+   $("vcrange").textContent = lo === hi ? money(lo) : money(lo) + " to " + money(hi);
    $("vcbasis").textContent = basis;
    $("vcgroups").innerHTML = g;
   }
@@ -3960,7 +3964,7 @@ function hsSubmit(kind, d, ok, fail) {
    ul.appendChild(li);
   }));
   $("vcbook").hidden = R < 3e6;
-  return hi ? money(lo) + " to " + money(hi) : "Not shown: the services estimate is paused";
+  return lo === hi ? money(lo) : money(lo) + " to " + money(hi);
  }
  f2.addEventListener("submit", (function(e) {
   e.preventDefault();

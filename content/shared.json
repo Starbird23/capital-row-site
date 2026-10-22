@@ -630,7 +630,7 @@
    {
     "key": "sh.valuation.43",
     "kind": "Paragraph",
-    "text": "For software, the median and the average of private SaaS transactions from Software Equity Group. The listed SaaS index is shown apart, for reference. The services estimate is paused while its method is reviewed."
+    "text": "For software, the median and the average of private SaaS transactions from Software Equity Group; the listed SaaS index is shown apart, for reference. For services, the published multiple for companies of your earnings size."
    },
    {
     "key": "sh.valuation.44",
@@ -640,7 +640,7 @@
    {
     "key": "sh.valuation.45",
     "kind": "Paragraph",
-    "text": "From the median to the average. A buyer sets the price after diligence of your records."
+    "text": "Software: from the median to the average. Services: your adjusted earnings at the multiple for your size. A buyer sets the price after diligence of your records."
    },
    {
     "key": "sh.valuation.46",
@@ -670,7 +670,7 @@
    {
     "key": "sh.valuation.51",
     "kind": "Paragraph",
-    "text": "Services: the estimate is paused while its method is reviewed. The published table it drew on is <a>Pepperdine Graziadio Business School, 2026 Private Capital Markets Report</a> (Spring 2026), Table 31, page 66: median multiples of earnings before interest, tax, depreciation and amortization, by the size of the company’s earnings, from 43 investment bankers on transactions closed in the twelve months before January 2026."
+    "text": "Services: your adjusted earnings times the multiple for your earnings size in <a>Pepperdine Graziadio Business School, 2026 Private Capital Markets Report</a> (Spring 2026), Table 31, page 66, business services, multiples of earnings before interest, tax, depreciation and amortization: under $1M, 4.8 times; $1M to $4.99M, 6.2 times; $5M to $9.99M, 6.5 times; $10M to $24.99M, 7.5 times; $25M and over, 7.0 times. 43 investment bankers, on transactions closed in the twelve months before January 2026. The table labels these figures medians and the report text calls them averages, so the calculator calls them published multiples. The same table is used for every services business, including transportation and logistics. For software + services, the services reading applies to your adjusted earnings and the software reading to your recurring revenue."
    }
   ]
  },
