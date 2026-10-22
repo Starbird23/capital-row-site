@@ -11,6 +11,6 @@ export async function onRequestPost({ request, env }) {
   try {
     if (!(await underLimit(env, 'lookup', Number(env.AI_LOOKUPS_PER_DAY || 50)))) return json({ ok: false, reason: 'limit' });
     return json(await lookup(env, b.company, typeof b.website === 'string' ? b.website : ''));
-  } catch (e) { const m = String(e && e.message || e); const code = (m.match(/^anthropic (\d{3})/) || [])[1] || ''; const type = (m.match(/"type":"([a-z_]+)","message"/) || [])[1] || ''; return json({ ok: false, reason: 'error', code, type }); }
+  } catch (e) { const m = String(e && e.message || e); const code = (m.match(/^anthropic (\d{3})/) || [])[1] || ''; const type = (m.match(/"type":"([a-z_]+)","message"/) || [])[1] || ''; const name = String(e && e.name || ''); const hint = code ? '' : m.replace(/sk-ant-[A-Za-z0-9_-]+/g, '[key]').slice(0, 80); return json({ ok: false, reason: 'error', code, type, name, hint }); }
 }
 export function onRequest() { return json({ error: 'method' }, 405); }

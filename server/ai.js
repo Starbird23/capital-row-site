@@ -12,7 +12,7 @@ export const HC = { bh: 'Behavioral health', aba: 'ABA and autism services', hhh
 export const NONHC = { freight: 'Freight and logistics', field: 'Field service', construction: 'Construction', other: 'Other vertical software' };
 export const CATS = Object.assign({}, HC, NONHC);
 
-export const apiKey = (env) => env.ANTHROPIC_API_KEY || env.CR_ANTHROPIC_KEY || '';
+export const apiKey = (env) => String(env.ANTHROPIC_API_KEY || env.CR_ANTHROPIC_KEY || '').replace(/^[\s"']+|[\s"']+$/g, '');
 const API = (env) => (env.ANTHROPIC_BASE || 'https://api.anthropic.com') + '/v1/messages';
 
 export async function claude(env, body, timeoutMs) {
