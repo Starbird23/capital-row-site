@@ -1476,20 +1476,20 @@ header.inner .cta2{justify-content:center}
 @media(max-width:900px){header.inner .rules{align-items:center;margin-left:auto;margin-right:auto}header.inner .rules span{text-align:center}}
 .tlg{gap:52px 30px}
 .ptl{text-align:center}
-.tlp{width:min(100%,232px);margin:0 auto;border-radius:50%;overflow:visible;background:none}
-.tlp img{border-radius:50%;transition:box-shadow .2s}
+.tlp{width:min(100%,232px);aspect-ratio:4/5;margin:0 auto;border-radius:50%;overflow:visible;background:none}
+.tlp img{width:100%;height:100%;object-fit:cover;object-position:50% 22%;border-radius:50%;transition:box-shadow .2s}
 .tlp:hover img,.tlp:focus-visible img{transform:none;box-shadow:0 0 0 3px var(--paper2),0 0 0 5px var(--teal)}
 .tlp:focus-visible{outline:none}
 .ptx{right:3%;bottom:3%;border-radius:50%;box-shadow:0 0 0 3px var(--paper2)}
 .tlr{display:block;padding:18px 0 0}
-.ptn{position:absolute;top:0;left:calc(50% - min(50%,116px) + 3%);margin:calc(min(100%,232px) - 44px - 3%) 0 0 0;width:44px;height:44px;background:none}
+.ptn{position:absolute;top:0;left:calc(50% - min(50%,116px) + 3%);margin:calc(min(100%,232px) * 1.25 - 44px - 3%) 0 0 0;width:44px;height:44px;background:none}
 .ptn svg{width:44px;height:44px;padding:12px;box-shadow:0 0 0 3px var(--paper2)}
-.tdp,.tdp img{border-radius:50%}
+.tdp,.tdp img{border-radius:50%}.tdp img{aspect-ratio:4/5;object-fit:cover;object-position:50% 22%}
 @media(max-width:560px){
  .tlg{gap:34px 14px}
  .tlr{padding:12px 0 0}
  .ptx{right:-2px;bottom:-2px}
- .ptn{left:-2px;margin:calc(100% - 42px) 0 0 0;background:none}
+ .ptn{left:-2px;margin:calc(125% - 42px) 0 0 0;background:none}
  .ptn svg{background:var(--teal);width:44px;height:44px;padding:12px}
 }
 @supports (grid-template-rows:subgrid){
@@ -2339,18 +2339,18 @@ window.crSafe = function(s) {
  <div class="tlbio" hidden><p>{{team.5}}</p></div>
 </article>
 <article class="ptl">
- <button class="tlp" type="button" aria-haspopup="dialog" aria-label="Read about Dr. Allen Nazeri, DDS, MBA"><img src="team/allen-nazeri.jpg" alt="Dr. Allen Nazeri, DDS, MBA" width="325" height="325" loading="lazy" decoding="async"><span class="ptx" aria-hidden="true"></span></button>
- <div class="tlr"><div class="tld"><h3>{{team.6}}</h3><p class="tmt">{{team.7}}</p><p class="tmf" hidden></p></div><a class="ptn" href="https://www.linkedin.com/in/drallennazeri/" target="_blank" rel="noopener" aria-label="Dr. Allen Nazeri, DDS, MBA on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A1.97 1.97 0 0 0 3.3 4.98c0 1.08.87 1.97 1.95 1.97s1.96-.89 1.96-1.97A1.97 1.97 0 0 0 5.25 3zM20.7 13.2c0-3.1-1.66-4.96-4.3-4.96-1.5 0-2.5.83-2.93 1.6h-.05V8.5h-3.2V20h3.34v-5.7c0-1.5.28-2.96 2.14-2.96 1.83 0 1.86 1.72 1.86 3.06V20h3.14v-6.8z"/></svg></a></div>
+ <button class="tlp noimg" type="button" aria-haspopup="dialog" aria-label="Read about Ashley Benjamin, MD"><span class="tlin" aria-hidden="true">AB</span><span class="ptx" aria-hidden="true"></span></button>
+ <div class="tlr"><div class="tld"><h3>{{team.6}}</h3><p class="tmt">{{team.7}}</p><p class="tmf" hidden></p></div></div>
  <div class="tlbio" hidden><p>{{team.8}}</p></div>
 </article>
 <article class="ptl">
- <button class="tlp" type="button" aria-haspopup="dialog" aria-label="Read about Michael J. Bradley, Jr., MBA"><img src="team/michael-j-bradley-jr.jpg" alt="Michael J. Bradley, Jr., MBA" width="325" height="325" loading="lazy" decoding="async"><span class="ptx" aria-hidden="true"></span></button>
- <div class="tlr"><div class="tld"><h3>{{team.9}}</h3><p class="tmt">{{team.10}}</p><p class="tmf" hidden></p></div><a class="ptn" href="https://www.linkedin.com/in/michael-j-bradley-jr-mba-54b267169/" target="_blank" rel="noopener" aria-label="Michael J. Bradley, Jr., MBA on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A1.97 1.97 0 0 0 3.3 4.98c0 1.08.87 1.97 1.95 1.97s1.96-.89 1.96-1.97A1.97 1.97 0 0 0 5.25 3zM20.7 13.2c0-3.1-1.66-4.96-4.3-4.96-1.5 0-2.5.83-2.93 1.6h-.05V8.5h-3.2V20h3.34v-5.7c0-1.5.28-2.96 2.14-2.96 1.83 0 1.86 1.72 1.86 3.06V20h3.14v-6.8z"/></svg></a></div>
+ <button class="tlp" type="button" aria-haspopup="dialog" aria-label="Read about Dr. Allen Nazeri, DDS, MBA"><img src="team/allen-nazeri.jpg" alt="Dr. Allen Nazeri, DDS, MBA" width="325" height="325" loading="lazy" decoding="async"><span class="ptx" aria-hidden="true"></span></button>
+ <div class="tlr"><div class="tld"><h3>{{team.9}}</h3><p class="tmt">{{team.10}}</p><p class="tmf" hidden></p></div><a class="ptn" href="https://www.linkedin.com/in/drallennazeri/" target="_blank" rel="noopener" aria-label="Dr. Allen Nazeri, DDS, MBA on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A1.97 1.97 0 0 0 3.3 4.98c0 1.08.87 1.97 1.95 1.97s1.96-.89 1.96-1.97A1.97 1.97 0 0 0 5.25 3zM20.7 13.2c0-3.1-1.66-4.96-4.3-4.96-1.5 0-2.5.83-2.93 1.6h-.05V8.5h-3.2V20h3.34v-5.7c0-1.5.28-2.96 2.14-2.96 1.83 0 1.86 1.72 1.86 3.06V20h3.14v-6.8z"/></svg></a></div>
  <div class="tlbio" hidden><p>{{team.11}}</p></div>
 </article>
 <article class="ptl">
- <button class="tlp noimg" type="button" aria-haspopup="dialog" aria-label="Read about Ashley Benjamin, MD"><span class="tlin" aria-hidden="true">AB</span><span class="ptx" aria-hidden="true"></span></button>
- <div class="tlr"><div class="tld"><h3>{{team.12}}</h3><p class="tmt">{{team.13}}</p><p class="tmf" hidden></p></div></div>
+ <button class="tlp" type="button" aria-haspopup="dialog" aria-label="Read about Michael J. Bradley, Jr., MBA"><img src="team/michael-j-bradley-jr.jpg" alt="Michael J. Bradley, Jr., MBA" width="325" height="325" loading="lazy" decoding="async"><span class="ptx" aria-hidden="true"></span></button>
+ <div class="tlr"><div class="tld"><h3>{{team.12}}</h3><p class="tmt">{{team.13}}</p><p class="tmf" hidden></p></div><a class="ptn" href="https://www.linkedin.com/in/michael-j-bradley-jr-mba-54b267169/" target="_blank" rel="noopener" aria-label="Michael J. Bradley, Jr., MBA on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3A1.97 1.97 0 0 0 3.3 4.98c0 1.08.87 1.97 1.95 1.97s1.96-.89 1.96-1.97A1.97 1.97 0 0 0 5.25 3zM20.7 13.2c0-3.1-1.66-4.96-4.3-4.96-1.5 0-2.5.83-2.93 1.6h-.05V8.5h-3.2V20h3.34v-5.7c0-1.5.28-2.96 2.14-2.96 1.83 0 1.86 1.72 1.86 3.06V20h3.14v-6.8z"/></svg></a></div>
  <div class="tlbio" hidden><p>{{team.14}}</p></div>
 </article>
 <article class="ptl">
