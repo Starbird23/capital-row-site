@@ -25,6 +25,17 @@ export async function claude(env, body, timeoutMs) {
     return JSON.parse(text);
   } finally { clearTimeout(t); }
 }
+// A turn that uses web search can pause (stop_reason "pause_turn") before the model has written its answer.
+// converse() hands the paused turn back so the model can finish, up to a few times.
+export async function converse(env, body, timeoutMs, maxRounds) {
+  let messages = body.messages.slice(); let msg;
+  for (let i = 0; i < (maxRounds || 4); i++) {
+    msg = await claude(env, Object.assign({}, body, { messages }), timeoutMs);
+    if (!msg || msg.stop_reason !== 'pause_turn') break;
+    messages = messages.concat([{ role: 'assistant', content: msg.content }]);
+  }
+  return msg;
+}
 export function textOf(msg) { return ((msg && msg.content) || []).filter((b) => b.type === 'text').map((b) => b.text).join(''); }
 export function jsonFrom(t) { const i = t.indexOf('{'), j = t.lastIndexOf('}'); if (i < 0 || j < i) return null; try { return JSON.parse(t.slice(i, j + 1)); } catch (e) { return null; } }
 const clip = (s, n) => String(s == null ? '' : s).replace(/\s+/g, ' ').trim().slice(0, n);
@@ -43,7 +54,7 @@ export async function underLimit(env, kind, max) {
 // ---------------------------------------------------------------- 1. what does the company do
 export async function lookup(env, company, website) {
   const list = Object.entries(CATS).map(([k, v]) => `${k} = ${v}`).join('\n');
-  const msg = await claude(env, {
+  const msg = await converse(env, {
     model: env.AI_LOOKUP_MODEL || 'claude-haiku-5-5', max_tokens: 700,
     tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: 3 }],
     system: 'You identify what a company sells, for a business directory. Search for the company and read its own website first. ' +
@@ -100,8 +111,8 @@ async function fetchPage(url, fetchImpl) {
 }
 export async function research(env, { label, what, company }, fetchImpl) {
   const since = String(new Date().getUTCFullYear() - 3);
-  const msg = await claude(env, {
-    model: env.AI_RESEARCH_MODEL || 'claude-haiku-5-5', max_tokens: 3000,
+  const msg = await converse(env, {
+    model: env.AI_RESEARCH_MODEL || 'claude-haiku-5-5', max_tokens: 6000,
     tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: Number(env.AI_RESEARCH_SEARCHES || 6) }],
     system: 'You find completed acquisitions of companies in one industry, from press releases and trade press. Only report a deal you read on a page ' +
       'during this task, and give that page. Never report from memory. Answer with JSON only: {"deals": [{"buyer": "", "target": "", "date": "Mon YYYY", ' +
@@ -109,8 +120,9 @@ export async function research(env, { label, what, company }, fetchImpl) {
       'Up to 10 deals, newest first, North American companies only.',
     messages: [{ role: 'user', content: `Industry: ${clip(label, 80)}. Companies like this one: ${clip(what, 160) || clip(company, 120)}. Acquisitions since January ${since}.` }],
   }, 120000);
-  const j = jsonFrom(textOf(msg)) || {};
-  const raw = Array.isArray(j.deals) ? j.deals.slice(0, 10) : [];
+  const j = jsonFrom(textOf(msg));
+  const note = !j ? 'The AI search did not return a list (' + ((msg && msg.stop_reason) || 'no answer') + '). Build this map by hand or run it again.' : '';
+  const raw = j && Array.isArray(j.deals) ? j.deals.slice(0, 10) : [];
   const kept = [], dropped = []; const cache = {};
   for (const d of raw) {
     const url = clip(d && d.url, 400);
@@ -122,11 +134,12 @@ export async function research(env, { label, what, company }, fetchImpl) {
     if (v.ok) kept.push({ buyer: clip(d.buyer, 120), target: clip(d.target, 120), date: clip(d.date, 20), what: clip(d.what, 140), price: v.price, url });
     else dropped.push({ d, why: v.why });
   }
-  return { kept, dropped, asked: raw.length };
+  return { kept, dropped, asked: raw.length, note };
 }
 
 export function researchReport({ company, website, label, what }, r) {
   const lines = [`Research map for review: ${company}${website ? ' (' + website + ')' : ''}`, `Industry: ${label}`, what ? `What they do: ${what}` : '', '',
+    r.note || '', r.asked === 0 && !r.note ? 'The AI search found no acquisitions it could cite for this industry. Build this map by hand.' : '',
     `Kept ${r.kept.length} of ${r.asked} deals the AI reported. Each was checked: the buyer, the company sold and the year appear on the page given. Prices are kept only where the figure appears on the page.`, ''];
   r.kept.forEach((d, i) => lines.push(`${i + 1}. ${d.date}: ${d.buyer} acquired ${d.target}. ${d.what} Price: ${d.price}. Source: ${d.url}`));
   if (r.dropped.length) { lines.push('', 'Removed by the check:'); r.dropped.forEach((x) => lines.push(`- ${clip(x.d && x.d.buyer, 80)} / ${clip(x.d && x.d.target, 80)}: ${x.why.join(', ')}`)); }
