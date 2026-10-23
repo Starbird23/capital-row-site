@@ -109,16 +109,31 @@ async function fetchPage(url, fetchImpl) {
     return pageText((await r.text()).slice(0, 600000));
   } catch (e) { return null; }
 }
-export async function research(env, { label, what, company }, fetchImpl) {
+// Revenue bands the Buyer Map asks for, in dollars: [low, high]. Used to aim the search and to drop deals far outside the owner's size.
+export const BANDS = { 'Less than $1M': [0, 1e6], '$1M to $3M': [1e6, 3e6], '$3M to $10M': [3e6, 1e7], '$10M to $30M': [1e7, 3e7], 'More than $30M': [3e7, Infinity] };
+export const BUYER_TYPES = ['private equity', 'strategic', 'search fund', 'startup', 'other'];
+// A disclosed price in dollars, or null. "$12 million", "$1.2B", "$450,000".
+export function dollars(p) {
+  const m = String(p || '').replace(/,/g, '').match(/\$\s*(\d+(?:\.\d+)?)\s*(thousand|million|billion|k|m|mm|b|bn)?\b/i);
+  if (!m) return null; const n = parseFloat(m[1]); const u = (m[2] || '').toLowerCase();
+  return n * (u === 'thousand' || u === 'k' ? 1e3 : u === 'million' || u === 'm' || u === 'mm' ? 1e6 : u === 'billion' || u === 'b' || u === 'bn' ? 1e9 : 1);
+}
+// A price below a fifth of the owner's low revenue, or above 15 times the high revenue, is a different size of deal.
+export function sizeFits(price, band) {
+  const b = BANDS[band]; const v = dollars(price); if (!b || v == null) return true;
+  return v >= b[0] * 0.2 && v <= b[1] * 15;
+}
+export async function research(env, { label, what, company, revenue }, fetchImpl) {
   const since = String(new Date().getUTCFullYear() - 3);
   const msg = await converse(env, {
     model: env.AI_RESEARCH_MODEL || 'claude-haiku-5-5', max_tokens: 6000,
     tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: Number(env.AI_RESEARCH_SEARCHES || 6) }],
     system: 'You find completed acquisitions of companies in one industry, from press releases and trade press. Only report a deal you read on a page ' +
       'during this task, and give that page. Never report from memory. Answer with JSON only: {"deals": [{"buyer": "", "target": "", "date": "Mon YYYY", ' +
-      '"what": "<what the company sold, under 15 words>", "price": "<the price exactly as the page states it, or Not disclosed>", "url": "<the page you read it on>"}]}. ' +
-      'Up to 10 deals, newest first, North American companies only.',
-    messages: [{ role: 'user', content: `Industry: ${clip(label, 80)}. Companies like this one: ${clip(what, 160) || clip(company, 120)}. Acquisitions since January ${since}.` }],
+      '"what": "<what the company sold, under 15 words>", "price": "<the price exactly as the page states it, or Not disclosed>", ' +
+      '"buyer_type": "private equity" or "strategic" or "search fund" or "startup" or "other", "url": "<the page you read it on>"}]}. ' +
+      'Up to 10 deals, newest first, North American companies only. Prefer companies sold that were close in size to the one described.',
+    messages: [{ role: 'user', content: `Industry: companies that sell to or operate in ${clip(label, 80)}. The owner's company: ${clip(company, 120)}${what ? ' (' + clip(what, 160) + ')' : ''}. ${BANDS[revenue] ? 'Its annual revenue: ' + revenue + '. ' : ''}Acquisitions since January ${since}.` }],
   }, 120000);
   const j = jsonFrom(textOf(msg));
   const note = !j ? 'The AI search did not return a list (' + ((msg && msg.stop_reason) || 'no answer') + '). Build this map by hand or run it again.' : '';
@@ -131,17 +146,19 @@ export async function research(env, { label, what, company }, fetchImpl) {
     const text = cache[url];
     if (!text) { dropped.push({ d, why: ['page would not open'] }); continue; }
     const v = verifyDeal(d, text);
-    if (v.ok) kept.push({ buyer: clip(d.buyer, 120), target: clip(d.target, 120), date: clip(d.date, 20), what: clip(d.what, 140), price: v.price, url });
+    if (v.ok && !sizeFits(v.price, revenue)) { dropped.push({ d, why: ['price far from the owner\'s size (' + v.price + ')'] }); continue; }
+    const bt = String(d.buyer_type || '').toLowerCase(); const buyerType = BUYER_TYPES.includes(bt) ? bt : '';
+    if (v.ok) kept.push({ buyer: clip(d.buyer, 120), target: clip(d.target, 120), date: clip(d.date, 20), what: clip(d.what, 140), price: v.price, buyerType, url });
     else dropped.push({ d, why: v.why });
   }
-  return { kept, dropped, asked: raw.length, note };
+  return { kept, dropped, asked: raw.length, note, revenue: BANDS[revenue] ? revenue : '' };
 }
 
 export function researchReport({ company, website, label, what }, r) {
-  const lines = [`Research map for review: ${company}${website ? ' (' + website + ')' : ''}`, `Industry: ${label}`, what ? `What they do: ${what}` : '', '',
+  const lines = [`Research map for review: ${company}${website ? ' (' + website + ')' : ''}`, `Industry: ${label}`, r.revenue ? `Revenue: ${r.revenue}` : '', what ? `What they do: ${what}` : '', '',
     r.note || '', r.asked === 0 && !r.note ? 'The AI search found no acquisitions it could cite for this industry. Build this map by hand.' : '',
     `Kept ${r.kept.length} of ${r.asked} deals the AI reported. Each was checked: the buyer, the company sold and the year appear on the page given. Prices are kept only where the figure appears on the page.`, ''];
-  r.kept.forEach((d, i) => lines.push(`${i + 1}. ${d.date}: ${d.buyer} acquired ${d.target}. ${d.what} Price: ${d.price}. Source: ${d.url}`));
+  r.kept.forEach((d, i) => lines.push(`${i + 1}. ${d.date}: ${d.buyer}${d.buyerType ? ' (' + d.buyerType + ')' : ''} acquired ${d.target}. ${d.what} Price: ${d.price}. Source: ${d.url}`));
   if (r.dropped.length) { lines.push('', 'Removed by the check:'); r.dropped.forEach((x) => lines.push(`- ${clip(x.d && x.d.buyer, 80)} / ${clip(x.d && x.d.target, 80)}: ${x.why.join(', ')}`)); }
   lines.push('', 'Nothing has been sent to the owner. Review before sending.');
   return lines.filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n');
@@ -150,7 +167,7 @@ export function researchReport({ company, website, label, what }, r) {
 // The owner-facing list for the Buyer Map email: only deals that passed the page check, newest first, each with its source.
 export const READY_AT = 3;
 export function ownerMap(r, max) {
-  const lines = r.kept.map((d, i) => `${i + 1}. ${d.date}: ${d.buyer} acquired ${d.target}. ${d.what}${/[.!?]$/.test(d.what) ? '' : '.'} Price: ${d.price}. Source: ${d.url}`); let out = '';
+  const lines = r.kept.map((d, i) => `${i + 1}. ${d.date}: ${d.buyer}${d.buyerType ? ' (' + d.buyerType + ')' : ''} acquired ${d.target}. ${d.what}${/[.!?]$/.test(d.what) ? '' : '.'} Price: ${d.price}. Source: ${d.url}`); let out = '';
   for (const l of lines) { if ((out + l).length + 1 > (max || 3900)) break; out += (out ? '\n' : '') + l; }
   return out;
 }

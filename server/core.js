@@ -76,6 +76,7 @@ export function cleanFields(kind, fields, cfg) {
     if (!ALLOWED.has(n) || o !== objOf(n) || seen.has(o + n) || !ok(n, f.value)) { dropped.push(n); continue; }
     seen.add(o + n); out.push({ objectTypeId: o, name: n, value: f.value });
   }
+  if (!out.some((f) => f.name === 'brand')) out.push({ objectTypeId: '0-1', name: 'brand', value: 'Capital Row' });   // every thecapitalrow.com contact is tagged Capital Row
   const email = (out.find((f) => f.name === 'email') || {}).value || '';
   const fatal = EMAIL.test(email) ? [] : ['email'];
   if (!out.some((f) => f.name === 'message')) fatal.push('message');

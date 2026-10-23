@@ -8,7 +8,7 @@ export async function onRequestPost({ request, env }) {
   const email = String(b && b.email || '').trim(); const cat = String(b && b.category || '');
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !(cat in NONHC) || !String(b.company || '').trim()) return json({ ok: false, reason: 'shape' }, 400);
   if (typeof b.hp === 'string' && b.hp.trim()) return json({ ok: false, reason: 'ignored' });
-  const who = { company: String(b.company).slice(0, 120), website: String(b.website || '').slice(0, 200), label: String(b.label || NONHC[cat]).slice(0, 80), what: String(b.what || '').slice(0, 200) };
+  const who = { company: String(b.company).slice(0, 120), website: String(b.website || '').slice(0, 200), label: String(b.label || NONHC[cat]).slice(0, 80), what: String(b.what || '').slice(0, 200), revenue: String(b.revenue || '').slice(0, 40) };
   let report, found = null;
   if (!apiKey(env)) report = `Research map requested: ${who.company} (${who.label}). The AI research step is off (no ANTHROPIC_API_KEY), so nothing was researched. Build this map by hand.`;
   else {
