@@ -133,7 +133,7 @@ export async function research(env, { label, what, company, revenue }, fetchImpl
       '"what": "<what the company sold, under 15 words>", "price": "<the price exactly as the page states it, or Not disclosed>", ' +
       '"buyer_type": "private equity" or "strategic" or "search fund" or "startup" or "other", "url": "<the page you read it on>"}]}. ' +
       'Up to 10 deals, newest first, North American companies only. Prefer companies sold that were close in size to the one described.',
-    messages: [{ role: 'user', content: `Industry: companies that sell to or operate in ${clip(label, 80)}. The owner's company: ${clip(company, 120)}${what ? ' (' + clip(what, 160) + ')' : ''}. ${BANDS[revenue] ? 'Its annual revenue: ' + revenue + '. ' : ''}Acquisitions since January ${since}.` }],
+    messages: [{ role: 'user', content: `Find acquisitions of companies like this one, so the owner sees who buys companies like theirs. The company: ${clip(company, 120)}${what ? '. What it sells and to whom: ' + clip(what, 160) : ''}. The market it serves, as the owner chose it: ${clip(label, 80)}. ${BANDS[revenue] ? 'Its annual revenue: ' + revenue + '. ' : ''}Look first for companies that sell the same thing to the same market; if there are few, widen to the same thing sold to nearby markets. Acquisitions since January ${since}.` }],
   }, 120000);
   const j = jsonFrom(textOf(msg));
   const note = !j ? 'The AI search did not return a list (' + ((msg && msg.stop_reason) || 'no answer') + '). Build this map by hand or run it again.' : '';
