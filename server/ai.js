@@ -146,3 +146,11 @@ export function researchReport({ company, website, label, what }, r) {
   lines.push('', 'Nothing has been sent to the owner. Review before sending.');
   return lines.filter((l, i, a) => !(l === '' && a[i - 1] === '')).join('\n');
 }
+
+// The owner-facing list for the Buyer Map email: only deals that passed the page check, newest first, each with its source.
+export const READY_AT = 3;
+export function ownerMap(r, max) {
+  const lines = r.kept.map((d, i) => `${i + 1}. ${d.date}: ${d.buyer} acquired ${d.target}. ${d.what}${/[.!?]$/.test(d.what) ? '' : '.'} Price: ${d.price}. Source: ${d.url}`); let out = '';
+  for (const l of lines) { if ((out + l).length + 1 > (max || 3900)) break; out += (out ? '\n' : '') + l; }
+  return out;
+}
