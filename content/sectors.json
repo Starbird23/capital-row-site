@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "Sector coverage: ten industries, 63 sectors, six desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with six desks open: five in healthcare and one in field service software. Choose an industry to see its sectors and which are active.",
+ "seoTitle": "Sector coverage: ten industries, 63 sectors, eight desks open | Capital Row",
+ "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with eight desks open: two in transportation and logistics, one in field service and five in healthcare. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Ten industries. Sixty-three sectors. Six desks open.",
+   "name": "Ten industries. Sixty-three sectors. Eight desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -20,12 +20,12 @@
     {
      "key": "inner.3",
      "kind": "Text",
-     "text": "6 desks open"
+     "text": "8 desks open"
     },
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Ten industries. Sixty-three sectors. <em>Six desks open.</em>"
+     "text": "Ten industries. Sixty-three sectors. <em>Eight desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -556,7 +556,7 @@
     {
      "key": "band.100",
      "kind": "Text",
-     "text": "7 sectors<br>Planned"
+     "text": "7 sectors<br>2 desks open"
     },
     {
      "key": "band.101",
@@ -576,7 +576,7 @@
     {
      "key": "band.104",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.105",
@@ -636,7 +636,7 @@
     {
      "key": "band.116",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.117",

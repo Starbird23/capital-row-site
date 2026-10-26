@@ -20,7 +20,7 @@
     {
      "key": "header.3",
      "kind": "Text",
-     "text": "6 desks open"
+     "text": "8 desks open"
     },
     {
      "key": "header.4",
@@ -566,7 +566,7 @@
     {
      "key": "band.100",
      "kind": "Text",
-     "text": "7 sectors<br>Planned"
+     "text": "7 sectors<br>2 desks open"
     },
     {
      "key": "band.101",
@@ -586,7 +586,7 @@
     {
      "key": "band.104",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.105",
@@ -646,7 +646,7 @@
     {
      "key": "band.116",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.117",
