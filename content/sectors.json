@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "Sector coverage: ten industries, 63 sectors, eight desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with eight desks open: five in healthcare, two in transportation and logistics and one in field service. Choose an industry to see its sectors and which are active.",
+ "seoTitle": "Sector coverage: twelve industries, 63 sectors, eight desks open | Capital Row",
+ "seoDescription": "The vertical software sectors Capital Row covers: twelve industries and 63 sectors, with eight desks open: five in healthcare, two in transportation and logistics and one in field service. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Ten industries. Sixty-three sectors. Eight desks open.",
+   "name": "Twelve industries. Sixty-three sectors. Eight desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -25,7 +25,7 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Ten industries. Sixty-three sectors. <em>Eight desks open.</em>"
+     "text": "Twelve industries. Sixty-three sectors. <em>Eight desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -101,7 +101,7 @@
     {
      "key": "band.9",
      "kind": "Paragraph",
-     "text": "Every payer connection took months to certify. Replace the software and cash slows until they are rebuilt"
+     "text": "Claim creation, coding and payment posting. Every payer connection took months to certify; replace the software and cash slows until they are rebuilt"
     },
     {
      "key": "band.10",
@@ -116,7 +116,7 @@
     {
      "key": "band.12",
      "kind": "Paragraph",
-     "text": "The rework layer. Where a practice finds out what its billing system actually costs it"
+     "text": "Denials, appeals and clearinghouse edits after a claim is sent. The rework layer, where a practice finds out what its billing system actually costs it"
     },
     {
      "key": "band.13",
@@ -146,12 +146,12 @@
     {
      "key": "band.18",
      "kind": "Paragraph",
-     "text": "Switching costs include re-establishing payer relationships"
+     "text": "Scheduling, charting and billing systems for specialty physician groups. Switching costs include re-establishing payer relationships"
     },
     {
      "key": "band.19",
      "kind": "Text",
-     "text": "Dental practice software"
+     "text": "Dental"
     },
     {
      "key": "band.20",
@@ -166,7 +166,7 @@
     {
      "key": "band.22",
      "kind": "Text",
-     "text": "Home health & hospice software"
+     "text": "Home health & hospice"
     },
     {
      "key": "band.23",
@@ -226,7 +226,7 @@
     {
      "key": "band.34",
      "kind": "Text",
-     "text": "Physical therapy & rehab software"
+     "text": "Physical therapy & rehabilitation"
     },
     {
      "key": "band.35",
@@ -241,7 +241,7 @@
     {
      "key": "band.37",
      "kind": "Text",
-     "text": "Long-term care & senior living software"
+     "text": "Long-term care & senior living"
     },
     {
      "key": "band.38",
@@ -256,7 +256,7 @@
     {
      "key": "band.40",
      "kind": "Text",
-     "text": "Payment integrity software"
+     "text": "Payment integrity"
     },
     {
      "key": "band.41",
@@ -271,7 +271,7 @@
     {
      "key": "band.43",
      "kind": "Text",
-     "text": "Healthcare staffing & scheduling software"
+     "text": "Healthcare staffing & scheduling"
     },
     {
      "key": "band.44",
@@ -281,12 +281,12 @@
     {
      "key": "band.45",
      "kind": "Paragraph",
-     "text": "Shift scheduling, open shifts and credential tracking for hospitals and staffing agencies"
+     "text": "Shift scheduling, open shifts and credential tracking for hospitals and healthcare staffing agencies"
     },
     {
      "key": "band.46",
      "kind": "Text",
-     "text": "Veterinary practice software"
+     "text": "Veterinary"
     },
     {
      "key": "band.47",
@@ -301,7 +301,7 @@
     {
      "key": "band.49",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.50",
@@ -331,7 +331,7 @@
     {
      "key": "band.55",
      "kind": "Text",
-     "text": "Construction & contractor software"
+     "text": "Construction & contractors"
     },
     {
      "key": "band.56",
@@ -346,7 +346,7 @@
     {
      "key": "band.58",
      "kind": "Text",
-     "text": "Field service management software"
+     "text": "Field service management"
     },
     {
      "key": "band.59",
@@ -361,7 +361,7 @@
     {
      "key": "band.61",
      "kind": "Text",
-     "text": "Property management software"
+     "text": "Property management"
     },
     {
      "key": "band.62",
@@ -376,7 +376,7 @@
     {
      "key": "band.64",
      "kind": "Text",
-     "text": "HOA & community association software"
+     "text": "HOA & community association management"
     },
     {
      "key": "band.65",
@@ -386,12 +386,12 @@
     {
      "key": "band.66",
      "kind": "Paragraph",
-     "text": "Accounting, assessments, violations and resident portals for association managers"
+     "text": "Accounting, assessments, violations and resident portals for community association managers"
     },
     {
      "key": "band.67",
      "kind": "Text",
-     "text": "Equipment rental software"
+     "text": "Equipment rental"
     },
     {
      "key": "band.68",
@@ -406,7 +406,7 @@
     {
      "key": "band.70",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.71",
@@ -416,12 +416,12 @@
     {
      "key": "band.72",
      "kind": "Text",
-     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+     "text": "Banking, lending, insurance and advisory systems for regulated work."
     },
     {
      "key": "band.73",
      "kind": "Text",
-     "text": "7 sectors<br>Planned"
+     "text": "6 sectors<br>Planned"
     },
     {
      "key": "band.74",
@@ -431,12 +431,12 @@
     {
      "key": "band.75",
      "kind": "Paragraph",
-     "text": "Lending, insurance, advisory and accounting-firm systems for regulated work."
+     "text": "Banking, lending, insurance and advisory systems for regulated work."
     },
     {
      "key": "band.76",
      "kind": "Text",
-     "text": "Bank & credit union software"
+     "text": "Banking & credit unions"
     },
     {
      "key": "band.77",
@@ -451,7 +451,7 @@
     {
      "key": "band.79",
      "kind": "Text",
-     "text": "Insurance software"
+     "text": "Insurance"
     },
     {
      "key": "band.80",
@@ -466,7 +466,7 @@
     {
      "key": "band.82",
      "kind": "Text",
-     "text": "Wealth & advisory software"
+     "text": "Wealth & advisory"
     },
     {
      "key": "band.83",
@@ -481,7 +481,7 @@
     {
      "key": "band.85",
      "kind": "Text",
-     "text": "Lending & mortgage software"
+     "text": "Lending & mortgage"
     },
     {
      "key": "band.86",
@@ -491,12 +491,12 @@
     {
      "key": "band.87",
      "kind": "Paragraph",
-     "text": "Loan origination from application to funding for lenders, banks and credit unions"
+     "text": "Loan origination from application to funding for banks, credit unions and nonbank lenders"
     },
     {
      "key": "band.88",
      "kind": "Text",
-     "text": "Accounting & tax firm software"
+     "text": "Accounting & tax firms"
     },
     {
      "key": "band.89",
@@ -511,7 +511,7 @@
     {
      "key": "band.91",
      "kind": "Text",
-     "text": "Collections & receivables software"
+     "text": "Collections & receivables"
     },
     {
      "key": "band.92",
@@ -526,7 +526,7 @@
     {
      "key": "band.94",
      "kind": "Text",
-     "text": "Compliance software for advisors & broker-dealers"
+     "text": "Compliance for advisors & broker-dealers"
     },
     {
      "key": "band.95",
@@ -541,7 +541,7 @@
     {
      "key": "band.97",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.98",
@@ -581,7 +581,7 @@
     {
      "key": "band.105",
      "kind": "Paragraph",
-     "text": "Hours of service and fuel tax are filings, not reports"
+     "text": "Dispatch, routing, carrier operations, freight billing and audit"
     },
     {
      "key": "band.106",
@@ -596,7 +596,7 @@
     {
      "key": "band.108",
      "kind": "Paragraph",
-     "text": "DOT and FMCSA obligations sit inside the software"
+     "text": "Hours of service, fuel tax, DOT and FMCSA filings, and the telematics behind them"
     },
     {
      "key": "band.109",
@@ -616,7 +616,7 @@
     {
      "key": "band.112",
      "kind": "Text",
-     "text": "Customs & trade compliance software"
+     "text": "Customs & trade compliance"
     },
     {
      "key": "band.113",
@@ -631,7 +631,7 @@
     {
      "key": "band.115",
      "kind": "Text",
-     "text": "Freight brokerage & visibility software"
+     "text": "Freight brokerage & visibility"
     },
     {
      "key": "band.116",
@@ -646,7 +646,7 @@
     {
      "key": "band.118",
      "kind": "Text",
-     "text": "Fleet maintenance software"
+     "text": "Fleet maintenance"
     },
     {
      "key": "band.119",
@@ -676,7 +676,7 @@
     {
      "key": "band.124",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.125",
@@ -686,7 +686,7 @@
     {
      "key": "band.126",
      "kind": "Text",
-     "text": "Service desk, monitoring, backup and security tools for IT providers."
+     "text": "IT service providers, and the service desk, monitoring, security and backup tools they run on."
     },
     {
      "key": "band.127",
@@ -701,12 +701,12 @@
     {
      "key": "band.129",
      "kind": "Paragraph",
-     "text": "Service desk, monitoring, backup and security tools for IT providers."
+     "text": "IT service providers, and the service desk, monitoring, security and backup tools they run on."
     },
     {
      "key": "band.130",
      "kind": "Text",
-     "text": "MSP & IT service software"
+     "text": "Managed IT & MSPs"
     },
     {
      "key": "band.131",
@@ -716,12 +716,12 @@
     {
      "key": "band.132",
      "kind": "Paragraph",
-     "text": "Service desk, remote monitoring, documentation and asset records for IT service providers"
+     "text": "Managed IT providers, and the service desk, monitoring and documentation software they run on"
     },
     {
      "key": "band.133",
      "kind": "Text",
-     "text": "Security tools for MSPs"
+     "text": "Cybersecurity & managed security"
     },
     {
      "key": "band.134",
@@ -731,12 +731,12 @@
     {
      "key": "band.135",
      "kind": "Paragraph",
-     "text": "Threat detection, Microsoft 365 protection and monitoring an IT provider resells to its clients"
+     "text": "Managed security providers, and the threat detection and Microsoft 365 protection tools IT providers resell"
     },
     {
      "key": "band.136",
      "kind": "Text",
-     "text": "Backup & disaster recovery software"
+     "text": "Backup & disaster recovery"
     },
     {
      "key": "band.137",
@@ -746,22 +746,22 @@
     {
      "key": "band.138",
      "kind": "Paragraph",
-     "text": "Copies client data and systems so an IT provider can restore them after an outage or attack"
+     "text": "Backup and recovery software, and the providers who run it for their clients"
     },
     {
      "key": "band.139",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.140",
      "kind": "Text",
-     "text": "Manufacturing"
+     "text": "Manufacturing & distribution"
     },
     {
      "key": "band.141",
      "kind": "Text",
-     "text": "Planning, production, quality, maintenance and inventory on the shop floor."
+     "text": "Planning, production, quality, maintenance and inventory for manufacturers and distributors."
     },
     {
      "key": "band.142",
@@ -771,12 +771,12 @@
     {
      "key": "band.143",
      "kind": "Heading",
-     "text": "Manufacturing"
+     "text": "Manufacturing & distribution"
     },
     {
      "key": "band.144",
      "kind": "Paragraph",
-     "text": "Planning, production, quality, maintenance and inventory on the shop floor."
+     "text": "Planning, production, quality, maintenance and inventory for manufacturers and distributors."
     },
     {
      "key": "band.145",
@@ -796,7 +796,7 @@
     {
      "key": "band.148",
      "kind": "Text",
-     "text": "Quality management software"
+     "text": "Quality management"
     },
     {
      "key": "band.149",
@@ -856,7 +856,7 @@
     {
      "key": "band.160",
      "kind": "Text",
-     "text": "Environment, health & safety software"
+     "text": "Environment, health & safety"
     },
     {
      "key": "band.161",
@@ -871,32 +871,32 @@
     {
      "key": "band.163",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.164",
      "kind": "Text",
-     "text": "Hospitality"
+     "text": "Hospitality & leisure"
     },
     {
      "key": "band.165",
      "kind": "Text",
-     "text": "Point of sale, property, events, fitness and attractions systems for operators."
+     "text": "Point of sale, property, events and attractions systems for operators."
     },
     {
      "key": "band.166",
      "kind": "Text",
-     "text": "6 sectors<br>Planned"
+     "text": "4 sectors<br>Planned"
     },
     {
      "key": "band.167",
      "kind": "Heading",
-     "text": "Hospitality"
+     "text": "Hospitality & leisure"
     },
     {
      "key": "band.168",
      "kind": "Paragraph",
-     "text": "Point of sale, property, events, fitness and attractions systems for operators."
+     "text": "Point of sale, property, events and attractions systems for operators."
     },
     {
      "key": "band.169",
@@ -916,7 +916,7 @@
     {
      "key": "band.172",
      "kind": "Text",
-     "text": "Hotel property management & revenue tools"
+     "text": "Hotel property management & revenue management"
     },
     {
      "key": "band.173",
@@ -931,7 +931,7 @@
     {
      "key": "band.175",
      "kind": "Text",
-     "text": "Event & venue management software"
+     "text": "Event & venue management"
     },
     {
      "key": "band.176",
@@ -946,7 +946,7 @@
     {
      "key": "band.178",
      "kind": "Text",
-     "text": "Fitness & gym management software"
+     "text": "Fitness, gyms & studios"
     },
     {
      "key": "band.179",
@@ -961,7 +961,7 @@
     {
      "key": "band.181",
      "kind": "Text",
-     "text": "Salon, spa & wellness software"
+     "text": "Salons, spas & wellness"
     },
     {
      "key": "band.182",
@@ -976,7 +976,7 @@
     {
      "key": "band.184",
      "kind": "Text",
-     "text": "Ticketing & attractions software"
+     "text": "Ticketing & attractions"
     },
     {
      "key": "band.185",
@@ -991,7 +991,7 @@
     {
      "key": "band.187",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.188",
@@ -1021,7 +1021,7 @@
     {
      "key": "band.193",
      "kind": "Text",
-     "text": "Auto dealer & repair software"
+     "text": "Auto dealers & repair"
     },
     {
      "key": "band.194",
@@ -1036,7 +1036,7 @@
     {
      "key": "band.196",
      "kind": "Text",
-     "text": "Convenience store & fuel retail software"
+     "text": "Convenience stores & fuel retail"
     },
     {
      "key": "band.197",
@@ -1051,7 +1051,7 @@
     {
      "key": "band.199",
      "kind": "Text",
-     "text": "Car wash software"
+     "text": "Car washes"
     },
     {
      "key": "band.200",
@@ -1066,7 +1066,7 @@
     {
      "key": "band.202",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.203",
@@ -1076,12 +1076,12 @@
     {
      "key": "band.204",
      "kind": "Text",
-     "text": "Systems for law firms, associations, nonprofits and staffing agencies."
+     "text": "Systems for law firms, accounting firms and staffing agencies."
     },
     {
      "key": "band.205",
      "kind": "Text",
-     "text": "5 sectors<br>Planned"
+     "text": "4 sectors<br>Planned"
     },
     {
      "key": "band.206",
@@ -1091,12 +1091,12 @@
     {
      "key": "band.207",
      "kind": "Paragraph",
-     "text": "Systems for law firms, associations, nonprofits and staffing agencies."
+     "text": "Systems for law firms, accounting firms and staffing agencies."
     },
     {
      "key": "band.208",
      "kind": "Text",
-     "text": "Legal practice software"
+     "text": "Legal practice"
     },
     {
      "key": "band.209",
@@ -1111,7 +1111,7 @@
     {
      "key": "band.211",
      "kind": "Text",
-     "text": "Litigation support & e-discovery software"
+     "text": "Litigation support & e-discovery"
     },
     {
      "key": "band.212",
@@ -1126,7 +1126,7 @@
     {
      "key": "band.214",
      "kind": "Text",
-     "text": "Association & membership software"
+     "text": "Association & membership management"
     },
     {
      "key": "band.215",
@@ -1141,7 +1141,7 @@
     {
      "key": "band.217",
      "kind": "Text",
-     "text": "Nonprofit & church software"
+     "text": "Nonprofit & church management"
     },
     {
      "key": "band.218",
@@ -1156,7 +1156,7 @@
     {
      "key": "band.220",
      "kind": "Text",
-     "text": "Staffing & recruiting software"
+     "text": "Staffing & recruiting"
     },
     {
      "key": "band.221",
@@ -1166,22 +1166,22 @@
     {
      "key": "band.222",
      "kind": "Paragraph",
-     "text": "Applicant tracking, client records, onboarding and pay and bill for staffing agencies"
+     "text": "Applicant tracking, client records, onboarding and pay and bill for staffing agencies outside healthcare"
     },
     {
      "key": "band.223",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.224",
      "kind": "Text",
-     "text": "Government"
+     "text": "Government & education"
     },
     {
      "key": "band.225",
      "kind": "Text",
-     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+     "text": "Software and service businesses that supply cities, counties, courts, utilities and school districts."
     },
     {
      "key": "band.226",
@@ -1191,17 +1191,17 @@
     {
      "key": "band.227",
      "kind": "Heading",
-     "text": "Government"
+     "text": "Government & education"
     },
     {
      "key": "band.228",
      "kind": "Paragraph",
-     "text": "Permitting, courts, public safety and utility billing for local government and school districts."
+     "text": "Software and service businesses that supply cities, counties, courts, utilities and school districts."
     },
     {
      "key": "band.229",
      "kind": "Text",
-     "text": "Municipal finance & administration software"
+     "text": "Municipal finance & administration"
     },
     {
      "key": "band.230",
@@ -1246,7 +1246,7 @@
     {
      "key": "band.238",
      "kind": "Text",
-     "text": "K-12 district administration software"
+     "text": "K–12 district administration"
     },
     {
      "key": "band.239",
@@ -1261,7 +1261,7 @@
     {
      "key": "band.241",
      "kind": "Text",
-     "text": "Parks & recreation software"
+     "text": "Parks & recreation"
     },
     {
      "key": "band.242",
@@ -1276,7 +1276,7 @@
     {
      "key": "band.244",
      "kind": "Text",
-     "text": "Courts & justice software"
+     "text": "Courts & justice"
     },
     {
      "key": "band.245",
@@ -1291,7 +1291,7 @@
     {
      "key": "band.247",
      "kind": "Text",
-     "text": "Permitting & licensing software"
+     "text": "Permitting & licensing"
     },
     {
      "key": "band.248",
@@ -1306,7 +1306,7 @@
     {
      "key": "band.250",
      "kind": "Button",
-     "text": "All ten industries"
+     "text": "All twelve industries"
     },
     {
      "key": "band.251",
@@ -1362,6 +1362,96 @@
      "key": "band.261",
      "kind": "Note",
      "text": "Our updates on your sectors, as they are published."
+    },
+    {
+     "key": "band.262",
+     "kind": "Text",
+     "text": "Fitness, beauty & wellness"
+    },
+    {
+     "key": "band.265",
+     "kind": "Text",
+     "text": "Fitness, beauty & wellness"
+    },
+    {
+     "key": "band.263",
+     "kind": "Text",
+     "text": "Booking, membership and payments for gyms, studios, salons and spas."
+    },
+    {
+     "key": "band.266",
+     "kind": "Text",
+     "text": "Booking, membership and payments for gyms, studios, salons and spas."
+    },
+    {
+     "key": "band.264",
+     "kind": "Text",
+     "text": "2 sectors<br>Planned"
+    },
+    {
+     "key": "band.267",
+     "kind": "Text",
+     "text": "All twelve industries"
+    },
+    {
+     "key": "band.268",
+     "kind": "Text",
+     "text": "Aesthetics & med spa"
+    },
+    {
+     "key": "band.269",
+     "kind": "Text",
+     "text": "See Healthcare"
+    },
+    {
+     "key": "band.270",
+     "kind": "Text",
+     "text": "Listed under Healthcare. Med spa and aesthetics practices sit with the rest of healthcare."
+    },
+    {
+     "key": "band.271",
+     "kind": "Text",
+     "text": "Nonprofit & associations"
+    },
+    {
+     "key": "band.274",
+     "kind": "Text",
+     "text": "Nonprofit & associations"
+    },
+    {
+     "key": "band.272",
+     "kind": "Text",
+     "text": "Software and service businesses that supply nonprofits, churches, trade groups and associations."
+    },
+    {
+     "key": "band.275",
+     "kind": "Text",
+     "text": "Software and service businesses that supply nonprofits, churches, trade groups and associations."
+    },
+    {
+     "key": "band.273",
+     "kind": "Text",
+     "text": "2 sectors<br>Planned"
+    },
+    {
+     "key": "band.276",
+     "kind": "Text",
+     "text": "All twelve industries"
+    },
+    {
+     "key": "band.277",
+     "kind": "Text",
+     "text": "School bus & transit routing"
+    },
+    {
+     "key": "band.278",
+     "kind": "Text",
+     "text": "See Transportation"
+    },
+    {
+     "key": "band.279",
+     "kind": "Text",
+     "text": "Listed under Transportation & logistics, where routing and fleet software sit."
     }
    ]
   },

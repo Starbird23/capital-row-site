@@ -23,11 +23,11 @@
     },
     {
      "id": "hc_dental_practice_software",
-     "label": "Dental practice software"
+     "label": "Dental"
     },
     {
      "id": "hc_home_health_and_hospice_software",
-     "label": "Home health & hospice software"
+     "label": "Home health & hospice"
     },
     {
      "id": "hc_behavioral_and_specialty_health",
@@ -43,23 +43,23 @@
     },
     {
      "id": "hc_physical_therapy_and_rehab_software",
-     "label": "Physical therapy & rehab software"
+     "label": "Physical therapy & rehabilitation"
     },
     {
      "id": "hc_long_term_care_and_senior_living_software",
-     "label": "Long-term care & senior living software"
+     "label": "Long-term care & senior living"
     },
     {
      "id": "hc_payment_integrity_software",
-     "label": "Payment integrity software"
+     "label": "Payment integrity"
     },
     {
      "id": "hc_healthcare_staffing_and_scheduling_software",
-     "label": "Healthcare staffing & scheduling software"
+     "label": "Healthcare staffing & scheduling"
     },
     {
      "id": "hc_veterinary_practice_software",
-     "label": "Veterinary practice software"
+     "label": "Veterinary"
     }
    ]
   },
@@ -72,6 +72,10 @@
      "label": "Dispatch, TMS & freight audit"
     },
     {
+     "id": "fleet_freight_brokerage_and_visibility_software",
+     "label": "Freight brokerage & visibility"
+    },
+    {
      "id": "fleet_fleet_compliance_and_telematics",
      "label": "Fleet compliance & telematics"
     },
@@ -81,15 +85,11 @@
     },
     {
      "id": "fleet_customs_and_trade_compliance_software",
-     "label": "Customs & trade compliance software"
-    },
-    {
-     "id": "fleet_freight_brokerage_and_visibility_software",
-     "label": "Freight brokerage & visibility software"
+     "label": "Customs & trade compliance"
     },
     {
      "id": "fleet_fleet_maintenance_software",
-     "label": "Fleet maintenance software"
+     "label": "Fleet maintenance"
     },
     {
      "id": "fleet_school_bus_and_transit_routing",
@@ -102,24 +102,24 @@
    "label": "Construction, real estate & field services",
    "sectors": [
     {
-     "id": "built_construction_and_contractor_software",
-     "label": "Construction & contractor software"
+     "id": "built_field_service_management_software",
+     "label": "Field service management"
     },
     {
-     "id": "built_field_service_management_software",
-     "label": "Field service management software"
+     "id": "built_construction_and_contractor_software",
+     "label": "Construction & contractors"
     },
     {
      "id": "built_property_management_software",
-     "label": "Property management software"
+     "label": "Property management"
     },
     {
      "id": "built_hoa_and_community_association_software",
-     "label": "HOA & community association software"
+     "label": "HOA & community association management"
     },
     {
      "id": "built_equipment_rental_software",
-     "label": "Equipment rental software"
+     "label": "Equipment rental"
     }
    ]
   },
@@ -129,31 +129,27 @@
    "sectors": [
     {
      "id": "fin_bank_and_credit_union_software",
-     "label": "Bank & credit union software"
+     "label": "Banking & credit unions"
     },
     {
      "id": "fin_insurance_software",
-     "label": "Insurance software"
+     "label": "Insurance"
     },
     {
      "id": "fin_wealth_and_advisory_software",
-     "label": "Wealth & advisory software"
+     "label": "Wealth & advisory"
     },
     {
      "id": "fin_lending_and_mortgage_software",
-     "label": "Lending & mortgage software"
-    },
-    {
-     "id": "fin_accounting_and_tax_firm_software",
-     "label": "Accounting & tax firm software"
+     "label": "Lending & mortgage"
     },
     {
      "id": "fin_collections_and_receivables_software",
-     "label": "Collections & receivables software"
+     "label": "Collections & receivables"
     },
     {
      "id": "fin_compliance_software_for_advisors_and_broker_dealers",
-     "label": "Compliance software for advisors & broker-dealers"
+     "label": "Compliance for advisors & broker-dealers"
     }
    ]
   },
@@ -163,21 +159,21 @@
    "sectors": [
     {
      "id": "tech_msp_and_it_service_software",
-     "label": "MSP & IT service software"
+     "label": "Managed IT & MSPs"
     },
     {
      "id": "tech_security_tools_for_msps",
-     "label": "Security tools for MSPs"
+     "label": "Cybersecurity & managed security"
     },
     {
      "id": "tech_backup_and_disaster_recovery_software",
-     "label": "Backup & disaster recovery software"
+     "label": "Backup & disaster recovery"
     }
    ]
   },
   {
    "id": "mfg",
-   "label": "Manufacturing",
+   "label": "Manufacturing & distribution",
    "sectors": [
     {
      "id": "mfg_manufacturing_erp_and_shop_floor",
@@ -185,7 +181,7 @@
     },
     {
      "id": "mfg_quality_management_software",
-     "label": "Quality management software"
+     "label": "Quality management"
     },
     {
      "id": "mfg_maintenance_and_asset_management",
@@ -201,13 +197,13 @@
     },
     {
      "id": "mfg_environment_health_and_safety_software",
-     "label": "Environment, health & safety software"
+     "label": "Environment, health & safety"
     }
    ]
   },
   {
    "id": "hosp",
-   "label": "Hospitality",
+   "label": "Hospitality & leisure",
    "sectors": [
     {
      "id": "hosp_restaurant_pos_and_back_office",
@@ -215,23 +211,29 @@
     },
     {
      "id": "hosp_hotel_property_management_and_revenue_tools",
-     "label": "Hotel property management & revenue tools"
+     "label": "Hotel property management & revenue management"
     },
     {
      "id": "hosp_event_and_venue_management_software",
-     "label": "Event & venue management software"
-    },
-    {
-     "id": "hosp_fitness_and_gym_management_software",
-     "label": "Fitness & gym management software"
-    },
-    {
-     "id": "hosp_salon_spa_and_wellness_software",
-     "label": "Salon, spa & wellness software"
+     "label": "Event & venue management"
     },
     {
      "id": "hosp_ticketing_and_attractions_software",
-     "label": "Ticketing & attractions software"
+     "label": "Ticketing & attractions"
+    }
+   ]
+  },
+  {
+   "id": "fbw",
+   "label": "Fitness, beauty & wellness",
+   "sectors": [
+    {
+     "id": "hosp_fitness_and_gym_management_software",
+     "label": "Fitness, gyms & studios"
+    },
+    {
+     "id": "hosp_salon_spa_and_wellness_software",
+     "label": "Salons, spas & wellness"
     }
    ]
   },
@@ -241,15 +243,15 @@
    "sectors": [
     {
      "id": "retail_auto_dealer_and_repair_software",
-     "label": "Auto dealer & repair software"
+     "label": "Auto dealers & repair"
     },
     {
      "id": "retail_convenience_store_and_fuel_retail_software",
-     "label": "Convenience store & fuel retail software"
+     "label": "Convenience stores & fuel retail"
     },
     {
      "id": "retail_car_wash_software",
-     "label": "Car wash software"
+     "label": "Car washes"
     }
    ]
   },
@@ -259,33 +261,43 @@
    "sectors": [
     {
      "id": "prof_legal_practice_software",
-     "label": "Legal practice software"
+     "label": "Legal practice"
     },
     {
      "id": "prof_litigation_support_and_e_discovery_software",
-     "label": "Litigation support & e-discovery software"
-    },
-    {
-     "id": "prof_association_and_membership_software",
-     "label": "Association & membership software"
-    },
-    {
-     "id": "prof_nonprofit_and_church_software",
-     "label": "Nonprofit & church software"
+     "label": "Litigation support & e-discovery"
     },
     {
      "id": "prof_staffing_and_recruiting_software",
-     "label": "Staffing & recruiting software"
+     "label": "Staffing & recruiting"
+    },
+    {
+     "id": "fin_accounting_and_tax_firm_software",
+     "label": "Accounting & tax firms"
+    }
+   ]
+  },
+  {
+   "id": "npo",
+   "label": "Nonprofit & associations",
+   "sectors": [
+    {
+     "id": "prof_association_and_membership_software",
+     "label": "Association & membership management"
+    },
+    {
+     "id": "prof_nonprofit_and_church_software",
+     "label": "Nonprofit & church management"
     }
    ]
   },
   {
    "id": "gov",
-   "label": "Government",
+   "label": "Government & education",
    "sectors": [
     {
      "id": "gov_municipal_finance_and_administration_software",
-     "label": "Municipal finance & administration software"
+     "label": "Municipal finance & administration"
     },
     {
      "id": "gov_public_safety_and_emergency_communications",
@@ -297,19 +309,19 @@
     },
     {
      "id": "gov_k_12_district_administration_software",
-     "label": "K-12 district administration software"
+     "label": "K–12 district administration"
     },
     {
      "id": "gov_parks_and_recreation_software",
-     "label": "Parks & recreation software"
+     "label": "Parks & recreation"
     },
     {
      "id": "gov_courts_and_justice_software",
-     "label": "Courts & justice software"
+     "label": "Courts & justice"
     },
     {
      "id": "gov_permitting_and_licensing_software",
-     "label": "Permitting & licensing software"
+     "label": "Permitting & licensing"
     }
    ]
   }
