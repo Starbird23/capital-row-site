@@ -64,66 +64,6 @@
    ]
   },
   {
-   "id": "fin",
-   "label": "Financial services",
-   "sectors": [
-    {
-     "id": "fin_bank_and_credit_union_software",
-     "label": "Bank & credit union software"
-    },
-    {
-     "id": "fin_insurance_software",
-     "label": "Insurance software"
-    },
-    {
-     "id": "fin_wealth_and_advisory_software",
-     "label": "Wealth & advisory software"
-    },
-    {
-     "id": "fin_lending_and_mortgage_software",
-     "label": "Lending & mortgage software"
-    },
-    {
-     "id": "fin_accounting_and_tax_firm_software",
-     "label": "Accounting & tax firm software"
-    },
-    {
-     "id": "fin_collections_and_receivables_software",
-     "label": "Collections & receivables software"
-    },
-    {
-     "id": "fin_compliance_software_for_advisors_and_broker_dealers",
-     "label": "Compliance software for advisors & broker-dealers"
-    }
-   ]
-  },
-  {
-   "id": "built",
-   "label": "Construction, real estate & field services",
-   "sectors": [
-    {
-     "id": "built_construction_and_contractor_software",
-     "label": "Construction & contractor software"
-    },
-    {
-     "id": "built_field_service_management_software",
-     "label": "Field service management software"
-    },
-    {
-     "id": "built_property_management_software",
-     "label": "Property management software"
-    },
-    {
-     "id": "built_hoa_and_community_association_software",
-     "label": "HOA & community association software"
-    },
-    {
-     "id": "built_equipment_rental_software",
-     "label": "Equipment rental software"
-    }
-   ]
-  },
-  {
    "id": "fleet",
    "label": "Transportation & logistics",
    "sectors": [
@@ -154,6 +94,66 @@
     {
      "id": "fleet_school_bus_and_transit_routing",
      "label": "School bus & transit routing"
+    }
+   ]
+  },
+  {
+   "id": "built",
+   "label": "Construction, real estate & field services",
+   "sectors": [
+    {
+     "id": "built_construction_and_contractor_software",
+     "label": "Construction & contractor software"
+    },
+    {
+     "id": "built_field_service_management_software",
+     "label": "Field service management software"
+    },
+    {
+     "id": "built_property_management_software",
+     "label": "Property management software"
+    },
+    {
+     "id": "built_hoa_and_community_association_software",
+     "label": "HOA & community association software"
+    },
+    {
+     "id": "built_equipment_rental_software",
+     "label": "Equipment rental software"
+    }
+   ]
+  },
+  {
+   "id": "fin",
+   "label": "Financial services",
+   "sectors": [
+    {
+     "id": "fin_bank_and_credit_union_software",
+     "label": "Bank & credit union software"
+    },
+    {
+     "id": "fin_insurance_software",
+     "label": "Insurance software"
+    },
+    {
+     "id": "fin_wealth_and_advisory_software",
+     "label": "Wealth & advisory software"
+    },
+    {
+     "id": "fin_lending_and_mortgage_software",
+     "label": "Lending & mortgage software"
+    },
+    {
+     "id": "fin_accounting_and_tax_firm_software",
+     "label": "Accounting & tax firm software"
+    },
+    {
+     "id": "fin_collections_and_receivables_software",
+     "label": "Collections & receivables software"
+    },
+    {
+     "id": "fin_compliance_software_for_advisors_and_broker_dealers",
+     "label": "Compliance software for advisors & broker-dealers"
     }
    ]
   },

@@ -1,7 +1,7 @@
 {
  "path": "/sectors/",
  "seoTitle": "Sector coverage: ten industries, 63 sectors, eight desks open | Capital Row",
- "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with eight desks open: two in transportation and logistics, one in field service and five in healthcare. Choose an industry to see its sectors and which are active.",
+ "seoDescription": "The vertical software sectors Capital Row covers: ten industries and 63 sectors, with eight desks open: five in healthcare, two in transportation and logistics and one in field service. Choose an industry to see its sectors and which are active.",
  "sections": [
   {
    "id": "inner",
@@ -71,7 +71,7 @@
     {
      "key": "band.3",
      "kind": "Text",
-     "text": "Billing, credentialing and practice software, tied to payer connections."
+     "text": "Billing, credentialing and practice software, most of it tied to payer connections."
     },
     {
      "key": "band.4",
@@ -86,7 +86,7 @@
     {
      "key": "band.6",
      "kind": "Paragraph",
-     "text": "Billing, credentialing and practice software, tied to payer connections."
+     "text": "Billing, credentialing and practice software, most of it tied to payer connections."
     },
     {
      "key": "band.7",
@@ -371,7 +371,7 @@
     {
      "key": "band.63",
      "kind": "Paragraph",
-     "text": "Leasing, rent, maintenance and association management for owners and managers"
+     "text": "Leasing, rent collection and maintenance for property owners and managers"
     },
     {
      "key": "band.64",
@@ -446,7 +446,7 @@
     {
      "key": "band.78",
      "kind": "Paragraph",
-     "text": "Lending, account opening, compliance and collections systems for community banks and credit unions"
+     "text": "Account opening, digital banking, compliance and reporting systems for community banks and credit unions"
     },
     {
      "key": "band.79",
@@ -1256,7 +1256,7 @@
     {
      "key": "band.240",
      "kind": "Paragraph",
-     "text": "Student records, bus routing, meal programs, district finance and HR"
+     "text": "Student records, meal programs, district finance and HR"
     },
     {
      "key": "band.241",
