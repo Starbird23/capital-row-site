@@ -217,7 +217,7 @@
     {
      "key": "qwhy.6",
      "kind": "Text",
-     "text": "Revenue booked unevenly, month-end closes that vary, one-time costs hidden in…"
+     "text": "The issues a buyer would use against the price, found while you can fix them."
     },
     {
      "key": "qwhy.7",
@@ -227,7 +227,7 @@
     {
      "key": "qwhy.8",
      "kind": "Heading",
-     "text": "Find the problems first"
+     "text": "What gets found"
     },
     {
      "key": "qwhy.9",
@@ -247,7 +247,7 @@
     {
      "key": "qwhy.12",
      "kind": "Text",
-     "text": "Buyers pay for earnings they can trace."
+     "text": "Adjusted earnings a buyer's accountants can check line by line."
     },
     {
      "key": "qwhy.13",
@@ -257,7 +257,7 @@
     {
      "key": "qwhy.14",
      "kind": "Heading",
-     "text": "Defend your adjusted earnings"
+     "text": "How the number holds"
     },
     {
      "key": "qwhy.15",
@@ -277,7 +277,7 @@
     {
      "key": "qwhy.18",
      "kind": "Text",
-     "text": "With schedules, documents and answers organized in advance, the deal team responds…"
+     "text": "Answers ready before the requests arrive, so fewer weeks pass under exclusivity."
     },
     {
      "key": "qwhy.19",
@@ -287,7 +287,7 @@
     {
      "key": "qwhy.20",
      "kind": "Heading",
-     "text": "Shorten diligence"
+     "text": "Why it moves faster"
     },
     {
      "key": "qwhy.21",
@@ -307,7 +307,7 @@
     {
      "key": "qwhy.24",
      "kind": "Text",
-     "text": "Consistent reporting and documented support show a business that is run professionally…"
+     "text": "A business that reads as run by a system, not by its founder."
     },
     {
      "key": "qwhy.25",
@@ -317,7 +317,7 @@
     {
      "key": "qwhy.26",
      "kind": "Heading",
-     "text": "Build buyer confidence"
+     "text": "What a buyer sees"
     },
     {
      "key": "qwhy.27",
@@ -499,7 +499,7 @@
     {
      "key": "qqoe.15",
      "kind": "Text",
-     "text": "Financial statements tied to the trial balance, general ledger, tax returns, bank and…"
+     "text": "Every reported figure tied back to the system it came from."
     },
     {
      "key": "qqoe.16",
@@ -509,7 +509,7 @@
     {
      "key": "qqoe.17",
      "kind": "Heading",
-     "text": "Source-data reconciliation"
+     "text": "Ledger to bank to tax return"
     },
     {
      "key": "qqoe.18",
@@ -529,7 +529,7 @@
     {
      "key": "qqoe.21",
      "kind": "Text",
-     "text": "Reported net income or EBITDA bridged to adjusted earnings, item by item: accounting…"
+     "text": "One path from reported results to adjusted earnings, each step explained."
     },
     {
      "key": "qqoe.22",
@@ -539,7 +539,7 @@
     {
      "key": "qqoe.23",
      "kind": "Heading",
-     "text": "Adjusted earnings bridge"
+     "text": "Every step from reported to adjusted"
     },
     {
      "key": "qqoe.24",
@@ -559,7 +559,7 @@
     {
      "key": "qqoe.27",
      "kind": "Text",
-     "text": "Each proposed add-back, from owner pay and personal expenses to one-time professional…"
+     "text": "The add-backs a buyer will accept, separated from the ones it will not."
     },
     {
      "key": "qqoe.28",
@@ -569,7 +569,7 @@
     {
      "key": "qqoe.29",
      "kind": "Heading",
-     "text": "Add-back support"
+     "text": "Amount, recurrence and transfer"
     },
     {
      "key": "qqoe.30",
@@ -589,7 +589,7 @@
     {
      "key": "qqoe.33",
      "kind": "Text",
-     "text": "Recurring against one-time revenue, organic against acquired growth, price and volume…"
+     "text": "How much of the revenue will still be there after closing."
     },
     {
      "key": "qqoe.34",
@@ -599,7 +599,7 @@
     {
      "key": "qqoe.35",
      "kind": "Heading",
-     "text": "Revenue quality"
+     "text": "Recurring, organic and lasting"
     },
     {
      "key": "qqoe.36",
@@ -619,7 +619,7 @@
     {
      "key": "qqoe.39",
      "kind": "Text",
-     "text": "Revenue and margin broken out by customer, payer, provider, site, product, service…"
+     "text": "Where revenue and margin come from, and how exposed they are."
     },
     {
      "key": "qqoe.40",
@@ -629,7 +629,7 @@
     {
      "key": "qqoe.41",
      "kind": "Heading",
-     "text": "Concentration and mix"
+     "text": "By customer, payer and service line"
     },
     {
      "key": "qqoe.42",
@@ -649,7 +649,7 @@
     {
      "key": "qqoe.45",
      "kind": "Text",
-     "text": "Cost of goods sold, labor and provider pay, purchasing, rent, commissions and overhead…"
+     "text": "Which costs a buyer inherits, and which end at closing."
     },
     {
      "key": "qqoe.46",
@@ -659,7 +659,7 @@
     {
      "key": "qqoe.47",
      "kind": "Heading",
-     "text": "Gross margin and cost structure"
+     "text": "Fixed, variable and inherited"
     },
     {
      "key": "qqoe.48",
@@ -679,7 +679,7 @@
     {
      "key": "qqoe.51",
      "kind": "Text",
-     "text": "Analyze monthly working capital, seasonality and unusual balances, set out the method…"
+     "text": "The working capital you deliver at closing, argued from your numbers."
     },
     {
      "key": "qqoe.52",
@@ -689,7 +689,7 @@
     {
      "key": "qqoe.53",
      "kind": "Heading",
-     "text": "Net working capital"
+     "text": "Method first, then the number"
     },
     {
      "key": "qqoe.54",
@@ -709,7 +709,7 @@
     {
      "key": "qqoe.57",
      "kind": "Text",
-     "text": "Cash, debt, accruals, taxes owed, deal bonuses, deferred pay, leases, related-party…"
+     "text": "The items that come off the price at closing, found first."
     },
     {
      "key": "qqoe.58",
@@ -719,7 +719,7 @@
     {
      "key": "qqoe.59",
      "kind": "Heading",
-     "text": "Balance sheet and debt-like items"
+     "text": "Everything that reduces proceeds"
     },
     {
      "key": "qqoe.60",
@@ -739,7 +739,7 @@
     {
      "key": "qqoe.63",
      "kind": "Text",
-     "text": "EBITDA set against the cash the business actually produces, recurring and postponed…"
+     "text": "How much of the earnings actually turns into cash."
     },
     {
      "key": "qqoe.64",
@@ -749,7 +749,7 @@
     {
      "key": "qqoe.65",
      "kind": "Heading",
-     "text": "Cash flow and capital expenditures"
+     "text": "Earnings against cash"
     },
     {
      "key": "qqoe.66",
@@ -769,7 +769,7 @@
     {
      "key": "qqoe.69",
      "kind": "Text",
-     "text": "Month-by-month history and trailing-twelve-month results, with the acquisitions…"
+     "text": "Whether today's run rate holds, and what is behind it."
     },
     {
      "key": "qqoe.70",
@@ -779,7 +779,7 @@
     {
      "key": "qqoe.71",
      "kind": "Heading",
-     "text": "Trends, seasonality and run rate"
+     "text": "What sits behind the run rate"
     },
     {
      "key": "qqoe.72",
@@ -799,7 +799,7 @@
     {
      "key": "qqoe.75",
      "kind": "Text",
-     "text": "The bridge from past results to the budget or forecast, and how value and borrowing…"
+     "text": "Whether the forecast holds under a buyer's harder assumptions."
     },
     {
      "key": "qqoe.76",
@@ -809,7 +809,7 @@
     {
      "key": "qqoe.77",
      "kind": "Heading",
-     "text": "Forecasts and sensitivities"
+     "text": "Realistic cases, not one plan"
     },
     {
      "key": "qqoe.78",
@@ -829,7 +829,7 @@
     {
      "key": "qqoe.81",
      "kind": "Text",
-     "text": "A ranked list of the issues a buyer will likely raise, the evidence each one needs, who…"
+     "text": "Every weak point sized, with its answer ready, before negotiation starts."
     },
     {
      "key": "qqoe.82",
@@ -839,7 +839,7 @@
     {
      "key": "qqoe.83",
      "kind": "Heading",
-     "text": "Risk flags and remediation"
+     "text": "One list, used every time"
     },
     {
      "key": "qqoe.84",
@@ -1066,7 +1066,7 @@
     {
      "key": "qbooks.33",
      "kind": "Heading",
-     "text": "What the work may include"
+     "text": "What the work includes"
     },
     {
      "key": "qbooks.34",
@@ -1155,6 +1155,11 @@
      "text": "A data room is evidence, organized."
     },
     {
+     "key": "qdataroom.116",
+     "kind": "Paragraph",
+     "text": "<strong>A virtual data room (VDR) is the secure online room where a buyer, its lenders and their advisors read every document behind the deal.</strong> Diligence runs through it: each request is answered from it, each disclosure is dated in it, and access is controlled document by document. A room that is incomplete or out of order slows the deal and gives a buyer reasons to reopen terms. Our quality of earnings tool now includes the data room, so each adjusted figure sits next to the documents that support it, and the room and the report tell the same story."
+    },
+    {
      "key": "qdataroom.3",
      "kind": "Paragraph",
      "text": "<strong>Every document has a place, a version and a reason to be there.</strong> The room is secure, easy to move through, named the same way throughout, controlled by version, and arranged around what the financial, legal, tax, people, operations, compliance, IT, insurance and lender reviewers will ask. Sensitive material is released in stages, to the right people, when the deal calls for it."
@@ -1167,12 +1172,12 @@
     {
      "key": "qdataroom.5",
      "kind": "Heading",
-     "text": "Corporate and ownership"
+     "text": "Who owns the company, on paper"
     },
     {
      "key": "qdataroom.6",
      "kind": "Text",
-     "text": "Formation papers, operating agreement or bylaws, ownership table, board minutes…"
+     "text": "The first thing a buyer's counsel confirms, before any number is discussed."
     },
     {
      "key": "qdataroom.7",
@@ -1197,12 +1202,12 @@
     {
      "key": "qdataroom.11",
      "kind": "Heading",
-     "text": "Financial statements"
+     "text": "Results a buyer can rebuild"
     },
     {
      "key": "qdataroom.12",
      "kind": "Text",
-     "text": "Annual and monthly statements, year-to-date and trailing-twelve-month results, trial…"
+     "text": "Every period in the same format, ready to tie to the ledger."
     },
     {
      "key": "qdataroom.13",
@@ -1227,12 +1232,12 @@
     {
      "key": "qdataroom.17",
      "kind": "Heading",
-     "text": "Tax"
+     "text": "Tax history, reconciled"
     },
     {
      "key": "qdataroom.18",
      "kind": "Text",
-     "text": "Federal, state, local, payroll, and sales and use filings, correspondence, audits…"
+     "text": "Tax exposure a buyer would price in, found and sized first."
     },
     {
      "key": "qdataroom.19",
@@ -1257,12 +1262,12 @@
     {
      "key": "qdataroom.23",
      "kind": "Heading",
-     "text": "Revenue and customers"
+     "text": "Where the revenue comes from"
     },
     {
      "key": "qdataroom.24",
      "kind": "Text",
-     "text": "Revenue by customer, payer, provider, product, site and contract, with pipeline…"
+     "text": "The detail behind every revenue figure a buyer will use."
     },
     {
      "key": "qdataroom.25",
@@ -1287,12 +1292,12 @@
     {
      "key": "qdataroom.29",
      "kind": "Heading",
-     "text": "Material contracts"
+     "text": "Contracts that need consent to transfer"
     },
     {
      "key": "qdataroom.30",
      "kind": "Text",
-     "text": "Customer, supplier, referral, distribution, service and affiliation agreements, with…"
+     "text": "Marked before a buyer's counsel finds them."
     },
     {
      "key": "qdataroom.31",
@@ -1317,12 +1322,12 @@
     {
      "key": "qdataroom.35",
      "kind": "Heading",
-     "text": "Legal and litigation"
+     "text": "Every claim, open or closed"
     },
     {
      "key": "qdataroom.36",
      "kind": "Text",
-     "text": "Open and past claims, disputes, settlements, investigations, notices, letters from…"
+     "text": "Disclosed on your terms rather than discovered on the buyer's."
     },
     {
      "key": "qdataroom.37",
@@ -1347,12 +1352,12 @@
     {
      "key": "qdataroom.41",
      "kind": "Heading",
-     "text": "Debt and financing"
+     "text": "What gets paid off at closing"
     },
     {
      "key": "qdataroom.42",
      "kind": "Text",
-     "text": "Loans and credit lines, leases, guarantees, liens, covenants, equipment financing and…"
+     "text": "Payoff letters and liens, ready for the closing statement."
     },
     {
      "key": "qdataroom.43",
@@ -1377,12 +1382,12 @@
     {
      "key": "qdataroom.47",
      "kind": "Heading",
-     "text": "Human resources"
+     "text": "The people a buyer is paying for"
     },
     {
      "key": "qdataroom.48",
      "kind": "Text",
-     "text": "Staff roster, pay and benefits, the handbook, contractors, retention and turnover, and…"
+     "text": "Who stays, what they cost and what they are owed."
     },
     {
      "key": "qdataroom.49",
@@ -1407,12 +1412,12 @@
     {
      "key": "qdataroom.53",
      "kind": "Heading",
-     "text": "Organization and management"
+     "text": "Who runs the business after the sale"
     },
     {
      "key": "qdataroom.54",
      "kind": "Text",
-     "text": "Organization chart, role descriptions, who decides what, succession, key-person…"
+     "text": "A buyer prices key-person risk from this folder."
     },
     {
      "key": "qdataroom.55",
@@ -1437,12 +1442,12 @@
     {
      "key": "qdataroom.59",
      "kind": "Heading",
-     "text": "Operations and SOPs"
+     "text": "How the work actually gets done"
     },
     {
      "key": "qdataroom.60",
      "kind": "Text",
-     "text": "How the work gets done: delivery, production, purchasing, scheduling, billing…"
+     "text": "Written processes a new owner can run on the first day."
     },
     {
      "key": "qdataroom.61",
@@ -1467,12 +1472,12 @@
     {
      "key": "qdataroom.65",
      "kind": "Heading",
-     "text": "Licenses and regulatory"
+     "text": "Permission to keep operating"
     },
     {
      "key": "qdataroom.66",
      "kind": "Text",
-     "text": "Permits, professional and facility licenses, accreditations, registrations, inspection…"
+     "text": "Every license and renewal date a buyer's counsel will ask for."
     },
     {
      "key": "qdataroom.67",
@@ -1497,12 +1502,12 @@
     {
      "key": "qdataroom.71",
      "kind": "Heading",
-     "text": "Compliance and quality"
+     "text": "Compliance, documented"
     },
     {
      "key": "qdataroom.72",
      "kind": "Text",
-     "text": "Compliance policies and training, internal reviews, incident records and corrective…"
+     "text": "The record a buyer's regulatory review starts from."
     },
     {
      "key": "qdataroom.73",
@@ -1527,12 +1532,12 @@
     {
      "key": "qdataroom.77",
      "kind": "Heading",
-     "text": "Insurance"
+     "text": "Coverage and claims history"
     },
     {
      "key": "qdataroom.78",
      "kind": "Text",
-     "text": "Current policies and claims history, loss runs, professional liability, cyber…"
+     "text": "What a buyer reads to price the risk it would inherit."
     },
     {
      "key": "qdataroom.79",
@@ -1557,12 +1562,12 @@
     {
      "key": "qdataroom.83",
      "kind": "Heading",
-     "text": "Real estate"
+     "text": "The space the business runs in"
     },
     {
      "key": "qdataroom.84",
      "kind": "Text",
-     "text": "Leases and deeds, rent schedules, renewal options, landlord consents, environmental…"
+     "text": "Leases and consents that can delay a closing when found late."
     },
     {
      "key": "qdataroom.85",
@@ -1587,12 +1592,12 @@
     {
      "key": "qdataroom.89",
      "kind": "Heading",
-     "text": "IT and cybersecurity"
+     "text": "Systems, access and security"
     },
     {
      "key": "qdataroom.90",
      "kind": "Text",
-     "text": "Systems map, software vendors and licenses, access controls, backups, security…"
+     "text": "Documented before the buyer's security review."
     },
     {
      "key": "qdataroom.91",
@@ -1617,12 +1622,12 @@
     {
      "key": "qdataroom.95",
      "kind": "Heading",
-     "text": "Intellectual property"
+     "text": "Proof the company owns what it sells"
     },
     {
      "key": "qdataroom.96",
      "kind": "Text",
-     "text": "Patents, trademarks, copyrights, domain names, owned software, trade secrets, licenses…"
+     "text": "For a software company, much of the value sits in this folder."
     },
     {
      "key": "qdataroom.97",
@@ -1647,12 +1652,12 @@
     {
      "key": "qdataroom.101",
      "kind": "Heading",
-     "text": "Assets, CapEx and inventory"
+     "text": "What the equipment and stock are worth"
     },
     {
      "key": "qdataroom.102",
      "kind": "Text",
-     "text": "Fixed-asset register, equipment and maintenance records, capital plans, inventory…"
+     "text": "Support for the values a buyer would otherwise discount."
     },
     {
      "key": "qdataroom.103",
@@ -1677,12 +1682,12 @@
     {
      "key": "qdataroom.107",
      "kind": "Heading",
-     "text": "Industry-specific diligence"
+     "text": "The records your sector is judged on"
     },
     {
      "key": "qdataroom.108",
      "kind": "Text",
-     "text": "Software revenue and retention schedules, healthcare payer and credentialing files, or…"
+     "text": "Retention schedules for software, credentialing files for healthcare."
     },
     {
      "key": "qdataroom.109",
@@ -1748,12 +1753,12 @@
     {
      "key": "qfile.5",
      "kind": "Heading",
-     "text": "Master request list"
+     "text": "Master FDD request list"
     },
     {
      "key": "qfile.6",
      "kind": "Text",
-     "text": "A checklist built for this deal, linked to the data room, with an owner, a priority, a…"
+     "text": "The standard FDD requests, answered before a buyer sends them."
     },
     {
      "key": "qfile.7",
@@ -1763,12 +1768,12 @@
     {
      "key": "qfile.8",
      "kind": "Heading",
-     "text": "Master request list"
+     "text": "One owner and one date per item"
     },
     {
      "key": "qfile.9",
      "kind": "Paragraph",
-     "text": "A checklist built for this deal, linked to the data room, with an owner, a priority, a status and a due date for each item."
+     "text": "Built from the financial due diligence requests that buyers and their accounting firms send, tailored to this deal and linked to the data room, with an owner, a priority, a status and a due date for each item."
     },
     {
      "key": "qfile.10",
@@ -1783,7 +1788,7 @@
     {
      "key": "qfile.12",
      "kind": "Text",
-     "text": "The detail behind adjusted earnings and each add-back, revenue trends, concentration…"
+     "text": "The proof behind every number a buyer will question."
     },
     {
      "key": "qfile.13",
@@ -1793,7 +1798,7 @@
     {
      "key": "qfile.14",
      "kind": "Heading",
-     "text": "Financial evidence binder"
+     "text": "Behind each figure"
     },
     {
      "key": "qfile.15",
@@ -1813,7 +1818,7 @@
     {
      "key": "qfile.18",
      "kind": "Text",
-     "text": "Known issues ranked by what they could cost, with an owner, a fix, a plan for…"
+     "text": "Bad news handled on your schedule, not the buyer's."
     },
     {
      "key": "qfile.19",
@@ -1823,7 +1828,7 @@
     {
      "key": "qfile.20",
      "kind": "Heading",
-     "text": "Risk and remediation log"
+     "text": "Decided before a buyer asks"
     },
     {
      "key": "qfile.21",
@@ -1843,7 +1848,7 @@
     {
      "key": "qfile.24",
      "kind": "Text",
-     "text": "Written answers to the questions every buyer asks, tied to documents and schedules, so…"
+     "text": "Consistent answers on every call, from every member of the team."
     },
     {
      "key": "qfile.25",
@@ -1853,7 +1858,7 @@
     {
      "key": "qfile.26",
      "kind": "Heading",
-     "text": "Buyer Q&A library"
+     "text": "Written once"
     },
     {
      "key": "qfile.27",
@@ -1873,7 +1878,7 @@
     {
      "key": "qfile.30",
      "kind": "Text",
-     "text": "Key messages, the follow-up questions to expect, and who answers which kind of…"
+     "text": "Prepared for the calls that shape a buyer's view."
     },
     {
      "key": "qfile.31",
@@ -1883,7 +1888,7 @@
     {
      "key": "qfile.32",
      "kind": "Heading",
-     "text": "Management-call preparation"
+     "text": "Who answers what"
     },
     {
      "key": "qfile.33",
@@ -1903,7 +1908,7 @@
     {
      "key": "qfile.36",
      "kind": "Text",
-     "text": "Each new month of results, the rolling twelve months, working capital, debt, buyer and…"
+     "text": "The file stays current from the letter of intent to closing."
     },
     {
      "key": "qfile.37",
@@ -1913,7 +1918,7 @@
     {
      "key": "qfile.38",
      "kind": "Heading",
-     "text": "Refresh and closing support"
+     "text": "Every month until closing"
     },
     {
      "key": "qfile.39",
@@ -2060,7 +2065,7 @@
     {
      "key": "qteam.6",
      "kind": "Text",
-     "text": "Capital Row frames the deal: the story for buyers, where value is sensitive, what the…"
+     "text": "The deal story, and the questions most likely to move price."
     },
     {
      "key": "qteam.7",
@@ -2070,7 +2075,7 @@
     {
      "key": "qteam.8",
      "kind": "Heading",
-     "text": "M&A deal leadership"
+     "text": "Capital Row's part"
     },
     {
      "key": "qteam.9",
@@ -2085,7 +2090,7 @@
     {
      "key": "qteam.11",
      "kind": "Text",
-     "text": "An independent partner firm does the accounting work: tying figures to source data…"
+     "text": "The accounting work, done by an independent partner firm."
     },
     {
      "key": "qteam.12",
@@ -2095,7 +2100,7 @@
     {
      "key": "qteam.13",
      "kind": "Heading",
-     "text": "Transaction accounting and QoE"
+     "text": "Accounting and schedules"
     },
     {
      "key": "qteam.14",
@@ -2110,7 +2115,7 @@
     {
      "key": "qteam.16",
      "kind": "Text",
-     "text": "Sets up the index, gathers documents, controls versions, tracks every request, releases…"
+     "text": "One record the whole deal team works from."
     },
     {
      "key": "qteam.17",
@@ -2120,7 +2125,7 @@
     {
      "key": "qteam.18",
      "kind": "Heading",
-     "text": "Data room and diligence management"
+     "text": "Day to day"
     },
     {
      "key": "qteam.19",
@@ -2135,7 +2140,7 @@
     {
      "key": "qteam.21",
      "kind": "Text",
-     "text": "Fits the work to the business: recurring software revenue, healthcare reimbursement and…"
+     "text": "The analysis tailored to how your sector earns."
     },
     {
      "key": "qteam.22",
@@ -2145,7 +2150,7 @@
     {
      "key": "qteam.23",
      "kind": "Heading",
-     "text": "Industry-specific analysis"
+     "text": "By sector"
     },
     {
      "key": "qteam.24",
@@ -2160,7 +2165,7 @@
     {
      "key": "qteam.26",
      "kind": "Text",
-     "text": "Works with management on the chart of accounts, the month-end close, accruals…"
+     "text": "Books and reporting built to keep running after the sale."
     },
     {
      "key": "qteam.27",
@@ -2170,7 +2175,7 @@
     {
      "key": "qteam.28",
      "kind": "Heading",
-     "text": "Financial institutionalization"
+     "text": "With management"
     },
     {
      "key": "qteam.29",
@@ -2185,7 +2190,7 @@
     {
      "key": "qteam.31",
      "kind": "Text",
-     "text": "Brings in independent CPAs and tax, legal, regulatory, compliance, insurance…"
+     "text": "Credentialed professionals when the work calls for an opinion."
     },
     {
      "key": "qteam.32",
@@ -2195,7 +2200,7 @@
     {
      "key": "qteam.33",
      "kind": "Heading",
-     "text": "Independent specialists as needed"
+     "text": "When they are brought in"
     },
     {
      "key": "qteam.34",
@@ -2286,7 +2291,7 @@
     {
      "key": "qprocess.6",
      "kind": "Text",
-     "text": "We look at ownership, past financials, accounting systems, how often reports are…"
+     "text": "What you have, what the deal needs and the plan between them."
     },
     {
      "key": "qprocess.7",
@@ -2296,7 +2301,7 @@
     {
      "key": "qprocess.8",
      "kind": "Heading",
-     "text": "Diagnose and scope"
+     "text": "What we look at"
     },
     {
      "key": "qprocess.9",
@@ -2316,7 +2321,7 @@
     {
      "key": "qprocess.12",
      "kind": "Text",
-     "text": "Data comes in through a secure channel."
+     "text": "Your records in one controlled place, with every gap listed."
     },
     {
      "key": "qprocess.13",
@@ -2326,7 +2331,7 @@
     {
      "key": "qprocess.14",
      "kind": "Heading",
-     "text": "Secure intake and data integrity"
+     "text": "How data comes in"
     },
     {
      "key": "qprocess.15",
@@ -2346,7 +2351,7 @@
     {
      "key": "qprocess.18",
      "kind": "Text",
-     "text": "Material accounting issues are corrected or scheduled, accounts remapped, policies…"
+     "text": "The books corrected and the reporting made repeatable."
     },
     {
      "key": "qprocess.19",
@@ -2356,7 +2361,7 @@
     {
      "key": "qprocess.20",
      "kind": "Heading",
-     "text": "Reconcile and institutionalize"
+     "text": "What gets fixed"
     },
     {
      "key": "qprocess.21",
@@ -2376,7 +2381,7 @@
     {
      "key": "qprocess.24",
      "kind": "Text",
-     "text": "The QoE schedules: the adjusted EBITDA bridge and the support for each add-back…"
+     "text": "The schedules a buyer's accountants will read first."
     },
     {
      "key": "qprocess.25",
@@ -2386,7 +2391,7 @@
     {
      "key": "qprocess.26",
      "kind": "Heading",
-     "text": "Analyze and normalize earnings"
+     "text": "Earnings, normalized"
     },
     {
      "key": "qprocess.27",
@@ -2406,7 +2411,7 @@
     {
      "key": "qprocess.30",
      "kind": "Text",
-     "text": "The data room and diligence file are assembled and cross-referenced, management's…"
+     "text": "Everything read the way a buyer will read it, before a buyer does."
     },
     {
      "key": "qprocess.31",
@@ -2416,7 +2421,7 @@
     {
      "key": "qprocess.32",
      "kind": "Heading",
-     "text": "Build, organize and review"
+     "text": "What the review covers"
     },
     {
      "key": "qprocess.33",
@@ -2436,7 +2441,7 @@
     {
      "key": "qprocess.36",
      "kind": "Text",
-     "text": "As each month closes, the analysis is updated."
+     "text": "Support that stays on after the letter of intent, through closing."
     },
     {
      "key": "qprocess.37",
@@ -2446,7 +2451,7 @@
     {
      "key": "qprocess.38",
      "kind": "Heading",
-     "text": "Market, refresh and defend"
+     "text": "During the deal"
     },
     {
      "key": "qprocess.39",
@@ -2623,7 +2628,7 @@
     {
      "key": "qwho.5",
      "kind": "Text",
-     "text": "Where recurring and one-time revenue, retention, deferred revenue, capitalized…"
+     "text": "Where recurring revenue and retention drive the price."
     },
     {
      "key": "qwho.6",
@@ -2633,7 +2638,7 @@
     {
      "key": "qwho.7",
      "kind": "Heading",
-     "text": "Vertical software and SaaS companies"
+     "text": "Recurring revenue, read closely"
     },
     {
      "key": "qwho.8",
@@ -2648,7 +2653,7 @@
     {
      "key": "qwho.10",
      "kind": "Text",
-     "text": "Where contract terms, recurring and project revenue, customer retention, labor…"
+     "text": "Where contracts and renewals decide what earnings are worth."
     },
     {
      "key": "qwho.11",
@@ -2658,7 +2663,7 @@
     {
      "key": "qwho.12",
      "kind": "Heading",
-     "text": "Recurring service businesses"
+     "text": "Contracts and renewals"
     },
     {
      "key": "qwho.13",
@@ -2673,7 +2678,7 @@
     {
      "key": "qwho.15",
      "kind": "Text",
-     "text": "Where payer mix, provider pay, reimbursement, billing and collections, credentialing…"
+     "text": "Where reimbursement and provider pay change normalized earnings."
     },
     {
      "key": "qwho.16",
@@ -2683,7 +2688,7 @@
     {
      "key": "qwho.17",
      "kind": "Heading",
-     "text": "Healthcare and dental organizations"
+     "text": "Payers, providers and compliance"
     },
     {
      "key": "qwho.18",
@@ -2698,7 +2703,7 @@
     {
      "key": "qwho.20",
      "kind": "Text",
-     "text": "Where intercompany entries, shared costs, management fees, acquisitions, site-level…"
+     "text": "Where the combined results are hard to explain."
     },
     {
      "key": "qwho.21",
@@ -2708,7 +2713,7 @@
     {
      "key": "qwho.22",
      "kind": "Heading",
-     "text": "Multi-entity or multi-location groups"
+     "text": "Entities and shared costs"
     },
     {
      "key": "qwho.23",
@@ -2723,7 +2728,7 @@
     {
      "key": "qwho.25",
      "kind": "Text",
-     "text": "Where personal, related-party, discretionary and one-time costs, owner pay and pro…"
+     "text": "Where add-backs need proof before they hold."
     },
     {
      "key": "qwho.26",
@@ -2733,7 +2738,7 @@
     {
      "key": "qwho.27",
      "kind": "Heading",
-     "text": "Owners with significant add-backs"
+     "text": "Owner and one-time costs"
     },
     {
      "key": "qwho.28",
@@ -2748,7 +2753,7 @@
     {
      "key": "qwho.30",
      "kind": "Text",
-     "text": "Where revenue and operations have grown faster than the finance team, the month-end…"
+     "text": "Where the finance function is still built for a smaller company."
     },
     {
      "key": "qwho.31",
@@ -2758,7 +2763,7 @@
     {
      "key": "qwho.32",
      "kind": "Heading",
-     "text": "Businesses that have outgrown their books"
+     "text": "Where the gap shows"
     },
     {
      "key": "qwho.33",

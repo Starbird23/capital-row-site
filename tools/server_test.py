@@ -27,6 +27,9 @@ ALL_CR = ','.join(['cr_form', 'cr_contact_type', 'cr_kind', 'cr_sector', 'cr_ind
                    'cr_cash_flow_appetite', 'cr_lending_geography', 'cr_headquarters_region', 'cr_range_flags', 'cr_research_use_consent', 'cr_recontact_consent',
                    # company record
                    'name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name', 'cr_ownership',
+                   'acquisition_strategy', 'platform_name', 'buyer_ownership_appetite', 'target_sectors', 'target_business_models', 'target_geography', 'avoid_geography', 'target_customer_markets',
+                   'target_profitability', 'target_revenue_models', 'recurring_revenue_preference', 'regulated_sectors_appetite', 'founder_after_close', 'acquisition_timeline', 'funding_status_stated',
+                   'buyer_exclusions', 'target_revenue_min', 'target_revenue_max', 'target_arr_min', 'target_arr_max', 'target_adjusted_earnings_min', 'target_adjusted_earnings_max', 'min_target_ev', 'max_target_ev', 'equity_check_min', 'equity_check_max',
                    'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
                    'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref', 'cr_regulated_appetite', 'cr_owner_after_close',
                    'cr_timing', 'cr_funding_status', 'cr_exclusions'])
@@ -184,9 +187,10 @@ async def main():
         await pg.click('#bbf button[type=submit]'); await pg.wait_for_timeout(2500)
         ck('buy box received', 'have been received' in await pg.inner_text('#bbmsg'))
         bx = sent_bodies('Buy box'); bf = bx[-1][1] if bx else {}
-        ck('buy box typed values', bf.get('cr_rev_min') == '5000000' and 'cr_rev_max' not in bf and bf.get('cr_arr_min') == '3000000' and bf.get('cr_target_range_flags') == 'Annual revenue: no maximum'
-           and bf.get('cr_target_geography') == 'United States;Canada' and bf.get('cr_target_company_types') == 'Software + services' and bf.get('cr_sector', '').count(';') == 1 and bf.get('cr_criteria_retention_consent') == 'true'
-           and bf.get('buyer_type') == 'Family office' and bf.get('name') == 'Test Box Holdings' and bf.get('domain') == 'testbox.com' and bf.get('target_verticals', '').count(';') == 1 and bf.get('target_end_markets') == 'Healthcare', bf)
+        # October 27: the buy box sends HubSpot's own fields (Target revenue, Target geography on the 25-region list, Target business models)
+        ck('buy box typed values', bf.get('target_revenue_min') == '5000000' and 'target_revenue_max' not in bf and bf.get('target_arr_min') == '3000000' and bf.get('cr_target_range_flags') == 'Annual revenue: no maximum'
+           and bf.get('target_geography') == 'National, all 50 states;Northeast' and bf.get('target_business_models') == 'Hybrid' and bf.get('cr_sector', '').count(';') == 1 and bf.get('cr_criteria_retention_consent') == 'true'
+           and bf.get('buyer_type') == 'Family office' and bf.get('name') == 'Test Box Holdings' and bf.get('domain') == 'testbox.com' and bf.get('target_sectors', '').count(';') >= 1 and 'Healthcare' in bf.get('target_end_markets', ''), bf)
         ck('company-record fields travel as company fields', all(x.get('objectTypeId') == '0-2' for x in bx[-1][0]['body']['fields'] if x['name'] in ('name', 'domain', 'buyer_type', 'target_verticals', 'cr_rev_min')) if bx else False)
         await ctx.close()
         ctx, pg = await page('index.html')

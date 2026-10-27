@@ -10,7 +10,7 @@
     {
      "key": "pgnav.1",
      "kind": "Link",
-     "text": "Why"
+     "text": "The market"
     },
     {
      "key": "pgnav.2",
@@ -92,7 +92,7 @@
     {
      "key": "why.1",
      "kind": "Text",
-     "text": "Why Capital Row exists"
+     "text": "Vertical software, by the numbers"
     },
     {
      "key": "why.2",
@@ -259,32 +259,27 @@
     {
      "key": "qoe.1",
      "kind": "Text",
-     "text": "What a quality of earnings report is"
+     "text": "Quality of earnings"
     },
     {
      "key": "qoe.2",
      "kind": "Section headline",
-     "text": "The report behind the price, <em>read before the buyer reads it.</em>"
+     "text": "The numbers, traced <em>before the letter of intent.</em>"
     },
     {
      "key": "qoe.3",
      "kind": "Paragraph",
-     "text": "A quality of earnings report is an independent analysis of what a business actually earns, as distinct from what it reports: revenue and expenses traced to bank records and tax filings, the non-recurring and personal items identified, and a normalized earnings figure a buyer or lender can underwrite. It is a consulting engagement under the AICPA’s standards, not an audit, a review or a compilation. From October 1, 2026, an SBA lender must obtain one, commissioned for the lender, on any acquisition loan at a purchase price of $3 million or more."
+     "text": "For a buyer, we trace a target’s reported earnings to source documents and mark each adjustment supported or unsupported before a letter of intent, so diligence starts from evidence instead of a pitch."
     },
     {
      "key": "qoe.4",
      "kind": "Paragraph",
-     "text": "Capital Row reads an owner’s numbers the way that report will, first: the Pre-Market Assessment, then the preparation review, then the Sell-Side QoE from the independent CPA firm we partner with."
-    },
-    {
-     "key": "qoe.5",
-     "kind": "Link",
-     "text": "What a quality of earnings report is"
+     "text": "For an owner, the Sell-Side QoE puts the same evidence on the owner’s side of the table, prepared with the independent firms we partner with, before any buyer reads the numbers."
     },
     {
      "key": "qoe.6",
      "kind": "Link",
-     "text": "The Sell-Side QoE"
+     "text": "Get your Sell-Side QoE"
     }
    ]
   },
@@ -315,7 +310,7 @@
     {
      "key": "team.5",
      "kind": "Paragraph",
-     "text": "Shawnee is a behavioral health operator and M&A advisor. She helped scale a private equity-backed healthcare platform from roughly 6,000 to 22,000 employees and built the post-close integration model for Keck Medicine of USC across more than 45 clinics. Her career spans academic medicine, private equity-backed healthcare systems, and health-tech, with transaction experience across behavioral health, home health, hospice, and physician services. She founded Behavioral Blueprints to help behavioral health owners buy, grow, and exit with confidence."
+     "text": "Shawnee founded Capital Row and leads its healthcare desks. She is an M&A advisor and a healthcare operator. She helped scale a private equity-backed healthcare platform from roughly 6,000 to 22,000 employees and built the post-close integration model for Keck Medicine of USC across more than 45 clinics. That work put her on the customer side of healthcare software, among the providers whose billing, scheduling and records systems a buyer is paying for. Her transaction experience covers behavioral health, home health, hospice and physician services, and her career includes academic medicine and private equity-backed healthcare systems."
     },
     {
      "key": "team.6",
@@ -330,7 +325,7 @@
     {
      "key": "team.8",
      "kind": "Paragraph",
-     "text": "Dennis Nelson directs operations at Capital Row and leads its transportation and logistics desk."
+     "text": "Dennis Nelson directs operations at Capital Row and leads its transportation and logistics desks."
     },
     {
      "key": "team.9",
@@ -376,47 +371,47 @@
     {
      "key": "join.2",
      "kind": "Section headline",
-     "text": "You know the sector.<br><em>We bring the buyers and the process.</em>"
+     "text": "You know the sector.<br><em>We bring the buyers, the tools and the platform.</em>"
     },
     {
      "key": "join.3",
      "kind": "Paragraph",
-     "text": "Capital Row is adding independent advisors. Each one covers a sector they know from the inside, and is listed here with their own firm and focus."
+     "text": "Capital Row is building its bench: M&A advisors, technology managing directors and founders who have sold a software company, each covering a sector they know from the inside."
     },
     {
      "key": "join.4",
      "kind": "Text",
-     "text": "A sector you know"
+     "text": "What you bring"
     },
     {
      "key": "join.5",
      "kind": "Paragraph",
-     "text": "Software or services in one of our twelve industries, known from operating in it or from transactions closed in it."
+     "text": "You know software in one of our twelve industries, from operating or building a company in it or from transactions closed in it, and you can say when a business needs more preparation first."
     },
     {
      "key": "join.6",
      "kind": "Text",
-     "text": "Transaction experience"
+     "text": "What you get"
     },
     {
      "key": "join.7",
      "kind": "Paragraph",
-     "text": "Buy-side or sell-side work with owners, buyers or lenders, and the judgment to say when a business needs more preparation first."
+     "text": "Buyer criteria on file, sector intelligence and a quality of earnings tool for buy-side work, so you assess a target from evidence before the letter of intent."
     },
     {
      "key": "join.8",
      "kind": "Text",
-     "text": "Your own firm"
+     "text": "Your brand, a larger network"
     },
     {
      "key": "join.9",
      "kind": "Paragraph",
-     "text": "Advisors stay independent. Capital Row adds the sector intelligence, the buyer criteria on file and the process."
+     "text": "Keep your own name and grow your practice brand with the reach of the Capital Row network behind it."
     },
     {
      "key": "join.10",
      "kind": "Paragraph",
-     "text": "Send a short note on the sector you cover. <a>Start the conversation</a>"
+     "text": "Send a short note on the sector you cover, or <a href=\"../join-capital-row/index.html\">see both ways to join</a>."
     }
    ]
   },

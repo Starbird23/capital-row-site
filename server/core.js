@@ -22,33 +22,45 @@ export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGui
 // Every property the site sends, by record. A value that does not check out is dropped from that property (the answer is
 // still in "message"); only a submission without a usable email address is refused. A lead is never lost to a check.
 const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'domain', 'message'];
-const NUM = ['cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
+const NUM = ['target_revenue_min', 'target_revenue_max', 'target_arr_min', 'target_arr_max', 'target_adjusted_earnings_min', 'target_adjusted_earnings_max', 'min_target_ev', 'max_target_ev', 'equity_check_min', 'equity_check_max',
+  'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
 const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent', 'cr_buyer_map_ready'];
-const TEXTP = ['cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags', 'cr_buyer_map_research'];
+const TEXTP = ['platform_name', 'buyer_exclusions', 'cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags', 'cr_buyer_map_research'];
 // HubSpot's own values for the fields that already exist in the portal
 export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'inter', 'referral_partner', 'vendor', 'team'],
   offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'],
-  cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'] };
+  cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'],
+  acquisition_strategy: ['Platform Acquisition', 'Add-on / Bolt-on', 'Both'],
+  buyer_ownership_appetite: ['Control', 'Majority', 'Significant Minority', 'Minority', 'Flexible'] };
+// the same, for properties that hold several values joined by ";"
+export const FIXED_MULTI = { target_business_models: ['Software', 'Hybrid', 'Services', 'Product or distribution'] };
 // property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"
 const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
   cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],
   cr_profitability: ['bb_profit'], cr_recurring_pref: ['bb_recur'], cr_regulated_appetite: ['bb_reg'], cr_owner_after_close: ['bb_owner'], cr_timing: ['bb_timing'], cr_funding_status: ['bb_funding'],
   cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'], cr_headquarters_region: ['ccgeo'],
-  target_revenue_growth_min: ['bb_growth'], target_capital_raised_max: ['bb_capital'], investment_role: ['bb_role'] };
+  target_revenue_growth_min: ['bb_growth'], target_capital_raised_max: ['bb_capital'], investment_role: ['bb_role'],
+  target_profitability: ['bb_profit'], recurring_revenue_preference: ['bb_recur'], regulated_sectors_appetite: ['bb_reg'], founder_after_close: ['bb_owner'],
+  acquisition_timeline: ['bb_timing'], funding_status_stated: ['bb_funding'] };
 const MULTI = { cr_target_geography: ['bb_geo'], cr_lending_geography: ['ln_geo'], cr_customer_markets: ['bb_cust'], cr_ownership: ['bb_own'], cr_acquisition_approach: ['bb_context'],
-  cr_target_company_types: ['bb_model'], cr_revenue_model: ['bb_revmodel'] };
-const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals'], INDUSTRIES = ['cr_industry', 'target_end_markets'];
+  cr_target_company_types: ['bb_model'], cr_revenue_model: ['bb_revmodel'],
+  target_geography: ['bb_geo'], avoid_geography: ['bb_geo'], target_customer_markets: ['bb_cust'], target_revenue_models: ['bb_revmodel'] };
+const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals', 'target_sectors'], INDUSTRIES = ['cr_industry', 'target_end_markets'];
 // which record each property lives on: 0-1 contact, 0-2 company
 const COMPANY = new Set(['name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name',
   'cr_ownership', 'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref',
   'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
-  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'target_revenue_growth_min', 'target_capital_raised_max', 'investment_role']);
+  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'target_revenue_growth_min', 'target_capital_raised_max', 'investment_role',
+  'acquisition_strategy', 'platform_name', 'buyer_ownership_appetite', 'target_sectors', 'target_business_models', 'target_geography', 'avoid_geography', 'target_customer_markets',
+  'target_profitability', 'target_revenue_models', 'recurring_revenue_preference', 'regulated_sectors_appetite', 'founder_after_close', 'acquisition_timeline', 'funding_status_stated',
+  'buyer_exclusions', 'target_revenue_min', 'target_revenue_max', 'target_arr_min', 'target_arr_max', 'target_adjusted_earnings_min', 'target_adjusted_earnings_max',
+  'min_target_ev', 'max_target_ev', 'equity_check_min', 'equity_check_max']);
 // HubSpot's Target end markets property stores industry names, not the site's ids. fbw and npo need options added in HubSpot
 // ("Fitness, beauty and wellness", "Nonprofit and associations"); until then HubSpot refuses the property and the rest is delivered.
 export const END_MARKETS = { hc: 'Healthcare', fin: 'Financial services', built: 'Construction, real estate and field services', gov: 'Government',
   fleet: 'Transportation and logistics', mfg: 'Manufacturing', hosp: 'Hospitality', retail: 'Retail and automotive', prof: 'Legal and professional services',
   tech: 'Technology services', fbw: 'Fitness, beauty and wellness', npo: 'Nonprofit and associations' };
-export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
+export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(FIXED_MULTI), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const objOf = (n) => (COMPANY.has(n) ? '0-2' : '0-1');
 
@@ -67,6 +79,7 @@ export function cleanFields(kind, fields, cfg) {
     if (NUM.includes(n)) return /^-?\d{1,15}$/.test(v);
     if (BOOL.includes(n)) return v === 'true' || v === 'false';
     if (FIXED[n]) return FIXED[n].includes(v);
+    if (FIXED_MULTI[n]) return v.split(';').every((x) => FIXED_MULTI[n].includes(x.trim()));
     if (!vals) return true;
     if (ONE[n]) return vals(ONE[n]).has(v);
     if (MULTI[n]) { const s = vals(MULTI[n]); return v.split(';').map((x) => x.trim()).every((x) => s.has(x)); }

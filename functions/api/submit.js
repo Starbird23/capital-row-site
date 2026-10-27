@@ -36,7 +36,9 @@ export async function onRequestPost({ request, env, waitUntil }) {
   // in the message). A change from a browser that did not make the sheet waits for the inbox to confirm: the confirm link goes to
   // HubSpot (cr_criteria_confirm_url) for the buy box confirmation email, and the submitter is not shown the sheet.
   let criteria = null;
-  if (b.kind === 'Buy box' && b.sheet && typeof b.sheet === 'object') {
+  // the conversation form's buyer questions make a sheet too, when the buyer named at least one sector
+  const isBuyer = b.kind === 'Conversation' && items[0].fields.some((f) => f.name === 'cr_contact_type' && f.value === 'buyer');
+  if ((b.kind === 'Buy box' || isBuyer) && b.sheet && typeof b.sheet === 'object' && (b.kind === 'Buy box' || b.sheet.sectors)) {
     const f0 = items[0].fields, email = (f0.find((f) => f.name === 'email') || {}).value || '';
     try {   // the same submission sent again (a retry) must not make a second confirm link: the first is the one HubSpot gets
       await ensureTable(env.DB);

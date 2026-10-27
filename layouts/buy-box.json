@@ -1420,6 +1420,13 @@
    "cls": "ctamicro",
    "tags": [],
    "section": "criteria"
+  },
+  "criteria.70": {
+   "kind": "Form label",
+   "tag": "summary",
+   "cls": "",
+   "tags": [],
+   "section": "criteria"
   }
  }
 }

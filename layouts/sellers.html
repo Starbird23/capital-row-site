@@ -2023,6 +2023,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 
 .figpage .mdlede a,.figpage .bcfine a,.bcfine a{color:#8FD4CB;text-decoration:underline;text-underline-offset:3px}
 </style><style>.fcon a,.tkcon a{color:var(--teal);font-weight:500;text-decoration:underline;text-decoration-color:rgba(20,112,110,.45);text-underline-offset:3px;white-space:nowrap}.fcon a:hover,.tkcon a:hover{text-decoration-color:var(--teal)}.fcon a{display:inline;padding:0}</style>
+<style>#bqbox{display:contents}#bqbox[hidden]{display:none}#tksheet a{color:var(--teal);font-weight:500}</style>
 </head><body>
 <script type="application/json" id="crforms">{{forms:json}}</script>
 <script>
@@ -2318,6 +2319,14 @@ window.crSafe = function(s) {
 </select></div>
 <div class="fld" id="leadw" hidden><label for="lead">{{talk.8}}</label><select id="lead" data-list="lead"></select></div>
 <div class="fld wide"><label id="vl">{{talk.9}}</label><div class="secpick" id="vert" data-secpick="1"></div></div>
+<div id="bqbox" hidden>
+<div class="fld"><label for="bq_context">{{talkb.1}}</label><select id="bq_context" data-list="bq_context"></select></div>
+<div class="fld"><label for="bq_rev">{{talkb.2}}</label><select id="bq_rev" data-list="bq_rev"></select></div>
+<div class="fld"><label for="bq_ev">{{talkb.3}}</label><select id="bq_ev" data-list="bq_ev"></select></div>
+<div class="fld"><label for="bq_geo">{{talkb.4}}</label><select id="bq_geo" data-list="bq_geo"></select></div>
+<div class="fld"><label for="bq_recur">{{talkb.5}}</label><select id="bq_recur" data-list="bb_recur"></select></div>
+<div class="fld"><label for="bq_timing">{{talkb.6}}</label><select id="bq_timing" data-list="bb_timing"></select></div>
+</div>
 <div id="sellbox" hidden>
 <div class="fld"><label for="sl_reason">{{talk.10}}</label><select id="sl_reason" data-req="1" data-list="sl_reason"></select></div></div>
 <div id="lendbox" hidden>
@@ -2340,6 +2349,8 @@ window.crSafe = function(s) {
 <button class="btn" type="submit">{{talk.34}}</button>
 <p class="formnote">{{talk.35}}</p>
 <p class="formmsg" id="formmsg" hidden></p>
+<p class="fine dir" id="tksheet" hidden><a id="tksheeta" href="#">{{talkb.7}}</a>. {{talkb.8}}</p>
+<p class="fine dir" id="tkpend" hidden>{{talkb.9}}</p>
 <p class="fine dir bbnext" id="bbnextw" hidden>{{talk.36}}</p>
 
 </form>
@@ -3382,6 +3393,11 @@ function hsFields(kind, d) {
   return v !== undefined && v !== null && String(v).trim() !== "";
  }
  var MULTI_P = {
+  target_geography: 1,
+  avoid_geography: 1,
+  target_customer_markets: 1,
+  target_revenue_models: 1,
+  target_business_models: 1,
   cr_target_geography: 1,
   cr_lending_geography: 1,
   cr_customer_markets: 1,
@@ -3431,6 +3447,29 @@ function hsFields(kind, d) {
   u = u.replace(/^[a-z][a-z0-9+.-]*:\/\//, "").replace(/^www\./, "").split(/[\/?#\s]/)[0];
   return /^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(u) ? u : "";
  }
+ function strat(v) {
+  v = String(v || "");
+  var p = /new platform/i.test(v), a = /add-on/i.test(v);
+  return p && a ? "Both" : p ? "Platform Acquisition" : a ? "Add-on / Bolt-on" : "";
+ }
+ function ownApp(v) {
+  var m = String(v || "").split(/\s*;\s*/).filter(Boolean);
+  if (m.length > 1) return "Flexible";
+  return {"Full acquisition": "Control", "Majority": "Majority", "Minority": "Minority"}[m[0]] || "";
+ }
+ function models(v) {
+  var M = {"Vertical software": "Software", "Software + services": "Hybrid", "Services": "Services"};
+  return String(v || "").split(/\s*;\s*/).map(function(x) { return M[x] || ""; }).filter(Boolean).join(";");
+ }
+ function band(v) {
+  var m = /^(\d+)-(\d*)$/.exec(String(v || ""));
+  return m ? [ m[1], m[2] ] : [ "", "" ];
+ }
+ function ids(a, b) {
+  var seen = {}, out = [];
+  (String(a || "") + ";" + String(b || "")).split(";").forEach(function(x) { x = x.trim(); if (x && !seen[x]) { seen[x] = 1; out.push(x); } });
+  return out.join(";");
+ }
  function lab(k, fb) {
   var t = CRM(k);
   return t || fb;
@@ -3462,7 +3501,21 @@ function hsFields(kind, d) {
    co("revenue_band", d.revenue_band);
    co("arr_band", d.recurring_revenue);
   } else L.push([ lab("conv.label." + (s || "none") + ".band", "Annual recurring revenue"), d.recurring_revenue ]);
-  if (s === "Buyer") co("buyer_type", d.kind);
+  if (s === "Buyer") {
+   co("buyer_type", d.kind);
+   L.push([ "Acquisition approach", d.bq_context_label ], [ "Target company revenue", d.bq_rev_label ], [ "Enterprise value", d.bq_ev_label ], [ "Where targets are based", d.bq_geo_label ], [ "Recurring revenue", d.bq_recur ], [ "Timeline", d.bq_timing ]);
+   co("acquisition_strategy", d.bq_context);
+   var rb = band(d.bq_rev), eb = band(d.bq_ev);
+   co("target_revenue_min", rb[0]);
+   co("target_revenue_max", rb[1]);
+   co("min_target_ev", eb[0]);
+   co("max_target_ev", eb[1]);
+   co("target_geography", d.bq_geo);
+   co("recurring_revenue_preference", d.bq_recur);
+   co("acquisition_timeline", d.bq_timing);
+   co("target_sectors", d.sector_ids);
+   co("target_end_markets", d.industry_ids);
+  }
   if (s === "Advisor" || s === "Lender") add("cr_kind", d.kind);
   L.push([ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Heard via", d.heard_via, "cr_heard_via" ], [ "Heard via detail", d.heard_via_detail, "cr_heard_via_detail" ], [ "Sector updates", yn(d.updates) ]);
   add("cr_sector", d.sector_ids);
@@ -3492,38 +3545,39 @@ function hsFields(kind, d) {
  }
  if (kind === "Buy box") {
   add("cr_contact_type", "buyer");
-  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "Regions to avoid", d.avoid_geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
   co("buyer_type", d.kind);
   co("domain", host(d.website));
-  co("cr_acquisition_approach", d.acquisition_context);
-  co("cr_platform_name", d.platform_name);
-  co("cr_ownership", d.ownership);
-  co("target_verticals", d.firm_sector_ids);
-  co("target_end_markets", d.firm_industry_ids);
-  co("cr_target_company_types", d.business_model);
-  co("cr_target_geography", d.geography);
+  co("acquisition_strategy", strat(d.acquisition_context));
+  co("platform_name", d.platform_name);
+  co("buyer_ownership_appetite", ownApp(d.ownership));
+  co("target_sectors", ids(d.firm_sector_ids, d.sector_ids));
+  co("target_end_markets", ids(d.firm_industry_ids, d.industry_ids));
+  co("target_business_models", models(d.business_model));
+  co("target_geography", d.geography);
+  co("avoid_geography", d.avoid_geography);
   co("cr_target_geography_detail", d.geography_detail);
-  co("cr_customer_markets", d.customer_markets);
-  co("cr_profitability", d.profitability);
-  co("cr_revenue_model", d.revenue_model);
-  co("cr_recurring_pref", d.recurring_pref);
+  co("target_customer_markets", d.customer_markets);
+  co("target_profitability", d.profitability);
+  co("target_revenue_models", d.revenue_model);
+  co("recurring_revenue_preference", d.recurring_pref);
   co("target_revenue_growth_min", d.growth);
   co("target_capital_raised_max", d.capital);
   co("investment_role", d.role);
-  co("cr_regulated_appetite", d.regulated);
-  co("cr_owner_after_close", d.owner_after_close);
-  co("cr_timing", d.timing);
-  co("cr_funding_status", d.funding);
-  co("cr_exclusions", d.exclusions);
-  var RN = [ [ "Annual revenue", "cr_rev", d.rev_min, d.rev_max ], [ "ARR", "cr_arr", d.arr_min, d.arr_max ], [ "EBITDA", "cr_ebitda", d.ebitda_min, d.ebitda_max ], [ "Enterprise value", "cr_ev", d.ev_min, d.ev_max ], [ "Equity investment", "cr_equity", d.eq_min, d.eq_max ] ], FL = [];
+  co("regulated_sectors_appetite", d.regulated);
+  co("founder_after_close", d.owner_after_close);
+  co("acquisition_timeline", d.timing);
+  co("funding_status_stated", d.funding);
+  co("buyer_exclusions", d.exclusions);
+  var RN = [ [ "Annual revenue", "target_revenue_min", "target_revenue_max", d.rev_min, d.rev_max ], [ "ARR", "target_arr_min", "target_arr_max", d.arr_min, d.arr_max ], [ "EBITDA", "target_adjusted_earnings_min", "target_adjusted_earnings_max", d.ebitda_min, d.ebitda_max ], [ "Enterprise value", "min_target_ev", "max_target_ev", d.ev_min, d.ev_max ], [ "Equity investment", "equity_check_min", "equity_check_max", d.eq_min, d.eq_max ] ], FL = [];
   RN.forEach((function(r) {
    var isn = function(x) {
     return /^-?\d+$/.test(String(x || ""));
    };
-   if (isn(r[2])) co(r[1] + "_min", r[2]);
-   if (isn(r[3])) co(r[1] + "_max", r[3]);
-   if (r[2] === "No minimum") FL.push(r[0] + ": no minimum");
-   if (r[3] === "No maximum") FL.push(r[0] + ": no maximum");
+   if (isn(r[3])) co(r[1], r[3]);
+   if (isn(r[4])) co(r[2], r[4]);
+   if (r[3] === "No minimum") FL.push(r[0] + ": no minimum");
+   if (r[4] === "No maximum") FL.push(r[0] + ": no maximum");
   }));
   co("cr_target_range_flags", FL.join("; "));
   add("cr_criteria_retention_consent", "true");
@@ -5306,4 +5360,23 @@ document.addEventListener('click', function (e) {
   q.push(['setPath', '/pdf/' + f]); q.push(['trackPageView']); q.push(['setPath', location.pathname]);
 });
 </script>
+<script>(function(){
+var $=function(i){return document.getElementById(i)},seat=$("seat"),box=$("bqbox");
+if(!seat||!box)return;
+function sync(){var b=seat.value==="Buyer";box.hidden=!b;if(!b)[].forEach.call(box.querySelectorAll("select"),function(x){x.value=""})}
+seat.addEventListener("change",sync);
+[].forEach.call(document.querySelectorAll("[data-seat]"),function(a){a.addEventListener("click",function(){setTimeout(sync,0)})});
+sync();setTimeout(sync,400);
+var fm=$("f");if(fm)fm.addEventListener("reset",function(){setTimeout(sync,0)});
+function val(i){var e=$(i);return e?e.value:""}
+function lab(i){var e=$(i);return e&&e.value&&e.selectedIndex>=0?(e.options[e.selectedIndex].textContent||"").trim():""}
+function rng(v){if(v==="any")return["No minimum","No maximum"];var m=/^(\d+)-(\d*)$/.exec(v||"");if(!m)return["",""];return[m[1]==="0"?"":m[1],m[2]]}
+function key(){var k="";try{k=localStorage.getItem("cr_sheet_key")||"";if(!/^[A-Za-z0-9]{24,64}$/.test(k)){var a=new Uint8Array(32),c="ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";crypto.getRandomValues(a);k="";for(var i=0;i<32;i++)k+=c[a[i]%c.length];localStorage.setItem("cr_sheet_key",k)}}catch(e){k=""}return k}
+if(typeof fieldValues==="function"){var fv=fieldValues;fieldValues=function(){var d=fv();if(d.side!=="Buyer")return d;
+d.bq_context=val("bq_context");d.bq_context_label=lab("bq_context");d.bq_rev=val("bq_rev");d.bq_rev_label=lab("bq_rev");d.bq_ev=val("bq_ev");d.bq_ev_label=lab("bq_ev");
+d.bq_geo=val("bq_geo");d.bq_geo_label=lab("bq_geo");d.bq_recur=val("bq_recur");d.bq_timing=val("bq_timing");
+if(d.vertical){var r=rng(d.bq_rev),e=rng(d.bq_ev);d.sheet={firm:d.company,website:d.website,kind:d.kind,approach:d.bq_context_label,sectors:d.vertical,rev_min:r[0],rev_max:r[1],ev_min:e[0],ev_max:e[1],recurring:d.bq_recur,geography:(d.bq_geo||"").split(";").join("; "),timing:d.bq_timing,key:key()}}
+return d}}
+document.addEventListener("cr:saved",function(ev){var x=ev.detail||{},w=$("tksheet"),a=$("tksheeta"),pw=$("tkpend");if(x.kind!=="Conversation"||!w||!a)return;var c=x.res&&x.res.criteria;w.hidden=true;if(pw)pw.hidden=true;if(c&&c.pending&&pw)pw.hidden=false;else if(c&&/^\/criteria\/[a-z0-9]+\/$/.test(c.path||"")){a.href=c.path;w.hidden=false}});
+})();</script>
 </body></html>

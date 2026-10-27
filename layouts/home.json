@@ -3869,6 +3869,83 @@
    "cls": "",
    "tags": [],
    "section": "mast"
+  },
+  "band.301": {
+   "kind": "Text",
+   "tag": "p",
+   "cls": "cvdl",
+   "tags": [],
+   "section": "band"
+  },
+  "band.302": {
+   "kind": "Text",
+   "tag": "p",
+   "cls": "cvdl",
+   "tags": [],
+   "section": "band"
+  },
+  "talkb.1": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.2": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.3": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.4": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.5": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.6": {
+   "kind": "Form label",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.7": {
+   "kind": "Text",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.8": {
+   "kind": "Text",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
+  },
+  "talkb.9": {
+   "kind": "Note",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "talk"
   }
  }
 }

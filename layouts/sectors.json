@@ -3018,6 +3018,20 @@
    "cls": "",
    "tags": [],
    "section": "mast"
+  },
+  "band.301": {
+   "kind": "Text",
+   "tag": "p",
+   "cls": "cvdl",
+   "tags": [],
+   "section": "band"
+  },
+  "band.302": {
+   "kind": "Text",
+   "tag": "p",
+   "cls": "cvdl",
+   "tags": [],
+   "section": "band"
   }
  }
 }

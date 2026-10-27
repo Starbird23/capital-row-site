@@ -1497,6 +1497,16 @@
      "key": "band.288",
      "kind": "Paragraph",
      "text": "Inspection scheduling, deficiency reports and code compliance records for fire protection, alarm and life safety contractors"
+    },
+    {
+     "key": "band.301",
+     "kind": "Text",
+     "text": "Desk lead · Shawnee Mercier"
+    },
+    {
+     "key": "band.302",
+     "kind": "Text",
+     "text": "Desk lead · Dennis Nelson"
     }
    ]
   },
@@ -1577,7 +1587,7 @@
     {
      "key": "buyermap.15",
      "kind": "Note",
-     "text": "The sample is current to October 16, 2026: eleven acquirers, fourteen deals, every line with its source."
+     "text": "The sample is current to October 16, 2026: eleven acquirers and fourteen deals in field service management software."
     }
    ]
   },

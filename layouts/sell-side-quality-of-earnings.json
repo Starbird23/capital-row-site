@@ -5133,6 +5133,13 @@
    "cls": "",
    "tags": [],
    "section": "mast"
+  },
+  "qdataroom.116": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "q-p",
+   "tags": [],
+   "section": "q-dataroom"
   }
  }
 }

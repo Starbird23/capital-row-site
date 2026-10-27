@@ -346,6 +346,11 @@
      "key": "criteria.69",
      "kind": "Note",
      "text": "We will send a confirmation link to that inbox. Your sheet updates once you confirm."
+    },
+    {
+     "key": "criteria.70",
+     "kind": "Form label",
+     "text": "Regions you will not consider, optional"
     }
    ]
   }

@@ -674,12 +674,12 @@
     {
      "key": "next.7",
      "kind": "Link",
-     "text": "<i>01</i>Permanent capital and family offices"
+     "text": "<i>01</i>Holding companies and family offices"
     },
     {
      "key": "next.8",
      "kind": "Link",
-     "text": "<i>02</i>Private equity and platform acquirers"
+     "text": "<i>02</i>Private equity and sponsor-backed platforms"
     },
     {
      "key": "next.9",
@@ -689,7 +689,7 @@
     {
      "key": "next.10",
      "kind": "Link",
-     "text": "<i>04</i>Independent sponsors"
+     "text": "<i>04</i>Independent sponsors and searchers"
     }
    ]
   }

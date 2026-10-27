@@ -745,17 +745,10 @@
    "tags": [],
    "section": "qoe"
   },
-  "qoe.5": {
-   "kind": "Link",
-   "tag": "a",
-   "cls": "ghostcta",
-   "tags": [],
-   "section": "qoe"
-  },
   "qoe.6": {
    "kind": "Link",
    "tag": "a",
-   "cls": "ghostcta",
+   "cls": "bigcta",
    "tags": [],
    "section": "qoe"
   },

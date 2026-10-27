@@ -1,7 +1,7 @@
 {
  "path": "/join-capital-row/",
- "seoTitle": "Join a founding group of M&A advisors | Capital Row",
- "seoDescription": "For experienced M&A advisors: more time dealmaking, less time originating, with intelligence, marketing and operating support behind your practice.",
+ "seoTitle": "Join the bench | Capital Row",
+ "seoDescription": "For M&A advisors, technology managing directors and exited software founders: more time on deals, with the buyers, intelligence and tools behind you.",
  "sections": [
   {
    "id": "pgnav",
@@ -31,6 +31,11 @@
      "key": "pgnav.5",
      "kind": "Link",
      "text": "Questions"
+    },
+    {
+     "key": "pgnav.6",
+     "kind": "Link",
+     "text": "Two ways to join"
     }
    ]
   },
@@ -41,7 +46,7 @@
     {
      "key": "inner.1",
      "kind": "Text",
-     "text": "For experienced M&A advisors"
+     "text": "For M&A advisors, technology managing directors and exited software founders"
     },
     {
      "key": "inner.2",
@@ -51,7 +56,7 @@
     {
      "key": "inner.3",
      "kind": "Paragraph",
-     "text": "You bring transaction experience, sector knowledge and the judgment clients rely on. Capital Row brings the intelligence, marketing and operating support behind your practice. We are inviting a founding group of experienced advisors to help build a firm focused on vertical software and software-enabled businesses."
+     "text": "You bring transaction experience, sector knowledge and the judgment clients rely on. Capital Row brings the intelligence, marketing and operating support behind your practice. We are inviting a founding group of experienced advisors, technology managing directors and founders who have sold a software company to help build a firm focused on vertical software and software-enabled businesses."
     },
     {
      "key": "inner.4",
@@ -72,6 +77,107 @@
      "key": "inner.7",
      "kind": "Text",
      "text": "Your judgment, our infrastructure"
+    }
+   ]
+  },
+  {
+   "id": "tracks",
+   "name": "Two ways to join",
+   "items": [
+    {
+     "key": "tracks.1",
+     "kind": "Text",
+     "text": "Two ways to join"
+    },
+    {
+     "key": "tracks.2",
+     "kind": "Section headline",
+     "text": "Run the deal, <em>or advise on it.</em>"
+    },
+    {
+     "key": "tracks.3",
+     "kind": "Paragraph",
+     "text": "The bench has two roles. Both come with the buyers, the intelligence and the tools."
+    },
+    {
+     "key": "tracks.4",
+     "kind": "Text",
+     "text": "M&A advisors"
+    },
+    {
+     "key": "tracks.5",
+     "kind": "Text",
+     "text": "Take engagements to close"
+    },
+    {
+     "key": "tracks.6",
+     "kind": "Text",
+     "text": "From first conversation to closing, for owners or buyers in the sectors you know."
+    },
+    {
+     "key": "tracks.7",
+     "kind": "Text",
+     "text": "Origination handled"
+    },
+    {
+     "key": "tracks.8",
+     "kind": "Text",
+     "text": "Capital Row runs the research, outreach and qualification, so your time goes to clients."
+    },
+    {
+     "key": "tracks.9",
+     "kind": "Text",
+     "text": "Your name or ours"
+    },
+    {
+     "key": "tracks.10",
+     "kind": "Text",
+     "text": "Work under your own practice name or the Capital Row name, with terms in writing."
+    },
+    {
+     "key": "tracks.11",
+     "kind": "Text",
+     "text": "Technology managing directors and exited founders"
+    },
+    {
+     "key": "tracks.12",
+     "kind": "Text",
+     "text": "Buy-side sector advisor"
+    },
+    {
+     "key": "tracks.13",
+     "kind": "Text",
+     "text": "Help buyers set a thesis in the sector you know, and review targets before a letter of intent."
+    },
+    {
+     "key": "tracks.14",
+     "kind": "Text",
+     "text": "No full process required"
+    },
+    {
+     "key": "tracks.15",
+     "kind": "Text",
+     "text": "Join the owner and buyer conversations where your experience decides the deal, as often as you choose."
+    },
+    {
+     "key": "tracks.16",
+     "kind": "Text",
+     "text": "Credit for what you bring"
+    },
+    {
+     "key": "tracks.17",
+     "kind": "Text",
+     "text": "Introductions you make are credited to you and kept on record."
+    },
+    {
+     "key": "tracks.18",
+     "kind": "Paragraph",
+     "text": "Both roles work from the buyer criteria on file, the sector intelligence and the quality of earnings tool for buy-side work."
+    },
+    {
+     "key": "tracks.19",
+     "kind": "Button",
+     "text": "Start a confidential conversation"
     }
    ]
   },
@@ -289,7 +395,7 @@
     {
      "key": "read.18",
      "kind": "Paragraph",
-     "text": "Software operating or corporate development experience counts too."
+     "text": "Software operating, founding or corporate development experience counts too."
     }
    ]
   },
@@ -350,12 +456,12 @@
     {
      "key": "briefing.11",
      "kind": "Text",
-     "text": "Shared economics"
+     "text": "Terms in writing"
     },
     {
      "key": "briefing.12",
      "kind": "Paragraph",
-     "text": "A defined split of collected advisory fees and a monthly platform fee for included services. We walk through the terms in a confidential conversation, and they are set out in writing before you join."
+     "text": "How each engagement is shared, how clients are attributed and how either side can step away are set out in writing before you join. We walk through them in a confidential conversation."
     }
    ]
   },
@@ -401,7 +507,7 @@
     {
      "key": "faq.8",
      "kind": "Paragraph",
-     "text": "Origination support, research, a shared CRM and workflows, financial preparation tools, marketing support and execution help matched to each engagement. A written support schedule sets out who does what, how often and at whose expense."
+     "text": "Origination support, research, a shared CRM and workflows, financial preparation tools, marketing support and execution help matched to each engagement. A written support schedule sets out who does what and how often."
     },
     {
      "key": "faq.9",
@@ -411,7 +517,7 @@
     {
      "key": "faq.10",
      "kind": "Paragraph",
-     "text": "We are building with a founding group. Each service is in place before a founding advisor pays for it."
+     "text": "We are building with a founding group, and we tell you plainly which services run today and which are still coming."
     }
    ]
   },

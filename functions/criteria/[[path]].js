@@ -14,7 +14,7 @@ async function notFound(request, env) {
   try { const r = await env.ASSETS.fetch(new URL('/404.html', request.url)); if (r.ok) html = await r.text(); } catch (e) {}
   return new Response(html, { status: 404, headers: HDR });
 }
-const textOf = async (env, request) => { const cfg = await loadConfig(env, request); return (cfg && cfg.text) || {}; };
+const opts = async (env, request) => { const cfg = (await loadConfig(env, request)) || {}; return { text: cfg.text || {}, cfg }; };
 function route(request, params) {
   const seg = [].concat(params.path || []).filter(Boolean), u = new URL(request.url);
   if (seg[0] === 'confirm') return { kind: 'confirm', token: String(seg[1] || ''), ok: seg.length === 2 && TOKEN_RE.test(seg[1]), slash: u.pathname.endsWith('/'), u };
@@ -29,14 +29,14 @@ export async function onRequestGet({ request, env, params }) {
     if (!r.slash) return Response.redirect(new URL(`/criteria/confirm/${r.token}/`, r.u).href, 301);
     const p = await findPending(env, r.token).catch(() => null);
     // same-origin, not no-referrer: with no-referrer the browser sends "Origin: null" on the Confirm button and the POST is refused
-    return new Response(renderConfirm({ data: p && p.data, text: await textOf(env, request), url: `${site(env)}/criteria/` }), { status: p ? 200 : 410, headers: { ...HDR, 'Referrer-Policy': 'same-origin' } });
+    return new Response(renderConfirm({ data: p && p.data, ...(await opts(env, request)), url: `${site(env)}/criteria/` }), { status: p ? 200 : 410, headers: { ...HDR, 'Referrer-Policy': 'same-origin' } });
   }
   if (!r.slash || r.raw !== r.code) return Response.redirect(new URL(`/criteria/${r.code}/` + r.u.search, r.u).href, 301);
   let row = null;
   try { await ensureCriteria(env.DB); row = await env.DB.prepare('SELECT data, hidden, updated_at FROM criteria WHERE code=?').bind(r.code).first(); } catch (e) {}
   if (!row || row.hidden) return notFound(request, env);
   let d = {}; try { d = JSON.parse(row.data); } catch (e) {}
-  const html = renderSheet(d, { updated: row.updated_at, confirmed: r.u.searchParams.get('confirmed') === '1', text: await textOf(env, request), url: `${site(env)}/criteria/${r.code}/` });
+  const html = renderSheet(d, { updated: row.updated_at, confirmed: r.u.searchParams.get('confirmed') === '1', ...(await opts(env, request)), url: `${site(env)}/criteria/${r.code}/` });
   return new Response(html, { status: 200, headers: HDR });
 }
 export const onRequestHead = onRequestGet;
@@ -47,7 +47,7 @@ export async function onRequestPost({ request, env, params }) {
   if (!originOk(request, env)) return new Response('Forbidden', { status: 403 });
   let key = ''; try { const f = await request.formData(); key = String(f.get('key') || ''); } catch (e) {}
   const done = await applyPending(env, r.token, key).catch(() => null);
-  if (!done) return new Response(renderConfirm({ data: null, text: await textOf(env, request), url: `${site(env)}/criteria/` }), { status: 410, headers: HDR });
+  if (!done) return new Response(renderConfirm({ data: null, ...(await opts(env, request)), url: `${site(env)}/criteria/` }), { status: 410, headers: HDR });
   return new Response(null, { status: 303, headers: { Location: done.path + '?confirmed=1', 'Cache-Control': 'no-store' } });
 }
 export function onRequest() { return new Response('Method not allowed', { status: 405, headers: { Allow: 'GET, POST' } }); }

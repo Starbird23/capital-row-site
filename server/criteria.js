@@ -39,8 +39,8 @@ export async function ensureCriteria(db) {
 }
 
 // what the page may store: text keys with their length limits, and the ranges
-const TEXT = { firm: 160, website: 200, kind: 120, approach: 300, platform: 160, ownership: 200, role: 80, sectors: 4000, company_types: 300, geography: 300,
-  geography_detail: 300, customers: 300, profitability: 120, revenue_model: 300, recurring: 120, growth: 80, capital: 80, regulated: 80, founder: 120,
+const TEXT = { firm: 160, website: 200, kind: 120, approach: 300, platform: 160, ownership: 200, role: 80, sectors: 4000, company_types: 300, geography: 600,
+  geography_detail: 300, avoid: 600, customers: 300, profitability: 120, revenue_model: 300, recurring: 120, growth: 80, capital: 80, regulated: 80, founder: 120,
   timing: 80, funding: 80, exclusions: 1200 };
 const RANGES = ['rev', 'arr', 'ebitda', 'ev', 'eq'];
 export function cleanSheet(s) {
@@ -123,9 +123,11 @@ const DEF = { 'sheet.label': 'Acquisition criteria', 'sheet.title': 'acquisition
   'sheet.profitability': 'Profitability', 'sheet.recurring': 'Recurring revenue', 'sheet.revenue_model': 'Revenue model', 'sheet.growth': 'Revenue growth',
   'sheet.capital': 'Outside capital raised', 'sheet.geo_timing': 'Geography and timing', 'sheet.headquarters': 'Headquarters', 'sheet.customers': 'Customer markets',
   'sheet.timeline': 'Timeline', 'sheet.funding': 'Funding', 'sheet.exclusions': 'Exclusions', 'sheet.to': 'to', 'sheet.or_more': 'or more', 'sheet.up_to': 'Up to',
-  'sheet.any': 'Any', 'sheet.updated': 'Updated', 'sheet.prepared': 'Prepared with Capital Row', 'sheet.save_pdf': 'Save as PDF', 'sheet.copy': 'Copy link',
+  'sheet.any': 'Any', 'sheet.updated': 'Updated', 'sheet.prepared': 'Prepared by Capital Row', 'sheet.save_pdf': 'Save as PDF', 'sheet.copy': 'Copy link',
   'sheet.copied': 'Link copied', 'sheet.update': 'Update these criteria', 'sheet.private': 'Private page. Only people with this link can see it.',
-  'sheet.firm_fallback': 'Buyer', 'sheet.confirmed': 'Your criteria sheet is updated.', 'sheet.confirm_title': 'Confirm your new criteria',
+  'sheet.firm_fallback': 'Buyer', 'sheet.avoid': 'Regions to avoid', 'sheet.start': 'Where to start', 'sheet.start_in': 'Open desks in your sectors',
+  'sheet.start_near': 'Open desks in the same industries', 'sheet.start_none': 'No desk is open in these sectors yet. Ask us which desks are planned for them.',
+  'sheet.start_note': 'A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market.', 'sheet.confirmed': 'Your criteria sheet is updated.', 'sheet.confirm_title': 'Confirm your new criteria',
   'sheet.confirm_body': 'New acquisition criteria were sent for this email address. If you sent them, confirm below and your criteria sheet updates. If you did not, close this page and nothing changes.',
   'sheet.confirm_button': 'Confirm and update my sheet', 'sheet.confirm_preview': 'What your sheet will show',
   'sheet.confirm_expired': 'This link has expired or has already been used. To change your criteria, send the buy box again.' };
@@ -165,10 +167,29 @@ export function sheetRows(d, T) {
     ['sheet.check', [['sheet.equity', range(d, 'eq', T)], ['sheet.ev', range(d, 'ev', T)]]],
     ['sheet.structure', [['sheet.ownership', joinList(d.ownership)], ['sheet.approach', joinList(d.approach)], ['sheet.platform', d.platform], ['sheet.role', d.role], ['sheet.founder', d.founder]]],
     ['sheet.operating', [['sheet.profitability', d.profitability], ['sheet.recurring', d.recurring], ['sheet.growth', d.growth], ['sheet.revenue_model', joinList(d.revenue_model)], ['sheet.capital', d.capital]]],
-    ['sheet.geo_timing', [['sheet.headquarters', [joinList(d.geography), d.geography_detail].filter(Boolean).join(': ')], ['sheet.customers', joinList(d.customers)], ['sheet.timeline', d.timing], ['sheet.funding', d.funding]]],
+    ['sheet.geo_timing', [['sheet.headquarters', [joinList(d.geography), d.geography_detail].filter(Boolean).join(': ')], ['sheet.avoid', joinList(d.avoid)], ['sheet.customers', joinList(d.customers)], ['sheet.timeline', d.timing], ['sheet.funding', d.funding]]],
     ['sheet.exclusions', [['', d.exclusions]]],
   ];
   return sec.map(([k, items]) => [T(k), items.filter((x) => x[1]).map(([s, v]) => [s ? T(s) : '', v])]).filter((r) => r[1].length);
+}
+
+// "Where to start": a fixed rule, not a model. The desks open in the sectors the buyer chose, then the other open desks in the
+// same industries. The desk list is "desks" in the forms config (Sanity: Forms, lists); the sectors are matched by their labels.
+export function startOf(d, cfg) {
+  if (!cfg || !Array.isArray(cfg.tax) || !cfg.lists || !Array.isArray(cfg.lists.desks)) return null;
+  const open = cfg.lists.desks.map((o) => o[0]).filter(Boolean), byLabel = {}, label = {}, ind = {};
+  for (const i of cfg.tax) for (const s of i.sectors || []) { byLabel[s.label] = s.id; label[s.id] = s.label; ind[s.id] = i.id; }
+  const chosen = list(d.sectors).map((l) => byLabel[l]).filter(Boolean);
+  if (!chosen.length) return null;
+  const inds = new Set(chosen.map((id) => ind[id]));
+  return { inSel: open.filter((id) => chosen.includes(id)).map((id) => label[id]),
+    near: open.filter((id) => !chosen.includes(id) && inds.has(ind[id])).map((id) => label[id]) };
+}
+function startHtml(d, cfg, T) {
+  const st = startOf(d, cfg); if (!st) return '';
+  const kv = (k, v) => `<p class="kv"><span class="sub">${esc(T(k))}</span><span>${esc(v.join(' · '))}</span></p>`;
+  const body = (st.inSel.length ? kv('sheet.start_in', st.inSel) : '') + (st.near.length ? kv('sheet.start_near', st.near) : '') + (!st.inSel.length && !st.near.length ? `<p class="none">${esc(T('sheet.start_none'))}</p>` : '');
+  return `<section class="row start"><h2>${esc(T('sheet.start'))}</h2><div class="val">${body}<p class="note">${esc(T('sheet.start_note'))}</p></div></section>`;
 }
 
 const KEYJS = "function crKey(){var k='';try{k=localStorage.getItem('cr_sheet_key')||'';if(!/^[A-Za-z0-9]{24,64}$/.test(k)){var a=new Uint8Array(32),c='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789';crypto.getRandomValues(a);k='';for(var i=0;i<32;i++)k+=c[a[i]%c.length];localStorage.setItem('cr_sheet_key',k)}}catch(e){k=''}return k}";
@@ -233,6 +254,7 @@ h1{font:500 50px/1.04 var(--ser);margin:0;letter-spacing:-.005em}
 .ask .body{font-size:17px;color:var(--ink2);max-width:60ch;margin:16px 0 22px}
 .ask .btn{font-size:15px;padding:12px 20px}
 .ask + .sheet{margin-top:18px}
+.row.start{border-bottom:0;border-top:2px solid var(--teal);margin-top:-1px}.row.start h2{color:var(--teal)}.row.start .val .none{font:400 16px var(--sans);color:var(--ink2)}.row.start .val .note{font:400 13.5px/1.5 var(--sans);color:var(--ink3);margin-top:8px}
 .prev{font:400 11.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:0 0 6px}
 @media (max-width:700px){.ask{padding:30px 20px 26px;margin:12px 0 0;border-left:0;border-right:0}.ask h1{font-size:30px}.sheet{padding:30px 20px 26px;margin:12px 0 28px;border-left:0;border-right:0}h1{font-size:36px}.row{grid-template-columns:1fr;gap:6px;padding:14px 0}.val p{font-size:20px}.val .kv{grid-template-columns:1fr;gap:0}.val .sub{font-size:13px}.bar{padding:14px 16px 0}}
 @media print{@page{size:letter;margin:.55in .6in}body{background:#fff}.bar{display:none}.sheet{border:0;margin:0;padding:0;max-width:none}h1{font-size:38px}.rows{margin-top:24px}.row{grid-template-columns:150px 1fr;gap:18px;padding:10px 0}.val p{font-size:16.5px;margin-bottom:3px}.val .kv{grid-template-columns:135px 1fr;gap:10px}.val .sub{font-size:11px}.row h2{font-size:9.5px}.who{font-size:13.5px}.foot{margin-top:18px;font-size:11px}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
@@ -245,7 +267,7 @@ ${inner}
 function textOf(o) { const text = (o && o.text) || {}; return (k) => (typeof text[k] === 'string' && text[k] ? text[k] : DEF[k] || ''); }
 
 // the sheet itself: firm, criteria rows and the "Prepared with Capital Row" line
-function sheetMain(d, T, updated) {
+function sheetMain(d, T, updated, cfg) {
   const firm = d.firm || T('sheet.firm_fallback'), web = site(d.website);
   const body = sheetRows(d, T).map(([lab, items]) => `<section class="row"><h2>${esc(lab)}</h2><div class="val">${items.map(([s, v]) => (s ? `<p class="kv"><span class="sub">${esc(s)}</span><span>${esc(v)}</span></p>` : `<p>${esc(v)}</p>`)).join('')}</div></section>`).join('\n');
   return `<main class="sheet">
@@ -254,6 +276,7 @@ function sheetMain(d, T, updated) {
 ${(d.kind || web) ? `<p class="who">${[esc(d.kind || ''), web ? `<a href="${esc(web.href)}" rel="nofollow noopener" target="_blank">${esc(web.text)}</a>` : ''].filter(Boolean).join(' · ')}</p>` : ''}
 <div class="rows">
 ${body}
+${startHtml(d, cfg, T)}
 </div>
 <div class="foot"><b><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>${esc(T('sheet.prepared'))}</b><span><a href="${SITE}/">thecapitalrow.com</a> · ${esc(T('sheet.updated'))} ${esc(usDate(updated))}</span></div>
 </main>`;
@@ -263,7 +286,7 @@ export function renderSheet(d, o) {
   const T = textOf(o), firm = d.firm || T('sheet.firm_fallback');
   const desc = [T('sheet.label') + ' for ' + firm, list(d.sectors).slice(0, 4).join(', '), range(d, 'rev', T) && T('sheet.revenue') + ' ' + range(d, 'rev', T)].filter(Boolean).join('. ') + '.';
   return shell({ title: `${firm} ${T('sheet.title')} | Capital Row`, desc, og: `${firm}: ${T('sheet.label')}`, url: o.url }, `<div class="bar"><span class="note">${o.confirmed ? `<b class="ok">${esc(T('sheet.confirmed'))}</b> ` : ''}${esc(T('sheet.private'))}</span><span class="acts"><button class="btn" type="button" id="pdf">${esc(T('sheet.save_pdf'))}</button><button class="btn ghost" type="button" id="copy" data-done="${esc(T('sheet.copied'))}">${esc(T('sheet.copy'))}</button><a class="btn ghost" href="/buy-box/">${esc(T('sheet.update'))}</a></span></div>
-${sheetMain(d, T, o.updated)}
+${sheetMain(d, T, o.updated, o.cfg)}
 <script>
 document.getElementById('pdf').onclick=function(){window.print()};
 document.getElementById('copy').onclick=function(){var b=this,u=location.href.split('?')[0].split('#')[0],t=b.textContent;function done(){b.textContent=b.getAttribute('data-done');setTimeout(function(){b.textContent=t},1800)}if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(u).then(done,function(){prompt('',u)});else prompt('',u)};
@@ -280,6 +303,6 @@ export function renderConfirm(o) {
     `<main class="ask"><p class="lab">${esc(T('sheet.label'))}</p><h1>${esc(T('sheet.confirm_title'))}</h1><p class="body">${esc(T('sheet.confirm_body'))}</p>
 <form method="post" action=""><input type="hidden" name="key" id="key" value=""><button class="btn" type="submit">${esc(T('sheet.confirm_button'))}</button></form></main>
 <p class="prev" style="max-width:880px;margin:26px auto 0;padding:0 16px">${esc(T('sheet.confirm_preview'))}</p>
-${sheetMain(o.data, T, Date.now())}
+${sheetMain(o.data, T, Date.now(), o.cfg)}
 <script>${KEYJS};document.getElementById('key').value=crKey();</script>`);
 }

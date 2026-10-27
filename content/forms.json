@@ -739,12 +739,76 @@
   ],
   "bb_geo": [
    [
-    "United States",
-    "United States"
+    "National, all 50 states",
+    "National, all 50 states"
+   ],
+   [
+    "Northeast",
+    "Northeast"
+   ],
+   [
+    "Mid-Atlantic",
+    "Mid-Atlantic"
+   ],
+   [
+    "Southeast",
+    "Southeast"
+   ],
+   [
+    "Midwest",
+    "Midwest"
+   ],
+   [
+    "South Central",
+    "South Central"
+   ],
+   [
+    "Southwest",
+    "Southwest"
+   ],
+   [
+    "Mountain West",
+    "Mountain West"
+   ],
+   [
+    "Pacific Northwest",
+    "Pacific Northwest"
+   ],
+   [
+    "California",
+    "California"
+   ],
+   [
+    "Alaska",
+    "Alaska"
+   ],
+   [
+    "Hawaii",
+    "Hawaii"
+   ],
+   [
+    "US territories",
+    "US territories"
    ],
    [
     "Canada",
     "Canada"
+   ],
+   [
+    "Mexico",
+    "Mexico"
+   ],
+   [
+    "Caribbean",
+    "Caribbean"
+   ],
+   [
+    "Central America",
+    "Central America"
+   ],
+   [
+    "South America",
+    "South America"
    ],
    [
     "United Kingdom and Ireland",
@@ -755,16 +819,24 @@
     "Europe"
    ],
    [
-    "Latin America",
-    "Latin America"
+    "Middle East",
+    "Middle East"
    ],
    [
-    "Other",
-    "Other"
+    "Africa",
+    "Africa"
    ],
    [
-    "No preference",
-    "No preference"
+    "Asia",
+    "Asia"
+   ],
+   [
+    "Australia and New Zealand",
+    "Australia and New Zealand"
+   ],
+   [
+    "International, anywhere",
+    "International, anywhere"
    ]
   ],
   "bb_cust": [
@@ -2046,6 +2118,156 @@
     "under_10m",
     "Under $10M"
    ]
+  ],
+  "bq_context": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Platform Acquisition",
+    "A new platform"
+   ],
+   [
+    "Add-on / Bolt-on",
+    "An add-on to a platform you own"
+   ],
+   [
+    "Both",
+    "A new platform or an add-on"
+   ]
+  ],
+  "bq_rev": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "0-5000000",
+    "Under $5M"
+   ],
+   [
+    "5000000-10000000",
+    "$5M to $10M"
+   ],
+   [
+    "10000000-25000000",
+    "$10M to $25M"
+   ],
+   [
+    "25000000-50000000",
+    "$25M to $50M"
+   ],
+   [
+    "50000000-",
+    "Over $50M"
+   ],
+   [
+    "any",
+    "Any size"
+   ]
+  ],
+  "bq_ev": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "0-10000000",
+    "Under $10M"
+   ],
+   [
+    "10000000-25000000",
+    "$10M to $25M"
+   ],
+   [
+    "25000000-50000000",
+    "$25M to $50M"
+   ],
+   [
+    "50000000-100000000",
+    "$50M to $100M"
+   ],
+   [
+    "100000000-250000000",
+    "$100M to $250M"
+   ],
+   [
+    "250000000-",
+    "Over $250M"
+   ],
+   [
+    "any",
+    "Any size"
+   ]
+  ],
+  "bq_geo": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "National, all 50 states",
+    "United States"
+   ],
+   [
+    "National, all 50 states;Canada",
+    "United States and Canada"
+   ],
+   [
+    "Canada",
+    "Canada"
+   ],
+   [
+    "United Kingdom and Ireland",
+    "United Kingdom and Ireland"
+   ],
+   [
+    "Europe",
+    "Europe"
+   ],
+   [
+    "International, anywhere",
+    "Anywhere"
+   ]
+  ],
+  "desks": [
+   [
+    "hc_billing_coding_and_claims",
+    "Billing, coding & claims"
+   ],
+   [
+    "hc_denials_and_clearinghouse_workflow",
+    "Denials & clearinghouse workflow"
+   ],
+   [
+    "hc_credentialing_and_provider_data",
+    "Credentialing & provider data"
+   ],
+   [
+    "hc_specialty_practice_management",
+    "Specialty practice management"
+   ],
+   [
+    "hc_dental_practice_software",
+    "Dental"
+   ],
+   [
+    "hc_behavioral_and_specialty_health",
+    "Behavioral & specialty health"
+   ],
+   [
+    "fleet_dispatch_tms_and_freight_audit",
+    "Dispatch, TMS & freight audit"
+   ],
+   [
+    "fleet_freight_brokerage_and_visibility_software",
+    "Freight brokerage & visibility"
+   ],
+   [
+    "built_field_service_management_software",
+    "HVAC, plumbing & electrical"
+   ]
   ]
  },
  "text": {
@@ -2159,7 +2381,7 @@
   "conv.copy.Seller.message": "Are you heading for an exit, or building toward one?",
   "conv.copy.Buyer.headline": "Tell us your acquisition thesis.",
   "conv.copy.Buyer.intro": "M&A advisory for vertical software powering the working economy. Our advisors use AI-assisted research to map sectors, buyers and companies, with human review and judgment at every step. Advisors evaluate fit and lead every conversation. We will review your criteria and identify opportunities that fit. After you send, a link to the full buy box follows.",
-  "conv.copy.Buyer.message": "Your thesis in a few lines, optional",
+  "conv.copy.Buyer.message": "Anything else about your thesis, optional",
   "conv.copy.Advisor.headline": "Your client, your engagement, our record.",
   "conv.copy.Advisor.intro": "Non-attest work only. If your client needs an audit, review, compilation or attestation, that goes to an independent firm.",
   "conv.copy.Advisor.message": "What does your client need, and what is the timing?",
@@ -2232,7 +2454,7 @@
   "sheet.up_to": "Up to",
   "sheet.any": "Any",
   "sheet.updated": "Updated",
-  "sheet.prepared": "Prepared with Capital Row",
+  "sheet.prepared": "Prepared by Capital Row",
   "sheet.save_pdf": "Save as PDF",
   "sheet.copy": "Copy link",
   "sheet.copied": "Link copied",
@@ -2244,6 +2466,12 @@
   "sheet.confirm_body": "New acquisition criteria were sent for this email address. If you sent them, confirm below and your criteria sheet updates. If you did not, close this page and nothing changes.",
   "sheet.confirm_button": "Confirm and update my sheet",
   "sheet.confirm_preview": "What your sheet will show",
-  "sheet.confirm_expired": "This link has expired or has already been used. To change your criteria, send the buy box again."
+  "sheet.confirm_expired": "This link has expired or has already been used. To change your criteria, send the buy box again.",
+  "sheet.avoid": "Regions to avoid",
+  "sheet.start": "Where to start",
+  "sheet.start_in": "Open desks in your sectors",
+  "sheet.start_near": "Open desks in the same industries",
+  "sheet.start_none": "No desk is open in these sectors yet. Ask us which desks are planned for them.",
+  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market."
  }
 }

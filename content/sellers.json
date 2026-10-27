@@ -699,7 +699,7 @@
     {
      "key": "buyermap.15",
      "kind": "Note",
-     "text": "The sample is current to October 16, 2026: eleven acquirers, fourteen deals, every line with its source."
+     "text": "The sample is current to October 16, 2026: eleven acquirers and fourteen deals in field service management software."
     }
    ]
   },
@@ -1130,6 +1130,51 @@
      "key": "talk.39",
      "kind": "Note",
      "text": "Or write to the desk directly at <a>team@thecapitalrow.com</a>"
+    },
+    {
+     "key": "talkb.1",
+     "kind": "Form label",
+     "text": "Acquisition approach"
+    },
+    {
+     "key": "talkb.2",
+     "kind": "Form label",
+     "text": "Target company revenue"
+    },
+    {
+     "key": "talkb.3",
+     "kind": "Form label",
+     "text": "Enterprise value range"
+    },
+    {
+     "key": "talkb.4",
+     "kind": "Form label",
+     "text": "Where targets are based"
+    },
+    {
+     "key": "talkb.5",
+     "kind": "Form label",
+     "text": "Recurring revenue"
+    },
+    {
+     "key": "talkb.6",
+     "kind": "Form label",
+     "text": "Acquisition timeline"
+    },
+    {
+     "key": "talkb.7",
+     "kind": "Text",
+     "text": "Open your criteria sheet"
+    },
+    {
+     "key": "talkb.8",
+     "kind": "Text",
+     "text": "Save it as a PDF or share the link."
+    },
+    {
+     "key": "talkb.9",
+     "kind": "Note",
+     "text": "Your criteria sheet updates once you confirm the change in the email we send you."
     }
    ]
   }

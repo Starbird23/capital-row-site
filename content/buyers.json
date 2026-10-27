@@ -36,6 +36,11 @@
      "key": "pgnav.6",
      "kind": "Link",
      "text": "How it works"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "The problem"
     }
    ]
   },
@@ -66,7 +71,7 @@
     {
      "key": "inner.5",
      "kind": "Paragraph",
-     "text": "We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent."
+     "text": "We help buyers identify software businesses that fit their acquisition strategy, build relationships with owners, and assess opportunities before a letter of intent. Healthcare comes first: six of our nine open desks are in healthcare software."
     },
     {
      "key": "inner.6",
@@ -101,6 +106,92 @@
    ]
   },
   {
+   "id": "problem",
+   "name": "The problem we solve",
+   "items": [
+    {
+     "key": "problem.1",
+     "kind": "Small label",
+     "text": "For buyers · The problem we solve"
+    },
+    {
+     "key": "problem.2",
+     "kind": "Section headline",
+     "text": "Finding a deal and running it are two jobs. <em>Traditionally, one seat does both.</em>"
+    },
+    {
+     "key": "problem.3",
+     "kind": "Paragraph",
+     "text": "The advisor who originates a company is usually the one who sells it. That is where the friction starts."
+    },
+    {
+     "key": "problem.4",
+     "kind": "Text",
+     "text": "The problem"
+    },
+    {
+     "key": "problem.5",
+     "kind": "Heading",
+     "text": "One seat finds the deal and runs it."
+    },
+    {
+     "key": "problem.6",
+     "kind": "Text",
+     "text": "While the originator is executing a deal, nobody is finding the next one."
+    },
+    {
+     "key": "problem.7",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "problem.8",
+     "kind": "Heading",
+     "text": "Why it breaks"
+    },
+    {
+     "key": "problem.9",
+     "kind": "Paragraph",
+     "text": "A live deal cannot wait, so execution wins every time and origination stops whenever a deal is running. Firms that split the two jobs hit a second problem: how to reward the origination when an owner takes two or three years to come to market, and who is rewarded for preparing the company in between. So the preparation is done late or not at all, and the findings surface during exclusivity, when they cost the most."
+    },
+    {
+     "key": "problem.10",
+     "kind": "Text",
+     "text": "How Capital Row solves it"
+    },
+    {
+     "key": "problem.11",
+     "kind": "Heading",
+     "text": "Two seats, one evidence file."
+    },
+    {
+     "key": "problem.12",
+     "kind": "Text",
+     "text": "Origination keeps running while a deal is in execution, and preparation starts before the sale."
+    },
+    {
+     "key": "problem.13",
+     "kind": "Text",
+     "text": "Turn over"
+    },
+    {
+     "key": "problem.14",
+     "kind": "Heading",
+     "text": "What changes for you"
+    },
+    {
+     "key": "problem.15",
+     "kind": "Paragraph",
+     "text": "On a Capital Row desk, origination is its own seat. The advisor who builds the relationship with an owner keeps the credit for it, however long the owner takes to come to market, and preparing the company is its own engagement. Relationships keep building while deals run, and the findings that usually surface in week six of exclusivity are on the record before the name reaches you. You price against them instead of renegotiating after them."
+    },
+    {
+     "key": "problem.16",
+     "kind": "Button",
+     "text": "Discuss acquisition criteria"
+    }
+   ]
+  },
+  {
    "id": "types",
    "name": "Four acquisition routes. Each reads a target differently.",
    "items": [
@@ -127,12 +218,12 @@
     {
      "key": "types.5",
      "kind": "Heading",
-     "text": "Permanent capital and family offices"
+     "text": "Holding companies and family offices"
     },
     {
      "key": "types.6",
      "kind": "Paragraph",
-     "text": "With no exit, the end market is the whole case. You carry it for as long as you hold."
+     "text": "No fund clock and no planned exit, so the end market is the whole case. You carry it for as long as you hold."
     },
     {
      "key": "types.7",
@@ -152,12 +243,12 @@
     {
      "key": "types.10",
      "kind": "Heading",
-     "text": "Private equity and platform acquirers"
+     "text": "Private equity and sponsor-backed platforms"
     },
     {
      "key": "types.11",
      "kind": "Paragraph",
-     "text": "The return has moved into the add-ons, and the exit buyer will run the end-market work on your customer base."
+     "text": "The fund buys the platform, and the platform buys the add-ons. The return has moved into the add-ons, and the exit buyer will run the end-market work on your customer base."
     },
     {
      "key": "types.12",
@@ -202,7 +293,7 @@
     {
      "key": "types.20",
      "kind": "Heading",
-     "text": "Independent sponsors"
+     "text": "Independent sponsors and searchers"
     },
     {
      "key": "types.21",
@@ -486,36 +577,6 @@
      "key": "breaks.12",
      "kind": "Note",
      "text": "A lower-middle-market deal platform’s published study of broken letters of intent, January 27, 2026: seventy-five broken letters across eight buyer types and eight industries. These are three selected categories on a scale of 0 to 30 percent. They are not the full distribution and are not summed."
-    },
-    {
-     "key": "breaks.13",
-     "kind": "Text",
-     "text": "The problem"
-    },
-    {
-     "key": "breaks.14",
-     "kind": "Text",
-     "text": "The solution"
-    },
-    {
-     "key": "breaks.15",
-     "kind": "Text",
-     "text": "Today"
-    },
-    {
-     "key": "breaks.16",
-     "kind": "Paragraph",
-     "text": "<b>Origination and diligence are two separate events</b>, run by different teams, months apart. By the time anyone looks properly the price is on the table and the leverage has already moved."
-    },
-    {
-     "key": "breaks.17",
-     "kind": "Text",
-     "text": "On a desk"
-    },
-    {
-     "key": "breaks.18",
-     "kind": "Paragraph",
-     "text": "<b>They are one process.</b> The findings that normally surface in week six of exclusivity are on the record before the name reaches you, so you are pricing against them instead of renegotiating after them."
     },
     {
      "key": "breaks.19",
