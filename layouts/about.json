@@ -1481,48 +1481,6 @@
    "tags": [],
    "section": "team"
   },
-  "team.12": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "team"
-  },
-  "team.13": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "tmt",
-   "tags": [],
-   "section": "team"
-  },
-  "team.14": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "team"
-  },
-  "team.15": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "team"
-  },
-  "team.16": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "tmt",
-   "tags": [],
-   "section": "team"
-  },
-  "team.17": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "team"
-  },
   "team.18": {
    "kind": "Heading",
    "tag": "h3",
