@@ -32,17 +32,27 @@ export async function onRequestPost({ request, env, waitUntil }) {
     }
     return json({ saved: true, id: b.key, mode: 'direct' });
   }
-  // a buy box also saves the buyer's criteria sheet; its address goes to HubSpot (cr_criteria_url, and a line in the message)
+  // a buy box also saves the buyer's criteria sheet (server/criteria.js). Its address goes to HubSpot (cr_criteria_url, and a line
+  // in the message). A change from a browser that did not make the sheet waits for the inbox to confirm: the confirm link goes to
+  // HubSpot (cr_criteria_confirm_url) for the buy box confirmation email, and the submitter is not shown the sheet.
   let criteria = null;
   if (b.kind === 'Buy box' && b.sheet && typeof b.sheet === 'object') {
     const f0 = items[0].fields, email = (f0.find((f) => f.name === 'email') || {}).value || '';
-    try { criteria = await upsertCriteria(env, email, b.sheet); } catch (e) { criteria = null; }
+    try {   // the same submission sent again (a retry) must not make a second confirm link: the first is the one HubSpot gets
+      await ensureTable(env.DB);
+      const seen = await env.DB.prepare('SELECT 1 AS x FROM submissions WHERE id=?').bind(b.key).first();
+      if (!seen) criteria = await upsertCriteria(env, email, b.sheet);
+    } catch (e) { criteria = null; }
     if (criteria) {
+      const m = f0.find((f) => f.name === 'message'), line = (t) => { if (m) m.value = (m.value + '\n\n' + t).slice(0, 20000); };
       f0.push({ objectTypeId: '0-1', name: 'cr_criteria_url', value: criteria.url });
-      const m = f0.find((f) => f.name === 'message'); if (m) m.value = (m.value + '\n\nCriteria sheet: ' + criteria.url).slice(0, 20000);
+      if (criteria.status === 'pending') {
+        f0.push({ objectTypeId: '0-1', name: 'cr_criteria_confirm_url', value: criteria.confirmUrl });
+        line('Criteria sheet: ' + criteria.url + '\nThese answers came from a browser that did not make the sheet, so the sheet has not changed. It updates when the buyer opens this link from the confirmation email and presses Confirm: ' + criteria.confirmUrl);
+      } else line('Criteria sheet: ' + criteria.url);
     }
   }
-  const sheet = criteria ? { path: criteria.path, url: criteria.url } : undefined;
+  const sheet = !criteria ? undefined : criteria.status === 'pending' ? { pending: true } : { path: criteria.path };
   try {
     await ensureTable(env.DB);
     const t = Date.now();

@@ -2115,7 +2115,6 @@ window.crSafe = function(s) {
 <div class="fld"><label for="bb_profit">{{criteria.41}}</label><select id="bb_profit" required data-list="bb_profit"></select></div><div class="fld wide"><label>{{criteria.42}}</label><div class="cks" id="bb_revmodel" data-cklist="bb_revmodel"></div></div><div class="fld"><label for="bb_recur">{{criteria.43}}</label><select id="bb_recur" data-list="bb_recur"></select></div><div class="fld"><label for="bb_growth">{{criteria.62}}</label><select id="bb_growth" data-list="bb_growth"></select></div><div class="fld"><label for="bb_capital">{{criteria.63}}</label><select id="bb_capital" data-list="bb_capital"></select></div><div class="fld"><label for="bb_reg">{{criteria.44}}</label><select id="bb_reg" data-list="bb_reg"></select></div><div class="fld"><label for="bb_owner">{{criteria.45}}</label><select id="bb_owner" data-list="bb_owner"></select></div><p class="bbh">{{criteria.46}}</p>
 <div class="fld"><label for="bb_timing">{{criteria.47}}</label><select id="bb_timing" required data-list="bb_timing"></select></div><div class="fld"><label for="bb_funding">{{criteria.48}}</label><select id="bb_funding" required data-list="bb_funding"></select></div><div class="fld wide"><label for="bb_excl">{{criteria.49}}</label><textarea id="bb_excl"></textarea></div><div class="fld wide"><label for="bb_msg">{{criteria.50}}</label><textarea id="bb_msg"></textarea></div><div class="bbsum wide" id="bbsum" hidden><b>{{criteria.51}}</b><ul id="bbsuml"></ul></div>
 <p class="fine wide">{{criteria.52}}</p>
-<label class="smsok wide" for="bb_public"><input type="checkbox" id="bb_public" value="yes"><span>{{criteria.64}}</span></label>
 <label class="smsok wide" for="bb_updates" id="bb_updatesw"><input type="checkbox" id="bb_updates" value="yes"><span>{{criteria.53}}</span></label>
 <label class="smsok wide" for="bbsms"><input type="checkbox" id="bbsms" value="yes"><span id="bbsmstext">{{criteria.54}} <b class="opt">{{criteria.55}}</b> {{criteria.56}}</span></label>
 <p class="fine">{{criteria.57}}</p>
@@ -2124,6 +2123,7 @@ window.crSafe = function(s) {
 </form>
 <div class="rptdone" id="bbdone" hidden>
 <div class="bbsheet" id="bbsheet" hidden><p class="bbsh">{{criteria.65}}</p><a class="bigcta" id="bbsheeta" href="../buy-box/index.html" target="_blank" rel="noopener">{{criteria.66}}</a><p class="ctamicro">{{criteria.67}}</p></div>
+<div class="bbsheet" id="bbpend" hidden><p class="bbsh">{{criteria.68}}</p><p class="ctamicro">{{criteria.69}}</p></div>
 <a class="bigcta" href="../buyers/index.html">{{criteria.59}}</a>
 <p class="ctamicro">{{criteria.60}}</p>
 </div>
@@ -3088,7 +3088,7 @@ function hsFields(kind, d) {
  }
  if (kind === "Buy box") {
   add("cr_contact_type", "buyer");
-  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ], [ "Criteria sheet shown publicly", yn(d.public) ]);
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
   co("buyer_type", d.kind);
   co("domain", host(d.website));
   co("cr_acquisition_approach", d.acquisition_context);
@@ -3492,8 +3492,7 @@ function hsSubmit(kind, d, ok, fail) {
    funding: v("bb_funding"),
    exclusions: v("bb_excl"),
    message: v("bb_msg"),
-   updates: $("bb_updates") && $("bb_updates").checked ? "yes" : "no",
-   public: $("bb_public") && $("bb_public").checked ? "yes" : "no"
+   updates: $("bb_updates") && $("bb_updates").checked ? "yes" : "no"
   };
  };
  function lab(i) {
@@ -3541,17 +3540,35 @@ function hsSubmit(kind, d, ok, fail) {
    timing: d.timing,
    funding: d.funding,
    exclusions: d.exclusions,
-   public: d.public === "yes"
+   key: crKey()
   };
  };
+ function crKey() {
+  var k = "";
+  try {
+   k = localStorage.getItem("cr_sheet_key") || "";
+   if (!/^[A-Za-z0-9]{24,64}$/.test(k)) {
+    var a = new Uint8Array(32), c = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
+    crypto.getRandomValues(a);
+    k = "";
+    for (var i = 0; i < 32; i++) k += c[a[i] % c.length];
+    localStorage.setItem("cr_sheet_key", k);
+   }
+  } catch (e) {
+   k = "";
+  }
+  return k;
+ }
  document.addEventListener("cr:saved", (function(e) {
-  var x = e.detail || {}, w = $("bbsheet"), a = $("bbsheeta");
+  var x = e.detail || {}, w = $("bbsheet"), a = $("bbsheeta"), pw = $("bbpend");
   if (x.kind !== "Buy box" || !w || !a) return;
   var c = x.res && x.res.criteria;
-  if (c && /^\/criteria\/[a-z0-9]+\/$/.test(c.path || "")) {
+  w.hidden = true;
+  if (pw) pw.hidden = true;
+  if (c && c.pending && pw) pw.hidden = false; else if (c && /^\/criteria\/[a-z0-9]+\/$/.test(c.path || "")) {
    a.href = c.path;
    w.hidden = false;
-  } else w.hidden = true;
+  }
  }));
  (function() {
   var f = $("bbf"), msg = $("bbmsg");
@@ -4943,7 +4960,7 @@ window.crSecs = function(id) {
  function summary() {
   var box = document.getElementById("bbsum"), ul = document.getElementById("bbsuml");
   if (!box || !ul || typeof window.bbRead !== "function") return;
-  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.role", d.role_label ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.growth", d.growth_label ], [ "bb.sum.capital", d.capital_label ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ], [ "bb.sum.public", d.public === "yes" ? CRM("bb.yes") : "" ] ].map((function(r) {
+  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.role", d.role_label ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.growth", d.growth_label ], [ "bb.sum.capital", d.capital_label ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ] ].map((function(r) {
    return [ CRM(r[0]), r[1] ];
   })).filter((function(r) {
    return r[1];

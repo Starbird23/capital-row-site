@@ -1,12 +1,19 @@
 // Criteria sheets: every buy box sent is saved in D1 (table "criteria") under a random code and shown at
-// /criteria/<code>/ (functions/criteria/[[path]].js). The same email address sending the buy box again updates the same
-// sheet; the last five versions are kept in "history" so an unwanted change can be put back. The sheet carries the firm
-// and its criteria only: no name, email, phone or the free-text "additional criteria" box. It is out of search unless
-// the buyer ticked "Show my criteria publicly". Set hidden=1 on a row to take a sheet down.
+// /criteria/<code>/ (functions/criteria/[[path]].js). Every sheet is private: search engines are told not to list it, and
+// only people the buyer sends the link to can open it. The sheet carries the firm and its criteria only: never a name,
+// email, phone, title or the free-text "additional criteria" box.
+// Who can change a sheet: the browser that made it (it holds a random key in localStorage; the server keeps only its hash)
+// changes it at once. From anywhere else the new answers wait as "pending" and the submitter is not shown the sheet;
+// the change applies only when someone with the inbox opens the confirm link (cr_criteria_confirm_url, sent by HubSpot's
+// buy box confirmation email) and presses Confirm. Confirming also hands the key to that browser. The last five versions
+// are kept in "history"; hidden=1 takes a sheet down.
 
 const ALPHA = '23456789abcdefghjkmnpqrstuvwxyz';           // 31 characters, no 0/o, 1/l/i
 export const CODE_RE = /^[23456789abcdefghjkmnpqrstuvwxyz]{12}$/;
+export const TOKEN_RE = /^[23456789abcdefghjkmnpqrstuvwxyz]{32}$/;
+const KEY_RE = /^[A-Za-z0-9]{24,64}$/;
 export const SITE = 'https://thecapitalrow.com';
+const CONFIRM_DAYS = 14;
 
 export function newCode(n = 12) {
   let out = '';
@@ -17,17 +24,21 @@ export function newCode(n = 12) {
   return out;
 }
 
-export async function emailHash(email) {
-  const d = await crypto.subtle.digest('SHA-256', new TextEncoder().encode('capital-row-criteria|' + String(email).trim().toLowerCase()));
+async function sha(prefix, v) {
+  const d = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(prefix + '|' + v));
   return [...new Uint8Array(d)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
+export const emailHash = (email) => sha('capital-row-criteria', String(email).trim().toLowerCase());
+export const keyHash = (k) => (KEY_RE.test(String(k || '')) ? sha('capital-row-criteria-key', k) : Promise.resolve(null));
+export const tokenHash = (t) => sha('capital-row-criteria-confirm', t);
 
 export async function ensureCriteria(db) {
   await db.prepare(`CREATE TABLE IF NOT EXISTS criteria (code TEXT PRIMARY KEY, email_hash TEXT NOT NULL UNIQUE, data TEXT NOT NULL,
-    public INTEGER NOT NULL DEFAULT 0, hidden INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL, history TEXT)`).run();
+    hidden INTEGER NOT NULL DEFAULT 0, created_at INTEGER NOT NULL, updated_at INTEGER NOT NULL, history TEXT, edit_hash TEXT,
+    pending TEXT, confirm_hash TEXT, confirm_expires INTEGER, confirmed_at INTEGER)`).run();
 }
 
-// what the page may store: text keys with their length limits, the ranges, and the public box
+// what the page may store: text keys with their length limits, and the ranges
 const TEXT = { firm: 160, website: 200, kind: 120, approach: 300, platform: 160, ownership: 200, role: 80, sectors: 4000, company_types: 300, geography: 300,
   geography_detail: 300, customers: 300, profitability: 120, revenue_model: 300, recurring: 120, growth: 80, capital: 80, regulated: 80, founder: 120,
   timing: 80, funding: 80, exclusions: 1200 };
@@ -40,36 +51,68 @@ export function cleanSheet(s) {
     const k = r + '_' + side, v = typeof s[k] === 'string' ? s[k].trim() : '';
     if (/^-?\d{1,15}$/.test(v) || v === 'No minimum' || v === 'No maximum') out[k] = v;
   }
-  out.public = s.public === true;
   return out;
 }
 
-// saves the sheet for this email address; returns { code, path, url, created } or null
+const base = (env) => env.SITE_URL || SITE;
+const sheetAt = (env, code) => ({ path: `/criteria/${code}/`, url: `${base(env)}/criteria/${code}/` });
+async function keepHistory(db, row, t) {
+  let hist = []; try { hist = JSON.parse(row.history || '[]'); } catch (e) {}
+  hist.unshift({ at: row.updated_at, data: row.data });
+  return JSON.stringify(hist.slice(0, 5));
+}
+
+// saves a buy box for this email address. Returns null, or
+//   { status: 'created' | 'updated', code, path, url }            the submitter may be shown the sheet
+//   { status: 'pending', code, url, confirmUrl }                   the submitter is NOT shown the sheet; the inbox confirms
 export async function upsertCriteria(env, email, sheet) {
   const data = cleanSheet(sheet); if (!data || !env.DB) return null;
-  const db = env.DB, h = await emailHash(email), t = Date.now(), pub = data.public ? 1 : 0, body = JSON.stringify(data);
+  const db = env.DB, h = await emailHash(email), kh = await keyHash(sheet && sheet.key), t = Date.now(), body = JSON.stringify(data);
   await ensureCriteria(db);
-  const done = (code, created) => ({ code, path: `/criteria/${code}/`, url: `${env.SITE_URL || SITE}/criteria/${code}/`, created });
-  const old = await db.prepare('SELECT code, data, public, updated_at, history FROM criteria WHERE email_hash=?').bind(h).first();
-  if (old) {
-    if (old.data !== body || old.public !== pub) {
-      let hist = []; try { hist = JSON.parse(old.history || '[]'); } catch (e) {}
-      hist.unshift({ at: old.updated_at, public: old.public, data: old.data });
-      await db.prepare('UPDATE criteria SET data=?, public=?, updated_at=?, history=? WHERE code=?').bind(body, pub, t, JSON.stringify(hist.slice(0, 5)), old.code).run();
-    }
-    return done(old.code, false);
+  const row = await db.prepare('SELECT code, data, updated_at, history, edit_hash FROM criteria WHERE email_hash=?').bind(h).first();
+  if (row && kh && row.edit_hash === kh) {
+    if (row.data !== body) await db.prepare('UPDATE criteria SET data=?, updated_at=?, history=?, pending=NULL, confirm_hash=NULL, confirm_expires=NULL WHERE code=?')
+      .bind(body, t, await keepHistory(db, row, t), row.code).run();
+    return { status: 'updated', code: row.code, ...sheetAt(env, row.code) };
+  }
+  if (row) {
+    const token = newCode(32);
+    await db.prepare('UPDATE criteria SET pending=?, confirm_hash=?, confirm_expires=? WHERE code=?')
+      .bind(JSON.stringify({ data: body, at: t }), await tokenHash(token), t + CONFIRM_DAYS * 86400000, row.code).run();
+    return { status: 'pending', code: row.code, url: sheetAt(env, row.code).url, confirmUrl: `${base(env)}/criteria/confirm/${token}/` };
   }
   for (let i = 0; i < 4; i++) {
     const code = newCode();
     try {
-      await db.prepare('INSERT INTO criteria (code, email_hash, data, public, hidden, created_at, updated_at, history) VALUES (?, ?, ?, ?, 0, ?, ?, NULL)').bind(code, h, body, pub, t, t).run();
-      return done(code, true);
+      await db.prepare('INSERT INTO criteria (code, email_hash, data, hidden, created_at, updated_at, history, edit_hash) VALUES (?, ?, ?, 0, ?, ?, NULL, ?)').bind(code, h, body, t, t, kh).run();
+      return { status: 'created', code, ...sheetAt(env, code) };
     } catch (e) {
-      const again = await db.prepare('SELECT code FROM criteria WHERE email_hash=?').bind(h).first();   // sent twice at once
-      if (again) return done(again.code, false);
+      const again = await db.prepare('SELECT code FROM criteria WHERE email_hash=?').bind(h).first();   // sent twice at once: treat as a second sending
+      if (again) return upsertCriteria(env, email, sheet);
     }
   }
   return null;
+}
+
+// the confirm link: look up (GET shows the change, nothing applied) and apply (POST from the page's button)
+export async function findPending(env, token) {
+  if (!TOKEN_RE.test(token) || !env.DB) return null;
+  await ensureCriteria(env.DB);
+  const row = await env.DB.prepare('SELECT code, data, pending, confirm_expires, hidden FROM criteria WHERE confirm_hash=?').bind(await tokenHash(token)).first();
+  if (!row || row.hidden || !row.pending || !(row.confirm_expires > Date.now())) return null;
+  let p = null; try { p = JSON.parse(row.pending); } catch (e) {}
+  return p ? { code: row.code, data: JSON.parse(p.data) } : null;
+}
+export async function applyPending(env, token, browserKey) {
+  if (!TOKEN_RE.test(token) || !env.DB) return null;
+  const db = env.DB, t = Date.now();
+  const row = await db.prepare('SELECT code, data, updated_at, history, pending, confirm_expires, hidden FROM criteria WHERE confirm_hash=?').bind(await tokenHash(token)).first();
+  if (!row || row.hidden || !row.pending || !(row.confirm_expires > t)) return null;
+  const p = JSON.parse(row.pending), kh = await keyHash(browserKey);
+  const changed = p.data !== row.data;
+  await db.prepare('UPDATE criteria SET data=?, updated_at=?, history=?, edit_hash=?, pending=NULL, confirm_hash=NULL, confirm_expires=NULL, confirmed_at=? WHERE code=?')
+    .bind(p.data, changed ? t : row.updated_at, changed ? await keepHistory(db, row, t) : row.history, kh, t, row.code).run();
+  return { code: row.code, ...sheetAt(env, row.code) };
 }
 
 // ---------------------------------------------------------------- the page
@@ -82,7 +125,10 @@ const DEF = { 'sheet.label': 'Acquisition criteria', 'sheet.title': 'acquisition
   'sheet.timeline': 'Timeline', 'sheet.funding': 'Funding', 'sheet.exclusions': 'Exclusions', 'sheet.to': 'to', 'sheet.or_more': 'or more', 'sheet.up_to': 'Up to',
   'sheet.any': 'Any', 'sheet.updated': 'Updated', 'sheet.prepared': 'Prepared with Capital Row', 'sheet.save_pdf': 'Save as PDF', 'sheet.copy': 'Copy link',
   'sheet.copied': 'Link copied', 'sheet.update': 'Update these criteria', 'sheet.private': 'Private page. Only people with this link can see it.',
-  'sheet.public': 'Public page. Search engines can list it.', 'sheet.firm_fallback': 'Buyer' };
+  'sheet.firm_fallback': 'Buyer', 'sheet.confirmed': 'Your criteria sheet is updated.', 'sheet.confirm_title': 'Confirm your new criteria',
+  'sheet.confirm_body': 'New acquisition criteria were sent for this email address. If you sent them, confirm below and your criteria sheet updates. If you did not, close this page and nothing changes.',
+  'sheet.confirm_button': 'Confirm and update my sheet', 'sheet.confirm_preview': 'What your sheet will show',
+  'sheet.confirm_expired': 'This link has expired or has already been used. To change your criteria, send the buy box again.' };
 
 const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 function money(v) {
@@ -125,24 +171,20 @@ export function sheetRows(d, T) {
   return sec.map(([k, items]) => [T(k), items.filter((x) => x[1]).map(([s, v]) => [s ? T(s) : '', v])]).filter((r) => r[1].length);
 }
 
-export function renderSheet(d, o) {
-  const text = (o && o.text) || {};
-  const T = (k) => (typeof text[k] === 'string' && text[k] ? text[k] : DEF[k] || '');
-  const firm = d.firm || T('sheet.firm_fallback'), web = site(d.website), pub = !!o.public, url = o.url;
-  const rows = sheetRows(d, T);
-  const desc = [T('sheet.label') + ' for ' + firm, list(d.sectors).slice(0, 4).join(', '), range(d, 'rev', T) && T('sheet.revenue') + ' ' + range(d, 'rev', T)].filter(Boolean).join('. ') + '.';
-  const body = rows.map(([lab, items]) => `<section class="row"><h2>${esc(lab)}</h2><div class="val">${items.map(([s, v]) => (s ? `<p class="kv"><span class="sub">${esc(s)}</span><span>${esc(v)}</span></p>` : `<p>${esc(v)}</p>`)).join('')}</div></section>`).join('\n');
+const KEYJS = "function crKey(){var k='';try{k=localStorage.getItem('cr_sheet_key')||'';if(!/^[A-Za-z0-9]{24,64}$/.test(k)){var a=new Uint8Array(32),c='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789';crypto.getRandomValues(a);k='';for(var i=0;i<32;i++)k+=c[a[i]%c.length];localStorage.setItem('cr_sheet_key',k)}}catch(e){k=''}return k}";
+
+function shell(m, inner) {
   return `<!doctype html><html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(firm)} ${esc(T('sheet.title'))} | Capital Row</title>
-<meta name="description" content="${esc(desc)}">
-${pub ? `<link rel="canonical" href="${esc(url)}">` : '<meta name="robots" content="noindex, nofollow">'}
+<title>${esc(m.title)}</title>
+<meta name="description" content="${esc(m.desc)}">
+<meta name="robots" content="noindex, nofollow">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Capital Row">
-<meta property="og:title" content="${esc(firm)}: ${esc(T('sheet.label'))}">
-<meta property="og:description" content="${esc(desc)}">
-<meta property="og:url" content="${esc(url)}">
+<meta property="og:title" content="${esc(m.og)}">
+<meta property="og:description" content="${esc(m.desc)}">
+<meta property="og:url" content="${esc(m.url)}">
 <meta property="og:image" content="${SITE}/capital-row-social-card.jpg">
 <meta name="theme-color" content="#0C3234">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -161,6 +203,7 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper2);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.5}
 .bar{max-width:880px;margin:0 auto;padding:18px 16px 0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
 .bar .note{font-size:13px;color:var(--ink3)}
+.bar .note .ok{font-weight:400;color:var(--teal);margin-right:6px}
 .bar .acts{display:flex;flex-wrap:wrap;gap:8px}
 .btn{font:400 14px var(--sans);border:1px solid var(--deep);background:var(--deep);color:#fff;padding:9px 16px;border-radius:2px;cursor:pointer;text-decoration:none;display:inline-block}
 .btn.ghost{background:transparent;color:var(--deep)}
@@ -184,24 +227,59 @@ h1{font:500 50px/1.04 var(--ser);margin:0;letter-spacing:-.005em}
 .mark{display:inline-flex;align-items:flex-end;gap:2px;height:12px;margin-right:8px;vertical-align:-1px}
 .mark i{display:block;width:3px;height:12px;background:var(--ink);transform-origin:bottom}
 .mark i:nth-child(1){transform:scaleY(.4)}.mark i:nth-child(2){transform:scaleY(.67)}.mark i:nth-child(3){background:var(--teal)}.mark i:nth-child(4){transform:scaleY(.6)}.mark i:nth-child(5){transform:scaleY(.34)}
-@media (max-width:700px){.sheet{padding:30px 20px 26px;margin:12px 0 28px;border-left:0;border-right:0}h1{font-size:36px}.row{grid-template-columns:1fr;gap:6px;padding:14px 0}.val p{font-size:20px}.val .kv{grid-template-columns:1fr;gap:0}.val .sub{font-size:13px}.bar{padding:14px 16px 0}}
+/* confirm page */
+.ask{max-width:880px;margin:14px auto 0;background:var(--card);border:1px solid var(--line);padding:44px 64px 36px}
+.ask h1{font-size:40px}
+.ask .body{font-size:17px;color:var(--ink2);max-width:60ch;margin:16px 0 22px}
+.ask .btn{font-size:15px;padding:12px 20px}
+.ask + .sheet{margin-top:18px}
+.prev{font:400 11.5px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:0 0 6px}
+@media (max-width:700px){.ask{padding:30px 20px 26px;margin:12px 0 0;border-left:0;border-right:0}.ask h1{font-size:30px}.sheet{padding:30px 20px 26px;margin:12px 0 28px;border-left:0;border-right:0}h1{font-size:36px}.row{grid-template-columns:1fr;gap:6px;padding:14px 0}.val p{font-size:20px}.val .kv{grid-template-columns:1fr;gap:0}.val .sub{font-size:13px}.bar{padding:14px 16px 0}}
 @media print{@page{size:letter;margin:.55in .6in}body{background:#fff}.bar{display:none}.sheet{border:0;margin:0;padding:0;max-width:none}h1{font-size:38px}.rows{margin-top:24px}.row{grid-template-columns:150px 1fr;gap:18px;padding:10px 0}.val p{font-size:16.5px;margin-bottom:3px}.val .kv{grid-template-columns:135px 1fr;gap:10px}.val .sub{font-size:11px}.row h2{font-size:9.5px}.who{font-size:13.5px}.foot{margin-top:18px;font-size:11px}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
 </style>
 </head><body>
-<div class="bar"><span class="note">${esc(pub ? T('sheet.public') : T('sheet.private'))}</span><span class="acts"><button class="btn" type="button" id="pdf">${esc(T('sheet.save_pdf'))}</button><button class="btn ghost" type="button" id="copy" data-done="${esc(T('sheet.copied'))}">${esc(T('sheet.copy'))}</button><a class="btn ghost" href="/buy-box/">${esc(T('sheet.update'))}</a></span></div>
-<main class="sheet">
+${inner}
+</body></html>`;
+}
+
+function textOf(o) { const text = (o && o.text) || {}; return (k) => (typeof text[k] === 'string' && text[k] ? text[k] : DEF[k] || ''); }
+
+// the sheet itself: firm, criteria rows and the "Prepared with Capital Row" line
+function sheetMain(d, T, updated) {
+  const firm = d.firm || T('sheet.firm_fallback'), web = site(d.website);
+  const body = sheetRows(d, T).map(([lab, items]) => `<section class="row"><h2>${esc(lab)}</h2><div class="val">${items.map(([s, v]) => (s ? `<p class="kv"><span class="sub">${esc(s)}</span><span>${esc(v)}</span></p>` : `<p>${esc(v)}</p>`)).join('')}</div></section>`).join('\n');
+  return `<main class="sheet">
 <p class="lab">${esc(T('sheet.label'))}</p>
 <h1>${esc(firm)}</h1>
 ${(d.kind || web) ? `<p class="who">${[esc(d.kind || ''), web ? `<a href="${esc(web.href)}" rel="nofollow noopener" target="_blank">${esc(web.text)}</a>` : ''].filter(Boolean).join(' · ')}</p>` : ''}
 <div class="rows">
 ${body}
 </div>
-<div class="foot"><b><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>${esc(T('sheet.prepared'))}</b><span><a href="${SITE}/">thecapitalrow.com</a> · ${esc(T('sheet.updated'))} ${esc(usDate(o.updated))}</span></div>
-</main>
+<div class="foot"><b><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>${esc(T('sheet.prepared'))}</b><span><a href="${SITE}/">thecapitalrow.com</a> · ${esc(T('sheet.updated'))} ${esc(usDate(updated))}</span></div>
+</main>`;
+}
+
+export function renderSheet(d, o) {
+  const T = textOf(o), firm = d.firm || T('sheet.firm_fallback');
+  const desc = [T('sheet.label') + ' for ' + firm, list(d.sectors).slice(0, 4).join(', '), range(d, 'rev', T) && T('sheet.revenue') + ' ' + range(d, 'rev', T)].filter(Boolean).join('. ') + '.';
+  return shell({ title: `${firm} ${T('sheet.title')} | Capital Row`, desc, og: `${firm}: ${T('sheet.label')}`, url: o.url }, `<div class="bar"><span class="note">${o.confirmed ? `<b class="ok">${esc(T('sheet.confirmed'))}</b> ` : ''}${esc(T('sheet.private'))}</span><span class="acts"><button class="btn" type="button" id="pdf">${esc(T('sheet.save_pdf'))}</button><button class="btn ghost" type="button" id="copy" data-done="${esc(T('sheet.copied'))}">${esc(T('sheet.copy'))}</button><a class="btn ghost" href="/buy-box/">${esc(T('sheet.update'))}</a></span></div>
+${sheetMain(d, T, o.updated)}
 <script>
 document.getElementById('pdf').onclick=function(){window.print()};
 document.getElementById('copy').onclick=function(){var b=this,u=location.href.split('?')[0].split('#')[0],t=b.textContent;function done(){b.textContent=b.getAttribute('data-done');setTimeout(function(){b.textContent=t},1800)}if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(u).then(done,function(){prompt('',u)});else prompt('',u)};
 if(/[?&]print=1/.test(location.search))window.addEventListener('load',function(){setTimeout(function(){window.print()},300)});
-</script>
-</body></html>`;
+</script>`);
+}
+
+// the confirm link: shows the new criteria and one button; nothing changes until the button is pressed (mail scanners only open links)
+export function renderConfirm(o) {
+  const T = textOf(o);
+  if (!o.data) return shell({ title: `${T('sheet.confirm_title')} | Capital Row`, desc: T('sheet.confirm_expired'), og: T('sheet.confirm_title'), url: o.url },
+    `<main class="ask"><p class="lab">${esc(T('sheet.label'))}</p><h1>${esc(T('sheet.confirm_title'))}</h1><p class="body">${esc(T('sheet.confirm_expired'))}</p><a class="btn" href="/buy-box/">${esc(T('sheet.update'))}</a></main>`);
+  return shell({ title: `${T('sheet.confirm_title')} | Capital Row`, desc: T('sheet.confirm_body'), og: T('sheet.confirm_title'), url: o.url },
+    `<main class="ask"><p class="lab">${esc(T('sheet.label'))}</p><h1>${esc(T('sheet.confirm_title'))}</h1><p class="body">${esc(T('sheet.confirm_body'))}</p>
+<form method="post" action=""><input type="hidden" name="key" id="key" value=""><button class="btn" type="submit">${esc(T('sheet.confirm_button'))}</button></form></main>
+<p class="prev" style="max-width:880px;margin:26px auto 0;padding:0 16px">${esc(T('sheet.confirm_preview'))}</p>
+${sheetMain(o.data, T, Date.now())}
+<script>${KEYJS};document.getElementById('key').value=crKey();</script>`);
 }

@@ -265,7 +265,7 @@
     {
      "key": "criteria.52",
      "kind": "Note",
-     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. You also get a criteria sheet at its own private address; it is public only if you tick the box below. Your contact details and the last box never appear on it."
+     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. You also get a criteria sheet at its own private address to share or save as a PDF. Your contact details and the last box never appear on it."
     },
     {
      "key": "criteria.53",
@@ -323,11 +323,6 @@
      "text": "Outside capital raised to date"
     },
     {
-     "key": "criteria.64",
-     "kind": "Text",
-     "text": "Show my criteria publicly."
-    },
-    {
      "key": "criteria.65",
      "kind": "Paragraph",
      "text": "Your criteria sheet is ready."
@@ -341,6 +336,16 @@
      "key": "criteria.67",
      "kind": "Note",
      "text": "Share the link or save it as a PDF. Send the buy box again and the same page updates."
+    },
+    {
+     "key": "criteria.68",
+     "kind": "Paragraph",
+     "text": "This email address already has a criteria sheet."
+    },
+    {
+     "key": "criteria.69",
+     "kind": "Note",
+     "text": "We sent a confirmation link to that inbox. Your sheet updates once you confirm."
     }
    ]
   }

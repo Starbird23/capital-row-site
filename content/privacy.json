@@ -10,7 +10,7 @@
     {
      "key": "rule.1",
      "kind": "Paragraph",
-     "text": "Last updated October 14, 2026"
+     "text": "Last updated October 26, 2026"
     },
     {
      "key": "rule.2",
@@ -116,6 +116,16 @@
      "key": "rule.22",
      "kind": "Paragraph",
      "text": "Capital Row LLC, <a>team@thecapitalrow.com</a>."
+    },
+    {
+     "key": "rule.23",
+     "kind": "Section headline",
+     "text": "Buyer criteria sheets"
+    },
+    {
+     "key": "rule.24",
+     "kind": "Paragraph",
+     "text": "When a buyer sends the buy box, we keep the firm’s name and acquisition criteria on a page at a private address on thecapitalrow.com, so the buyer can share it or save it as a PDF. The page never shows a name, email address or phone number, search engines are asked not to list it, and only people with the link can open it. A change sent from a new device or browser takes effect only after it is confirmed from the email address on file. To take a page down, write to <a>team@thecapitalrow.com</a>."
     }
    ]
   }

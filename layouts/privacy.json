@@ -1097,6 +1097,22 @@
    "cls": "",
    "tags": [],
    "section": "mast"
+  },
+  "rule.23": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "",
+   "tags": [],
+   "section": "rule"
+  },
+  "rule.24": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [
+    "<a href=\"mailto:team@thecapitalrow.com\">"
+   ],
+   "section": "rule"
   }
  }
 }

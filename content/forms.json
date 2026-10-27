@@ -2197,7 +2197,6 @@
   "bb.sum.role": "Lead or co-invest",
   "bb.sum.growth": "Revenue growth",
   "bb.sum.capital": "Outside capital raised",
-  "bb.sum.public": "Shown publicly",
   "sheet.label": "Acquisition criteria",
   "sheet.title": "acquisition criteria",
   "sheet.sectors": "Sectors",
@@ -2239,8 +2238,12 @@
   "sheet.copied": "Link copied",
   "sheet.update": "Update these criteria",
   "sheet.private": "Private page. Only people with this link can see it.",
-  "sheet.public": "Public page. Search engines can list it.",
   "sheet.firm_fallback": "Buyer",
-  "bb.yes": "Yes"
+  "sheet.confirmed": "Your criteria sheet is updated.",
+  "sheet.confirm_title": "Confirm your new criteria",
+  "sheet.confirm_body": "New acquisition criteria were sent for this email address. If you sent them, confirm below and your criteria sheet updates. If you did not, close this page and nothing changes.",
+  "sheet.confirm_button": "Confirm and update my sheet",
+  "sheet.confirm_preview": "What your sheet will show",
+  "sheet.confirm_expired": "This link has expired or has already been used. To change your criteria, send the buy box again."
  }
 }
