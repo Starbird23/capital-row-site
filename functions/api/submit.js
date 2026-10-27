@@ -1,5 +1,6 @@
 // POST /api/submit: save first, answer "saved", then deliver to HubSpot (see server/core.js).
 import { KINDS, cleanFields, ensureTable, deliver, processDue, sendToHubSpot, alert, formFor, json, originOk, loadConfig } from '../../server/core.js';
+import { upsertCriteria } from '../../server/criteria.js';
 
 export async function onRequestPost({ request, env, waitUntil }) {
   if (!originOk(request, env)) return json({ saved: false, error: 'origin' }, 403);
@@ -31,6 +32,17 @@ export async function onRequestPost({ request, env, waitUntil }) {
     }
     return json({ saved: true, id: b.key, mode: 'direct' });
   }
+  // a buy box also saves the buyer's criteria sheet; its address goes to HubSpot (cr_criteria_url, and a line in the message)
+  let criteria = null;
+  if (b.kind === 'Buy box' && b.sheet && typeof b.sheet === 'object') {
+    const f0 = items[0].fields, email = (f0.find((f) => f.name === 'email') || {}).value || '';
+    try { criteria = await upsertCriteria(env, email, b.sheet); } catch (e) { criteria = null; }
+    if (criteria) {
+      f0.push({ objectTypeId: '0-1', name: 'cr_criteria_url', value: criteria.url });
+      const m = f0.find((f) => f.name === 'message'); if (m) m.value = (m.value + '\n\nCriteria sheet: ' + criteria.url).slice(0, 20000);
+    }
+  }
+  const sheet = criteria ? { path: criteria.path, url: criteria.url } : undefined;
   try {
     await ensureTable(env.DB);
     const t = Date.now();
@@ -38,7 +50,7 @@ export async function onRequestPost({ request, env, waitUntil }) {
       .bind(it.id, it.kind, formFor(it.kind, env), t, JSON.stringify({ fields: it.fields, context, consent: it.parent ? null : consent, failed_checks: it.checkDropped || [] }), 'pending', t, it.parent || null)));
     const duplicate = !(res[0].meta && res[0].meta.changes === 1);
     waitUntil((async () => { for (const it of items) await deliver(env, it.id); await processDue(env, 3); })());
-    return json({ saved: true, id: b.key, duplicate });
+    return json({ saved: true, id: b.key, duplicate, criteria: sheet });
   } catch (e) {
     waitUntil(alert(env, 'Website form could not be saved', ['The database refused a ' + b.kind + ' submission.', 'Error: ' + String(e && e.message || e).slice(0, 300)]));
     return json({ saved: false, error: 'store' }, 503);

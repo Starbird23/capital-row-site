@@ -3106,7 +3106,7 @@ function hsFields(kind, d) {
  }
  if (kind === "Buy box") {
   add("cr_contact_type", "buyer");
-  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ], [ "Criteria sheet shown publicly", yn(d.public) ]);
   co("buyer_type", d.kind);
   co("domain", host(d.website));
   co("cr_acquisition_approach", d.acquisition_context);
@@ -3121,6 +3121,9 @@ function hsFields(kind, d) {
   co("cr_profitability", d.profitability);
   co("cr_revenue_model", d.revenue_model);
   co("cr_recurring_pref", d.recurring_pref);
+  co("target_revenue_growth_min", d.growth);
+  co("target_capital_raised_max", d.capital);
+  co("investment_role", d.role);
   co("cr_regulated_appetite", d.regulated);
   co("cr_owner_after_close", d.owner_after_close);
   co("cr_timing", d.timing);
@@ -3308,6 +3311,7 @@ function hsSubmit(kind, d, ok, fail) {
   consent: b.legalConsentOptions || null,
   also: also
  };
+ if (d.sheet) body.sheet = d.sheet;
  function direct() {
   var guid = kind === "Owner session seat" ? "2252081f-64ac-4259-925b-0bd99f4fb517" : "8e02c346-11f0-4b2d-a17c-a596397264ee";
   var url = "https://api.hsforms.com/submissions/v3/integration/submit/247329185/" + guid;
@@ -3348,12 +3352,22 @@ function hsSubmit(kind, d, ok, fail) {
   credentials: "same-origin"
  }).then((function(r) {
   return r.json().then((function(j) {
-   return r.ok && j && j.saved === true;
+   return r.ok && j && j.saved === true ? j : null;
   }), (function() {
-   return false;
+   return null;
   }));
  })).then((function(saved) {
-  if (saved) ok(false); else direct();
+  if (saved) {
+   try {
+    document.dispatchEvent(new CustomEvent("cr:saved", {
+     detail: {
+      kind: kind,
+      res: saved
+     }
+    }));
+   } catch (e) {}
+   ok(false);
+  } else direct();
  }), (function() {
   direct();
  }));

@@ -265,7 +265,7 @@
     {
      "key": "criteria.52",
      "kind": "Note",
-     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. Nothing you write here goes to an owner or anyone else."
+     "text": "Your criteria are kept on file for matching and confirmed with you each quarter. You also get a criteria sheet at its own private address; it is public only if you tick the box below. Your contact details and the last box never appear on it."
     },
     {
      "key": "criteria.53",
@@ -306,6 +306,41 @@
      "key": "criteria.60",
      "kind": "Note",
      "text": "Criteria on file is confirmed with you each quarter. You hear when an opportunity fits."
+    },
+    {
+     "key": "criteria.61",
+     "kind": "Form label",
+     "text": "Lead or co-invest"
+    },
+    {
+     "key": "criteria.62",
+     "kind": "Form label",
+     "text": "Minimum revenue growth, year over year"
+    },
+    {
+     "key": "criteria.63",
+     "kind": "Form label",
+     "text": "Outside capital raised to date"
+    },
+    {
+     "key": "criteria.64",
+     "kind": "Text",
+     "text": "Show my criteria publicly."
+    },
+    {
+     "key": "criteria.65",
+     "kind": "Paragraph",
+     "text": "Your criteria sheet is ready."
+    },
+    {
+     "key": "criteria.66",
+     "kind": "Button",
+     "text": "Open your criteria sheet"
+    },
+    {
+     "key": "criteria.67",
+     "kind": "Note",
+     "text": "Share the link or save it as a PDF. Send the buy box again and the same page updates."
     }
    ]
   }

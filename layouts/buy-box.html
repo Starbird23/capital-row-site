@@ -1401,6 +1401,7 @@ header.inner .cta2{justify-content:center}
 .rptback a{color:var(--teal);text-decoration:none;display:inline-block;padding:10px 0}
 .rptback a:hover{text-decoration:underline;text-underline-offset:4px}
 .rptdone[hidden],.scrpage[hidden]{display:none}
+.bbsheet{text-align:center;margin:34px 0 38px;padding-bottom:34px;border-bottom:1px solid rgba(20,30,31,.12)}.bbsheet[hidden]{display:none}.bbsh{font-family:var(--ser);font-size:28px;line-height:1.2;margin:0 0 18px;color:var(--ink)}
 body.scr>header,body.scr>main>header,body.scr>.figpage,body.scr>main>.figpage,body.scr>section:not(.scrpage),body.scr>main>section:not(.scrpage),body.scr>.sn,body.scr>.snt,body.scr>.rt{display:none!important}
 .nc{text-transform:none}
 #pre-market-assessment h2,#reserve h2{max-width:none}
@@ -2109,11 +2110,12 @@ window.crSafe = function(s) {
 <div class="fld"><label for="bbph">{{criteria.11}}</label><input id="bbph" name="tel" type="tel" inputmode="tel" autocomplete="tel"></div>
 <p class="bbh">{{criteria.12}}</p>
 <div class="fld"><label for="bb_kind">{{criteria.13}}</label><select id="bb_kind" required data-list="bb_kind"></select></div><p class="bbh">{{criteria.14}}</p>
-<div class="fld wide"><label>{{criteria.15}}</label><div class="cks" id="bb_context" data-cklist="bb_context"></div></div><div class="fld" id="bb_platw" hidden><label for="bb_plat">{{criteria.16}}</label><input id="bb_plat"></div><div class="fld wide"><label>{{criteria.17}}</label><div class="cks" id="bb_own" data-cklist="bb_own"></div></div><div class="fld wide"><label>{{criteria.18}}</label><div class="secpick" id="bb_vert" data-secpick="1"></div></div><div class="fld wide"><label>{{criteria.19}}</label><div class="secpick" id="firmsec" data-secpick="1"></div></div><div class="fld wide"><label>{{criteria.20}}</label><div class="cks" id="bb_model" data-cklist="bb_model"></div></div><div class="fld wide"><label>{{criteria.21}}</label><div class="cks" id="bb_geo" data-cklist="bb_geo"></div></div><div class="fld wide"><label for="bb_geod">{{criteria.22}}</label><input id="bb_geod"></div><div class="fld wide"><label>{{criteria.23}}</label><div class="cks" id="bb_cust" data-cklist="bb_cust"></div></div><p class="bbh">{{criteria.24}}</p>
+<div class="fld wide"><label>{{criteria.15}}</label><div class="cks" id="bb_context" data-cklist="bb_context"></div></div><div class="fld" id="bb_platw" hidden><label for="bb_plat">{{criteria.16}}</label><input id="bb_plat"></div><div class="fld wide"><label>{{criteria.17}}</label><div class="cks" id="bb_own" data-cklist="bb_own"></div></div><div class="fld" id="bb_rolew" hidden><label for="bb_role">{{criteria.61}}</label><select id="bb_role" data-list="bb_role"></select></div><div class="fld wide"><label>{{criteria.18}}</label><div class="secpick" id="bb_vert" data-secpick="1"></div></div><div class="fld wide"><label>{{criteria.19}}</label><div class="secpick" id="firmsec" data-secpick="1"></div></div><div class="fld wide"><label>{{criteria.20}}</label><div class="cks" id="bb_model" data-cklist="bb_model"></div></div><div class="fld wide"><label>{{criteria.21}}</label><div class="cks" id="bb_geo" data-cklist="bb_geo"></div></div><div class="fld wide"><label for="bb_geod">{{criteria.22}}</label><input id="bb_geod"></div><div class="fld wide"><label>{{criteria.23}}</label><div class="cks" id="bb_cust" data-cklist="bb_cust"></div></div><p class="bbh">{{criteria.24}}</p>
 <div class="fld wide" id="bb_revw"><label>{{criteria.25}}</label><div class="rng"><div class="vcmoney"><i>$</i><input id="bb_rev_min" inputmode="decimal" autocomplete="off" data-money="1"></div><div class="vcmoney"><i>$</i><input id="bb_rev_max" inputmode="decimal" autocomplete="off" data-money="1"></div></div><div class="rngck"><label class="ckl"><input type="checkbox" id="bb_rev_nomin"><span>{{criteria.26}}</span></label><label class="ckl"><input type="checkbox" id="bb_rev_nomax"><span>{{criteria.27}}</span></label></div></div><div class="fld wide" id="bb_arrw" hidden><label>{{criteria.28}}</label><div class="rng"><div class="vcmoney"><i>$</i><input id="bb_arr_min" inputmode="decimal" autocomplete="off" data-money="1"></div><div class="vcmoney"><i>$</i><input id="bb_arr_max" inputmode="decimal" autocomplete="off" data-money="1"></div></div><div class="rngck"><label class="ckl"><input type="checkbox" id="bb_arr_nomin"><span>{{criteria.29}}</span></label><label class="ckl"><input type="checkbox" id="bb_arr_nomax"><span>{{criteria.30}}</span></label></div></div><div class="fld wide"><label>{{criteria.31}}</label><div class="rng"><div class="vcmoney"><i>$</i><input id="bb_ebitda_min" inputmode="decimal" autocomplete="off" data-money="1"></div><div class="vcmoney"><i>$</i><input id="bb_ebitda_max" inputmode="decimal" autocomplete="off" data-money="1"></div></div><div class="rngck"><label class="ckl"><input type="checkbox" id="bb_ebitda_nomin"><span>{{criteria.32}}</span></label><label class="ckl"><input type="checkbox" id="bb_ebitda_nomax"><span>{{criteria.33}}</span></label></div></div><div class="fld wide"><label>{{criteria.34}}</label><div class="rng"><div class="vcmoney"><i>$</i><input id="bb_ev_min" inputmode="decimal" autocomplete="off" data-money="1"></div><div class="vcmoney"><i>$</i><input id="bb_ev_max" inputmode="decimal" autocomplete="off" data-money="1"></div></div><div class="rngck"><label class="ckl"><input type="checkbox" id="bb_ev_nomin"><span>{{criteria.35}}</span></label><label class="ckl"><input type="checkbox" id="bb_ev_nomax"><span>{{criteria.36}}</span></label></div></div><div class="fld wide"><label>{{criteria.37}}</label><div class="rng"><div class="vcmoney"><i>$</i><input id="bb_eq_min" inputmode="decimal" autocomplete="off" data-money="1"></div><div class="vcmoney"><i>$</i><input id="bb_eq_max" inputmode="decimal" autocomplete="off" data-money="1"></div></div><div class="rngck"><label class="ckl"><input type="checkbox" id="bb_eq_nomin"><span>{{criteria.38}}</span></label><label class="ckl"><input type="checkbox" id="bb_eq_nomax"><span>{{criteria.39}}</span></label></div></div><p class="bbh">{{criteria.40}}</p>
-<div class="fld"><label for="bb_profit">{{criteria.41}}</label><select id="bb_profit" required data-list="bb_profit"></select></div><div class="fld wide"><label>{{criteria.42}}</label><div class="cks" id="bb_revmodel" data-cklist="bb_revmodel"></div></div><div class="fld"><label for="bb_recur">{{criteria.43}}</label><select id="bb_recur" data-list="bb_recur"></select></div><div class="fld"><label for="bb_reg">{{criteria.44}}</label><select id="bb_reg" data-list="bb_reg"></select></div><div class="fld"><label for="bb_owner">{{criteria.45}}</label><select id="bb_owner" data-list="bb_owner"></select></div><p class="bbh">{{criteria.46}}</p>
+<div class="fld"><label for="bb_profit">{{criteria.41}}</label><select id="bb_profit" required data-list="bb_profit"></select></div><div class="fld wide"><label>{{criteria.42}}</label><div class="cks" id="bb_revmodel" data-cklist="bb_revmodel"></div></div><div class="fld"><label for="bb_recur">{{criteria.43}}</label><select id="bb_recur" data-list="bb_recur"></select></div><div class="fld"><label for="bb_growth">{{criteria.62}}</label><select id="bb_growth" data-list="bb_growth"></select></div><div class="fld"><label for="bb_capital">{{criteria.63}}</label><select id="bb_capital" data-list="bb_capital"></select></div><div class="fld"><label for="bb_reg">{{criteria.44}}</label><select id="bb_reg" data-list="bb_reg"></select></div><div class="fld"><label for="bb_owner">{{criteria.45}}</label><select id="bb_owner" data-list="bb_owner"></select></div><p class="bbh">{{criteria.46}}</p>
 <div class="fld"><label for="bb_timing">{{criteria.47}}</label><select id="bb_timing" required data-list="bb_timing"></select></div><div class="fld"><label for="bb_funding">{{criteria.48}}</label><select id="bb_funding" required data-list="bb_funding"></select></div><div class="fld wide"><label for="bb_excl">{{criteria.49}}</label><textarea id="bb_excl"></textarea></div><div class="fld wide"><label for="bb_msg">{{criteria.50}}</label><textarea id="bb_msg"></textarea></div><div class="bbsum wide" id="bbsum" hidden><b>{{criteria.51}}</b><ul id="bbsuml"></ul></div>
 <p class="fine wide">{{criteria.52}}</p>
+<label class="smsok wide" for="bb_public"><input type="checkbox" id="bb_public" value="yes"><span>{{criteria.64}}</span></label>
 <label class="smsok wide" for="bb_updates" id="bb_updatesw"><input type="checkbox" id="bb_updates" value="yes"><span>{{criteria.53}}</span></label>
 <label class="smsok wide" for="bbsms"><input type="checkbox" id="bbsms" value="yes"><span id="bbsmstext">{{criteria.54}} <b class="opt">{{criteria.55}}</b> {{criteria.56}}</span></label>
 <p class="fine">{{criteria.57}}</p>
@@ -2121,6 +2123,7 @@ window.crSafe = function(s) {
 <p class="formmsg wide" id="bbmsg" hidden></p>
 </form>
 <div class="rptdone" id="bbdone" hidden>
+<div class="bbsheet" id="bbsheet" hidden><p class="bbsh">{{criteria.65}}</p><a class="bigcta" id="bbsheeta" href="../buy-box/index.html" target="_blank" rel="noopener">{{criteria.66}}</a><p class="ctamicro">{{criteria.67}}</p></div>
 <a class="bigcta" href="../buyers/index.html">{{criteria.59}}</a>
 <p class="ctamicro">{{criteria.60}}</p>
 </div>
@@ -3085,7 +3088,7 @@ function hsFields(kind, d) {
  }
  if (kind === "Buy box") {
   add("cr_contact_type", "buyer");
-  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ]);
+  L.push([ "Buyer type", d.kind ], [ "Criteria on file", "Yes" ], [ "Title", d.title, "jobtitle" ], [ "Firm website", d.website, "website" ], [ "Acquisition approach", d.acquisition_context ], [ "Platform name", d.platform_name ], [ "Ownership sought", d.ownership ], [ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Industries the firm targets", d.firm_industry ], [ "Sectors the firm targets", d.firm_sectors ], [ "Target company types", d.business_model ], [ "Target headquarters", d.geography ], [ "States or regions", d.geography_detail ], [ "Customer markets", d.customer_markets ], [ "Annual revenue minimum, trailing twelve months (USD)", d.rev_min ], [ "Annual revenue maximum, trailing twelve months (USD)", d.rev_max ], [ "ARR minimum, current run rate (USD)", d.arr_min ], [ "ARR maximum, current run rate (USD)", d.arr_max ], [ "Adjusted EBITDA minimum, trailing twelve months (USD)", d.ebitda_min ], [ "Adjusted EBITDA maximum, trailing twelve months (USD)", d.ebitda_max ], [ "Enterprise value minimum (USD)", d.ev_min ], [ "Enterprise value maximum (USD)", d.ev_max ], [ "Equity investment minimum (USD)", d.eq_min ], [ "Equity investment maximum (USD)", d.eq_max ], [ "Profitability", d.profitability ], [ "Revenue model", d.revenue_model ], [ "Recurring revenue preference", d.recurring_pref ], [ "Minimum revenue growth, year over year", d.growth_label ], [ "Outside capital raised to date", d.capital_label ], [ "Lead or co-invest", d.role_label ], [ "Regulated sectors", d.regulated ], [ "Founder after close", d.owner_after_close ], [ "Timeline", d.timing ], [ "Funding status", d.funding ], [ "Exclusions", d.exclusions ], [ "Sector updates", yn(d.updates) ], [ "Criteria sheet shown publicly", yn(d.public) ]);
   co("buyer_type", d.kind);
   co("domain", host(d.website));
   co("cr_acquisition_approach", d.acquisition_context);
@@ -3100,6 +3103,9 @@ function hsFields(kind, d) {
   co("cr_profitability", d.profitability);
   co("cr_revenue_model", d.revenue_model);
   co("cr_recurring_pref", d.recurring_pref);
+  co("target_revenue_growth_min", d.growth);
+  co("target_capital_raised_max", d.capital);
+  co("investment_role", d.role);
   co("cr_regulated_appetite", d.regulated);
   co("cr_owner_after_close", d.owner_after_close);
   co("cr_timing", d.timing);
@@ -3287,6 +3293,7 @@ function hsSubmit(kind, d, ok, fail) {
   consent: b.legalConsentOptions || null,
   also: also
  };
+ if (d.sheet) body.sheet = d.sheet;
  function direct() {
   var guid = kind === "Owner session seat" ? "2252081f-64ac-4259-925b-0bd99f4fb517" : "8e02c346-11f0-4b2d-a17c-a596397264ee";
   var url = "https://api.hsforms.com/submissions/v3/integration/submit/247329185/" + guid;
@@ -3327,12 +3334,22 @@ function hsSubmit(kind, d, ok, fail) {
   credentials: "same-origin"
  }).then((function(r) {
   return r.json().then((function(j) {
-   return r.ok && j && j.saved === true;
+   return r.ok && j && j.saved === true ? j : null;
   }), (function() {
-   return false;
+   return null;
   }));
  })).then((function(saved) {
-  if (saved) ok(false); else direct();
+  if (saved) {
+   try {
+    document.dispatchEvent(new CustomEvent("cr:saved", {
+     detail: {
+      kind: kind,
+      res: saved
+     }
+    }));
+   } catch (e) {}
+   ok(false);
+  } else direct();
  }), (function() {
   direct();
  }));
@@ -3463,15 +3480,79 @@ function hsSubmit(kind, d, ok, fail) {
    profitability: v("bb_profit"),
    revenue_model: crSecs("bb_revmodel"),
    recurring_pref: v("bb_recur"),
+   growth: v("bb_growth"),
+   growth_label: lab("bb_growth"),
+   capital: v("bb_capital"),
+   capital_label: lab("bb_capital"),
+   role: v("bb_role"),
+   role_label: lab("bb_role"),
    regulated: v("bb_reg"),
    owner_after_close: v("bb_owner"),
    timing: v("bb_timing"),
    funding: v("bb_funding"),
    exclusions: v("bb_excl"),
    message: v("bb_msg"),
-   updates: $("bb_updates") && $("bb_updates").checked ? "yes" : "no"
+   updates: $("bb_updates") && $("bb_updates").checked ? "yes" : "no",
+   public: $("bb_public") && $("bb_public").checked ? "yes" : "no"
   };
  };
+ function lab(i) {
+  var e = $(i);
+  return e && e.value && e.selectedIndex >= 0 ? (e.options[e.selectedIndex].textContent || "").trim() : "";
+ }
+ window.bbSheet = function(d) {
+  var seen = {}, secs = [];
+  [ d.vertical, d.firm_sectors ].join("; ").split(/\s*;\s*/).forEach((function(x) {
+   if (x && !seen[x]) {
+    seen[x] = 1;
+    secs.push(x);
+   }
+  }));
+  return {
+   firm: d.company,
+   website: d.website,
+   kind: d.kind,
+   approach: d.acquisition_context,
+   platform: d.platform_name,
+   ownership: d.ownership,
+   role: d.role_label,
+   sectors: secs.join("; "),
+   company_types: d.business_model,
+   geography: d.geography,
+   geography_detail: d.geography_detail,
+   customers: d.customer_markets,
+   rev_min: d.rev_min,
+   rev_max: d.rev_max,
+   arr_min: d.arr_min,
+   arr_max: d.arr_max,
+   ebitda_min: d.ebitda_min,
+   ebitda_max: d.ebitda_max,
+   ev_min: d.ev_min,
+   ev_max: d.ev_max,
+   eq_min: d.eq_min,
+   eq_max: d.eq_max,
+   profitability: d.profitability,
+   revenue_model: d.revenue_model,
+   recurring: d.recurring_pref,
+   growth: d.growth_label,
+   capital: d.capital_label,
+   regulated: d.regulated,
+   founder: d.owner_after_close,
+   timing: d.timing,
+   funding: d.funding,
+   exclusions: d.exclusions,
+   public: d.public === "yes"
+  };
+ };
+ document.addEventListener("cr:saved", (function(e) {
+  var x = e.detail || {}, w = $("bbsheet"), a = $("bbsheeta");
+  if (x.kind !== "Buy box" || !w || !a) return;
+  var c = x.res && x.res.criteria;
+  if (c && /^\/criteria\/[a-z0-9]+\/$/.test(c.path || "")) {
+   a.href = c.path;
+   w.hidden = false;
+  } else w.hidden = true;
+ }));
  (function() {
   var f = $("bbf"), msg = $("bbmsg");
   if (!f || !msg) return;
@@ -3503,7 +3584,9 @@ function hsSubmit(kind, d, ok, fail) {
   }));
  })();
  wire("bbf", "bbmsg", "bbdone", "Buy box", (function() {
-  return window.bbRead();
+  var d = window.bbRead();
+  d.sheet = window.bbSheet(d);
+  return d;
  }), CRM("bb.ok"));
  wire("stf", "stmsg", "stdone", "Owner session seat", (function() {
   return {
@@ -4836,6 +4919,14 @@ window.crSecs = function(id) {
  var f = document.getElementById("bbf");
  if (!f) return;
  function plat() {
+  var rw = document.getElementById("bb_rolew"), mi = document.querySelector('#bb_own input[value="Minority"]');
+  if (rw) {
+   rw.hidden = !(mi && mi.checked);
+   if (rw.hidden) {
+    var rs = document.getElementById("bb_role");
+    if (rs) rs.selectedIndex = 0;
+   }
+  }
   var pw = document.getElementById("bb_platw");
   if (pw) {
    var add = document.querySelector('#bb_context input[value="An add-on to an existing platform"]');
@@ -4852,7 +4943,7 @@ window.crSecs = function(id) {
  function summary() {
   var box = document.getElementById("bbsum"), ul = document.getElementById("bbsuml");
   if (!box || !ul || typeof window.bbRead !== "function") return;
-  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ] ].map((function(r) {
+  var d = window.bbRead(), rows = [ [ "bb.sum.buyer_type", d.kind ], [ "bb.sum.approach", d.acquisition_context ], [ "bb.sum.ownership", d.ownership ], [ "bb.sum.role", d.role_label ], [ "bb.sum.sectors_personal", d.vertical ], [ "bb.sum.sectors_firm", d.firm_sectors ], [ "bb.sum.company_types", d.business_model ], [ "bb.sum.headquarters", [ d.geography, d.geography_detail ].filter(Boolean).join(": ") ], [ "bb.sum.customer_markets", d.customer_markets ], [ "bb.sum.revenue", rg(d.rev_min, d.rev_max) ], [ "bb.sum.arr", rg(d.arr_min, d.arr_max) ], [ "bb.sum.ebitda", rg(d.ebitda_min, d.ebitda_max) ], [ "bb.sum.ev", rg(d.ev_min, d.ev_max) ], [ "bb.sum.equity", rg(d.eq_min, d.eq_max) ], [ "bb.sum.profitability", d.profitability ], [ "bb.sum.revenue_model", d.revenue_model ], [ "bb.sum.recurring", d.recurring_pref ], [ "bb.sum.growth", d.growth_label ], [ "bb.sum.capital", d.capital_label ], [ "bb.sum.regulated", d.regulated ], [ "bb.sum.founder", d.owner_after_close ], [ "bb.sum.timeline", d.timing ], [ "bb.sum.funding", d.funding ], [ "bb.sum.exclusions", d.exclusions ], [ "bb.sum.public", d.public === "yes" ? CRM("bb.yes") : "" ] ].map((function(r) {
    return [ CRM(r[0]), r[1] ];
   })).filter((function(r) {
    return r[1];

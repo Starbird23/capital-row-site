@@ -1976,6 +1976,76 @@
     "Services",
     "Services"
    ]
+  ],
+  "bb_role": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "lead_only",
+    "Lead only"
+   ],
+   [
+    "co_invest",
+    "Co-invest"
+   ],
+   [
+    "either",
+    "Either"
+   ]
+  ],
+  "bb_growth": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "no_minimum",
+    "No minimum"
+   ],
+   [
+    "10_plus",
+    "10% or more"
+   ],
+   [
+    "25_plus",
+    "25% or more"
+   ],
+   [
+    "50_plus",
+    "50% or more"
+   ],
+   [
+    "100_plus",
+    "100% or more"
+   ]
+  ],
+  "bb_capital": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "no_preference",
+    "No preference"
+   ],
+   [
+    "bootstrapped_only",
+    "Bootstrapped only"
+   ],
+   [
+    "under_2m",
+    "Under $2M"
+   ],
+   [
+    "under_5m",
+    "Under $5M"
+   ],
+   [
+    "under_10m",
+    "Under $10M"
+   ]
   ]
  },
  "text": {
@@ -2123,6 +2193,54 @@
   "help.pqqoeby": "The firm, or the kind of firm",
   "help.bdqoeby": "Year, and the firm or the kind of firm",
   "form.err_lead": "Choose which brings in more revenue.",
-  "cc.err_arr": "Select your annual recurring revenue."
+  "cc.err_arr": "Select your annual recurring revenue.",
+  "bb.sum.role": "Lead or co-invest",
+  "bb.sum.growth": "Revenue growth",
+  "bb.sum.capital": "Outside capital raised",
+  "bb.sum.public": "Shown publicly",
+  "sheet.label": "Acquisition criteria",
+  "sheet.title": "acquisition criteria",
+  "sheet.sectors": "Sectors",
+  "sheet.company_types": "Company types",
+  "sheet.regulated": "Regulated sectors",
+  "sheet.size": "Size",
+  "sheet.revenue": "Annual revenue",
+  "sheet.arr": "ARR",
+  "sheet.ebitda": "Adjusted EBITDA",
+  "sheet.check": "Check size",
+  "sheet.equity": "Equity per deal",
+  "sheet.ev": "Enterprise value",
+  "sheet.structure": "Structure",
+  "sheet.ownership": "Ownership",
+  "sheet.approach": "Approach",
+  "sheet.platform": "Platform",
+  "sheet.role": "Lead or co-invest",
+  "sheet.founder": "Founder after close",
+  "sheet.operating": "Operating profile",
+  "sheet.profitability": "Profitability",
+  "sheet.recurring": "Recurring revenue",
+  "sheet.revenue_model": "Revenue model",
+  "sheet.growth": "Revenue growth",
+  "sheet.capital": "Outside capital raised",
+  "sheet.geo_timing": "Geography and timing",
+  "sheet.headquarters": "Headquarters",
+  "sheet.customers": "Customer markets",
+  "sheet.timeline": "Timeline",
+  "sheet.funding": "Funding",
+  "sheet.exclusions": "Exclusions",
+  "sheet.to": "to",
+  "sheet.or_more": "or more",
+  "sheet.up_to": "Up to",
+  "sheet.any": "Any",
+  "sheet.updated": "Updated",
+  "sheet.prepared": "Prepared with Capital Row",
+  "sheet.save_pdf": "Save as PDF",
+  "sheet.copy": "Copy link",
+  "sheet.copied": "Link copied",
+  "sheet.update": "Update these criteria",
+  "sheet.private": "Private page. Only people with this link can see it.",
+  "sheet.public": "Public page. Search engines can list it.",
+  "sheet.firm_fallback": "Buyer",
+  "bb.yes": "Yes"
  }
 }

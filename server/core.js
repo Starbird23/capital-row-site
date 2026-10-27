@@ -33,7 +33,8 @@ export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'inter', '
 const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
   cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],
   cr_profitability: ['bb_profit'], cr_recurring_pref: ['bb_recur'], cr_regulated_appetite: ['bb_reg'], cr_owner_after_close: ['bb_owner'], cr_timing: ['bb_timing'], cr_funding_status: ['bb_funding'],
-  cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'], cr_headquarters_region: ['ccgeo'] };
+  cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'], cr_headquarters_region: ['ccgeo'],
+  target_revenue_growth_min: ['bb_growth'], target_capital_raised_max: ['bb_capital'], investment_role: ['bb_role'] };
 const MULTI = { cr_target_geography: ['bb_geo'], cr_lending_geography: ['ln_geo'], cr_customer_markets: ['bb_cust'], cr_ownership: ['bb_own'], cr_acquisition_approach: ['bb_context'],
   cr_target_company_types: ['bb_model'], cr_revenue_model: ['bb_revmodel'] };
 const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals'], INDUSTRIES = ['cr_industry', 'target_end_markets'];
@@ -41,7 +42,7 @@ const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals'], INDUSTR
 const COMPANY = new Set(['name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name',
   'cr_ownership', 'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref',
   'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
-  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags']);
+  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'target_revenue_growth_min', 'target_capital_raised_max', 'investment_role']);
 export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const objOf = (n) => (COMPANY.has(n) ? '0-2' : '0-1');
