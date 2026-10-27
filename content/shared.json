@@ -401,6 +401,16 @@
     "key": "sh.footer.19",
     "kind": "Paragraph",
     "text": "© 2026 Capital Row. All rights reserved."
+   },
+   {
+    "key": "sh.footer.20",
+    "kind": "Paragraph",
+    "text": "<a href=\"tel:+19496821223\">(949) 682-1223</a> · <a href=\"mailto:team@thecapitalrow.com\">team@thecapitalrow.com</a>"
+   },
+   {
+    "key": "sh.footer.21",
+    "kind": "Paragraph",
+    "text": "Prefer to call or write? <a href=\"tel:+19496821223\">(949) 682-1223</a> · <a href=\"mailto:team@thecapitalrow.com\">team@thecapitalrow.com</a>"
    }
   ]
  },
