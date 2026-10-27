@@ -9,6 +9,7 @@ company buyer_type
 company company_type
 company custom_industry
 company domain
+company end_markets_served
 company equity_check_max
 company equity_check_min
 company founder_after_close

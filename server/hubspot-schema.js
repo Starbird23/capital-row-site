@@ -1,4 +1,4 @@
-// HubSpot's own definitions of every property the website sends, read from portal 247329185 on October 27, 2026.
+// HubSpot's own definitions of every property the website sends, read from portal 247329185 on October 27, 2026 (End markets served added 4:10 pm).
 // HubSpot accepts a website submission but silently discards any answer whose property is missing, is not a field on the
 // HubSpot form, or carries a value HubSpot does not list. So the server sends only these names, on these records, with these
 // values; anything else stays in the message. When a property changes in HubSpot, re-read it and update this file (the test
@@ -50,6 +50,7 @@ export const HS_SCHEMA = {
   "company_type": {"t": "enum", "o": ["Buyer", "Seller or target"]},
   "custom_industry": {"t": "enum", "o": ["Healthcare", "Software, Data & IT", "Life Sciences", "Financial Services & Insurance", "Business & Professional Services", "Industrial Manufacturing & Automation", "Construction & Building Services", "Transportation & Logistics", "Energy & Utilities", "Environmental & Circular-Economy Services", "Materials, Chemicals & Packaging", "Food, Beverage & Agriculture", "Consumer Products & Personal Services", "Retail, E-commerce & General Distribution", "Real Estate & Property Services", "Hospitality, Travel & Leisure", "Education & Workforce Development", "Media, Marketing & Communications", "Telecom & Digital Infrastructure", "Aerospace, Defense & Government Services", "Animal Health & Pet Care", "Public Sector, Associations & Nonprofits", "Diversified & Unclassified"]},
   "domain": {"t": "text"},
+  "end_markets_served": {"t": "enum", "multi": true, "o": ["Healthcare", "Financial services", "Construction, real estate and field services", "Government", "Transportation and logistics", "Manufacturing", "Hospitality", "Retail and automotive", "Legal and professional services", "Technology services", "Fitness, beauty and wellness", "Nonprofit and associations"]},
   "equity_check_max": {"t": "number"},
   "equity_check_min": {"t": "number"},
   "founder_after_close": {"t": "enum", "o": ["Stays and rolls equity", "Transitions out over time", "Either"]},

@@ -45,6 +45,7 @@ for (const [kind, label, d] of C) {
   if (kind === 'Conversation' && label === 'seller') {
     if (v('offering_type', '0-2') !== 'Software') bad('offering_type ' + v('offering_type', '0-2'));
     if (v('revenue_band', '0-2') !== '$5M-$10M' || v('arr_band', '0-2') !== '$3M–$5M') bad('bands');
+    if (v('end_markets_served', '0-2') !== 'Healthcare') bad('end markets served');
     if (v('company_type', '0-2') !== 'Seller or target' || v('custom_industry', '0-2') !== 'Healthcare' || v('industry_segment', '0-2') !== 'Healthcare IT (HCIT)') bad('seller classification');
     if (v('industry__subsector', '0-2')) bad('subsector set although the two sectors disagree');
     if (v('website_industries') !== 'Healthcare' || v('reason_for_contact') !== 'Weighing an offer or an approach' || v('heard_via') !== 'A referral') bad('contact answers');

@@ -95,6 +95,7 @@ export function cleanFields(kind, fields, cfg) {
   const isSeller = SELLER_KINDS.has(kind) && (type === 'seller' || (kind === 'Capital Connections' && !type));
   if (isSeller) {
     set('0-2', 'company_type', 'Seller or target');
+    set('0-2', 'end_markets_served', val('0-1', 'website_industries'));   // the website's 12, the same list as a buyer's Target end markets
     if (secs.length) {   // only when every sector the owner chose agrees; otherwise left for a person (the sectors are on the contact)
       set('0-2', 'industry__subsector', one(secs.map((x) => SECTOR_MAP[x].sub)));
       set('0-2', 'industry_segment', one(secs.map((x) => SECTOR_MAP[x].seg)));

@@ -90,7 +90,7 @@ async def main():
         ck('delivered once to HubSpot, not twice', len(main) == 1 and main[0][0]['answer'] == 200, len(main))
         mf = main[0][1] if main else {}
         ck('with properties in place, HubSpot values arrive', mf.get('cr_contact_type') == 'seller' and mf.get('offering_type') == 'Hybrid' and mf.get('arr_band') == 'Under $1M' and mf.get('revenue_band') == '$1M-$3M' and mf.get('reason_for_contact') == 'Preparing for a sale' and mf.get('website_industries') == 'Financial services'
-           and mf.get('website_sectors', '').startswith('fin_') and mf.get('cr_sms_consent') == 'false' and mf.get('company_type') == 'Seller or target' and mf.get('custom_industry') == 'Financial Services & Insurance' and mf.get('brand') == 'Capital Row'
+           and mf.get('website_sectors', '').startswith('fin_') and mf.get('cr_sms_consent') == 'false' and mf.get('company_type') == 'Seller or target' and mf.get('custom_industry') == 'Financial Services & Insurance' and mf.get('end_markets_served') == 'Financial services' and mf.get('brand') == 'Capital Row'
            and 'cr_owner_session' not in mf and 'Owner session seat, January 20: Yes' in mf.get('message', ''), mf)
         ck('the owner session seat goes to the seat form as its own submission', len(seat) == 1 and seat[0][1].get('email') == 'test.owner+'+RUN+'@example.com' and seat[0][1].get('cr_form') == 'Owner session seat' and seat[0][1].get('cr_contact_type') == 'seller', [s[1] for s in seat])
         await ctx.close()
