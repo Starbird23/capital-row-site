@@ -1501,27 +1501,6 @@
    "cls": "",
    "tags": [],
    "section": "team"
-  },
-  "team.21": {
-   "kind": "Heading",
-   "tag": "h3",
-   "cls": "",
-   "tags": [],
-   "section": "team"
-  },
-  "team.22": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "tmt",
-   "tags": [],
-   "section": "team"
-  },
-  "team.23": {
-   "kind": "Paragraph",
-   "tag": "p",
-   "cls": "",
-   "tags": [],
-   "section": "team"
   }
  }
 }
