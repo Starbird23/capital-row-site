@@ -103,7 +103,19 @@
    "sectors": [
     {
      "id": "built_field_service_management_software",
-     "label": "Field service management"
+     "label": "HVAC, plumbing & electrical"
+    },
+    {
+     "id": "built_pest_control_and_lawn_care_software",
+     "label": "Pest control & lawn care"
+    },
+    {
+     "id": "built_roofing_and_restoration_software",
+     "label": "Roofing & restoration"
+    },
+    {
+     "id": "built_fire_life_safety_and_inspection_software",
+     "label": "Fire, life safety & inspection"
     },
     {
      "id": "built_construction_and_contractor_software",

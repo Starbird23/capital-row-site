@@ -1,11 +1,11 @@
 {
  "path": "/sectors/",
- "seoTitle": "63 vertical software sectors | Capital Row",
- "seoDescription": "Twelve industries and 63 vertical software sectors, with eight desks open in healthcare, transportation and field service. See which are active.",
+ "seoTitle": "66 vertical software sectors | Capital Row",
+ "seoDescription": "Twelve industries and 66 vertical software sectors, with nine desks open in healthcare, transportation and field service. See which are active.",
  "sections": [
   {
    "id": "inner",
-   "name": "Twelve industries. Sixty-three sectors. Eight desks open.",
+   "name": "Twelve industries. Sixty-six sectors. Nine desks open.",
    "items": [
     {
      "key": "inner.1",
@@ -20,12 +20,12 @@
     {
      "key": "inner.3",
      "kind": "Text",
-     "text": "8 desks open"
+     "text": "9 desks open"
     },
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "Twelve industries. Sixty-three sectors. <em>Eight desks open.</em>"
+     "text": "Twelve industries. Sixty-six sectors. <em>Nine desks open.</em>"
     },
     {
      "key": "inner.5",
@@ -76,7 +76,7 @@
     {
      "key": "band.4",
      "kind": "Text",
-     "text": "14 sectors<br>5 desks open"
+     "text": "14 sectors<br>6 desks open"
     },
     {
      "key": "band.5",
@@ -186,7 +186,7 @@
     {
      "key": "band.26",
      "kind": "Text",
-     "text": "Planned"
+     "text": "Active"
     },
     {
      "key": "band.27",
@@ -316,7 +316,7 @@
     {
      "key": "band.52",
      "kind": "Text",
-     "text": "5 sectors<br>1 desk open"
+     "text": "8 sectors<br>1 desk open"
     },
     {
      "key": "band.53",
@@ -346,7 +346,7 @@
     {
      "key": "band.58",
      "kind": "Text",
-     "text": "Field service management"
+     "text": "HVAC, plumbing & electrical"
     },
     {
      "key": "band.59",
@@ -356,7 +356,7 @@
     {
      "key": "band.60",
      "kind": "Paragraph",
-     "text": "Scheduling, dispatch, work orders, invoicing and payments for essential service businesses"
+     "text": "Scheduling, dispatch, quoting, invoicing and service agreements for HVAC, plumbing and electrical contractors"
     },
     {
      "key": "band.61",
@@ -1452,6 +1452,51 @@
      "key": "band.279",
      "kind": "Text",
      "text": "Listed under Transportation & logistics, where routing and fleet software sit."
+    },
+    {
+     "key": "band.280",
+     "kind": "Text",
+     "text": "Pest control & lawn care"
+    },
+    {
+     "key": "band.281",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.282",
+     "kind": "Paragraph",
+     "text": "Route scheduling, recurring service plans, chemical application records and billing for pest control and lawn care companies"
+    },
+    {
+     "key": "band.283",
+     "kind": "Text",
+     "text": "Roofing & restoration"
+    },
+    {
+     "key": "band.284",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.285",
+     "kind": "Paragraph",
+     "text": "Estimating, measurement, insurance claim paperwork and job tracking for roofing and restoration contractors"
+    },
+    {
+     "key": "band.286",
+     "kind": "Text",
+     "text": "Fire, life safety & inspection"
+    },
+    {
+     "key": "band.287",
+     "kind": "Text",
+     "text": "Planned"
+    },
+    {
+     "key": "band.288",
+     "kind": "Paragraph",
+     "text": "Inspection scheduling, deficiency reports and code compliance records for fire protection, alarm and life safety contractors"
     }
    ]
   },
