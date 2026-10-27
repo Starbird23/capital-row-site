@@ -186,7 +186,7 @@ async def main():
         bx = sent_bodies('Buy box'); bf = bx[-1][1] if bx else {}
         ck('buy box typed values', bf.get('cr_rev_min') == '5000000' and 'cr_rev_max' not in bf and bf.get('cr_arr_min') == '3000000' and bf.get('cr_target_range_flags') == 'Annual revenue: no maximum'
            and bf.get('cr_target_geography') == 'United States;Canada' and bf.get('cr_target_company_types') == 'Software + services' and bf.get('cr_sector', '').count(';') == 1 and bf.get('cr_criteria_retention_consent') == 'true'
-           and bf.get('buyer_type') == 'Family office' and bf.get('name') == 'Test Box Holdings' and bf.get('domain') == 'testbox.com' and bf.get('target_verticals', '').count(';') == 1 and bf.get('target_end_markets') == 'hc', bf)
+           and bf.get('buyer_type') == 'Family office' and bf.get('name') == 'Test Box Holdings' and bf.get('domain') == 'testbox.com' and bf.get('target_verticals', '').count(';') == 1 and bf.get('target_end_markets') == 'Healthcare', bf)
         ck('company-record fields travel as company fields', all(x.get('objectTypeId') == '0-2' for x in bx[-1][0]['body']['fields'] if x['name'] in ('name', 'domain', 'buyer_type', 'target_verticals', 'cr_rev_min')) if bx else False)
         await ctx.close()
         ctx, pg = await page('index.html')

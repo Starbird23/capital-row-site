@@ -49,7 +49,10 @@ export async function onRequestPost({ request, env, waitUntil }) {
       if (criteria.status === 'pending') {
         f0.push({ objectTypeId: '0-1', name: 'cr_criteria_confirm_url', value: criteria.confirmUrl });
         line('Criteria sheet: ' + criteria.url + '\nThese answers came from a browser that did not make the sheet, so the sheet has not changed. It updates when the buyer opens this link from the confirmation email and presses Confirm: ' + criteria.confirmUrl);
-      } else line('Criteria sheet: ' + criteria.url);
+      } else {
+        f0.push({ objectTypeId: '0-1', name: 'cr_criteria_confirm_url', value: 'No change waiting' });   // the email workflow branches on this
+        line('Criteria sheet: ' + criteria.url);
+      }
     }
   }
   const sheet = !criteria ? undefined : criteria.status === 'pending' ? { pending: true } : { path: criteria.path };

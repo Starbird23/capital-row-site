@@ -43,6 +43,11 @@ const COMPANY = new Set(['name', 'domain', 'offering_type', 'revenue_band', 'arr
   'cr_ownership', 'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref',
   'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
   'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'target_revenue_growth_min', 'target_capital_raised_max', 'investment_role']);
+// HubSpot's Target end markets property stores industry names, not the site's ids. fbw and npo need options added in HubSpot
+// ("Fitness, beauty and wellness", "Nonprofit and associations"); until then HubSpot refuses the property and the rest is delivered.
+export const END_MARKETS = { hc: 'Healthcare', fin: 'Financial services', built: 'Construction, real estate and field services', gov: 'Government',
+  fleet: 'Transportation and logistics', mfg: 'Manufacturing', hosp: 'Hospitality', retail: 'Retail and automotive', prof: 'Legal and professional services',
+  tech: 'Technology services', fbw: 'Fitness, beauty and wellness', npo: 'Nonprofit and associations' };
 export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const objOf = (n) => (COMPANY.has(n) ? '0-2' : '0-1');
@@ -75,7 +80,9 @@ export function cleanFields(kind, fields, cfg) {
     if (!f || typeof f.name !== 'string' || typeof f.value !== 'string') { dropped.push('?'); continue; }
     const n = f.name, o = f.objectTypeId || '0-1';
     if (!ALLOWED.has(n) || o !== objOf(n) || seen.has(o + n) || !ok(n, f.value)) { dropped.push(n); continue; }
-    seen.add(o + n); out.push({ objectTypeId: o, name: n, value: f.value });
+    seen.add(o + n);
+    const value = n === 'target_end_markets' ? f.value.split(';').map((x) => END_MARKETS[x] || x).join(';') : f.value;
+    out.push({ objectTypeId: o, name: n, value });
   }
   if (!out.some((f) => f.name === 'brand')) out.push({ objectTypeId: '0-1', name: 'brand', value: 'Capital Row' });   // every thecapitalrow.com contact is tagged Capital Row
   const email = (out.find((f) => f.name === 'email') || {}).value || '';
