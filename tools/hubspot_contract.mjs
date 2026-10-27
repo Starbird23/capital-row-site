@@ -8,7 +8,7 @@ import { SECTOR_MAP } from '../server/sector-map.js';
 
 const page = fs.readFileSync(process.argv[2] || new URL('../layouts/home.html', import.meta.url), 'utf8');
 const a = page.indexOf('function hsFields(kind, d) {'), b = page.indexOf('function hsBody(', a);
-const ctx = { CRM: () => '', crSecIds: () => 'hc_dental_practice_software;built_roofing_and_restoration_software', console };
+const ctx = { CRM: () => '', crSecIds: () => 'hc_dental_practice_software;built_roofing_and_restoration_software;other', console };   // the follow picker offers Other
 vm.createContext(ctx); vm.runInContext(page.slice(a, b), ctx);
 const card = fs.readFileSync(new URL('../assets/shawnee/card.js', import.meta.url), 'utf8');
 

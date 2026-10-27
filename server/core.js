@@ -47,6 +47,8 @@ const MESSAGE_ONLY = new Set(['cr_details', 'cr_client_type', 'cr_lending_geogra
 // Contact properties first created with a cr_ prefix on October 27 and recreated without it the same day (Shawnee: "we started
 // without it"). A page built before the change may still send an old name.
 const RENAMED = { cr_heard_via: 'heard_via', cr_heard_via_detail: 'heard_via_detail', cr_reason: 'reason_for_contact', cr_kind: 'advisor_or_lender_type', cr_sector: 'website_sectors', cr_industry: 'website_industries', cr_sector_followed: 'sectors_followed', cr_criteria_retention_consent: 'criteria_on_file_consent', cr_recontact_consent: 'deal_report_contact_consent', cr_research_use_consent: 'deal_report_research_consent' };
+// "Other" in a sector picker is not a sector a buyer targets or a reader follows: left out of these two without counting as a gap
+const QUIET_OTHER = new Set(['target_sectors', 'sectors_followed']);
 const SELLER_KINDS = new Set(['Conversation', 'Pre-Market Assessment request', 'Valuation calculator', 'Capital Connections']);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 const LIMIT = (n) => (n === 'message' ? 20000 : n === 'cr_buyer_map_research' ? 4000 : 1000);
@@ -78,9 +80,9 @@ export function cleanFields(kind, fields, cfg) {
     if (n === 'website_industries' || n === 'target_end_markets') v = v.split(';').map((x) => END_MARKETS[x.trim()] || x.trim()).join(';');
     if (!propOf(o, n)) { dropped.push(n); continue; }
     const w = fit(o, n, v);
-    if (!w) { if (v.trim() && !(n === 'target_sectors' && v.split(';').every((x) => x.trim() === 'other'))) dropped.push(n); continue; }
-    if (propOf(o, n).multi) {   // some of several values did not fit ("other" is not a target sector, so it is left out quietly)
-      const sent = v.split(';').map((x) => x.trim()).filter((x) => x && !(n === 'target_sectors' && x === 'other'));
+    if (!w) { if (v.trim() && !(QUIET_OTHER.has(n) && v.split(';').every((x) => x.trim() === 'other'))) dropped.push(n); continue; }
+    if (propOf(o, n).multi) {   // some of several values did not fit
+      const sent = v.split(';').map((x) => x.trim()).filter((x) => x && !(QUIET_OTHER.has(n) && x === 'other'));
       if (w.split(';').length < sent.length) dropped.push(n + ' (part)');
     }
     if (!got[o + n]) got[o + n] = { objectTypeId: o, name: n, value: w };
