@@ -79,9 +79,10 @@
     // HubSpot's Card channel values (read October 18, 2026): wallet, nfc, qr-print, qr-screen, share, vcard, direct, other
     var F = [], add = function (n, val, o) { if (val !== '' && val != null) F.push({ objectTypeId: o || '0-1', name: n, value: String(val) }); };
     add('firstname', d.fn); add('lastname', d.ln); add('email', d.em); add('company', d.co); add('name', d.co, '0-2');
-    if (d.role !== 'other') add('cr_contact_type', d.role);              // "Something else" sends nothing
+    if (d.role !== 'other') add('cr_contact_type', d.role === 'inter' ? 'intermediary' : d.role);              // "Something else" sends nothing
     add('cr_card_owner', 'shawnee-mercier'); add('cr_card_channel', SRC); add('cr_card_event', EVENT);
     add('cr_marketing_consent', d.upd ? 'true' : 'false');
+    add('brand', 'Capital Row');                                           // every thecapitalrow.com contact is tagged Capital Row
     // every answer is also written into the message, so nothing is lost when HubSpot drops a field
     var lines = ['Card exchange on thecapitalrow.com/shawnee', 'Card owner: Shawnee Mercier', 'Channel: ' + CHANNELS[SRC] + ' (' + SRC + ')',
       'Event from the link: ' + (EVENT || 'none'), 'Which side of the table: ' + roleText, 'Company: ' + d.co];

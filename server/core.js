@@ -1,11 +1,14 @@
 // Capital Row form delivery: every website form posts here (Cloudflare Pages Functions, /api/submit).
-// 1. The submission is checked (shape, required answers, allowed choices from the forms config built from Sanity).
+// 1. The submission is checked against HubSpot's own field names and values (server/hubspot-schema.js). An answer HubSpot
+//    would discard is not sent; it stays in the message and its name is recorded as dropped (see /api/status).
 // 2. It is saved in D1 (binding DB) under the key the page sends; the same key twice is the same submission, never two.
 // 3. Only then does the page hear "saved", and only then does it show "received".
-// 4. Delivery to HubSpot runs after the answer, and again from /api/retry until HubSpot accepts it; a property HubSpot
-//    does not have yet is dropped and the rest is sent (the answers are in the message as well). After the last attempt,
+// 4. Delivery to HubSpot runs after the answer, and again from /api/retry until HubSpot accepts it. After the last attempt,
 //    or on a refusal that a retry cannot fix, an alert goes out (email through Resend, and/or a webhook).
 // Without a DB binding the server sends to HubSpot straight away and answers "saved" only when HubSpot has accepted it.
+
+import { HS_SCHEMA } from './hubspot-schema.js';
+import { SECTOR_MAP } from './sector-map.js';
 
 export const HS_PORTAL = '247329185';
 export const HS_FORMS = { 'Conversation': '8e02c346-11f0-4b2d-a17c-a596397264ee', 'Owner session seat': '2252081f-64ac-4259-925b-0bd99f4fb517', 'Contact exchange': '065ddb74-fd13-4f6a-9442-baf9b73406fc' };
@@ -19,89 +22,94 @@ const isGuid = (x) => /^[0-9a-fA-F-]{30,40}$/.test(x || '');
 export function formFor(kind, env) { const e = env[ENV_FORM[kind]]; return isGuid(e) ? e : (HS_FORMS[kind] || HS_FORMS['Conversation']); }
 
 // ---------------------------------------------------------------- validation
-// Every property the site sends, by record. A value that does not check out is dropped from that property (the answer is
-// still in "message"); only a submission without a usable email address is refused. A lead is never lost to a check.
-const STD = ['email', 'firstname', 'lastname', 'phone', 'mobilephone', 'company', 'name', 'jobtitle', 'website', 'domain', 'message'];
-const NUM = ['target_revenue_min', 'target_revenue_max', 'target_arr_min', 'target_arr_max', 'target_adjusted_earnings_min', 'target_adjusted_earnings_max', 'min_target_ev', 'max_target_ev', 'equity_check_min', 'equity_check_max',
-  'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max', 'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_loan_min', 'cr_loan_max', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm'];
-const BOOL = ['cr_owner_session', 'cr_sms_consent', 'cr_marketing_consent', 'cr_criteria_retention_consent', 'cr_research_use_consent', 'cr_recontact_consent', 'cr_buyer_map_ready'];
-const TEXTP = ['platform_name', 'buyer_exclusions', 'cr_form', 'cr_card_owner', 'cr_card_event', 'cr_details', 'cr_heard_via_detail', 'cr_target_geography_detail', 'cr_platform_name', 'cr_exclusions', 'cr_range_flags', 'cr_target_range_flags', 'cr_buyer_map_research'];
-// HubSpot's own values for the fields that already exist in the portal
-export const FIXED = { cr_contact_type: ['seller', 'buyer', 'lender', 'inter', 'referral_partner', 'vendor', 'team'],
-  offering_type: ['Pure software / SaaS', 'Software-led hybrid', 'Services-led hybrid', 'Pure services', 'Unknown'],
-  cr_card_channel: ['wallet', 'nfc', 'qr-print', 'qr-screen', 'share', 'vcard', 'direct', 'other'],
-  acquisition_strategy: ['Platform Acquisition', 'Add-on / Bolt-on', 'Both'],
-  buyer_ownership_appetite: ['Control', 'Majority', 'Significant Minority', 'Minority', 'Flexible'] };
-// the same, for properties that hold several values joined by ";"
-export const FIXED_MULTI = { target_business_models: ['Software', 'Hybrid', 'Services', 'Product or distribution'] };
-// property -> the lists (ids in the forms config) whose stable values it may carry; multi = several, joined by ";"
-const ONE = { buyer_type: ['kind.Buyer', 'bb_kind'], cr_kind: ['kind.Advisor', 'kind.Lender', 'strole'], revenue_band: ['revband'], arr_band: ['arrband'],
-  cr_heard_via: ['how', 'vchow'], cr_reason: ['sl_reason', 'ad_purpose', 'ln_purpose'], cr_client_type: ['ad_client'], cr_cash_flow_appetite: ['ln_cash'],
-  cr_profitability: ['bb_profit'], cr_recurring_pref: ['bb_recur'], cr_regulated_appetite: ['bb_reg'], cr_owner_after_close: ['bb_owner'], cr_timing: ['bb_timing'], cr_funding_status: ['bb_funding'],
-  cr_main_reason: ['bdwhy1'], cr_stage: ['ccstage'], cr_headquarters_region: ['ccgeo'],
-  target_revenue_growth_min: ['bb_growth'], target_capital_raised_max: ['bb_capital'], investment_role: ['bb_role'],
-  target_profitability: ['bb_profit'], recurring_revenue_preference: ['bb_recur'], regulated_sectors_appetite: ['bb_reg'], founder_after_close: ['bb_owner'],
-  acquisition_timeline: ['bb_timing'], funding_status_stated: ['bb_funding'] };
-const MULTI = { cr_target_geography: ['bb_geo'], cr_lending_geography: ['ln_geo'], cr_customer_markets: ['bb_cust'], cr_ownership: ['bb_own'], cr_acquisition_approach: ['bb_context'],
-  cr_target_company_types: ['bb_model'], cr_revenue_model: ['bb_revmodel'],
-  target_geography: ['bb_geo'], avoid_geography: ['bb_geo'], target_customer_markets: ['bb_cust'], target_revenue_models: ['bb_revmodel'] };
-const SECTORS = ['cr_sector', 'cr_sector_followed', 'target_verticals', 'target_sectors'], INDUSTRIES = ['cr_industry', 'target_end_markets'];
-// which record each property lives on: 0-1 contact, 0-2 company
-const COMPANY = new Set(['name', 'domain', 'offering_type', 'revenue_band', 'arr_band', 'buyer_type', 'target_verticals', 'target_end_markets', 'cr_acquisition_approach', 'cr_platform_name',
-  'cr_ownership', 'cr_target_company_types', 'cr_target_geography', 'cr_target_geography_detail', 'cr_customer_markets', 'cr_profitability', 'cr_revenue_model', 'cr_recurring_pref',
-  'cr_regulated_appetite', 'cr_owner_after_close', 'cr_timing', 'cr_funding_status', 'cr_exclusions', 'cr_rev_min', 'cr_rev_max', 'cr_arr_min', 'cr_arr_max', 'cr_ebitda_min', 'cr_ebitda_max',
-  'cr_ev_min', 'cr_ev_max', 'cr_equity_min', 'cr_equity_max', 'cr_target_range_flags', 'target_revenue_growth_min', 'target_capital_raised_max', 'investment_role',
-  'acquisition_strategy', 'platform_name', 'buyer_ownership_appetite', 'target_sectors', 'target_business_models', 'target_geography', 'avoid_geography', 'target_customer_markets',
-  'target_profitability', 'target_revenue_models', 'recurring_revenue_preference', 'regulated_sectors_appetite', 'founder_after_close', 'acquisition_timeline', 'funding_status_stated',
-  'buyer_exclusions', 'target_revenue_min', 'target_revenue_max', 'target_arr_min', 'target_arr_max', 'target_adjusted_earnings_min', 'target_adjusted_earnings_max',
-  'min_target_ev', 'max_target_ev', 'equity_check_min', 'equity_check_max']);
-// HubSpot's Target end markets property stores industry names, not the site's ids. fbw and npo need options added in HubSpot
-// ("Fitness, beauty and wellness", "Nonprofit and associations"); until then HubSpot refuses the property and the rest is delivered.
+// HubSpot is the one definition of every field (server/hubspot-schema.js). HubSpot accepts a submission even when an answer
+// does not fit, and then silently discards that answer, so the check happens here: a property HubSpot does not have, or a value
+// it does not list, is not sent. The answer is still in "message", and the name goes into "dropped" (shown by /api/status), so a
+// gap is visible instead of silent. Only a submission without a usable email address, or without a message, is refused.
+
+// The industry the software serves: the website's ids, HubSpot's values (Target end markets, Industries chosen on the website).
 export const END_MARKETS = { hc: 'Healthcare', fin: 'Financial services', built: 'Construction, real estate and field services', gov: 'Government',
   fleet: 'Transportation and logistics', mfg: 'Manufacturing', hosp: 'Hospitality', retail: 'Retail and automotive', prof: 'Legal and professional services',
   tech: 'Technology services', fbw: 'Fitness, beauty and wellness', npo: 'Nonprofit and associations' };
-export const ALLOWED = new Set([...STD, ...NUM, ...BOOL, ...TEXTP, ...Object.keys(FIXED), ...Object.keys(FIXED_MULTI), ...Object.keys(ONE), ...Object.keys(MULTI), ...SECTORS, ...INDUSTRIES]);
+// Values sent by pages built before October 27, 2026 (a visitor may still have one open), in HubSpot's terms. A value with no
+// HubSpot equivalent (for example the old "$10M to $25M" revenue band) maps to nothing and stays in the message.
+const LEGACY = {
+  cr_contact_type: { inter: 'intermediary' },
+  offering_type: { 'Pure software / SaaS': 'Software', 'Software-led hybrid': 'Hybrid', 'Services-led hybrid': 'Hybrid', 'Pure services': 'Services' },
+  revenue_band: { '$5M to $10M': '$5M-$10M' },
+  arr_band: { 'Under $1M': 'Under $1M', '$1M to $3M': '$1M–$3M', '$3M to $5M': '$3M–$5M', '$5M to $10M': '$5M–$10M' },
+};
+// Answers the website no longer sends as properties (they are in the message). Pages built before October 27 may still send
+// them; they are set aside without being counted as a gap.
+const MESSAGE_ONLY = new Set(['cr_details', 'cr_client_type', 'cr_lending_geography', 'cr_cash_flow_appetite', 'cr_loan_min', 'cr_loan_max', 'cr_range_flags',
+  'cr_main_reason', 'cr_revenue_ltm', 'cr_adjusted_earnings_ltm', 'cr_headquarters_region', 'cr_stage', 'cr_target_geography_detail', 'cr_target_range_flags',
+  'cr_owner_session']);
+// Contact properties first created with a cr_ prefix on October 27 and recreated without it the same day (Shawnee: "we started
+// without it"). A page built before the change may still send an old name.
+const RENAMED = { cr_heard_via: 'heard_via', cr_heard_via_detail: 'heard_via_detail', cr_reason: 'reason_for_contact', cr_kind: 'advisor_or_lender_type', cr_sector: 'website_sectors', cr_industry: 'website_industries', cr_sector_followed: 'sectors_followed', cr_criteria_retention_consent: 'criteria_on_file_consent', cr_recontact_consent: 'deal_report_contact_consent', cr_research_use_consent: 'deal_report_research_consent' };
+const SELLER_KINDS = new Set(['Conversation', 'Pre-Market Assessment request', 'Valuation calculator', 'Capital Connections']);
 const EMAIL = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-const objOf = (n) => (COMPANY.has(n) ? '0-2' : '0-1');
+const LIMIT = (n) => (n === 'message' ? 20000 : n === 'cr_buyer_map_research' ? 4000 : 1000);
+export const propOf = (o, n) => (HS_SCHEMA[o] || {})[n];
 
-// returns { fatal: [...], fields: [the fields that checked out], dropped: [names] }
+// checks one value against HubSpot's definition; returns the value to send, or '' when nothing fits
+function fit(o, n, v) {
+  const p = propOf(o, n); if (!p) return '';
+  v = String(v).trim(); if (!v) return '';
+  const L = LEGACY[n]; if (L && L[v] !== undefined) v = L[v];
+  if (p.t === 'text') return v.length <= LIMIT(n) ? v : '';
+  if (p.t === 'number') return /^-?\d{1,15}(\.\d+)?$/.test(v) ? v : '';
+  if (p.t === 'bool') return v === 'true' || v === 'false' ? v : '';
+  if (p.multi) { const ok = [...new Set(v.split(';').map((x) => x.trim()).filter((x) => p.o.includes(x)))]; return ok.join(';'); }
+  return p.o.includes(v) ? v : '';
+}
+const one = (vals) => { const u = [...new Set(vals.filter(Boolean))]; return u.length === 1 ? u[0] : ''; };
+const uniq = (vals) => [...new Set(vals.filter(Boolean))].join(';');
+
+// returns { fatal: [...], fields: [the fields HubSpot will keep], dropped: [names] }
 export function cleanFields(kind, fields, cfg) {
   if (!Array.isArray(fields) || !fields.length || fields.length > 160) return { fatal: ['fields'], fields: [], dropped: [] };
-  const out = [], dropped = [];
-  let vals = null, sids = null, iids = null;
-  if (cfg && cfg.lists) {
-    vals = (ids) => new Set(ids.flatMap((id) => (cfg.lists[id] || []).map((o) => o[0])).filter(Boolean));
-    sids = new Set(['other']); iids = new Set();
-    for (const i of cfg.tax || []) { iids.add(i.id); for (const s of i.sectors || []) sids.add(s.id); }
-  }
-  const ok = (n, v) => {
-    if (v.length > (n === 'message' ? 20000 : 4000)) return false;
-    if (NUM.includes(n)) return /^-?\d{1,15}$/.test(v);
-    if (BOOL.includes(n)) return v === 'true' || v === 'false';
-    if (FIXED[n]) return FIXED[n].includes(v);
-    if (FIXED_MULTI[n]) return v.split(';').every((x) => FIXED_MULTI[n].includes(x.trim()));
-    if (!vals) return true;
-    if (ONE[n]) return vals(ONE[n]).has(v);
-    if (MULTI[n]) { const s = vals(MULTI[n]); return v.split(';').map((x) => x.trim()).every((x) => s.has(x)); }
-    if (SECTORS.includes(n)) return v.split(';').every((x) => sids.has(x));
-    if (INDUSTRIES.includes(n)) return v.split(';').every((x) => iids.has(x));
-    if (n === 'domain') return /^[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(v);
-    return true;
-  };
-  const seen = new Set();
+  const got = {}, dropped = [];
   for (const f of fields) {
     if (!f || typeof f.name !== 'string' || typeof f.value !== 'string') { dropped.push('?'); continue; }
-    const n = f.name, o = f.objectTypeId || '0-1';
-    if (!ALLOWED.has(n) || o !== objOf(n) || seen.has(o + n) || !ok(n, f.value)) { dropped.push(n); continue; }
-    seen.add(o + n);
-    const value = n === 'target_end_markets' ? f.value.split(';').map((x) => END_MARKETS[x] || x).join(';') : f.value;
-    out.push({ objectTypeId: o, name: n, value });
+    const o = f.objectTypeId || '0-1', n = (o === '0-1' && RENAMED[f.name]) || f.name;
+    if (MESSAGE_ONLY.has(n)) continue;
+    let v = f.value;
+    if (n === 'website_industries' || n === 'target_end_markets') v = v.split(';').map((x) => END_MARKETS[x.trim()] || x.trim()).join(';');
+    if (!propOf(o, n)) { dropped.push(n); continue; }
+    const w = fit(o, n, v);
+    if (!w) { if (v.trim() && !(n === 'target_sectors' && v.split(';').every((x) => x.trim() === 'other'))) dropped.push(n); continue; }
+    if (propOf(o, n).multi) {   // some of several values did not fit ("other" is not a target sector, so it is left out quietly)
+      const sent = v.split(';').map((x) => x.trim()).filter((x) => x && !(n === 'target_sectors' && x === 'other'));
+      if (w.split(';').length < sent.length) dropped.push(n + ' (part)');
+    }
+    if (!got[o + n]) got[o + n] = { objectTypeId: o, name: n, value: w };
   }
-  if (!out.some((f) => f.name === 'brand')) out.push({ objectTypeId: '0-1', name: 'brand', value: 'Capital Row' });   // every thecapitalrow.com contact is tagged Capital Row
-  const email = (out.find((f) => f.name === 'email') || {}).value || '';
-  const fatal = EMAIL.test(email) ? [] : ['email'];
-  if (!out.some((f) => f.name === 'message')) fatal.push('message');
-  return { fatal, fields: out, dropped };
+  const val = (o, n) => (got[o + n] || {}).value || '';
+  const set = (o, n, v) => { const w = v ? fit(o, n, v) : ''; if (w && !got[o + n]) got[o + n] = { objectTypeId: o, name: n, value: w }; };
+  const type = val('0-1', 'cr_contact_type');
+  // the company's place in the firm taxonomy, from the website sectors (approved table, server/sector-map.js)
+  const secs = val('0-1', 'website_sectors').split(';').filter((x) => SECTOR_MAP[x]);
+  const isSeller = SELLER_KINDS.has(kind) && (type === 'seller' || (kind === 'Capital Connections' && !type));
+  if (isSeller) {
+    set('0-2', 'company_type', 'Seller or target');
+    if (secs.length) {   // only when every sector the owner chose agrees; otherwise left for a person (the sectors are on the contact)
+      set('0-2', 'industry__subsector', one(secs.map((x) => SECTOR_MAP[x].sub)));
+      set('0-2', 'industry_segment', one(secs.map((x) => SECTOR_MAP[x].seg)));
+      set('0-2', 'custom_industry', one(secs.map((x) => SECTOR_MAP[x].ind)));
+    }
+  }
+  if (type === 'buyer' && (kind === 'Conversation' || kind === 'Buy box')) {
+    set('0-2', 'company_type', 'Buyer');
+    const ts = val('0-2', 'target_sectors').split(';').filter((x) => SECTOR_MAP[x]);
+    set('0-2', 'target_verticals', uniq(ts.map((x) => SECTOR_MAP[x].seg)));
+    set('0-2', 'target_industries', uniq(ts.map((x) => SECTOR_MAP[x].ind)));
+  }
+  set('0-1', 'brand', 'Capital Row');   // every thecapitalrow.com contact is tagged Capital Row
+  const out = Object.values(got);
+  const fatal = EMAIL.test(val('0-1', 'email')) ? [] : ['email'];
+  if (!val('0-1', 'message')) fatal.push('message');
+  return { fatal, fields: out, dropped: [...new Set(dropped)] };
 }
 // kept for the tests and older callers: the list of problems, as before
 export function checkFields(kind, fields, cfg) { const r = cleanFields(kind, fields, cfg); return [...r.fatal, ...r.dropped.map((n) => 'dropped:' + n)]; }
@@ -174,7 +182,8 @@ export async function deliver(env, id) {
   const row = await db.prepare('SELECT * FROM submissions WHERE id=?').bind(id).first();
   const payload = JSON.parse(row.payload);
   const res = await sendToHubSpot(env, row.form_guid, payload);
-  const attempts = row.attempts + 1, dropped = res.dropped && res.dropped.length ? JSON.stringify([...new Set(res.dropped)]) : null;
+  const all = [...(payload.failed_checks || []), ...(res.dropped || [])];   // answers the check set aside, and any HubSpot refused
+  const attempts = row.attempts + 1, dropped = all.length ? JSON.stringify([...new Set(all)]) : null;
   if (res.ok) {
     await db.prepare("UPDATE submissions SET status='delivered', attempts=?, delivered_at=?, dropped=?, last_error=NULL, lease_until=0 WHERE id=?").bind(attempts, now(), dropped, id).run();
     return 'delivered';
