@@ -22,6 +22,7 @@ const C = [
   ['Conversation', 'lender', { ...person, ...secs, side: 'Lender', kind: 'SBA 7(a) lender', ln_purpose: 'Refer a borrower', ln_geo: 'United States', ln_min: '1000000', ln_max: 'No maximum', ln_cash: 'Break-even acceptable' }],
   ['Buy box', 'buyer', { ...person, kind: 'Strategic', title: 'Vice President', website: 'https://acme.com', acquisition_context: 'A new platform; An add-on to an existing platform', platform_name: 'Acme Health', ownership: 'Majority', firm_sector_ids: 'hc_dental_practice_software', sector_ids: 'built_field_service_management_software', firm_industry_ids: 'hc', industry_ids: 'built', business_model: 'Vertical software; Software + services', geography: 'Southeast;Midwest', avoid_geography: 'Europe', geography_detail: 'Florida', customer_markets: 'United States;Canada', profitability: 'Profitable required', revenue_model: 'Subscription;Mixed', recurring_pref: 'Mostly recurring required', growth: '10_plus', capital: 'under_5m', role: 'lead_only', regulated: 'Case by case', owner_after_close: 'Either', timing: 'Acquiring now', funding: 'Committed capital', exclusions: 'No staffing', rev_min: '5000000', rev_max: 'No maximum', arr_min: '2000000', arr_max: '20000000', ebitda_min: '1000000', ebitda_max: '8000000', ev_min: '10000000', ev_max: '100000000', eq_min: '5000000', eq_max: '40000000', updates: 'yes' }],
   ['Follow a sector', '', { ...person, sector: 'Dental' }],
+  ['Pre-Market Assessment request', 'no subsector guess', { ...person, sector_ids: 'hc_behavioral_and_specialty_health;hc_dental_practice_software', industry_ids: 'hc', about: 'Sell-Side QoE', kind: 'Hybrid models', lead: 'Software', revenue_band: '$5M-$10M', arr_band: 'Not applicable', timing: 'Within 6 months', owner_session: 'no' }],
   ['Pre-Market Assessment request', '', { ...person, sector_ids: 'hc_dental_practice_software', industry_ids: 'hc', about: 'Sell-Side QoE', kind: 'Hybrid models', lead: 'Software', revenue_band: 'Under $1M', arr_band: 'Not applicable', timing: 'Within 6 months', owner_session: 'no' }],
   ['Owner session seat', '', { ...person, ...secs, role: 'CPA or accountant' }],
   ['Bad or broken deal report', '', { ...person, ...secs, main_reason: 'Financing', contact_ok: 'yes', anonymous_use_ok: 'no' }],
@@ -60,7 +61,8 @@ for (const [kind, label, d] of C) {
   if (kind === 'Valuation calculator' && label === 'owner, blank earnings' && (v('revenue_band', '0-2') !== 'Under $1M' || v('adjusted_earnings_band', '0-2'))) bad('blank earnings');
   if (kind === 'Valuation calculator' && label === 'advisor' && (v('revenue_band', '0-2') || v('company_type', '0-2'))) bad('advisor set company facts');
   if (kind === 'Buy box' && (v('target_verticals', '0-2') !== 'Healthcare IT (HCIT);Construction technology' || v('acquisition_strategy', '0-2') !== 'Both' || v('buyer_ownership_appetite', '0-2') !== 'Majority')) bad('buy box values');
-  if (kind === 'Pre-Market Assessment request' && (v('industry__subsector', '0-2') !== 'Dental practice software' || v('revenue_band', '0-2') !== 'Under $1M' || v('arr_band', '0-2'))) bad('assessment values');
+  if (kind === 'Pre-Market Assessment request' && label === 'no subsector guess' && (v('industry__subsector', '0-2') || v('industry_segment', '0-2') !== 'Healthcare IT (HCIT)' || v('custom_industry', '0-2') !== 'Healthcare')) bad('behavioral health: subsector must be left blank, segment and industry filled');
+  if (kind === 'Pre-Market Assessment request' && !label && (v('industry__subsector', '0-2') !== 'Dental practice software' || v('revenue_band', '0-2') !== 'Under $1M' || v('arr_band', '0-2'))) bad('assessment values');
   if (kind === 'Follow a sector' && v('sectors_followed') !== 'hc_dental_practice_software;built_roofing_and_restoration_software') bad('followed');
   if (kind === 'Owner session seat' && v('cr_contact_type') !== 'intermediary') bad('seat contact type');
 }
@@ -70,7 +72,7 @@ for (const n of ['firstname', 'lastname', 'email', 'company', 'cr_contact_type',
 for (const v of card.match(/<option value="([a-z]+)">/g) || []) if (!propOf('0-1', 'cr_contact_type').o.includes(v)) bad('card choice ' + v);
 for (const n of ['cr_buyer_map_research', 'cr_buyer_map_ready', 'cr_criteria_url', 'cr_criteria_confirm_url', 'cr_form']) if (!propOf('0-1', n)) bad('server field ' + n);
 for (const s of Object.values(SECTOR_MAP)) for (const [k, p] of [['sub', 'industry__subsector'], ['seg', 'industry_segment'], ['ind', 'custom_industry'], ['seg', 'target_verticals'], ['ind', 'target_industries']])
-  if (!propOf('0-2', p).o.includes(s[k])) bad(`sector map value "${s[k]}" is not a ${p} option`);
+  if (!(k === 'sub' && s[k] === '') && !propOf('0-2', p).o.includes(s[k])) bad(`sector map value "${s[k]}" is not a ${p} option`);
 fs.writeFileSync(new URL('../server/hubspot-fields-sent.txt', import.meta.url), [...seen].sort().join('\n') + '\n');
 console.log(fails ? `${fails} failure(s)` : 'All forms send only HubSpot names and values.');
 process.exit(fails ? 1 : 0);
