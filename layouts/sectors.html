@@ -3837,8 +3837,8 @@ function fieldValues() {
   kind: v("kind"),
   vertical: crSecs("vert"),
   industry: crInds("vert"),
-  recurring_revenue: v("band"),
-  revenue_band: v("rband"),
+  recurring_revenue: crRV("band"),
+  revenue_band: crRV("rband"),
   lead: v("lead"),
   website: v("web"),
   heard_via: v("how"),
@@ -4493,7 +4493,7 @@ function hsFields(kind, d) {
   add("website", d.website);
   co("domain", host(d.website));
   if (own) {
-   L.push([ "Which brings in more revenue", d.lead ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.recurring_revenue ]);
+   L.push([ "Which brings in more revenue", d.lead ], [ "Annual revenue", d.revenue_band ], [ "Revenue entered", typeof crRA === "function" ? crRA() : "" ], [ "Annual recurring revenue", d.recurring_revenue ]);
    co("offering_type", offering(d.kind));
    co("revenue_band", given(d.revenue_band));
    co("arr_band", given(d.recurring_revenue));
@@ -4588,7 +4588,7 @@ function hsFields(kind, d) {
  }
  if (kind === "Pre-Market Assessment request") {
   add("cr_contact_type", "seller");
-  L.push([ "Asking about", d.about ], [ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
+  L.push([ "Asking about", d.about ], [ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Annual revenue", d.revenue_band ], [ "Revenue entered", typeof crRA === "function" ? crRA() : "" ], [ "Annual recurring revenue", d.arr_band ], [ "Plans to go to market", d.timing ], [ "Financial statements prepared by", d.prepared_by ], [ "Quality of earnings report", d.qoe_had ], [ "Quality of earnings year", d.qoe_year ], [ "Quality of earnings prepared by", d.qoe_by ], [ "Owner session seat, January 20", yn(d.owner_session) ]);
   co("offering_type", offering(d.kind));
   co("revenue_band", given(d.revenue_band));
   co("arr_band", given(d.arr_band));
@@ -4635,7 +4635,7 @@ function hsFields(kind, d) {
   L = L.concat(V);
  }
  if (kind === "Capital Connections") {
-  var K = [ [ "Company type", d.business_type ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Headquarters", d.headquarters ], [ "Stage", d.stage ], [ "Annual revenue", d.revenue_band ], [ "Annual recurring revenue", d.arr_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
+  var K = [ [ "Company type", d.business_type ], [ "Which brings in more revenue", d.lead ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Headquarters", d.headquarters ], [ "Stage", d.stage ], [ "Annual revenue", d.revenue_band ], [ "Revenue entered", typeof crRA === "function" ? crRA() : "" ], [ "Annual recurring revenue", d.arr_band ], [ "What the capital is for", d.capital_purpose ], [ "Approximate amount", d.amount_sought ], [ "Cash flow that supports repayment", d.repayment_cash_flow ], [ "Existing debt, receivables or assets", d.existing_debt_assets ], [ "Financial information to prepare or clarify", d.financials ], [ "What the transaction timeline requires", d.timing ] ];
   L = L.concat(K);
   co("offering_type", offering(d.business_type));
   co("revenue_band", given(d.revenue_band));
@@ -6420,5 +6420,141 @@ document.addEventListener('click', function (e) {
   var q = window._hsq = window._hsq || [], f = a.getAttribute('href').split('/').pop().replace(/\.pdf$/, '');
   q.push(['setPath', '/pdf/' + f]); q.push(['trackPageView']); q.push(['setPath', location.pathname]);
 });
+</script>
+<style>.revfu .revnote{font-size:14px;line-height:1.55;color:var(--ink3);margin:0 0 10px}.revfu .revread{display:block;font-size:12.5px;line-height:1.5;color:var(--faint2);margin-top:6px;min-height:1.5em}.revfu .revread.bad{color:#9C4A3C}</style>
+<script>
+(function() {
+ function T(k, v, d) {
+  try {
+   return window.CRM && CRM(k, v) || d;
+  } catch (e) {
+   return d;
+  }
+ }
+ function num(s) {
+  s = String(s || "").toLowerCase().replace(/[$,\s]/g, "").replace(/usd$/, "");
+  var m = s.match(/^(\d+(?:\.\d+)?)(k|thousand|m|mm|mil|million)?$/);
+  if (!m) return NaN;
+  var n = parseFloat(m[1]), u = m[2] || "";
+  if (u === "k" || u === "thousand") n *= 1e3; else if (u) n *= 1e6; else if (n < 1e3) n *= 1e6;
+  return n;
+ }
+ function revOf(n) {
+  return n < 1e6 ? "Under $1M" : n < 3e6 ? "$1M-$3M" : n < 5e6 ? "$3M-$5M" : n < 1e7 ? "$5M-$10M" : n < 2e7 ? "$10M-$20M" : n < 5e7 ? "$20M-$50M" : n < 15e7 ? "$50M-$150M" : "Over $150M";
+ }
+ function arrOf(n) {
+  return n < 1e6 ? "Under $1M" : n < 3e6 ? "$1M–$3M" : n < 5e6 ? "$3M–$5M" : n < 1e7 ? "$5M–$10M" : n < 2e7 ? "$10M–$20M" : "Over $20M";
+ }
+ function isArr(s) {
+  return s.getAttribute("data-list") === "arrband_owner";
+ }
+ function amt(s) {
+  var i = document.getElementById(s.id + "_amt");
+  return num(i && i.value);
+ }
+ function shown(el) {
+  for (var x = el; x && x !== document.body; x = x.parentElement) if (x.hidden) return false;
+  return true;
+ }
+ function money(n) {
+  return "$" + Math.round(n).toLocaleString("en-US");
+ }
+ window.crRV = function(id) {
+  var s = document.getElementById(id);
+  if (!s) return "";
+  var v = s.value;
+  if (!/band_owner$/.test(s.getAttribute("data-list") || "")) return v;
+  if (v === "Pre-revenue") return "Under $1M";
+  if (v === "Under $5M") {
+   var n = amt(s);
+   return isFinite(n) ? isArr(s) ? arrOf(n) : revOf(n) : "";
+  }
+  return v;
+ };
+ var last = null;
+ window.crRA = function() {
+  if (!last) return "";
+  var out = [];
+  [].forEach.call(last.querySelectorAll("select[data-list$=band_owner]"), (function(s) {
+   if (!shown(s)) return;
+   var w = isArr(s) ? "Annual recurring revenue" : "Annual revenue";
+   if (s.value === "Pre-revenue") out.push(w + " pre-revenue"); else if (s.value === "Under $5M" && isFinite(amt(s))) out.push(w + " about " + money(amt(s)));
+  }));
+  return out.join("; ");
+ };
+ var sels = [].slice.call(document.querySelectorAll("select[data-list$=band_owner]"));
+ if (!sels.length) return;
+ var forms = [];
+ sels.forEach((function(s) {
+  var w = s.closest(".fld") || s.parentElement, box = document.createElement("div");
+  box.className = "fld wide revfu";
+  box.id = s.id + "_fu";
+  box.hidden = true;
+  box.innerHTML = '<p class="revnote"></p><label></label><input type="text" inputmode="decimal" autocomplete="off"><small class="revread" aria-live="polite"></small>';
+  box.querySelector(".revnote").textContent = T('rev.note', null, "From $1M to $5M in annual revenue, we start with growth and preparation work rather than a sale.");
+  var lab = box.querySelector("label"), inp = box.querySelector("input"), rd = box.querySelector(".revread");
+  inp.id = s.id + "_amt";
+  lab.setAttribute("for", inp.id);
+  lab.textContent = isArr(s) ? T('rev.arr_amount', null, "Your approximate annual recurring revenue, in US dollars") : T('rev.amount', null, "Your approximate annual revenue, in US dollars");
+  inp.placeholder = T('rev.placeholder', null, "For example, 2.5M or 2,500,000");
+  w.parentNode.insertBefore(box, w.nextSibling);
+  inp.addEventListener("input", (function() {
+   var n = num(inp.value);
+   rd.classList.remove("bad");
+   rd.textContent = inp.value && isFinite(n) ? T('rev.read', { v: money(n) }, "Read as " + money(n)) : "";
+  }));
+  var f = s.closest("form");
+  if (f && forms.indexOf(f) < 0) forms.push(f);
+ }));
+ function sync() {
+  forms.forEach((function(f) {
+   var first = true;
+   [].forEach.call(f.querySelectorAll("select[data-list$=band_owner]"), (function(s) {
+    var box = document.getElementById(s.id + "_fu"), w = s.closest(".fld") || s.parentElement, on = s.value === "Under $5M" && shown(w);
+    if (!box) return;
+    if (box.hidden === on) box.hidden = !on;
+    box.querySelector(".revnote").hidden = !(on && first);
+    if (on) first = false;
+    if (!on) {
+     var i = box.querySelector("input");
+     if (i.value) i.value = "";
+     box.querySelector(".revread").textContent = "";
+    }
+   }));
+  }));
+ }
+ sels.forEach((function(s) {
+  s.addEventListener("change", sync);
+  var w = s.closest(".fld");
+  if (w && "MutationObserver" in window) new MutationObserver(sync).observe(w, {
+   attributes: true,
+   attributeFilter: [ "hidden" ]
+  });
+ }));
+ forms.forEach((function(f) {
+  f.addEventListener("reset", (function() {
+   setTimeout(sync, 0);
+  }));
+  f.addEventListener("submit", (function(e) {
+   last = f;
+   var bad = null;
+   [].forEach.call(f.querySelectorAll(".revfu"), (function(box) {
+    if (bad || box.hidden) return;
+    var i = box.querySelector("input");
+    if (!isFinite(num(i.value))) bad = box;
+   }));
+   if (bad) {
+    e.preventDefault();
+    e.stopImmediatePropagation();
+    var rd = bad.querySelector(".revread");
+    rd.textContent = T('rev.need', null, "Enter your approximate revenue, or choose Prefer not to say.");
+    rd.classList.add("bad");
+    bad.querySelector("input").focus();
+    return false;
+   }
+  }), true);
+ }));
+ sync();
+})();
 </script>
 </body></html>

@@ -2452,6 +2452,74 @@
     "Other travel & hospitality technology",
     "Something else"
    ]
+  ],
+  "revband_owner": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Pre-revenue",
+    "Pre-revenue"
+   ],
+   [
+    "Under $5M",
+    "Under $5M"
+   ],
+   [
+    "$5M-$10M",
+    "$5M to $10M"
+   ],
+   [
+    "$10M-$20M",
+    "$10M to $20M"
+   ],
+   [
+    "$20M-$50M",
+    "$20M to $50M"
+   ],
+   [
+    "$50M-$150M",
+    "$50M to $150M"
+   ],
+   [
+    "Over $150M",
+    "Over $150M"
+   ],
+   [
+    "Prefer not to say",
+    "Prefer not to say"
+   ]
+  ],
+  "arrband_owner": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Pre-revenue",
+    "Pre-revenue"
+   ],
+   [
+    "Under $5M",
+    "Under $5M ARR"
+   ],
+   [
+    "$5M–$10M",
+    "$5M to $10M ARR"
+   ],
+   [
+    "$10M–$20M",
+    "$10M to $20M ARR"
+   ],
+   [
+    "Over $20M",
+    "Over $20M ARR"
+   ],
+   [
+    "Not applicable",
+    "Not applicable"
+   ]
   ]
  },
  "text": {
@@ -2658,6 +2726,12 @@
   "sheet.start_in": "Open desks in your sectors",
   "sheet.start_near": "Open desks in the same industries",
   "sheet.start_none": "No desk is open in these sectors yet. Ask us which desks are planned for them.",
-  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market."
+  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market.",
+  "rev.note": "From $1M to $5M in annual revenue, we start with growth and preparation work rather than a sale.",
+  "rev.amount": "Your approximate annual revenue, in US dollars",
+  "rev.arr_amount": "Your approximate annual recurring revenue, in US dollars",
+  "rev.placeholder": "For example, 2.5M or 2,500,000",
+  "rev.read": "Read as {v}",
+  "rev.need": "Enter your approximate revenue, or choose Prefer not to say."
  }
 }
