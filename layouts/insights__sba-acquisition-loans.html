@@ -2282,6 +2282,13 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .facts div.lead b{color:#C79A5C}
 .facts div.lead u{color:#BCCBC8}
 .facts div.lead p{color:#CBD8D6}
+.facts .fsrc{display:block;margin-top:14px;padding-top:10px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.5;color:var(--ink3)}
+.facts .fsrc a{display:inline;color:var(--teal);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.facts .fsrc a:after{content:"\00a0\2197";text-decoration:none;display:inline-block}
+.facts .fsrc a:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.facts div.lead .fsrc{border-top-color:rgba(255,255,255,.16);color:#BCCBC8}
+.facts div.lead .fsrc a{color:#8FD4CB}
+.facts div.lead .fsrc a:focus-visible{outline-color:#8FD4CB}
 @media(max-width:700px){.facts{grid-template-columns:1fr}}
 .inz{max-width:760px;margin:0 auto;text-align:left}
 .inz p{font-size:17px;line-height:1.75;color:var(--ink2);margin:0 0 18px}
@@ -2574,13 +2581,13 @@ window.crSafe = function(s) {
 <section class="rule" id="rules"><div class="wrap ctr">
 <span class="lab big">{{rules.1}}</span>
 <h2 class="cen">{{rules.2}}</h2>
-<div class="facts"><div class="lead"><b>{{rules.3}}</b><u>{{rules.4}}</u><p>{{rules.5}}</p></div><div><b>{{rules.6}}</b><u>{{rules.7}}</u><p>{{rules.8}}</p></div><div><b>{{rules.9}}</b><u>{{rules.10}}</u><p>{{rules.11}}</p></div><div><b>{{rules.12}}</b><u>{{rules.13}}</u><p>{{rules.14}}</p></div><div><b>{{rules.15}}</b><u>{{rules.16}}</u><p>{{rules.17}}</p></div><div><b>{{rules.18}}</b><u>{{rules.19}}</u><p>{{rules.20}}</p></div><div><b>{{rules.21}}</b><u>{{rules.22}}</u><p>{{rules.23}}</p></div><div><b>{{rules.24}}</b><u>{{rules.25}}</u><p>{{rules.26}}</p></div><div><b>{{rules.27}}</b><u>{{rules.28}}</u><p>{{rules.29}}</p></div><div><b>{{rules.30}}</b><u>{{rules.31}}</u><p>{{rules.32}}</p></div></div>
+<div class="facts"><div class="lead"><b>{{rules.3}}</b><u>{{rules.4}}</u><p>{{rules.5}}</p><small class="fsrc">{{rules.33}}</small></div><div><b>{{rules.6}}</b><u>{{rules.7}}</u><p>{{rules.8}}</p><small class="fsrc">{{rules.34}}</small></div><div><b>{{rules.9}}</b><u>{{rules.10}}</u><p>{{rules.11}}</p><small class="fsrc">{{rules.35}}</small></div><div><b>{{rules.12}}</b><u>{{rules.13}}</u><p>{{rules.14}}</p><small class="fsrc">{{rules.36}}</small></div><div><b>{{rules.15}}</b><u>{{rules.16}}</u><p>{{rules.17}}</p><small class="fsrc">{{rules.37}}</small></div><div><b>{{rules.18}}</b><u>{{rules.19}}</u><p>{{rules.20}}</p><small class="fsrc">{{rules.38}}</small></div><div><b>{{rules.21}}</b><u>{{rules.22}}</u><p>{{rules.23}}</p><small class="fsrc">{{rules.39}}</small></div><div><b>{{rules.24}}</b><u>{{rules.25}}</u><p>{{rules.26}}</p><small class="fsrc">{{rules.40}}</small></div><div><b>{{rules.27}}</b><u>{{rules.28}}</u><p>{{rules.29}}</p><small class="fsrc">{{rules.41}}</small></div><div><b>{{rules.30}}</b><u>{{rules.31}}</u><p>{{rules.32}}</p><small class="fsrc">{{rules.42}}</small></div></div>
 </div></section>
 
 <section class="rule" id="read"><div class="wrap ctr">
 <span class="lab big">{{read.1}}</span>
 <h2 class="cen">{{read.2}}</h2>
-<div class="inz"><h3>{{read.3}}</h3><ul><li>{{read.4}}</li><li>{{read.5}}</li><li>{{read.6}}</li><li>{{read.7}}</li><li>{{read.8}}</li><li>{{read.9}}</li></ul><h3>{{read.10}}</h3><p>{{read.11}}</p><h3>{{read.12}}</h3><p>{{read.13}}</p><div class="pull">{{read.14}}<small>{{read.15}}</small></div><p>{{read.16}}</p></div><div class="inzsrc"><span class="lab big">{{read.17}}</span><ol><li>{{read.18}}</li><li>{{read.19}}</li><li>{{read.20}}</li><li>{{read.21}}</li><li>{{read.22}}</li><li>{{read.23}}</li><li>{{read.24}}</li><li>{{read.25}}</li><li>{{read.26}}</li><li>{{read.27}}</li></ol></div>
+<div class="inz"><h3>{{read.3}}</h3><ul><li>{{read.4}}</li><li>{{read.5}}</li><li>{{read.6}}</li><li>{{read.7}}</li><li>{{read.8}}</li><li>{{read.9}}</li></ul><h3>{{read.10}}</h3><p>{{read.11}}</p><h3>{{read.12}}</h3><p>{{read.13}}</p><div class="pull">{{read.14}}<small>{{read.15}}</small></div><p>{{read.16}}</p></div><div class="inzsrc"><span class="lab big">{{read.17}}</span><ol><li>{{read.18}}</li><li>{{read.19}}</li><li>{{read.20}}</li><li>{{read.21}}</li><li>{{read.22}}</li><li>{{read.23}}</li><li>{{read.25}}</li><li>{{read.24}}</li><li>{{read.26}}</li><li>{{read.28}}</li><li>{{read.27}}</li></ol></div>
 </div></section>
 
 <section class="alt" id="next"><div class="wrap">

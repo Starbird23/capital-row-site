@@ -804,7 +804,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://legacy.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -813,7 +813,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://legacy.sba.gov/document/information-notice-5000-880695-issuance-sop-50-10-81\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://www.sba.gov/document/information-notice-5000-880695-issuance-sop-50-10-81\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -840,7 +840,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://legacy.sba.gov/document/sba-form-159-fee-disclosure-compensation-agreement\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://www.sba.gov/document/sba-form-159-fee-disclosure-compensation-agreement\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -858,7 +858,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://www.cohnreznick.com/insights/new-sba-quality-of-earnings-requirement/\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://www.sba.gov/document/procedural-notice-5000-876626-revised-applicant-ownership-citizenship-residency-requirements-7a-504-loans\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -867,7 +867,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://legacy.sba.gov/document/policy-notice-5000-876441-update-sop-50-10-8-citizenship-residency-requirements-recission-procedural-notice-5000-872050\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://www.sba.gov/document/policy-notice-5000-876441-update-sop-50-10-8-citizenship-residency-requirements-recission-procedural-notice-5000-872050\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -885,7 +885,7 @@
    "tag": "li",
    "cls": "",
    "tags": [
-    "<a href=\"https://legiscan.com/CA/text/AB2116/2025\" target=\"_blank\" rel=\"noopener noreferrer\">"
+    "<a href=\"https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB2116\" target=\"_blank\" rel=\"noopener noreferrer\">"
    ],
    "section": "read"
   },
@@ -1510,6 +1510,105 @@
    "cls": "",
    "tags": [],
    "section": "mast"
+  },
+  "rules.33": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.34": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.35": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.36": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.37": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.38": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.39": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.40": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/sop-50-10-lender-development-company-loan-programs\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.41": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://www.sba.gov/document/procedural-notice-5000-876626-revised-applicant-ownership-citizenship-residency-requirements-7a-504-loans\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "rules.42": {
+   "kind": "Note",
+   "tag": "small",
+   "cls": "fsrc",
+   "tags": [
+    "<a href=\"https://legacy.sba.gov/sites/default/files/2026-09/Info%20Notice%20-%207%28a%29%20Fees%20FY%202027%20.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "rules"
+  },
+  "read.28": {
+   "kind": "List item",
+   "tag": "li",
+   "cls": "",
+   "tags": [
+    "<a href=\"https://dfpi.ca.gov/california-finance-lenders-license-faqs/\" target=\"_blank\" rel=\"noopener noreferrer\">"
+   ],
+   "section": "read"
   }
  }
 }

@@ -97,7 +97,7 @@
     {
      "key": "rules.8",
      "kind": "Paragraph",
-     "text": "Measured on total project cost. For a first acquisition the injection cannot be reduced or eliminated. For a business expansion or an owner buyout the lender may reduce it where the borrower has sufficient liquidity and no negative net worth at the last year end."
+     "text": "Measured on total project cost, or for an owner buyout on the purchase price. For a first acquisition the injection cannot be reduced or eliminated. For a business expansion or an owner buyout the lender may reduce or eliminate it where the borrower has the liquidity and working capital to sustain operations after the transaction and no negative net worth at the last fiscal year end."
     },
     {
      "key": "rules.9",
@@ -142,7 +142,7 @@
     {
      "key": "rules.17",
      "kind": "Paragraph",
-     "text": "For an initial acquisition or a business expansion at a purchase price of $3 million or more, the lender must obtain a quality of earnings report with a cash proof, from an independent financial professional, for the lender. Owner buyouts and special purpose properties are exempt."
+     "text": "For an initial acquisition or a business expansion at a business purchase price of $3 million or more, measured before buyer equity or seller debt, the lender must obtain a quality of earnings report with a cash proof, from an independent financial professional, for the lender. A report the buyer commissioned may be used only after one of the lender’s approved vendors reviews it; one prepared by or for the seller may not. Owner buyouts, employee stock ownership plans, cooperatives and owner-occupied special purpose properties are exempt."
     },
     {
      "key": "rules.18",
@@ -152,12 +152,12 @@
     {
      "key": "rules.19",
      "kind": "Text",
-     "text": "Debt service coverage"
+     "text": "Debt service coverage, acquisitions and buyouts"
     },
     {
      "key": "rules.20",
      "kind": "Paragraph",
-     "text": "Historical earnings before interest, taxes, depreciation and amortization, divided by all debt service after the transaction, using the last fiscal year or the average of the last two. Projections may not be used to meet it."
+     "text": "1.25 for an initial acquisition, an owner buyout, or a purchase by an employee stock ownership plan or cooperative; 1.15 for a business expansion. Earnings before interest, taxes, depreciation and amortization, on a historical basis or with prudent, documented adjustments, divided by all debt service after the transaction, using the last fiscal year or the average of the last two. Where a quality of earnings report is required, the lender uses its earnings. Projections may be used only for an owner-occupied special purpose property."
     },
     {
      "key": "rules.21",
@@ -172,7 +172,7 @@
     {
      "key": "rules.23",
      "kind": "Paragraph",
-     "text": "For the business, goodwill and working capital, with no balloon. Only the real estate portion may run longer, to 25 years, blended on a weighted average."
+     "text": "For the business, goodwill and working capital, with no balloon. Only the real estate portion may run longer, to 25 years, blended on a weighted average. An owner-occupied special purpose property may run to 25 years where real estate is 85 percent or more of total project costs."
     },
     {
      "key": "rules.24",
@@ -187,7 +187,7 @@
     {
      "key": "rules.26",
      "kind": "Paragraph",
-     "text": "In an initial acquisition the seller may not remain as an owner, officer, director or employee. A consulting role of up to 24 months is allowed. Seller earnouts are prohibited."
+     "text": "In an initial acquisition or a business expansion, the seller may not remain as an officer, director, stockholder or employee. A consulting role of up to 24 months in total, extensions included, is allowed. Seller earnouts are prohibited."
     },
     {
      "key": "rules.27",
@@ -202,7 +202,7 @@
     {
      "key": "rules.29",
      "kind": "Paragraph",
-     "text": "From March 1, 2026, every direct and indirect owner and every required guarantor must be a U.S. citizen or national with a principal residence in the United States. Lawful permanent residents are no longer eligible."
+     "text": "From March 1, 2026, every direct and indirect owner and every SBA-required guarantor must be a U.S. citizen or national with a principal residence in the United States, its territories or possessions. Lawful permanent residents are no longer eligible. A narrow exception allows some limited or supplemental guaranties."
     },
     {
      "key": "rules.30",
@@ -217,7 +217,57 @@
     {
      "key": "rules.32",
      "kind": "Paragraph",
-     "text": "For fiscal year 2027, on the guaranteed portion: 2 percent at or below $150,000; 3 percent to $700,000; above that, 3.5 percent on the first $1 million of the guaranteed portion and 3.75 percent on the rest. A $5 million loan at a 75 percent guaranty carries an upfront fee of $138,125."
+     "text": "For fiscal year 2027, set by the gross loan amount and charged on the guaranteed portion: 2 percent for loans of $150,000 or less; 3 percent to $700,000; above that, 3.5 percent on the first $1 million of the guaranteed portion and 3.75 percent on the rest. A $5 million loan at a 75 percent guaranty carries an upfront fee of $138,125. Loans of $700,000 or less to manufacturers, food supply chain businesses and rural businesses carry none."
+    },
+    {
+     "key": "rules.33",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Maximum Loan Amount; Appendix 16</a>"
+    },
+    {
+     "key": "rules.34",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Equity Requirements</a>"
+    },
+    {
+     "key": "rules.35",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Standby Debt Agreements</a>"
+    },
+    {
+     "key": "rules.36",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Financial Due Diligence: Business Valuation</a>"
+    },
+    {
+     "key": "rules.37",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Financial Due Diligence: Quality of Earnings</a>"
+    },
+    {
+     "key": "rules.38",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Lender’s Credit Analysis</a>"
+    },
+    {
+     "key": "rules.39",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Loan Maturities</a>"
+    },
+    {
+     "key": "rules.40",
+     "kind": "Note",
+     "text": "Source: <a>SBA SOP 50 10 8.1, Appendix 15, Change of Ownership Requirements</a>"
+    },
+    {
+     "key": "rules.41",
+     "kind": "Note",
+     "text": "Source: <a>SBA Procedural Notice 5000-876626, effective March 1, 2026</a>"
+    },
+    {
+     "key": "rules.42",
+     "kind": "Note",
+     "text": "Source: <a>SBA Information Notice 5000-881797, effective October 1, 2026</a>"
     }
    ]
   },
@@ -258,7 +308,7 @@
     {
      "key": "read.7",
      "kind": "List item",
-     "text": "The seller cannot remain in the business except as a consultant for up to 24 months. In a partial buyout, a selling owner who keeps under 20 percent must guarantee the loan for at least two years after disbursement."
+     "text": "The seller cannot remain in the business except as a consultant for up to 24 months. In a partial buyout, a selling owner who keeps under 20 percent must give a full guaranty of the full loan amount for at least two years after final disbursement."
     },
     {
      "key": "read.8",
@@ -278,7 +328,7 @@
     {
      "key": "read.11",
      "kind": "Paragraph",
-     "text": "A buyer is treated as expanding, rather than acquiring for the first time, only if it has operated for two full fiscal years under its current ownership and the target is in the same four-digit industry group. Otherwise the deal is an initial acquisition: the 10 percent injection cannot be waived, debt service coverage must reach 1.25, and a quality of earnings report is required at $3 million. Intangible assets and goodwill, which are most of what a software company is, are financeable on a ten-year term. A virtual business may be confirmed without a physical site visit if the lender documents the alternative."
+     "text": "A buyer is treated as expanding, rather than acquiring for the first time, only if it has operated for two full fiscal years under its current ownership, is buying 100 percent of the target, and the target is in the same four-digit NAICS industry group. Otherwise the deal is an initial acquisition: the 10 percent injection cannot be waived, debt service coverage must reach 1.25, and a quality of earnings report is required at a business purchase price of $3 million or more. Intangible assets and goodwill, which are most of what a software company is, are financeable on a ten-year term. A virtual business may be confirmed without a physical site visit if the lender documents the alternative."
     },
     {
      "key": "read.12",
@@ -288,7 +338,7 @@
     {
      "key": "read.13",
      "kind": "Paragraph",
-     "text": "SBA rules require anyone who refers an applicant to a lender, or a lender to an applicant, for a fee to disclose the fee on SBA Form 159, signed by the applicant, the agent and the lender. An agent may be paid by the applicant or by the lender, but not both for the same service. Fees must be reasonable and customary for the services actually performed, fees charged to the applicant may not be contingent on the loan being approved or closed, and a lender may not pass a referral fee to the borrower. In California, brokering commercial loans to a licensed finance lender requires a license under the California Financing Law; referrals to a bank are not within that definition, and a new law signed on September 30, 2026, will license commercial financing brokers for offers of $500,000 or less from July 1, 2028. Capital Row makes introductions through Capital Connections and does not package or broker loans."
+     "text": "SBA rules require anyone who refers an applicant to a lender, or a lender to an applicant, for a fee to disclose the fee on SBA Form 159, signed by the applicant, the agent and the lender. An agent may be paid by the applicant or by the lender, but not both for the same service. Fees must be reasonable and customary for the services actually performed, fees charged to the applicant may not be contingent on the loan being approved or closed, and a lender may not pass a referral fee to the borrower. In California, a broker license under the California Financing Law covers brokering commercial loans only to licensed finance lenders, not to banks or credit unions, and a new law approved on September 30, 2026, will require commercial financing brokers to be licensed for offers of $500,000 or less to small businesses from July 1, 2028. Capital Row makes introductions through Capital Connections and does not package or broker loans."
     },
     {
      "key": "read.14",
@@ -323,7 +373,7 @@
     {
      "key": "read.20",
      "kind": "List item",
-     "text": "<a>SBA Information Notice 5000-881797, 7(a) Fees for Fiscal Year 2027, September 3, 2026</a>"
+     "text": "<a>SBA Information Notice 5000-881797, 7(a) Fees Effective October 1, 2026 for Fiscal Year 2027 and 90-Day Rule Clarification, September 3, 2026</a>"
     },
     {
      "key": "read.21",
@@ -338,12 +388,12 @@
     {
      "key": "read.23",
      "kind": "List item",
-     "text": "<a>Live Oak Bank, Buying a business with a 7(a) loan now works differently</a>"
+     "text": "<a>Live Oak Bank, SOP 50 10 8.1: Buying a business with a 7(a) loan now works differently, September 3, 2026</a>"
     },
     {
      "key": "read.24",
      "kind": "List item",
-     "text": "<a>CohnReznick, The new SBA quality of earnings requirement, October 8, 2026</a>"
+     "text": "<a>SBA Procedural Notice 5000-876626, Revised Applicant Ownership, Citizenship, and Residency Requirements for 7(a) and 504 Loans, effective March 1, 2026</a>"
     },
     {
      "key": "read.25",
@@ -358,7 +408,12 @@
     {
      "key": "read.27",
      "kind": "List item",
-     "text": "<a>California AB 2116 (2025 to 2026), commercial financing provider and broker licensing, approved September 30, 2026</a>"
+     "text": "<a>California AB 2116 (2025 to 2026), Chapter 823, Statutes of 2026, commercial financing provider and broker licensing, approved September 30, 2026</a>"
+    },
+    {
+     "key": "read.28",
+     "kind": "List item",
+     "text": "<a>California Department of Financial Protection and Innovation, California Finance Lenders License FAQs</a>"
     }
    ]
   },
