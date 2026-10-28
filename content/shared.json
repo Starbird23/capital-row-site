@@ -311,31 +311,6 @@
     "key": "sh.mast.57",
     "kind": "Link",
     "text": "Join Capital Row"
-   },
-   {
-    "key": "sh.mast.58",
-    "kind": "Button",
-    "text": "Lenders"
-   },
-   {
-    "key": "sh.mast.59",
-    "kind": "Text",
-    "text": "For lenders"
-   },
-   {
-    "key": "sh.mast.60",
-    "kind": "Link",
-    "text": "Lending to software companies"
-   },
-   {
-    "key": "sh.mast.61",
-    "kind": "Link",
-    "text": "SBA acquisition loans"
-   },
-   {
-    "key": "sh.mast.62",
-    "kind": "Link",
-    "text": "Capital Connections"
    }
   ]
  },
@@ -451,11 +426,6 @@
     "key": "sh.footer.22",
     "kind": "Link",
     "text": "Advisors"
-   },
-   {
-    "key": "sh.footer.23",
-    "kind": "Link",
-    "text": "Lenders"
    },
    {
     "key": "sh.footer.24",
