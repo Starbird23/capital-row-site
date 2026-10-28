@@ -1,7 +1,7 @@
 {
  "path": "/insights/the-first-offer/",
- "seoTitle": "The first offer is rarely the last | Capital Row",
- "seoDescription": "What the evidence says about unsolicited offers, competitive processes, what an advisor changes for a private seller, and the terms behind a headline price.",
+ "seoTitle": "Selling to one buyer or running a process | Capital Row",
+ "seoDescription": "For vertical software founders with an inbound offer: what the evidence says about selling to one buyer against running a process, what changes under exclusivity, and the terms behind the price.",
  "sections": [
   {
    "id": "pgnav",
@@ -21,7 +21,7 @@
   },
   {
    "id": "inner",
-   "name": "The first number is rarely the last. And the party who sees the mar...",
+   "name": "One buyer or a process. The price follows whoever has seen the market.",
    "items": [
     {
      "key": "inner.1",
@@ -41,12 +41,12 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "The first number is rarely the last. <em>And the party who sees the market sets it.</em>"
+     "text": "One buyer or a process. <em>The price follows whoever has seen the market.</em>"
     },
     {
      "key": "inner.5",
      "kind": "Paragraph",
-     "text": "An unsolicited offer arrives before you know what the alternatives would have been. What the research says about first bids, deals the owner starts, the buyer’s own preference for being alone, and the terms behind a headline price."
+     "text": "If your vertical software company has real recurring revenue, buyers already write to you: private equity platforms building in your vertical, holding companies that buy to keep, the competitor next to you. The pitch is familiar: no banker, no auction, a fair price and a quicker close. Sometimes that is the right deal. What the research says about selling to one buyer against running a process, what changes once you sign exclusivity, and what to have in hand before you answer."
     },
     {
      "key": "inner.6",
@@ -57,7 +57,7 @@
   },
   {
    "id": "evidence",
-   "name": "The first bid, the final price, and who started the deal.",
+   "name": "Why the email came, and what the first number means.",
    "items": [
     {
      "key": "evidence.1",
@@ -67,7 +67,7 @@
     {
      "key": "evidence.2",
      "kind": "Section headline",
-     "text": "The first bid, the final price, <em>and who started the deal.</em>"
+     "text": "Why the email came, <em>and what the first number means.</em>"
     },
     {
      "key": "evidence.3",
@@ -132,32 +132,32 @@
     {
      "key": "evidence.15",
      "kind": "Text",
-     "text": "49%"
+     "text": "106 days"
     },
     {
      "key": "evidence.16",
      "kind": "Text",
-     "text": "Engagements that died on the valuation gap"
+     "text": "Exclusivity before a broken letter, private equity buyers"
     },
     {
      "key": "evidence.17",
      "kind": "Paragraph",
-     "text": "Share of investment bankers’ engagements that did not close because of the gap between the owner’s price and the market’s, in the 2024 Pepperdine survey. Two thirds of those gaps were 11 to 30 percent."
+     "text": "Average time a private equity buyer held exclusivity before a signed letter of intent broke, in one platform’s study of 75 broken letters in 2025. Holding companies averaged 115 days. The seller could not talk to another buyer during any of them."
     },
     {
      "key": "evidence.18",
      "kind": "Text",
-     "text": "9%"
+     "text": "18.4%"
     },
     {
      "key": "evidence.19",
      "kind": "Text",
-     "text": "Average private-phase price revision"
+     "text": "Of the deals in its market the median buyer reviewed"
     },
     {
      "key": "evidence.20",
      "kind": "Paragraph",
-     "text": "In 1,324 public acquisitions from 1994 to 2016, the price moved before announcement in more than 80 percent of deals, by an average of 9 percent. What is negotiated is negotiated before anyone else sees it."
+     "text": "Completed deals in its own industries and size range, run by a sell-side advisor, that the median private equity firm reviewed in the year to June 30, 2025, across 177 firms. One reason buyers write to owners directly."
     }
    ]
   },
@@ -178,77 +178,77 @@
     {
      "key": "read.3",
      "kind": "Heading",
-     "text": "What the evidence says"
+     "text": "Why buyers write directly"
     },
     {
      "key": "read.4",
      "kind": "Paragraph",
-     "text": "The best measurement of first bids against final prices comes from public companies, because their filings record every bid. In 841 acquisitions of S&P 1500 companies between 2005 and 2019, the winning bidder’s first bid carried an average premium of 28.6 percent and the final price 38.2 percent. Only 8 percent of winners won with a single bid. Where the seller countered, which 44 percent did, the final price landed between the last bid and the counter two times in three. The first number was the opening of a negotiation, not the result of one."
+     "text": "A buyer can only bid on what it sees. In the year to June 30, 2025, the median private equity firm in one benchmark of 177 firms reviewed 18.4 percent of the completed, advisor-run deals in its own industries and size range, and a firm at the top quartile reviewed 27.9 percent. Writing to an owner directly is how a buyer reaches a company before anyone else does. The value to the buyer is plain: no competing bid sets the price. That is not a reason to refuse the call. It is a reason to know what the call is worth to the person making it."
     },
     {
      "key": "read.5",
-     "kind": "Paragraph",
-     "text": "Who starts the deal matters as much as how it is run. Target-initiated deals carry lower premiums, lower announcement returns and lower multiples of earnings than deals a buyer initiated, and the gap widens the less the buyer can confirm. A seller who approaches a single buyer is telling that buyer two things: that there is no competing bid yet, and that the seller has a reason to sell. The buyer prices both."
+     "kind": "Heading",
+     "text": "One buyer or a process"
     },
     {
      "key": "read.6",
-     "kind": "Heading",
-     "text": "What the evidence does not say"
+     "kind": "Paragraph",
+     "text": "The best measurement of first bids against final prices comes from public companies, because their filings record every bid. In 841 acquisitions of S&P 1500 companies between 2005 and 2019, the winning bidder’s first bid carried an average premium of 28.6 percent and the final price 38.2 percent. Only 8 percent of winners won with a single bid. Where the seller countered, which 44 percent did, the final price landed between the last bid and the counter two times in three. The first number in the email is the opening of a negotiation, not the result of one."
     },
     {
      "key": "read.7",
      "kind": "Paragraph",
-     "text": "It does not say that an auction beats a negotiation, or that more bidders means a higher price. The most cited study of how firms are sold found that target shareholders did about as well in negotiations with one buyer as in auctions with several, and the 2023 study above found final premiums similar regardless of the number of bids. What raises the price is not the count of bidders. It is that the buyer who knows a competing bid is possible prices against it from the first round, and that a seller who knows what the market would pay does not accept a number below it. Both depend on someone seeing the whole market."
+     "text": "The same research does not say that a process always beats a direct sale. The most cited study of how companies are sold found that sellers did about as well negotiating with one buyer as auctioning to several, and the 2023 study above found final premiums similar regardless of the number of bids. What raises the price is not the count of bidders. It is that a buyer who knows a competing bid is possible prices against it from the first round, and that a seller who knows what the market would pay does not accept a number below it."
     },
     {
      "key": "read.8",
-     "kind": "Heading",
-     "text": "What an advisor changes for a private seller"
+     "kind": "Paragraph",
+     "text": "Who starts the conversation matters as much as how it is run. Deals the seller initiates carry lower premiums and lower multiples of earnings than deals a buyer initiates, and the gap widens the less the buyer can confirm. In the 2023 study, a sale the target started that drew no competition priced 15.1 percent below a comparable negotiation the buyer started. A founder who calls one buyer is telling that buyer two things: that there is no competing bid yet, and that the founder has a reason to sell. The buyer prices both."
     },
     {
      "key": "read.9",
-     "kind": "Paragraph",
-     "text": "The one study built on private sellers found that, after correcting for which sellers choose to hire an advisor, represented sellers received higher valuations, and that the acquirer’s own shareholders did slightly worse when the seller was represented, which is the same finding read from the other side. The size of the effect is disputed by the firms that cite the study, so we do not quote it here. The direction is not disputed."
+     "kind": "Heading",
+     "text": "What changes when you sign exclusivity"
     },
     {
      "key": "read.10",
      "kind": "Paragraph",
-     "text": "What an advisor actually does is narrower than the word suggests. The advisor knows which buyers are active in the sector and at what price, so the first offer is read against a market rather than against hope. The advisor assembles the evidence before the buyer asks for it, so the price survives diligence. And the advisor carries the negotiation, so the owner can keep running the business the buyer is paying for. The valuation gap behind about half of the engagements that do not close is a gap between what the owner expects and what the records support; the work is on the records."
+     "text": "A letter of intent with exclusivity ends the competition before it ends the negotiation. In one platform’s study of 75 signed letters that broke in 2025, private equity buyers held exclusivity an average of 106 days before the deal broke, holding companies 115 and corporate buyers 125; technology deals averaged 94. The largest causes were diligence findings outside the quality of earnings work, at 25.3 percent, and earnings that did not hold up in it, at 21.3 percent; another 14.7 percent broke in renegotiation of price or structure. In public deals, the price moved during private negotiation in more than 80 percent of cases, by an average of 9 percent. In a direct sale, there is no second bidder to hold the price while that happens."
     },
     {
      "key": "read.11",
+     "kind": "Paragraph",
+     "text": "For a software company, many of the findings that move a price under exclusivity are matters of definition: what counts as annual recurring revenue, and whether implementation and services sit inside it; churn and net revenue retention by customer cohort; how much revenue sits with the largest customers; deferred revenue and capitalized development costs; who owns the code and the data; and, in healthcare and other regulated verticals, the security and privacy obligations the product carries. Found before the letter, each one is a fact the price already reflects. Found after, it is a reason to revisit the price, with no other bidder in the room."
+    },
+    {
+     "key": "read.12",
      "kind": "Heading",
      "text": "The terms behind the headline"
     },
     {
-     "key": "read.12",
+     "key": "read.13",
      "kind": "Paragraph",
      "text": "A price is a headline. The terms decide what the seller receives. In the lower middle market in the second quarter of 2026, sellers received between 83 and 92 percent of the price in cash at closing, with the rest in seller financing, earnouts and retained equity. Earnouts appeared in 24 percent of private-target deals in 2025, and in 35 percent of deals under $25 million. Across the deals that had one, about 21 cents of every dollar of maximum earnout was paid. Rollover equity averaged 16.9 percent of enterprise value in private equity deals through the third quarter of 2025. An escrow without representation and warranty insurance ran a median 10 percent of the price."
     },
     {
-     "key": "read.13",
-     "kind": "Paragraph",
-     "text": "A first offer with an earnout, a seller note and a rollover can carry a headline well above a second offer paid in cash, and deliver less. Reading the terms is the second half of reading the offer."
-    },
-    {
      "key": "read.14",
-     "kind": "Heading",
-     "text": "The time it takes"
+     "kind": "Paragraph",
+     "text": "A first offer with an earnout, a seller note and rollover equity in the buyer’s platform can carry a headline well above a second offer paid in cash, and deliver less. Reading the terms is the second half of reading the offer."
     },
     {
      "key": "read.15",
-     "kind": "Paragraph",
-     "text": "Lower-middle-market engagements took eleven to twelve months from signing with an advisor to closing in the second quarter of 2026, and 60 to 90 percent of sellers across five size segments arrived with less than a year of exit planning. In a 2018 survey of owners, three quarters believed they could sell within a year. The gap between those two figures is the time an unsolicited offer takes advantage of."
+     "kind": "Heading",
+     "text": "When one buyer is the right answer"
     },
     {
      "key": "read.16",
-     "kind": "Heading",
-     "text": "Capital Row’s answer"
+     "kind": "Paragraph",
+     "text": "A direct sale can be the right one: a buyer that already knows your vertical and your product, a sale your customers and team do not hear about until it closes, a business a broad process would distract. Nothing above argues against it. What the evidence argues for is a seller who knows what the market would pay and has records that hold up, because those move the price in a negotiation with one buyer as much as in a process with ten."
     },
     {
      "key": "read.17",
-     "kind": "Paragraph",
-     "text": "The sector mapped before anyone goes to market, the buyers active in it, and your numbers traced to source before anyone prices them. The Pre-Market Assessment gives you an indicative valuation range, the earnings behind it and what moves the range, before a buyer sets the first number. When you decide to go to market, Capital Row can represent you in the sale under a separate engagement. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+     "kind": "Heading",
+     "text": "What an advisor changes for a private seller"
     },
     {
      "key": "read.18",
@@ -314,6 +314,41 @@
      "key": "read.30",
      "kind": "List item",
      "text": "<a>A lower-middle-market deal platform, 2026 Lower Middle Market M&A Outlook, March 24, 2026</a>, 107 participants"
+    },
+    {
+     "key": "read.31",
+     "kind": "Paragraph",
+     "text": "The one study built on private sellers found that, after correcting for which sellers choose to hire an advisor, represented sellers received higher valuations, and that the acquirer’s own shareholders did slightly worse when the seller was represented, which is the same finding read from the other side. The size of the effect is disputed by the firms that cite the study, so we do not quote it here. The direction is not disputed."
+    },
+    {
+     "key": "read.32",
+     "kind": "Paragraph",
+     "text": "What an advisor actually does is narrower than the word suggests. The advisor knows which buyers are active in the sector and at what price, so the first offer is read against a market rather than against hope. The advisor assembles the evidence before the buyer asks for it, so the price survives diligence. And the advisor carries the negotiation, so the owner can keep running the business the buyer is paying for. The valuation gap behind about half of the engagements that do not close is a gap between what the owner expects and what the records support; the work is on the records."
+    },
+    {
+     "key": "read.33",
+     "kind": "Paragraph",
+     "text": "Lower-middle-market engagements took eleven to twelve months from signing with an advisor to closing in the second quarter of 2026, and 60 to 90 percent of sellers across five size segments arrived with less than a year of exit planning. In a 2018 survey of owners, three quarters believed they could sell within a year. The gap between those two figures is the time an unsolicited offer takes advantage of."
+    },
+    {
+     "key": "read.34",
+     "kind": "Heading",
+     "text": "Capital Row’s answer"
+    },
+    {
+     "key": "read.35",
+     "kind": "Paragraph",
+     "text": "Your vertical mapped before you answer: the buyers active in it, what they have paid, and the findings that move price in your end market. Your numbers traced to source before anyone prices them. The Pre-Market Assessment gives you an indicative valuation range, the earnings behind it and what moves the range, so the first number in the email is read against a market. If you take the direct offer, you take it knowing what it is worth. If you decide to go to market, Capital Row can represent you in the sale under a separate engagement. Capital Row also works with buyers, so we tell you in writing which side we are on before any conversation starts. Nothing from your assessment reaches a buyer, or anyone else, without your written permission."
+    },
+    {
+     "key": "read.36",
+     "kind": "List item",
+     "text": "<a>SPS by With Intelligence, Deal Origination Benchmark Report, LTM 2025</a>, 177 private equity firms, year to June 30, 2025"
+    },
+    {
+     "key": "read.37",
+     "kind": "List item",
+     "text": "<a>A lower-middle-market deal platform, Dead Deal Report on 2025’s broken letters of intent</a>, 75 broken letters, eight buyer types, eight industries"
     }
    ]
   },
