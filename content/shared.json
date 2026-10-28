@@ -100,7 +100,7 @@
    {
     "key": "sh.mast.15",
     "kind": "Button",
-    "text": "Owners"
+    "text": "Sellers"
    },
    {
     "key": "sh.mast.16",
@@ -301,6 +301,41 @@
     "key": "sh.mast.55",
     "kind": "Link",
     "text": "CPAs, attorneys and advisors"
+   },
+   {
+    "key": "sh.mast.56",
+    "kind": "Button",
+    "text": "Advisors"
+   },
+   {
+    "key": "sh.mast.57",
+    "kind": "Link",
+    "text": "Join Capital Row"
+   },
+   {
+    "key": "sh.mast.58",
+    "kind": "Button",
+    "text": "Lenders"
+   },
+   {
+    "key": "sh.mast.59",
+    "kind": "Text",
+    "text": "For lenders"
+   },
+   {
+    "key": "sh.mast.60",
+    "kind": "Link",
+    "text": "Lending to software companies"
+   },
+   {
+    "key": "sh.mast.61",
+    "kind": "Link",
+    "text": "SBA acquisition loans"
+   },
+   {
+    "key": "sh.mast.62",
+    "kind": "Link",
+    "text": "Capital Connections"
    }
   ]
  },
@@ -330,7 +365,7 @@
    {
     "key": "sh.footer.5",
     "kind": "Link",
-    "text": "Owners"
+    "text": "Sellers"
    },
    {
     "key": "sh.footer.6",
@@ -411,6 +446,21 @@
     "key": "sh.footer.21",
     "kind": "Paragraph",
     "text": "Prefer to call or write? <a href=\"tel:+19496821223\">(949) 682-1223</a> · <a href=\"mailto:team@thecapitalrow.com\">team@thecapitalrow.com</a>"
+   },
+   {
+    "key": "sh.footer.22",
+    "kind": "Link",
+    "text": "Advisors"
+   },
+   {
+    "key": "sh.footer.23",
+    "kind": "Link",
+    "text": "Lenders"
+   },
+   {
+    "key": "sh.footer.24",
+    "kind": "Note",
+    "text": "Prepare. Sell. Acquire."
    }
   ]
  },
