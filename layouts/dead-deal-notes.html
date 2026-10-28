@@ -1594,19 +1594,47 @@ body.vcopen .rt,body.vcopen .snt,body.vcopen .sn{display:none!important}
 .dnb.own{background:rgba(166,124,61,.08);color:var(--bronze2);border:1px solid rgba(166,124,61,.4)}
 .dnb.rep{background:var(--paper2);color:var(--ink2);border:1px solid var(--line)}
 .dntal{max-width:780px;margin:30px auto 0;display:flex;flex-direction:column;gap:8px}
-.dnt{display:grid;grid-template-columns:minmax(0,1fr) 40px;grid-template-rows:auto auto;column-gap:14px;row-gap:8px;align-items:center;width:100%;min-height:58px;
- padding:11px 16px;background:var(--card);border:1px solid var(--line);border-radius:3px;cursor:pointer;text-align:left;font:inherit;color:var(--ink);
- transition:border-color .2s,box-shadow .2s;touch-action:manipulation}
+.dnrow{background:var(--card);border:1px solid var(--line);border-radius:3px;transition:border-color .25s,box-shadow .25s}
+.dnrow:hover{border-color:var(--teal)}
+.dnrow.x{border-color:var(--teal);box-shadow:inset 3px 0 0 var(--teal),0 18px 40px -30px rgba(12,50,52,.45)}
+.dnt{display:grid;grid-template-columns:minmax(0,1fr) 62px 18px;grid-template-rows:auto auto;column-gap:14px;row-gap:9px;align-items:center;width:100%;min-height:62px;
+ padding:12px 16px;background:transparent;border:0;border-radius:3px;cursor:pointer;text-align:left;font:inherit;color:var(--ink);touch-action:manipulation}
 .dntl{grid-column:1;grid-row:1;font-size:15px;line-height:1.35;font-weight:400}
-.dntb{grid-column:1;grid-row:2;height:6px;background:var(--paper2);border-radius:3px;overflow:hidden}
-.dntb i{display:block;height:100%;background:var(--teal);border-radius:3px}
-.dntn{grid-column:2;grid-row:1/span 2;font-family:var(--ser);font-size:32px;line-height:1;color:var(--teal);text-align:right}
-.dnt:hover{border-color:var(--teal)}
-.dnt[aria-pressed="true"]{border-color:var(--teal);box-shadow:inset 3px 0 0 var(--teal)}
+.dntb{grid-column:1;grid-row:2;display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:4px;height:10px}
+.dntb i{display:block;height:100%;background:var(--paper2);border-radius:2px;transition:background-color .25s,transform .25s}
+.dntb i.f{background:var(--teal);transform-origin:left center}
+.dntb i.f.hl{background:var(--bronze);transform:scaleY(1.5)}
+.dntal.anim .dntb i.f{transform:scaleX(0);opacity:0}
+.dntal.anim.run .dntb i.f{transform:none;opacity:1;transition:transform .45s cubic-bezier(.2,.7,.2,1),opacity .3s,background-color .25s;transition-delay:var(--d,0ms)}
+.dntal.anim.run .dntb i.f.hl{transform:scaleY(1.5);transition-delay:0ms}
+.dntn{grid-column:2;grid-row:1/span 2;display:flex;flex-direction:column;align-items:flex-end;line-height:1;color:var(--teal);text-align:right}
+.dntn b{font-family:var(--ser);font-size:32px;font-weight:400}
+.dntn small{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint2);margin-top:6px;white-space:nowrap}
+.dntc{grid-column:3;grid-row:1/span 2;width:10px;height:10px;border-right:1.5px solid var(--teal);border-bottom:1.5px solid var(--teal);transform:rotate(45deg) translateY(-3px);transition:transform .3s}
+.dnrow.x .dntc{transform:rotate(225deg) translateY(-3px)}
 .dnt:focus-visible,.dnall:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.dnp{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s cubic-bezier(.2,.7,.2,1)}
+.dnrow.x .dnp{grid-template-rows:1fr}
+.dnpi{overflow:hidden;visibility:hidden;transition:visibility 0s .4s}
+.dnrow.x .dnpi{visibility:visible;transition-delay:0s}
+.dnpi ol{list-style:none;margin:0;padding:2px 16px 14px;display:flex;flex-direction:column;gap:8px}
+.dnpi a{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;column-gap:16px;text-align:left;min-height:52px;padding:10px 14px;background:var(--paper);border:1px solid var(--hair);border-left:3px solid var(--teal);border-radius:2px;color:var(--ink);text-decoration:none;transition:border-color .2s,background-color .2s}
+.dnpi a:hover,.dnpi a:focus-visible{border-color:var(--bronze);background:var(--card)}
+.dnpi a:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.dnpi .pn{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint2)}
+.dnpi .pd{display:flex;flex-direction:column;gap:3px;min-width:0}
+.dnpi .pd b{font-family:var(--ser);font-size:19px;font-weight:400;line-height:1.2}
+.dnpi .pd span{font-size:13px;line-height:1.45;color:var(--ink3)}
+.dnpi .pd em{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--line);background:var(--paper2);padding:2px 6px;margin-left:8px;vertical-align:2px}
+.dnpi .pr{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);white-space:nowrap}
+.dnrow.x .dnpi li{animation:dnin .45s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--k,0) * 80ms + 120ms)}
+@keyframes dnin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 .dnall{align-self:center;margin-top:10px;min-height:44px;padding:0 22px;background:transparent;border:1px solid var(--line);border-radius:22px;
  font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);cursor:pointer;touch-action:manipulation}
+.dnall:hover{border-color:var(--teal);color:var(--teal)}
 .dnall[aria-pressed="true"]{background:var(--deep);border-color:var(--deep);color:#FFFDF9}
+@media(max-width:560px){.dnt{grid-template-columns:minmax(0,1fr) 52px 14px;column-gap:10px;padding:12px 12px}.dntn b{font-size:28px}.dnpi ol{padding:2px 10px 12px}.dnpi a{grid-template-columns:minmax(0,1fr);row-gap:5px;padding:12px 14px}.dnpi .pd b{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.dntal.anim .dntb i.f{transform:none;opacity:1}.dnp,.dnpi,.dntc,.dntb i{transition:none}.dnrow.x .dnpi li{animation:none}}
 .dnshow{font-size:14px;color:var(--ink3);margin-top:14px;text-align:center}
 .dnlist{max-width:800px;margin:0 auto;display:flex;flex-direction:column;gap:24px}
 .dnc{background:var(--card);border:1px solid var(--line);border-top:2px solid var(--teal);border-radius:3px;padding:28px 32px 22px;text-align:left;scroll-margin-top:20px}
@@ -1854,6 +1882,9 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .dnctl .dnopen{margin-left:10px;border-color:var(--line);color:var(--ink3)}
 .dnctl .dnopen:hover{background:var(--paper2);color:var(--ink)}
 .dndeck+.dnctl{margin:22px 0 0}
+.dnctl.list #dnprev,.dnctl.list #dnnext,.dnctl.list .dnpos{display:none}
+.dnctl.list .dnopen{margin-left:0}
+.dndots.list{display:none}
 .dndots{display:flex;justify-content:center;gap:7px;margin:16px 0 0}
 .dndots i{width:8px;height:8px;border-radius:50%;background:rgba(12,50,52,.18)}
 .dndots i.on{background:var(--teal)}
@@ -2158,7 +2189,7 @@ window.crSafe = function(s) {
 <a class="cta" href="../index.html#talk">{{sh.mast.53}}</a>
 </nav>
 </div></div>
-<nav class="pgnav" aria-label="On this page"><div class="wrap"><a href="#causes">{{pgnav.1}}</a><a href="#the-notes">{{pgnav.2}}</a><a href="#baseline">{{pgnav.3}}</a><a href="#add">{{pgnav.4}}</a><a href="#next">{{pgnav.5}}</a></div></nav>
+<nav class="pgnav" aria-label="On this page"><div class="wrap"><a href="#causes">{{pgnav.1}}</a><a href="#the-notes">{{pgnav.2}}</a><a href="#baseline">{{pgnav.3}}</a><a href="#next">{{pgnav.5}}</a></div></nav>
 <main id="main">
 <section class="rule rptpage dnhero" id="notes-top" style="border-top:0"><div class="wrap ctr">
 <span class="lab big">{{notestop.1}}</span>
@@ -2176,13 +2207,13 @@ window.crSafe = function(s) {
 <h2 class="cen">{{causes.2}}</h2>
 <p class="sd cen">{{causes.3}}</p>
 <div class="dntal">
-<button class="dnt" type="button" data-f="reg" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.4}}</span><span class="dntb" aria-hidden="true"><i style="width:30%"></i></span><span class="dntn">3<span class="vh"> {{causes.5}}</span></span></button>
-<button class="dnt" type="button" data-f="mae" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.6}}</span><span class="dntb" aria-hidden="true"><i style="width:20%"></i></span><span class="dntn">2<span class="vh"> {{causes.7}}</span></span></button>
-<button class="dnt" type="button" data-f="finding" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.8}}</span><span class="dntb" aria-hidden="true"><i style="width:20%"></i></span><span class="dntn">2<span class="vh"> {{causes.9}}</span></span></button>
-<button class="dnt" type="button" data-f="conduct" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.10}}</span><span class="dntb" aria-hidden="true"><i style="width:10%"></i></span><span class="dntn">1<span class="vh"> {{causes.11}}</span></span></button>
-<button class="dnt" type="button" data-f="deadline" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.12}}</span><span class="dntb" aria-hidden="true"><i style="width:10%"></i></span><span class="dntn">1<span class="vh"> {{causes.13}}</span></span></button>
-<button class="dnt" type="button" data-f="offer" aria-pressed="false" aria-controls="dnlist"><span class="dntl">{{causes.14}}</span><span class="dntb" aria-hidden="true"><i style="width:10%"></i></span><span class="dntn">1<span class="vh"> {{causes.15}}</span></span></button>
-<button class="dnall" id="dnall" type="button" aria-pressed="true" aria-controls="dnlist">{{causes.16}}</button>
+<div class="dnrow" data-f="reg"><button class="dnt" type="button" data-f="reg" aria-expanded="false" aria-controls="dnp-reg"><span class="dntl">{{causes.4}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>3</b><small> {{causes.5}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-reg"><div class="dnpi"></div></div></div>
+<div class="dnrow" data-f="mae"><button class="dnt" type="button" data-f="mae" aria-expanded="false" aria-controls="dnp-mae"><span class="dntl">{{causes.6}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>2</b><small> {{causes.7}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-mae"><div class="dnpi"></div></div></div>
+<div class="dnrow" data-f="finding"><button class="dnt" type="button" data-f="finding" aria-expanded="false" aria-controls="dnp-finding"><span class="dntl">{{causes.8}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>2</b><small> {{causes.9}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-finding"><div class="dnpi"></div></div></div>
+<div class="dnrow" data-f="conduct"><button class="dnt" type="button" data-f="conduct" aria-expanded="false" aria-controls="dnp-conduct"><span class="dntl">{{causes.10}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>1</b><small> {{causes.11}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-conduct"><div class="dnpi"></div></div></div>
+<div class="dnrow" data-f="deadline"><button class="dnt" type="button" data-f="deadline" aria-expanded="false" aria-controls="dnp-deadline"><span class="dntl">{{causes.12}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>1</b><small> {{causes.13}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-deadline"><div class="dnpi"></div></div></div>
+<div class="dnrow" data-f="offer"><button class="dnt" type="button" data-f="offer" aria-expanded="false" aria-controls="dnp-offer"><span class="dntl">{{causes.14}}</span><span class="dntb" aria-hidden="true"><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="dntn"><b>1</b><small> {{causes.15}}</small></span><span class="dntc" aria-hidden="true"></span></button><div class="dnp" id="dnp-offer"><div class="dnpi"></div></div></div>
+<button class="dnall" id="dnall" type="button" aria-pressed="false" aria-controls="dnlist">{{causes.16}}</button>
 </div>
 <p class="dnshow" id="dnshow" aria-live="polite">{{causes.17}}</p>
 </div></section>
@@ -4095,40 +4126,112 @@ function hsSubmit(kind, d, ok, fail) {
 </script>
 <script>
 (function() {
- var bs = [].slice.call(document.querySelectorAll(".dnt")), all = document.getElementById("dnall"), cs = [].slice.call(document.querySelectorAll(".dnc")), out = document.getElementById("dnshow");
- if (!cs.length) return;
- function set(f) {
+ var tal = document.querySelector(".dntal"), rows = [].slice.call(document.querySelectorAll(".dnrow")), all = document.getElementById("dnall"), cs = [].slice.call(document.querySelectorAll(".dnc")), out = document.getElementById("dnshow");
+ if (!tal || !cs.length) return;
+ function txt(el) {
+  return el ? el.textContent.replace(/\s+/g, " ").trim() : "";
+ }
+ rows.forEach((function(r, ri) {
+  var f = r.getAttribute("data-f"), box = r.querySelector(".dnpi"), ol = document.createElement("ol"), k = 0, cells = [].slice.call(r.querySelectorAll(".dntb i.f"));
+  cells.forEach((function(c, ci) {
+   c.style.setProperty("--d", ri * 140 + ci * 90 + "ms");
+  }));
+  cs.forEach((function(c) {
+   if (c.getAttribute("data-cause") !== f) return;
+   var meta = c.querySelectorAll(".dnmeta span"), rep = c.querySelector(".dnb.rep"), li = document.createElement("li"), a = document.createElement("a"), cell = cells[k];
+   li.style.setProperty("--k", k);
+   a.href = "#" + c.id;
+   a.setAttribute("data-id", c.id);
+   a.innerHTML = '<span class="pn"></span><span class="pd"><b></b><span></span></span><span class="pr">Read the note \u2193</span>';
+   a.querySelector(".pn").textContent = txt(c.querySelector(".dnn"));
+   a.querySelector(".pd b").textContent = txt(c.querySelector("h3"));
+   if (rep) {
+    var em = document.createElement("em");
+    em.textContent = txt(rep);
+    a.querySelector(".pd b").appendChild(em);
+   }
+   a.querySelector(".pd span").textContent = [ txt(meta[0]), txt(meta[meta.length - 1]) ].filter(Boolean).join(" \u00b7 ");
+   if (cell) {
+    a.addEventListener("mouseenter", (function() {
+     cell.classList.add("hl");
+    }));
+    a.addEventListener("mouseleave", (function() {
+     cell.classList.remove("hl");
+    }));
+    a.addEventListener("focus", (function() {
+     cell.classList.add("hl");
+    }));
+    a.addEventListener("blur", (function() {
+     cell.classList.remove("hl");
+    }));
+   }
+   a.addEventListener("click", (function(e) {
+    e.preventDefault();
+    document.dispatchEvent(new CustomEvent("dngo", {
+     detail: c.id
+    }));
+   }));
+   li.appendChild(a);
+   ol.appendChild(li);
+   k++;
+  }));
+  box.appendChild(ol);
+ }));
+ function filter(f) {
   var n = 0;
   cs.forEach((function(c) {
    var on = !f || c.getAttribute("data-cause") === f;
-   c.hidden = !on;
+   if (c.hidden === on) c.hidden = !on;
    if (on) n++;
   }));
-  bs.forEach((function(b) {
-   b.setAttribute("aria-pressed", b.getAttribute("data-f") === f ? "true" : "false");
+  if (out) out.textContent = f ? "Showing " + n + " of " + cs.length + " notes below." : "Showing all " + cs.length + " notes below.";
+ }
+ function open(list) {
+  rows.forEach((function(r) {
+   var on = list.indexOf(r) > -1;
+   r.classList.toggle("x", on);
+   r.querySelector(".dnt").setAttribute("aria-expanded", on ? "true" : "false");
   }));
-  if (all) all.setAttribute("aria-pressed", f ? "false" : "true");
-  if (out) out.textContent = f ? "Showing " + n + " of " + cs.length + " notes." : "Showing all " + cs.length + " notes.";
+  if (all) all.setAttribute("aria-pressed", list.length === rows.length ? "true" : "false");
+  filter(list.length === 1 ? list[0].getAttribute("data-f") : "");
  }
- function openAll() {
-  var dk = document.getElementById("dndeck"), op = document.getElementById("dnopen");
-  if (dk && !dk.classList.contains("open") && op) op.click();
-  var t = document.getElementById("the-notes");
-  if (t) t.scrollIntoView({
-   block: "start",
-   behavior: "smooth"
-  });
- }
- bs.forEach((function(b) {
-  b.addEventListener("click", (function() {
-   set(b.getAttribute("aria-pressed") === "true" ? "" : b.getAttribute("data-f"));
-   openAll();
+ rows.forEach((function(r) {
+  r.querySelector(".dnt").addEventListener("click", (function() {
+   open(r.classList.contains("x") && !(all && all.getAttribute("aria-pressed") === "true") ? [] : [ r ]);
   }));
  }));
  if (all) all.addEventListener("click", (function() {
-  set("");
-  openAll();
+  open(all.getAttribute("aria-pressed") === "true" ? [] : rows.slice());
  }));
+ var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+ if (!calm && "IntersectionObserver" in window) {
+  tal.classList.add("anim");
+  var nums = [].slice.call(tal.querySelectorAll(".dntn b"));
+  nums.forEach((function(b) {
+   b.setAttribute("data-n", b.textContent);
+   b.textContent = "0";
+  }));
+  var io = new IntersectionObserver((function(es) {
+   if (!es.some((function(e) {
+    return e.isIntersecting;
+   }))) return;
+   io.disconnect();
+   tal.classList.add("run");
+   nums.forEach((function(b, i) {
+    var n = +b.getAttribute("data-n"), t0 = null;
+    function step(t) {
+     if (t0 === null) t0 = t;
+     var p = Math.min(1, (t - t0 - i * 140) / (n * 90 + 360));
+     b.textContent = String(Math.max(0, Math.round(n * p)));
+     if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+   }));
+  }), {
+   threshold: .25
+  });
+  io.observe(tal);
+ }
 })();
 </script>
 <script>
@@ -4278,7 +4381,7 @@ function hsSubmit(kind, d, ok, fail) {
  }
  var deck = document.querySelector(".dndeck");
  if (deck) {
-  var list = deck.querySelector(".dnlist"), prev = document.getElementById("dnprev"), nxt = document.getElementById("dnnext"), pos = document.getElementById("dnpos"), dots = document.getElementById("dndots"), opn = document.getElementById("dnopen"), at = 0;
+  var list = deck.querySelector(".dnlist"), prev = document.getElementById("dnprev"), nxt = document.getElementById("dnnext"), pos = document.getElementById("dnpos"), dots = document.getElementById("dndots"), opn = document.getElementById("dnopen"), ctl = document.querySelector(".dnctl"), at = 0;
   function vis() {
    return Array.prototype.filter.call(list.querySelectorAll(".dnc"), (function(c) {
     return !c.hidden;
@@ -4310,9 +4413,14 @@ function hsSubmit(kind, d, ok, fail) {
      dots.appendChild(d);
     }));
    }
-   if (deck.classList.contains("open")) {
+   var lm = deck.classList.contains("open");
+   if (ctl) ctl.classList.toggle("list", lm);
+   if (dots) dots.classList.toggle("list", lm);
+   deck.setAttribute("aria-label", lm ? "The notes, as a list" : "The notes, one at a time");
+   if (lm) {
     Array.prototype.forEach.call(list.querySelectorAll(".dnc"), (function(c) {
      c.removeAttribute("aria-hidden");
+     c.inert = false;
     }));
    }
   }
@@ -4334,7 +4442,7 @@ function hsSubmit(kind, d, ok, fail) {
   }));
   if (opn) opn.addEventListener("click", (function() {
    var o = deck.classList.toggle("open");
-   opn.textContent = o ? "Stack the notes" : "Open all notes";
+   opn.textContent = o ? "Read one at a time" : "Read as a list";
    opn.setAttribute("aria-pressed", o ? "true" : "false");
    paint();
   }));
@@ -4372,6 +4480,27 @@ function hsSubmit(kind, d, ok, fail) {
     attributeFilter: [ "hidden" ]
    });
   }
+  document.addEventListener("dngo", (function(e) {
+   var id = e.detail;
+   setTimeout((function() {
+    if (deck.classList.contains("open") && opn) opn.click();
+    var v = vis(), k = -1;
+    v.forEach((function(c, i) {
+     if (c.id === id) k = i;
+    }));
+    if (k < 0) return;
+    at = k;
+    paint();
+    var t = document.getElementById("the-notes");
+    if (t) t.scrollIntoView({
+     block: "start",
+     behavior: "smooth"
+    });
+    try {
+     history.replaceState(null, "", "#" + id);
+    } catch (x) {}
+   }), 0);
+  }));
   paint();
  }
 })();

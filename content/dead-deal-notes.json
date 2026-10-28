@@ -23,11 +23,6 @@
      "text": "The lower middle market"
     },
     {
-     "key": "pgnav.4",
-     "kind": "Link",
-     "text": "Add yours"
-    },
-    {
      "key": "pgnav.5",
      "kind": "Link",
      "text": "Your deal"
@@ -97,7 +92,7 @@
     {
      "key": "causes.3",
      "kind": "Paragraph",
-     "text": "Each note is counted once, under the main cause the court or the filings give. Choose a cause to see only those notes."
+     "text": "Ten public cases, each counted once under the main cause the court or the filings give. Open a cause to see its deals."
     },
     {
      "key": "causes.4",
@@ -183,7 +178,7 @@
     {
      "key": "thenotes.2",
      "kind": "Paragraph",
-     "text": "One note at a time, the rest stacked behind it. Use the arrows, the keyboard, or a swipe; open all of them to read straight through."
+     "text": "One note at a time. Use the arrows, the keyboard or a swipe, or read them all as a list."
     },
     {
      "key": "thenotes.3",
@@ -203,7 +198,7 @@
     {
      "key": "thenotes.6",
      "kind": "Button",
-     "text": "Open all notes"
+     "text": "Read as a list"
     },
     {
      "key": "thenotes.7",
@@ -1314,7 +1309,7 @@
     {
      "key": "baseline.3",
      "kind": "Paragraph",
-     "text": "Public cases lean toward large deals and toward the disputes that reach a court or a regulator. Most lower-middle-market deals die in diligence, under exclusivity, and no court ever hears about them. This is the closest published view of that market: seventy-five letters of intent that were signed and then collapsed, and the reasons they collapsed, as reported."
+     "text": "Public cases lean toward large deals and toward the disputes that reach a court or a regulator. Many lower-middle-market deals die in diligence, under exclusivity, and no court ever hears about them. This is the closest published view of that market: seventy-five letters of intent that were signed and then collapsed, and the reasons they collapsed, as reported."
     },
     {
      "key": "baseline.4",
@@ -1375,7 +1370,7 @@
     {
      "key": "add.1",
      "kind": "Small label",
-     "text": "Dead Deal Notes · Add yours"
+     "text": "Dead Deal Notes · Second opinion"
     },
     {
      "key": "add.2",
@@ -1385,7 +1380,7 @@
     {
      "key": "add.3",
      "kind": "Paragraph",
-     "text": "Each note is coded the same way: what was found, at what stage, by which kind of buyer, and what it cost. Read together, they show which findings end deals, which only move the price, and which a buyer rarely raises. Tell us what happened to yours, confidentially. With your permission it joins these notes with every identifying detail removed, and you get twenty minutes with our team on what a buyer is likely to raise next time."
+     "text": "Each note is coded the same way: what was found, at what stage, by which kind of buyer, and what it cost. Read together, they show which findings end deals, which only move the price, and which a buyer rarely raises. Tell us what happened to yours and get a second opinion: twenty minutes with our team on what broke and what a buyer is likely to raise next time. With your permission, your deal joins these notes with every identifying detail removed."
     },
     {
      "key": "add.4",
@@ -1395,7 +1390,7 @@
     {
      "key": "add.5",
      "kind": "Note",
-     "text": "Read by a person. Nothing is published without your written permission."
+     "text": "Confidential by design. Read by a person, and nothing is published without your written permission."
     }
    ]
   },
