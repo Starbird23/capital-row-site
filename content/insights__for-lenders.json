@@ -26,7 +26,7 @@
   },
   {
    "id": "inner",
-   "name": "You are underwriting the paper, not buying the company.",
+   "name": "A software borrower’s revenue is its customers’ credit.",
    "items": [
     {
      "key": "inner.1",
@@ -41,12 +41,12 @@
     {
      "key": "inner.3",
      "kind": "Page headline",
-     "text": "You are underwriting the paper, <em>not buying the company.</em>"
+     "text": "A software borrower’s revenue <em>is its customers’ credit.</em>"
     },
     {
      "key": "inner.4",
      "kind": "Paragraph",
-     "text": "A software borrower’s revenue is its customers’ credit. Software loans were marked down this year and have only partly recovered, and the distress has moved to the borrowers’ customers. What the record shows, and the evidence a borrower can assemble before the credit committee asks."
+     "text": "Software loans were marked down this year and have only partly recovered, and the distress has moved to the borrowers’ customers. What the record shows, and the evidence a borrower can assemble before the credit committee asks."
     },
     {
      "key": "inner.5",
