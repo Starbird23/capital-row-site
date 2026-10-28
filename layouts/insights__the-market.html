@@ -5645,7 +5645,7 @@ window.crSecs = function(id) {
   if (!s) return "";
   var v = s.value;
   if (!/band_owner$/.test(s.getAttribute("data-list") || "")) return v;
-  if (v === "Pre-revenue") return "Under $1M";
+  if (v === "Pre-revenue") return isArr(s) ? "Pre-revenue" : "Under $1M";
   if (v === "Under $5M") {
    var n = amt(s);
    return isFinite(n) ? isArr(s) ? arrOf(n) : revOf(n) : "";

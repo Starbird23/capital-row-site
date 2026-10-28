@@ -42,7 +42,7 @@ export const HS_SCHEMA = {
   "acquisition_strategy": {"t": "enum", "o": ["Platform Acquisition", "Add-on / Bolt-on", "Both"]},
   "acquisition_timeline": {"t": "enum", "o": ["Acquiring now", "Within 6 months", "Within 12 months", "Opportunistic"]},
   "adjusted_earnings_band": {"t": "enum", "o": ["Pre-profit / Not yet profitable", "Under $500K", "$500K–$1M", "$1M–$3M", "$3M–$5M", "$5M–$10M", "$10M–$25M", "$25M+", "Prefer not to say"]},
-  "arr_band": {"t": "enum", "o": ["Under $1M", "$1M–$3M", "$3M–$5M", "$5M–$10M", "$10M–$20M", "Over $20M", "Unknown"]},
+  "arr_band": {"t": "enum", "o": ["Pre-revenue", "Under $1M", "$1M–$3M", "$3M–$5M", "$5M–$10M", "$10M–$20M", "Over $20M", "Unknown"]},
   "avoid_geography": {"t": "enum", "multi": true, "o": ["National, all 50 states", "Northeast", "Mid-Atlantic", "Southeast", "Midwest", "South Central", "Southwest", "Mountain West", "Pacific Northwest", "California", "Alaska", "Hawaii", "US territories", "Canada", "Mexico", "Caribbean", "Central America", "South America", "United Kingdom and Ireland", "Europe", "Middle East", "Africa", "Asia", "Australia and New Zealand", "International, anywhere"]},
   "buyer_exclusions": {"t": "text"},
   "buyer_ownership_appetite": {"t": "enum", "o": ["Control", "Majority", "Significant Minority", "Minority", "Flexible"]},

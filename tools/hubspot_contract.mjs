@@ -30,6 +30,7 @@ const C = [
   ['Valuation calculator', 'owner', { ...person, ...secs, role: 'Owner or founder', kind: 'Services', revenue_raw: 7500000, earnings_raw: 1200000, heard_via: 'LinkedIn' }],
   ['Valuation calculator', 'owner, blank earnings', { ...person, ...secs, role: 'Owner or founder', kind: 'Vertical software, SaaS', revenue_raw: 950000, earnings_raw: NaN }],
   ['Valuation calculator', 'advisor', { ...person, ...secs, role: 'Advisor to the owner', kind: 'Services', revenue_raw: 7500000, earnings_raw: -20000 }],
+  ['Conversation', 'pre-revenue software', { ...person, ...secs, side: 'Seller', kind: 'Vertical software, SaaS', lead: 'Software', recurring_revenue: 'Pre-revenue', website: 'https://www.example.com', updates: 'no' }],
   ['Capital Connections', '', { ...person, ...secs, business_type: 'Another company type', revenue_band: '$20M-$50M', arr_band: 'Over $20M', headquarters: 'United States', stage: 'Refinancing' }],
 ];
 let fails = 0; const seen = new Set();
@@ -66,6 +67,7 @@ for (const [kind, label, d] of C) {
   if (label === 'main product' && !/Main product: Behavioral & specialty health: Billing and claims/.test(v('message') || '')) bad('main product missing from the message');
   if (label === 'no answer' && v('industry__subsector', '0-2') !== 'Electronic health records (EHR/EMR)') bad('no answer should use the sector table');
   if (kind === 'Pre-Market Assessment request' && !label && (v('industry__subsector', '0-2') !== 'Dental practice software' || v('revenue_band', '0-2') !== 'Under $1M' || v('arr_band', '0-2'))) bad('assessment values');
+  if (label === 'pre-revenue software' && v('arr_band', '0-2') !== 'Pre-revenue') bad('pre-revenue ARR band: ' + v('arr_band', '0-2'));
   if (kind === 'Follow a sector' && v('sectors_followed') !== 'hc_dental_practice_software;built_roofing_and_restoration_software') bad('followed');
   if (kind === 'Owner session seat' && v('cr_contact_type') !== 'intermediary') bad('seat contact type');
 }
