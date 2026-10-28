@@ -36,7 +36,7 @@
     {
      "key": "inner.2",
      "kind": "Text",
-     "text": "For owners"
+     "text": "For sellers"
     },
     {
      "key": "inner.3",
@@ -450,12 +450,12 @@
   },
   {
    "id": "next",
-   "name": "For owners",
+   "name": "For sellers",
    "items": [
     {
      "key": "next.1",
      "kind": "Small label",
-     "text": "For owners"
+     "text": "For sellers"
     },
     {
      "key": "next.2",

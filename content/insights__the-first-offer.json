@@ -1,6 +1,6 @@
 {
  "path": "/insights/the-first-offer/",
- "seoTitle": "Selling to one buyer or running a process | Capital Row",
+ "seoTitle": "The first offer: one buyer or a process | Capital Row",
  "seoDescription": "For vertical software founders with an inbound offer: what the evidence says about selling to one buyer against running a process, what changes under exclusivity, and the terms behind the price.",
  "sections": [
   {
@@ -21,7 +21,7 @@
   },
   {
    "id": "inner",
-   "name": "One buyer or a process. The price follows whoever has seen the market.",
+   "name": "The first offer. The price follows whoever has tested the market.",
    "items": [
     {
      "key": "inner.1",
@@ -31,7 +31,7 @@
     {
      "key": "inner.2",
      "kind": "Text",
-     "text": "For owners"
+     "text": "For sellers"
     },
     {
      "key": "inner.3",
@@ -41,12 +41,12 @@
     {
      "key": "inner.4",
      "kind": "Page headline",
-     "text": "One buyer or a process. <em>The price follows whoever has seen the market.</em>"
+     "text": "The first offer. <em>The price follows whoever has tested the market.</em>"
     },
     {
      "key": "inner.5",
      "kind": "Paragraph",
-     "text": "If your vertical software company has real recurring revenue, buyers already write to you: private equity platforms building in your vertical, holding companies that buy to keep, the competitor next to you. The pitch is familiar: no banker, no auction, a fair price and a quicker close. Sometimes that is the right deal. What the research says about selling to one buyer against running a process, what changes once you sign exclusivity, and what to have in hand before you answer."
+     "text": "If your vertical software company has real recurring revenue, buyers already write to you: private equity platforms building in your vertical, holding companies that buy and hold to compound cash flow, the competitor next to you. The pitch is familiar: no banker, no auction, a fair price and a quicker close. Sometimes that is the right deal. What the research says about selling to one buyer against running a process, what changes once you sign exclusivity, and what to have in hand before you answer."
     },
     {
      "key": "inner.6",
@@ -188,7 +188,7 @@
     {
      "key": "read.5",
      "kind": "Heading",
-     "text": "One buyer or a process"
+     "text": "Selling to one buyer, or running a process"
     },
     {
      "key": "read.6",
@@ -354,12 +354,12 @@
   },
   {
    "id": "next",
-   "name": "For owners",
+   "name": "For sellers",
    "items": [
     {
      "key": "next.1",
      "kind": "Small label",
-     "text": "For owners"
+     "text": "For sellers"
     },
     {
      "key": "next.2",

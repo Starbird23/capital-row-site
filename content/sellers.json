@@ -1,6 +1,6 @@
 {
  "path": "/sellers/",
- "seoTitle": "For owners: the earnings behind your price | Capital Row",
+ "seoTitle": "For sellers: the earnings behind your price | Capital Row",
  "seoDescription": "For owners of vertical software and tech-enabled services: the earnings questions a buyer will raise, traced to source documents, before you go to market.",
  "sections": [
   {
@@ -913,7 +913,7 @@
     {
      "key": "broken.1",
      "kind": "Small label",
-     "text": "For owners · Dead deals"
+     "text": "For sellers · Dead deals"
     },
     {
      "key": "broken.2",

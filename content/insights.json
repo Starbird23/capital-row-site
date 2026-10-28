@@ -15,7 +15,7 @@
     {
      "key": "pgnav.2",
      "kind": "Link",
-     "text": "For owners"
+     "text": "For sellers"
     },
     {
      "key": "pgnav.3",
@@ -178,7 +178,7 @@
     {
      "key": "owners.1",
      "kind": "Small label",
-     "text": "Insights · For owners"
+     "text": "Insights · For sellers"
     },
     {
      "key": "owners.2",
@@ -213,7 +213,7 @@
     {
      "key": "owners.8",
      "kind": "Text",
-     "text": "One buyer or a process."
+     "text": "The price follows whoever has tested the market."
     },
     {
      "key": "owners.9",
