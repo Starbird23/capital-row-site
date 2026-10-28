@@ -1543,24 +1543,36 @@
     "Select one"
    ],
    [
-    "Under $5M",
-    "Under $5M"
+    "Under $1M",
+    "Under $1M"
    ],
    [
-    "$5M to $10M",
+    "$1M-$3M",
+    "$1M to $3M"
+   ],
+   [
+    "$3M-$5M",
+    "$3M to $5M"
+   ],
+   [
+    "$5M-$10M",
     "$5M to $10M"
    ],
    [
-    "$10M to $25M",
-    "$10M to $25M"
+    "$10M-$20M",
+    "$10M to $20M"
    ],
    [
-    "$25M to $50M",
-    "$25M to $50M"
+    "$20M-$50M",
+    "$20M to $50M"
    ],
    [
-    "Over $50M",
-    "Over $50M"
+    "$50M-$150M",
+    "$50M to $150M"
+   ],
+   [
+    "Over $150M",
+    "Over $150M"
    ],
    [
     "Prefer not to say",
