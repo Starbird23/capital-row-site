@@ -2280,6 +2280,166 @@
     "built_field_service_management_software",
     "HVAC, plumbing & electrical"
    ]
+  ],
+  "prod.hc_behavioral_and_specialty_health": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Electronic health records (EHR/EMR)",
+    "Clinical records (EHR)"
+   ],
+   [
+    "Revenue-cycle-management software",
+    "Billing and claims"
+   ],
+   [
+    "Practice-management software",
+    "Scheduling and practice management"
+   ],
+   [
+    "Telehealth software platforms",
+    "Telehealth"
+   ],
+   [
+    "Patient engagement & access software",
+    "Patient engagement and intake"
+   ],
+   [
+    "Healthcare analytics & population health",
+    "Outcomes and analytics"
+   ],
+   [
+    "Other healthcare it (hcit)",
+    "Something else"
+   ]
+  ],
+  "prod.hc_pharmacy_dme_and_infusion": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Pharmacy management software",
+    "Pharmacy management"
+   ],
+   [
+    "Post-acute & home-care software",
+    "Home infusion or home medical equipment"
+   ],
+   [
+    "Electronic health records (EHR/EMR)",
+    "Clinical records"
+   ],
+   [
+    "Revenue-cycle-management software",
+    "Billing and claims"
+   ],
+   [
+    "Patient engagement & access software",
+    "Patient engagement and refills"
+   ],
+   [
+    "Other healthcare it (hcit)",
+    "Something else"
+   ]
+  ],
+  "prod.hc_physical_therapy_and_rehab_software": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Electronic health records (EHR/EMR)",
+    "Clinical documentation (EMR)"
+   ],
+   [
+    "Revenue-cycle-management software",
+    "Billing and claims"
+   ],
+   [
+    "Practice-management software",
+    "Scheduling and practice management"
+   ],
+   [
+    "Patient engagement & access software",
+    "Patient engagement and home exercise"
+   ],
+   [
+    "Remote-monitoring software platforms",
+    "Remote therapeutic monitoring"
+   ],
+   [
+    "Telehealth software platforms",
+    "Telehealth"
+   ],
+   [
+    "Other healthcare it (hcit)",
+    "Something else"
+   ]
+  ],
+  "prod.hc_healthcare_staffing_and_scheduling_software": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Hospital & clinical operations software",
+    "Shift and staff scheduling"
+   ],
+   [
+    "Credentialing & provider-data software",
+    "Credentialing"
+   ],
+   [
+    "Other healthcare it (hcit)",
+    "Staffing marketplace or recruiting"
+   ],
+   [
+    "Other healthcare it (hcit)",
+    "Something else"
+   ]
+  ],
+  "prod.fleet_freight_brokerage_and_visibility_software": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Transportation-management systems",
+    "Brokerage operations (TMS)"
+   ],
+   [
+    "Digital freight marketplaces",
+    "Load matching or freight marketplace"
+   ],
+   [
+    "Supply-chain visibility software",
+    "Shipment tracking and visibility"
+   ],
+   [
+    "Other logistics & transportation technology",
+    "Something else"
+   ]
+  ],
+  "prod.hosp_event_and_venue_management_software": [
+   [
+    "",
+    "Select one"
+   ],
+   [
+    "Ticketing & experience software",
+    "Ticketing and registration"
+   ],
+   [
+    "Booking & reservation software",
+    "Venue booking and scheduling"
+   ],
+   [
+    "Other travel & hospitality technology",
+    "Something else"
+   ]
   ]
  },
  "text": {
@@ -2484,6 +2644,8 @@
   "sheet.start_in": "Open desks in your sectors",
   "sheet.start_near": "Open desks in the same industries",
   "sheet.start_none": "No desk is open in these sectors yet. Ask us which desks are planned for them.",
-  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market."
+  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market.",
+  "picker.product": "Your main product for {sector}",
+  "picker.optional": "Optional"
  }
 }

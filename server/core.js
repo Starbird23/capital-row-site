@@ -71,9 +71,11 @@ const uniq = (vals) => [...new Set(vals.filter(Boolean))].join(';');
 // returns { fatal: [...], fields: [the fields HubSpot will keep], dropped: [names] }
 export function cleanFields(kind, fields, cfg) {
   if (!Array.isArray(fields) || !fields.length || fields.length > 160) return { fatal: ['fields'], fields: [], dropped: [] };
-  const got = {}, dropped = [];
+  const got = {}, dropped = [], prods = {};
   for (const f of fields) {
     if (!f || typeof f.name !== 'string' || typeof f.value !== 'string') { dropped.push('?'); continue; }
+    // the owner's "Your main product for <sector>" answers, as sector=subsector pairs; used below, not a HubSpot field itself
+    if (f.name === 'sector_products') { for (const p of f.value.split(';')) { const i = p.indexOf('='); if (i > 0) prods[p.slice(0, i).trim()] = p.slice(i + 1).trim(); } continue; }
     const o = f.objectTypeId || '0-1', n = (o === '0-1' && RENAMED[f.name]) || f.name;
     if (MESSAGE_ONLY.has(n)) continue;
     let v = f.value;
@@ -97,7 +99,8 @@ export function cleanFields(kind, fields, cfg) {
     set('0-2', 'company_type', 'Seller or target');
     set('0-2', 'end_markets_served', val('0-1', 'website_industries'));   // the website's 12, the same list as a buyer's Target end markets
     if (secs.length) {   // only when every sector the owner chose agrees; otherwise left for a person (the sectors are on the contact)
-      set('0-2', 'industry__subsector', one(secs.map((x) => SECTOR_MAP[x].sub)));
+      // the owner's own answer to "Your main product" wins over the sector table for that sector
+      set('0-2', 'industry__subsector', one(secs.map((x) => (prods[x] && fit('0-2', 'industry__subsector', prods[x])) || SECTOR_MAP[x].sub)));
       set('0-2', 'industry_segment', one(secs.map((x) => SECTOR_MAP[x].seg)));
       set('0-2', 'custom_industry', one(secs.map((x) => SECTOR_MAP[x].ind)));
     }

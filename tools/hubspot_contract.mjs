@@ -22,6 +22,8 @@ const C = [
   ['Conversation', 'lender', { ...person, ...secs, side: 'Lender', kind: 'SBA 7(a) lender', ln_purpose: 'Refer a borrower', ln_geo: 'United States', ln_min: '1000000', ln_max: 'No maximum', ln_cash: 'Break-even acceptable' }],
   ['Buy box', 'buyer', { ...person, kind: 'Strategic', title: 'Vice President', website: 'https://acme.com', acquisition_context: 'A new platform; An add-on to an existing platform', platform_name: 'Acme Health', ownership: 'Majority', firm_sector_ids: 'hc_dental_practice_software', sector_ids: 'built_field_service_management_software', firm_industry_ids: 'hc', industry_ids: 'built', business_model: 'Vertical software; Software + services', geography: 'Southeast;Midwest', avoid_geography: 'Europe', geography_detail: 'Florida', customer_markets: 'United States;Canada', profitability: 'Profitable required', revenue_model: 'Subscription;Mixed', recurring_pref: 'Mostly recurring required', growth: '10_plus', capital: 'under_5m', role: 'lead_only', regulated: 'Case by case', owner_after_close: 'Either', timing: 'Acquiring now', funding: 'Committed capital', exclusions: 'No staffing', rev_min: '5000000', rev_max: 'No maximum', arr_min: '2000000', arr_max: '20000000', ebitda_min: '1000000', ebitda_max: '8000000', ev_min: '10000000', ev_max: '100000000', eq_min: '5000000', eq_max: '40000000', updates: 'yes' }],
   ['Follow a sector', '', { ...person, sector: 'Dental' }],
+  ['Pre-Market Assessment request', 'main product', { ...person, sector_ids: 'hc_behavioral_and_specialty_health', sector_products: 'hc_behavioral_and_specialty_health=Revenue-cycle-management software', products_text: 'Behavioral & specialty health: Billing and claims', industry_ids: 'hc', about: 'Sell-Side QoE', kind: 'Vertical software, SaaS', revenue_band: '$5M-$10M', arr_band: '$3M–$5M', timing: 'Within 6 months', owner_session: 'no' }],
+  ['Pre-Market Assessment request', 'no answer', { ...person, sector_ids: 'hc_behavioral_and_specialty_health', industry_ids: 'hc', about: 'Sell-Side QoE', kind: 'Vertical software, SaaS', revenue_band: '$5M-$10M', arr_band: '$3M–$5M', timing: 'Within 6 months', owner_session: 'no' }],
   ['Pre-Market Assessment request', '', { ...person, sector_ids: 'hc_dental_practice_software', industry_ids: 'hc', about: 'Sell-Side QoE', kind: 'Hybrid models', lead: 'Software', revenue_band: 'Under $1M', arr_band: 'Not applicable', timing: 'Within 6 months', owner_session: 'no' }],
   ['Owner session seat', '', { ...person, ...secs, role: 'CPA or accountant' }],
   ['Bad or broken deal report', '', { ...person, ...secs, main_reason: 'Financing', contact_ok: 'yes', anonymous_use_ok: 'no' }],
@@ -36,7 +38,7 @@ for (const [kind, label, d] of C) {
   const fields = JSON.parse(JSON.stringify(ctx.hsFields(kind, d)));
   const r = cleanFields(kind, fields, null);
   console.log(`${kind}${label ? ' (' + label + ')' : ''}: ${r.fields.length} fields to HubSpot`);
-  for (const f of fields) if (!propOf(f.objectTypeId || '0-1', f.name)) bad(`page sends ${f.name} (${f.objectTypeId}), not a HubSpot property on that record`);
+  for (const f of fields) if (f.name !== 'sector_products' && !propOf(f.objectTypeId || '0-1', f.name)) bad(`page sends ${f.name} (${f.objectTypeId}), not a HubSpot property on that record`);
   if (r.fatal.length) bad('refused: ' + r.fatal.join(', '));
   if (r.dropped.length) bad('HubSpot would discard: ' + r.dropped.join(', '));
   for (const f of r.fields) seen.add((f.objectTypeId === '0-2' ? 'company ' : 'contact ') + f.name);
@@ -60,7 +62,10 @@ for (const [kind, label, d] of C) {
   if (kind === 'Valuation calculator' && label === 'owner, blank earnings' && (v('revenue_band', '0-2') !== 'Under $1M' || v('adjusted_earnings_band', '0-2'))) bad('blank earnings');
   if (kind === 'Valuation calculator' && label === 'advisor' && (v('revenue_band', '0-2') || v('company_type', '0-2'))) bad('advisor set company facts');
   if (kind === 'Buy box' && (v('target_verticals', '0-2') !== 'Healthcare IT (HCIT);Construction technology' || v('acquisition_strategy', '0-2') !== 'Both' || v('buyer_ownership_appetite', '0-2') !== 'Majority')) bad('buy box values');
-  if (kind === 'Pre-Market Assessment request' && (v('industry__subsector', '0-2') !== 'Dental practice software' || v('revenue_band', '0-2') !== 'Under $1M' || v('arr_band', '0-2'))) bad('assessment values');
+  if (label === 'main product' && v('industry__subsector', '0-2') !== 'Revenue-cycle-management software') bad('main product answer not used: ' + v('industry__subsector', '0-2'));
+  if (label === 'main product' && !/Main product: Behavioral & specialty health: Billing and claims/.test(v('message') || '')) bad('main product missing from the message');
+  if (label === 'no answer' && v('industry__subsector', '0-2') !== 'Electronic health records (EHR/EMR)') bad('no answer should use the sector table');
+  if (kind === 'Pre-Market Assessment request' && !label && (v('industry__subsector', '0-2') !== 'Dental practice software' || v('revenue_band', '0-2') !== 'Under $1M' || v('arr_band', '0-2'))) bad('assessment values');
   if (kind === 'Follow a sector' && v('sectors_followed') !== 'hc_dental_practice_software;built_roofing_and_restoration_software') bad('followed');
   if (kind === 'Owner session seat' && v('cr_contact_type') !== 'intermediary') bad('seat contact type');
 }

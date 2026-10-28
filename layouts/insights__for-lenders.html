@@ -2396,7 +2396,7 @@ body.vcopen .pgnav,body.tkopen .pgnav{z-index:1}
 .vcsrcd p{margin:8px 0 0}.vcsrcd a{color:var(--teal)}
 .spq{width:100%;min-height:44px;padding:9px 2px;border:0;border-bottom:1px solid var(--line);background:transparent;font-family:var(--sans);font-size:15px;font-weight:300;color:var(--ink);border-radius:0;margin-bottom:6px}
 .spq:focus{outline:0;border-bottom-color:var(--teal)}
-.spchips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}.spchips:empty{display:none}
+.spchips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 4px}.spchips:empty{display:none}.spprod:empty{display:none}.spprod .spprodq{margin:14px 0 8px}.fld.answered .spprodq:not(.answered)>label:after{content:none}
 .spchip{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:4px 10px 4px 12px;border:1px solid var(--line);border-radius:16px;font-family:var(--sans);font-size:13px;color:var(--ink2);background:var(--card)}
 .spchip button{-webkit-appearance:none;appearance:none;border:0;background:none;font:inherit;font-size:16px;line-height:1;color:var(--ink3);cursor:pointer;width:28px;height:28px;margin:-4px -8px -4px 0;border-radius:50%}
 .spchip button:hover{color:var(--ink)}
@@ -2675,7 +2675,7 @@ window.crSafe = function(s) {
 <div class="vcfld"><label for="vctop">{{sh.valuation.15}}</label><select id="vctop" required data-list="vctop"></select></div>
 <div class="vcfld"><label for="vcreg">{{sh.valuation.16}}</label><select id="vcreg" required data-list="vcreg"></select></div>
 <div class="vcfld"><label for="vcinv">{{sh.valuation.17}}</label><select id="vcinv" required data-list="vcinv"></select></div>
-<div class="vcfld vcwide vcpickw"><label>{{sh.valuation.18}}</label><div class="secpick" id="vcsec" data-secpick="1"></div></div>
+<div class="vcfld vcwide vcpickw"><label>{{sh.valuation.18}}</label><div class="secpick" id="vcsec" data-secpick="1" data-products="1"></div></div>
 </div>
 <p class="vcerr" id="vcerr1" role="alert" hidden></p>
 <div class="vcnav"><button class="vcbtn" type="submit">{{sh.valuation.19}}</button></div>
@@ -3084,6 +3084,8 @@ function fieldValues() {
   heard_via: v("how"),
   heard_via_detail: v("howd"),
   sector_ids: crSecIds("vert"),
+  sector_products: crProds("vert"),
+  products_text: crProdText("vert"),
   industry_ids: crIndIds("vert"),
   updates: function() {
    var c = document.getElementById("updates");
@@ -3754,6 +3756,8 @@ function hsFields(kind, d) {
   if (s === "Advisor" || s === "Lender") add("advisor_or_lender_type", d.kind);
   L.push([ "Industries", d.industry ], [ "Sectors", d.vertical ], [ "Heard via", d.heard_via, "heard_via" ], [ "Heard via detail", d.heard_via_detail, "heard_via_detail" ], [ "Sector updates", yn(d.updates) ]);
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
   add("cr_marketing_consent", tf(d.updates));
   if (own) {
@@ -3811,6 +3815,8 @@ function hsFields(kind, d) {
   }));
   add("criteria_on_file_consent", "true");
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
   add("cr_marketing_consent", tf(d.updates));
   note = d.message;
@@ -3827,6 +3833,8 @@ function hsFields(kind, d) {
   co("revenue_band", given(d.revenue_band));
   co("arr_band", given(d.arr_band));
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
   note = d.message;
  }
@@ -3834,12 +3842,16 @@ function hsFields(kind, d) {
   L.push([ "Role", d.role ], [ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Question", d.message ]);
   add("cr_contact_type", CT[d.role] || (d.role === "Buyer" ? "buyer" : d.role === "Lender" ? "lender" : ""));
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
  }
  if (kind === "Bad or broken deal report") {
   var R = [ [ "Company type", d.business_kind ], [ "Annual revenue at the time", d.revenue_band ], [ "Adjusted earnings at the time", d.earnings_band ], [ "Buyer", d.buyer_type ], [ "Advisor on the sale", d.adviser_type ], [ "When", d.year ], [ "How far it got", d.stage ], [ "Days under exclusivity", d.days_exclusive ], [ "Contributing factors", d.factors ], [ "What was not ready", d.not_ready ], [ "Other reason", d.other_reason ], [ "Quality of earnings report before the deal", d.qoe_had ], [ "Quality of earnings, when and by whom", d.qoe_by ], [ "Price or structure changed", d.price_changed ], [ "Where it stands today", d.outcome ], [ "Prepared before market", d.prepared ], [ "Entity type", d.entity_type ], [ "Real estate", d.real_estate ], [ "Contracts needing consent", d.consent_contracts ], [ "May contact", yn(d.contact_ok) ], [ "May share anonymously", yn(d.anonymous_use_ok) ] ];
   L.push([ "Industries", d.industry ], [ "Sectors", d.sector ], [ "Main reason", d.main_reason ]);
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
   L = L.concat(R);
   L.push([ "What I would do differently", d.differently ]);
@@ -3857,6 +3869,8 @@ function hsFields(kind, d) {
   }
   L.push([ "Company type", d.kind ], [ "Which brings in more revenue", d.lead ], [ "Sectors", d.sector ], [ "Heard via", d.heard_via, "heard_via" ], [ "Heard via detail", d.heard_via_detail, "heard_via_detail" ], [ "Revenue, trailing twelve months (USD)", isFinite(d.revenue_raw) ? d.revenue_raw : "" ], [ "Adjusted earnings, trailing twelve months (USD)", isFinite(d.earnings_raw) ? d.earnings_raw : "" ]);
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
   L = L.concat(V);
  }
@@ -3867,6 +3881,8 @@ function hsFields(kind, d) {
   co("revenue_band", given(d.revenue_band));
   co("arr_band", given(d.arr_band));
   add("website_sectors", d.sector_ids);
+  add("sector_products", d.sector_products);
+  L.push([ "Main product", d.products_text ]);
   add("website_industries", d.industry_ids);
  }
  L.forEach((function(r) {
@@ -4498,6 +4514,8 @@ function hsSubmit(kind, d, ok, fail) {
    kind: v("vckind"),
    sector: crSecs("vcsec"),
    sector_ids: crSecIds("vcsec"),
+   sector_products: crProds("vcsec"),
+   products_text: crProdText("vcsec"),
    industry: crInds("vcsec"),
    industry_ids: crIndIds("vcsec"),
    revenue: money(num("vcrev")),
@@ -5061,6 +5079,16 @@ window.crSecs = function(id) {
   var chips = document.createElement("div");
   chips.className = "spchips";
   el.appendChild(chips);
+  if (el.hasAttribute("data-products")) {
+   var pr = document.createElement("div");
+   pr.className = "spprod";
+   el.appendChild(pr);
+   el._prod = {};
+   var rs = document.getElementById(el.id === "vert" ? "seat" : el.id === "vcsec" ? "vcrole" : "");
+   if (rs) rs.addEventListener("change", (function() {
+    prods(el);
+   }));
+  }
   var gs = document.createElement("div");
   gs.className = "spgroups";
   el.appendChild(gs);
@@ -5118,6 +5146,7 @@ window.crSecs = function(id) {
     ot.value = "";
     q.value = "";
     search(el, "");
+    if (el._prod) el._prod = {};
     sync(el);
    }), 0);
   }));
@@ -5155,7 +5184,77 @@ window.crSecs = function(id) {
   if (ot && oc) ot.hidden = !oc.checked;
   var f = el.closest(".fld,.vcfld");
   if (f) f.classList.toggle("answered", checked(el).length > 0);
+  prods(el);
  }
+ function prodOn(el) {
+  var r = document.getElementById(el.id === "vert" ? "seat" : el.id === "vcsec" ? "vcrole" : "");
+  if (el.id === "vert") return !!r && r.value === "Seller";
+  if (el.id === "vcsec") return !r || r.value !== "Advisor to the owner";
+  return true;
+ }
+ function prodLists() {
+  return window.CRF && CRF.lists || {};
+ }
+ function prods(el) {
+  var pr = el.querySelector(".spprod");
+  if (!pr) return;
+  pr.innerHTML = "";
+  if (!prodOn(el)) return;
+  checked(el).forEach((function(c) {
+   var sid = c.getAttribute("data-sid"), opts = prodLists()["prod." + sid];
+   if (!opts || !opts.length) return;
+   var w = document.createElement("div");
+   w.className = "fld wide spprodq";
+   var lb = document.createElement("label");
+   lb.htmlFor = el.id + "_prod_" + sid;
+   lb.appendChild(document.createTextNode(CRM("picker.product", {
+    sector: c.value
+   }) + " "));
+   var o = document.createElement("b");
+   o.className = "opt";
+   o.textContent = CRM("picker.optional");
+   lb.appendChild(o);
+   var s = document.createElement("select");
+   s.id = el.id + "_prod_" + sid;
+   opts.forEach((function(p) {
+    var op = document.createElement("option");
+    op.value = p[0];
+    op.textContent = p[1];
+    s.appendChild(op);
+   }));
+   s.selectedIndex = Math.max(0, opts.findIndex((function(p, i) {
+    return i > 0 && el._prod[sid] === i;
+   })));
+   w.classList.toggle("answered", s.selectedIndex > 0);
+   s.addEventListener("change", (function(e) {
+    e.stopPropagation();
+    el._prod[sid] = s.selectedIndex;
+    w.classList.toggle("answered", s.selectedIndex > 0);
+   }));
+   w.appendChild(lb);
+   w.appendChild(s);
+   pr.appendChild(w);
+  }));
+ }
+ function prodPicks(id) {
+  var e = document.getElementById(id), out = [];
+  if (!e || !e._prod || !prodOn(e)) return out;
+  checked(e).forEach((function(c) {
+   var sid = c.getAttribute("data-sid"), opts = prodLists()["prod." + sid], i = e._prod[sid];
+   if (opts && i > 0 && opts[i]) out.push([ sid, c.value, opts[i][0], opts[i][1] ]);
+  }));
+  return out;
+ }
+ window.crProds = function(id) {
+  return prodPicks(id).map((function(p) {
+   return p[0] + "=" + p[2];
+  })).join(";");
+ };
+ window.crProdText = function(id) {
+  return prodPicks(id).map((function(p) {
+   return p[1] + ": " + p[3];
+  })).join("; ");
+ };
  function search(el, q) {
   q = (q || "").trim().toLowerCase();
   [].forEach.call(el.querySelectorAll(".spg[data-ind]"), (function(g) {
