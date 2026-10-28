@@ -2501,6 +2501,8 @@
   "picker.other": "Another sector, not listed",
   "picker.other_which": "Which sector",
   "picker.chosen": "{n} chosen",
+  "picker.product": "Your main product for {sector}",
+  "picker.optional": "Optional",
   "bb.no_min": "no minimum",
   "bb.no_max": "no maximum",
   "bb.to": "to",
@@ -2656,8 +2658,6 @@
   "sheet.start_in": "Open desks in your sectors",
   "sheet.start_near": "Open desks in the same industries",
   "sheet.start_none": "No desk is open in these sectors yet. Ask us which desks are planned for them.",
-  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market.",
-  "picker.product": "Your main product for {sector}",
-  "picker.optional": "Optional"
+  "sheet.start_note": "A desk is a sector already mapped: the owners known, the buyers named, the end market understood before anyone goes to market."
  }
 }
