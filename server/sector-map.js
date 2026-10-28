@@ -1,9 +1,7 @@
 // Website sector -> HubSpot firm taxonomy (Industry - Subsector, Industry - Segment, Primary Industry), approved by Shawnee
 // October 26, 2026 (claude/sector-to-hubspot-mapping-DRAFT-2026-10-26.md). The three field service sectors split out on
 // October 26 (pest control, roofing, fire and life safety) take the field service row. Owners: the company record gets these
-// values when every sector they chose agrees. Subsector is blank ("") for the six sectors whose companies sell more than one
-// kind of product (October 27, 2026): the site does not guess it, so a person sets it after the first call and no later form
-// overwrites it. Buyers: Target verticals takes the segments and Target industries the primary industries.
+// values when every sector they chose agrees. Buyers: Target verticals takes the segments and Target industries the primary industries.
 export const SECTOR_MAP = {
   "hc_billing_coding_and_claims": {"sub": "Revenue-cycle-management software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_denials_and_clearinghouse_workflow": {"sub": "Claims clearinghouse & EDI", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
@@ -11,16 +9,16 @@ export const SECTOR_MAP = {
   "hc_specialty_practice_management": {"sub": "Practice-management software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_dental_practice_software": {"sub": "Dental practice software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_home_health_and_hospice_software": {"sub": "Post-acute & home-care software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
-  "hc_behavioral_and_specialty_health": {"sub": "", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
-  "hc_pharmacy_dme_and_infusion": {"sub": "", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
+  "hc_behavioral_and_specialty_health": {"sub": "Electronic health records (EHR/EMR)", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
+  "hc_pharmacy_dme_and_infusion": {"sub": "Pharmacy management software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_aesthetics_and_med_spa": {"sub": "Practice-management software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
-  "hc_physical_therapy_and_rehab_software": {"sub": "", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
+  "hc_physical_therapy_and_rehab_software": {"sub": "Practice-management software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_long_term_care_and_senior_living_software": {"sub": "Post-acute & home-care software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_payment_integrity_software": {"sub": "Payer administration & claims software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
-  "hc_healthcare_staffing_and_scheduling_software": {"sub": "", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
+  "hc_healthcare_staffing_and_scheduling_software": {"sub": "Hospital & clinical operations software", "seg": "Healthcare IT (HCIT)", "ind": "Healthcare"},
   "hc_veterinary_practice_software": {"sub": "Veterinary practice software", "seg": "Animal-health technology", "ind": "Animal Health & Pet Care"},
   "fleet_dispatch_tms_and_freight_audit": {"sub": "Transportation-management systems", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
-  "fleet_freight_brokerage_and_visibility_software": {"sub": "", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
+  "fleet_freight_brokerage_and_visibility_software": {"sub": "Supply-chain visibility software", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
   "fleet_fleet_compliance_and_telematics": {"sub": "Fleet telematics & management software", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
   "fleet_warehouse_management_for_3pls": {"sub": "Warehouse-management systems", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
   "fleet_customs_and_trade_compliance_software": {"sub": "Other logistics & transportation technology", "seg": "Logistics & transportation technology", "ind": "Transportation & Logistics"},
@@ -49,7 +47,7 @@ export const SECTOR_MAP = {
   "mfg_environment_health_and_safety_software": {"sub": "Other industrial technology", "seg": "Industrial technology", "ind": "Industrial Manufacturing & Automation"},
   "hosp_restaurant_pos_and_back_office": {"sub": "Restaurant-management software", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
   "hosp_hotel_property_management_and_revenue_tools": {"sub": "Hospitality property-management software", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
-  "hosp_event_and_venue_management_software": {"sub": "", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
+  "hosp_event_and_venue_management_software": {"sub": "Booking & reservation software", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
   "hosp_fitness_and_gym_management_software": {"sub": "Other travel & hospitality technology", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
   "hosp_salon_spa_and_wellness_software": {"sub": "Booking & reservation software", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
   "hosp_ticketing_and_attractions_software": {"sub": "Ticketing & experience software", "seg": "Travel & hospitality technology", "ind": "Hospitality, Travel & Leisure"},
