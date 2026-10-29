@@ -19,7 +19,7 @@
     "backFields": [
       { "key": "about", "label": "Capital Row", "value": "M&A advisory for vertical software powering the working economy." },
       { "key": "card", "label": "My card", "value": "https://thecapitalrow.com/shawnee?src=wallet" },
-      { "key": "book", "label": "Book a call", "value": "https://calendly.com/caprow/confidential-business-value-consultation" },
+      { "key": "book", "label": "Book a call", "value": "https://meetings-na2.hubspot.com/capitalrow/introductory-conversation" },
       { "key": "linkedin", "label": "LinkedIn", "value": "https://www.linkedin.com/in/smmercier" }
     ]
   },

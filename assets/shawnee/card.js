@@ -13,7 +13,7 @@
   var s0 = (q.src || '').toLowerCase(); s0 = ALIAS[s0] || s0; var SRC = CHANNELS[s0] ? s0 : 'direct';
   var EVENT = (q.at || '').replace(/[^\w &'.,()\-\/]/g, '').trim().slice(0, 80);
   // Links tagged with an ACG event (?at=acg-...) book the ACG follow-up call instead of the general meeting.
-  (function () { var b = document.getElementById('book'); if (b && /acg/i.test(EVENT)) b.href = 'https://calendly.com/caprow/acg-socal-summit-follow-up-with-shawnee'; })();
+  (function () { var b = document.getElementById('book'); if (b && /acg/i.test(EVENT)) b.href = 'https://meetings-na2.hubspot.com/capitalrow/introductory-conversation'; })();
   var withEvent = function (src) { return BASE + '?src=' + src + (EVENT ? '&at=' + encodeURIComponent(EVENT) : ''); };
 
   // call and text
