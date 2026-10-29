@@ -36,6 +36,11 @@
      "key": "pgnav.6",
      "kind": "Link",
      "text": "Two ways to join"
+    },
+    {
+     "key": "pgnav.7",
+     "kind": "Link",
+     "text": "Our vision"
     }
    ]
   },
@@ -77,6 +82,72 @@
      "key": "inner.7",
      "kind": "Text",
      "text": "Your judgment, our infrastructure"
+    }
+   ]
+  },
+  {
+   "id": "vision",
+   "name": "Our vision",
+   "items": [
+    {
+     "key": "vision.1",
+     "kind": "Text",
+     "text": "Our vision"
+    },
+    {
+     "key": "vision.2",
+     "kind": "Section headline",
+     "text": "The leading deal professionals, <em>equipped to do their best work.</em>"
+    },
+    {
+     "key": "vision.3",
+     "kind": "Paragraph",
+     "text": "Capital Row is building a platform for the professionals this work depends on: advisors who know a vertical, executives who have run these businesses, and senior leaders ready for something new. We bring the intelligence, playbooks and workflows, and we are building deterministic quality-of-earnings tools, so you can do your best work under a brand of your own."
+    },
+    {
+     "key": "vision.4",
+     "kind": "Text",
+     "text": "01"
+    },
+    {
+     "key": "vision.5",
+     "kind": "Text",
+     "text": "People deliver the last mile."
+    },
+    {
+     "key": "vision.6",
+     "kind": "Paragraph",
+     "text": "Tools do the research and the arithmetic. An experienced advisor makes every recommendation and answers for it, with transparency, integrity and honesty."
+    },
+    {
+     "key": "vision.7",
+     "kind": "Text",
+     "text": "02"
+    },
+    {
+     "key": "vision.8",
+     "kind": "Text",
+     "text": "No promises the numbers cannot keep."
+    },
+    {
+     "key": "vision.9",
+     "kind": "Paragraph",
+     "text": "We do not promise an owner a buyer, a price or a single offer to win a signed agreement. Owners hear what the numbers support."
+    },
+    {
+     "key": "vision.10",
+     "kind": "Text",
+     "text": "03"
+    },
+    {
+     "key": "vision.11",
+     "kind": "Text",
+     "text": "Built to last, and to pass on."
+    },
+    {
+     "key": "vision.12",
+     "kind": "Paragraph",
+     "text": "Buy-side relationships that recur, a brand you can grow, a path to partnership for leaders who build the firm with us, and a next generation trained by the people who came before."
     }
    ]
   },

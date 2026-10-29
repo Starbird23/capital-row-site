@@ -1637,6 +1637,97 @@
    "cls": "",
    "tags": [],
    "section": "pgnav"
+  },
+  "pgnav.7": {
+   "kind": "Link",
+   "tag": "",
+   "cls": "",
+   "tags": [],
+   "section": "pgnav"
+  },
+  "vision.1": {
+   "kind": "Text",
+   "tag": "span",
+   "cls": "lab big",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.2": {
+   "kind": "Section headline",
+   "tag": "h2",
+   "cls": "cen",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.3": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "sd cen",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.4": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.7": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.10": {
+   "kind": "Text",
+   "tag": "b",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.5": {
+   "kind": "Text",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.8": {
+   "kind": "Text",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.11": {
+   "kind": "Text",
+   "tag": "strong",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.6": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.9": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
+  },
+  "vision.12": {
+   "kind": "Paragraph",
+   "tag": "p",
+   "cls": "",
+   "tags": [],
+   "section": "vision"
   }
  }
 }
