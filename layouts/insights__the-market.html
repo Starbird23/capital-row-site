@@ -1598,6 +1598,7 @@ body.vcopen .rt,body.vcopen .snt,body.vcopen .sn{display:none!important}
  .ckb{width:100%}.ckb button{flex:1 1 0}
 }
 body.ckopen .rt,body.ckopen .snt,body.ckopen .sn{bottom:calc(var(--ckh,0px) + 14px)}
+body.ckand .rt,body.ckand .snt{visibility:hidden;pointer-events:none}
 .flinks .ckset{background:none;border:0;padding:0;font:inherit;font-size:12.5px;color:var(--ink2);cursor:pointer;text-align:left}
 .flinks .ckset:hover{color:var(--teal)}
 .flinks .ckset:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
@@ -4952,12 +4953,14 @@ window.crSecs = function(id) {
   if (!ck) return;
   ck.hidden = false;
   document.body.classList.add("ckopen");
+  // on Android phones the floating buttons stay out of the way until the visitor answers the cookie notice
+  if (/Android/i.test(navigator.userAgent)) document.body.classList.add("ckand");
   size();
  }
  function hide() {
   if (!ck) return;
   ck.hidden = true;
-  document.body.classList.remove("ckopen");
+  document.body.classList.remove("ckopen", "ckand");
   size();
  }
  function load() {
