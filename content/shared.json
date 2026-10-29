@@ -311,6 +311,16 @@
     "key": "sh.mast.57",
     "kind": "Link",
     "text": "Join Capital Row"
+   },
+   {
+    "key": "sh.mast.58",
+    "kind": "Link",
+    "text": "Get your Buyer Map"
+   },
+   {
+    "key": "sh.mast.59",
+    "kind": "Link",
+    "text": "What buyers ask first"
    }
   ]
  },

@@ -53,6 +53,57 @@ async function loadContent() {
   const shared = {}; for (const b of (result.shared && result.shared.blocks) || []) shared[b.id] = b;
   return { pages, shared, forms: result.forms ? formsFromSanity(result.forms) : null };
 }
+// Structured data (schema.org JSON-LD), written from what each built page already shows: its address, title,
+// description, headline and the questions in its FAQ. Nothing is added that the page does not say.
+// Pages marked noindex and pages without a canonical address get none.
+const SITE = 'https://thecapitalrow.com/', ORG = SITE + '#org', WEBSITE = SITE + '#website', PERSON = SITE + 'shawnee/#person';
+const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', nbsp: ' ', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', middot: '·', ndash: '–', mdash: '—', hellip: '…', apos: "'" };
+function plain(s) {
+  return s.replace(/<(script|style)[\s\S]*?<\/\1>/gi, '').replace(/<[^>]+>/g, ' ')
+    .replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10)) : (ENT[e.toLowerCase()] ?? m))
+    .replace(/\s+/g, ' ').replace(/\s+([.,;:?!])/g, '$1').trim();
+}
+const SECTION = { sellers: 'Sellers', buyers: 'Buyers', insights: 'Insights' };   // folders that have a page of their own
+function jsonLd(html) {
+  if (/<meta name="robots" content="[^"]*noindex/i.test(html)) return html;
+  const canon = (html.match(/<link rel="canonical" href="([^"]+)"/) || [])[1]; if (!canon || !canon.startsWith(SITE)) return html;
+  const title = plain((html.match(/<title>([\s\S]*?)<\/title>/) || [, ''])[1]).replace(/\s*\|\s*Capital Row$/, '');
+  const desc = plain((html.match(/<meta name="description" content="([^"]*)"/) || [, ''])[1]);
+  const image = (html.match(/<meta property="og:image" content="([^"]+)"/) || [])[1];
+  const h1 = plain((html.slice(html.indexOf('<body')).match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [, ''])[1]);
+  const segs = canon.slice(SITE.length).split('/').filter(Boolean);
+  const isHome = !segs.length, hasOrg = html.includes('"@id":"' + ORG + '"'), hasPerson = html.includes('"@id":"' + PERSON + '"');
+  const faq = [];
+  for (const blk of html.matchAll(/<div class="faq">([\s\S]*?)<\/div>/g))
+    for (const d of blk[1].matchAll(/<details[^>]*>\s*<summary[^>]*>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g)) {
+      const q = plain(d[1]), a = plain(d[2]); if (q && a) faq.push({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } });
+    }
+  const graph = [];
+  if (isHome) {
+    graph.push({ '@type': 'Organization', '@id': ORG, name: 'Capital Row', url: SITE, logo: SITE + 'favicon.svg', email: 'team@thecapitalrow.com', telephone: '+1-949-682-1223',
+      sameAs: ['https://www.linkedin.com/company/thecapitalrow'], founder: { '@type': 'Person', '@id': PERSON, name: 'Shawnee Mercier', url: SITE + 'shawnee/' } });
+    graph.push({ '@type': 'WebSite', '@id': WEBSITE, url: SITE, name: 'Capital Row', publisher: { '@id': ORG }, inLanguage: 'en' });
+  } else if (!hasOrg) graph.push({ '@type': 'Organization', '@id': ORG, name: 'Capital Row', url: SITE });
+  const type = faq.length ? 'FAQPage' : segs.length === 1 && segs[0] === 'about' ? 'AboutPage' : segs.length === 1 && segs[0] === 'insights' ? 'CollectionPage' : segs.length === 1 && segs[0] === 'shawnee' ? 'ProfilePage' : 'WebPage';
+  const page = { '@type': type, '@id': canon + '#webpage', url: canon, name: title, isPartOf: { '@id': WEBSITE }, publisher: { '@id': ORG }, inLanguage: 'en' };
+  if (desc) page.description = desc;
+  if (type === 'ProfilePage' && hasPerson) page.mainEntity = { '@id': PERSON };
+  if (faq.length) page.mainEntity = faq;
+  if (!isHome) {
+    const items = [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE }];
+    if (segs.length > 1 && SECTION[segs[0]]) items.push({ '@type': 'ListItem', position: 2, name: SECTION[segs[0]], item: SITE + segs[0] + '/' });
+    items.push({ '@type': 'ListItem', position: items.length + 1, name: title, item: canon });
+    page.breadcrumb = { '@id': canon + '#breadcrumb' };
+    graph.push(page, { '@type': 'BreadcrumbList', '@id': canon + '#breadcrumb', itemListElement: items });
+  } else graph.push(page);
+  if (segs.length === 2 && (segs[0] === 'insights' || segs[0] === 'guides') && h1) {
+    const art = { '@type': 'Article', '@id': canon + '#article', headline: h1, mainEntityOfPage: { '@id': canon + '#webpage' }, author: { '@id': ORG }, publisher: { '@id': ORG }, inLanguage: 'en' };
+    if (desc) art.description = desc; if (image) art.image = image;
+    graph.push(art);
+  }
+  const tag = '<script type="application/ld+json">' + JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }).replace(/</g, '\\u003c') + '</script>\n';
+  return html.replace('</head>', tag + '</head>');
+}
 (async () => {
   const { pages, shared, forms } = await loadContent();
   const formsJson = forms ? JSON.stringify(forms).replace(/</g, '\\u003c') : null;
@@ -80,11 +131,13 @@ async function loadContent() {
       for (const mm of html.matchAll(/data-(?:ck)?list="([^"@]+)"/g)) if (!(mm[1] in forms.lists)) missing.push(stem + ':list:' + mm[1]);
     }
     const rel = stem === 'home' ? 'index.html' : stem.replace(/__/g, '/') + '/index.html';
+    html = jsonLd(html);
     const o = path.join(OUT, rel); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.writeFileSync(o, html); n++;
   }
   if (ASSETS && ASSETS !== '-') {
     (function copy(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) copy(p); else if (!e.name.endsWith('.html') || e.name === '404.html' || path.relative(ASSETS, p).includes(path.sep)) {  // standalone pages live in their own folder (e.g. dealbreaker-scan/index.html)
- const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true }); fs.copyFileSync(p, o); } } })(ASSETS);
+ const o = path.join(OUT, path.relative(ASSETS, p)); fs.mkdirSync(path.dirname(o), { recursive: true });
+ if (e.name.endsWith('.html')) fs.writeFileSync(o, jsonLd(fs.readFileSync(p, 'utf8'))); else fs.copyFileSync(p, o); } } })(ASSETS);
   }
   if (forms) fs.writeFileSync(path.join(OUT, 'forms-config.json'), JSON.stringify(forms));   // read by the form server (functions/) to check choices
   missing = [...new Set(missing)];
