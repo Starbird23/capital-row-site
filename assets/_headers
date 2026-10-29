@@ -17,6 +17,10 @@
   Cache-Control: public, max-age=2592000
 /hero-loop.mp4
   Cache-Control: public, max-age=2592000
+/hero-loop-phone.webm
+  Cache-Control: public, max-age=2592000
+/hero-loop-phone.mp4
+  Cache-Control: public, max-age=2592000
 /capital-row-social-card.jpg
   Cache-Control: public, max-age=2592000
 /shawnee/shawnee-mercier.vcf

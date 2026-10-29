@@ -2276,8 +2276,8 @@ window.crSafe = function(s) {
 <header>
 <canvas id="hbg" aria-hidden="true"></canvas>
 <div class="hvid" aria-hidden="true"><video id="hv" muted loop playsinline preload="none" poster="poster.webp">
-<source data-src="hero-loop.webm" type="video/webm">
-<source data-src="hero-loop.mp4" type="video/mp4">
+<source data-src="hero-loop.webm" data-phone="hero-loop-phone.webm" type="video/webm">
+<source data-src="hero-loop.mp4" data-phone="hero-loop-phone.mp4" type="video/mp4">
 </video></div>
 <div class="wrap hin">
 <div class="kick"><span><i>{{header.1}}</i><i>{{header.2}}</i><i>{{header.3}}</i></span></div>
@@ -3733,13 +3733,29 @@ if (cv && !window.matchMedia("(prefers-reduced-motion:reduce)").matches) {
  var saver = navigator.connection && navigator.connection.saveData;
  if (window.matchMedia("(prefers-reduced-motion:reduce)").matches || saver) return;
  v.addEventListener("error", off);
- function start() {
+ // a phone shows only the middle of the frame (the video covers a tall box), so it gets a cut of that middle: same picture and sharpness, about a third of the download
+ function tall() {
+  var r = v.getBoundingClientRect();
+  return r.width > 0 && r.width <= 600 && r.width / Math.max(r.height, 1) <= .67;
+ }
+ function load(phone) {
   var ss = v.querySelectorAll("source[data-src]");
   [].forEach.call(ss, (function(s) {
-   s.src = s.getAttribute("data-src");
+   s.src = (phone && s.getAttribute("data-phone")) || s.getAttribute("data-src");
   }));
   if (ss.length) ss[ss.length - 1].addEventListener("error", off);
   v.load();
+ }
+ function start() {
+  var phone = tall();
+  load(phone);
+  if (phone) window.addEventListener("resize", (function wide() {
+   if (tall()) return;
+   window.removeEventListener("resize", wide);
+   load(false);
+   var p2 = v.play && v.play();
+   if (p2 && p2.catch) p2.catch((function() {}));
+  }));
   var p = v.play && v.play();
   if (p && p.catch) p.catch((function() {}));
   setTimeout((function() {
