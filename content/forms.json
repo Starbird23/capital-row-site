@@ -2463,8 +2463,16 @@
     "Pre-revenue"
    ],
    [
-    "Under $5M",
-    "Under $5M"
+    "Under $1M",
+    "Under $1M"
+   ],
+   [
+    "$1M-$3M",
+    "$1M to $3M"
+   ],
+   [
+    "$3M-$5M",
+    "$3M to $5M"
    ],
    [
     "$5M-$10M",
@@ -2501,8 +2509,16 @@
     "Pre-revenue"
    ],
    [
-    "Under $5M",
-    "Under $5M ARR"
+    "Under $1M",
+    "Under $1M ARR"
+   ],
+   [
+    "$1M–$3M",
+    "$1M to $3M ARR"
+   ],
+   [
+    "$3M–$5M",
+    "$3M to $5M ARR"
    ],
    [
     "$5M–$10M",
