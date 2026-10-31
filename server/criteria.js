@@ -206,7 +206,7 @@ function shell(m, inner) {
 <meta property="og:title" content="${esc(m.og)}">
 <meta property="og:description" content="${esc(m.desc)}">
 <meta property="og:url" content="${esc(m.url)}">
-<meta property="og:image" content="${SITE}/capital-row-social-card.jpg">
+<meta property="og:image" content="${SITE}/capital-row-social-card.jpg?v=20261030">
 <meta name="theme-color" content="#0C3234">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/cormorant-garamond-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
